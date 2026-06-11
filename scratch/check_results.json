@@ -1,0 +1,353 @@
+[
+  {
+    "path": "",
+    "type": "static",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  },
+  {
+    "path": "about",
+    "type": "static",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  },
+  {
+    "path": "knowledge",
+    "type": "static",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  },
+  {
+    "path": "blogs",
+    "type": "static",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  },
+  {
+    "path": "vegan",
+    "type": "static",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  },
+  {
+    "path": "recipes",
+    "type": "static",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  },
+  {
+    "path": "about",
+    "type": "static",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  },
+  {
+    "path": "team",
+    "type": "static",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  },
+  {
+    "path": "history",
+    "type": "static",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  },
+  {
+    "path": "testimonials",
+    "type": "static",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  },
+  {
+    "path": "contact",
+    "type": "static",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  },
+  {
+    "path": "maintenance",
+    "type": "static",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  },
+  {
+    "path": "tools",
+    "type": "static",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  },
+  {
+    "path": "connect",
+    "type": "static",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  },
+  {
+    "path": "privacy",
+    "type": "static",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  },
+  {
+    "path": "terms",
+    "type": "static",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  },
+  {
+    "path": "editorial-policy",
+    "type": "static",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  },
+  {
+    "path": "evidence-approach",
+    "type": "static",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  },
+  {
+    "path": "clinics",
+    "type": "static",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  },
+  {
+    "path": "sitemap",
+    "type": "static",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  },
+  {
+    "path": "article/circadian-eating",
+    "type": "article",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  },
+  {
+    "path": "article/gut-brain-axis",
+    "type": "article",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  },
+  {
+    "path": "article/plant-protein-myth",
+    "type": "article",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  },
+  {
+    "path": "recipe/golden-turmeric-quinoa",
+    "type": "recipe",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  },
+  {
+    "path": "recipe/avocado-lentil-tartare",
+    "type": "recipe",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  },
+  {
+    "path": "recipe/green-vitality-soup",
+    "type": "recipe",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  },
+  {
+    "path": "herb/turmeric",
+    "type": "herb",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "IconLeaf SVG Found"
+  },
+  {
+    "path": "herb/ashwagandha",
+    "type": "herb",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "IconLeaf SVG Found"
+  },
+  {
+    "path": "herb/cinnamon",
+    "type": "herb",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "IconLeaf SVG Found"
+  },
+  {
+    "path": "condition/masld",
+    "type": "condition",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "IconFlask SVG Found"
+  },
+  {
+    "path": "condition/insulin-resistance",
+    "type": "condition",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "IconFlask SVG Found"
+  },
+  {
+    "path": "condition/circadian-dysregulation",
+    "type": "condition",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "IconFlask SVG Found"
+  },
+  {
+    "path": "topic/diabetes-reversal",
+    "type": "topic",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  },
+  {
+    "path": "topic/pcos-balance",
+    "type": "topic",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  },
+  {
+    "path": "topic/fatty-liver-reversal",
+    "type": "topic",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  },
+  {
+    "path": "clinic/united-states/new-york-city",
+    "type": "clinic",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  },
+  {
+    "path": "clinic/united-kingdom/london",
+    "type": "clinic",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  },
+  {
+    "path": "plans/metabolic-mastery",
+    "type": "plan",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  },
+  {
+    "path": "plans/cellular-resurrection",
+    "type": "plan",
+    "ok": true,
+    "isBlank": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "iconsCheck": "N/A"
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "name": "nutritioncolours---food-as-medicine",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:static": "vite build && node scratch/prerender.js && python3 scratch/build_sitemap.py",
+    "prerender": "node scratch/prerender.js",
+    "sitemap": "python3 scratch/build_sitemap.py",
+    "lint": "eslint . --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@google/genai": "^1.39.0",
+    "d3": "7",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^1.14.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.0",
+    "@types/d3": "^7.4.3",
+    "@types/node": "^22.14.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@typescript-eslint/eslint-plugin": "^8.56.1",
+    "@typescript-eslint/parser": "^8.56.1",
+    "@vitejs/plugin-react": "^5.0.0",
+    "eslint": "^9.39.3",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "globals": "^17.4.0",
+    "puppeteer-core": "^25.1.0",
+    "tailwindcss": "^4.3.0",
+    "typescript": "~5.8.2",
+    "typescript-eslint": "^8.56.1",
+    "vite": "^6.2.0"
+  }
+}

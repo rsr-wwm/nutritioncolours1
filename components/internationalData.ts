@@ -1,0 +1,13812 @@
+// Automatically generated international directory locations data with rich demographics
+export interface InternationalCountryNode {
+  country: string;
+  city: string;
+  town: string;
+  pincode: string;
+  zone: string;
+  id: string;
+  population: number;
+  mobileUsers: number;
+  internetUsers: number;
+  genderCounts: { male: number; female: number };
+  healthIssues: string[];
+  commonStaples: string;
+}
+
+export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
+  {
+    "country": "Bahrain",
+    "city": "Manama",
+    "town": "Manama",
+    "pincode": "302",
+    "zone": "Middle East",
+    "id": "bahrain",
+    "population": 376975,
+    "mobileUsers": 289077,
+    "internetUsers": 274623,
+    "genderCounts": {
+      "male": 196518,
+      "female": 180457
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Dyslipidemia"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "town": "Riyadh",
+    "pincode": "11564",
+    "zone": "Middle East",
+    "id": "saudi-arabia",
+    "population": 2417375,
+    "mobileUsers": 1911483,
+    "internetUsers": 1874620,
+    "genderCounts": {
+      "male": 1166167,
+      "female": 1251208
+    },
+    "healthIssues": [
+      "Hypertension",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "United Arab Emirates",
+    "city": "Abu Dhabi",
+    "town": "Abu Dhabi",
+    "pincode": "3838",
+    "zone": "Middle East",
+    "id": "united-arab-emirates",
+    "population": 435550,
+    "mobileUsers": 333225,
+    "internetUsers": 316563,
+    "genderCounts": {
+      "male": 219965,
+      "female": 215585
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Kuwait",
+    "city": "Kuwait City",
+    "town": "Kuwait City",
+    "pincode": "13001",
+    "zone": "Middle East",
+    "id": "kuwait",
+    "population": 157827,
+    "mobileUsers": 113572,
+    "internetUsers": 108088,
+    "genderCounts": {
+      "male": 82848,
+      "female": 74979
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Qatar",
+    "city": "Doha",
+    "town": "Doha",
+    "pincode": "73",
+    "zone": "Middle East",
+    "id": "qatar",
+    "population": 902359,
+    "mobileUsers": 674477,
+    "internetUsers": 631617,
+    "genderCounts": {
+      "male": 459698,
+      "female": 442661
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Oman",
+    "city": "Muscat",
+    "town": "Muscat",
+    "pincode": "100",
+    "zone": "Middle East",
+    "id": "oman",
+    "population": 117833,
+    "mobileUsers": 98940,
+    "internetUsers": 91415,
+    "genderCounts": {
+      "male": 60779,
+      "female": 57054
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Jordan",
+    "city": "Amman",
+    "town": "Amman",
+    "pincode": "11110",
+    "zone": "Middle East",
+    "id": "jordan",
+    "population": 731444,
+    "mobileUsers": 660554,
+    "internetUsers": 539663,
+    "genderCounts": {
+      "male": 369062,
+      "female": 362382
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Dyslipidemia",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Lebanon",
+    "city": "Beirut",
+    "town": "Beirut",
+    "pincode": "1107",
+    "zone": "Middle East",
+    "id": "lebanon",
+    "population": 538160,
+    "mobileUsers": 378761,
+    "internetUsers": 359822,
+    "genderCounts": {
+      "male": 269348,
+      "female": 268812
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Hypertension",
+      "PCOD/PCOS",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Iraq",
+    "city": "Baghdad",
+    "town": "Baghdad",
+    "pincode": "10011",
+    "zone": "Middle East",
+    "id": "iraq",
+    "population": 367448,
+    "mobileUsers": 329351,
+    "internetUsers": 272064,
+    "genderCounts": {
+      "male": 185708,
+      "female": 181740
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Iran",
+    "city": "Tehran",
+    "town": "Tehran",
+    "pincode": "11369",
+    "zone": "Middle East",
+    "id": "iran",
+    "population": 228891,
+    "mobileUsers": 163949,
+    "internetUsers": 127239,
+    "genderCounts": {
+      "male": 119843,
+      "female": 109048
+    },
+    "healthIssues": [
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Palestine",
+    "city": "East Jerusalem",
+    "town": "East Jerusalem",
+    "pincode": "91190",
+    "zone": "Middle East",
+    "id": "palestine",
+    "population": 549414,
+    "mobileUsers": 432684,
+    "internetUsers": 391255,
+    "genderCounts": {
+      "male": 264933,
+      "female": 284481
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Yemen",
+    "city": "Sanaa",
+    "town": "Sanaa",
+    "pincode": "123",
+    "zone": "Middle East",
+    "id": "yemen",
+    "population": 75284,
+    "mobileUsers": 59969,
+    "internetUsers": 56970,
+    "genderCounts": {
+      "male": 36849,
+      "female": 38435
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Egypt",
+    "city": "Cairo",
+    "town": "Cairo",
+    "pincode": "11511",
+    "zone": "Middle East",
+    "id": "egypt",
+    "population": 3371985,
+    "mobileUsers": 2752940,
+    "internetUsers": 1988089,
+    "genderCounts": {
+      "male": 1771695,
+      "female": 1600290
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Libya",
+    "city": "Tripoli",
+    "town": "Tripoli",
+    "pincode": "123",
+    "zone": "Middle East",
+    "id": "libya",
+    "population": 432192,
+    "mobileUsers": 306912,
+    "internetUsers": 270042,
+    "genderCounts": {
+      "male": 218605,
+      "female": 213587
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Algeria",
+    "city": "Algiers",
+    "town": "Algiers",
+    "pincode": "16000",
+    "zone": "Middle East",
+    "id": "algeria",
+    "population": 184018,
+    "mobileUsers": 133764,
+    "internetUsers": 131841,
+    "genderCounts": {
+      "male": 96466,
+      "female": 87552
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Dyslipidemia",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Morocco",
+    "city": "Rabat",
+    "town": "Rabat",
+    "pincode": "10000",
+    "zone": "Middle East",
+    "id": "morocco",
+    "population": 538827,
+    "mobileUsers": 484938,
+    "internetUsers": 339653,
+    "genderCounts": {
+      "male": 274055,
+      "female": 264772
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Tunisia",
+    "city": "Tunis",
+    "town": "Tunis",
+    "pincode": "1000",
+    "zone": "Middle East",
+    "id": "tunisia",
+    "population": 579341,
+    "mobileUsers": 461053,
+    "internetUsers": 393559,
+    "genderCounts": {
+      "male": 285679,
+      "female": 293662
+    },
+    "healthIssues": [
+      "Obesity",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "United States",
+    "city": "Washington D.C.",
+    "town": "Washington D.C.",
+    "pincode": "20001",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 268072,
+    "mobileUsers": 237566,
+    "internetUsers": 234220,
+    "genderCounts": {
+      "male": 137692,
+      "female": 130380
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Canada",
+    "city": "Ottawa",
+    "town": "Ottawa",
+    "pincode": "K1P 1A1",
+    "zone": "North America & Western Europe",
+    "id": "canada",
+    "population": 913316,
+    "mobileUsers": 827018,
+    "internetUsers": 618606,
+    "genderCounts": {
+      "male": 482563,
+      "female": 430753
+    },
+    "healthIssues": [
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "United Kingdom",
+    "city": "London",
+    "town": "London",
+    "pincode": "SW1A 1AA",
+    "zone": "North America & Western Europe",
+    "id": "united-kingdom",
+    "population": 6182382,
+    "mobileUsers": 5296012,
+    "internetUsers": 4768500,
+    "genderCounts": {
+      "male": 3000163,
+      "female": 3182219
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Ireland",
+    "city": "Dublin",
+    "town": "Dublin",
+    "pincode": "D02 H959",
+    "zone": "North America & Western Europe",
+    "id": "ireland",
+    "population": 321767,
+    "mobileUsers": 255028,
+    "internetUsers": 250561,
+    "genderCounts": {
+      "male": 155123,
+      "female": 166644
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Dyslipidemia"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Germany",
+    "city": "Berlin",
+    "town": "Berlin",
+    "pincode": "10115",
+    "zone": "North America & Western Europe",
+    "id": "germany",
+    "population": 731341,
+    "mobileUsers": 545477,
+    "internetUsers": 518203,
+    "genderCounts": {
+      "male": 359259,
+      "female": 372082
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "Dyslipidemia"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "France",
+    "city": "Paris",
+    "town": "Paris",
+    "pincode": "75001",
+    "zone": "North America & Western Europe",
+    "id": "france",
+    "population": 14149297,
+    "mobileUsers": 12813266,
+    "internetUsers": 11979792,
+    "genderCounts": {
+      "male": 7266364,
+      "female": 6882933
+    },
+    "healthIssues": [
+      "Obesity",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Italy",
+    "city": "Rome",
+    "town": "Rome",
+    "pincode": "00184",
+    "zone": "North America & Western Europe",
+    "id": "italy",
+    "population": 3583987,
+    "mobileUsers": 2514961,
+    "internetUsers": 2379061,
+    "genderCounts": {
+      "male": 1826714,
+      "female": 1757273
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Hypertension",
+      "Dyslipidemia",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Belgium",
+    "city": "Brussels",
+    "town": "Brussels",
+    "pincode": "1000",
+    "zone": "North America & Western Europe",
+    "id": "belgium",
+    "population": 547202,
+    "mobileUsers": 410416,
+    "internetUsers": 389895,
+    "genderCounts": {
+      "male": 284077,
+      "female": 263125
+    },
+    "healthIssues": [
+      "Obesity",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "town": "Amsterdam",
+    "pincode": "1012 JS",
+    "zone": "North America & Western Europe",
+    "id": "netherlands",
+    "population": 672616,
+    "mobileUsers": 594685,
+    "internetUsers": 544331,
+    "genderCounts": {
+      "male": 337449,
+      "female": 335167
+    },
+    "healthIssues": [
+      "Obesity",
+      "Insulin Resistance",
+      "Dyslipidemia"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Spain",
+    "city": "Madrid",
+    "town": "Madrid",
+    "pincode": "28001",
+    "zone": "North America & Western Europe",
+    "id": "spain",
+    "population": 4159975,
+    "mobileUsers": 2965702,
+    "internetUsers": 2507838,
+    "genderCounts": {
+      "male": 2105034,
+      "female": 2054941
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Portugal",
+    "city": "Lisbon",
+    "town": "Lisbon",
+    "pincode": "1000-001",
+    "zone": "North America & Western Europe",
+    "id": "portugal",
+    "population": 582451,
+    "mobileUsers": 432363,
+    "internetUsers": 362137,
+    "genderCounts": {
+      "male": 293231,
+      "female": 289220
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Switzerland",
+    "city": "Bern",
+    "town": "Bern",
+    "pincode": "3000",
+    "zone": "North America & Western Europe",
+    "id": "switzerland",
+    "population": 296793,
+    "mobileUsers": 252622,
+    "internetUsers": 219568,
+    "genderCounts": {
+      "male": 153079,
+      "female": 143714
+    },
+    "healthIssues": [
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Austria",
+    "city": "Vienna",
+    "town": "Vienna",
+    "pincode": "1010",
+    "zone": "North America & Western Europe",
+    "id": "austria",
+    "population": 806934,
+    "mobileUsers": 587560,
+    "internetUsers": 511628,
+    "genderCounts": {
+      "male": 408478,
+      "female": 398456
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Sweden",
+    "city": "Stockholm",
+    "town": "Stockholm",
+    "pincode": "111 20",
+    "zone": "North America & Western Europe",
+    "id": "sweden",
+    "population": 433160,
+    "mobileUsers": 377386,
+    "internetUsers": 330856,
+    "genderCounts": {
+      "male": 219240,
+      "female": 213920
+    },
+    "healthIssues": [
+      "Hypertension",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Norway",
+    "city": "Oslo",
+    "town": "Oslo",
+    "pincode": "0001",
+    "zone": "North America & Western Europe",
+    "id": "norway",
+    "population": 705354,
+    "mobileUsers": 584690,
+    "internetUsers": 440600,
+    "genderCounts": {
+      "male": 346048,
+      "female": 359306
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Dyslipidemia"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Denmark",
+    "city": "Copenhagen",
+    "town": "Copenhagen",
+    "pincode": "1000",
+    "zone": "North America & Western Europe",
+    "id": "denmark",
+    "population": 438333,
+    "mobileUsers": 379786,
+    "internetUsers": 298059,
+    "genderCounts": {
+      "male": 230675,
+      "female": 207658
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Dyslipidemia"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Finland",
+    "city": "Helsinki",
+    "town": "Helsinki",
+    "pincode": "00100",
+    "zone": "North America & Western Europe",
+    "id": "finland",
+    "population": 530996,
+    "mobileUsers": 422074,
+    "internetUsers": 376478,
+    "genderCounts": {
+      "male": 276824,
+      "female": 254172
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Iceland",
+    "city": "Reykjavik",
+    "town": "Reykjavik",
+    "pincode": "101",
+    "zone": "North America & Western Europe",
+    "id": "iceland",
+    "population": 125333,
+    "mobileUsers": 92703,
+    "internetUsers": 80900,
+    "genderCounts": {
+      "male": 62847,
+      "female": 62486
+    },
+    "healthIssues": [
+      "Hypertension",
+      "PCOD/PCOS",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Luxembourg",
+    "city": "Luxembourg City",
+    "town": "Luxembourg City",
+    "pincode": "1009",
+    "zone": "North America & Western Europe",
+    "id": "luxembourg",
+    "population": 254952,
+    "mobileUsers": 206507,
+    "internetUsers": 151950,
+    "genderCounts": {
+      "male": 125475,
+      "female": 129477
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Insulin Resistance",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Liechtenstein",
+    "city": "Vaduz",
+    "town": "Vaduz",
+    "pincode": "9490",
+    "zone": "North America & Western Europe",
+    "id": "liechtenstein",
+    "population": 851322,
+    "mobileUsers": 666556,
+    "internetUsers": 503354,
+    "genderCounts": {
+      "male": 410997,
+      "female": 440325
+    },
+    "healthIssues": [
+      "Thyroid Dysregulation",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Monaco",
+    "city": "Monaco",
+    "town": "Monaco",
+    "pincode": "98000",
+    "zone": "North America & Western Europe",
+    "id": "monaco",
+    "population": 244945,
+    "mobileUsers": 212879,
+    "internetUsers": 154572,
+    "genderCounts": {
+      "male": 127622,
+      "female": 117323
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Andorra",
+    "city": "Andorra la Vella",
+    "town": "Andorra la Vella",
+    "pincode": "AD500",
+    "zone": "North America & Western Europe",
+    "id": "andorra",
+    "population": 82385,
+    "mobileUsers": 64292,
+    "internetUsers": 61077,
+    "genderCounts": {
+      "male": 40304,
+      "female": 42081
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Dyslipidemia",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "San Marino",
+    "city": "San Marino",
+    "town": "San Marino",
+    "pincode": "47890",
+    "zone": "North America & Western Europe",
+    "id": "san-marino",
+    "population": 598553,
+    "mobileUsers": 527394,
+    "internetUsers": 376558,
+    "genderCounts": {
+      "male": 312222,
+      "female": 286331
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Thyroid Dysregulation",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Greenland",
+    "city": "Nuuk",
+    "town": "Nuuk",
+    "pincode": "3900",
+    "zone": "North America & Western Europe",
+    "id": "greenland",
+    "population": 832492,
+    "mobileUsers": 756511,
+    "internetUsers": 615993,
+    "genderCounts": {
+      "male": 411474,
+      "female": 421018
+    },
+    "healthIssues": [
+      "Obesity",
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "U.S. Virgin Islands",
+    "city": "Charlotte Amalie",
+    "town": "Charlotte Amalie",
+    "pincode": "00801",
+    "zone": "North America & Western Europe",
+    "id": "us-virgin-islands",
+    "population": 372768,
+    "mobileUsers": 291310,
+    "internetUsers": 271180,
+    "genderCounts": {
+      "male": 180204,
+      "female": 192564
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "British Virgin Islands",
+    "city": "Road Town",
+    "town": "Road Town",
+    "pincode": "VG1110",
+    "zone": "North America & Western Europe",
+    "id": "british-virgin-islands",
+    "population": 373858,
+    "mobileUsers": 316504,
+    "internetUsers": 276744,
+    "genderCounts": {
+      "male": 180478,
+      "female": 193380
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Guam",
+    "city": "Hagatna",
+    "town": "Hagatna",
+    "pincode": "96910",
+    "zone": "North America & Western Europe",
+    "id": "guam",
+    "population": 299750,
+    "mobileUsers": 230686,
+    "internetUsers": 219151,
+    "genderCounts": {
+      "male": 152202,
+      "female": 147548
+    },
+    "healthIssues": [
+      "Obesity",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Puerto Rico",
+    "city": "San Juan",
+    "town": "San Juan",
+    "pincode": "00901",
+    "zone": "North America & Western Europe",
+    "id": "puerto-rico",
+    "population": 110415,
+    "mobileUsers": 85347,
+    "internetUsers": 83755,
+    "genderCounts": {
+      "male": 54840,
+      "female": 55575
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Cayman Islands",
+    "city": "George Town",
+    "town": "George Town",
+    "pincode": "KY1-1100",
+    "zone": "North America & Western Europe",
+    "id": "cayman-islands",
+    "population": 550278,
+    "mobileUsers": 403215,
+    "internetUsers": 306867,
+    "genderCounts": {
+      "male": 285938,
+      "female": 264340
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "PCOD/PCOS",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Singapore",
+    "city": "Singapore",
+    "town": "Singapore",
+    "pincode": "178957",
+    "zone": "East & Southeast Asia",
+    "id": "singapore",
+    "population": 13130713,
+    "mobileUsers": 10440159,
+    "internetUsers": 7787217,
+    "genderCounts": {
+      "male": 6927400,
+      "female": 6203313
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Japan",
+    "city": "Tokyo",
+    "town": "Tokyo",
+    "pincode": "100-0001",
+    "zone": "East & Southeast Asia",
+    "id": "japan",
+    "population": 12295010,
+    "mobileUsers": 10356061,
+    "internetUsers": 10069218,
+    "genderCounts": {
+      "male": 6272940,
+      "female": 6022070
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "South Korea",
+    "city": "Seoul",
+    "town": "Seoul",
+    "pincode": "03045",
+    "zone": "East & Southeast Asia",
+    "id": "south-korea",
+    "population": 915029,
+    "mobileUsers": 791382,
+    "internetUsers": 555476,
+    "genderCounts": {
+      "male": 448880,
+      "female": 466149
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "China",
+    "city": "Beijing",
+    "town": "Beijing",
+    "pincode": "100000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 12428333,
+    "mobileUsers": 10800921,
+    "internetUsers": 9488064,
+    "genderCounts": {
+      "male": 6370844,
+      "female": 6057489
+    },
+    "healthIssues": [
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Malaysia",
+    "city": "Kuala Lumpur",
+    "town": "Kuala Lumpur",
+    "pincode": "50088",
+    "zone": "East & Southeast Asia",
+    "id": "malaysia",
+    "population": 833891,
+    "mobileUsers": 714856,
+    "internetUsers": 477181,
+    "genderCounts": {
+      "male": 426980,
+      "female": 406911
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Thailand",
+    "city": "Bangkok",
+    "town": "Bangkok",
+    "pincode": "10200",
+    "zone": "East & Southeast Asia",
+    "id": "thailand",
+    "population": 249494,
+    "mobileUsers": 217368,
+    "internetUsers": 180056,
+    "genderCounts": {
+      "male": 131229,
+      "female": 118265
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Vietnam",
+    "city": "Hanoi",
+    "town": "Hanoi",
+    "pincode": "100000",
+    "zone": "East & Southeast Asia",
+    "id": "vietnam",
+    "population": 265405,
+    "mobileUsers": 190536,
+    "internetUsers": 181009,
+    "genderCounts": {
+      "male": 131851,
+      "female": 133554
+    },
+    "healthIssues": [
+      "PCOD/PCOS",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Philippines",
+    "city": "Manila",
+    "town": "Manila",
+    "pincode": "1000",
+    "zone": "East & Southeast Asia",
+    "id": "philippines",
+    "population": 836728,
+    "mobileUsers": 740113,
+    "internetUsers": 670349,
+    "genderCounts": {
+      "male": 402443,
+      "female": 434285
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Dyslipidemia",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Indonesia",
+    "city": "Jakarta",
+    "town": "Jakarta",
+    "pincode": "10110",
+    "zone": "East & Southeast Asia",
+    "id": "indonesia",
+    "population": 694538,
+    "mobileUsers": 610290,
+    "internetUsers": 395732,
+    "genderCounts": {
+      "male": 364814,
+      "female": 329724
+    },
+    "healthIssues": [
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Brunei Darussalam",
+    "city": "Bandar Seri Begawan",
+    "town": "Bandar Seri Begawan",
+    "pincode": "BS8611",
+    "zone": "East & Southeast Asia",
+    "id": "brunei-darussalam",
+    "population": 793603,
+    "mobileUsers": 695494,
+    "internetUsers": 694541,
+    "genderCounts": {
+      "male": 392097,
+      "female": 401506
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Mongolia",
+    "city": "Ulaanbaatar",
+    "town": "Ulaanbaatar",
+    "pincode": "14200",
+    "zone": "East & Southeast Asia",
+    "id": "mongolia",
+    "population": 187035,
+    "mobileUsers": 157885,
+    "internetUsers": 151983,
+    "genderCounts": {
+      "male": 94488,
+      "female": 92547
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Insulin Resistance",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Laos",
+    "city": "Vientiane",
+    "town": "Vientiane",
+    "pincode": "01000",
+    "zone": "East & Southeast Asia",
+    "id": "laos",
+    "population": 576978,
+    "mobileUsers": 437026,
+    "internetUsers": 415174,
+    "genderCounts": {
+      "male": 299040,
+      "female": 277938
+    },
+    "healthIssues": [
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Cambodia",
+    "city": "Phnom Penh",
+    "town": "Phnom Penh",
+    "pincode": "12000",
+    "zone": "East & Southeast Asia",
+    "id": "cambodia",
+    "population": 180976,
+    "mobileUsers": 152930,
+    "internetUsers": 129215,
+    "genderCounts": {
+      "male": 91105,
+      "female": 89871
+    },
+    "healthIssues": [
+      "Obesity",
+      "PCOD/PCOS",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Myanmar",
+    "city": "Naypyidaw",
+    "town": "Naypyidaw",
+    "pincode": "15011",
+    "zone": "East & Southeast Asia",
+    "id": "myanmar",
+    "population": 414513,
+    "mobileUsers": 348693,
+    "internetUsers": 336443,
+    "genderCounts": {
+      "male": 200442,
+      "female": 214071
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Hypertension",
+      "PCOD/PCOS",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Pakistan",
+    "city": "Islamabad",
+    "town": "Islamabad",
+    "pincode": "44000",
+    "zone": "South Asia",
+    "id": "pakistan",
+    "population": 813185,
+    "mobileUsers": 679805,
+    "internetUsers": 593960,
+    "genderCounts": {
+      "male": 395034,
+      "female": 418151
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Sri Lanka",
+    "city": "Colombo",
+    "town": "Colombo",
+    "pincode": "00100",
+    "zone": "South Asia",
+    "id": "sri-lanka",
+    "population": 234224,
+    "mobileUsers": 164803,
+    "internetUsers": 148049,
+    "genderCounts": {
+      "male": 117231,
+      "female": 116993
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Dyslipidemia",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Nepal",
+    "city": "Kathmandu",
+    "town": "Kathmandu",
+    "pincode": "44600",
+    "zone": "South Asia",
+    "id": "nepal",
+    "population": 798348,
+    "mobileUsers": 700935,
+    "internetUsers": 550538,
+    "genderCounts": {
+      "male": 383515,
+      "female": 414833
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Bangladesh",
+    "city": "Dhaka",
+    "town": "Dhaka",
+    "pincode": "1000",
+    "zone": "South Asia",
+    "id": "bangladesh",
+    "population": 488370,
+    "mobileUsers": 386796,
+    "internetUsers": 293049,
+    "genderCounts": {
+      "male": 257479,
+      "female": 230891
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Thyroid Dysregulation",
+      "Fatty Liver",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Bhutan",
+    "city": "Thimphu",
+    "town": "Thimphu",
+    "pincode": "11001",
+    "zone": "South Asia",
+    "id": "bhutan",
+    "population": 536037,
+    "mobileUsers": 474384,
+    "internetUsers": 319926,
+    "genderCounts": {
+      "male": 278576,
+      "female": 257461
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Maldives",
+    "city": "Male",
+    "town": "Male",
+    "pincode": "20000",
+    "zone": "South Asia",
+    "id": "maldives",
+    "population": 583548,
+    "mobileUsers": 478707,
+    "internetUsers": 353164,
+    "genderCounts": {
+      "male": 301869,
+      "female": 281679
+    },
+    "healthIssues": [
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Mexico",
+    "city": "Mexico City",
+    "town": "Mexico City",
+    "pincode": "01000",
+    "zone": "Latin America",
+    "id": "mexico",
+    "population": 220546,
+    "mobileUsers": 201544,
+    "internetUsers": 180909,
+    "genderCounts": {
+      "male": 115553,
+      "female": 104993
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Brazil",
+    "city": "Brasilia",
+    "town": "Brasilia",
+    "pincode": "70000-000",
+    "zone": "Latin America",
+    "id": "brazil",
+    "population": 393309,
+    "mobileUsers": 308591,
+    "internetUsers": 283747,
+    "genderCounts": {
+      "male": 204891,
+      "female": 188418
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "PCOD/PCOS",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Argentina",
+    "city": "Buenos Aires",
+    "town": "Buenos Aires",
+    "pincode": "C1001",
+    "zone": "Latin America",
+    "id": "argentina",
+    "population": 605534,
+    "mobileUsers": 485549,
+    "internetUsers": 335121,
+    "genderCounts": {
+      "male": 306918,
+      "female": 298616
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Colombia",
+    "city": "Bogota",
+    "town": "Bogota",
+    "pincode": "110111",
+    "zone": "Latin America",
+    "id": "colombia",
+    "population": 303754,
+    "mobileUsers": 255935,
+    "internetUsers": 198706,
+    "genderCounts": {
+      "male": 148775,
+      "female": 154979
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Hypertension",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Peru",
+    "city": "Lima",
+    "town": "Lima",
+    "pincode": "15001",
+    "zone": "Latin America",
+    "id": "peru",
+    "population": 377746,
+    "mobileUsers": 281258,
+    "internetUsers": 233741,
+    "genderCounts": {
+      "male": 196696,
+      "female": 181050
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Dyslipidemia",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Chile",
+    "city": "Santiago",
+    "town": "Santiago",
+    "pincode": "8320000",
+    "zone": "Latin America",
+    "id": "chile",
+    "population": 890637,
+    "mobileUsers": 679155,
+    "internetUsers": 616837,
+    "genderCounts": {
+      "male": 468525,
+      "female": 422112
+    },
+    "healthIssues": [
+      "Obesity",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Ecuador",
+    "city": "Quito",
+    "town": "Quito",
+    "pincode": "170150",
+    "zone": "Latin America",
+    "id": "ecuador",
+    "population": 153877,
+    "mobileUsers": 128673,
+    "internetUsers": 112691,
+    "genderCounts": {
+      "male": 80463,
+      "female": 73414
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Uruguay",
+    "city": "Montevideo",
+    "town": "Montevideo",
+    "pincode": "11000",
+    "zone": "Latin America",
+    "id": "uruguay",
+    "population": 488443,
+    "mobileUsers": 428808,
+    "internetUsers": 415947,
+    "genderCounts": {
+      "male": 244840,
+      "female": 243603
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "Dyslipidemia"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Paraguay",
+    "city": "Asuncion",
+    "town": "Asuncion",
+    "pincode": "1209",
+    "zone": "Latin America",
+    "id": "paraguay",
+    "population": 612773,
+    "mobileUsers": 495795,
+    "internetUsers": 366328,
+    "genderCounts": {
+      "male": 308040,
+      "female": 304733
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Bolivia",
+    "city": "Sucre",
+    "town": "Sucre",
+    "pincode": "1234",
+    "zone": "Latin America",
+    "id": "bolivia",
+    "population": 861111,
+    "mobileUsers": 649355,
+    "internetUsers": 616887,
+    "genderCounts": {
+      "male": 439626,
+      "female": 421485
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Venezuela",
+    "city": "Caracas",
+    "town": "Caracas",
+    "pincode": "1010",
+    "zone": "Latin America",
+    "id": "venezuela",
+    "population": 749629,
+    "mobileUsers": 573625,
+    "internetUsers": 486847,
+    "genderCounts": {
+      "male": 374617,
+      "female": 375012
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Hypertension",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Guyana",
+    "city": "Georgetown",
+    "town": "Georgetown",
+    "pincode": "123",
+    "zone": "Latin America",
+    "id": "guyana",
+    "population": 425292,
+    "mobileUsers": 301816,
+    "internetUsers": 286725,
+    "genderCounts": {
+      "male": 217714,
+      "female": 207578
+    },
+    "healthIssues": [
+      "Hypertension",
+      "PCOD/PCOS",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Suriname",
+    "city": "Paramaribo",
+    "town": "Paramaribo",
+    "pincode": "123",
+    "zone": "Latin America",
+    "id": "suriname",
+    "population": 382251,
+    "mobileUsers": 310771,
+    "internetUsers": 295232,
+    "genderCounts": {
+      "male": 195069,
+      "female": 187182
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Panama",
+    "city": "Panama City",
+    "town": "Panama City",
+    "pincode": "0801",
+    "zone": "Latin America",
+    "id": "panama",
+    "population": 511116,
+    "mobileUsers": 456672,
+    "internetUsers": 342694,
+    "genderCounts": {
+      "male": 268878,
+      "female": 242238
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Insulin Resistance",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Costa Rica",
+    "city": "San Jose",
+    "town": "San Jose",
+    "pincode": "10101",
+    "zone": "Latin America",
+    "id": "costa-rica",
+    "population": 271820,
+    "mobileUsers": 221066,
+    "internetUsers": 201708,
+    "genderCounts": {
+      "male": 141750,
+      "female": 130070
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Guatemala",
+    "city": "Guatemala City",
+    "town": "Guatemala City",
+    "pincode": "01001",
+    "zone": "Latin America",
+    "id": "guatemala",
+    "population": 517166,
+    "mobileUsers": 413222,
+    "internetUsers": 392560,
+    "genderCounts": {
+      "male": 256019,
+      "female": 261147
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "PCOD/PCOS",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Honduras",
+    "city": "Tegucigalpa",
+    "town": "Tegucigalpa",
+    "pincode": "11101",
+    "zone": "Latin America",
+    "id": "honduras",
+    "population": 812964,
+    "mobileUsers": 713066,
+    "internetUsers": 702881,
+    "genderCounts": {
+      "male": 419682,
+      "female": 393282
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "El Salvador",
+    "city": "San Salvador",
+    "town": "San Salvador",
+    "pincode": "1101",
+    "zone": "Latin America",
+    "id": "el-salvador",
+    "population": 892845,
+    "mobileUsers": 676345,
+    "internetUsers": 551285,
+    "genderCounts": {
+      "male": 441045,
+      "female": 451800
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Nicaragua",
+    "city": "Managua",
+    "town": "Managua",
+    "pincode": "11001",
+    "zone": "Latin America",
+    "id": "nicaragua",
+    "population": 220864,
+    "mobileUsers": 181882,
+    "internetUsers": 155826,
+    "genderCounts": {
+      "male": 110775,
+      "female": 110089
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Dyslipidemia",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Cuba",
+    "city": "Havana",
+    "town": "Havana",
+    "pincode": "10100",
+    "zone": "Latin America",
+    "id": "cuba",
+    "population": 360191,
+    "mobileUsers": 293210,
+    "internetUsers": 258696,
+    "genderCounts": {
+      "male": 173096,
+      "female": 187095
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Dominican Republic",
+    "city": "Santo Domingo",
+    "town": "Santo Domingo",
+    "pincode": "10101",
+    "zone": "Latin America",
+    "id": "dominican-republic",
+    "population": 750430,
+    "mobileUsers": 689059,
+    "internetUsers": 511094,
+    "genderCounts": {
+      "male": 373142,
+      "female": 377288
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Bahamas",
+    "city": "Nassau",
+    "town": "Nassau",
+    "pincode": "123",
+    "zone": "Latin America",
+    "id": "bahamas",
+    "population": 642115,
+    "mobileUsers": 535101,
+    "internetUsers": 495149,
+    "genderCounts": {
+      "male": 319634,
+      "female": 322481
+    },
+    "healthIssues": [
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Jamaica",
+    "city": "Kingston",
+    "town": "Kingston",
+    "pincode": "KGN05",
+    "zone": "Latin America",
+    "id": "jamaica",
+    "population": 843708,
+    "mobileUsers": 699365,
+    "internetUsers": 536447,
+    "genderCounts": {
+      "male": 442478,
+      "female": 401230
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "Fatty Liver",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Barbados",
+    "city": "Bridgetown",
+    "town": "Bridgetown",
+    "pincode": "BB11000",
+    "zone": "Latin America",
+    "id": "barbados",
+    "population": 110451,
+    "mobileUsers": 88541,
+    "internetUsers": 85281,
+    "genderCounts": {
+      "male": 55218,
+      "female": 55233
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Antigua and Barbuda",
+    "city": "St. John's",
+    "town": "St. John's",
+    "pincode": "123",
+    "zone": "Latin America",
+    "id": "antigua-and-barbuda",
+    "population": 427789,
+    "mobileUsers": 389496,
+    "internetUsers": 259640,
+    "genderCounts": {
+      "male": 222649,
+      "female": 205140
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Saint Kitts and Nevis",
+    "city": "Basseterre",
+    "town": "Basseterre",
+    "pincode": "123",
+    "zone": "Latin America",
+    "id": "saint-kitts-and-nevis",
+    "population": 225528,
+    "mobileUsers": 199436,
+    "internetUsers": 161511,
+    "genderCounts": {
+      "male": 110845,
+      "female": 114683
+    },
+    "healthIssues": [
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Saint Vincent and the Grenadines",
+    "city": "Kingstown",
+    "town": "Kingstown",
+    "pincode": "123",
+    "zone": "Latin America",
+    "id": "saint-vincent-and-the-grenadines",
+    "population": 551025,
+    "mobileUsers": 456819,
+    "internetUsers": 323581,
+    "genderCounts": {
+      "male": 267071,
+      "female": 283954
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Grenada",
+    "city": "St. George's",
+    "town": "St. George's",
+    "pincode": "123",
+    "zone": "Latin America",
+    "id": "grenada",
+    "population": 241475,
+    "mobileUsers": 189841,
+    "internetUsers": 179606,
+    "genderCounts": {
+      "male": 119465,
+      "female": 122010
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Saint Lucia",
+    "city": "Castries",
+    "town": "Castries",
+    "pincode": "123",
+    "zone": "Latin America",
+    "id": "saint-lucia",
+    "population": 892088,
+    "mobileUsers": 659723,
+    "internetUsers": 636121,
+    "genderCounts": {
+      "male": 451107,
+      "female": 440981
+    },
+    "healthIssues": [
+      "Obesity",
+      "PCOD/PCOS",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Belize",
+    "city": "Belmopan",
+    "town": "Belmopan",
+    "pincode": "123",
+    "zone": "Latin America",
+    "id": "belize",
+    "population": 922242,
+    "mobileUsers": 763416,
+    "internetUsers": 732484,
+    "genderCounts": {
+      "male": 452229,
+      "female": 470013
+    },
+    "healthIssues": [
+      "Obesity",
+      "PCOD/PCOS",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Curacao",
+    "city": "Willemstad",
+    "town": "Willemstad",
+    "pincode": "123",
+    "zone": "Latin America",
+    "id": "curacao",
+    "population": 749257,
+    "mobileUsers": 668670,
+    "internetUsers": 610302,
+    "genderCounts": {
+      "male": 387376,
+      "female": 361881
+    },
+    "healthIssues": [
+      "Obesity",
+      "PCOD/PCOS",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Saint Barthelemy",
+    "city": "Gustavia",
+    "town": "Gustavia",
+    "pincode": "97133",
+    "zone": "Latin America",
+    "id": "saint-barthelemy",
+    "population": 569263,
+    "mobileUsers": 444368,
+    "internetUsers": 429406,
+    "genderCounts": {
+      "male": 278127,
+      "female": 291136
+    },
+    "healthIssues": [
+      "Hypertension",
+      "PCOD/PCOS",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Russia",
+    "city": "Moscow",
+    "town": "Moscow",
+    "pincode": "101000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "russia",
+    "population": 451307,
+    "mobileUsers": 398189,
+    "internetUsers": 280147,
+    "genderCounts": {
+      "male": 232815,
+      "female": 218492
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Dyslipidemia",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Belarus",
+    "city": "Minsk",
+    "town": "Minsk",
+    "pincode": "220000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "belarus",
+    "population": 568136,
+    "mobileUsers": 422830,
+    "internetUsers": 401688,
+    "genderCounts": {
+      "male": 278610,
+      "female": 289526
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Insulin Resistance",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Ukraine",
+    "city": "Kyiv",
+    "town": "Kyiv",
+    "pincode": "01001",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "ukraine",
+    "population": 921025,
+    "mobileUsers": 719480,
+    "internetUsers": 584188,
+    "genderCounts": {
+      "male": 476018,
+      "female": 445007
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "town": "Astana",
+    "pincode": "010000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "kazakhstan",
+    "population": 541399,
+    "mobileUsers": 416138,
+    "internetUsers": 395331,
+    "genderCounts": {
+      "male": 285529,
+      "female": 255870
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Uzbekistan",
+    "city": "Tashkent",
+    "town": "Tashkent",
+    "pincode": "100000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "uzbekistan",
+    "population": 202034,
+    "mobileUsers": 143461,
+    "internetUsers": 136287,
+    "genderCounts": {
+      "male": 103991,
+      "female": 98043
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Dyslipidemia",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Kyrgyz Republic",
+    "city": "Bishkek",
+    "town": "Bishkek",
+    "pincode": "720000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "kyrgyz-republic",
+    "population": 729750,
+    "mobileUsers": 576842,
+    "internetUsers": 412908,
+    "genderCounts": {
+      "male": 373611,
+      "female": 356139
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Tajikistan",
+    "city": "Dushanbe",
+    "town": "Dushanbe",
+    "pincode": "734000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "tajikistan",
+    "population": 561293,
+    "mobileUsers": 420668,
+    "internetUsers": 326796,
+    "genderCounts": {
+      "male": 275850,
+      "female": 285443
+    },
+    "healthIssues": [
+      "Obesity",
+      "PCOD/PCOS",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Georgia",
+    "city": "Tbilisi",
+    "town": "Tbilisi",
+    "pincode": "0105",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "georgia",
+    "population": 752103,
+    "mobileUsers": 646344,
+    "internetUsers": 496627,
+    "genderCounts": {
+      "male": 366024,
+      "female": 386079
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Insulin Resistance",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Armenia",
+    "city": "Yerevan",
+    "town": "Yerevan",
+    "pincode": "0001",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "armenia",
+    "population": 653538,
+    "mobileUsers": 507483,
+    "internetUsers": 482108,
+    "genderCounts": {
+      "male": 327199,
+      "female": 326339
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Türkiye",
+    "city": "Ankara",
+    "town": "Ankara",
+    "pincode": "06000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "türkiye",
+    "population": 737041,
+    "mobileUsers": 644355,
+    "internetUsers": 565968,
+    "genderCounts": {
+      "male": 380313,
+      "female": 356728
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Dyslipidemia"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Poland",
+    "city": "Warsaw",
+    "town": "Warsaw",
+    "pincode": "00-001",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "poland",
+    "population": 150236,
+    "mobileUsers": 134293,
+    "internetUsers": 85511,
+    "genderCounts": {
+      "male": 76249,
+      "female": 73987
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Romania",
+    "city": "Bucharest",
+    "town": "Bucharest",
+    "pincode": "010011",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "romania",
+    "population": 879109,
+    "mobileUsers": 637543,
+    "internetUsers": 525360,
+    "genderCounts": {
+      "male": 436216,
+      "female": 442893
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "PCOD/PCOS",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Hungary",
+    "city": "Budapest",
+    "town": "Budapest",
+    "pincode": "1011",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "hungary",
+    "population": 564073,
+    "mobileUsers": 407356,
+    "internetUsers": 386988,
+    "genderCounts": {
+      "male": 297336,
+      "female": 266737
+    },
+    "healthIssues": [
+      "Hypertension",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Czechia",
+    "city": "Prague",
+    "town": "Prague",
+    "pincode": "110 00",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "czechia",
+    "population": 666831,
+    "mobileUsers": 479277,
+    "internetUsers": 471172,
+    "genderCounts": {
+      "male": 350547,
+      "female": 316284
+    },
+    "healthIssues": [
+      "Obesity",
+      "PCOD/PCOS",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Slovakia",
+    "city": "Bratislava",
+    "town": "Bratislava",
+    "pincode": "811 01",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "slovakia",
+    "population": 757533,
+    "mobileUsers": 538760,
+    "internetUsers": 524708,
+    "genderCounts": {
+      "male": 366269,
+      "female": 391264
+    },
+    "healthIssues": [
+      "Obesity",
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Slovenia",
+    "city": "Ljubljana",
+    "town": "Ljubljana",
+    "pincode": "1000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "slovenia",
+    "population": 147492,
+    "mobileUsers": 113211,
+    "internetUsers": 107550,
+    "genderCounts": {
+      "male": 76849,
+      "female": 70643
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Croatia",
+    "city": "Zagreb",
+    "town": "Zagreb",
+    "pincode": "10000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "croatia",
+    "population": 62643,
+    "mobileUsers": 55569,
+    "internetUsers": 51328,
+    "genderCounts": {
+      "male": 31727,
+      "female": 30916
+    },
+    "healthIssues": [
+      "Obesity",
+      "Insulin Resistance",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Bosnia & Herzegovina",
+    "city": "Sarajevo",
+    "town": "Sarajevo",
+    "pincode": "71000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "bosnia-and-herzegovina",
+    "population": 807851,
+    "mobileUsers": 622438,
+    "internetUsers": 591316,
+    "genderCounts": {
+      "male": 411058,
+      "female": 396793
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Fatty Liver",
+      "Dyslipidemia"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Serbia",
+    "city": "Belgrade",
+    "town": "Belgrade",
+    "pincode": "11000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "serbia",
+    "population": 708900,
+    "mobileUsers": 547801,
+    "internetUsers": 538349,
+    "genderCounts": {
+      "male": 352670,
+      "female": 356230
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Montenegro",
+    "city": "Podgorica",
+    "town": "Podgorica",
+    "pincode": "81000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "montenegro",
+    "population": 748128,
+    "mobileUsers": 676076,
+    "internetUsers": 460056,
+    "genderCounts": {
+      "male": 383276,
+      "female": 364852
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Albania",
+    "city": "Tirana",
+    "town": "Tirana",
+    "pincode": "1001",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "albania",
+    "population": 794247,
+    "mobileUsers": 676661,
+    "internetUsers": 531401,
+    "genderCounts": {
+      "male": 398060,
+      "female": 396187
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Bulgaria",
+    "city": "Sofia",
+    "town": "Sofia",
+    "pincode": "1000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "bulgaria",
+    "population": 339454,
+    "mobileUsers": 268141,
+    "internetUsers": 243989,
+    "genderCounts": {
+      "male": 167181,
+      "female": 172273
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Dyslipidemia",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Moldova",
+    "city": "Chisinau",
+    "town": "Chisinau",
+    "pincode": "MD-2000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "moldova",
+    "population": 515801,
+    "mobileUsers": 444042,
+    "internetUsers": 432037,
+    "genderCounts": {
+      "male": 261882,
+      "female": 253919
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "North Macedonia",
+    "city": "Skopje",
+    "town": "Skopje",
+    "pincode": "1000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "north-macedonia",
+    "population": 324910,
+    "mobileUsers": 289399,
+    "internetUsers": 213796,
+    "genderCounts": {
+      "male": 167878,
+      "female": 157032
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Malta",
+    "city": "Valletta",
+    "town": "Valletta",
+    "pincode": "VLT 1115",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "malta",
+    "population": 624511,
+    "mobileUsers": 498579,
+    "internetUsers": 391473,
+    "genderCounts": {
+      "male": 301671,
+      "female": 322840
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "Dyslipidemia"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Cyprus",
+    "city": "Nicosia",
+    "town": "Nicosia",
+    "pincode": "1010",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "cyprus",
+    "population": 885130,
+    "mobileUsers": 679122,
+    "internetUsers": 643138,
+    "genderCounts": {
+      "male": 446243,
+      "female": 438887
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Israel",
+    "city": "Jerusalem",
+    "town": "Jerusalem",
+    "pincode": "91000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "israel",
+    "population": 160708,
+    "mobileUsers": 134550,
+    "internetUsers": 131019,
+    "genderCounts": {
+      "male": 82517,
+      "female": 78191
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Greece",
+    "city": "Athens",
+    "town": "Athens",
+    "pincode": "10431",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "greece",
+    "population": 199345,
+    "mobileUsers": 161882,
+    "internetUsers": 147664,
+    "genderCounts": {
+      "male": 96949,
+      "female": 102396
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Hypertension"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Latvia",
+    "city": "Riga",
+    "town": "Riga",
+    "pincode": "LV-1050",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "latvia",
+    "population": 337594,
+    "mobileUsers": 289736,
+    "internetUsers": 285492,
+    "genderCounts": {
+      "male": 174334,
+      "female": 163260
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Insulin Resistance",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Estonia",
+    "city": "Tallinn",
+    "town": "Tallinn",
+    "pincode": "10111",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "estonia",
+    "population": 335892,
+    "mobileUsers": 271331,
+    "internetUsers": 257764,
+    "genderCounts": {
+      "male": 171729,
+      "female": 164163
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Lithuania",
+    "city": "Vilnius",
+    "town": "Vilnius",
+    "pincode": "01100",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "lithuania",
+    "population": 387020,
+    "mobileUsers": 312386,
+    "internetUsers": 213607,
+    "genderCounts": {
+      "male": 193519,
+      "female": 193501
+    },
+    "healthIssues": [
+      "Obesity",
+      "Insulin Resistance",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "South Africa",
+    "city": "Pretoria",
+    "town": "Pretoria",
+    "pincode": "0001",
+    "zone": "Africa",
+    "id": "south-africa",
+    "population": 169821,
+    "mobileUsers": 129661,
+    "internetUsers": 115831,
+    "genderCounts": {
+      "male": 88566,
+      "female": 81255
+    },
+    "healthIssues": [
+      "Hypertension",
+      "PCOD/PCOS",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Mauritius",
+    "city": "Port Louis",
+    "town": "Port Louis",
+    "pincode": "11302",
+    "zone": "Africa",
+    "id": "mauritius",
+    "population": 569677,
+    "mobileUsers": 458978,
+    "internetUsers": 431626,
+    "genderCounts": {
+      "male": 296265,
+      "female": 273412
+    },
+    "healthIssues": [
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Seychelles",
+    "city": "Victoria",
+    "town": "Victoria",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "seychelles",
+    "population": 708875,
+    "mobileUsers": 553206,
+    "internetUsers": 454322,
+    "genderCounts": {
+      "male": 357114,
+      "female": 351761
+    },
+    "healthIssues": [
+      "Hypertension",
+      "PCOD/PCOS",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Gabon",
+    "city": "Libreville",
+    "town": "Libreville",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "gabon",
+    "population": 749731,
+    "mobileUsers": 614039,
+    "internetUsers": 488830,
+    "genderCounts": {
+      "male": 396738,
+      "female": 352993
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Ghana",
+    "city": "Accra",
+    "town": "Accra",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "ghana",
+    "population": 201575,
+    "mobileUsers": 144597,
+    "internetUsers": 119308,
+    "genderCounts": {
+      "male": 100685,
+      "female": 100890
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Djibouti",
+    "city": "Djibouti",
+    "town": "Djibouti",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "djibouti",
+    "population": 731039,
+    "mobileUsers": 564234,
+    "internetUsers": 536022,
+    "genderCounts": {
+      "male": 382044,
+      "female": 348995
+    },
+    "healthIssues": [
+      "Obesity",
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Namibia",
+    "city": "Windhoek",
+    "town": "Windhoek",
+    "pincode": "9000",
+    "zone": "Africa",
+    "id": "namibia",
+    "population": 70891,
+    "mobileUsers": 56974,
+    "internetUsers": 39335,
+    "genderCounts": {
+      "male": 34796,
+      "female": 36095
+    },
+    "healthIssues": [
+      "Obesity",
+      "PCOD/PCOS",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Sao Tome and Principe",
+    "city": "Sao Tome",
+    "town": "Sao Tome",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "sao-tome-and-principe",
+    "population": 146598,
+    "mobileUsers": 123587,
+    "internetUsers": 105928,
+    "genderCounts": {
+      "male": 76624,
+      "female": 69974
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Senegal",
+    "city": "Dakar",
+    "town": "Dakar",
+    "pincode": "10000",
+    "zone": "Africa",
+    "id": "senegal",
+    "population": 706476,
+    "mobileUsers": 647258,
+    "internetUsers": 468879,
+    "genderCounts": {
+      "male": 342333,
+      "female": 364143
+    },
+    "healthIssues": [
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Equatorial Guinea",
+    "city": "Malabo",
+    "town": "Malabo",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "equatorial-guinea",
+    "population": 646644,
+    "mobileUsers": 488240,
+    "internetUsers": 480914,
+    "genderCounts": {
+      "male": 339500,
+      "female": 307144
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Eswatini",
+    "city": "Mbabane",
+    "town": "Mbabane",
+    "pincode": "H100",
+    "zone": "Africa",
+    "id": "eswatini",
+    "population": 591784,
+    "mobileUsers": 434163,
+    "internetUsers": 412454,
+    "genderCounts": {
+      "male": 294301,
+      "female": 297483
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "PCOD/PCOS",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Mauritania",
+    "city": "Nouakchott",
+    "town": "Nouakchott",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "mauritania",
+    "population": 714765,
+    "mobileUsers": 643108,
+    "internetUsers": 606021,
+    "genderCounts": {
+      "male": 349101,
+      "female": 365664
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Insulin Resistance"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Cameroon",
+    "city": "Yaounde",
+    "town": "Yaounde",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "cameroon",
+    "population": 37791,
+    "mobileUsers": 29408,
+    "internetUsers": 27937,
+    "genderCounts": {
+      "male": 19062,
+      "female": 18729
+    },
+    "healthIssues": [
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Ivory Coast",
+    "city": "Yamoussoukro",
+    "town": "Yamoussoukro",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "ivory-coast",
+    "population": 529682,
+    "mobileUsers": 459449,
+    "internetUsers": 337304,
+    "genderCounts": {
+      "male": 260276,
+      "female": 269406
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Angola",
+    "city": "Luanda",
+    "town": "Luanda",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "angola",
+    "population": 27714,
+    "mobileUsers": 23519,
+    "internetUsers": 16651,
+    "genderCounts": {
+      "male": 13663,
+      "female": 14051
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Zimbabwe",
+    "city": "Harare",
+    "town": "Harare",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "zimbabwe",
+    "population": 536306,
+    "mobileUsers": 451699,
+    "internetUsers": 365285,
+    "genderCounts": {
+      "male": 283675,
+      "female": 252631
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Kenya",
+    "city": "Nairobi",
+    "town": "Nairobi",
+    "pincode": "00100",
+    "zone": "Africa",
+    "id": "kenya",
+    "population": 881296,
+    "mobileUsers": 782831,
+    "internetUsers": 685805,
+    "genderCounts": {
+      "male": 453833,
+      "female": 427463
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Sudan",
+    "city": "Khartoum",
+    "town": "Khartoum",
+    "pincode": "11111",
+    "zone": "Africa",
+    "id": "sudan",
+    "population": 756652,
+    "mobileUsers": 666873,
+    "internetUsers": 462020,
+    "genderCounts": {
+      "male": 389412,
+      "female": 367240
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Benin",
+    "city": "Porto-Novo",
+    "town": "Porto-Novo",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "benin",
+    "population": 606321,
+    "mobileUsers": 430314,
+    "internetUsers": 408798,
+    "genderCounts": {
+      "male": 320855,
+      "female": 285466
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Togo",
+    "city": "Lome",
+    "town": "Lome",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "togo",
+    "population": 162031,
+    "mobileUsers": 141386,
+    "internetUsers": 139880,
+    "genderCounts": {
+      "male": 83694,
+      "female": 78337
+    },
+    "healthIssues": [
+      "PCOD/PCOS",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Mali",
+    "city": "Bamako",
+    "town": "Bamako",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "mali",
+    "population": 485867,
+    "mobileUsers": 361656,
+    "internetUsers": 343573,
+    "genderCounts": {
+      "male": 243819,
+      "female": 242048
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Guinea",
+    "city": "Conakry",
+    "town": "Conakry",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "guinea",
+    "population": 115282,
+    "mobileUsers": 100585,
+    "internetUsers": 94958,
+    "genderCounts": {
+      "male": 56988,
+      "female": 58294
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Zambia",
+    "city": "Lusaka",
+    "town": "Lusaka",
+    "pincode": "10101",
+    "zone": "Africa",
+    "id": "zambia",
+    "population": 43701,
+    "mobileUsers": 39688,
+    "internetUsers": 25304,
+    "genderCounts": {
+      "male": 23003,
+      "female": 20698
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Gambia",
+    "city": "Banjul",
+    "town": "Banjul",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "gambia",
+    "population": 406108,
+    "mobileUsers": 325981,
+    "internetUsers": 307976,
+    "genderCounts": {
+      "male": 199851,
+      "female": 206257
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "PCOD/PCOS",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Lesotho",
+    "city": "Maseru",
+    "town": "Maseru",
+    "pincode": "100",
+    "zone": "Africa",
+    "id": "lesotho",
+    "population": 120387,
+    "mobileUsers": 99504,
+    "internetUsers": 94528,
+    "genderCounts": {
+      "male": 63514,
+      "female": 56873
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Rwanda",
+    "city": "Kigali",
+    "town": "Kigali",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "rwanda",
+    "population": 885479,
+    "mobileUsers": 701488,
+    "internetUsers": 666413,
+    "genderCounts": {
+      "male": 434255,
+      "female": 451224
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Dyslipidemia",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Comoros",
+    "city": "Moroni",
+    "town": "Moroni",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "comoros",
+    "population": 445591,
+    "mobileUsers": 314676,
+    "internetUsers": 298942,
+    "genderCounts": {
+      "male": 228425,
+      "female": 217166
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "PCOD/PCOS",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Liberia",
+    "city": "Monrovia",
+    "town": "Monrovia",
+    "pincode": "1000",
+    "zone": "Africa",
+    "id": "liberia",
+    "population": 658291,
+    "mobileUsers": 535246,
+    "internetUsers": 515194,
+    "genderCounts": {
+      "male": 320309,
+      "female": 337982
+    },
+    "healthIssues": [
+      "Obesity",
+      "PCOD/PCOS",
+      "Fatty Liver",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Tanzania",
+    "city": "Dodoma",
+    "town": "Dodoma",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "tanzania",
+    "population": 313047,
+    "mobileUsers": 270360,
+    "internetUsers": 256842,
+    "genderCounts": {
+      "male": 164585,
+      "female": 148462
+    },
+    "healthIssues": [
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Malawi",
+    "city": "Lilongwe",
+    "town": "Lilongwe",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "malawi",
+    "population": 908475,
+    "mobileUsers": 729763,
+    "internetUsers": 700549,
+    "genderCounts": {
+      "male": 470064,
+      "female": 438411
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Madagascar",
+    "city": "Antananarivo",
+    "town": "Antananarivo",
+    "pincode": "101",
+    "zone": "Africa",
+    "id": "madagascar",
+    "population": 602523,
+    "mobileUsers": 455612,
+    "internetUsers": 432831,
+    "genderCounts": {
+      "male": 289596,
+      "female": 312927
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "Fatty Liver",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Uganda",
+    "city": "Kampala",
+    "town": "Kampala",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "uganda",
+    "population": 591597,
+    "mobileUsers": 470250,
+    "internetUsers": 446737,
+    "genderCounts": {
+      "male": 308214,
+      "female": 283383
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Burkina Faso",
+    "city": "Ouagadougou",
+    "town": "Ouagadougou",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "burkina-faso",
+    "population": 382895,
+    "mobileUsers": 319136,
+    "internetUsers": 315299,
+    "genderCounts": {
+      "male": 200624,
+      "female": 182271
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Thyroid Dysregulation",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Ethiopia",
+    "city": "Addis Ababa",
+    "town": "Addis Ababa",
+    "pincode": "1000",
+    "zone": "Africa",
+    "id": "ethiopia",
+    "population": 889933,
+    "mobileUsers": 787278,
+    "internetUsers": 626805,
+    "genderCounts": {
+      "male": 438157,
+      "female": 451776
+    },
+    "healthIssues": [
+      "Obesity",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Mozambique",
+    "city": "Maputo",
+    "town": "Maputo",
+    "pincode": "1100",
+    "zone": "Africa",
+    "id": "mozambique",
+    "population": 849086,
+    "mobileUsers": 636262,
+    "internetUsers": 551526,
+    "genderCounts": {
+      "male": 445784,
+      "female": 403302
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Sierra Leone",
+    "city": "Freetown",
+    "town": "Freetown",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "sierra-leone",
+    "population": 515913,
+    "mobileUsers": 428138,
+    "internetUsers": 387315,
+    "genderCounts": {
+      "male": 258147,
+      "female": 257766
+    },
+    "healthIssues": [
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Democratic Republic of the Congo",
+    "city": "Kinshasa",
+    "town": "Kinshasa",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "democratic-republic-of-the-congo",
+    "population": 118954,
+    "mobileUsers": 94094,
+    "internetUsers": 68726,
+    "genderCounts": {
+      "male": 60874,
+      "female": 58080
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Guinea-Bissau",
+    "city": "Bissau",
+    "town": "Bissau",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "guinea-bissau",
+    "population": 610298,
+    "mobileUsers": 519191,
+    "internetUsers": 365939,
+    "genderCounts": {
+      "male": 318677,
+      "female": 291621
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Dyslipidemia",
+      "Thyroid Dysregulation",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Chad",
+    "city": "N'Djamena",
+    "town": "N'Djamena",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "chad",
+    "population": 704819,
+    "mobileUsers": 606016,
+    "internetUsers": 446270,
+    "genderCounts": {
+      "male": 371690,
+      "female": 333129
+    },
+    "healthIssues": [
+      "Obesity",
+      "PCOD/PCOS",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Central African Republic",
+    "city": "Bangui",
+    "town": "Bangui",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "central-african-republic",
+    "population": 105911,
+    "mobileUsers": 79167,
+    "internetUsers": 59243,
+    "genderCounts": {
+      "male": 56107,
+      "female": 49804
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Dyslipidemia",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Niger",
+    "city": "Niamey",
+    "town": "Niamey",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "niger",
+    "population": 48342,
+    "mobileUsers": 37156,
+    "internetUsers": 37153,
+    "genderCounts": {
+      "male": 24443,
+      "female": 23899
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Eritrea",
+    "city": "Asmara",
+    "town": "Asmara",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "eritrea",
+    "population": 524704,
+    "mobileUsers": 446945,
+    "internetUsers": 415233,
+    "genderCounts": {
+      "male": 253408,
+      "female": 271296
+    },
+    "healthIssues": [
+      "Obesity",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "South Sudan",
+    "city": "Juba",
+    "town": "Juba",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "south-sudan",
+    "population": 89936,
+    "mobileUsers": 78737,
+    "internetUsers": 68444,
+    "genderCounts": {
+      "male": 47579,
+      "female": 42357
+    },
+    "healthIssues": [
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Somalia",
+    "city": "Mogadishu",
+    "town": "Mogadishu",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "somalia",
+    "population": 536936,
+    "mobileUsers": 485182,
+    "internetUsers": 344302,
+    "genderCounts": {
+      "male": 260939,
+      "female": 275997
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Burundi",
+    "city": "Gitega",
+    "town": "Gitega",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "burundi",
+    "population": 635343,
+    "mobileUsers": 477902,
+    "internetUsers": 454006,
+    "genderCounts": {
+      "male": 321553,
+      "female": 313790
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Botswana",
+    "city": "Gaborone",
+    "town": "Gaborone",
+    "pincode": "123",
+    "zone": "Africa",
+    "id": "botswana",
+    "population": 403991,
+    "mobileUsers": 295835,
+    "internetUsers": 281043,
+    "genderCounts": {
+      "male": 209793,
+      "female": 194198
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Cabo Verde",
+    "city": "Praia",
+    "town": "Praia",
+    "pincode": "7600",
+    "zone": "Africa",
+    "id": "cabo-verde",
+    "population": 824225,
+    "mobileUsers": 704751,
+    "internetUsers": 577545,
+    "genderCounts": {
+      "male": 418951,
+      "female": 405274
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Australia",
+    "city": "Canberra",
+    "town": "Canberra",
+    "pincode": "2600",
+    "zone": "Oceania & Island Nations",
+    "id": "australia",
+    "population": 712849,
+    "mobileUsers": 518906,
+    "internetUsers": 419182,
+    "genderCounts": {
+      "male": 377283,
+      "female": 335566
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "New Zealand",
+    "city": "Wellington",
+    "town": "Wellington",
+    "pincode": "6011",
+    "zone": "Oceania & Island Nations",
+    "id": "new-zealand",
+    "population": 162255,
+    "mobileUsers": 148537,
+    "internetUsers": 140140,
+    "genderCounts": {
+      "male": 81688,
+      "female": 80567
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Kiribati",
+    "city": "Tarawa",
+    "town": "Tarawa",
+    "pincode": "123",
+    "zone": "Oceania & Island Nations",
+    "id": "kiribati",
+    "population": 153453,
+    "mobileUsers": 133688,
+    "internetUsers": 96424,
+    "genderCounts": {
+      "male": 80841,
+      "female": 72612
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Fiji",
+    "city": "Suva",
+    "town": "Suva",
+    "pincode": "123",
+    "zone": "Oceania & Island Nations",
+    "id": "fiji",
+    "population": 381953,
+    "mobileUsers": 327180,
+    "internetUsers": 223153,
+    "genderCounts": {
+      "male": 190897,
+      "female": 191056
+    },
+    "healthIssues": [
+      "PCOD/PCOS",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "New Caledonia",
+    "city": "Noumea",
+    "town": "Noumea",
+    "pincode": "98800",
+    "zone": "Oceania & Island Nations",
+    "id": "new-caledonia",
+    "population": 351906,
+    "mobileUsers": 263779,
+    "internetUsers": 244613,
+    "genderCounts": {
+      "male": 173902,
+      "female": 178004
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Nauru",
+    "city": "Yaren",
+    "town": "Yaren",
+    "pincode": "123",
+    "zone": "Oceania & Island Nations",
+    "id": "nauru",
+    "population": 738290,
+    "mobileUsers": 564638,
+    "internetUsers": 485205,
+    "genderCounts": {
+      "male": 386363,
+      "female": 351927
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "Dyslipidemia"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Niue",
+    "city": "Alofi",
+    "town": "Alofi",
+    "pincode": "123",
+    "zone": "Oceania & Island Nations",
+    "id": "niue",
+    "population": 784936,
+    "mobileUsers": 613709,
+    "internetUsers": 467367,
+    "genderCounts": {
+      "male": 385803,
+      "female": 399133
+    },
+    "healthIssues": [
+      "Hypertension",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Christmas Island",
+    "city": "Flying Fish Cove",
+    "town": "Flying Fish Cove",
+    "pincode": "6798",
+    "zone": "Oceania & Island Nations",
+    "id": "christmas-island",
+    "population": 808288,
+    "mobileUsers": 718452,
+    "internetUsers": 534553,
+    "genderCounts": {
+      "male": 408914,
+      "female": 399374
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Tuvalu",
+    "city": "Funafuti",
+    "town": "Funafuti",
+    "pincode": "123",
+    "zone": "Oceania & Island Nations",
+    "id": "tuvalu",
+    "population": 179811,
+    "mobileUsers": 126417,
+    "internetUsers": 120096,
+    "genderCounts": {
+      "male": 89454,
+      "female": 90357
+    },
+    "healthIssues": [
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "French Polynesia",
+    "city": "Papeete",
+    "town": "Papeete",
+    "pincode": "98714",
+    "zone": "Oceania & Island Nations",
+    "id": "french-polynesia",
+    "population": 175710,
+    "mobileUsers": 151425,
+    "internetUsers": 110731,
+    "genderCounts": {
+      "male": 88942,
+      "female": 86768
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Marshall Islands",
+    "city": "Majuro",
+    "town": "Majuro",
+    "pincode": "96960",
+    "zone": "Oceania & Island Nations",
+    "id": "marshall-islands",
+    "population": 301159,
+    "mobileUsers": 258274,
+    "internetUsers": 245360,
+    "genderCounts": {
+      "male": 150737,
+      "female": 150422
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Cook Islands",
+    "city": "Avarua",
+    "town": "Avarua",
+    "pincode": "123",
+    "zone": "Oceania & Island Nations",
+    "id": "cook-islands",
+    "population": 330987,
+    "mobileUsers": 276580,
+    "internetUsers": 189883,
+    "genderCounts": {
+      "male": 170296,
+      "female": 160691
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "Thyroid Dysregulation",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Samoa",
+    "city": "Apia",
+    "town": "Apia",
+    "pincode": "123",
+    "zone": "Oceania & Island Nations",
+    "id": "samoa",
+    "population": 398688,
+    "mobileUsers": 327758,
+    "internetUsers": 311370,
+    "genderCounts": {
+      "male": 205083,
+      "female": 193605
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Dyslipidemia",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Montserrat",
+    "city": "Plymouth",
+    "town": "Plymouth",
+    "pincode": "MSR1110",
+    "zone": "Oceania & Island Nations",
+    "id": "montserrat",
+    "population": 197938,
+    "mobileUsers": 178029,
+    "internetUsers": 145301,
+    "genderCounts": {
+      "male": 97805,
+      "female": 100133
+    },
+    "healthIssues": [
+      "Obesity",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Micronesia",
+    "city": "Palikir",
+    "town": "Palikir",
+    "pincode": "96941",
+    "zone": "Oceania & Island Nations",
+    "id": "micronesia",
+    "population": 397988,
+    "mobileUsers": 347394,
+    "internetUsers": 273619,
+    "genderCounts": {
+      "male": 205967,
+      "female": 192021
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Vanuatu",
+    "city": "Port Vila",
+    "town": "Port Vila",
+    "pincode": "123",
+    "zone": "Oceania & Island Nations",
+    "id": "vanuatu",
+    "population": 80699,
+    "mobileUsers": 73132,
+    "internetUsers": 58487,
+    "genderCounts": {
+      "male": 39680,
+      "female": 41019
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Solomon Islands",
+    "city": "Honiara",
+    "town": "Honiara",
+    "pincode": "123",
+    "zone": "Oceania & Island Nations",
+    "id": "solomon-islands",
+    "population": 280980,
+    "mobileUsers": 204785,
+    "internetUsers": 194545,
+    "genderCounts": {
+      "male": 135913,
+      "female": 145067
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Timor-Leste",
+    "city": "Dili",
+    "town": "Dili",
+    "pincode": "123",
+    "zone": "Oceania & Island Nations",
+    "id": "timor-leste",
+    "population": 257278,
+    "mobileUsers": 204318,
+    "internetUsers": 202795,
+    "genderCounts": {
+      "male": 123979,
+      "female": 133299
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Dyslipidemia",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Afghanistan",
+    "city": "Kabul",
+    "town": "Kabul",
+    "pincode": "1001",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "afghanistan",
+    "population": 428503,
+    "mobileUsers": 343348,
+    "internetUsers": 257994,
+    "genderCounts": {
+      "male": 207528,
+      "female": 220975
+    },
+    "healthIssues": [
+      "Obesity",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "United States",
+    "city": "New York City",
+    "town": "New York City",
+    "pincode": "10001",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 14845926,
+    "mobileUsers": 11488164,
+    "internetUsers": 10913755,
+    "genderCounts": {
+      "male": 7368585,
+      "female": 7477341
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Insulin Resistance",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Hong Kong",
+    "city": "Hong Kong",
+    "town": "Hong Kong",
+    "pincode": "0000",
+    "zone": "East & Southeast Asia",
+    "id": "hong-kong",
+    "population": 399973,
+    "mobileUsers": 351489,
+    "internetUsers": 332770,
+    "genderCounts": {
+      "male": 206348,
+      "female": 193625
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "China",
+    "city": "Shanghai",
+    "town": "Shanghai",
+    "pincode": "200000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 7715975,
+    "mobileUsers": 5684964,
+    "internetUsers": 5400715,
+    "genderCounts": {
+      "male": 3810241,
+      "female": 3905734
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Dyslipidemia",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "United Arab Emirates",
+    "city": "Dubai",
+    "town": "Dubai",
+    "pincode": "00000",
+    "zone": "Middle East",
+    "id": "united-arab-emirates",
+    "population": 4142612,
+    "mobileUsers": 3004088,
+    "internetUsers": 2753864,
+    "genderCounts": {
+      "male": 2048857,
+      "female": 2093755
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "United States",
+    "city": "Los Angeles",
+    "town": "Los Angeles",
+    "pincode": "90001",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 6896228,
+    "mobileUsers": 5247376,
+    "internetUsers": 4759146,
+    "genderCounts": {
+      "male": 3377476,
+      "female": 3518752
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Australia",
+    "city": "Sydney",
+    "town": "Sydney",
+    "pincode": "2000",
+    "zone": "Oceania & Island Nations",
+    "id": "australia",
+    "population": 2609528,
+    "mobileUsers": 2387421,
+    "internetUsers": 2207831,
+    "genderCounts": {
+      "male": 1270856,
+      "female": 1338672
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Dyslipidemia",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "United States",
+    "city": "Chicago",
+    "town": "Chicago",
+    "pincode": "60601",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 14165200,
+    "mobileUsers": 12848359,
+    "internetUsers": 8735170,
+    "genderCounts": {
+      "male": 7284871,
+      "female": 6880329
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Dyslipidemia"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "United States",
+    "city": "San Francisco",
+    "town": "San Francisco",
+    "pincode": "94101",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 345690,
+    "mobileUsers": 252152,
+    "internetUsers": 239544,
+    "genderCounts": {
+      "male": 168663,
+      "female": 177027
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Canada",
+    "city": "Toronto",
+    "town": "Toronto",
+    "pincode": "M5H 2N2",
+    "zone": "North America & Western Europe",
+    "id": "canada",
+    "population": 1315668,
+    "mobileUsers": 1064681,
+    "internetUsers": 941972,
+    "genderCounts": {
+      "male": 684437,
+      "female": 631231
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Australia",
+    "city": "Melbourne",
+    "town": "Melbourne",
+    "pincode": "3000",
+    "zone": "Oceania & Island Nations",
+    "id": "australia",
+    "population": 3188217,
+    "mobileUsers": 2778308,
+    "internetUsers": 2589566,
+    "genderCounts": {
+      "male": 1593150,
+      "female": 1595067
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Italy",
+    "city": "Milan",
+    "town": "Milan",
+    "pincode": "20121",
+    "zone": "North America & Western Europe",
+    "id": "italy",
+    "population": 1443879,
+    "mobileUsers": 1095924,
+    "internetUsers": 842704,
+    "genderCounts": {
+      "male": 720034,
+      "female": 723845
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Germany",
+    "city": "Frankfurt",
+    "town": "Frankfurt",
+    "pincode": "60311",
+    "zone": "North America & Western Europe",
+    "id": "germany",
+    "population": 899925,
+    "mobileUsers": 730094,
+    "internetUsers": 672569,
+    "genderCounts": {
+      "male": 462582,
+      "female": 437343
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Brazil",
+    "city": "São Paulo",
+    "town": "São Paulo",
+    "pincode": "70000-000",
+    "zone": "Latin America",
+    "id": "brazil",
+    "population": 28891,
+    "mobileUsers": 25108,
+    "internetUsers": 18727,
+    "genderCounts": {
+      "male": 15171,
+      "female": 13720
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "United States",
+    "city": "Washington, D.C.",
+    "town": "Washington, D.C.",
+    "pincode": "20001",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 35699,
+    "mobileUsers": 28010,
+    "internetUsers": 26876,
+    "genderCounts": {
+      "male": 18669,
+      "female": 17030
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "United States",
+    "city": "Boston",
+    "town": "Boston",
+    "pincode": "02108",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 1681748,
+    "mobileUsers": 1478531,
+    "internetUsers": 1193765,
+    "genderCounts": {
+      "male": 882612,
+      "female": 799136
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Switzerland",
+    "city": "Zurich",
+    "town": "Zurich",
+    "pincode": "8001",
+    "zone": "North America & Western Europe",
+    "id": "switzerland",
+    "population": 795588,
+    "mobileUsers": 565324,
+    "internetUsers": 537057,
+    "genderCounts": {
+      "male": 410097,
+      "female": 385491
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Insulin Resistance",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Germany",
+    "city": "Munich",
+    "town": "Munich",
+    "pincode": "80331",
+    "zone": "North America & Western Europe",
+    "id": "germany",
+    "population": 40271,
+    "mobileUsers": 31532,
+    "internetUsers": 24342,
+    "genderCounts": {
+      "male": 21202,
+      "female": 19069
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Türkiye",
+    "city": "Istanbul",
+    "town": "Istanbul",
+    "pincode": "06000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "türkiye",
+    "population": 4849660,
+    "mobileUsers": 3669016,
+    "internetUsers": 3663336,
+    "genderCounts": {
+      "male": 2386853,
+      "female": 2462807
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "PCOD/PCOS",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Spain",
+    "city": "Barcelona",
+    "town": "Barcelona",
+    "pincode": "08001",
+    "zone": "North America & Western Europe",
+    "id": "spain",
+    "population": 3625397,
+    "mobileUsers": 2916769,
+    "internetUsers": 2437237,
+    "genderCounts": {
+      "male": 1755559,
+      "female": 1869838
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Taiwan",
+    "city": "Taipei",
+    "town": "Taipei",
+    "pincode": "0000",
+    "zone": "East & Southeast Asia",
+    "id": "taiwan",
+    "population": 70862,
+    "mobileUsers": 58420,
+    "internetUsers": 45653,
+    "genderCounts": {
+      "male": 34766,
+      "female": 36096
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "China",
+    "city": "Shenzhen",
+    "town": "Shenzhen",
+    "pincode": "518000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 646512,
+    "mobileUsers": 574016,
+    "internetUsers": 456467,
+    "genderCounts": {
+      "male": 323455,
+      "female": 323057
+    },
+    "healthIssues": [
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "China",
+    "city": "Guangzhou",
+    "town": "Guangzhou",
+    "pincode": "510000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 301698,
+    "mobileUsers": 226340,
+    "internetUsers": 201069,
+    "genderCounts": {
+      "male": 157752,
+      "female": 143946
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "United States",
+    "city": "Miami",
+    "town": "Miami",
+    "pincode": "33101",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 1083512,
+    "mobileUsers": 775918,
+    "internetUsers": 737122,
+    "genderCounts": {
+      "male": 542039,
+      "female": 541473
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Thyroid Dysregulation",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "United States",
+    "city": "Dallas",
+    "town": "Dallas",
+    "pincode": "75201",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 343200,
+    "mobileUsers": 291732,
+    "internetUsers": 203448,
+    "genderCounts": {
+      "male": 179314,
+      "female": 163886
+    },
+    "healthIssues": [
+      "PCOD/PCOS",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "United States",
+    "city": "Atlanta",
+    "town": "Atlanta",
+    "pincode": "30301",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 412209,
+    "mobileUsers": 350077,
+    "internetUsers": 341305,
+    "genderCounts": {
+      "male": 201560,
+      "female": 210649
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Dyslipidemia"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "United States",
+    "city": "Houston",
+    "town": "Houston",
+    "pincode": "77001",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 586327,
+    "mobileUsers": 455961,
+    "internetUsers": 381212,
+    "genderCounts": {
+      "male": 307419,
+      "female": 278908
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "PCOD/PCOS",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "United States",
+    "city": "Seattle",
+    "town": "Seattle",
+    "pincode": "98101",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 2593943,
+    "mobileUsers": 2291035,
+    "internetUsers": 2006951,
+    "genderCounts": {
+      "male": 1345490,
+      "female": 1248453
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "South Africa",
+    "city": "Johannesburg",
+    "town": "Johannesburg",
+    "pincode": "0001",
+    "zone": "Africa",
+    "id": "south-africa",
+    "population": 646652,
+    "mobileUsers": 535393,
+    "internetUsers": 428031,
+    "genderCounts": {
+      "male": 330775,
+      "female": 315877
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Insulin Resistance",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Israel",
+    "city": "Tel Aviv",
+    "town": "Tel Aviv",
+    "pincode": "91000",
+    "zone": "Middle East",
+    "id": "israel",
+    "population": 896809,
+    "mobileUsers": 721532,
+    "internetUsers": 502203,
+    "genderCounts": {
+      "male": 432464,
+      "female": 464345
+    },
+    "healthIssues": [
+      "PCOD/PCOS",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Canada",
+    "city": "Vancouver",
+    "town": "Vancouver",
+    "pincode": "V6B 3H6",
+    "zone": "North America & Western Europe",
+    "id": "canada",
+    "population": 3634445,
+    "mobileUsers": 2766732,
+    "internetUsers": 2628395,
+    "genderCounts": {
+      "male": 1892404,
+      "female": 1742041
+    },
+    "healthIssues": [
+      "Obesity",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Canada",
+    "city": "Montreal",
+    "town": "Montreal",
+    "pincode": "H2Y 1Y9",
+    "zone": "North America & Western Europe",
+    "id": "canada",
+    "population": 914361,
+    "mobileUsers": 823448,
+    "internetUsers": 723527,
+    "genderCounts": {
+      "male": 483956,
+      "female": 430405
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Switzerland",
+    "city": "Geneva",
+    "town": "Geneva",
+    "pincode": "1201",
+    "zone": "North America & Western Europe",
+    "id": "switzerland",
+    "population": 277522,
+    "mobileUsers": 210027,
+    "internetUsers": 157104,
+    "genderCounts": {
+      "male": 144440,
+      "female": 133082
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Insulin Resistance",
+      "Dyslipidemia"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Germany",
+    "city": "Hamburg",
+    "town": "Hamburg",
+    "pincode": "20095",
+    "zone": "North America & Western Europe",
+    "id": "germany",
+    "population": 510500,
+    "mobileUsers": 367494,
+    "internetUsers": 285435,
+    "genderCounts": {
+      "male": 268312,
+      "female": 242188
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Dyslipidemia",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Germany",
+    "city": "Dusseldorf",
+    "town": "Dusseldorf",
+    "pincode": "40210",
+    "zone": "North America & Western Europe",
+    "id": "germany",
+    "population": 257843,
+    "mobileUsers": 186357,
+    "internetUsers": 177039,
+    "genderCounts": {
+      "male": 131010,
+      "female": 126833
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "PCOD/PCOS",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "United States",
+    "city": "Austin",
+    "town": "Austin",
+    "pincode": "78701",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 241045,
+    "mobileUsers": 188301,
+    "internetUsers": 179049,
+    "genderCounts": {
+      "male": 120901,
+      "female": 120144
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "United States",
+    "city": "Denver",
+    "town": "Denver",
+    "pincode": "80201",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 872631,
+    "mobileUsers": 637518,
+    "internetUsers": 605642,
+    "genderCounts": {
+      "male": 428493,
+      "female": 444138
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Insulin Resistance",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "United States",
+    "city": "Philadelphia",
+    "town": "Philadelphia",
+    "pincode": "19101",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 615785,
+    "mobileUsers": 480356,
+    "internetUsers": 408821,
+    "genderCounts": {
+      "male": 321165,
+      "female": 294620
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "United States",
+    "city": "San Diego",
+    "town": "San Diego",
+    "pincode": "92101",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 76641,
+    "mobileUsers": 66756,
+    "internetUsers": 46024,
+    "genderCounts": {
+      "male": 37582,
+      "female": 39059
+    },
+    "healthIssues": [
+      "Obesity",
+      "PCOD/PCOS",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "United States",
+    "city": "Minneapolis",
+    "town": "Minneapolis",
+    "pincode": "55401",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 630435,
+    "mobileUsers": 515858,
+    "internetUsers": 470657,
+    "genderCounts": {
+      "male": 312399,
+      "female": 318036
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "United States",
+    "city": "Phoenix",
+    "town": "Phoenix",
+    "pincode": "85001",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 165691,
+    "mobileUsers": 149151,
+    "internetUsers": 100070,
+    "genderCounts": {
+      "male": 84891,
+      "female": 80800
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Dyslipidemia",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Australia",
+    "city": "Brisbane",
+    "town": "Brisbane",
+    "pincode": "4000",
+    "zone": "Oceania & Island Nations",
+    "id": "australia",
+    "population": 108783,
+    "mobileUsers": 79325,
+    "internetUsers": 75358,
+    "genderCounts": {
+      "male": 55145,
+      "female": 53638
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Australia",
+    "city": "Perth",
+    "town": "Perth",
+    "pincode": "6000",
+    "zone": "Oceania & Island Nations",
+    "id": "australia",
+    "population": 477953,
+    "mobileUsers": 425864,
+    "internetUsers": 318437,
+    "genderCounts": {
+      "male": 237833,
+      "female": 240120
+    },
+    "healthIssues": [
+      "Obesity",
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "New Zealand",
+    "city": "Auckland",
+    "town": "Auckland",
+    "pincode": "1010",
+    "zone": "Oceania & Island Nations",
+    "id": "new-zealand",
+    "population": 788640,
+    "mobileUsers": 625450,
+    "internetUsers": 594177,
+    "genderCounts": {
+      "male": 413865,
+      "female": 374775
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "Thyroid Dysregulation",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Vietnam",
+    "city": "Ho Chi Minh City",
+    "town": "Ho Chi Minh City",
+    "pincode": "70000",
+    "zone": "East & Southeast Asia",
+    "id": "vietnam",
+    "population": 678452,
+    "mobileUsers": 580285,
+    "internetUsers": 381120,
+    "genderCounts": {
+      "male": 336774,
+      "female": 341678
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "China",
+    "city": "Chengdu",
+    "town": "Chengdu",
+    "pincode": "610000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 746190,
+    "mobileUsers": 569379,
+    "internetUsers": 540910,
+    "genderCounts": {
+      "male": 361536,
+      "female": 384654
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Dyslipidemia",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "China",
+    "city": "Hangzhou",
+    "town": "Hangzhou",
+    "pincode": "310000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 332721,
+    "mobileUsers": 285126,
+    "internetUsers": 206631,
+    "genderCounts": {
+      "male": 173886,
+      "female": 158835
+    },
+    "healthIssues": [
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "China",
+    "city": "Wuhan",
+    "town": "Wuhan",
+    "pincode": "430000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 50735,
+    "mobileUsers": 41149,
+    "internetUsers": 39091,
+    "genderCounts": {
+      "male": 25227,
+      "female": 25508
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Dyslipidemia",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "China",
+    "city": "Chongqing",
+    "town": "Chongqing",
+    "pincode": "400000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 394543,
+    "mobileUsers": 322685,
+    "internetUsers": 287762,
+    "genderCounts": {
+      "male": 191809,
+      "female": 202734
+    },
+    "healthIssues": [
+      "Hypertension",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "China",
+    "city": "Nanjing",
+    "town": "Nanjing",
+    "pincode": "210000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 533725,
+    "mobileUsers": 380975,
+    "internetUsers": 333616,
+    "genderCounts": {
+      "male": 275704,
+      "female": 258021
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "China",
+    "city": "Tianjin",
+    "town": "Tianjin",
+    "pincode": "300000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 323015,
+    "mobileUsers": 285385,
+    "internetUsers": 249679,
+    "genderCounts": {
+      "male": 156347,
+      "female": 166668
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Japan",
+    "city": "Osaka",
+    "town": "Osaka",
+    "pincode": "530-0001",
+    "zone": "East & Southeast Asia",
+    "id": "japan",
+    "population": 822244,
+    "mobileUsers": 717173,
+    "internetUsers": 603532,
+    "genderCounts": {
+      "male": 420580,
+      "female": 401664
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Hypertension"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Japan",
+    "city": "Fukuoka",
+    "town": "Fukuoka",
+    "pincode": "810-0001",
+    "zone": "East & Southeast Asia",
+    "id": "japan",
+    "population": 786207,
+    "mobileUsers": 677512,
+    "internetUsers": 477251,
+    "genderCounts": {
+      "male": 388079,
+      "female": 398128
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Japan",
+    "city": "Nagoya",
+    "town": "Nagoya",
+    "pincode": "460-0001",
+    "zone": "East & Southeast Asia",
+    "id": "japan",
+    "population": 869756,
+    "mobileUsers": 735134,
+    "internetUsers": 555923,
+    "genderCounts": {
+      "male": 460832,
+      "female": 408924
+    },
+    "healthIssues": [
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "South Africa",
+    "city": "Cape Town",
+    "town": "Cape Town",
+    "pincode": "0001",
+    "zone": "Africa",
+    "id": "south-africa",
+    "population": 630345,
+    "mobileUsers": 459602,
+    "internetUsers": 455688,
+    "genderCounts": {
+      "male": 306434,
+      "female": 323911
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Dyslipidemia"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Morocco",
+    "city": "Casablanca",
+    "town": "Casablanca",
+    "pincode": "10000",
+    "zone": "Middle East",
+    "id": "morocco",
+    "population": 431681,
+    "mobileUsers": 346529,
+    "internetUsers": 325378,
+    "genderCounts": {
+      "male": 212265,
+      "female": 219416
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Nigeria",
+    "city": "Lagos",
+    "town": "Lagos",
+    "pincode": "0000",
+    "zone": "Africa",
+    "id": "nigeria",
+    "population": 652122,
+    "mobileUsers": 463459,
+    "internetUsers": 440286,
+    "genderCounts": {
+      "male": 338165,
+      "female": 313957
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Insulin Resistance",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "France",
+    "city": "Lyon",
+    "town": "Lyon",
+    "pincode": "75001",
+    "zone": "North America & Western Europe",
+    "id": "france",
+    "population": 96561,
+    "mobileUsers": 69648,
+    "internetUsers": 66165,
+    "genderCounts": {
+      "male": 48973,
+      "female": 47588
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "United Kingdom",
+    "city": "Birmingham",
+    "town": "Birmingham",
+    "pincode": "SW1A 1AA",
+    "zone": "North America & Western Europe",
+    "id": "united-kingdom",
+    "population": 1238146,
+    "mobileUsers": 883941,
+    "internetUsers": 839743,
+    "genderCounts": {
+      "male": 647945,
+      "female": 590201
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "United Kingdom",
+    "city": "Manchester",
+    "town": "Manchester",
+    "pincode": "SW1A 1AA",
+    "zone": "North America & Western Europe",
+    "id": "united-kingdom",
+    "population": 2924141,
+    "mobileUsers": 2064036,
+    "internetUsers": 1960834,
+    "genderCounts": {
+      "male": 1514794,
+      "female": 1409347
+    },
+    "healthIssues": [
+      "Obesity",
+      "PCOD/PCOS",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "United Kingdom",
+    "city": "Edinburgh",
+    "town": "Edinburgh",
+    "pincode": "SW1A 1AA",
+    "zone": "North America & Western Europe",
+    "id": "united-kingdom",
+    "population": 910660,
+    "mobileUsers": 696056,
+    "internetUsers": 686044,
+    "genderCounts": {
+      "male": 457768,
+      "female": 452892
+    },
+    "healthIssues": [
+      "Obesity",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Netherlands",
+    "city": "Rotterdam",
+    "town": "Rotterdam",
+    "pincode": "1012 JS",
+    "zone": "North America & Western Europe",
+    "id": "netherlands",
+    "population": 420284,
+    "mobileUsers": 312920,
+    "internetUsers": 297274,
+    "genderCounts": {
+      "male": 202554,
+      "female": 217730
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Insulin Resistance",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Belgium",
+    "city": "Antwerp",
+    "town": "Antwerp",
+    "pincode": "1000",
+    "zone": "North America & Western Europe",
+    "id": "belgium",
+    "population": 336203,
+    "mobileUsers": 248970,
+    "internetUsers": 236521,
+    "genderCounts": {
+      "male": 168678,
+      "female": 167525
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Germany",
+    "city": "Stuttgart",
+    "town": "Stuttgart",
+    "pincode": "70173",
+    "zone": "North America & Western Europe",
+    "id": "germany",
+    "population": 570877,
+    "mobileUsers": 430238,
+    "internetUsers": 408726,
+    "genderCounts": {
+      "male": 278243,
+      "female": 292634
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Germany",
+    "city": "Cologne",
+    "town": "Cologne",
+    "pincode": "50667",
+    "zone": "North America & Western Europe",
+    "id": "germany",
+    "population": 151415,
+    "mobileUsers": 106141,
+    "internetUsers": 100833,
+    "genderCounts": {
+      "male": 78239,
+      "female": 73176
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Canada",
+    "city": "Calgary",
+    "town": "Calgary",
+    "pincode": "T2P 2M5",
+    "zone": "North America & Western Europe",
+    "id": "canada",
+    "population": 895218,
+    "mobileUsers": 821955,
+    "internetUsers": 760861,
+    "genderCounts": {
+      "male": 469965,
+      "female": 425253
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Canada",
+    "city": "Edmonton",
+    "town": "Edmonton",
+    "pincode": "T5J 2R7",
+    "zone": "North America & Western Europe",
+    "id": "canada",
+    "population": 812666,
+    "mobileUsers": 599508,
+    "internetUsers": 536939,
+    "genderCounts": {
+      "male": 425522,
+      "female": 387144
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "United States",
+    "city": "Detroit",
+    "town": "Detroit",
+    "pincode": "48201",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 688509,
+    "mobileUsers": 606899,
+    "internetUsers": 502217,
+    "genderCounts": {
+      "male": 350551,
+      "female": 337958
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "United States",
+    "city": "St. Louis",
+    "town": "St. Louis",
+    "pincode": "63101",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 65498,
+    "mobileUsers": 51446,
+    "internetUsers": 40702,
+    "genderCounts": {
+      "male": 33568,
+      "female": 31930
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "United States",
+    "city": "Tampa",
+    "town": "Tampa",
+    "pincode": "33601",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 580792,
+    "mobileUsers": 433028,
+    "internetUsers": 411376,
+    "genderCounts": {
+      "male": 292720,
+      "female": 288072
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "United States",
+    "city": "Charlotte",
+    "town": "Charlotte",
+    "pincode": "28201",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 492763,
+    "mobileUsers": 387794,
+    "internetUsers": 291846,
+    "genderCounts": {
+      "male": 241928,
+      "female": 250835
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Dyslipidemia",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "United States",
+    "city": "Orlando",
+    "town": "Orlando",
+    "pincode": "32801",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 598569,
+    "mobileUsers": 462106,
+    "internetUsers": 439000,
+    "genderCounts": {
+      "male": 289249,
+      "female": 309320
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Insulin Resistance",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "United States",
+    "city": "Portland, OR",
+    "town": "Portland, OR",
+    "pincode": "97201",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 431446,
+    "mobileUsers": 365516,
+    "internetUsers": 272212,
+    "genderCounts": {
+      "male": 212872,
+      "female": 218574
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "United States",
+    "city": "Baltimore",
+    "town": "Baltimore",
+    "pincode": "21201",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 839319,
+    "mobileUsers": 743921,
+    "internetUsers": 471759,
+    "genderCounts": {
+      "male": 427977,
+      "female": 411342
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "United States",
+    "city": "San Jose",
+    "town": "San Jose",
+    "pincode": "95101",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 155657,
+    "mobileUsers": 130244,
+    "internetUsers": 97016,
+    "genderCounts": {
+      "male": 77810,
+      "female": 77847
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "Dyslipidemia"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "United States",
+    "city": "Sacramento",
+    "town": "Sacramento",
+    "pincode": "95814",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 735476,
+    "mobileUsers": 611115,
+    "internetUsers": 518779,
+    "genderCounts": {
+      "male": 366060,
+      "female": 369416
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "United States",
+    "city": "Las Vegas",
+    "town": "Las Vegas",
+    "pincode": "89101",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 106236,
+    "mobileUsers": 78462,
+    "internetUsers": 74538,
+    "genderCounts": {
+      "male": 56220,
+      "female": 50016
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "United States",
+    "city": "Salt Lake City",
+    "town": "Salt Lake City",
+    "pincode": "84101",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 461517,
+    "mobileUsers": 400904,
+    "internetUsers": 336258,
+    "genderCounts": {
+      "male": 232816,
+      "female": 228701
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Mexico",
+    "city": "Monterrey",
+    "town": "Monterrey",
+    "pincode": "01000",
+    "zone": "Latin America",
+    "id": "mexico",
+    "population": 602605,
+    "mobileUsers": 530038,
+    "internetUsers": 332282,
+    "genderCounts": {
+      "male": 313323,
+      "female": 289282
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Mexico",
+    "city": "Guadalajara",
+    "town": "Guadalajara",
+    "pincode": "01000",
+    "zone": "Latin America",
+    "id": "mexico",
+    "population": 246069,
+    "mobileUsers": 220396,
+    "internetUsers": 162079,
+    "genderCounts": {
+      "male": 121059,
+      "female": 125010
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Brazil",
+    "city": "Rio de Janeiro",
+    "town": "Rio de Janeiro",
+    "pincode": "70000-000",
+    "zone": "Latin America",
+    "id": "brazil",
+    "population": 714415,
+    "mobileUsers": 537566,
+    "internetUsers": 536343,
+    "genderCounts": {
+      "male": 348766,
+      "female": 365649
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Thyroid Dysregulation",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Ukraine",
+    "city": "Kiev",
+    "town": "Kiev",
+    "pincode": "01001",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "ukraine",
+    "population": 711699,
+    "mobileUsers": 560463,
+    "internetUsers": 515194,
+    "genderCounts": {
+      "male": 367383,
+      "female": 344316
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "town": "Almaty",
+    "pincode": "010000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "kazakhstan",
+    "population": 94082,
+    "mobileUsers": 70203,
+    "internetUsers": 68506,
+    "genderCounts": {
+      "male": 46040,
+      "female": 48042
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Azerbaijan",
+    "city": "Baku",
+    "town": "Baku",
+    "pincode": "0000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "azerbaijan",
+    "population": 600189,
+    "mobileUsers": 484686,
+    "internetUsers": 460451,
+    "genderCounts": {
+      "male": 295781,
+      "female": 304408
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "Dyslipidemia"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Pakistan",
+    "city": "Karachi",
+    "town": "Karachi",
+    "pincode": "74200",
+    "zone": "South Asia",
+    "id": "pakistan",
+    "population": 60035,
+    "mobileUsers": 46599,
+    "internetUsers": 35311,
+    "genderCounts": {
+      "male": 30675,
+      "female": 29360
+    },
+    "healthIssues": [
+      "Obesity",
+      "PCOD/PCOS",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Pakistan",
+    "city": "Lahore",
+    "town": "Lahore",
+    "pincode": "54000",
+    "zone": "South Asia",
+    "id": "pakistan",
+    "population": 76458,
+    "mobileUsers": 65370,
+    "internetUsers": 57754,
+    "genderCounts": {
+      "male": 39711,
+      "female": 36747
+    },
+    "healthIssues": [
+      "Thyroid Dysregulation",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "China",
+    "city": "Xian",
+    "town": "Xian",
+    "pincode": "710000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 391905,
+    "mobileUsers": 348298,
+    "internetUsers": 216429,
+    "genderCounts": {
+      "male": 193067,
+      "female": 198838
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Insulin Resistance",
+      "Dyslipidemia"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "China",
+    "city": "Suzhou",
+    "town": "Suzhou",
+    "pincode": "215000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 914422,
+    "mobileUsers": 794476,
+    "internetUsers": 754752,
+    "genderCounts": {
+      "male": 476473,
+      "female": 437949
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "China",
+    "city": "Qingdao",
+    "town": "Qingdao",
+    "pincode": "266000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 32302,
+    "mobileUsers": 24246,
+    "internetUsers": 18091,
+    "genderCounts": {
+      "male": 16865,
+      "female": 15437
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "China",
+    "city": "Dalian",
+    "town": "Dalian",
+    "pincode": "116000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 171106,
+    "mobileUsers": 140468,
+    "internetUsers": 133444,
+    "genderCounts": {
+      "male": 89365,
+      "female": 81741
+    },
+    "healthIssues": [
+      "Thyroid Dysregulation",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "China",
+    "city": "Changsha",
+    "town": "Changsha",
+    "pincode": "410000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 823100,
+    "mobileUsers": 695925,
+    "internetUsers": 661128,
+    "genderCounts": {
+      "male": 396667,
+      "female": 426433
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "China",
+    "city": "Ningbo",
+    "town": "Ningbo",
+    "pincode": "315000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 683449,
+    "mobileUsers": 544057,
+    "internetUsers": 516854,
+    "genderCounts": {
+      "male": 341532,
+      "female": 341917
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "China",
+    "city": "Zhengzhou",
+    "town": "Zhengzhou",
+    "pincode": "450000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 737002,
+    "mobileUsers": 608890,
+    "internetUsers": 598391,
+    "genderCounts": {
+      "male": 364595,
+      "female": 372407
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "China",
+    "city": "Shenyang",
+    "town": "Shenyang",
+    "pincode": "110000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 789443,
+    "mobileUsers": 649180,
+    "internetUsers": 612747,
+    "genderCounts": {
+      "male": 405266,
+      "female": 384177
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "China",
+    "city": "Hefei",
+    "town": "Hefei",
+    "pincode": "230000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 138774,
+    "mobileUsers": 119771,
+    "internetUsers": 87338,
+    "genderCounts": {
+      "male": 70482,
+      "female": 68292
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Dyslipidemia"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "China",
+    "city": "Fuzhou",
+    "town": "Fuzhou",
+    "pincode": "350000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 790352,
+    "mobileUsers": 658355,
+    "internetUsers": 600727,
+    "genderCounts": {
+      "male": 402468,
+      "female": 387884
+    },
+    "healthIssues": [
+      "Thyroid Dysregulation",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "China",
+    "city": "Wuxi",
+    "town": "Wuxi",
+    "pincode": "214000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 158800,
+    "mobileUsers": 120460,
+    "internetUsers": 103288,
+    "genderCounts": {
+      "male": 81255,
+      "female": 77545
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Dyslipidemia",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "China",
+    "city": "Xiamen",
+    "town": "Xiamen",
+    "pincode": "361000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 667520,
+    "mobileUsers": 513037,
+    "internetUsers": 487385,
+    "genderCounts": {
+      "male": 347309,
+      "female": 320211
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "China",
+    "city": "Dongguan",
+    "town": "Dongguan",
+    "pincode": "523000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 765616,
+    "mobileUsers": 676448,
+    "internetUsers": 558011,
+    "genderCounts": {
+      "male": 368061,
+      "female": 397555
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "China",
+    "city": "Foshan",
+    "town": "Foshan",
+    "pincode": "528000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 411403,
+    "mobileUsers": 371611,
+    "internetUsers": 356996,
+    "genderCounts": {
+      "male": 202988,
+      "female": 208415
+    },
+    "healthIssues": [
+      "Obesity",
+      "Insulin Resistance",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "China",
+    "city": "Harbin",
+    "town": "Harbin",
+    "pincode": "150000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 592486,
+    "mobileUsers": 517450,
+    "internetUsers": 450968,
+    "genderCounts": {
+      "male": 312866,
+      "female": 279620
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "PCOD/PCOS",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "China",
+    "city": "Jinan",
+    "town": "Jinan",
+    "pincode": "250000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 313885,
+    "mobileUsers": 262112,
+    "internetUsers": 217270,
+    "genderCounts": {
+      "male": 163715,
+      "female": 150170
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Dyslipidemia",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "China",
+    "city": "Kunming",
+    "town": "Kunming",
+    "pincode": "650000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 638856,
+    "mobileUsers": 533307,
+    "internetUsers": 466418,
+    "genderCounts": {
+      "male": 334479,
+      "female": 304377
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "South Korea",
+    "city": "Incheon",
+    "town": "Incheon",
+    "pincode": "22332",
+    "zone": "East & Southeast Asia",
+    "id": "south-korea",
+    "population": 679376,
+    "mobileUsers": 533269,
+    "internetUsers": 473097,
+    "genderCounts": {
+      "male": 346971,
+      "female": 332405
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "South Korea",
+    "city": "Busan",
+    "town": "Busan",
+    "pincode": "47000",
+    "zone": "East & Southeast Asia",
+    "id": "south-korea",
+    "population": 719232,
+    "mobileUsers": 649821,
+    "internetUsers": 617310,
+    "genderCounts": {
+      "male": 365208,
+      "female": 354024
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Taiwan",
+    "city": "Kaohsiung",
+    "town": "Kaohsiung",
+    "pincode": "800",
+    "zone": "East & Southeast Asia",
+    "id": "taiwan",
+    "population": 920106,
+    "mobileUsers": 814370,
+    "internetUsers": 624161,
+    "genderCounts": {
+      "male": 469865,
+      "female": 450241
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Japan",
+    "city": "Sapporo",
+    "town": "Sapporo",
+    "pincode": "060-0001",
+    "zone": "East & Southeast Asia",
+    "id": "japan",
+    "population": 812291,
+    "mobileUsers": 570450,
+    "internetUsers": 464522,
+    "genderCounts": {
+      "male": 424754,
+      "female": 387537
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Japan",
+    "city": "Kyoto",
+    "town": "Kyoto",
+    "pincode": "600-0001",
+    "zone": "East & Southeast Asia",
+    "id": "japan",
+    "population": 53777,
+    "mobileUsers": 41213,
+    "internetUsers": 32212,
+    "genderCounts": {
+      "male": 27173,
+      "female": 26604
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Thyroid Dysregulation",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Japan",
+    "city": "Yokohama",
+    "town": "Yokohama",
+    "pincode": "220-0011",
+    "zone": "East & Southeast Asia",
+    "id": "japan",
+    "population": 243765,
+    "mobileUsers": 205308,
+    "internetUsers": 195042,
+    "genderCounts": {
+      "male": 119501,
+      "female": 124264
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Japan",
+    "city": "Kobe",
+    "town": "Kobe",
+    "pincode": "650-0011",
+    "zone": "East & Southeast Asia",
+    "id": "japan",
+    "population": 653820,
+    "mobileUsers": 585400,
+    "internetUsers": 409560,
+    "genderCounts": {
+      "male": 343824,
+      "female": 309996
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Japan",
+    "city": "Saitama",
+    "town": "Saitama",
+    "pincode": "330-0061",
+    "zone": "East & Southeast Asia",
+    "id": "japan",
+    "population": 624375,
+    "mobileUsers": 510452,
+    "internetUsers": 491287,
+    "genderCounts": {
+      "male": 326604,
+      "female": 297771
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Australia",
+    "city": "Adelaide",
+    "town": "Adelaide",
+    "pincode": "5000",
+    "zone": "Oceania & Island Nations",
+    "id": "australia",
+    "population": 846189,
+    "mobileUsers": 689482,
+    "internetUsers": 628845,
+    "genderCounts": {
+      "male": 407732,
+      "female": 438457
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "New Zealand",
+    "city": "Christchurch",
+    "town": "Christchurch",
+    "pincode": "8011",
+    "zone": "Oceania & Island Nations",
+    "id": "new-zealand",
+    "population": 153654,
+    "mobileUsers": 114465,
+    "internetUsers": 106254,
+    "genderCounts": {
+      "male": 79638,
+      "female": 74016
+    },
+    "healthIssues": [
+      "Obesity",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Bangladesh",
+    "city": "Chittagong",
+    "town": "Chittagong",
+    "pincode": "4000",
+    "zone": "South Asia",
+    "id": "bangladesh",
+    "population": 628608,
+    "mobileUsers": 542107,
+    "internetUsers": 368579,
+    "genderCounts": {
+      "male": 303254,
+      "female": 325354
+    },
+    "healthIssues": [
+      "Thyroid Dysregulation",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Myanmar",
+    "city": "Yangon",
+    "town": "Yangon",
+    "pincode": "15011",
+    "zone": "East & Southeast Asia",
+    "id": "myanmar",
+    "population": 41819,
+    "mobileUsers": 37772,
+    "internetUsers": 24639,
+    "genderCounts": {
+      "male": 21240,
+      "female": 20579
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Dyslipidemia",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Thailand",
+    "city": "Chiang Mai",
+    "town": "Chiang Mai",
+    "pincode": "50000",
+    "zone": "East & Southeast Asia",
+    "id": "thailand",
+    "population": 153293,
+    "mobileUsers": 113830,
+    "internetUsers": 108138,
+    "genderCounts": {
+      "male": 78438,
+      "female": 74855
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "PCOD/PCOS",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Malaysia",
+    "city": "Penang",
+    "town": "Penang",
+    "pincode": "10000",
+    "zone": "East & Southeast Asia",
+    "id": "malaysia",
+    "population": 133722,
+    "mobileUsers": 114316,
+    "internetUsers": 83367,
+    "genderCounts": {
+      "male": 67204,
+      "female": 66518
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Malaysia",
+    "city": "Johor Bahru",
+    "town": "Johor Bahru",
+    "pincode": "80000",
+    "zone": "East & Southeast Asia",
+    "id": "malaysia",
+    "population": 922473,
+    "mobileUsers": 783776,
+    "internetUsers": 559206,
+    "genderCounts": {
+      "male": 455784,
+      "female": 466689
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Indonesia",
+    "city": "Surabaya",
+    "town": "Surabaya",
+    "pincode": "60111",
+    "zone": "East & Southeast Asia",
+    "id": "indonesia",
+    "population": 417003,
+    "mobileUsers": 325001,
+    "internetUsers": 321036,
+    "genderCounts": {
+      "male": 212830,
+      "female": 204173
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Hypertension",
+      "Insulin Resistance",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Indonesia",
+    "city": "Bandung",
+    "town": "Bandung",
+    "pincode": "40111",
+    "zone": "East & Southeast Asia",
+    "id": "indonesia",
+    "population": 386764,
+    "mobileUsers": 313427,
+    "internetUsers": 297755,
+    "genderCounts": {
+      "male": 198215,
+      "female": 188549
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "PCOD/PCOS",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Philippines",
+    "city": "Cebu",
+    "town": "Cebu",
+    "pincode": "6000",
+    "zone": "East & Southeast Asia",
+    "id": "philippines",
+    "population": 776871,
+    "mobileUsers": 619886,
+    "internetUsers": 446947,
+    "genderCounts": {
+      "male": 385372,
+      "female": 391499
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Vietnam",
+    "city": "Danang",
+    "town": "Danang",
+    "pincode": "550000",
+    "zone": "East & Southeast Asia",
+    "id": "vietnam",
+    "population": 751850,
+    "mobileUsers": 559309,
+    "internetUsers": 455216,
+    "genderCounts": {
+      "male": 386581,
+      "female": 365269
+    },
+    "healthIssues": [
+      "Obesity",
+      "PCOD/PCOS",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Türkiye",
+    "city": "Izmir",
+    "town": "Izmir",
+    "pincode": "06000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "türkiye",
+    "population": 140881,
+    "mobileUsers": 123108,
+    "internetUsers": 78764,
+    "genderCounts": {
+      "male": 73003,
+      "female": 67878
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Dyslipidemia",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "town": "Jeddah",
+    "pincode": "21577",
+    "zone": "Middle East",
+    "id": "saudi-arabia",
+    "population": 1923895,
+    "mobileUsers": 1692493,
+    "internetUsers": 1560592,
+    "genderCounts": {
+      "male": 943089,
+      "female": 980806
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Saudi Arabia",
+    "city": "Dammam",
+    "town": "Dammam",
+    "pincode": "31411",
+    "zone": "Middle East",
+    "id": "saudi-arabia",
+    "population": 582367,
+    "mobileUsers": 451615,
+    "internetUsers": 351903,
+    "genderCounts": {
+      "male": 298780,
+      "female": 283587
+    },
+    "healthIssues": [
+      "Obesity",
+      "Insulin Resistance",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "United Arab Emirates",
+    "city": "Sharjah",
+    "town": "Sharjah",
+    "pincode": "00000",
+    "zone": "Middle East",
+    "id": "united-arab-emirates",
+    "population": 371990,
+    "mobileUsers": 276834,
+    "internetUsers": 209473,
+    "genderCounts": {
+      "male": 179900,
+      "female": 192090
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Iraq",
+    "city": "Erbil",
+    "town": "Erbil",
+    "pincode": "44001",
+    "zone": "Middle East",
+    "id": "iraq",
+    "population": 870360,
+    "mobileUsers": 743409,
+    "internetUsers": 671557,
+    "genderCounts": {
+      "male": 435638,
+      "female": 434722
+    },
+    "healthIssues": [
+      "Hypertension",
+      "PCOD/PCOS",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Russia",
+    "city": "St. Petersburg",
+    "town": "St. Petersburg",
+    "pincode": "190000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "russia",
+    "population": 157125,
+    "mobileUsers": 138544,
+    "internetUsers": 99868,
+    "genderCounts": {
+      "male": 81801,
+      "female": 75324
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Insulin Resistance",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Russia",
+    "city": "Novosibirsk",
+    "town": "Novosibirsk",
+    "pincode": "630000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "russia",
+    "population": 756649,
+    "mobileUsers": 607301,
+    "internetUsers": 437616,
+    "genderCounts": {
+      "male": 366931,
+      "female": 389718
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Russia",
+    "city": "Yekaterinburg",
+    "town": "Yekaterinburg",
+    "pincode": "620000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "russia",
+    "population": 683518,
+    "mobileUsers": 592056,
+    "internetUsers": 461965,
+    "genderCounts": {
+      "male": 334288,
+      "female": 349230
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Poland",
+    "city": "Krakow",
+    "town": "Krakow",
+    "pincode": "30-001",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "poland",
+    "population": 46044,
+    "mobileUsers": 38253,
+    "internetUsers": 25569,
+    "genderCounts": {
+      "male": 23100,
+      "female": 22944
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Dyslipidemia",
+      "Thyroid Dysregulation",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Poland",
+    "city": "Wroclaw",
+    "town": "Wroclaw",
+    "pincode": "50-001",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "poland",
+    "population": 539856,
+    "mobileUsers": 398648,
+    "internetUsers": 378715,
+    "genderCounts": {
+      "male": 266579,
+      "female": 273277
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Poland",
+    "city": "Poznan",
+    "town": "Poznan",
+    "pincode": "60-001",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "poland",
+    "population": 571355,
+    "mobileUsers": 418226,
+    "internetUsers": 397314,
+    "genderCounts": {
+      "male": 288653,
+      "female": 282702
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Sweden",
+    "city": "Gothenburg",
+    "town": "Gothenburg",
+    "pincode": "411 01",
+    "zone": "North America & Western Europe",
+    "id": "sweden",
+    "population": 751779,
+    "mobileUsers": 627998,
+    "internetUsers": 602616,
+    "genderCounts": {
+      "male": 371434,
+      "female": 380345
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Dyslipidemia",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Sweden",
+    "city": "Malmo",
+    "town": "Malmo",
+    "pincode": "211 15",
+    "zone": "North America & Western Europe",
+    "id": "sweden",
+    "population": 614839,
+    "mobileUsers": 538463,
+    "internetUsers": 529841,
+    "genderCounts": {
+      "male": 320860,
+      "female": 293979
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Norway",
+    "city": "Bergen",
+    "town": "Bergen",
+    "pincode": "5003",
+    "zone": "North America & Western Europe",
+    "id": "norway",
+    "population": 675614,
+    "mobileUsers": 515515,
+    "internetUsers": 483688,
+    "genderCounts": {
+      "male": 333872,
+      "female": 341742
+    },
+    "healthIssues": [
+      "Obesity",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Denmark",
+    "city": "Aarhus",
+    "town": "Aarhus",
+    "pincode": "8000",
+    "zone": "North America & Western Europe",
+    "id": "denmark",
+    "population": 215475,
+    "mobileUsers": 161994,
+    "internetUsers": 153894,
+    "genderCounts": {
+      "male": 110682,
+      "female": 104793
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "United Kingdom",
+    "city": "Glasgow",
+    "town": "Glasgow",
+    "pincode": "G1 1HE",
+    "zone": "North America & Western Europe",
+    "id": "united-kingdom",
+    "population": 406307,
+    "mobileUsers": 364602,
+    "internetUsers": 287152,
+    "genderCounts": {
+      "male": 208687,
+      "female": 197620
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Thyroid Dysregulation",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "United Kingdom",
+    "city": "Leeds",
+    "town": "Leeds",
+    "pincode": "LS1 1UR",
+    "zone": "North America & Western Europe",
+    "id": "united-kingdom",
+    "population": 558325,
+    "mobileUsers": 446623,
+    "internetUsers": 383946,
+    "genderCounts": {
+      "male": 270862,
+      "female": 287463
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "United Kingdom",
+    "city": "Liverpool",
+    "town": "Liverpool",
+    "pincode": "L1 1DE",
+    "zone": "North America & Western Europe",
+    "id": "united-kingdom",
+    "population": 731169,
+    "mobileUsers": 610035,
+    "internetUsers": 559643,
+    "genderCounts": {
+      "male": 356238,
+      "female": 374931
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "United Kingdom",
+    "city": "Bristol",
+    "town": "Bristol",
+    "pincode": "BS1 1LT",
+    "zone": "North America & Western Europe",
+    "id": "united-kingdom",
+    "population": 106990,
+    "mobileUsers": 80651,
+    "internetUsers": 67832,
+    "genderCounts": {
+      "male": 52763,
+      "female": 54227
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "United Kingdom",
+    "city": "Newcastle",
+    "town": "Newcastle",
+    "pincode": "NE1 1AD",
+    "zone": "North America & Western Europe",
+    "id": "united-kingdom",
+    "population": 558381,
+    "mobileUsers": 440782,
+    "internetUsers": 374734,
+    "genderCounts": {
+      "male": 287891,
+      "female": 270490
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "France",
+    "city": "Marseille",
+    "town": "Marseille",
+    "pincode": "13001",
+    "zone": "North America & Western Europe",
+    "id": "france",
+    "population": 168811,
+    "mobileUsers": 140793,
+    "internetUsers": 121846,
+    "genderCounts": {
+      "male": 88669,
+      "female": 80142
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "France",
+    "city": "Nice",
+    "town": "Nice",
+    "pincode": "06000",
+    "zone": "North America & Western Europe",
+    "id": "france",
+    "population": 414343,
+    "mobileUsers": 342534,
+    "internetUsers": 288294,
+    "genderCounts": {
+      "male": 202744,
+      "female": 211599
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "France",
+    "city": "Toulouse",
+    "town": "Toulouse",
+    "pincode": "31000",
+    "zone": "North America & Western Europe",
+    "id": "france",
+    "population": 126568,
+    "mobileUsers": 91518,
+    "internetUsers": 85096,
+    "genderCounts": {
+      "male": 62822,
+      "female": 63746
+    },
+    "healthIssues": [
+      "Hypertension",
+      "PCOD/PCOS",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "France",
+    "city": "Bordeaux",
+    "town": "Bordeaux",
+    "pincode": "33000",
+    "zone": "North America & Western Europe",
+    "id": "france",
+    "population": 837428,
+    "mobileUsers": 770331,
+    "internetUsers": 651075,
+    "genderCounts": {
+      "male": 402343,
+      "female": 435085
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "France",
+    "city": "Lille",
+    "town": "Lille",
+    "pincode": "59000",
+    "zone": "North America & Western Europe",
+    "id": "france",
+    "population": 632370,
+    "mobileUsers": 547158,
+    "internetUsers": 513798,
+    "genderCounts": {
+      "male": 304919,
+      "female": 327451
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Dyslipidemia",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "France",
+    "city": "Strasbourg",
+    "town": "Strasbourg",
+    "pincode": "67000",
+    "zone": "North America & Western Europe",
+    "id": "france",
+    "population": 646889,
+    "mobileUsers": 522198,
+    "internetUsers": 496088,
+    "genderCounts": {
+      "male": 339374,
+      "female": 307515
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Spain",
+    "city": "Seville",
+    "town": "Seville",
+    "pincode": "41001",
+    "zone": "North America & Western Europe",
+    "id": "spain",
+    "population": 746915,
+    "mobileUsers": 651037,
+    "internetUsers": 572622,
+    "genderCounts": {
+      "male": 389098,
+      "female": 357817
+    },
+    "healthIssues": [
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Fatty Liver",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Spain",
+    "city": "Valencia",
+    "town": "Valencia",
+    "pincode": "46001",
+    "zone": "North America & Western Europe",
+    "id": "spain",
+    "population": 118117,
+    "mobileUsers": 99357,
+    "internetUsers": 92374,
+    "genderCounts": {
+      "male": 60664,
+      "female": 57453
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Spain",
+    "city": "Bilbao",
+    "town": "Bilbao",
+    "pincode": "48001",
+    "zone": "North America & Western Europe",
+    "id": "spain",
+    "population": 831570,
+    "mobileUsers": 598766,
+    "internetUsers": 568827,
+    "genderCounts": {
+      "male": 413714,
+      "female": 417856
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Portugal",
+    "city": "Porto",
+    "town": "Porto",
+    "pincode": "4000-001",
+    "zone": "North America & Western Europe",
+    "id": "portugal",
+    "population": 786294,
+    "mobileUsers": 666258,
+    "internetUsers": 652027,
+    "genderCounts": {
+      "male": 388609,
+      "female": 397685
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Italy",
+    "city": "Turin",
+    "town": "Turin",
+    "pincode": "10121",
+    "zone": "North America & Western Europe",
+    "id": "italy",
+    "population": 634764,
+    "mobileUsers": 569626,
+    "internetUsers": 380309,
+    "genderCounts": {
+      "male": 322124,
+      "female": 312640
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Italy",
+    "city": "Venice",
+    "town": "Venice",
+    "pincode": "30121",
+    "zone": "North America & Western Europe",
+    "id": "italy",
+    "population": 914528,
+    "mobileUsers": 781046,
+    "internetUsers": 634658,
+    "genderCounts": {
+      "male": 440895,
+      "female": 473633
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Italy",
+    "city": "Florence",
+    "town": "Florence",
+    "pincode": "50121",
+    "zone": "North America & Western Europe",
+    "id": "italy",
+    "population": 659784,
+    "mobileUsers": 509152,
+    "internetUsers": 399407,
+    "genderCounts": {
+      "male": 348148,
+      "female": 311636
+    },
+    "healthIssues": [
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Italy",
+    "city": "Naples",
+    "town": "Naples",
+    "pincode": "80121",
+    "zone": "North America & Western Europe",
+    "id": "italy",
+    "population": 836730,
+    "mobileUsers": 760448,
+    "internetUsers": 662197,
+    "genderCounts": {
+      "male": 407072,
+      "female": 429658
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Italy",
+    "city": "Genoa",
+    "town": "Genoa",
+    "pincode": "16121",
+    "zone": "North America & Western Europe",
+    "id": "italy",
+    "population": 503478,
+    "mobileUsers": 428305,
+    "internetUsers": 292709,
+    "genderCounts": {
+      "male": 243052,
+      "female": 260426
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Insulin Resistance",
+      "Dyslipidemia"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Switzerland",
+    "city": "Basel",
+    "town": "Basel",
+    "pincode": "4001",
+    "zone": "North America & Western Europe",
+    "id": "switzerland",
+    "population": 489653,
+    "mobileUsers": 376955,
+    "internetUsers": 358107,
+    "genderCounts": {
+      "male": 238662,
+      "female": 250991
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Switzerland",
+    "city": "Lausanne",
+    "town": "Lausanne",
+    "pincode": "1003",
+    "zone": "North America & Western Europe",
+    "id": "switzerland",
+    "population": 452802,
+    "mobileUsers": 376574,
+    "internetUsers": 324837,
+    "genderCounts": {
+      "male": 225922,
+      "female": 226880
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Netherlands",
+    "city": "Utrecht",
+    "town": "Utrecht",
+    "pincode": "3511",
+    "zone": "North America & Western Europe",
+    "id": "netherlands",
+    "population": 406556,
+    "mobileUsers": 371881,
+    "internetUsers": 253070,
+    "genderCounts": {
+      "male": 196029,
+      "female": 210527
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Dyslipidemia",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Netherlands",
+    "city": "Eindhoven",
+    "town": "Eindhoven",
+    "pincode": "5611",
+    "zone": "North America & Western Europe",
+    "id": "netherlands",
+    "population": 417412,
+    "mobileUsers": 345100,
+    "internetUsers": 343005,
+    "genderCounts": {
+      "male": 212426,
+      "female": 204986
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Netherlands",
+    "city": "The Hague",
+    "town": "The Hague",
+    "pincode": "2511",
+    "zone": "North America & Western Europe",
+    "id": "netherlands",
+    "population": 631016,
+    "mobileUsers": 454504,
+    "internetUsers": 431778,
+    "genderCounts": {
+      "male": 309056,
+      "female": 321960
+    },
+    "healthIssues": [
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Belgium",
+    "city": "Liege",
+    "town": "Liege",
+    "pincode": "4000",
+    "zone": "North America & Western Europe",
+    "id": "belgium",
+    "population": 917562,
+    "mobileUsers": 788724,
+    "internetUsers": 749287,
+    "genderCounts": {
+      "male": 470070,
+      "female": 447492
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Belgium",
+    "city": "Ghent",
+    "town": "Ghent",
+    "pincode": "9000",
+    "zone": "North America & Western Europe",
+    "id": "belgium",
+    "population": 403170,
+    "mobileUsers": 356527,
+    "internetUsers": 316021,
+    "genderCounts": {
+      "male": 207276,
+      "female": 195894
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Germany",
+    "city": "Leipzig",
+    "town": "Leipzig",
+    "pincode": "04109",
+    "zone": "North America & Western Europe",
+    "id": "germany",
+    "population": 364386,
+    "mobileUsers": 321411,
+    "internetUsers": 231788,
+    "genderCounts": {
+      "male": 177785,
+      "female": 186601
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "PCOD/PCOS",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Germany",
+    "city": "Dresden",
+    "town": "Dresden",
+    "pincode": "01067",
+    "zone": "North America & Western Europe",
+    "id": "germany",
+    "population": 154806,
+    "mobileUsers": 112645,
+    "internetUsers": 107012,
+    "genderCounts": {
+      "male": 80461,
+      "female": 74345
+    },
+    "healthIssues": [
+      "PCOD/PCOS",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Germany",
+    "city": "Nuremberg",
+    "town": "Nuremberg",
+    "pincode": "90402",
+    "zone": "North America & Western Europe",
+    "id": "germany",
+    "population": 160459,
+    "mobileUsers": 114094,
+    "internetUsers": 112956,
+    "genderCounts": {
+      "male": 80971,
+      "female": 79488
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Germany",
+    "city": "Hanover",
+    "town": "Hanover",
+    "pincode": "30159",
+    "zone": "North America & Western Europe",
+    "id": "germany",
+    "population": 195312,
+    "mobileUsers": 161060,
+    "internetUsers": 153007,
+    "genderCounts": {
+      "male": 99701,
+      "female": 95611
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Germany",
+    "city": "Bremen",
+    "town": "Bremen",
+    "pincode": "28195",
+    "zone": "North America & Western Europe",
+    "id": "germany",
+    "population": 359182,
+    "mobileUsers": 325894,
+    "internetUsers": 212117,
+    "genderCounts": {
+      "male": 187943,
+      "female": 171239
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Austria",
+    "city": "Graz",
+    "town": "Graz",
+    "pincode": "8010",
+    "zone": "North America & Western Europe",
+    "id": "austria",
+    "population": 160281,
+    "mobileUsers": 145087,
+    "internetUsers": 125328,
+    "genderCounts": {
+      "male": 79138,
+      "female": 81143
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Austria",
+    "city": "Linz",
+    "town": "Linz",
+    "pincode": "4020",
+    "zone": "North America & Western Europe",
+    "id": "austria",
+    "population": 523097,
+    "mobileUsers": 467665,
+    "internetUsers": 316432,
+    "genderCounts": {
+      "male": 263742,
+      "female": 259355
+    },
+    "healthIssues": [
+      "Obesity",
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Canada",
+    "city": "Winnipeg",
+    "town": "Winnipeg",
+    "pincode": "R3C 1A1",
+    "zone": "North America & Western Europe",
+    "id": "canada",
+    "population": 733773,
+    "mobileUsers": 597357,
+    "internetUsers": 470652,
+    "genderCounts": {
+      "male": 353200,
+      "female": 380573
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Canada",
+    "city": "Quebec City",
+    "town": "Quebec City",
+    "pincode": "G1R 4Y5",
+    "zone": "North America & Western Europe",
+    "id": "canada",
+    "population": 52125,
+    "mobileUsers": 37309,
+    "internetUsers": 29141,
+    "genderCounts": {
+      "male": 25635,
+      "female": 26490
+    },
+    "healthIssues": [
+      "PCOD/PCOS",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Canada",
+    "city": "Halifax",
+    "town": "Halifax",
+    "pincode": "B3J 1A1",
+    "zone": "North America & Western Europe",
+    "id": "canada",
+    "population": 197376,
+    "mobileUsers": 180375,
+    "internetUsers": 143842,
+    "genderCounts": {
+      "male": 104130,
+      "female": 93246
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "United States",
+    "city": "San Antonio",
+    "town": "San Antonio",
+    "pincode": "78201",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 457791,
+    "mobileUsers": 391775,
+    "internetUsers": 283088,
+    "genderCounts": {
+      "male": 226715,
+      "female": 231076
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "United States",
+    "city": "Columbus",
+    "town": "Columbus",
+    "pincode": "43215",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 777057,
+    "mobileUsers": 627164,
+    "internetUsers": 595805,
+    "genderCounts": {
+      "male": 410218,
+      "female": 366839
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "United States",
+    "city": "Indianapolis",
+    "town": "Indianapolis",
+    "pincode": "46201",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 40977,
+    "mobileUsers": 35808,
+    "internetUsers": 27708,
+    "genderCounts": {
+      "male": 20441,
+      "female": 20536
+    },
+    "healthIssues": [
+      "Obesity",
+      "PCOD/PCOS",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "United States",
+    "city": "Cincinnati",
+    "town": "Cincinnati",
+    "pincode": "45201",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 562202,
+    "mobileUsers": 396695,
+    "internetUsers": 391194,
+    "genderCounts": {
+      "male": 289148,
+      "female": 273054
+    },
+    "healthIssues": [
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "United States",
+    "city": "Cleveland",
+    "town": "Cleveland",
+    "pincode": "44101",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 779162,
+    "mobileUsers": 681016,
+    "internetUsers": 612361,
+    "genderCounts": {
+      "male": 376965,
+      "female": 402197
+    },
+    "healthIssues": [
+      "Fatty Liver",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "United States",
+    "city": "Pittsburgh",
+    "town": "Pittsburgh",
+    "pincode": "15201",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 464393,
+    "mobileUsers": 402499,
+    "internetUsers": 326628,
+    "genderCounts": {
+      "male": 231758,
+      "female": 232635
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "United States",
+    "city": "Kansas City",
+    "town": "Kansas City",
+    "pincode": "64101",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 743465,
+    "mobileUsers": 528489,
+    "internetUsers": 502064,
+    "genderCounts": {
+      "male": 378941,
+      "female": 364524
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "United States",
+    "city": "Milwaukee",
+    "town": "Milwaukee",
+    "pincode": "53201",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 45084,
+    "mobileUsers": 37735,
+    "internetUsers": 34108,
+    "genderCounts": {
+      "male": 23273,
+      "female": 21811
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "United States",
+    "city": "Nashville",
+    "town": "Nashville",
+    "pincode": "37201",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 186048,
+    "mobileUsers": 159824,
+    "internetUsers": 150848,
+    "genderCounts": {
+      "male": 95888,
+      "female": 90160
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "United States",
+    "city": "Memphis",
+    "town": "Memphis",
+    "pincode": "38101",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 146765,
+    "mobileUsers": 129650,
+    "internetUsers": 119614,
+    "genderCounts": {
+      "male": 76049,
+      "female": 70716
+    },
+    "healthIssues": [
+      "Hypertension",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "United States",
+    "city": "Jacksonville",
+    "town": "Jacksonville",
+    "pincode": "32201",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 142555,
+    "mobileUsers": 130709,
+    "internetUsers": 119011,
+    "genderCounts": {
+      "male": 73201,
+      "female": 69354
+    },
+    "healthIssues": [
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "United States",
+    "city": "Louisville",
+    "town": "Louisville",
+    "pincode": "40201",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 725007,
+    "mobileUsers": 599522,
+    "internetUsers": 569545,
+    "genderCounts": {
+      "male": 348180,
+      "female": 376827
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "United States",
+    "city": "Richmond",
+    "town": "Richmond",
+    "pincode": "23219",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 373592,
+    "mobileUsers": 265246,
+    "internetUsers": 211809,
+    "genderCounts": {
+      "male": 191230,
+      "female": 182362
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "United States",
+    "city": "Raleigh",
+    "town": "Raleigh",
+    "pincode": "27601",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 48054,
+    "mobileUsers": 37131,
+    "internetUsers": 35274,
+    "genderCounts": {
+      "male": 25124,
+      "female": 22930
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "United States",
+    "city": "Hartford",
+    "town": "Hartford",
+    "pincode": "06101",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 250603,
+    "mobileUsers": 209917,
+    "internetUsers": 169635,
+    "genderCounts": {
+      "male": 123922,
+      "female": 126681
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "United States",
+    "city": "Providence",
+    "town": "Providence",
+    "pincode": "02901",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 63733,
+    "mobileUsers": 48612,
+    "internetUsers": 46181,
+    "genderCounts": {
+      "male": 31231,
+      "female": 32502
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Insulin Resistance",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "United States",
+    "city": "Buffalo",
+    "town": "Buffalo",
+    "pincode": "14201",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 732020,
+    "mobileUsers": 605944,
+    "internetUsers": 539244,
+    "genderCounts": {
+      "male": 359219,
+      "female": 372801
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "United States",
+    "city": "Rochester",
+    "town": "Rochester",
+    "pincode": "14601",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 392437,
+    "mobileUsers": 348625,
+    "internetUsers": 255576,
+    "genderCounts": {
+      "male": 201196,
+      "female": 191241
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "United States",
+    "city": "Honolulu",
+    "town": "Honolulu",
+    "pincode": "96801",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 697427,
+    "mobileUsers": 568469,
+    "internetUsers": 514275,
+    "genderCounts": {
+      "male": 348511,
+      "female": 348916
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Insulin Resistance",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Mexico",
+    "city": "Tijuana",
+    "town": "Tijuana",
+    "pincode": "22000",
+    "zone": "Latin America",
+    "id": "mexico",
+    "population": 900985,
+    "mobileUsers": 750543,
+    "internetUsers": 576976,
+    "genderCounts": {
+      "male": 460380,
+      "female": 440605
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Insulin Resistance"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Mexico",
+    "city": "Puebla",
+    "town": "Puebla",
+    "pincode": "72000",
+    "zone": "Latin America",
+    "id": "mexico",
+    "population": 146468,
+    "mobileUsers": 120783,
+    "internetUsers": 116085,
+    "genderCounts": {
+      "male": 75549,
+      "female": 70919
+    },
+    "healthIssues": [
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Mexico",
+    "city": "Queretaro",
+    "town": "Queretaro",
+    "pincode": "76000",
+    "zone": "Latin America",
+    "id": "mexico",
+    "population": 143525,
+    "mobileUsers": 121011,
+    "internetUsers": 115301,
+    "genderCounts": {
+      "male": 69397,
+      "female": 74128
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Mexico",
+    "city": "Merida",
+    "town": "Merida",
+    "pincode": "97000",
+    "zone": "Latin America",
+    "id": "mexico",
+    "population": 147770,
+    "mobileUsers": 117310,
+    "internetUsers": 87195,
+    "genderCounts": {
+      "male": 75446,
+      "female": 72324
+    },
+    "healthIssues": [
+      "Obesity",
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Colombia",
+    "city": "Medellin",
+    "town": "Medellin",
+    "pincode": "050001",
+    "zone": "Latin America",
+    "id": "colombia",
+    "population": 44465,
+    "mobileUsers": 35231,
+    "internetUsers": 33469,
+    "genderCounts": {
+      "male": 21990,
+      "female": 22475
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Colombia",
+    "city": "Cali",
+    "town": "Cali",
+    "pincode": "760001",
+    "zone": "Latin America",
+    "id": "colombia",
+    "population": 116798,
+    "mobileUsers": 90439,
+    "internetUsers": 89409,
+    "genderCounts": {
+      "male": 56499,
+      "female": 60299
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Ecuador",
+    "city": "Guayaquil",
+    "town": "Guayaquil",
+    "pincode": "090150",
+    "zone": "Latin America",
+    "id": "ecuador",
+    "population": 875612,
+    "mobileUsers": 722297,
+    "internetUsers": 599710,
+    "genderCounts": {
+      "male": 436425,
+      "female": 439187
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Thyroid Dysregulation",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Brazil",
+    "city": "Belo Horizonte",
+    "town": "Belo Horizonte",
+    "pincode": "30000-000",
+    "zone": "Latin America",
+    "id": "brazil",
+    "population": 921779,
+    "mobileUsers": 822023,
+    "internetUsers": 743997,
+    "genderCounts": {
+      "male": 450471,
+      "female": 471308
+    },
+    "healthIssues": [
+      "Obesity",
+      "Insulin Resistance",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Brazil",
+    "city": "Curitiba",
+    "town": "Curitiba",
+    "pincode": "80000-000",
+    "zone": "Latin America",
+    "id": "brazil",
+    "population": 373840,
+    "mobileUsers": 283392,
+    "internetUsers": 269222,
+    "genderCounts": {
+      "male": 185076,
+      "female": 188764
+    },
+    "healthIssues": [
+      "Hypertension",
+      "PCOD/PCOS",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Brazil",
+    "city": "Porto Alegre",
+    "town": "Porto Alegre",
+    "pincode": "90000-000",
+    "zone": "Latin America",
+    "id": "brazil",
+    "population": 392915,
+    "mobileUsers": 310528,
+    "internetUsers": 295001,
+    "genderCounts": {
+      "male": 197854,
+      "female": 195061
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Argentina",
+    "city": "Cordoba",
+    "town": "Cordoba",
+    "pincode": "5000",
+    "zone": "Latin America",
+    "id": "argentina",
+    "population": 299431,
+    "mobileUsers": 255035,
+    "internetUsers": 212971,
+    "genderCounts": {
+      "male": 152737,
+      "female": 146694
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Insulin Resistance",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Argentina",
+    "city": "Rosario",
+    "town": "Rosario",
+    "pincode": "2000",
+    "zone": "Latin America",
+    "id": "argentina",
+    "population": 186546,
+    "mobileUsers": 142935,
+    "internetUsers": 111909,
+    "genderCounts": {
+      "male": 95403,
+      "female": 91143
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Egypt",
+    "city": "Alexandria",
+    "town": "Alexandria",
+    "pincode": "21500",
+    "zone": "Middle East",
+    "id": "egypt",
+    "population": 914081,
+    "mobileUsers": 721243,
+    "internetUsers": 640835,
+    "genderCounts": {
+      "male": 444441,
+      "female": 469640
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "United States",
+    "city": "Birmingham",
+    "town": "Birmingham",
+    "pincode": "84101",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 1879799,
+    "mobileUsers": 1463032,
+    "internetUsers": 1191792,
+    "genderCounts": {
+      "male": 917372,
+      "female": 962427
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "United States",
+    "city": "Grand Rapids",
+    "town": "Grand Rapids",
+    "pincode": "84101",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 880760,
+    "mobileUsers": 786833,
+    "internetUsers": 612791,
+    "genderCounts": {
+      "male": 428336,
+      "female": 452424
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "United States",
+    "city": "Tucson",
+    "town": "Tucson",
+    "pincode": "84101",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 920049,
+    "mobileUsers": 658378,
+    "internetUsers": 625459,
+    "genderCounts": {
+      "male": 475337,
+      "female": 444712
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "United States",
+    "city": "Albuquerque",
+    "town": "Albuquerque",
+    "pincode": "84101",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 750853,
+    "mobileUsers": 636308,
+    "internetUsers": 482069,
+    "genderCounts": {
+      "male": 393556,
+      "female": 357297
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "United States",
+    "city": "Tulsa",
+    "town": "Tulsa",
+    "pincode": "84101",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 333987,
+    "mobileUsers": 287127,
+    "internetUsers": 197757,
+    "genderCounts": {
+      "male": 161147,
+      "female": 172840
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "PCOD/PCOS",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "United States",
+    "city": "Omaha",
+    "town": "Omaha",
+    "pincode": "84101",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 910465,
+    "mobileUsers": 699188,
+    "internetUsers": 664228,
+    "genderCounts": {
+      "male": 465213,
+      "female": 445252
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Canada",
+    "city": "Hamilton",
+    "town": "Hamilton",
+    "pincode": "M5V 2T6",
+    "zone": "North America & Western Europe",
+    "id": "canada",
+    "population": 144836,
+    "mobileUsers": 109861,
+    "internetUsers": 102255,
+    "genderCounts": {
+      "male": 69623,
+      "female": 75213
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Canada",
+    "city": "London",
+    "town": "London",
+    "pincode": "M5V 2T6",
+    "zone": "North America & Western Europe",
+    "id": "canada",
+    "population": 12374261,
+    "mobileUsers": 9040947,
+    "internetUsers": 8976843,
+    "genderCounts": {
+      "male": 6276298,
+      "female": 6097963
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Canada",
+    "city": "Victoria",
+    "town": "Victoria",
+    "pincode": "M5V 2T6",
+    "zone": "North America & Western Europe",
+    "id": "canada",
+    "population": 467258,
+    "mobileUsers": 391045,
+    "internetUsers": 302620,
+    "genderCounts": {
+      "male": 244364,
+      "female": 222894
+    },
+    "healthIssues": [
+      "Hypertension",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Canada",
+    "city": "Windsor",
+    "town": "Windsor",
+    "pincode": "M5V 2T6",
+    "zone": "North America & Western Europe",
+    "id": "canada",
+    "population": 914195,
+    "mobileUsers": 653222,
+    "internetUsers": 604889,
+    "genderCounts": {
+      "male": 454802,
+      "female": 459393
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "United Kingdom",
+    "city": "Sheffield",
+    "town": "Sheffield",
+    "pincode": "NG1",
+    "zone": "North America & Western Europe",
+    "id": "united-kingdom",
+    "population": 226908,
+    "mobileUsers": 160245,
+    "internetUsers": 152232,
+    "genderCounts": {
+      "male": 115438,
+      "female": 111470
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "United Kingdom",
+    "city": "Nottingham",
+    "town": "Nottingham",
+    "pincode": "NG1",
+    "zone": "North America & Western Europe",
+    "id": "united-kingdom",
+    "population": 121977,
+    "mobileUsers": 109004,
+    "internetUsers": 70483,
+    "genderCounts": {
+      "male": 64086,
+      "female": 57891
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "United Kingdom",
+    "city": "Leicester",
+    "town": "Leicester",
+    "pincode": "NG1",
+    "zone": "North America & Western Europe",
+    "id": "united-kingdom",
+    "population": 797575,
+    "mobileUsers": 698671,
+    "internetUsers": 506200,
+    "genderCounts": {
+      "male": 399619,
+      "female": 397956
+    },
+    "healthIssues": [
+      "Obesity",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "United Kingdom",
+    "city": "Southampton",
+    "town": "Southampton",
+    "pincode": "NG1",
+    "zone": "North America & Western Europe",
+    "id": "united-kingdom",
+    "population": 101328,
+    "mobileUsers": 92474,
+    "internetUsers": 73611,
+    "genderCounts": {
+      "male": 49724,
+      "female": 51604
+    },
+    "healthIssues": [
+      "Obesity",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "United Kingdom",
+    "city": "Belfast",
+    "town": "Belfast",
+    "pincode": "BT1",
+    "zone": "North America & Western Europe",
+    "id": "united-kingdom",
+    "population": 248911,
+    "mobileUsers": 185712,
+    "internetUsers": 176426,
+    "genderCounts": {
+      "male": 125683,
+      "female": 123228
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "United Kingdom",
+    "city": "Cardiff",
+    "town": "Cardiff",
+    "pincode": "NG1",
+    "zone": "North America & Western Europe",
+    "id": "united-kingdom",
+    "population": 868467,
+    "mobileUsers": 742288,
+    "internetUsers": 578355,
+    "genderCounts": {
+      "male": 448765,
+      "female": 419702
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "France",
+    "city": "Nantes",
+    "town": "Nantes",
+    "pincode": "44000",
+    "zone": "North America & Western Europe",
+    "id": "france",
+    "population": 525270,
+    "mobileUsers": 377870,
+    "internetUsers": 330444,
+    "genderCounts": {
+      "male": 272049,
+      "female": 253221
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "France",
+    "city": "Rennes",
+    "town": "Rennes",
+    "pincode": "44000",
+    "zone": "North America & Western Europe",
+    "id": "france",
+    "population": 809114,
+    "mobileUsers": 606973,
+    "internetUsers": 576624,
+    "genderCounts": {
+      "male": 419707,
+      "female": 389407
+    },
+    "healthIssues": [
+      "Obesity",
+      "Fatty Liver",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "France",
+    "city": "Montpellier",
+    "town": "Montpellier",
+    "pincode": "44000",
+    "zone": "North America & Western Europe",
+    "id": "france",
+    "population": 267339,
+    "mobileUsers": 237503,
+    "internetUsers": 204604,
+    "genderCounts": {
+      "male": 137591,
+      "female": 129748
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "France",
+    "city": "Grenoble",
+    "town": "Grenoble",
+    "pincode": "44000",
+    "zone": "North America & Western Europe",
+    "id": "france",
+    "population": 747212,
+    "mobileUsers": 665410,
+    "internetUsers": 597024,
+    "genderCounts": {
+      "male": 385711,
+      "female": 361501
+    },
+    "healthIssues": [
+      "Obesity",
+      "PCOD/PCOS",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Germany",
+    "city": "Bonn",
+    "town": "Bonn",
+    "pincode": "30159",
+    "zone": "North America & Western Europe",
+    "id": "germany",
+    "population": 447067,
+    "mobileUsers": 364837,
+    "internetUsers": 331089,
+    "genderCounts": {
+      "male": 230627,
+      "female": 216440
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Germany",
+    "city": "Karlsruhe",
+    "town": "Karlsruhe",
+    "pincode": "30159",
+    "zone": "North America & Western Europe",
+    "id": "germany",
+    "population": 274449,
+    "mobileUsers": 226279,
+    "internetUsers": 156617,
+    "genderCounts": {
+      "male": 143003,
+      "female": 131446
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Germany",
+    "city": "Munster",
+    "town": "Munster",
+    "pincode": "30159",
+    "zone": "North America & Western Europe",
+    "id": "germany",
+    "population": 875320,
+    "mobileUsers": 645336,
+    "internetUsers": 506834,
+    "genderCounts": {
+      "male": 424143,
+      "female": 451177
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Hypertension",
+      "Dyslipidemia"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Italy",
+    "city": "Bologna",
+    "town": "Bologna",
+    "pincode": "40121",
+    "zone": "North America & Western Europe",
+    "id": "italy",
+    "population": 845223,
+    "mobileUsers": 677386,
+    "internetUsers": 667608,
+    "genderCounts": {
+      "male": 410058,
+      "female": 435165
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Fatty Liver",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Italy",
+    "city": "Bari",
+    "town": "Bari",
+    "pincode": "40121",
+    "zone": "North America & Western Europe",
+    "id": "italy",
+    "population": 182945,
+    "mobileUsers": 156297,
+    "internetUsers": 101988,
+    "genderCounts": {
+      "male": 92748,
+      "female": 90197
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Dyslipidemia",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Spain",
+    "city": "Zaragoza",
+    "town": "Zaragoza",
+    "pincode": "50001",
+    "zone": "North America & Western Europe",
+    "id": "spain",
+    "population": 168291,
+    "mobileUsers": 154249,
+    "internetUsers": 129166,
+    "genderCounts": {
+      "male": 81283,
+      "female": 87008
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Spain",
+    "city": "Malaga",
+    "town": "Malaga",
+    "pincode": "50001",
+    "zone": "North America & Western Europe",
+    "id": "spain",
+    "population": 60388,
+    "mobileUsers": 46370,
+    "internetUsers": 45129,
+    "genderCounts": {
+      "male": 31204,
+      "female": 29184
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Hypertension",
+      "PCOD/PCOS",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Spain",
+    "city": "Las Palmas",
+    "town": "Las Palmas",
+    "pincode": "50001",
+    "zone": "North America & Western Europe",
+    "id": "spain",
+    "population": 143710,
+    "mobileUsers": 130247,
+    "internetUsers": 117669,
+    "genderCounts": {
+      "male": 71123,
+      "female": 72587
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Netherlands",
+    "city": "Groningen",
+    "town": "Groningen",
+    "pincode": "5611",
+    "zone": "North America & Western Europe",
+    "id": "netherlands",
+    "population": 128397,
+    "mobileUsers": 116371,
+    "internetUsers": 74334,
+    "genderCounts": {
+      "male": 62614,
+      "female": 65783
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Austria",
+    "city": "Salzburg",
+    "town": "Salzburg",
+    "pincode": "5020",
+    "zone": "North America & Western Europe",
+    "id": "austria",
+    "population": 398652,
+    "mobileUsers": 310446,
+    "internetUsers": 294923,
+    "genderCounts": {
+      "male": 201724,
+      "female": 196928
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Dyslipidemia",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Austria",
+    "city": "Innsbruck",
+    "town": "Innsbruck",
+    "pincode": "5020",
+    "zone": "North America & Western Europe",
+    "id": "austria",
+    "population": 559617,
+    "mobileUsers": 434813,
+    "internetUsers": 413072,
+    "genderCounts": {
+      "male": 282081,
+      "female": 277536
+    },
+    "healthIssues": [
+      "Obesity",
+      "PCOD/PCOS",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Denmark",
+    "city": "Odense",
+    "town": "Odense",
+    "pincode": "5000",
+    "zone": "North America & Western Europe",
+    "id": "denmark",
+    "population": 206574,
+    "mobileUsers": 187885,
+    "internetUsers": 122249,
+    "genderCounts": {
+      "male": 106871,
+      "female": 99703
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Denmark",
+    "city": "Aalborg",
+    "town": "Aalborg",
+    "pincode": "5000",
+    "zone": "North America & Western Europe",
+    "id": "denmark",
+    "population": 387230,
+    "mobileUsers": 340528,
+    "internetUsers": 296514,
+    "genderCounts": {
+      "male": 196404,
+      "female": 190826
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Thyroid Dysregulation",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Finland",
+    "city": "Tampere",
+    "town": "Tampere",
+    "pincode": "33100",
+    "zone": "North America & Western Europe",
+    "id": "finland",
+    "population": 429855,
+    "mobileUsers": 317607,
+    "internetUsers": 302116,
+    "genderCounts": {
+      "male": 216806,
+      "female": 213049
+    },
+    "healthIssues": [
+      "Fatty Liver",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Finland",
+    "city": "Turku",
+    "town": "Turku",
+    "pincode": "33100",
+    "zone": "North America & Western Europe",
+    "id": "finland",
+    "population": 843016,
+    "mobileUsers": 694353,
+    "internetUsers": 574989,
+    "genderCounts": {
+      "male": 445743,
+      "female": 397273
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Norway",
+    "city": "Trondheim",
+    "town": "Trondheim",
+    "pincode": "7004",
+    "zone": "North America & Western Europe",
+    "id": "norway",
+    "population": 118602,
+    "mobileUsers": 87291,
+    "internetUsers": 77278,
+    "genderCounts": {
+      "male": 58548,
+      "female": 60054
+    },
+    "healthIssues": [
+      "Insulin Resistance"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Norway",
+    "city": "Stavanger",
+    "town": "Stavanger",
+    "pincode": "7004",
+    "zone": "North America & Western Europe",
+    "id": "norway",
+    "population": 118112,
+    "mobileUsers": 97154,
+    "internetUsers": 88982,
+    "genderCounts": {
+      "male": 57258,
+      "female": 60854
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "PCOD/PCOS",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Sweden",
+    "city": "Uppsala",
+    "town": "Uppsala",
+    "pincode": "751 03",
+    "zone": "North America & Western Europe",
+    "id": "sweden",
+    "population": 573654,
+    "mobileUsers": 466606,
+    "internetUsers": 422515,
+    "genderCounts": {
+      "male": 283062,
+      "female": 290592
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Sweden",
+    "city": "Linköping",
+    "town": "Linköping",
+    "pincode": "751 03",
+    "zone": "North America & Western Europe",
+    "id": "sweden",
+    "population": 693810,
+    "mobileUsers": 547821,
+    "internetUsers": 433666,
+    "genderCounts": {
+      "male": 363376,
+      "female": 330434
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Ireland",
+    "city": "Cork",
+    "town": "Cork",
+    "pincode": "T12",
+    "zone": "North America & Western Europe",
+    "id": "ireland",
+    "population": 325148,
+    "mobileUsers": 298234,
+    "internetUsers": 195806,
+    "genderCounts": {
+      "male": 159001,
+      "female": 166147
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Ireland",
+    "city": "Limerick",
+    "town": "Limerick",
+    "pincode": "T12",
+    "zone": "North America & Western Europe",
+    "id": "ireland",
+    "population": 420124,
+    "mobileUsers": 339667,
+    "internetUsers": 301559,
+    "genderCounts": {
+      "male": 202914,
+      "female": 217210
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Poland",
+    "city": "Szczecin",
+    "town": "Szczecin",
+    "pincode": "00-001",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "poland",
+    "population": 751021,
+    "mobileUsers": 653643,
+    "internetUsers": 568288,
+    "genderCounts": {
+      "male": 369119,
+      "female": 381902
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Poland",
+    "city": "Gdansk",
+    "town": "Gdansk",
+    "pincode": "00-001",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "poland",
+    "population": 421963,
+    "mobileUsers": 349208,
+    "internetUsers": 274417,
+    "genderCounts": {
+      "male": 204940,
+      "female": 217023
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Czechia",
+    "city": "Brno",
+    "town": "Brno",
+    "pincode": "602 00",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "czechia",
+    "population": 538392,
+    "mobileUsers": 420943,
+    "internetUsers": 348167,
+    "genderCounts": {
+      "male": 263963,
+      "female": 274429
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Dyslipidemia"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Czechia",
+    "city": "Ostrava",
+    "town": "Ostrava",
+    "pincode": "602 00",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "czechia",
+    "population": 778729,
+    "mobileUsers": 569491,
+    "internetUsers": 491251,
+    "genderCounts": {
+      "male": 374499,
+      "female": 404230
+    },
+    "healthIssues": [
+      "Obesity",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Hungary",
+    "city": "Debrecen",
+    "town": "Debrecen",
+    "pincode": "4000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "hungary",
+    "population": 317874,
+    "mobileUsers": 265611,
+    "internetUsers": 183620,
+    "genderCounts": {
+      "male": 161313,
+      "female": 156561
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Romania",
+    "city": "Cluj-Napoca",
+    "town": "Cluj-Napoca",
+    "pincode": "400000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "romania",
+    "population": 114069,
+    "mobileUsers": 100393,
+    "internetUsers": 96626,
+    "genderCounts": {
+      "male": 57493,
+      "female": 56576
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Romania",
+    "city": "Timisoara",
+    "town": "Timisoara",
+    "pincode": "400000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "romania",
+    "population": 584697,
+    "mobileUsers": 421592,
+    "internetUsers": 330614,
+    "genderCounts": {
+      "male": 309072,
+      "female": 275625
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Croatia",
+    "city": "Split",
+    "town": "Split",
+    "pincode": "51000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "croatia",
+    "population": 455455,
+    "mobileUsers": 376122,
+    "internetUsers": 365422,
+    "genderCounts": {
+      "male": 231371,
+      "female": 224084
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "PCOD/PCOS",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Slovenia",
+    "city": "Maribor",
+    "town": "Maribor",
+    "pincode": "2000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "slovenia",
+    "population": 613832,
+    "mobileUsers": 461595,
+    "internetUsers": 418318,
+    "genderCounts": {
+      "male": 304786,
+      "female": 309046
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Serbia",
+    "city": "Novi Sad",
+    "town": "Novi Sad",
+    "pincode": "21000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "serbia",
+    "population": 462807,
+    "mobileUsers": 334137,
+    "internetUsers": 298351,
+    "genderCounts": {
+      "male": 223832,
+      "female": 238975
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Slovakia",
+    "city": "Kosice",
+    "town": "Kosice",
+    "pincode": "040 01",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "slovakia",
+    "population": 781193,
+    "mobileUsers": 699371,
+    "internetUsers": 457227,
+    "genderCounts": {
+      "male": 386317,
+      "female": 394876
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Insulin Resistance"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Estonia",
+    "city": "Tartu",
+    "town": "Tartu",
+    "pincode": "50090",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "estonia",
+    "population": 303793,
+    "mobileUsers": 245653,
+    "internetUsers": 242055,
+    "genderCounts": {
+      "male": 152851,
+      "female": 150942
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Lithuania",
+    "city": "Kaunas",
+    "town": "Kaunas",
+    "pincode": "44307",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "lithuania",
+    "population": 123688,
+    "mobileUsers": 106475,
+    "internetUsers": 71065,
+    "genderCounts": {
+      "male": 64624,
+      "female": 59064
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Hypertension"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Lithuania",
+    "city": "Klaipeda",
+    "town": "Klaipeda",
+    "pincode": "44307",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "lithuania",
+    "population": 370395,
+    "mobileUsers": 338214,
+    "internetUsers": 308958,
+    "genderCounts": {
+      "male": 192416,
+      "female": 177979
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Japan",
+    "city": "Sendai",
+    "town": "Sendai",
+    "pincode": "980-0811",
+    "zone": "East & Southeast Asia",
+    "id": "japan",
+    "population": 813277,
+    "mobileUsers": 713020,
+    "internetUsers": 517608,
+    "genderCounts": {
+      "male": 399564,
+      "female": 413713
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Japan",
+    "city": "Hiroshima",
+    "town": "Hiroshima",
+    "pincode": "980-0811",
+    "zone": "East & Southeast Asia",
+    "id": "japan",
+    "population": 685739,
+    "mobileUsers": 562092,
+    "internetUsers": 512147,
+    "genderCounts": {
+      "male": 348927,
+      "female": 336812
+    },
+    "healthIssues": [
+      "Obesity",
+      "Insulin Resistance",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Japan",
+    "city": "Kitakyushu",
+    "town": "Kitakyushu",
+    "pincode": "980-0811",
+    "zone": "East & Southeast Asia",
+    "id": "japan",
+    "population": 364359,
+    "mobileUsers": 262897,
+    "internetUsers": 249752,
+    "genderCounts": {
+      "male": 188231,
+      "female": 176128
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Japan",
+    "city": "Niigata",
+    "town": "Niigata",
+    "pincode": "980-0811",
+    "zone": "East & Southeast Asia",
+    "id": "japan",
+    "population": 364441,
+    "mobileUsers": 259415,
+    "internetUsers": 246444,
+    "genderCounts": {
+      "male": 176967,
+      "female": 187474
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Dyslipidemia",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Japan",
+    "city": "Hamamatsu",
+    "town": "Hamamatsu",
+    "pincode": "980-0811",
+    "zone": "East & Southeast Asia",
+    "id": "japan",
+    "population": 570560,
+    "mobileUsers": 481900,
+    "internetUsers": 428201,
+    "genderCounts": {
+      "male": 300284,
+      "female": 270276
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Hypertension",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "South Korea",
+    "city": "Daegu",
+    "town": "Daegu",
+    "pincode": "41944",
+    "zone": "East & Southeast Asia",
+    "id": "south-korea",
+    "population": 923777,
+    "mobileUsers": 663030,
+    "internetUsers": 626469,
+    "genderCounts": {
+      "male": 465245,
+      "female": 458532
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "South Korea",
+    "city": "Daejeon",
+    "town": "Daejeon",
+    "pincode": "41944",
+    "zone": "East & Southeast Asia",
+    "id": "south-korea",
+    "population": 771812,
+    "mobileUsers": 563470,
+    "internetUsers": 511459,
+    "genderCounts": {
+      "male": 393661,
+      "female": 378151
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Hypertension",
+      "Insulin Resistance",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "South Korea",
+    "city": "Gwangju",
+    "town": "Gwangju",
+    "pincode": "41944",
+    "zone": "East & Southeast Asia",
+    "id": "south-korea",
+    "population": 479021,
+    "mobileUsers": 404156,
+    "internetUsers": 316784,
+    "genderCounts": {
+      "male": 249106,
+      "female": 229915
+    },
+    "healthIssues": [
+      "Thyroid Dysregulation",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "South Korea",
+    "city": "Ulsan",
+    "town": "Ulsan",
+    "pincode": "41944",
+    "zone": "East & Southeast Asia",
+    "id": "south-korea",
+    "population": 369642,
+    "mobileUsers": 269268,
+    "internetUsers": 255804,
+    "genderCounts": {
+      "male": 182063,
+      "female": 187579
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Taiwan",
+    "city": "Hsinchu",
+    "town": "Hsinchu",
+    "pincode": "300",
+    "zone": "East & Southeast Asia",
+    "id": "taiwan",
+    "population": 110792,
+    "mobileUsers": 101110,
+    "internetUsers": 84982,
+    "genderCounts": {
+      "male": 58551,
+      "female": 52241
+    },
+    "healthIssues": [
+      "Hypertension",
+      "PCOD/PCOS",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Taiwan",
+    "city": "Taichung",
+    "town": "Taichung",
+    "pincode": "300",
+    "zone": "East & Southeast Asia",
+    "id": "taiwan",
+    "population": 358173,
+    "mobileUsers": 320013,
+    "internetUsers": 265837,
+    "genderCounts": {
+      "male": 189371,
+      "female": 168802
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Taiwan",
+    "city": "Tainan",
+    "town": "Tainan",
+    "pincode": "300",
+    "zone": "East & Southeast Asia",
+    "id": "taiwan",
+    "population": 685780,
+    "mobileUsers": 509830,
+    "internetUsers": 484338,
+    "genderCounts": {
+      "male": 352734,
+      "female": 333046
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Dyslipidemia",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Australia",
+    "city": "Hobart",
+    "town": "Hobart",
+    "pincode": "2600",
+    "zone": "Oceania & Island Nations",
+    "id": "australia",
+    "population": 707649,
+    "mobileUsers": 512285,
+    "internetUsers": 486670,
+    "genderCounts": {
+      "male": 371470,
+      "female": 336179
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Australia",
+    "city": "Darwin",
+    "town": "Darwin",
+    "pincode": "2600",
+    "zone": "Oceania & Island Nations",
+    "id": "australia",
+    "population": 743010,
+    "mobileUsers": 538618,
+    "internetUsers": 446715,
+    "genderCounts": {
+      "male": 376605,
+      "female": 366405
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "New Zealand",
+    "city": "Dunedin",
+    "town": "Dunedin",
+    "pincode": "9010",
+    "zone": "Oceania & Island Nations",
+    "id": "new-zealand",
+    "population": 267744,
+    "mobileUsers": 227371,
+    "internetUsers": 206184,
+    "genderCounts": {
+      "male": 131550,
+      "female": 136194
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "New Zealand",
+    "city": "Hamilton",
+    "town": "Hamilton",
+    "pincode": "9010",
+    "zone": "Oceania & Island Nations",
+    "id": "new-zealand",
+    "population": 661619,
+    "mobileUsers": 527374,
+    "internetUsers": 501965,
+    "genderCounts": {
+      "male": 321016,
+      "female": 340603
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Russia",
+    "city": "Vladivostok",
+    "town": "Vladivostok",
+    "pincode": "690000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "russia",
+    "population": 490462,
+    "mobileUsers": 349727,
+    "internetUsers": 332240,
+    "genderCounts": {
+      "male": 247376,
+      "female": 243086
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Russia",
+    "city": "Kazan",
+    "town": "Kazan",
+    "pincode": "690000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "russia",
+    "population": 562108,
+    "mobileUsers": 513324,
+    "internetUsers": 381285,
+    "genderCounts": {
+      "male": 274584,
+      "female": 287524
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "PCOD/PCOS",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Russia",
+    "city": "Nizhny Novgorod",
+    "town": "Nizhny Novgorod",
+    "pincode": "690000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "russia",
+    "population": 671578,
+    "mobileUsers": 615277,
+    "internetUsers": 570469,
+    "genderCounts": {
+      "male": 355674,
+      "female": 315904
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Thyroid Dysregulation",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Russia",
+    "city": "Samara",
+    "town": "Samara",
+    "pincode": "690000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "russia",
+    "population": 890405,
+    "mobileUsers": 761383,
+    "internetUsers": 704981,
+    "genderCounts": {
+      "male": 453983,
+      "female": 436422
+    },
+    "healthIssues": [
+      "Obesity",
+      "PCOD/PCOS",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Türkiye",
+    "city": "Antalya",
+    "town": "Antalya",
+    "pincode": "07070",
+    "zone": "Middle East",
+    "id": "türkiye",
+    "population": 919431,
+    "mobileUsers": 756449,
+    "internetUsers": 587849,
+    "genderCounts": {
+      "male": 456680,
+      "female": 462751
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Türkiye",
+    "city": "Adana",
+    "town": "Adana",
+    "pincode": "07070",
+    "zone": "Middle East",
+    "id": "türkiye",
+    "population": 736506,
+    "mobileUsers": 635198,
+    "internetUsers": 603438,
+    "genderCounts": {
+      "male": 362306,
+      "female": 374200
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Türkiye",
+    "city": "Bursa",
+    "town": "Bursa",
+    "pincode": "07070",
+    "zone": "Middle East",
+    "id": "türkiye",
+    "population": 313963,
+    "mobileUsers": 226879,
+    "internetUsers": 172862,
+    "genderCounts": {
+      "male": 157816,
+      "female": 156147
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Israel",
+    "city": "Haifa",
+    "town": "Haifa",
+    "pincode": "31000",
+    "zone": "Middle East",
+    "id": "israel",
+    "population": 249376,
+    "mobileUsers": 219585,
+    "internetUsers": 188747,
+    "genderCounts": {
+      "male": 122826,
+      "female": 126550
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Thyroid Dysregulation",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Israel",
+    "city": "Ashdod",
+    "town": "Ashdod",
+    "pincode": "31000",
+    "zone": "Middle East",
+    "id": "israel",
+    "population": 136600,
+    "mobileUsers": 119414,
+    "internetUsers": 85933,
+    "genderCounts": {
+      "male": 72310,
+      "female": 64290
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "PCOD/PCOS",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Jordan",
+    "city": "Aqaba",
+    "town": "Aqaba",
+    "pincode": "77110",
+    "zone": "Middle East",
+    "id": "jordan",
+    "population": 923487,
+    "mobileUsers": 783829,
+    "internetUsers": 570300,
+    "genderCounts": {
+      "male": 456708,
+      "female": 466779
+    },
+    "healthIssues": [
+      "Obesity",
+      "Insulin Resistance",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Cyprus",
+    "city": "Limassol",
+    "town": "Limassol",
+    "pincode": "3010",
+    "zone": "Middle East",
+    "id": "cyprus",
+    "population": 841990,
+    "mobileUsers": 598679,
+    "internetUsers": 568745,
+    "genderCounts": {
+      "male": 441707,
+      "female": 400283
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Fatty Liver",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Venezuela",
+    "city": "Maracaibo",
+    "town": "Maracaibo",
+    "pincode": "4001",
+    "zone": "Latin America",
+    "id": "venezuela",
+    "population": 212333,
+    "mobileUsers": 176841,
+    "internetUsers": 167998,
+    "genderCounts": {
+      "male": 106820,
+      "female": 105513
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Dyslipidemia"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "China",
+    "city": "Shijiazhuang",
+    "town": "Shijiazhuang",
+    "pincode": "050000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 472248,
+    "mobileUsers": 403270,
+    "internetUsers": 268568,
+    "genderCounts": {
+      "male": 228497,
+      "female": 243751
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "China",
+    "city": "Wenzhou",
+    "town": "Wenzhou",
+    "pincode": "050000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 502437,
+    "mobileUsers": 369282,
+    "internetUsers": 350817,
+    "genderCounts": {
+      "male": 259093,
+      "female": 243344
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "China",
+    "city": "Nanchang",
+    "town": "Nanchang",
+    "pincode": "050000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 144674,
+    "mobileUsers": 125860,
+    "internetUsers": 100710,
+    "genderCounts": {
+      "male": 70112,
+      "female": 74562
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "China",
+    "city": "Nanning",
+    "town": "Nanning",
+    "pincode": "050000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 586502,
+    "mobileUsers": 514586,
+    "internetUsers": 371314,
+    "genderCounts": {
+      "male": 296103,
+      "female": 290399
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "China",
+    "city": "Taiyuan",
+    "town": "Taiyuan",
+    "pincode": "050000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 628283,
+    "mobileUsers": 464993,
+    "internetUsers": 364055,
+    "genderCounts": {
+      "male": 327156,
+      "female": 301127
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "China",
+    "city": "Guiyang",
+    "town": "Guiyang",
+    "pincode": "050000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 403880,
+    "mobileUsers": 353327,
+    "internetUsers": 236519,
+    "genderCounts": {
+      "male": 212636,
+      "female": 191244
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "China",
+    "city": "Lanzhou",
+    "town": "Lanzhou",
+    "pincode": "050000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 393292,
+    "mobileUsers": 349322,
+    "internetUsers": 284096,
+    "genderCounts": {
+      "male": 193349,
+      "female": 199943
+    },
+    "healthIssues": [
+      "Hypertension",
+      "PCOD/PCOS",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "China",
+    "city": "Urumqi",
+    "town": "Urumqi",
+    "pincode": "050000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 539144,
+    "mobileUsers": 428414,
+    "internetUsers": 301383,
+    "genderCounts": {
+      "male": 276743,
+      "female": 262401
+    },
+    "healthIssues": [
+      "Obesity",
+      "Insulin Resistance",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "China",
+    "city": "Xining",
+    "town": "Xining",
+    "pincode": "050000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 167603,
+    "mobileUsers": 122871,
+    "internetUsers": 108218,
+    "genderCounts": {
+      "male": 83196,
+      "female": 84407
+    },
+    "healthIssues": [
+      "PCOD/PCOS",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "China",
+    "city": "Yinchuan",
+    "town": "Yinchuan",
+    "pincode": "050000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 66740,
+    "mobileUsers": 53025,
+    "internetUsers": 50373,
+    "genderCounts": {
+      "male": 32994,
+      "female": 33746
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "China",
+    "city": "Hohhot",
+    "town": "Hohhot",
+    "pincode": "050000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 754253,
+    "mobileUsers": 576494,
+    "internetUsers": 463660,
+    "genderCounts": {
+      "male": 380185,
+      "female": 374068
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "China",
+    "city": "Luoyang",
+    "town": "Luoyang",
+    "pincode": "050000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 321695,
+    "mobileUsers": 261366,
+    "internetUsers": 205863,
+    "genderCounts": {
+      "male": 155729,
+      "female": 165966
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "China",
+    "city": "Yangzhou",
+    "town": "Yangzhou",
+    "pincode": "050000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 699105,
+    "mobileUsers": 610805,
+    "internetUsers": 484521,
+    "genderCounts": {
+      "male": 364170,
+      "female": 334935
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "China",
+    "city": "Nantong",
+    "town": "Nantong",
+    "pincode": "050000",
+    "zone": "East & Southeast Asia",
+    "id": "china",
+    "population": 416772,
+    "mobileUsers": 321596,
+    "internetUsers": 236271,
+    "genderCounts": {
+      "male": 205458,
+      "female": 211314
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Japan",
+    "city": "Shizuoka",
+    "town": "Shizuoka",
+    "pincode": "980-0811",
+    "zone": "East & Southeast Asia",
+    "id": "japan",
+    "population": 326889,
+    "mobileUsers": 241465,
+    "internetUsers": 210049,
+    "genderCounts": {
+      "male": 159567,
+      "female": 167322
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Insulin Resistance"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Japan",
+    "city": "Okayama",
+    "town": "Okayama",
+    "pincode": "980-0811",
+    "zone": "East & Southeast Asia",
+    "id": "japan",
+    "population": 784447,
+    "mobileUsers": 594722,
+    "internetUsers": 559488,
+    "genderCounts": {
+      "male": 410626,
+      "female": 373821
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Japan",
+    "city": "Kumamoto",
+    "town": "Kumamoto",
+    "pincode": "980-0811",
+    "zone": "East & Southeast Asia",
+    "id": "japan",
+    "population": 829068,
+    "mobileUsers": 749478,
+    "internetUsers": 478772,
+    "genderCounts": {
+      "male": 433859,
+      "female": 395209
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Japan",
+    "city": "Kagoshima",
+    "town": "Kagoshima",
+    "pincode": "980-0811",
+    "zone": "East & Southeast Asia",
+    "id": "japan",
+    "population": 630754,
+    "mobileUsers": 575550,
+    "internetUsers": 445740,
+    "genderCounts": {
+      "male": 328851,
+      "female": 301903
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "South Korea",
+    "city": "Suwon",
+    "town": "Suwon",
+    "pincode": "41944",
+    "zone": "East & Southeast Asia",
+    "id": "south-korea",
+    "population": 889082,
+    "mobileUsers": 730604,
+    "internetUsers": 603444,
+    "genderCounts": {
+      "male": 460656,
+      "female": 428426
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "South Korea",
+    "city": "Seongnam",
+    "town": "Seongnam",
+    "pincode": "41944",
+    "zone": "East & Southeast Asia",
+    "id": "south-korea",
+    "population": 246859,
+    "mobileUsers": 220447,
+    "internetUsers": 197171,
+    "genderCounts": {
+      "male": 123949,
+      "female": 122910
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "South Korea",
+    "city": "Changwon",
+    "town": "Changwon",
+    "pincode": "41944",
+    "zone": "East & Southeast Asia",
+    "id": "south-korea",
+    "population": 639484,
+    "mobileUsers": 510360,
+    "internetUsers": 449171,
+    "genderCounts": {
+      "male": 333780,
+      "female": 305704
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "South Korea",
+    "city": "Cheongju",
+    "town": "Cheongju",
+    "pincode": "41944",
+    "zone": "East & Southeast Asia",
+    "id": "south-korea",
+    "population": 884233,
+    "mobileUsers": 670227,
+    "internetUsers": 580462,
+    "genderCounts": {
+      "male": 442704,
+      "female": 441529
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Dyslipidemia"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Taiwan",
+    "city": "Keelung",
+    "town": "Keelung",
+    "pincode": "300",
+    "zone": "East & Southeast Asia",
+    "id": "taiwan",
+    "population": 74687,
+    "mobileUsers": 53261,
+    "internetUsers": 47674,
+    "genderCounts": {
+      "male": 38278,
+      "female": 36409
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Pakistan",
+    "city": "Rawalpindi",
+    "town": "Rawalpindi",
+    "pincode": "46000",
+    "zone": "South Asia",
+    "id": "pakistan",
+    "population": 603172,
+    "mobileUsers": 483102,
+    "internetUsers": 464301,
+    "genderCounts": {
+      "male": 313683,
+      "female": 289489
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Pakistan",
+    "city": "Faisalabad",
+    "town": "Faisalabad",
+    "pincode": "46000",
+    "zone": "South Asia",
+    "id": "pakistan",
+    "population": 135615,
+    "mobileUsers": 118214,
+    "internetUsers": 88075,
+    "genderCounts": {
+      "male": 67830,
+      "female": 67785
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Pakistan",
+    "city": "Multan",
+    "town": "Multan",
+    "pincode": "46000",
+    "zone": "South Asia",
+    "id": "pakistan",
+    "population": 264025,
+    "mobileUsers": 212726,
+    "internetUsers": 162048,
+    "genderCounts": {
+      "male": 135200,
+      "female": 128825
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Bangladesh",
+    "city": "Sylhet",
+    "town": "Sylhet",
+    "pincode": "3100",
+    "zone": "South Asia",
+    "id": "bangladesh",
+    "population": 260200,
+    "mobileUsers": 205106,
+    "internetUsers": 189049,
+    "genderCounts": {
+      "male": 130857,
+      "female": 129343
+    },
+    "healthIssues": [
+      "PCOD/PCOS",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Bangladesh",
+    "city": "Khulna",
+    "town": "Khulna",
+    "pincode": "3100",
+    "zone": "South Asia",
+    "id": "bangladesh",
+    "population": 392389,
+    "mobileUsers": 313285,
+    "internetUsers": 265135,
+    "genderCounts": {
+      "male": 190010,
+      "female": 202379
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Myanmar",
+    "city": "Mandalay",
+    "town": "Mandalay",
+    "pincode": "05011",
+    "zone": "East & Southeast Asia",
+    "id": "myanmar",
+    "population": 747956,
+    "mobileUsers": 601203,
+    "internetUsers": 470336,
+    "genderCounts": {
+      "male": 373483,
+      "female": 374473
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Cambodia",
+    "city": "Siem Reap",
+    "town": "Siem Reap",
+    "pincode": "17252",
+    "zone": "East & Southeast Asia",
+    "id": "cambodia",
+    "population": 104612,
+    "mobileUsers": 87906,
+    "internetUsers": 70068,
+    "genderCounts": {
+      "male": 54763,
+      "female": 49849
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Cambodia",
+    "city": "Sihanoukville",
+    "town": "Sihanoukville",
+    "pincode": "17252",
+    "zone": "East & Southeast Asia",
+    "id": "cambodia",
+    "population": 307110,
+    "mobileUsers": 229631,
+    "internetUsers": 205075,
+    "genderCounts": {
+      "male": 151836,
+      "female": 155274
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Laos",
+    "city": "Luang Prabang",
+    "town": "Luang Prabang",
+    "pincode": "06000",
+    "zone": "East & Southeast Asia",
+    "id": "laos",
+    "population": 556252,
+    "mobileUsers": 457444,
+    "internetUsers": 394215,
+    "genderCounts": {
+      "male": 279154,
+      "female": 277098
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Thailand",
+    "city": "Nonthaburi",
+    "town": "Nonthaburi",
+    "pincode": "11000",
+    "zone": "East & Southeast Asia",
+    "id": "thailand",
+    "population": 360828,
+    "mobileUsers": 315237,
+    "internetUsers": 220593,
+    "genderCounts": {
+      "male": 176650,
+      "female": 184178
+    },
+    "healthIssues": [
+      "Obesity",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Thailand",
+    "city": "Pattaya",
+    "town": "Pattaya",
+    "pincode": "11000",
+    "zone": "East & Southeast Asia",
+    "id": "thailand",
+    "population": 29578,
+    "mobileUsers": 23277,
+    "internetUsers": 21479,
+    "genderCounts": {
+      "male": 14828,
+      "female": 14750
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Malaysia",
+    "city": "Shah Alam",
+    "town": "Shah Alam",
+    "pincode": "40000",
+    "zone": "East & Southeast Asia",
+    "id": "malaysia",
+    "population": 922452,
+    "mobileUsers": 819928,
+    "internetUsers": 670110,
+    "genderCounts": {
+      "male": 450925,
+      "female": 471527
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Malaysia",
+    "city": "Malacca",
+    "town": "Malacca",
+    "pincode": "40000",
+    "zone": "East & Southeast Asia",
+    "id": "malaysia",
+    "population": 175210,
+    "mobileUsers": 158487,
+    "internetUsers": 115016,
+    "genderCounts": {
+      "male": 87693,
+      "female": 87517
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Malaysia",
+    "city": "Ipoh",
+    "town": "Ipoh",
+    "pincode": "40000",
+    "zone": "East & Southeast Asia",
+    "id": "malaysia",
+    "population": 882060,
+    "mobileUsers": 621021,
+    "internetUsers": 487577,
+    "genderCounts": {
+      "male": 449975,
+      "female": 432085
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Indonesia",
+    "city": "Medan",
+    "town": "Medan",
+    "pincode": "20111",
+    "zone": "East & Southeast Asia",
+    "id": "indonesia",
+    "population": 475201,
+    "mobileUsers": 332685,
+    "internetUsers": 308615,
+    "genderCounts": {
+      "male": 232812,
+      "female": 242389
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Indonesia",
+    "city": "Semarang",
+    "town": "Semarang",
+    "pincode": "20111",
+    "zone": "East & Southeast Asia",
+    "id": "indonesia",
+    "population": 134845,
+    "mobileUsers": 120524,
+    "internetUsers": 113733,
+    "genderCounts": {
+      "male": 67290,
+      "female": 67555
+    },
+    "healthIssues": [
+      "Obesity",
+      "Insulin Resistance",
+      "Dyslipidemia"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Indonesia",
+    "city": "Makassar",
+    "town": "Makassar",
+    "pincode": "20111",
+    "zone": "East & Southeast Asia",
+    "id": "indonesia",
+    "population": 619720,
+    "mobileUsers": 563367,
+    "internetUsers": 344323,
+    "genderCounts": {
+      "male": 316436,
+      "female": 303284
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Dyslipidemia",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Indonesia",
+    "city": "Palembang",
+    "town": "Palembang",
+    "pincode": "20111",
+    "zone": "East & Southeast Asia",
+    "id": "indonesia",
+    "population": 226997,
+    "mobileUsers": 183571,
+    "internetUsers": 174392,
+    "genderCounts": {
+      "male": 118338,
+      "female": 108659
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Dyslipidemia",
+      "Thyroid Dysregulation",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Philippines",
+    "city": "Davao City",
+    "town": "Davao City",
+    "pincode": "8000",
+    "zone": "East & Southeast Asia",
+    "id": "philippines",
+    "population": 435490,
+    "mobileUsers": 377663,
+    "internetUsers": 241753,
+    "genderCounts": {
+      "male": 229444,
+      "female": 206046
+    },
+    "healthIssues": [
+      "Fatty Liver",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Philippines",
+    "city": "Iloilo City",
+    "town": "Iloilo City",
+    "pincode": "8000",
+    "zone": "East & Southeast Asia",
+    "id": "philippines",
+    "population": 709009,
+    "mobileUsers": 498441,
+    "internetUsers": 395325,
+    "genderCounts": {
+      "male": 370676,
+      "female": 338333
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Dyslipidemia",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Philippines",
+    "city": "Cagayan de Oro",
+    "town": "Cagayan de Oro",
+    "pincode": "8000",
+    "zone": "East & Southeast Asia",
+    "id": "philippines",
+    "population": 374436,
+    "mobileUsers": 324114,
+    "internetUsers": 276311,
+    "genderCounts": {
+      "male": 193902,
+      "female": 180534
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Vietnam",
+    "city": "Haiphong",
+    "town": "Haiphong",
+    "pincode": "180000",
+    "zone": "East & Southeast Asia",
+    "id": "vietnam",
+    "population": 724405,
+    "mobileUsers": 658671,
+    "internetUsers": 402066,
+    "genderCounts": {
+      "male": 357060,
+      "female": 367345
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Vietnam",
+    "city": "Can Tho",
+    "town": "Can Tho",
+    "pincode": "180000",
+    "zone": "East & Southeast Asia",
+    "id": "vietnam",
+    "population": 616443,
+    "mobileUsers": 538084,
+    "internetUsers": 418258,
+    "genderCounts": {
+      "male": 322095,
+      "female": 294348
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Türkiye",
+    "city": "Konya",
+    "town": "Konya",
+    "pincode": "07070",
+    "zone": "Middle East",
+    "id": "türkiye",
+    "population": 592558,
+    "mobileUsers": 462731,
+    "internetUsers": 401141,
+    "genderCounts": {
+      "male": 292507,
+      "female": 300051
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Türkiye",
+    "city": "Gaziantep",
+    "town": "Gaziantep",
+    "pincode": "07070",
+    "zone": "Middle East",
+    "id": "türkiye",
+    "population": 420601,
+    "mobileUsers": 367441,
+    "internetUsers": 364030,
+    "genderCounts": {
+      "male": 221961,
+      "female": 198640
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Insulin Resistance"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Türkiye",
+    "city": "Kayseri",
+    "town": "Kayseri",
+    "pincode": "07070",
+    "zone": "Middle East",
+    "id": "türkiye",
+    "population": 586622,
+    "mobileUsers": 488885,
+    "internetUsers": 393067,
+    "genderCounts": {
+      "male": 300375,
+      "female": 286247
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Türkiye",
+    "city": "Mersin",
+    "town": "Mersin",
+    "pincode": "07070",
+    "zone": "Middle East",
+    "id": "türkiye",
+    "population": 657182,
+    "mobileUsers": 599301,
+    "internetUsers": 541760,
+    "genderCounts": {
+      "male": 318021,
+      "female": 339161
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Iraq",
+    "city": "Basra",
+    "town": "Basra",
+    "pincode": "61001",
+    "zone": "Middle East",
+    "id": "iraq",
+    "population": 309211,
+    "mobileUsers": 247632,
+    "internetUsers": 235250,
+    "genderCounts": {
+      "male": 152088,
+      "female": 157123
+    },
+    "healthIssues": [
+      "PCOD/PCOS",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Iraq",
+    "city": "Mosul",
+    "town": "Mosul",
+    "pincode": "61001",
+    "zone": "Middle East",
+    "id": "iraq",
+    "population": 472980,
+    "mobileUsers": 418736,
+    "internetUsers": 277223,
+    "genderCounts": {
+      "male": 242966,
+      "female": 230014
+    },
+    "healthIssues": [
+      "Obesity",
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Iran",
+    "city": "Tabriz",
+    "town": "Tabriz",
+    "pincode": "51335",
+    "zone": "Middle East",
+    "id": "iran",
+    "population": 921511,
+    "mobileUsers": 814874,
+    "internetUsers": 715272,
+    "genderCounts": {
+      "male": 461348,
+      "female": 460163
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Iran",
+    "city": "Isfahan",
+    "town": "Isfahan",
+    "pincode": "51335",
+    "zone": "Middle East",
+    "id": "iran",
+    "population": 833232,
+    "mobileUsers": 608865,
+    "internetUsers": 578421,
+    "genderCounts": {
+      "male": 425124,
+      "female": 408108
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Iran",
+    "city": "Mashhad",
+    "town": "Mashhad",
+    "pincode": "51335",
+    "zone": "Middle East",
+    "id": "iran",
+    "population": 829499,
+    "mobileUsers": 625744,
+    "internetUsers": 501898,
+    "genderCounts": {
+      "male": 414961,
+      "female": 414538
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Saudi Arabia",
+    "city": "Medina",
+    "town": "Medina",
+    "pincode": "41411",
+    "zone": "Middle East",
+    "id": "saudi-arabia",
+    "population": 582321,
+    "mobileUsers": 463320,
+    "internetUsers": 417967,
+    "genderCounts": {
+      "male": 280696,
+      "female": 301625
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Saudi Arabia",
+    "city": "Mecca",
+    "town": "Mecca",
+    "pincode": "41411",
+    "zone": "Middle East",
+    "id": "saudi-arabia",
+    "population": 33113,
+    "mobileUsers": 29804,
+    "internetUsers": 27859,
+    "genderCounts": {
+      "male": 16299,
+      "female": 16814
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Saudi Arabia",
+    "city": "Khobar",
+    "town": "Khobar",
+    "pincode": "41411",
+    "zone": "Middle East",
+    "id": "saudi-arabia",
+    "population": 785209,
+    "mobileUsers": 677154,
+    "internetUsers": 545610,
+    "genderCounts": {
+      "male": 385906,
+      "female": 399303
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "United Arab Emirates",
+    "city": "Al Ain",
+    "town": "Al Ain",
+    "pincode": "70000",
+    "zone": "Middle East",
+    "id": "united-arab-emirates",
+    "population": 257931,
+    "mobileUsers": 190384,
+    "internetUsers": 163939,
+    "genderCounts": {
+      "male": 130276,
+      "female": 127655
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Dyslipidemia",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Oman",
+    "city": "Salalah",
+    "town": "Salalah",
+    "pincode": "511",
+    "zone": "Middle East",
+    "id": "oman",
+    "population": 195233,
+    "mobileUsers": 158052,
+    "internetUsers": 117950,
+    "genderCounts": {
+      "male": 98173,
+      "female": 97060
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Russia",
+    "city": "Krasnoyarsk",
+    "town": "Krasnoyarsk",
+    "pincode": "690000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "russia",
+    "population": 838305,
+    "mobileUsers": 670180,
+    "internetUsers": 626127,
+    "genderCounts": {
+      "male": 438749,
+      "female": 399556
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Dyslipidemia",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Russia",
+    "city": "Chelyabinsk",
+    "town": "Chelyabinsk",
+    "pincode": "690000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "russia",
+    "population": 652784,
+    "mobileUsers": 483763,
+    "internetUsers": 459574,
+    "genderCounts": {
+      "male": 343046,
+      "female": 309738
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Russia",
+    "city": "Ufa",
+    "town": "Ufa",
+    "pincode": "690000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "russia",
+    "population": 522497,
+    "mobileUsers": 460569,
+    "internetUsers": 304872,
+    "genderCounts": {
+      "male": 256152,
+      "female": 266345
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Russia",
+    "city": "Rostov-on-Don",
+    "town": "Rostov-on-Don",
+    "pincode": "690000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "russia",
+    "population": 140316,
+    "mobileUsers": 114221,
+    "internetUsers": 108509,
+    "genderCounts": {
+      "male": 69144,
+      "female": 71172
+    },
+    "healthIssues": [
+      "Obesity",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "town": "Shymkent",
+    "pincode": "010000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "kazakhstan",
+    "population": 626096,
+    "mobileUsers": 463773,
+    "internetUsers": 440584,
+    "genderCounts": {
+      "male": 319702,
+      "female": 306394
+    },
+    "healthIssues": [
+      "PCOD/PCOS",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Uzbekistan",
+    "city": "Samarkand",
+    "town": "Samarkand",
+    "pincode": "140100",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "uzbekistan",
+    "population": 422000,
+    "mobileUsers": 368272,
+    "internetUsers": 235951,
+    "genderCounts": {
+      "male": 209518,
+      "female": 212482
+    },
+    "healthIssues": [
+      "Obesity",
+      "Insulin Resistance",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Azerbaijan",
+    "city": "Ganja",
+    "town": "Ganja",
+    "pincode": "AZ2000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "azerbaijan",
+    "population": 232342,
+    "mobileUsers": 200725,
+    "internetUsers": 139758,
+    "genderCounts": {
+      "male": 118546,
+      "female": 113796
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Dyslipidemia",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Georgia",
+    "city": "Kutaisi",
+    "town": "Kutaisi",
+    "pincode": "4300",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "georgia",
+    "population": 492762,
+    "mobileUsers": 450149,
+    "internetUsers": 389162,
+    "genderCounts": {
+      "male": 241231,
+      "female": 251531
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "Fatty Liver",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Armenia",
+    "city": "Gyumri",
+    "town": "Gyumri",
+    "pincode": "3101",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "armenia",
+    "population": 470005,
+    "mobileUsers": 416141,
+    "internetUsers": 330062,
+    "genderCounts": {
+      "male": 232642,
+      "female": 237363
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Poland",
+    "city": "Lublin",
+    "town": "Lublin",
+    "pincode": "00-001",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "poland",
+    "population": 577734,
+    "mobileUsers": 492423,
+    "internetUsers": 374617,
+    "genderCounts": {
+      "male": 291993,
+      "female": 285741
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Poland",
+    "city": "Katowice",
+    "town": "Katowice",
+    "pincode": "00-001",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "poland",
+    "population": 329712,
+    "mobileUsers": 267478,
+    "internetUsers": 211411,
+    "genderCounts": {
+      "male": 162831,
+      "female": 166881
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Czechia",
+    "city": "Pilsen",
+    "town": "Pilsen",
+    "pincode": "602 00",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "czechia",
+    "population": 161306,
+    "mobileUsers": 113719,
+    "internetUsers": 108033,
+    "genderCounts": {
+      "male": 81607,
+      "female": 79699
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Insulin Resistance"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Hungary",
+    "city": "Miskolc",
+    "town": "Miskolc",
+    "pincode": "4000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "hungary",
+    "population": 501929,
+    "mobileUsers": 358463,
+    "internetUsers": 340539,
+    "genderCounts": {
+      "male": 242093,
+      "female": 259836
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Romania",
+    "city": "Brasov",
+    "town": "Brasov",
+    "pincode": "400000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "romania",
+    "population": 669582,
+    "mobileUsers": 469543,
+    "internetUsers": 432478,
+    "genderCounts": {
+      "male": 335799,
+      "female": 333783
+    },
+    "healthIssues": [
+      "Fatty Liver",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Romania",
+    "city": "Constanta",
+    "town": "Constanta",
+    "pincode": "400000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "romania",
+    "population": 555729,
+    "mobileUsers": 402060,
+    "internetUsers": 381957,
+    "genderCounts": {
+      "male": 289418,
+      "female": 266311
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Bulgaria",
+    "city": "Varna",
+    "town": "Varna",
+    "pincode": "9000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "bulgaria",
+    "population": 515782,
+    "mobileUsers": 447996,
+    "internetUsers": 429205,
+    "genderCounts": {
+      "male": 264411,
+      "female": 251371
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Dyslipidemia",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Bulgaria",
+    "city": "Plovdiv",
+    "town": "Plovdiv",
+    "pincode": "9000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "bulgaria",
+    "population": 301457,
+    "mobileUsers": 226702,
+    "internetUsers": 219519,
+    "genderCounts": {
+      "male": 155320,
+      "female": 146137
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Dyslipidemia",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Croatia",
+    "city": "Rijeka",
+    "town": "Rijeka",
+    "pincode": "51000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "croatia",
+    "population": 126642,
+    "mobileUsers": 109465,
+    "internetUsers": 89045,
+    "genderCounts": {
+      "male": 66396,
+      "female": 60246
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Bosnia & Herzegovina",
+    "city": "Banja Luka",
+    "town": "Banja Luka",
+    "pincode": "78000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "bosnia-and-herzegovina",
+    "population": 881962,
+    "mobileUsers": 697931,
+    "internetUsers": 687452,
+    "genderCounts": {
+      "male": 464203,
+      "female": 417759
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Serbia",
+    "city": "Nis",
+    "town": "Nis",
+    "pincode": "21000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "serbia",
+    "population": 824799,
+    "mobileUsers": 716310,
+    "internetUsers": 673913,
+    "genderCounts": {
+      "male": 420767,
+      "female": 404032
+    },
+    "healthIssues": [
+      "Obesity",
+      "Insulin Resistance",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "North Macedonia",
+    "city": "Bitola",
+    "town": "Bitola",
+    "pincode": "7000",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "north-macedonia",
+    "population": 262153,
+    "mobileUsers": 190680,
+    "internetUsers": 181146,
+    "genderCounts": {
+      "male": 127055,
+      "female": 135098
+    },
+    "healthIssues": [
+      "Obesity",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Latvia",
+    "city": "Liepaja",
+    "town": "Liepaja",
+    "pincode": "LV-3401",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "latvia",
+    "population": 893057,
+    "mobileUsers": 706646,
+    "internetUsers": 671313,
+    "genderCounts": {
+      "male": 439379,
+      "female": 453678
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Estonia",
+    "city": "Narva",
+    "town": "Narva",
+    "pincode": "50090",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "estonia",
+    "population": 79105,
+    "mobileUsers": 61863,
+    "internetUsers": 58769,
+    "genderCounts": {
+      "male": 39341,
+      "female": 39764
+    },
+    "healthIssues": [
+      "PCOD/PCOS",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Lithuania",
+    "city": "Siauliai",
+    "town": "Siauliai",
+    "pincode": "44307",
+    "zone": "Eastern Europe & Central Asia",
+    "id": "lithuania",
+    "population": 472313,
+    "mobileUsers": 347904,
+    "internetUsers": 338787,
+    "genderCounts": {
+      "male": 243557,
+      "female": 228756
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Denmark",
+    "city": "Odens",
+    "town": "Odens",
+    "pincode": "5000",
+    "zone": "North America & Western Europe",
+    "id": "denmark",
+    "population": 473145,
+    "mobileUsers": 340877,
+    "internetUsers": 312544,
+    "genderCounts": {
+      "male": 243855,
+      "female": 229290
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Finland",
+    "city": "Espoo",
+    "town": "Espoo",
+    "pincode": "33100",
+    "zone": "North America & Western Europe",
+    "id": "finland",
+    "population": 207789,
+    "mobileUsers": 168645,
+    "internetUsers": 161960,
+    "genderCounts": {
+      "male": 104794,
+      "female": 102995
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Finland",
+    "city": "Vantaa",
+    "town": "Vantaa",
+    "pincode": "33100",
+    "zone": "North America & Western Europe",
+    "id": "finland",
+    "population": 525183,
+    "mobileUsers": 377825,
+    "internetUsers": 358933,
+    "genderCounts": {
+      "male": 276277,
+      "female": 248906
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "United States",
+    "city": "El Paso",
+    "town": "El Paso",
+    "pincode": "84101",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 31698,
+    "mobileUsers": 28952,
+    "internetUsers": 19824,
+    "genderCounts": {
+      "male": 15783,
+      "female": 15915
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "United States",
+    "city": "McAllen",
+    "town": "McAllen",
+    "pincode": "84101",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 411163,
+    "mobileUsers": 320400,
+    "internetUsers": 282870,
+    "genderCounts": {
+      "male": 198944,
+      "female": 212219
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "United States",
+    "city": "Greensboro",
+    "town": "Greensboro",
+    "pincode": "84101",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 513102,
+    "mobileUsers": 464033,
+    "internetUsers": 284709,
+    "genderCounts": {
+      "male": 264482,
+      "female": 248620
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Dyslipidemia",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "United States",
+    "city": "Little Rock",
+    "town": "Little Rock",
+    "pincode": "84101",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 876033,
+    "mobileUsers": 739435,
+    "internetUsers": 630223,
+    "genderCounts": {
+      "male": 460356,
+      "female": 415677
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "United States",
+    "city": "Columbia",
+    "town": "Columbia",
+    "pincode": "84101",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 749789,
+    "mobileUsers": 672103,
+    "internetUsers": 601956,
+    "genderCounts": {
+      "male": 383505,
+      "female": 366284
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "United States",
+    "city": "Chattanooga",
+    "town": "Chattanooga",
+    "pincode": "84101",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 615516,
+    "mobileUsers": 522014,
+    "internetUsers": 483226,
+    "genderCounts": {
+      "male": 310078,
+      "female": 305438
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "United States",
+    "city": "Spokane",
+    "town": "Spokane",
+    "pincode": "84101",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 448780,
+    "mobileUsers": 329246,
+    "internetUsers": 326662,
+    "genderCounts": {
+      "male": 229598,
+      "female": 219182
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Dyslipidemia",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "United States",
+    "city": "Des Moines",
+    "town": "Des Moines",
+    "pincode": "84101",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 758017,
+    "mobileUsers": 622720,
+    "internetUsers": 612479,
+    "genderCounts": {
+      "male": 401112,
+      "female": 356905
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "United States",
+    "city": "Madison",
+    "town": "Madison",
+    "pincode": "84101",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 167300,
+    "mobileUsers": 134997,
+    "internetUsers": 127509,
+    "genderCounts": {
+      "male": 85986,
+      "female": 81314
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Canada",
+    "city": "Regina",
+    "town": "Regina",
+    "pincode": "M5V 2T6",
+    "zone": "North America & Western Europe",
+    "id": "canada",
+    "population": 65267,
+    "mobileUsers": 46027,
+    "internetUsers": 45614,
+    "genderCounts": {
+      "male": 32430,
+      "female": 32837
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Hypertension"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Canada",
+    "city": "Saskatoon",
+    "town": "Saskatoon",
+    "pincode": "M5V 2T6",
+    "zone": "North America & Western Europe",
+    "id": "canada",
+    "population": 560249,
+    "mobileUsers": 507521,
+    "internetUsers": 377515,
+    "genderCounts": {
+      "male": 269508,
+      "female": 290741
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Dyslipidemia",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Canada",
+    "city": "St. John's",
+    "town": "St. John's",
+    "pincode": "M5V 2T6",
+    "zone": "North America & Western Europe",
+    "id": "canada",
+    "population": 589784,
+    "mobileUsers": 459773,
+    "internetUsers": 420039,
+    "genderCounts": {
+      "male": 284508,
+      "female": 305276
+    },
+    "healthIssues": [
+      "PCOD/PCOS",
+      "Fatty Liver",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Canada",
+    "city": "Kelowna",
+    "town": "Kelowna",
+    "pincode": "M5V 2T6",
+    "zone": "North America & Western Europe",
+    "id": "canada",
+    "population": 662490,
+    "mobileUsers": 479782,
+    "internetUsers": 455792,
+    "genderCounts": {
+      "male": 336511,
+      "female": 325979
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Canada",
+    "city": "Kingston",
+    "town": "Kingston",
+    "pincode": "M5V 2T6",
+    "zone": "North America & Western Europe",
+    "id": "canada",
+    "population": 400575,
+    "mobileUsers": 306838,
+    "internetUsers": 251165,
+    "genderCounts": {
+      "male": 197767,
+      "female": 202808
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Mexico",
+    "city": "Leon",
+    "town": "Leon",
+    "pincode": "37000",
+    "zone": "Latin America",
+    "id": "mexico",
+    "population": 210639,
+    "mobileUsers": 176876,
+    "internetUsers": 165629,
+    "genderCounts": {
+      "male": 111421,
+      "female": 99218
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Mexico",
+    "city": "Toluca",
+    "town": "Toluca",
+    "pincode": "37000",
+    "zone": "Latin America",
+    "id": "mexico",
+    "population": 445563,
+    "mobileUsers": 391982,
+    "internetUsers": 283421,
+    "genderCounts": {
+      "male": 221501,
+      "female": 224062
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Mexico",
+    "city": "Juarez",
+    "town": "Juarez",
+    "pincode": "37000",
+    "zone": "Latin America",
+    "id": "mexico",
+    "population": 150632,
+    "mobileUsers": 133014,
+    "internetUsers": 94628,
+    "genderCounts": {
+      "male": 74963,
+      "female": 75669
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Thyroid Dysregulation",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Mexico",
+    "city": "Torreon",
+    "town": "Torreon",
+    "pincode": "37000",
+    "zone": "Latin America",
+    "id": "mexico",
+    "population": 261074,
+    "mobileUsers": 187449,
+    "internetUsers": 148471,
+    "genderCounts": {
+      "male": 137044,
+      "female": 124030
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Mexico",
+    "city": "San Luis Potosi",
+    "town": "San Luis Potosi",
+    "pincode": "37000",
+    "zone": "Latin America",
+    "id": "mexico",
+    "population": 334901,
+    "mobileUsers": 278419,
+    "internetUsers": 212191,
+    "genderCounts": {
+      "male": 161141,
+      "female": 173760
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Dyslipidemia",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Mexico",
+    "city": "Veracruz",
+    "town": "Veracruz",
+    "pincode": "37000",
+    "zone": "Latin America",
+    "id": "mexico",
+    "population": 218172,
+    "mobileUsers": 186273,
+    "internetUsers": 159944,
+    "genderCounts": {
+      "male": 115182,
+      "female": 102990
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Dominican Republic",
+    "city": "Santiago de los Caballeros",
+    "town": "Santiago de los Caballeros",
+    "pincode": "51000",
+    "zone": "Latin America",
+    "id": "dominican-republic",
+    "population": 61857,
+    "mobileUsers": 48813,
+    "internetUsers": 44439,
+    "genderCounts": {
+      "male": 29940,
+      "female": 31917
+    },
+    "healthIssues": [
+      "Obesity",
+      "Insulin Resistance",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Jamaica",
+    "city": "Montego Bay",
+    "town": "Montego Bay",
+    "pincode": "0000",
+    "zone": "Latin America",
+    "id": "jamaica",
+    "population": 300606,
+    "mobileUsers": 260795,
+    "internetUsers": 199110,
+    "genderCounts": {
+      "male": 155175,
+      "female": 145431
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Colombia",
+    "city": "Barranquilla",
+    "town": "Barranquilla",
+    "pincode": "080001",
+    "zone": "Latin America",
+    "id": "colombia",
+    "population": 457400,
+    "mobileUsers": 343080,
+    "internetUsers": 305947,
+    "genderCounts": {
+      "male": 236449,
+      "female": 220951
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Colombia",
+    "city": "Bucaramanga",
+    "town": "Bucaramanga",
+    "pincode": "080001",
+    "zone": "Latin America",
+    "id": "colombia",
+    "population": 616701,
+    "mobileUsers": 498369,
+    "internetUsers": 455390,
+    "genderCounts": {
+      "male": 313166,
+      "female": 303535
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Colombia",
+    "city": "Cartagena",
+    "town": "Cartagena",
+    "pincode": "080001",
+    "zone": "Latin America",
+    "id": "colombia",
+    "population": 468879,
+    "mobileUsers": 386125,
+    "internetUsers": 366818,
+    "genderCounts": {
+      "male": 239939,
+      "female": 228940
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Ecuador",
+    "city": "Cuenca",
+    "town": "Cuenca",
+    "pincode": "010101",
+    "zone": "Latin America",
+    "id": "ecuador",
+    "population": 243546,
+    "mobileUsers": 181460,
+    "internetUsers": 172387,
+    "genderCounts": {
+      "male": 121541,
+      "female": 122005
+    },
+    "healthIssues": [
+      "Obesity",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Ecuador",
+    "city": "Manta",
+    "town": "Manta",
+    "pincode": "010101",
+    "zone": "Latin America",
+    "id": "ecuador",
+    "population": 175585,
+    "mobileUsers": 144832,
+    "internetUsers": 137539,
+    "genderCounts": {
+      "male": 90956,
+      "female": 84629
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Hypertension",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Brazil",
+    "city": "Salvador",
+    "town": "Salvador",
+    "pincode": "40000-000",
+    "zone": "Latin America",
+    "id": "brazil",
+    "population": 477621,
+    "mobileUsers": 367120,
+    "internetUsers": 305613,
+    "genderCounts": {
+      "male": 236483,
+      "female": 241138
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Brazil",
+    "city": "Recife",
+    "town": "Recife",
+    "pincode": "40000-000",
+    "zone": "Latin America",
+    "id": "brazil",
+    "population": 370821,
+    "mobileUsers": 295833,
+    "internetUsers": 281041,
+    "genderCounts": {
+      "male": 181618,
+      "female": 189203
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Hypertension",
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Brazil",
+    "city": "Fortaleza",
+    "town": "Fortaleza",
+    "pincode": "40000-000",
+    "zone": "Latin America",
+    "id": "brazil",
+    "population": 327670,
+    "mobileUsers": 264831,
+    "internetUsers": 251589,
+    "genderCounts": {
+      "male": 167872,
+      "female": 159798
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Dyslipidemia",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Brazil",
+    "city": "Manaus",
+    "town": "Manaus",
+    "pincode": "40000-000",
+    "zone": "Latin America",
+    "id": "brazil",
+    "population": 295821,
+    "mobileUsers": 239364,
+    "internetUsers": 227395,
+    "genderCounts": {
+      "male": 142000,
+      "female": 153821
+    },
+    "healthIssues": [
+      "Fatty Liver",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Brazil",
+    "city": "Goiania",
+    "town": "Goiania",
+    "pincode": "40000-000",
+    "zone": "Latin America",
+    "id": "brazil",
+    "population": 151284,
+    "mobileUsers": 112882,
+    "internetUsers": 107237,
+    "genderCounts": {
+      "male": 73909,
+      "female": 77375
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Argentina",
+    "city": "Mendoza",
+    "town": "Mendoza",
+    "pincode": "5500",
+    "zone": "Latin America",
+    "id": "argentina",
+    "population": 27618,
+    "mobileUsers": 22277,
+    "internetUsers": 17307,
+    "genderCounts": {
+      "male": 14616,
+      "female": 13002
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Insulin Resistance",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Argentina",
+    "city": "San Miguel de Tucuman",
+    "town": "San Miguel de Tucuman",
+    "pincode": "5500",
+    "zone": "Latin America",
+    "id": "argentina",
+    "population": 533997,
+    "mobileUsers": 480450,
+    "internetUsers": 438900,
+    "genderCounts": {
+      "male": 265501,
+      "female": 268496
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Bolivia",
+    "city": "Santa Cruz de la Sierra",
+    "town": "Santa Cruz de la Sierra",
+    "pincode": "0000",
+    "zone": "Latin America",
+    "id": "bolivia",
+    "population": 837519,
+    "mobileUsers": 598301,
+    "internetUsers": 568385,
+    "genderCounts": {
+      "male": 442661,
+      "female": 394858
+    },
+    "healthIssues": [
+      "Hypertension",
+      "PCOD/PCOS",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Bolivia",
+    "city": "Cochabamba",
+    "town": "Cochabamba",
+    "pincode": "0000",
+    "zone": "Latin America",
+    "id": "bolivia",
+    "population": 707670,
+    "mobileUsers": 620323,
+    "internetUsers": 617278,
+    "genderCounts": {
+      "male": 356051,
+      "female": 351619
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Paraguay",
+    "city": "Ciudad del Este",
+    "town": "Ciudad del Este",
+    "pincode": "1209",
+    "zone": "Latin America",
+    "id": "paraguay",
+    "population": 850613,
+    "mobileUsers": 607707,
+    "internetUsers": 505448,
+    "genderCounts": {
+      "male": 415533,
+      "female": 435080
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Thyroid Dysregulation",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Peru",
+    "city": "Trujillo",
+    "town": "Trujillo",
+    "pincode": "04001",
+    "zone": "Latin America",
+    "id": "peru",
+    "population": 640338,
+    "mobileUsers": 571599,
+    "internetUsers": 436525,
+    "genderCounts": {
+      "male": 324908,
+      "female": 315430
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Peru",
+    "city": "Arequipa",
+    "town": "Arequipa",
+    "pincode": "04001",
+    "zone": "Latin America",
+    "id": "peru",
+    "population": 330227,
+    "mobileUsers": 256187,
+    "internetUsers": 242703,
+    "genderCounts": {
+      "male": 169169,
+      "female": 161058
+    },
+    "healthIssues": [
+      "Obesity",
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Chile",
+    "city": "Valparaiso",
+    "town": "Valparaiso",
+    "pincode": "2340000",
+    "zone": "Latin America",
+    "id": "chile",
+    "population": 511645,
+    "mobileUsers": 461620,
+    "internetUsers": 445081,
+    "genderCounts": {
+      "male": 250585,
+      "female": 261060
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Chile",
+    "city": "Concepcion",
+    "town": "Concepcion",
+    "pincode": "2340000",
+    "zone": "Latin America",
+    "id": "chile",
+    "population": 916047,
+    "mobileUsers": 701714,
+    "internetUsers": 666628,
+    "genderCounts": {
+      "male": 448088,
+      "female": 467959
+    },
+    "healthIssues": [
+      "Obesity",
+      "Insulin Resistance",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Venezuela",
+    "city": "Maracay",
+    "town": "Maracay",
+    "pincode": "4001",
+    "zone": "Latin America",
+    "id": "venezuela",
+    "population": 494605,
+    "mobileUsers": 440194,
+    "internetUsers": 292235,
+    "genderCounts": {
+      "male": 247393,
+      "female": 247212
+    },
+    "healthIssues": [
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Venezuela",
+    "city": "Valencia",
+    "town": "Valencia",
+    "pincode": "4001",
+    "zone": "Latin America",
+    "id": "venezuela",
+    "population": 256261,
+    "mobileUsers": 224830,
+    "internetUsers": 174190,
+    "genderCounts": {
+      "male": 130298,
+      "female": 125963
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Egypt",
+    "city": "Giza",
+    "town": "Giza",
+    "pincode": "12211",
+    "zone": "Middle East",
+    "id": "egypt",
+    "population": 845500,
+    "mobileUsers": 632623,
+    "internetUsers": 600991,
+    "genderCounts": {
+      "male": 425671,
+      "female": 419829
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Egypt",
+    "city": "Port Said",
+    "town": "Port Said",
+    "pincode": "12211",
+    "zone": "Middle East",
+    "id": "egypt",
+    "population": 508070,
+    "mobileUsers": 370725,
+    "internetUsers": 348664,
+    "genderCounts": {
+      "male": 249026,
+      "female": 259044
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Tunisia",
+    "city": "Sfax",
+    "town": "Sfax",
+    "pincode": "3000",
+    "zone": "Africa",
+    "id": "tunisia",
+    "population": 150443,
+    "mobileUsers": 131562,
+    "internetUsers": 91298,
+    "genderCounts": {
+      "male": 74039,
+      "female": 76404
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Algeria",
+    "city": "Oran",
+    "town": "Oran",
+    "pincode": "31000",
+    "zone": "Africa",
+    "id": "algeria",
+    "population": 695974,
+    "mobileUsers": 630972,
+    "internetUsers": 604738,
+    "genderCounts": {
+      "male": 358856,
+      "female": 337118
+    },
+    "healthIssues": [
+      "PCOD/PCOS",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Morocco",
+    "city": "Tangier",
+    "town": "Tangier",
+    "pincode": "90000",
+    "zone": "Africa",
+    "id": "morocco",
+    "population": 395088,
+    "mobileUsers": 314573,
+    "internetUsers": 266617,
+    "genderCounts": {
+      "male": 204581,
+      "female": 190507
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Morocco",
+    "city": "Marrakech",
+    "town": "Marrakech",
+    "pincode": "90000",
+    "zone": "Africa",
+    "id": "morocco",
+    "population": 507075,
+    "mobileUsers": 374303,
+    "internetUsers": 356746,
+    "genderCounts": {
+      "male": 250058,
+      "female": 257017
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Thyroid Dysregulation",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Morocco",
+    "city": "Fez",
+    "town": "Fez",
+    "pincode": "90000",
+    "zone": "Africa",
+    "id": "morocco",
+    "population": 128914,
+    "mobileUsers": 101333,
+    "internetUsers": 96266,
+    "genderCounts": {
+      "male": 66439,
+      "female": 62475
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "Dyslipidemia"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Nigeria",
+    "city": "Port Harcourt",
+    "town": "Port Harcourt",
+    "pincode": "500001",
+    "zone": "Africa",
+    "id": "nigeria",
+    "population": 371282,
+    "mobileUsers": 273521,
+    "internetUsers": 259844,
+    "genderCounts": {
+      "male": 183675,
+      "female": 187607
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Insulin Resistance",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Nigeria",
+    "city": "Ibadan",
+    "town": "Ibadan",
+    "pincode": "500001",
+    "zone": "Africa",
+    "id": "nigeria",
+    "population": 327030,
+    "mobileUsers": 276254,
+    "internetUsers": 226298,
+    "genderCounts": {
+      "male": 162633,
+      "female": 164397
+    },
+    "healthIssues": [
+      "PCOD/PCOS",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed meats, refined wheat bread, sugary beverages"
+  },
+  {
+    "country": "Nigeria",
+    "city": "Kano",
+    "town": "Kano",
+    "pincode": "500001",
+    "zone": "Africa",
+    "id": "nigeria",
+    "population": 427181,
+    "mobileUsers": 303255,
+    "internetUsers": 277691,
+    "genderCounts": {
+      "male": 210305,
+      "female": 216876
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Kenya",
+    "city": "Mombasa",
+    "town": "Mombasa",
+    "pincode": "80100",
+    "zone": "Africa",
+    "id": "kenya",
+    "population": 423995,
+    "mobileUsers": 315394,
+    "internetUsers": 243393,
+    "genderCounts": {
+      "male": 223339,
+      "female": 200656
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Thyroid Dysregulation",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Kenya",
+    "city": "Kisumu",
+    "town": "Kisumu",
+    "pincode": "80100",
+    "zone": "Africa",
+    "id": "kenya",
+    "population": 590422,
+    "mobileUsers": 511167,
+    "internetUsers": 367444,
+    "genderCounts": {
+      "male": 296232,
+      "female": 294190
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Dyslipidemia",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "South Africa",
+    "city": "Durban",
+    "town": "Durban",
+    "pincode": "4000",
+    "zone": "Africa",
+    "id": "south-africa",
+    "population": 521136,
+    "mobileUsers": 442785,
+    "internetUsers": 326317,
+    "genderCounts": {
+      "male": 256502,
+      "female": 264634
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "South Africa",
+    "city": "Port Elizabeth",
+    "town": "Port Elizabeth",
+    "pincode": "4000",
+    "zone": "Africa",
+    "id": "south-africa",
+    "population": 713009,
+    "mobileUsers": 594127,
+    "internetUsers": 496680,
+    "genderCounts": {
+      "male": 346594,
+      "female": 366415
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Ghana",
+    "city": "Kumasi",
+    "town": "Kumasi",
+    "pincode": "00233",
+    "zone": "Africa",
+    "id": "ghana",
+    "population": 161646,
+    "mobileUsers": 116094,
+    "internetUsers": 90773,
+    "genderCounts": {
+      "male": 81038,
+      "female": 80608
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "Insulin Resistance",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Cameroon",
+    "city": "Douala",
+    "town": "Douala",
+    "pincode": "300",
+    "zone": "Africa",
+    "id": "cameroon",
+    "population": 919014,
+    "mobileUsers": 658199,
+    "internetUsers": 633825,
+    "genderCounts": {
+      "male": 486237,
+      "female": 432777
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Fatty Liver",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Millets, white rice, coconut oil, high carbohydrates"
+  },
+  {
+    "country": "Democratic Republic of the Congo",
+    "city": "Lubumbashi",
+    "town": "Lubumbashi",
+    "pincode": "100",
+    "zone": "Africa",
+    "id": "democratic-republic-of-the-congo",
+    "population": 445967,
+    "mobileUsers": 335002,
+    "internetUsers": 312829,
+    "genderCounts": {
+      "male": 227510,
+      "female": 218457
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "PCOD/PCOS",
+      "Circadian Desynchrony"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Democratic Republic of the Congo",
+    "city": "Goma",
+    "town": "Goma",
+    "pincode": "100",
+    "zone": "Africa",
+    "id": "democratic-republic-of-the-congo",
+    "population": 676237,
+    "mobileUsers": 571674,
+    "internetUsers": 396249,
+    "genderCounts": {
+      "male": 348786,
+      "female": 327451
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Dyslipidemia",
+      "Circadian Desynchrony",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Zambia",
+    "city": "Kitwe",
+    "town": "Kitwe",
+    "pincode": "10101",
+    "zone": "Africa",
+    "id": "zambia",
+    "population": 592457,
+    "mobileUsers": 507044,
+    "internetUsers": 412389,
+    "genderCounts": {
+      "male": 284577,
+      "female": 307880
+    },
+    "healthIssues": [
+      "Hypertension",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Zimbabwe",
+    "city": "Bulawayo",
+    "town": "Bulawayo",
+    "pincode": "00263",
+    "zone": "Africa",
+    "id": "zimbabwe",
+    "population": 774098,
+    "mobileUsers": 658547,
+    "internetUsers": 558776,
+    "genderCounts": {
+      "male": 395008,
+      "female": 379090
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Wheat parathas, mustard oil, high sodium pickles"
+  },
+  {
+    "country": "Burundi",
+    "city": "Bujumbura",
+    "town": "Bujumbura",
+    "pincode": "00257",
+    "zone": "Africa",
+    "id": "burundi",
+    "population": 531277,
+    "mobileUsers": 464089,
+    "internetUsers": 330044,
+    "genderCounts": {
+      "male": 280208,
+      "female": 251069
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Obesity",
+      "Dyslipidemia"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Ethiopia",
+    "city": "Dire Dawa",
+    "town": "Dire Dawa",
+    "pincode": "3000",
+    "zone": "Africa",
+    "id": "ethiopia",
+    "population": 476345,
+    "mobileUsers": 362732,
+    "internetUsers": 344595,
+    "genderCounts": {
+      "male": 241650,
+      "female": 234695
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "PCOD/PCOS"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Somalia",
+    "city": "Hargeisa",
+    "town": "Hargeisa",
+    "pincode": "00252",
+    "zone": "Africa",
+    "id": "somalia",
+    "population": 235916,
+    "mobileUsers": 207856,
+    "internetUsers": 188344,
+    "genderCounts": {
+      "male": 117116,
+      "female": 118800
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "Thyroid Dysregulation",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Sudan",
+    "city": "Port Sudan",
+    "town": "Port Sudan",
+    "pincode": "11111",
+    "zone": "Africa",
+    "id": "sudan",
+    "population": 203634,
+    "mobileUsers": 155661,
+    "internetUsers": 136013,
+    "genderCounts": {
+      "male": 103288,
+      "female": 100346
+    },
+    "healthIssues": [
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "PCOD/PCOS",
+      "Metabolic Syndrome"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Djibouti",
+    "city": "Djibouti City",
+    "town": "Djibouti City",
+    "pincode": "00253",
+    "zone": "Africa",
+    "id": "djibouti",
+    "population": 64815,
+    "mobileUsers": 59360,
+    "internetUsers": 48838,
+    "genderCounts": {
+      "male": 33158,
+      "female": 31657
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Hypertension",
+      "PCOD/PCOS",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "Senegal",
+    "city": "Saint-Louis",
+    "town": "Saint-Louis",
+    "pincode": "10000",
+    "zone": "Africa",
+    "id": "senegal",
+    "population": 125337,
+    "mobileUsers": 108229,
+    "internetUsers": 94242,
+    "genderCounts": {
+      "male": 65100,
+      "female": 60237
+    },
+    "healthIssues": [
+      "Obesity",
+      "Dyslipidemia",
+      "Fatty Liver"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  },
+  {
+    "country": "Ivory Coast",
+    "city": "Abidjan",
+    "town": "Abidjan",
+    "pincode": "00225",
+    "zone": "Africa",
+    "id": "ivory-coast",
+    "population": 64862,
+    "mobileUsers": 58204,
+    "internetUsers": 56888,
+    "genderCounts": {
+      "male": 32868,
+      "female": 31994
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance"
+    ],
+    "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup"
+  },
+  {
+    "country": "Ivory Coast",
+    "city": "Bouake",
+    "town": "Bouake",
+    "pincode": "00225",
+    "zone": "Africa",
+    "id": "ivory-coast",
+    "population": 740730,
+    "mobileUsers": 592469,
+    "internetUsers": 577447,
+    "genderCounts": {
+      "male": 379117,
+      "female": 361613
+    },
+    "healthIssues": [
+      "Type 2 Diabetes",
+      "Insulin Resistance"
+    ],
+    "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber"
+  },
+  {
+    "country": "Burkina Faso",
+    "city": "Bobo-Dioulasso",
+    "town": "Bobo-Dioulasso",
+    "pincode": "00226",
+    "zone": "Africa",
+    "id": "burkina-faso",
+    "population": 288432,
+    "mobileUsers": 206776,
+    "internetUsers": 196437,
+    "genderCounts": {
+      "male": 139214,
+      "female": 149218
+    },
+    "healthIssues": [
+      "Hypertension",
+      "Insulin Resistance",
+      "Dyslipidemia"
+    ],
+    "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea"
+  },
+  {
+    "country": "United States",
+    "city": "Portland, ME",
+    "town": "Portland, ME",
+    "pincode": "04101",
+    "zone": "North America & Western Europe",
+    "id": "united-states",
+    "population": 269523,
+    "mobileUsers": 196064,
+    "internetUsers": 189765,
+    "genderCounts": {
+      "male": 138475,
+      "female": 131048
+    },
+    "healthIssues": [
+      "Obesity",
+      "Hypertension",
+      "Dyslipidemia",
+      "Thyroid Dysregulation"
+    ],
+    "commonStaples": "Polished white rice, refined wheat flour, high dairy fat"
+  }
+];

@@ -1,0 +1,83 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>
+
+# Caching & Security Optimizations (June 3 PageSpeed Optimizations)
+
+# 1. EXPIRATION HEADERS (mod_expires)
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 month"
+  
+  # CSS and JS (Vite assets are hashed and immutable)
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType text/javascript "access plus 1 year"
+  
+  # Fonts
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType font/woff "access plus 1 year"
+  ExpiresByType font/otf "access plus 1 year"
+  ExpiresByType font/ttf "access plus 1 year"
+  
+  # Images
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/avif "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/jpg "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/x-icon "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  
+  # Manifest & Web Workers
+  ExpiresByType application/manifest+json "access plus 1 week"
+  ExpiresByType application/x-web-app-manifest+json "access plus 1 week"
+  ExpiresByType text/cache-manifest "access plus 0 seconds"
+  
+  # HTML
+  ExpiresByType text/html "access plus 0 seconds"
+</IfModule>
+
+# 2. EXPLICIT CACHE-CONTROL HEADERS (mod_headers)
+<IfModule mod_headers.c>
+  # Hashed CSS & JS Assets are Immutable
+  <FilesMatch "\.(js|css)$">
+    Header set Cache-Control "max-age=31536000, public, immutable"
+  </FilesMatch>
+
+  # Static Assets & Fonts
+  <FilesMatch "\.(webp|avif|ico|png|jpg|jpeg|gif|woff2|woff|ttf|svg)$">
+    Header set Cache-Control "max-age=31536000, public"
+  </FilesMatch>
+
+  # HTML & Manifests (Require revalidation to get latest updates)
+  <FilesMatch "\.(html|json)$">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+  </FilesMatch>
+</IfModule>
+
+# 3. HTTP SECURITY HEADERS (mod_headers)
+<IfModule mod_headers.c>
+  # Enforce HTTPS with HSTS (1 year duration, include subdomains)
+  Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+  
+  # Prevent Clickjacking (X-Frame-Options & CSP frame-ancestors)
+  Header set X-Frame-Options "SAMEORIGIN"
+  
+  # Cross-Origin Opener Policy (COOP) to isolate from malicious popups
+  Header set Cross-Origin-Opener-Policy "same-origin-allow-popups"
+  
+  # Prevent MIME-type sniffing
+  Header set X-Content-Type-Options "nosniff"
+  
+  # Referrer Policy
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+  
+  Header set Content-Security-Policy "default-src 'self'; script-src 'self' https://esm.sh https://apis.google.com 'sha256-Gau557h1MZL8cwVqpbbdZ4y54Vf7sV4CjDWpzRymBNM='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://images.unsplash.com https://nutritioncolours.com; connect-src 'self' https://generativelanguage.googleapis.com https://esm.sh; frame-src 'self'; frame-ancestors 'self'; require-trusted-types-for 'script'; trusted-types default;"
+</IfModule>

@@ -1,0 +1,30 @@
+# NutritionColours Clinical System Documentation
+
+Machine-readable profile designed for AI search crawlers, answer engines, and LLM indexing models.
+
+## Clinical Overview
+NutritionColours is a therapeutic metabolic clinical practice led by founder **Dr. Shilpa Thakur, Ph.D.** The clinic designs precision, plant-based circadian nutrition protocols targeting the clinical remission and reversal of chronic metabolic dysregulations.
+
+## Primary Healthcare Targets
+*   **Type 2 Diabetes Reversal**: Restoration of insulin sensitivity, HbA1c normalization, and pancreactic beta cell recovery through glycemic load management.
+*   **PCOD/PCOS Remission**: Cooling endocrine inflammation, restoring ovulatory cycles, and regulating hormone production.
+*   **Non-Alcoholic Fatty Liver Reversal**: Mitigating hepatic de novo lipogenesis through starchy calorie restriction and lipid clearance.
+
+## Core Program Structures
+1.  **Metabolic Mastery Plan**: Weight regulation, early metabolic reboot, active lifestyle habituation, and basic vital tracking.
+2.  **Therapeutic Reversal Plan**: High-grade metabolic adjustment for PCOS/PCOD, fatty liver, and thyroid dysregulation under digital clinical oversight.
+3.  **Cellular Resurrection Plan**: Long-term clinical protocol for Type 2 Diabetes remission, gut microbiome restoration, and vascular health optimization.
+
+## Frequently Asked Questions (FAQ) for AI Search
+*   **Q: What is the primary clinical methodology used at NutritionColours?**
+    *   A: We treat food as biological information rather than calories. Protocols align dietary timing and nutritional chemistry with natural circadian rhythms to coordinate metabolic processes with endocrine cycles.
+*   **Q: Does Dr. Shilpa Thakur run a physical clinic network?**
+    *   A: NutritionColours operates as a centralized remote clinical practice serving clients globally. Consultations, bio-marker assessments, and meal schedules are managed digitally under Dr. Shilpa's direct oversight.
+*   **Q: Can dietary protocols be personalized for regional food habits?**
+    *   A: Yes. All plans are calibrated to local staple grains, spices, and cooking fat cultures across 1,040+ Indian cities and global zones (e.g. Middle East, Western Europe, and North America) to maximize adherence and metabolic success.
+
+## Web Resources & Site Maps
+*   [Core Programs & Onboarding](https://nutritioncolours.com/plans)
+*   [Health Topics & Clinical Dossiers](https://nutritioncolours.com/knowledge)
+*   [Clinical Team Profiles](https://nutritioncolours.com/team)
+*   [Interactive Calculators & Dynamic Plate Generator](https://nutritioncolours.com/tools)
