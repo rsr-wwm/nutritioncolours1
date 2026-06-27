@@ -29,6 +29,8 @@ export interface InternationalCountryNode {
   clinicalTargetBiomarker: string;
   regionalStapleAlternative: string;
   microclimateMetabolicImpact: string;
+  latitude?: number;
+  longitude?: number;
 }
 
 export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
@@ -77,7 +79,9 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "localProduceSynergy": "Consume raw Okra lightly dusted with Garlic in the morning to optimize insulin sensitivity.",
     "clinicalTargetBiomarker": "Systolic/Diastolic BP & hs-CRP (High-Sensitivity C-Reactive Protein)",
     "regionalStapleAlternative": "Barnyard millet, brown unpolished rice, cold-pressed extra-virgin coconut oil, and high-protein pulse pairings.",
-    "microclimateMetabolicImpact": "Extreme diurnal temperature drops require careful thyroid support to maintain baseline thermogenesis without metabolic stress."
+    "microclimateMetabolicImpact": "Extreme diurnal temperature drops require careful thyroid support to maintain baseline thermogenesis without metabolic stress.",
+    "latitude": 26.2285,
+    "longitude": 50.5860
   },
   {
     "country": "Saudi Arabia",
@@ -129,7 +133,9 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "localProduceSynergy": "Pair fresh Eggplant juice with Holy Basil during your peak circadian metabolic window (12:00 PM - 2:00 PM) to reduce systemic inflammation.",
     "clinicalTargetBiomarker": "LH/FSH Ratio, Free Testosterone & DHEAS",
     "regionalStapleAlternative": "Sourdough spelt bread, extra-virgin olive oil, and raw organic honey or stevia.",
-    "microclimateMetabolicImpact": "Extreme diurnal temperature drops require careful thyroid support to maintain baseline thermogenesis without metabolic stress."
+    "microclimateMetabolicImpact": "Extreme diurnal temperature drops require careful thyroid support to maintain baseline thermogenesis without metabolic stress.",
+    "latitude": 24.7136,
+    "longitude": 46.6753
   },
   {
     "country": "United Arab Emirates",

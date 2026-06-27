@@ -531,6 +531,7 @@ const updateSeoMetadata = (path: string, item?: BlogArticle | Recipe | Topic | H
           let name = "NutritionColours Clinic";
           
           let addressCountry = "IN";
+          let geoObj: any = null;
           if (cleanPath === 'clinic' && path.split('/')[1]) {
               const locId = path.split('/')[1];
               const citySlug = path.split('/')[2];
@@ -542,6 +543,13 @@ const updateSeoMetadata = (path: string, item?: BlogArticle | Recipe | Topic | H
                   postalCode = loc.pincode;
                   name = `NutritionColours ${loc.city} Virtual Outreach Hub`;
                   addressCountry = "IN";
+                  if (loc.latitude && loc.longitude) {
+                      geoObj = {
+                          "@type": "GeoCoordinates",
+                          "latitude": loc.latitude,
+                          "longitude": loc.longitude
+                      };
+                  }
               } else {
                   const matches = intlCountries.filter(l => l.id === locId);
                   if (matches.length > 0) {
@@ -552,6 +560,13 @@ const updateSeoMetadata = (path: string, item?: BlogArticle | Recipe | Topic | H
                       postalCode = intlLoc.pincode;
                       name = `NutritionColours ${intlLoc.city} Virtual Outreach Hub`;
                       addressCountry = intlLoc.country;
+                      if (intlLoc.latitude && intlLoc.longitude) {
+                          geoObj = {
+                              "@type": "GeoCoordinates",
+                              "latitude": intlLoc.latitude,
+                              "longitude": intlLoc.longitude
+                          };
+                      }
                   }
               }
           }
@@ -579,13 +594,13 @@ const updateSeoMetadata = (path: string, item?: BlogArticle | Recipe | Topic | H
                   "postalCode": postalCode,
                   "addressCountry": addressCountry
               },
-              ...(addressCountry === "IN" ? {
+              ...(geoObj ? { "geo": geoObj } : (addressCountry === "IN" ? {
                   "geo": {
                       "@type": "GeoCoordinates",
                       "latitude": 19.0600,
                       "longitude": 72.8362
                   }
-              } : {}),
+              } : {})),
               "openingHoursSpecification": [
                   {
                       "@type": "OpeningHoursSpecification",
@@ -2943,6 +2958,79 @@ const generateRawMarkdownSpec = (path: string, activeLocation: any): string => {
       md += `- Circadian Chrono-Rule: ${activeLocation.chronoRule || 'Align eating windows with daylight cycles'}\n`;
     } else {
       md += `Dynamic location coordinates loaded from central outreach index.\n`;
+    }
+  } else if (path.startsWith('herb/')) {
+    const id = path.split('/')[1];
+    const herb = HERBS_SPICES_DATA.find(h => h.id === id);
+    if (herb) {
+      md += `## Botanical Specifications: ${herb.name} (${herb.scientificName})\n`;
+      md += `**Category:** ${herb.category}\n`;
+      md += `**Active Compounds:** ${herb.activeCompounds.join(', ')}\n\n`;
+      md += `### Primary Mechanism:\n`;
+      md += `${herb.primaryMechanism}\n\n`;
+      md += `### Dosage Guidelines:\n`;
+      md += `- **Dosage Range:** ${herb.dosage.range}\n`;
+      md += `- **Instruction:** ${herb.dosage.instruction}\n\n`;
+      if (herb.contraindications && herb.contraindications.length > 0) {
+        md += `### Contraindications:\n`;
+        herb.contraindications.forEach(c => {
+          md += `- ${c}\n`;
+        });
+        md += `\n`;
+      }
+      if (herb.synergies && herb.synergies.length > 0) {
+        md += `### Synergies:\n`;
+        herb.synergies.forEach(s => {
+          md += `- ${s}\n`;
+        });
+        md += `\n`;
+      }
+    } else {
+      md += `Botanical profile loading from clinical index...\n`;
+    }
+  } else if (path.startsWith('condition/')) {
+    const id = path.split('/')[1];
+    const cond = MEDICAL_CONDITIONS_DATA.find(c => c.id === id);
+    if (cond) {
+      md += `## Medical Condition Reversal Protocol: ${cond.name}\n\n`;
+      md += `### Primary Pathophysiology:\n`;
+      md += `${cond.pathophysiology}\n\n`;
+      md += `### Clinical Swap Guidelines:\n`;
+      md += `- **Eliminate:** ${cond.swapGuidelines.eliminate}\n`;
+      md += `- **Incorporate:** ${cond.swapGuidelines.incorporate}\n`;
+      md += `- **Circadian Timing Rule:** ${cond.swapGuidelines.timingRule}\n\n`;
+      if (cond.symptoms && cond.symptoms.length > 0) {
+        md += `### Monitored Symptoms:\n`;
+        cond.symptoms.forEach(s => {
+          md += `- ${s}\n`;
+        });
+        md += `\n`;
+      }
+    } else {
+      md += `Metabolic condition profile loading from clinical index...\n`;
+    }
+  } else if (path.startsWith('recipe/')) {
+    const id = path.split('/')[1];
+    const recipe = RECIPES.find(r => r.id === id);
+    if (recipe) {
+      md += `## Healing Recipe Profile: ${recipe.title}\n`;
+      md += `**Category:** ${recipe.category} | **Prep Time:** ${recipe.prepTime} | **Estimated Calories:** ${recipe.calories} kcal\n\n`;
+      md += `### Description:\n`;
+      md += `${recipe.description}\n\n`;
+      md += `### Healing Context & Benefits:\n`;
+      md += `${recipe.healingDescription}\n\n`;
+      md += `### Ingredients:\n`;
+      recipe.ingredients.forEach(ing => {
+        md += `- **${ing.name}**: ${ing.detail}\n`;
+      });
+      md += `\n`;
+      md += `### Primary Benefit:\n`;
+      md += `${recipe.primaryBenefit}\n\n`;
+      md += `### Detailed Healing Content:\n`;
+      md += `${recipe.fullHealingContent}\n\n`;
+      md += `*Prepared by:* ${recipe.preparedBy}\n`;
+    } else {
+      md += `Nutrient recipe profile loading from clinical index...\n`;
     }
   } else {
     md += `## Metabolic Remission Philosophy\n`;

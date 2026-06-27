@@ -93,5 +93,5 @@
   # Permissions Policy Tightening (Feature #74)
   Header set Permissions-Policy "geolocation=(), camera=(), microphone=(), payment=(), usb=(), midi=()"
   
-  Header set Content-Security-Policy "default-src 'self'; script-src 'self' https://esm.sh https://apis.google.com 'sha256-4t9ee5scQdNrhV9e2gHcZd4hGuAfAFsUpE0fqdfriOY='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://images.unsplash.com https://nutritioncolours.com; connect-src 'self' https://generativelanguage.googleapis.com https://esm.sh; frame-src 'self'; frame-ancestors 'self'; require-trusted-types-for 'script'; trusted-types default;"
+  Header set Content-Security-Policy "default-src 'self'; script-src 'self' https://esm.sh https://apis.google.com 'sha256-4t9ee5scQdNrhV9e2gHcZd4hGuAfAFsUpE0fqdfriOY='; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data: https://images.unsplash.com https://nutritioncolours.com; connect-src 'self' https://generativelanguage.googleapis.com https://esm.sh; frame-src 'self'; frame-ancestors 'self'; require-trusted-types-for 'script'; trusted-types default;"
 </IfModule>

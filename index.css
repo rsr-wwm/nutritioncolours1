@@ -105,12 +105,11 @@ html {
     outline: 2px solid var(--color-emerald-500, #10b981) !important;
     outline-offset: 2px !important;
 }
-body {
+body, h1, h2, h3, .brand-font {
     font-family: 'Inter', sans-serif;
-    overflow-x: hidden;
 }
-h1, h2, h3, .brand-font {
-    font-family: 'Inter', sans-serif;
+body {
+    overflow-x: hidden;
 }
 .dropdown-animate {
     animation: slideDown 0.2s ease-out;

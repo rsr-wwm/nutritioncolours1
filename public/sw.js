@@ -7,7 +7,13 @@ const DYNAMIC_CACHE = `${CACHE_VERSION}-dynamic`;
 const PRECACHE_ASSETS = [
   '/',
   '/index.html',
-  '/manifest.json'
+  '/manifest.json',
+  '/particle-worker.js',
+  '/scripts/bot-shield.js',
+  '/scripts/partytown-setup.js',
+  '/fonts/inter-latin-400-normal.woff2',
+  '/fonts/inter-latin-500-normal.woff2',
+  '/fonts/inter-latin-600-normal.woff2'
 ];
 
 // Offline fallback page (served as inline HTML when network is unavailable)
@@ -194,10 +200,15 @@ self.addEventListener('fetch', (event) => {
           return caches.match(event.request)
             .then((cachedResponse) => {
               if (cachedResponse) return cachedResponse;
-              // Serve the offline fallback page
-              return new Response(OFFLINE_FALLBACK_HTML, {
-                headers: { 'Content-Type': 'text/html' }
-              });
+              // SPA Fallback: serve /index.html from static cache to allow React client routing to take over offline
+              return caches.match('/index.html')
+                .then((indexResponse) => {
+                  if (indexResponse) return indexResponse;
+                  // If even index.html isn't cached, serve the inline offline fallback page
+                  return new Response(OFFLINE_FALLBACK_HTML, {
+                    headers: { 'Content-Type': 'text/html' }
+                  });
+                });
             });
         })
     );

@@ -4,24 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Crawl Shield & Bot Detection (Main thread & crawl budget protection) -->
-    <script>
-      (function() {
-        const botRegex = /bot|google|baidu|bing|msn|duckduckbot|teoma|slurp|crawler|lighthouse/i;
-        const isBot = botRegex.test(navigator.userAgent);
-        if (isBot) {
-          window.__IS_SEARCH_CRAWLER__ = true;
-          console.log("Crawl agent detected. Activating Crawl Shield.");
-        }
-      })();
-    </script>
-    <!-- Partytown third-party script sandboxing (Core Web Vitals & UXI optimization) -->
-    <script>
-      window.partytown = {
-        lib: '/~partytown/',
-        forward: ['dataLayer.push']
-      };
-    </script>
+    <!-- Crawl Shield & Bot Detection (CSP Compliant) -->
+    <script src="/scripts/bot-shield.js"></script>
+    <!-- Partytown third-party script sandboxing (CSP Compliant) -->
+    <script src="/scripts/partytown-setup.js"></script>
     <script src="/~partytown/partytown.js" defer></script>
 
     <!-- Speculation Rules API for instant Chrome pre-rendering (0ms Loading Architecture) -->
@@ -66,17 +52,10 @@
 
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍃</text></svg>">
     <title>NutritionColours | Metabolic Health & Circadian Nutrition Optimization 2026</title>
-    <script>
-      // Early bot detection for crawl-budget CPU saving
-      window.IS_BOT = /bot|crawler|spider|crawling|slurp|lighthouse|headless/i.test(navigator.userAgent);
-    </script>
+
     <meta name="description" content="Optimize Type 2 Diabetes, PCOD, and Fatty Liver wellness naturally. Book a clinical consultation for Dr. Shilpa Thakur's expert Circadian Nutrition programs in 2026.">
     <meta name="keywords" content="Diabetes Nutrition Support India, PCOD Diet Plan, Clinical Nutritionist Online, Dr Shilpa Thakur, Fatty Liver Nutrition, Circadian Rhythm Diet, Weight Loss Nutritionist">
-    <!-- DNS & Pre-connections (Features #79, #83) -->
-    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
-    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- DNS & Pre-connections -->
 
     <!-- Global Fallback (Feature #86) -->
     <link rel="alternate" hreflang="x-default" href="https://nutritioncolours.com/">
@@ -98,72 +77,7 @@
     <link rel="canonical" href="https://nutritioncolours.com/">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     
-    <!-- Structured Data (JSON-LD) for AI & Search Engines -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalOrganization",
-      "name": "NutritionColours",
-      "url": "https://nutritioncolours.com",
-      "logo": "https://nutritioncolours.com/images/Dr_shilpa_thakur.webp",
-      "founder": {
-        "@type": "Person",
-        "name": "Dr. Shilpa Thakur",
-        "jobTitle": "Clinical Nutrition Specialist & Metabolic Researcher (Non-Medical Practitioner)",
-        "description": "Ph.D. in Clinical Nutrition specializing in Diabetes support and Circadian Biology.",
-        "url": "https://nutritioncolours.com/team/shilpa"
-      },
-      "description": "Clinical metabolic nutrition outreach specializing in optimizing wellness for conditions like Type 2 Diabetes, PCOD, and Fatty Liver.",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Chandigarh",
-        "addressRegion": "Punjab",
-        "addressCountry": "India"
-      },
-      "sameAs": [
-        "https://linkedin.com/in/drthakurshilpa",
-        "https://instagram.com/drthakurshilpa",
-        "https://facebook.com/NutritionColours"
-      ],
-      "medicalSpecialty": [
-        "Diabetes",
-        "Metabolism",
-        "Women's Health",
-        "Nutritional Science"
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "@id": "https://nutritioncolours.com/#shilpathakur",
-      "name": "Dr. Shilpa Thakur, Ph.D. (Clinical Nutrition) - Non-Medical Practitioner",
-      "jobTitle": "Clinical Nutrition Specialist, Founder & Metabolic Researcher (Non-Medical Practitioner)",
-      "description": "Clinical Nutritionist and researcher pioneering 'Food as Medicine' through therapeutic nutritional protocols and circadian rhythm biology.",
-      "image": "https://nutritioncolours.com/images/Dr_shilpa_thakur.webp",
-      "url": "https://nutritioncolours.com/team/shilpa",
-      "telephone": "+917696160133",
-      "knowsAbout": [
-        "Diabetes Nutrition Support",
-        "PCOS / PCOD Management",
-        "Circadian Biology",
-        "Clinical Nutrition",
-        "Metabolic Science"
-      ],
-      "worksFor": {
-        "@type": "MedicalOrganization",
-        "name": "NutritionColours",
-        "url": "https://nutritioncolours.com"
-      },
-      "sameAs": [
-        "https://linkedin.com/in/drthakurshilpa",
-        "https://instagram.com/drthakurshilpa",
-        "https://facebook.com/NutritionColours",
-        "https://www.google.com/search?q=Dr.+Shilpa+Thakur+NutritionColours"
-      ]
-    }
-    </script>
+
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -179,6 +93,7 @@
 
     <!-- Preload critical local fonts for 0ms shift and offline resilience -->
     <link rel="preload" href="/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/inter-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/fonts/inter-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/images/precision_metabolic_nutrition_dr_shilpa.webp" as="image" fetchpriority="high">
     <style>
