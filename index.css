@@ -40,11 +40,11 @@
 /* Cascade Architecture Definition (Feature #104) */
 @layer base, components, utilities;
 @layer base {
-  h1 { font-size: clamp(2rem, 1.33rem + 2.22vw, 3rem) !important; font-weight: 700 !important; text-wrap: balance; }
-  h2 { font-size: clamp(1.5rem, 1rem + 1.67vw, 2.25rem) !important; font-weight: 600 !important; text-wrap: balance; }
-  h3 { font-size: clamp(1.25rem, 0.92rem + 1.11vw, 1.75rem) !important; font-weight: 600 !important; text-wrap: balance; }
-  p { font-size: clamp(0.938rem, 0.81rem + 0.42vw, 1.125rem) !important; line-height: 1.6 !important; }
-  small, .caption, .footer-text { font-size: clamp(0.75rem, 0.67rem + 0.28vw, 0.875rem) !important; }
+  h1 { font-size: clamp(2rem, 1.33rem + 2.22vw, 3rem); font-weight: 700; text-wrap: balance; }
+  h2 { font-size: clamp(1.5rem, 1rem + 1.67vw, 2.25rem); font-weight: 600; text-wrap: balance; }
+  h3 { font-size: clamp(1.25rem, 0.92rem + 1.11vw, 1.75rem); font-weight: 600; text-wrap: balance; }
+  p { font-size: clamp(0.938rem, 0.81rem + 0.42vw, 1.125rem); line-height: 1.6; }
+  small, .caption, .footer-text { font-size: clamp(0.75rem, 0.67rem + 0.28vw, 0.875rem); }
 
   body {
     /* Feature #105: Native form accent-color theming */

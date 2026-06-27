@@ -5,9 +5,7 @@
     "ok": true,
     "isBlank": false,
     "pageErrors": [],
-    "consoleErrors": [
-      "Failed to load resource: net::ERR_FAILED"
-    ],
+    "consoleErrors": [],
     "iconsCheck": "N/A"
   },
   {

@@ -1062,21 +1062,21 @@ const HeroSlider = ({ banners, onNavigate }: { banners: typeof BANNERS, onNaviga
                                 >
                                     <button 
                                         onClick={(e) => { e.stopPropagation(); onNavigate('plans'); }}
-                                        className="w-full bg-lime-400 text-emerald-950 p-6 rounded-3xl font-black uppercase tracking-widest text-xs hover:bg-white hover:text-emerald-950 transition-all shadow-2xl shadow-lime-400/20 transform hover:-translate-x-2 active:scale-95 group flex items-center justify-between"
+                                        className="w-full bg-lime-400 text-emerald-950 p-6 rounded-3xl font-black uppercase tracking-widest text-sm hover:bg-white hover:text-emerald-950 transition-all shadow-2xl shadow-lime-400/20 transform hover:-translate-x-2 active:scale-95 group flex items-center justify-between"
                                     >
                                         <span>Reclaim Biological Freedom</span>
                                         <IconArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                                     </button>
                                     <button 
                                         onClick={(e) => { e.stopPropagation(); onNavigate('about'); }}
-                                        className="w-full bg-white/5 backdrop-blur-xl text-white border border-white/20 p-6 rounded-3xl font-black uppercase tracking-widest text-[10px] hover:bg-white hover:text-emerald-950 transition-all transform hover:-translate-x-2 active:scale-95 group flex items-center justify-between"
+                                        className="w-full bg-white/5 backdrop-blur-xl text-white border border-white/20 p-6 rounded-3xl font-black uppercase tracking-widest text-xs hover:bg-white hover:text-emerald-950 transition-all transform hover:-translate-x-2 active:scale-95 group flex items-center justify-between"
                                     >
                                         <span>Stop Calorie Counting</span>
                                         <IconCheck size={18} className="text-lime-400" />
                                     </button>
                                     <button 
                                         onClick={(e) => { e.stopPropagation(); onNavigate('connect'); }}
-                                        className="w-full bg-white/5 backdrop-blur-xl text-white border border-white/10 p-6 rounded-3xl font-black uppercase tracking-widest text-[10px] hover:bg-white/10 transition-all transform hover:-translate-x-2 active:scale-95 group flex items-center justify-between"
+                                        className="w-full bg-white/5 backdrop-blur-xl text-white border border-white/10 p-6 rounded-3xl font-black uppercase tracking-widest text-xs hover:bg-white/10 transition-all transform hover:-translate-x-2 active:scale-95 group flex items-center justify-between"
                                     >
                                         <span>Join Medicine-Free Hub</span>
                                         <IconFlask size={18} className="text-lime-400" />
@@ -4013,11 +4013,11 @@ const AppContent = () => {
                     {topicsData.map(topic => (
                         <a key={topic.id} href={`/topic/${topic.id}`} onClick={(e) => { e.preventDefault(); navigate(`topic/${topic.id}`); }} className="group bg-white rounded-3xl p-6 border border-stone-100 hover:border-emerald-200 shadow-sm transition-all duration-300 flex flex-col h-full text-left block">
                             <div className="flex justify-between items-start mb-6">
-                                <span className="text-xs font-black uppercase tracking-[0.2em] px-3 py-1 bg-emerald-50 text-emerald-700 rounded-lg border border-emerald-100">{topic.category}</span>
+                                <span className="text-[10px] font-black uppercase tracking-[0.1em] px-3 py-1 bg-emerald-50 text-emerald-700 rounded-lg border border-emerald-100">{topic.category}</span>
                                 <IconFlask size={14} className="text-stone-300 group-hover:text-emerald-500 transition-colors" />
                             </div>
                             
-                            <h3 className="text-lg font-black text-emerald-950 mb-3 group-hover:text-emerald-700 transition-colors brand-font uppercase tracking-tight line-clamp-1">{topic.title}</h3>
+                            <h3 className="text-lg font-black text-emerald-950 mb-3 group-hover:text-emerald-700 transition-colors brand-font uppercase tracking-tight line-clamp-2 min-h-[3.5rem]">{topic.title}</h3>
                             <p className="text-stone-500 text-[11px] leading-relaxed mb-6 flex-grow line-clamp-2 italic">{topic.shortDesc}</p>
                             
                             <div className="flex flex-wrap gap-1 mb-6">
