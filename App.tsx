@@ -1061,7 +1061,7 @@ const HeroSlider = ({ banners, onNavigate }: { banners: typeof BANNERS, onNaviga
                                 >
                                     <button 
                                         onClick={(e) => { e.stopPropagation(); onNavigate('plans'); }}
-                                        className="w-full bg-lime-400 text-emerald-950 py-4 px-6 rounded-2xl font-black uppercase tracking-widest text-[11px] hover:bg-white hover:text-emerald-950 transition-all shadow-2xl shadow-lime-400/20 transform hover:-translate-x-2 active:scale-95 group flex items-center justify-between"
+                                        className="w-full bg-lime-400 text-emerald-950 py-4 px-6 rounded-2xl font-black uppercase tracking-widest text-[10px] hover:bg-white hover:text-emerald-950 transition-all shadow-2xl shadow-lime-400/20 transform hover:-translate-x-2 active:scale-95 group flex items-center justify-between"
                                     >
                                         <span>Reclaim Biological Freedom</span>
                                         <IconArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
