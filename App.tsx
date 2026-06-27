@@ -1009,7 +1009,7 @@ const HeroSlider = ({ banners, onNavigate }: { banners: typeof BANNERS, onNaviga
     }, [banners.length]);
 
     return (
-        <div className="relative w-full min-h-[600px] h-[70vh] lg:h-[80vh] bg-emerald-950 overflow-hidden">
+        <div className="relative w-full min-h-[500px] h-[65vh] lg:h-[75vh] bg-emerald-950 overflow-hidden">
             <AnimatePresence mode="wait" initial={false}>
                 {banners.map((banner, i) => i === current && (
                     <m.div 
@@ -1062,24 +1062,24 @@ const HeroSlider = ({ banners, onNavigate }: { banners: typeof BANNERS, onNaviga
                                 >
                                     <button 
                                         onClick={(e) => { e.stopPropagation(); onNavigate('plans'); }}
-                                        className="w-full bg-lime-400 text-emerald-950 p-6 rounded-3xl font-black uppercase tracking-widest text-sm hover:bg-white hover:text-emerald-950 transition-all shadow-2xl shadow-lime-400/20 transform hover:-translate-x-2 active:scale-95 group flex items-center justify-between"
+                                        className="w-full bg-lime-400 text-emerald-950 py-4 px-6 rounded-2xl font-black uppercase tracking-widest text-[11px] hover:bg-white hover:text-emerald-950 transition-all shadow-2xl shadow-lime-400/20 transform hover:-translate-x-2 active:scale-95 group flex items-center justify-between"
                                     >
                                         <span>Reclaim Biological Freedom</span>
-                                        <IconArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                                        <IconArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
                                     </button>
                                     <button 
                                         onClick={(e) => { e.stopPropagation(); onNavigate('about'); }}
-                                        className="w-full bg-white/5 backdrop-blur-xl text-white border border-white/20 p-6 rounded-3xl font-black uppercase tracking-widest text-xs hover:bg-white hover:text-emerald-950 transition-all transform hover:-translate-x-2 active:scale-95 group flex items-center justify-between"
+                                        className="w-full bg-white/5 backdrop-blur-xl text-white border border-white/20 py-4 px-6 rounded-2xl font-black uppercase tracking-widest text-[10px] hover:bg-white hover:text-emerald-950 transition-all transform hover:-translate-x-2 active:scale-95 group flex items-center justify-between"
                                     >
                                         <span>Stop Calorie Counting</span>
-                                        <IconCheck size={18} className="text-lime-400" />
+                                        <IconCheck size={16} className="text-lime-400" />
                                     </button>
                                     <button 
                                         onClick={(e) => { e.stopPropagation(); onNavigate('connect'); }}
-                                        className="w-full bg-white/5 backdrop-blur-xl text-white border border-white/10 p-6 rounded-3xl font-black uppercase tracking-widest text-xs hover:bg-white/10 transition-all transform hover:-translate-x-2 active:scale-95 group flex items-center justify-between"
+                                        className="w-full bg-white/5 backdrop-blur-xl text-white border border-white/10 py-4 px-6 rounded-2xl font-black uppercase tracking-widest text-[10px] hover:bg-white/10 transition-all transform hover:-translate-x-2 active:scale-95 group flex items-center justify-between"
                                     >
                                         <span>Join Medicine-Free Hub</span>
-                                        <IconFlask size={18} className="text-lime-400" />
+                                        <IconFlask size={16} className="text-lime-400" />
                                     </button>
                                 </m.div>
                             </div>
