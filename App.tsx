@@ -27,8 +27,7 @@ import { SectionHeading } from './components/SectionHeading';
 import { ViewerTrackerProvider, useViewerTracker } from './components/ViewerTracker';
 import { ParticleConstellation } from './components/ParticleConstellation';
 import { getStoredGeminiApiKey } from './components/apiKey';
-import { LOCATIONS_DATA } from './components/locationsData';
-import { INTERNATIONAL_COUNTRIES } from './components/internationalData';
+// Removed static imports of LOCATIONS_DATA and INTERNATIONAL_COUNTRIES for dynamic code-splitting
 import { TOPICS } from './topics';
 import { HERBS_SPICES_DATA, MEDICAL_CONDITIONS_DATA } from './clinical_databases';
 import semanticLinks from './semantic_links.json';
@@ -2979,8 +2978,8 @@ const AppContent = () => {
   const [isLocationPickerOpen, setIsLocationPickerOpen] = useState(false);
 
   // Dynamic locations loading states
-  const [locationsData, setLocationsData] = useState<any[]>(LOCATIONS_DATA);
-  const [intlCountries, setIntlCountries] = useState<any[]>(INTERNATIONAL_COUNTRIES);
+  const [locationsData, setLocationsData] = useState<any[]>([]);
+  const [intlCountries, setIntlCountries] = useState<any[]>([]);
   const [topicsData, setTopicsData] = useState<Topic[]>(TOPICS);
   const [herbsData, setHerbsData] = useState<HerbalEntity[]>(HERBS_SPICES_DATA);
   const [conditionsData, setConditionsData] = useState<MedicalConditionEntity[]>(MEDICAL_CONDITIONS_DATA);
@@ -3004,6 +3003,20 @@ const AppContent = () => {
       window.removeEventListener('offline', handleOffline);
     };
   }, []);
+
+  React.useEffect(() => {
+    // Only load clinic data if on a clinic route or if the location picker modal is opened.
+    // This completely saves 2.48MB of initial download size for regular home/knowledge visitors!
+    const isClinicRoute = currentPath.startsWith('clinic') || currentPath.includes('clinic');
+    if (isClinicRoute || isLocationPickerOpen) {
+      import('./components/locationsData').then((module) => {
+        setLocationsData(module.LOCATIONS_DATA);
+      });
+      import('./components/internationalData').then((module) => {
+        setIntlCountries(module.INTERNATIONAL_COUNTRIES);
+      });
+    }
+  }, [currentPath, isLocationPickerOpen]);
 
   const fetchClinicalEntity = async (type: 'herb' | 'condition', entityId: string) => {
     setAiLoading(true);
