@@ -38,7 +38,7 @@ export const SitemapStats = ({ data }: { data: SitemapNode }) => {
   return (
     <div className="mb-12 animate-in fade-in slide-in-from-bottom-4">
       <div className="text-center mb-12">
-        <h2 className="text-4xl md:text-5xl font-black text-emerald-950 mb-4 brand-font">Sitemap</h2>
+        <h1 className="text-4xl md:text-5xl font-black text-emerald-950 mb-4 brand-font">Sitemap</h1>
         <p className="text-stone-500 text-sm md:text-base max-w-lg mx-auto">Navigate NutritionColours using your preferred visualization style.</p>
       </div>
 

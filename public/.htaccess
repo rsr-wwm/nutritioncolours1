@@ -1,6 +1,17 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
+
+  # 1. Enforce HTTPS
+  RewriteCond %{HTTPS} off
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+  # 2. Normalize trailing slashes (remove trailing slash unless it's a real directory)
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_URI} (.+)/$
+  RewriteRule ^ %1 [R=301,L]
+
+  # 3. SPA Routing Fallback
   RewriteRule ^index\.html$ - [L]
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
@@ -68,10 +79,10 @@
   Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
   
   # Prevent Clickjacking (X-Frame-Options & CSP frame-ancestors)
-  Header set X-Frame-Options "SAMEORIGIN"
+  Header set X-Frame-Options "DENY"
   
   # Cross-Origin Opener Policy (COOP) to isolate from malicious popups
-  Header set Cross-Origin-Opener-Policy "same-origin-allow-popups"
+  Header set Cross-Origin-Opener-Policy "same-origin"
   
   # Prevent MIME-type sniffing
   Header set X-Content-Type-Options "nosniff"
@@ -79,5 +90,8 @@
   # Referrer Policy
   Header set Referrer-Policy "strict-origin-when-cross-origin"
   
-  Header set Content-Security-Policy "default-src 'self'; script-src 'self' https://esm.sh https://apis.google.com 'sha256-Gau557h1MZL8cwVqpbbdZ4y54Vf7sV4CjDWpzRymBNM='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://images.unsplash.com https://nutritioncolours.com; connect-src 'self' https://generativelanguage.googleapis.com https://esm.sh; frame-src 'self'; frame-ancestors 'self'; require-trusted-types-for 'script'; trusted-types default;"
+  # Permissions Policy Tightening (Feature #74)
+  Header set Permissions-Policy "geolocation=(), camera=(), microphone=(), payment=(), usb=(), midi=()"
+  
+  Header set Content-Security-Policy "default-src 'self'; script-src 'self' https://esm.sh https://apis.google.com 'sha256-4t9ee5scQdNrhV9e2gHcZd4hGuAfAFsUpE0fqdfriOY='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://images.unsplash.com https://nutritioncolours.com; connect-src 'self' https://generativelanguage.googleapis.com https://esm.sh; frame-src 'self'; frame-ancestors 'self'; require-trusted-types-for 'script'; trusted-types default;"
 </IfModule>

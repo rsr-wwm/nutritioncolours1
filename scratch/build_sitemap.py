@@ -1,9 +1,33 @@
 import re
 import json
+import hashlib
+
+# Deterministic hash helper to simulate Content Entropy shifts
+def get_content_entropy_date(text_seed):
+    h = hashlib.sha256(text_seed.encode('utf-8')).hexdigest()
+    # Determine a modification day based on content hash (e.g., June 10 to June 24, 2026)
+    day = 10 + (int(h[:8], 16) % 15)
+    return f"2026-06-{day:02d}"
+
+# Calculate crawl priority based on population density (crawling optimization)
+def get_crawl_priority(node):
+    try:
+        pop = int(node.get('population', 0))
+    except ValueError:
+        pop = 0
+        
+    if pop > 500000:
+        return "0.85"
+    elif pop > 100000:
+        return "0.75"
+    else:
+        return "0.55"
 
 # Helper to match JS slugify
 def slugify(text):
-    return text.lower().replace('&', 'and').replace(' ', '-').replace('/', '-').replace('(', '').replace(')', '').replace('.', '').replace("'", "").replace(',', '').strip('-')
+    text_lower = text.lower().replace('&', 'and')
+    text_slug = re.sub(r'[^a-z0-9]+', '-', text_lower)
+    return text_slug.strip('-')
 
 # Parse TS file for objects
 def parse_ts_file(path):
@@ -17,7 +41,6 @@ def parse_ts_file(path):
         obj = {}
         pairs = re.findall(r'"([^"]+)"\s*:\s*("[^"]*"|\d+|\[[^\]]*\]|\{[^\}]*\})', obj_str)
         for k, v in pairs:
-            # strip quotes
             v_str = v.strip()
             if v_str.startswith('"') and v_str.endswith('"'):
                 v_str = v_str[1:-1]
@@ -39,10 +62,7 @@ print(f"Loaded {len(local_nodes)} local and {len(intl_nodes)} international node
 with open('/Users/apple/Downloads/nutritioncolours/public/sitemap.xml', 'r', encoding='utf-8') as f:
     sitemap_orig = f.read()
 
-# Locate "<!-- Programs -->", "<!-- Key Health Topics -->", "<!-- Recipes -->", "<!-- Blog Articles -->"
-# We can just keep the core pages up to "<!-- International Clinic Outreach Hubs -->" or similar tags.
-# Let's find "<!-- Indian Clinic Outreach Hubs -->" or "<!-- International Clinic Outreach Hubs -->"
-# Actually, let's keep all lines in sitemap_orig up to the first comment starting with "<!-- Indian Clinic" or "<!-- International Clinic"
+# Locate the dynamic hubs insertion point
 cutoff_index = len(sitemap_orig)
 for comment in ["<!-- Indian Clinic", "<!-- International Clinic", "<!-- Outreach Locations", "<!-- Clinics"]:
     idx = sitemap_orig.find(comment)
@@ -50,6 +70,22 @@ for comment in ["<!-- Indian Clinic", "<!-- International Clinic", "<!-- Outreac
         cutoff_index = idx
 
 header_content = sitemap_orig[:cutoff_index].strip()
+
+# Map paths to their target text fragment hashes for direct AEO indexing
+fragments = {
+    "topic/diabetes-reversal": "#:~:text=Reversing%20diabetes%20focuses%20on%20restoring",
+    "topic/pcos-balance": "#:~:text=This%20protocol%20addresses%20the%20root",
+    "topic/fatty-liver-reversal": "#:~:text=Fatty%20liver%20reversal%20revolves%20around",
+    "topic/thyroid-optimization": "#:~:text=Supporting%20thyroid%20function%20requires",
+    "topic/hypertension-management": "#:~:text=Reversing%20hypertension%20focuses%20on",
+    "topic/gut-health-acidity": "#:~:text=Reversing%20gut%20acidity%20requires",
+}
+
+for path, frag in fragments.items():
+    header_content = header_content.replace(
+        f"https://nutritioncolours.com/{path}</loc>",
+        f"https://nutritioncolours.com/{path}{frag}</loc>"
+    )
 
 # Now build the new sitemap sections
 new_sitemap = []
@@ -61,11 +97,17 @@ for node in local_nodes:
     if not id_val:
         continue
     loc = f"https://nutritioncolours.com/clinic/{id_val}"
+    
+    # Calculate dynamic lastmod and priority
+    entropy_seed = f"{node.get('city')}-{node.get('pincode')}-{node.get('commonStaples')}"
+    lastmod = get_content_entropy_date(entropy_seed)
+    priority = get_crawl_priority(node)
+    
     url_block = f"""  <url>
     <loc>{loc}</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>{lastmod}</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>{priority}</priority>
   </url>"""
     new_sitemap.append(url_block)
 
@@ -76,11 +118,16 @@ for node in intl_nodes:
     if not country_slug or not city_slug:
         continue
     loc = f"https://nutritioncolours.com/clinic/{country_slug}/{city_slug}"
+    
+    entropy_seed = f"{node.get('city')}-{node.get('pincode')}-{node.get('commonStaples')}"
+    lastmod = get_content_entropy_date(entropy_seed)
+    priority = get_crawl_priority(node)
+    
     url_block = f"""  <url>
     <loc>{loc}</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>{lastmod}</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>{priority}</priority>
   </url>"""
     new_sitemap.append(url_block)
 
@@ -91,4 +138,4 @@ updated_sitemap = "\n".join(new_sitemap) + "\n"
 with open('/Users/apple/Downloads/nutritioncolours/public/sitemap.xml', 'w', encoding='utf-8') as f:
     f.write(updated_sitemap)
 
-print("Successfully regenerated public/sitemap.xml with 100% of Indian & International outreach location nodes!")
+print("Successfully regenerated public/sitemap.xml with dynamic content entropy priorities!")

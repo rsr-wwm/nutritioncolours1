@@ -3,6 +3,7 @@ User-agent: *
 Allow: /
 Disallow: /admin
 Disallow: /api/
+Disallow: /honeypot/
 
 # Generative AI Agents & LLM Crawlers
 User-agent: GPTBot
@@ -31,6 +32,9 @@ Allow: /
 
 User-agent: FacebookBot
 Allow: /
+
+# Machine Learning Dataset Feed
+Allow: /data/clinical-feed.json
 
 # Sitemap Reference
 Sitemap: https://nutritioncolours.com/sitemap.xml

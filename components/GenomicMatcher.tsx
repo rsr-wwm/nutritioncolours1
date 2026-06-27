@@ -97,6 +97,7 @@ export const GenomicMatcher = ({ activeLocation }: { activeLocation?: any }) => 
               value={rawText}
               onChange={(e) => setRawText(e.target.value)}
               placeholder="Paste raw genetic lines from 23andMe file here..."
+              aria-label="DNA raw snippet input"
               className="w-full bg-stone-50 dark:bg-emerald-900/20 border border-stone-200 dark:border-emerald-800/40 p-3 rounded-xl focus:border-purple-500 outline-none text-xs min-h-[80px] text-stone-850 dark:text-emerald-100 resize-none"
             />
             <button

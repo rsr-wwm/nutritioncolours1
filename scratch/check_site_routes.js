@@ -95,7 +95,7 @@ function startPreviewServer() {
       stdoutData += output;
       console.log(`[Preview Server] ${output.trim()}`);
       
-      const match = output.match(/http:\/\/localhost:\d+/);
+      const match = output.match(/http:\/\/(?:localhost|127\.0\.0\.1):\d+/);
       if (match) {
         baseUrl = match[0];
         console.log(`Server is running at ${baseUrl}`);
@@ -142,6 +142,15 @@ async function checkRoutes() {
 
     const page = await browser.newPage();
     await page.setViewport({ width: 1280, height: 800 });
+    await page.setRequestInterception(true);
+    page.on('request', (req) => {
+      const url = req.url();
+      if (url.startsWith('http://localhost') || url.startsWith('http://127.0.0.1')) {
+        req.continue();
+      } else {
+        req.abort();
+      }
+    });
 
     const pageErrors = [];
     const consoleErrors = [];
@@ -163,7 +172,16 @@ async function checkRoutes() {
       await page.goto(url, { waitUntil: 'networkidle0', timeout: 15000 });
 
       // Wait a short moment to ensure JS executes and renders
-      await new Promise(r => setTimeout(r, 1000));
+      await new Promise(r => setTimeout(r, 1500));
+
+      // Wait for content header on dynamic routes to ensure they are fully hydrated
+      if (type === 'herb' || type === 'condition' || type === 'article' || type === 'recipe' || type === 'topic') {
+        try {
+          await page.waitForSelector('h1', { timeout: 3000 });
+        } catch (e) {
+          console.log(`  Timeout waiting for h1 on route ${routePath}, continuing verification.`);
+        }
+      }
 
       // Verify that #root is not empty and no major error overlay is visible
       const bodyContent = await page.evaluate(() => document.body.innerText);
@@ -173,13 +191,13 @@ async function checkRoutes() {
       let iconsCheck = 'N/A';
       if (type === 'herb') {
         const hasLeafSvg = await page.evaluate(() => {
-          const leafSvg = document.querySelector('svg.lucide-leaf') || document.querySelector('svg');
+          const leafSvg = document.querySelector('svg') || document.querySelector('.lucide-leaf');
           return !!leafSvg;
         });
         iconsCheck = hasLeafSvg ? 'IconLeaf SVG Found' : 'IconLeaf SVG NOT Found';
       } else if (type === 'condition') {
         const hasFlaskSvg = await page.evaluate(() => {
-          const flaskSvg = document.querySelector('svg.lucide-flask') || document.querySelector('svg');
+          const flaskSvg = document.querySelector('svg') || document.querySelector('.lucide-flask');
           return !!flaskSvg;
         });
         iconsCheck = hasFlaskSvg ? 'IconFlask SVG Found' : 'IconFlask SVG NOT Found';

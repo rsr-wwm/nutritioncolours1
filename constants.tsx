@@ -6,19 +6,48 @@ import { CategoryType, TeamMember, Topic, BlogArticle, Recipe, Testimonial, FAQ,
 export const BLOG_ARTICLES: BlogArticle[] = [
   {
     id: 'circadian-eating',
-    title: 'How to Lose Weight by Eating with the Sun (Circadian Diet)',
+    title: 'Circadian Eating for Metabolic Reversal',
     category: CategoryType.METABOLIC,
     type: 'blog',
     status: 'published',
-    excerpt: 'Waking up lighter is possible. Discover how timing your meals with the sunrise can fix your metabolism and burn fat naturally.',
-    content: `Your body has a "Master Clock" (Suprachiasmatic Nucleus) that controls when you burn fat and when you store it. Research shows we digest food best during the "Anabolic Phase" of the day. Eating late at night fights your natural clock, leading to insulin resistance (the root of Type 2 Diabetes) and belly fat. Our protocol provides a structured way to align your metabolism with the sun.`,
+    excerpt: 'Waking up lighter is possible. Discover how timing your meals with the sunrise can trigger metabolic reversal and burn fat naturally.',
+    content: `<!-- INTENT: Target primary keyword "circadian eating metabolic reversal" to explain circadian rhythm alignments -->
+## The Body is a Clock, Not a Furnace
+
+Most dietary advice treats your body like a simple combustion engine. Calories in vs. calories out. But your biology is governed by a master clock—the Suprachiasmatic Nucleus—nested inside your brain. It dictates when you produce insulin, digest starch, or clear fat. Eating late at night fights this master clock, driving insulin resistance and liver fat build-up.
+
+### Aligning Meals with Daylight
+When sun rays trigger your photoreceptors in the morning, cortisol rises to initiate metabolic activity. This is your body's optimal window for handling glucose. Eating after sundown disrupts insulin sensitivity, causing your blood sugars to spike higher for the exact same meal.
+
+<!-- INTENT: Targets secondary keyword "circadian food swaps for diabetes" with an entity-rich structured list -->
+## Circadian Swaps: Changing What and When You Eat
+
+We don't count calories here. Instead, we swap modern processed starches for ancient grains that digest in sync with your clock. 
+
+*   **Ragi & Jowar (Sorghum):** Rich in complex starches that digest slowly, preventing mid-day insulin spikes.
+*   **Barley & Oats:** Loaded with beta-glucan fibers to soothe your gut lining and support GLP-1 release.
+*   **Early Sundown Window:** Confine food consumption to a 10-hour window ending by 7 PM.
+
+**Pro Tip: To ease your pancreas, consume 70% of your daily carbohydrates before 2 PM. Sunset signals the body to prepare for cellular cleanup, not digestion.**
+
+<!-- INTENT: Address common user queries directly to optimize search engine featured snippets -->
+## Common Circadian Clock Questions
+
+### Can I drink black coffee during the fasting window?
+Yes. Black coffee will not disrupt your master clock cycles or cause an insulin response. However, avoid caffeine after 2 PM to preserve sleep depth and melatonin production.
+
+### How long does metabolic reversal take?
+Most patients observe stabilization in fasting glucose levels within 14 to 21 days of circadian alignment. Full HbA1c normalization occurs across 3 to 6 months.
+
+### What if my work shift requires late nights?
+Shift eating windows to focus meals during your active awake phase. Ensure you maintain a strict 12-hour fasting cycle before sleep to support metabolic recovery.`,
     image: '/images/nutritioncolours-default.svg',
-    tags: ['Weight Loss Tips', 'Metabolism', 'Intermittent Fasting'],
+    tags: ['Circadian Eating', 'Metabolism', 'Metabolic Reversal', 'Diabetes Reversal'],
     date: 'Oct 12, 2023',
     author: 'Dr. Shilpa Thakur',
-    pageTitle: 'Circadian Diet for Weight Loss – Eat With the Sun',
-    metaDescription: 'Learn how to master your metabolic clock with Circadian Eating. Discover the science of timing your meals for effortless weight loss and energy.',
-    primaryKeyword: 'Circadian Diet Weight Loss'
+    pageTitle: 'Circadian Eating for Metabolic Reversal | Dr. Shilpa Thakur',
+    metaDescription: 'Learn how to master your metabolic clock with circadian eating. Discover timing swaps and chrononutrition protocols to reverse insulin resistance.',
+    primaryKeyword: 'circadian eating metabolic reversal'
   },
   {
     id: 'gut-brain-axis',
@@ -151,7 +180,7 @@ export const PLANS = [
     image: '/images/precision_metabolic_nutrition_dr_shilpa.webp',
     icon: 'IconLock',
     color: 'teal',
-    description: 'Cellular Resurrection is our most intensive medical intervention focused on achieving clinical remission of Type 2 Diabetes. This "Medicine-Free Life" protocol aggressively targets insulin sensitivity at the cellular level to restore pancreatic health.',
+    description: 'Cellular Resurrection is our most intensive clinical nutrition program focused on achieving clinical remission of Type 2 Diabetes. This "Medicine-Free Life" protocol aggressively targets insulin sensitivity at the cellular level to restore pancreatic health.',
     features: [
       'Direct Clinical Oversight from Dr. Shilpa Thakur for high-stakes health.',
       'Continuous Glucose Monitoring (CGM): 24/7 data-driven sugar management.',
@@ -177,13 +206,13 @@ export const TESTIMONIALS: Testimonial[] = [
 export const TEAM: TeamMember[] = [
   { 
     id: 'shilpa', 
-    name: 'Dr. Shilpa Thakur, Ph.D.', 
-    role: 'Medical Nutritionist | Researcher | Founder', 
-    bio: 'Pioneer in "Food as Medicine" and therapeutic food systems with 10+ years of clinical experience.', 
-    fullBio: 'Dr. Shilpa Thakur is a world-class Medical Nutritionist and the pioneer of the the Circadian Nutrition Protocol. With over a decade of clinical research, she has helped 5,000+ patients live medicine-free by using food as biological information. Her approach integrates the rigorous science of clinical nutrition with ancient Ayurvedic wisdom to deliver deep, evidence-based healing for metabolic and chronic diseases.', 
-    details: 'PhD. Clinical Nutrition, Certified Medical Nutritionist, Pioneer of Circadian Nutritional Therapy', 
+    name: 'Dr. Shilpa Thakur, Ph.D. (Clinical Nutrition) - Non-Medical Practitioner', 
+    role: 'Medical Nutritionist & Metabolic Researcher (Non-Medical Practitioner)', 
+    bio: 'Pioneer of Circadian Nutritional Support systems with 10+ years of clinical research.', 
+    fullBio: 'Dr. Shilpa Thakur, Ph.D. is a world-class Medical Nutritionist (Non-Medical Practitioner) and the pioneer of the Circadian Nutrition Protocol. With over a decade of clinical research, she has helped 5,000+ clients optimize metabolic health using food as biological information. Her approach integrates the rigorous science of clinical nutrition with ancient Ayurvedic wisdom to deliver deep, evidence-based metabolic support for chronic conditions.', 
+    details: 'PhD. Clinical Nutrition (Non-Medical Practitioner), Certified Medical Nutritionist, Pioneer of Circadian Metabolic Support', 
     image: '/images/precision_metabolic_nutrition_dr_shilpa.webp', 
-    specialties: ['Diabetes Reversal', 'Hormonal Balance', 'Circadian Nutrition', 'Autoimmune Disorders'],  
+    specialties: ['Blood Sugar Optimization', 'Hormonal Balance', 'Circadian Nutrition', 'Autoimmune Support'],  
     location: 'Chandigarh, Punjab, India', 
     asl: 'F/42/Chandigarh', 
     socials: { 
@@ -203,8 +232,7 @@ export const TEAM: TeamMember[] = [
     image: '/images/nutritioncolours-default.svg', 
     specialties: ['Therapeutic Recipes', 'Gourmet Health Food', 'Meal Design'], 
     location: 'Goa', 
-    asl: 'M/32/Goa', 
-    socials: { instagram: 'https://instagram.com' } 
+    asl: 'M/32/Goa'
   },
   { 
     id: 'karan', 
@@ -216,8 +244,7 @@ export const TEAM: TeamMember[] = [
     image: '/images/nutritioncolours-default.svg', 
     specialties: ['Physical Rehab', 'Movement Therapy', 'Strength Training'], 
     location: 'Chandigarh, Punjab, India', 
-    asl: 'M/28/Chandigarh', 
-    socials: { linkedin: 'https://linkedin.com' } 
+    asl: 'M/28/Chandigarh'
   },
   { 
     id: 'sangar', 
@@ -229,8 +256,7 @@ export const TEAM: TeamMember[] = [
     image: '/images/nutritioncolours-default.svg', 
     specialties: ['Lifestyle Transformation', 'Motivation', 'Online Coaching'], 
     location: 'Chandigarh, Punjab, India', 
-    asl: 'M/28/Chandigarh', 
-    socials: { instagram: 'https://instagram.com' } 
+    asl: 'M/28/Chandigarh'
   },
   { 
     id: 'nanz', 
@@ -242,8 +268,7 @@ export const TEAM: TeamMember[] = [
     image: '/images/nutritioncolours-default.svg', 
     specialties: ['Therapeutic Yoga', 'Mindfulness', 'Stress Management'], 
     location: 'Panchkula', 
-    asl: 'F/41/Panchkula', 
-    socials: { instagram: 'https://instagram.com' } 
+    asl: 'F/41/Panchkula'
   },
   { 
     id: 'rana', 
@@ -255,8 +280,7 @@ export const TEAM: TeamMember[] = [
     image: '/images/nutritioncolours-default.svg', 
     specialties: ['Strategy', 'Operations', 'Global Health Growth'], 
     location: 'Goa', 
-    asl: 'M/39/Goa', 
-    socials: { linkedin: 'https://linkedin.com' } 
+    asl: 'M/39/Goa'
   }
 ];
 
@@ -517,7 +541,7 @@ export const HOW_IT_WORKS = [
 export const LEGAL_CONTENT = {
     terms: [
         { heading: "Acceptance of Terms", text: "By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement. Any participation in this service will constitute acceptance of this agreement." },
-        { heading: "Clinical Disclaimer", text: "The information provided is for educational purposes and is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition." },
+        { heading: "Clinical Disclaimer", text: "The information provided is for educational purposes and is not a substitute for professional clinical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition." },
         { heading: "Service Usage", text: "Users agree to provide accurate information for dietary assessments. Misrepresentation of health status is at the user's own risk." },
         { heading: "Intellectual Property", text: "All content, including protocols, recipes, and text, is the property of NutritionColours and protected by copyright laws." }
     ],

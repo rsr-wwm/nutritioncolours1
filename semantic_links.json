@@ -1,0 +1,2282 @@
+{
+  "article/circadian-eating": [
+    {
+      "id": "weight-loss-men",
+      "type": "topic",
+      "path": "topic/weight-loss-men",
+      "title": "Weight Loss for Men"
+    },
+    {
+      "id": "pcos-weight-diet",
+      "type": "topic",
+      "path": "topic/pcos-weight-diet",
+      "title": "PCOS Weight & Diet"
+    },
+    {
+      "id": "diabetes-reversal",
+      "type": "topic",
+      "path": "topic/diabetes-reversal",
+      "title": "Diabetes Reversal"
+    }
+  ],
+  "article/gut-brain-axis": [
+    {
+      "id": "gut-health-acidity",
+      "type": "topic",
+      "path": "topic/gut-health-acidity",
+      "title": "Gut Health & Acidity"
+    },
+    {
+      "id": "adhd-brain-focus-kids",
+      "type": "topic",
+      "path": "topic/adhd-brain-focus-kids",
+      "title": "Pediatric ADHD Focus"
+    },
+    {
+      "id": "gut-health",
+      "type": "condition",
+      "path": "condition/gut-health",
+      "title": "Gut Health & Microbiome Restoration"
+    }
+  ],
+  "article/plant-protein-myth": [
+    {
+      "id": "muscle-recovery",
+      "type": "topic",
+      "path": "topic/muscle-recovery",
+      "title": "Muscle Recovery & Strength"
+    },
+    {
+      "id": "geriatric-strength-nutrition",
+      "type": "topic",
+      "path": "topic/geriatric-strength-nutrition",
+      "title": "Geriatric Strength Nutrition"
+    },
+    {
+      "id": "nail-health-strength",
+      "type": "topic",
+      "path": "topic/nail-health-strength",
+      "title": "Nail Health & Strength"
+    }
+  ],
+  "article/clinic-opening-mumbai": [
+    {
+      "id": "heart-health",
+      "type": "topic",
+      "path": "topic/heart-health",
+      "title": "Heart Health Optimization"
+    },
+    {
+      "id": "gut-health-acidity",
+      "type": "topic",
+      "path": "topic/gut-health-acidity",
+      "title": "Gut Health & Acidity"
+    },
+    {
+      "id": "pregnancy-nutrition-support",
+      "type": "topic",
+      "path": "topic/pregnancy-nutrition-support",
+      "title": "Pregnancy Nutrition Support"
+    }
+  ],
+  "article/award-2023": [
+    {
+      "id": "diabetes-reversal",
+      "type": "topic",
+      "path": "topic/diabetes-reversal",
+      "title": "Diabetes Reversal"
+    },
+    {
+      "id": "hyperthyroid-protocol",
+      "type": "topic",
+      "path": "topic/hyperthyroid-protocol",
+      "title": "Hyperthyroid Protocol"
+    },
+    {
+      "id": "pregnancy-nutrition-support",
+      "type": "topic",
+      "path": "topic/pregnancy-nutrition-support",
+      "title": "Pregnancy Nutrition Support"
+    }
+  ],
+  "recipe/golden-turmeric-quinoa": [
+    {
+      "id": "golden-milk-elixir",
+      "type": "recipe",
+      "path": "recipe/golden-milk-elixir",
+      "title": "Turmeric & Black Pepper Golden Milk"
+    },
+    {
+      "id": "turmeric",
+      "type": "herb",
+      "path": "herb/turmeric",
+      "title": "Turmeric"
+    },
+    {
+      "id": "charred-broccoli-almonds",
+      "type": "recipe",
+      "path": "recipe/charred-broccoli-almonds",
+      "title": "Charred Broccoli with Lemon Almond Drizzle"
+    }
+  ],
+  "recipe/avocado-lentil-tartare": [
+    {
+      "id": "plant-protein-myth",
+      "type": "article",
+      "path": "article/plant-protein-myth",
+      "title": "Plant Protein Mastery: Building Strength Naturally"
+    },
+    {
+      "id": "lentil-kale-curry",
+      "type": "recipe",
+      "path": "recipe/lentil-kale-curry",
+      "title": "Lentil & Kale Iron-Rich Curry"
+    },
+    {
+      "id": "lentil-walnut-pate",
+      "type": "recipe",
+      "path": "recipe/lentil-walnut-pate",
+      "title": "Black Lentil & Walnut Paté"
+    }
+  ],
+  "recipe/green-vitality-soup": [
+    {
+      "id": "garlic",
+      "type": "herb",
+      "path": "herb/garlic",
+      "title": "Garlic"
+    },
+    {
+      "id": "spirulina-lemon-shots",
+      "type": "recipe",
+      "path": "recipe/spirulina-lemon-shots",
+      "title": "Spirulina & Lemon Vitality Shots"
+    },
+    {
+      "id": "reishi-cocoa-elixir",
+      "type": "recipe",
+      "path": "recipe/reishi-cocoa-elixir",
+      "title": "Red Reishi & Cocoa Elixir"
+    }
+  ],
+  "recipe/beetroot-walnut-carpaccio": [
+    {
+      "id": "hypertension",
+      "type": "condition",
+      "path": "condition/hypertension",
+      "title": "Hypertension (High Blood Pressure)"
+    },
+    {
+      "id": "lentil-walnut-pate",
+      "type": "recipe",
+      "path": "recipe/lentil-walnut-pate",
+      "title": "Black Lentil & Walnut Paté"
+    },
+    {
+      "id": "brussels-sprouts-mustard",
+      "type": "recipe",
+      "path": "recipe/brussels-sprouts-mustard",
+      "title": "Roasted Brussels Sprouts with Mustard & Tamari"
+    }
+  ],
+  "recipe/ayurvedic-millet-stew": [
+    {
+      "id": "plant-protein-myth",
+      "type": "article",
+      "path": "article/plant-protein-myth",
+      "title": "Plant Protein Mastery: Building Strength Naturally"
+    },
+    {
+      "id": "ginger",
+      "type": "herb",
+      "path": "herb/ginger",
+      "title": "Ginger"
+    },
+    {
+      "id": "adzuki-bean-stew",
+      "type": "recipe",
+      "path": "recipe/adzuki-bean-stew",
+      "title": "Adzuki Bean & Shiitake Umami Stew"
+    }
+  ],
+  "recipe/kimchi-rice-bowl": [
+    {
+      "id": "gut-health-acidity",
+      "type": "topic",
+      "path": "topic/gut-health-acidity",
+      "title": "Gut Health & Acidity"
+    },
+    {
+      "id": "gut-health",
+      "type": "condition",
+      "path": "condition/gut-health",
+      "title": "Gut Health & Microbiome Restoration"
+    },
+    {
+      "id": "black-garlic-drizzle",
+      "type": "recipe",
+      "path": "recipe/black-garlic-drizzle",
+      "title": "Black Garlic & Fermented Hot Sauce Drizzle"
+    }
+  ],
+  "recipe/ashwagandha-sweet-potato": [
+    {
+      "id": "matcha-coconut-truffles",
+      "type": "recipe",
+      "path": "recipe/matcha-coconut-truffles",
+      "title": "Matcha & Coconut Energy Truffles"
+    },
+    {
+      "id": "purple-sweet-potato-pudding",
+      "type": "recipe",
+      "path": "recipe/purple-sweet-potato-pudding",
+      "title": "Purple Sweet Potato & Ginger Pudding"
+    },
+    {
+      "id": "ashwagandha",
+      "type": "herb",
+      "path": "herb/ashwagandha",
+      "title": "Ashwagandha"
+    }
+  ],
+  "recipe/papaya-detox-salad": [
+    {
+      "id": "fennel-citrus-salad",
+      "type": "recipe",
+      "path": "recipe/fennel-citrus-salad",
+      "title": "Fennel & Citrus Digestive Salad"
+    },
+    {
+      "id": "cucumber-jicama-salad",
+      "type": "recipe",
+      "path": "recipe/cucumber-jicama-salad",
+      "title": "Cucumber & Jicama Hydration Salad"
+    },
+    {
+      "id": "liver-detoxification-pathways",
+      "type": "topic",
+      "path": "topic/liver-detoxification-pathways",
+      "title": "Liver Detox Pathways"
+    }
+  ],
+  "recipe/hemp-basil-zoodles": [
+    {
+      "id": "cauliflower-tabbouleh-hemp",
+      "type": "recipe",
+      "path": "recipe/cauliflower-tabbouleh-hemp",
+      "title": "Cauliflower Rice Tabbouleh with Hemp Oil"
+    },
+    {
+      "id": "chia-berry-parfait",
+      "type": "recipe",
+      "path": "recipe/chia-berry-parfait",
+      "title": "Chia & Berry Antioxidant Parfait"
+    },
+    {
+      "id": "garlic",
+      "type": "herb",
+      "path": "herb/garlic",
+      "title": "Garlic"
+    }
+  ],
+  "recipe/mushroom-thyme-broth": [
+    {
+      "id": "adzuki-bean-stew",
+      "type": "recipe",
+      "path": "recipe/adzuki-bean-stew",
+      "title": "Adzuki Bean & Shiitake Umami Stew"
+    },
+    {
+      "id": "buckwheat-seaweed-soup",
+      "type": "recipe",
+      "path": "recipe/buckwheat-seaweed-soup",
+      "title": "Buckwheat Noodle & Seaweed Soup"
+    },
+    {
+      "id": "garlic",
+      "type": "herb",
+      "path": "herb/garlic",
+      "title": "Garlic"
+    }
+  ],
+  "recipe/charred-broccoli-almonds": [
+    {
+      "id": "golden-turmeric-quinoa",
+      "type": "recipe",
+      "path": "recipe/golden-turmeric-quinoa",
+      "title": "Golden Turmeric Quinoa Nourish Bowl"
+    },
+    {
+      "id": "liver-detoxification-pathways",
+      "type": "topic",
+      "path": "topic/liver-detoxification-pathways",
+      "title": "Liver Detox Pathways"
+    },
+    {
+      "id": "cauliflower-tabbouleh-hemp",
+      "type": "recipe",
+      "path": "recipe/cauliflower-tabbouleh-hemp",
+      "title": "Cauliflower Rice Tabbouleh with Hemp Oil"
+    }
+  ],
+  "recipe/chia-berry-parfait": [
+    {
+      "id": "hemp-basil-zoodles",
+      "type": "recipe",
+      "path": "recipe/hemp-basil-zoodles",
+      "title": "Hemp Seed & Basil Cream Zoodles"
+    },
+    {
+      "id": "rooibos-cinnamon-tea",
+      "type": "recipe",
+      "path": "recipe/rooibos-cinnamon-tea",
+      "title": "Rooibos & Cinnamon Antioxidant Tea"
+    },
+    {
+      "id": "purple-sweet-potato-pudding",
+      "type": "recipe",
+      "path": "recipe/purple-sweet-potato-pudding",
+      "title": "Purple Sweet Potato & Ginger Pudding"
+    }
+  ],
+  "recipe/jackfruit-turmeric-wraps": [
+    {
+      "id": "ginger",
+      "type": "herb",
+      "path": "herb/ginger",
+      "title": "Ginger"
+    },
+    {
+      "id": "turmeric",
+      "type": "herb",
+      "path": "herb/turmeric",
+      "title": "Turmeric"
+    },
+    {
+      "id": "golden-turmeric-quinoa",
+      "type": "recipe",
+      "path": "recipe/golden-turmeric-quinoa",
+      "title": "Golden Turmeric Quinoa Nourish Bowl"
+    }
+  ],
+  "recipe/matcha-coconut-truffles": [
+    {
+      "id": "ashwagandha-sweet-potato",
+      "type": "recipe",
+      "path": "recipe/ashwagandha-sweet-potato",
+      "title": "Sweet Potato & Ashwagandha Coconut Mash"
+    },
+    {
+      "id": "chia-berry-parfait",
+      "type": "recipe",
+      "path": "recipe/chia-berry-parfait",
+      "title": "Chia & Berry Antioxidant Parfait"
+    },
+    {
+      "id": "lentil-kale-curry",
+      "type": "recipe",
+      "path": "recipe/lentil-kale-curry",
+      "title": "Lentil & Kale Iron-Rich Curry"
+    }
+  ],
+  "recipe/baked-pears-cinnamon": [
+    {
+      "id": "rooibos-cinnamon-tea",
+      "type": "recipe",
+      "path": "recipe/rooibos-cinnamon-tea",
+      "title": "Rooibos & Cinnamon Antioxidant Tea"
+    },
+    {
+      "id": "cinnamon",
+      "type": "herb",
+      "path": "herb/cinnamon",
+      "title": "Ceylon Cinnamon"
+    },
+    {
+      "id": "black-bean-mole",
+      "type": "recipe",
+      "path": "recipe/black-bean-mole",
+      "title": "Black Bean & Cacao Mole Bowl"
+    }
+  ],
+  "recipe/spirulina-lemon-shots": [
+    {
+      "id": "spirulina",
+      "type": "herb",
+      "path": "herb/spirulina",
+      "title": "Spirulina"
+    },
+    {
+      "id": "ginger",
+      "type": "herb",
+      "path": "herb/ginger",
+      "title": "Ginger"
+    },
+    {
+      "id": "charred-broccoli-almonds",
+      "type": "recipe",
+      "path": "recipe/charred-broccoli-almonds",
+      "title": "Charred Broccoli with Lemon Almond Drizzle"
+    }
+  ],
+  "recipe/grilled-artichoke-rosemary": [
+    {
+      "id": "kidney-health-diet",
+      "type": "topic",
+      "path": "topic/kidney-health-diet",
+      "title": "Kidney Health Support"
+    },
+    {
+      "id": "fennel-citrus-salad",
+      "type": "recipe",
+      "path": "recipe/fennel-citrus-salad",
+      "title": "Fennel & Citrus Digestive Salad"
+    },
+    {
+      "id": "avocado-lentil-tartare",
+      "type": "recipe",
+      "path": "recipe/avocado-lentil-tartare",
+      "title": "Avocado & Sprouted Lentil Herb Tartare"
+    }
+  ],
+  "recipe/lentil-kale-curry": [
+    {
+      "id": "plant-protein-myth",
+      "type": "article",
+      "path": "article/plant-protein-myth",
+      "title": "Plant Protein Mastery: Building Strength Naturally"
+    },
+    {
+      "id": "lentil-walnut-pate",
+      "type": "recipe",
+      "path": "recipe/lentil-walnut-pate",
+      "title": "Black Lentil & Walnut Paté"
+    },
+    {
+      "id": "matcha-coconut-truffles",
+      "type": "recipe",
+      "path": "recipe/matcha-coconut-truffles",
+      "title": "Matcha & Coconut Energy Truffles"
+    }
+  ],
+  "recipe/collard-wraps-chili": [
+    {
+      "id": "jackfruit-turmeric-wraps",
+      "type": "recipe",
+      "path": "recipe/jackfruit-turmeric-wraps",
+      "title": "Jackfruit & Turmeric Leaf Wraps"
+    },
+    {
+      "id": "papaya-detox-salad",
+      "type": "recipe",
+      "path": "recipe/papaya-detox-salad",
+      "title": "Rainbow Raw Papaya & Lime Detox Salad"
+    },
+    {
+      "id": "liver-detoxification-pathways",
+      "type": "topic",
+      "path": "topic/liver-detoxification-pathways",
+      "title": "Liver Detox Pathways"
+    }
+  ],
+  "recipe/reishi-cocoa-elixir": [
+    {
+      "id": "hemp-saffron-drink",
+      "type": "recipe",
+      "path": "recipe/hemp-saffron-drink",
+      "title": "Hemp Milk & Saffron Calming Drink"
+    },
+    {
+      "id": "sleep-smoothie-valerian",
+      "type": "recipe",
+      "path": "recipe/sleep-smoothie-valerian",
+      "title": "Cherry & Valerian Sleep Smoothie"
+    },
+    {
+      "id": "mushroom-thyme-broth",
+      "type": "recipe",
+      "path": "recipe/mushroom-thyme-broth",
+      "title": "Mushroom & Thyme Healing Broth"
+    }
+  ],
+  "recipe/black-bean-mole": [
+    {
+      "id": "adzuki-bean-stew",
+      "type": "recipe",
+      "path": "recipe/adzuki-bean-stew",
+      "title": "Adzuki Bean & Shiitake Umami Stew"
+    },
+    {
+      "id": "golden-milk-elixir",
+      "type": "recipe",
+      "path": "recipe/golden-milk-elixir",
+      "title": "Turmeric & Black Pepper Golden Milk"
+    },
+    {
+      "id": "kimchi-rice-bowl",
+      "type": "recipe",
+      "path": "recipe/kimchi-rice-bowl",
+      "title": "Fermented Kimchi Brown Rice Bowl"
+    }
+  ],
+  "recipe/golden-milk-elixir": [
+    {
+      "id": "turmeric",
+      "type": "herb",
+      "path": "herb/turmeric",
+      "title": "Turmeric"
+    },
+    {
+      "id": "golden-turmeric-quinoa",
+      "type": "recipe",
+      "path": "recipe/golden-turmeric-quinoa",
+      "title": "Golden Turmeric Quinoa Nourish Bowl"
+    },
+    {
+      "id": "ginger",
+      "type": "herb",
+      "path": "herb/ginger",
+      "title": "Ginger"
+    }
+  ],
+  "recipe/fennel-citrus-salad": [
+    {
+      "id": "papaya-detox-salad",
+      "type": "recipe",
+      "path": "recipe/papaya-detox-salad",
+      "title": "Rainbow Raw Papaya & Lime Detox Salad"
+    },
+    {
+      "id": "cucumber-jicama-salad",
+      "type": "recipe",
+      "path": "recipe/cucumber-jicama-salad",
+      "title": "Cucumber & Jicama Hydration Salad"
+    },
+    {
+      "id": "gut-health-acidity",
+      "type": "topic",
+      "path": "topic/gut-health-acidity",
+      "title": "Gut Health & Acidity"
+    }
+  ],
+  "recipe/buckwheat-seaweed-soup": [
+    {
+      "id": "adzuki-bean-stew",
+      "type": "recipe",
+      "path": "recipe/adzuki-bean-stew",
+      "title": "Adzuki Bean & Shiitake Umami Stew"
+    },
+    {
+      "id": "mushroom-thyme-broth",
+      "type": "recipe",
+      "path": "recipe/mushroom-thyme-broth",
+      "title": "Mushroom & Thyme Healing Broth"
+    },
+    {
+      "id": "green-vitality-soup",
+      "type": "recipe",
+      "path": "recipe/green-vitality-soup",
+      "title": "Moringa & Spinach Green Vitality Soup"
+    }
+  ],
+  "recipe/sleep-smoothie-valerian": [
+    {
+      "id": "hemp-saffron-drink",
+      "type": "recipe",
+      "path": "recipe/hemp-saffron-drink",
+      "title": "Hemp Milk & Saffron Calming Drink"
+    },
+    {
+      "id": "reishi-cocoa-elixir",
+      "type": "recipe",
+      "path": "recipe/reishi-cocoa-elixir",
+      "title": "Red Reishi & Cocoa Elixir"
+    },
+    {
+      "id": "sleep-disorder-circadian-reset",
+      "type": "topic",
+      "path": "topic/sleep-disorder-circadian-reset",
+      "title": "Sleep & Circadian Reset"
+    }
+  ],
+  "recipe/purple-sweet-potato-pudding": [
+    {
+      "id": "ashwagandha-sweet-potato",
+      "type": "recipe",
+      "path": "recipe/ashwagandha-sweet-potato",
+      "title": "Sweet Potato & Ashwagandha Coconut Mash"
+    },
+    {
+      "id": "ginger",
+      "type": "herb",
+      "path": "herb/ginger",
+      "title": "Ginger"
+    },
+    {
+      "id": "rooibos-cinnamon-tea",
+      "type": "recipe",
+      "path": "recipe/rooibos-cinnamon-tea",
+      "title": "Rooibos & Cinnamon Antioxidant Tea"
+    }
+  ],
+  "recipe/adzuki-bean-stew": [
+    {
+      "id": "mushroom-thyme-broth",
+      "type": "recipe",
+      "path": "recipe/mushroom-thyme-broth",
+      "title": "Mushroom & Thyme Healing Broth"
+    },
+    {
+      "id": "black-bean-mole",
+      "type": "recipe",
+      "path": "recipe/black-bean-mole",
+      "title": "Black Bean & Cacao Mole Bowl"
+    },
+    {
+      "id": "buckwheat-seaweed-soup",
+      "type": "recipe",
+      "path": "recipe/buckwheat-seaweed-soup",
+      "title": "Buckwheat Noodle & Seaweed Soup"
+    }
+  ],
+  "recipe/pomegranate-beauty-water": [
+    {
+      "id": "cucumber-jicama-salad",
+      "type": "recipe",
+      "path": "recipe/cucumber-jicama-salad",
+      "title": "Cucumber & Jicama Hydration Salad"
+    },
+    {
+      "id": "reishi-cocoa-elixir",
+      "type": "recipe",
+      "path": "recipe/reishi-cocoa-elixir",
+      "title": "Red Reishi & Cocoa Elixir"
+    },
+    {
+      "id": "skin-glow-detox",
+      "type": "topic",
+      "path": "topic/skin-glow-detox",
+      "title": "Skin Glow & Detox"
+    }
+  ],
+  "recipe/quinoa-sesame-cereal": [
+    {
+      "id": "golden-turmeric-quinoa",
+      "type": "recipe",
+      "path": "recipe/golden-turmeric-quinoa",
+      "title": "Golden Turmeric Quinoa Nourish Bowl"
+    },
+    {
+      "id": "golden-milk-elixir",
+      "type": "recipe",
+      "path": "recipe/golden-milk-elixir",
+      "title": "Turmeric & Black Pepper Golden Milk"
+    },
+    {
+      "id": "avocado-lentil-tartare",
+      "type": "recipe",
+      "path": "recipe/avocado-lentil-tartare",
+      "title": "Avocado & Sprouted Lentil Herb Tartare"
+    }
+  ],
+  "recipe/brussels-sprouts-mustard": [
+    {
+      "id": "beetroot-walnut-carpaccio",
+      "type": "recipe",
+      "path": "recipe/beetroot-walnut-carpaccio",
+      "title": "Roasted Beetroot & Walnut Carpaccio"
+    },
+    {
+      "id": "watercress-alfalfa-sandwich",
+      "type": "recipe",
+      "path": "recipe/watercress-alfalfa-sandwich",
+      "title": "Watercress & Alfalfa Sprout Sandwich"
+    },
+    {
+      "id": "liver-detoxification-pathways",
+      "type": "topic",
+      "path": "topic/liver-detoxification-pathways",
+      "title": "Liver Detox Pathways"
+    }
+  ],
+  "recipe/cauliflower-tabbouleh-hemp": [
+    {
+      "id": "hemp-basil-zoodles",
+      "type": "recipe",
+      "path": "recipe/hemp-basil-zoodles",
+      "title": "Hemp Seed & Basil Cream Zoodles"
+    },
+    {
+      "id": "charred-broccoli-almonds",
+      "type": "recipe",
+      "path": "recipe/charred-broccoli-almonds",
+      "title": "Charred Broccoli with Lemon Almond Drizzle"
+    },
+    {
+      "id": "chickpea-cauliflower-tagine",
+      "type": "recipe",
+      "path": "recipe/chickpea-cauliflower-tagine",
+      "title": "Spiced Chickpea & Cauliflower Tagine"
+    }
+  ],
+  "recipe/black-garlic-drizzle": [
+    {
+      "id": "garlic",
+      "type": "herb",
+      "path": "herb/garlic",
+      "title": "Garlic"
+    },
+    {
+      "id": "lentil-walnut-pate",
+      "type": "recipe",
+      "path": "recipe/lentil-walnut-pate",
+      "title": "Black Lentil & Walnut Paté"
+    },
+    {
+      "id": "gut-health-acidity",
+      "type": "topic",
+      "path": "topic/gut-health-acidity",
+      "title": "Gut Health & Acidity"
+    }
+  ],
+  "recipe/mango-cardamom-lassi": [
+    {
+      "id": "plant-protein-myth",
+      "type": "article",
+      "path": "article/plant-protein-myth",
+      "title": "Plant Protein Mastery: Building Strength Naturally"
+    },
+    {
+      "id": "kimchi-rice-bowl",
+      "type": "recipe",
+      "path": "recipe/kimchi-rice-bowl",
+      "title": "Fermented Kimchi Brown Rice Bowl"
+    },
+    {
+      "id": "fennel-citrus-salad",
+      "type": "recipe",
+      "path": "recipe/fennel-citrus-salad",
+      "title": "Fennel & Citrus Digestive Salad"
+    }
+  ],
+  "recipe/watercress-alfalfa-sandwich": [
+    {
+      "id": "heart-health",
+      "type": "topic",
+      "path": "topic/heart-health",
+      "title": "Heart Health Optimization"
+    },
+    {
+      "id": "brussels-sprouts-mustard",
+      "type": "recipe",
+      "path": "recipe/brussels-sprouts-mustard",
+      "title": "Roasted Brussels Sprouts with Mustard & Tamari"
+    },
+    {
+      "id": "avocado-lentil-tartare",
+      "type": "recipe",
+      "path": "recipe/avocado-lentil-tartare",
+      "title": "Avocado & Sprouted Lentil Herb Tartare"
+    }
+  ],
+  "recipe/rooibos-cinnamon-tea": [
+    {
+      "id": "purple-sweet-potato-pudding",
+      "type": "recipe",
+      "path": "recipe/purple-sweet-potato-pudding",
+      "title": "Purple Sweet Potato & Ginger Pudding"
+    },
+    {
+      "id": "baked-pears-cinnamon",
+      "type": "recipe",
+      "path": "recipe/baked-pears-cinnamon",
+      "title": "Baked Pears with Cinnamon & Cacao Nibs"
+    },
+    {
+      "id": "chia-berry-parfait",
+      "type": "recipe",
+      "path": "recipe/chia-berry-parfait",
+      "title": "Chia & Berry Antioxidant Parfait"
+    }
+  ],
+  "recipe/chickpea-cauliflower-tagine": [
+    {
+      "id": "liver-detoxification-pathways",
+      "type": "topic",
+      "path": "topic/liver-detoxification-pathways",
+      "title": "Liver Detox Pathways"
+    },
+    {
+      "id": "cauliflower-tabbouleh-hemp",
+      "type": "recipe",
+      "path": "recipe/cauliflower-tabbouleh-hemp",
+      "title": "Cauliflower Rice Tabbouleh with Hemp Oil"
+    },
+    {
+      "id": "golden-turmeric-quinoa",
+      "type": "recipe",
+      "path": "recipe/golden-turmeric-quinoa",
+      "title": "Golden Turmeric Quinoa Nourish Bowl"
+    }
+  ],
+  "recipe/hemp-saffron-drink": [
+    {
+      "id": "reishi-cocoa-elixir",
+      "type": "recipe",
+      "path": "recipe/reishi-cocoa-elixir",
+      "title": "Red Reishi & Cocoa Elixir"
+    },
+    {
+      "id": "sleep-smoothie-valerian",
+      "type": "recipe",
+      "path": "recipe/sleep-smoothie-valerian",
+      "title": "Cherry & Valerian Sleep Smoothie"
+    },
+    {
+      "id": "cauliflower-tabbouleh-hemp",
+      "type": "recipe",
+      "path": "recipe/cauliflower-tabbouleh-hemp",
+      "title": "Cauliflower Rice Tabbouleh with Hemp Oil"
+    }
+  ],
+  "recipe/cucumber-jicama-salad": [
+    {
+      "id": "papaya-detox-salad",
+      "type": "recipe",
+      "path": "recipe/papaya-detox-salad",
+      "title": "Rainbow Raw Papaya & Lime Detox Salad"
+    },
+    {
+      "id": "kimchi-rice-bowl",
+      "type": "recipe",
+      "path": "recipe/kimchi-rice-bowl",
+      "title": "Fermented Kimchi Brown Rice Bowl"
+    },
+    {
+      "id": "fennel-citrus-salad",
+      "type": "recipe",
+      "path": "recipe/fennel-citrus-salad",
+      "title": "Fennel & Citrus Digestive Salad"
+    }
+  ],
+  "recipe/lentil-walnut-pate": [
+    {
+      "id": "black-garlic-drizzle",
+      "type": "recipe",
+      "path": "recipe/black-garlic-drizzle",
+      "title": "Black Garlic & Fermented Hot Sauce Drizzle"
+    },
+    {
+      "id": "garlic",
+      "type": "herb",
+      "path": "herb/garlic",
+      "title": "Garlic"
+    },
+    {
+      "id": "kidney-health-diet",
+      "type": "topic",
+      "path": "topic/kidney-health-diet",
+      "title": "Kidney Health Support"
+    }
+  ],
+  "recipe/pear-ginger-slaw": [
+    {
+      "id": "ginger",
+      "type": "herb",
+      "path": "herb/ginger",
+      "title": "Ginger"
+    },
+    {
+      "id": "ragi",
+      "type": "herb",
+      "path": "herb/ragi",
+      "title": "Ragi (Finger Millet)"
+    },
+    {
+      "id": "kimchi-rice-bowl",
+      "type": "recipe",
+      "path": "recipe/kimchi-rice-bowl",
+      "title": "Fermented Kimchi Brown Rice Bowl"
+    }
+  ],
+  "herb/turmeric": [
+    {
+      "id": "golden-milk-elixir",
+      "type": "recipe",
+      "path": "recipe/golden-milk-elixir",
+      "title": "Turmeric & Black Pepper Golden Milk"
+    },
+    {
+      "id": "ginger",
+      "type": "herb",
+      "path": "herb/ginger",
+      "title": "Ginger"
+    },
+    {
+      "id": "jackfruit-turmeric-wraps",
+      "type": "recipe",
+      "path": "recipe/jackfruit-turmeric-wraps",
+      "title": "Jackfruit & Turmeric Leaf Wraps"
+    }
+  ],
+  "herb/ashwagandha": [
+    {
+      "id": "cortisol-balance",
+      "type": "topic",
+      "path": "topic/cortisol-balance",
+      "title": "Cortisol & Stress Balance"
+    },
+    {
+      "id": "ashwagandha-sweet-potato",
+      "type": "recipe",
+      "path": "recipe/ashwagandha-sweet-potato",
+      "title": "Sweet Potato & Ashwagandha Coconut Mash"
+    },
+    {
+      "id": "holy-basil",
+      "type": "herb",
+      "path": "herb/holy-basil",
+      "title": "Holy Basil (Tulsi)"
+    }
+  ],
+  "herb/cinnamon": [
+    {
+      "id": "fenugreek",
+      "type": "herb",
+      "path": "herb/fenugreek",
+      "title": "Fenugreek"
+    },
+    {
+      "id": "insulin-resistance",
+      "type": "condition",
+      "path": "condition/insulin-resistance",
+      "title": "Insulin Resistance"
+    },
+    {
+      "id": "rooibos-cinnamon-tea",
+      "type": "recipe",
+      "path": "recipe/rooibos-cinnamon-tea",
+      "title": "Rooibos & Cinnamon Antioxidant Tea"
+    }
+  ],
+  "herb/ginger": [
+    {
+      "id": "turmeric",
+      "type": "herb",
+      "path": "herb/turmeric",
+      "title": "Turmeric"
+    },
+    {
+      "id": "pear-ginger-slaw",
+      "type": "recipe",
+      "path": "recipe/pear-ginger-slaw",
+      "title": "Pear & Ginger Probiotic Slaw"
+    },
+    {
+      "id": "jackfruit-turmeric-wraps",
+      "type": "recipe",
+      "path": "recipe/jackfruit-turmeric-wraps",
+      "title": "Jackfruit & Turmeric Leaf Wraps"
+    }
+  ],
+  "herb/ragi": [
+    {
+      "id": "pear-ginger-slaw",
+      "type": "recipe",
+      "path": "recipe/pear-ginger-slaw",
+      "title": "Pear & Ginger Probiotic Slaw"
+    },
+    {
+      "id": "chia-berry-parfait",
+      "type": "recipe",
+      "path": "recipe/chia-berry-parfait",
+      "title": "Chia & Berry Antioxidant Parfait"
+    },
+    {
+      "id": "osteoporosis-prevention",
+      "type": "topic",
+      "path": "topic/osteoporosis-prevention",
+      "title": "Osteoporosis Prevention"
+    }
+  ],
+  "herb/spirulina": [
+    {
+      "id": "spirulina-lemon-shots",
+      "type": "recipe",
+      "path": "recipe/spirulina-lemon-shots",
+      "title": "Spirulina & Lemon Vitality Shots"
+    },
+    {
+      "id": "gout-uric-acid-reversal",
+      "type": "topic",
+      "path": "topic/gout-uric-acid-reversal",
+      "title": "Uric Acid & Gout Reversal"
+    },
+    {
+      "id": "cholesterol-mgmt",
+      "type": "topic",
+      "path": "topic/cholesterol-mgmt",
+      "title": "Cholesterol Management"
+    }
+  ],
+  "herb/fenugreek": [
+    {
+      "id": "cinnamon",
+      "type": "herb",
+      "path": "herb/cinnamon",
+      "title": "Ceylon Cinnamon"
+    },
+    {
+      "id": "ginger",
+      "type": "herb",
+      "path": "herb/ginger",
+      "title": "Ginger"
+    },
+    {
+      "id": "insulin-resistance-mgmt",
+      "type": "topic",
+      "path": "topic/insulin-resistance-mgmt",
+      "title": "Insulin Resistance Management"
+    }
+  ],
+  "herb/holy-basil": [
+    {
+      "id": "ashwagandha",
+      "type": "herb",
+      "path": "herb/ashwagandha",
+      "title": "Ashwagandha"
+    },
+    {
+      "id": "ginger",
+      "type": "herb",
+      "path": "herb/ginger",
+      "title": "Ginger"
+    },
+    {
+      "id": "cortisol-balance",
+      "type": "topic",
+      "path": "topic/cortisol-balance",
+      "title": "Cortisol & Stress Balance"
+    }
+  ],
+  "herb/garlic": [
+    {
+      "id": "black-garlic-drizzle",
+      "type": "recipe",
+      "path": "recipe/black-garlic-drizzle",
+      "title": "Black Garlic & Fermented Hot Sauce Drizzle"
+    },
+    {
+      "id": "turmeric",
+      "type": "herb",
+      "path": "herb/turmeric",
+      "title": "Turmeric"
+    },
+    {
+      "id": "lentil-walnut-pate",
+      "type": "recipe",
+      "path": "recipe/lentil-walnut-pate",
+      "title": "Black Lentil & Walnut Paté"
+    }
+  ],
+  "condition/masld": [
+    {
+      "id": "fatty-liver-reversal",
+      "type": "topic",
+      "path": "topic/fatty-liver-reversal",
+      "title": "Fatty Liver Reversal"
+    },
+    {
+      "id": "belly-fat-reduction",
+      "type": "topic",
+      "path": "topic/belly-fat-reduction",
+      "title": "Belly Fat Reduction"
+    },
+    {
+      "id": "liver-detoxification-pathways",
+      "type": "topic",
+      "path": "topic/liver-detoxification-pathways",
+      "title": "Liver Detox Pathways"
+    }
+  ],
+  "condition/insulin-resistance": [
+    {
+      "id": "insulin-resistance-mgmt",
+      "type": "topic",
+      "path": "topic/insulin-resistance-mgmt",
+      "title": "Insulin Resistance Management"
+    },
+    {
+      "id": "pcod-pcos",
+      "type": "condition",
+      "path": "condition/pcod-pcos",
+      "title": "PCOD / PCOS (Metabolic & Hormonal Reversal)"
+    },
+    {
+      "id": "cinnamon",
+      "type": "herb",
+      "path": "herb/cinnamon",
+      "title": "Ceylon Cinnamon"
+    }
+  ],
+  "condition/circadian-dysregulation": [
+    {
+      "id": "sleep-disorder-circadian-reset",
+      "type": "topic",
+      "path": "topic/sleep-disorder-circadian-reset",
+      "title": "Sleep & Circadian Reset"
+    },
+    {
+      "id": "pregnancy-nutrition-support",
+      "type": "topic",
+      "path": "topic/pregnancy-nutrition-support",
+      "title": "Pregnancy Nutrition Support"
+    },
+    {
+      "id": "circadian-eating",
+      "type": "article",
+      "path": "article/circadian-eating",
+      "title": "How to Lose Weight by Eating with the Sun (Circadian Diet)"
+    }
+  ],
+  "condition/diabetes-reversal": [
+    {
+      "id": "diabetes-reversal",
+      "type": "topic",
+      "path": "topic/diabetes-reversal",
+      "title": "Diabetes Reversal"
+    },
+    {
+      "id": "pcod-pcos",
+      "type": "condition",
+      "path": "condition/pcod-pcos",
+      "title": "PCOD / PCOS (Metabolic & Hormonal Reversal)"
+    },
+    {
+      "id": "pre-diabetes-care",
+      "type": "topic",
+      "path": "topic/pre-diabetes-care",
+      "title": "Pre-Diabetes Care"
+    }
+  ],
+  "condition/pcod-pcos": [
+    {
+      "id": "diabetes-reversal",
+      "type": "condition",
+      "path": "condition/diabetes-reversal",
+      "title": "Type 2 Diabetes Reversal"
+    },
+    {
+      "id": "insulin-resistance",
+      "type": "condition",
+      "path": "condition/insulin-resistance",
+      "title": "Insulin Resistance"
+    },
+    {
+      "id": "pcos-weight-diet",
+      "type": "topic",
+      "path": "topic/pcos-weight-diet",
+      "title": "PCOS Weight & Diet"
+    }
+  ],
+  "condition/thyroid-dysfunction": [
+    {
+      "id": "autoimmune-hashimotos-protocol",
+      "type": "topic",
+      "path": "topic/autoimmune-hashimotos-protocol",
+      "title": "Hashimoto's Thyroid Care"
+    },
+    {
+      "id": "thyroid-optimization",
+      "type": "topic",
+      "path": "topic/thyroid-optimization",
+      "title": "Thyroid Optimization"
+    },
+    {
+      "id": "chronic-fatigue-syndrome",
+      "type": "topic",
+      "path": "topic/chronic-fatigue-syndrome",
+      "title": "Chronic Fatigue Reversal"
+    }
+  ],
+  "condition/gut-health": [
+    {
+      "id": "gut-health-acidity",
+      "type": "topic",
+      "path": "topic/gut-health-acidity",
+      "title": "Gut Health & Acidity"
+    },
+    {
+      "id": "immunity-boost",
+      "type": "topic",
+      "path": "topic/immunity-boost",
+      "title": "Immunity Boost"
+    },
+    {
+      "id": "kimchi-rice-bowl",
+      "type": "recipe",
+      "path": "recipe/kimchi-rice-bowl",
+      "title": "Fermented Kimchi Brown Rice Bowl"
+    }
+  ],
+  "condition/hypertension": [
+    {
+      "id": "hypertension-management",
+      "type": "topic",
+      "path": "topic/hypertension-management",
+      "title": "Hypertension Management"
+    },
+    {
+      "id": "beetroot-walnut-carpaccio",
+      "type": "recipe",
+      "path": "recipe/beetroot-walnut-carpaccio",
+      "title": "Roasted Beetroot & Walnut Carpaccio"
+    },
+    {
+      "id": "insulin-resistance-mgmt",
+      "type": "topic",
+      "path": "topic/insulin-resistance-mgmt",
+      "title": "Insulin Resistance Management"
+    }
+  ],
+  "topic/diabetes-reversal": [
+    {
+      "id": "insulin-resistance-mgmt",
+      "type": "topic",
+      "path": "topic/insulin-resistance-mgmt",
+      "title": "Insulin Resistance Management"
+    },
+    {
+      "id": "diabetes-reversal",
+      "type": "condition",
+      "path": "condition/diabetes-reversal",
+      "title": "Type 2 Diabetes Reversal"
+    },
+    {
+      "id": "circadian-eating",
+      "type": "article",
+      "path": "article/circadian-eating",
+      "title": "How to Lose Weight by Eating with the Sun (Circadian Diet)"
+    }
+  ],
+  "topic/pcos-balance": [
+    {
+      "id": "fertility-hormone-support",
+      "type": "topic",
+      "path": "topic/fertility-hormone-support",
+      "title": "Fertility & Hormone Support"
+    },
+    {
+      "id": "menopause-hormone-support",
+      "type": "topic",
+      "path": "topic/menopause-hormone-support",
+      "title": "Menopause Hormone Support"
+    },
+    {
+      "id": "hormonal-imbalance",
+      "type": "topic",
+      "path": "topic/hormonal-imbalance",
+      "title": "Hormonal Imbalance Correction"
+    }
+  ],
+  "topic/fatty-liver-reversal": [
+    {
+      "id": "masld",
+      "type": "condition",
+      "path": "condition/masld",
+      "title": "MASLD (Fatty Liver)"
+    },
+    {
+      "id": "liver-detoxification-pathways",
+      "type": "topic",
+      "path": "topic/liver-detoxification-pathways",
+      "title": "Liver Detox Pathways"
+    },
+    {
+      "id": "diabetes-reversal",
+      "type": "topic",
+      "path": "topic/diabetes-reversal",
+      "title": "Diabetes Reversal"
+    }
+  ],
+  "topic/thyroid-optimization": [
+    {
+      "id": "heart-health",
+      "type": "topic",
+      "path": "topic/heart-health",
+      "title": "Heart Health Optimization"
+    },
+    {
+      "id": "fertility-hormone-support",
+      "type": "topic",
+      "path": "topic/fertility-hormone-support",
+      "title": "Fertility & Hormone Support"
+    },
+    {
+      "id": "testosterone-boost",
+      "type": "topic",
+      "path": "topic/testosterone-boost",
+      "title": "Testosterone Boost"
+    }
+  ],
+  "topic/hypertension-management": [
+    {
+      "id": "hypertension",
+      "type": "condition",
+      "path": "condition/hypertension",
+      "title": "Hypertension (High Blood Pressure)"
+    },
+    {
+      "id": "cholesterol-mgmt",
+      "type": "topic",
+      "path": "topic/cholesterol-mgmt",
+      "title": "Cholesterol Management"
+    },
+    {
+      "id": "menopause-weight-mgmt",
+      "type": "topic",
+      "path": "topic/menopause-weight-mgmt",
+      "title": "Menopause Weight Management"
+    }
+  ],
+  "topic/gut-health-acidity": [
+    {
+      "id": "gut-health",
+      "type": "condition",
+      "path": "condition/gut-health",
+      "title": "Gut Health & Microbiome Restoration"
+    },
+    {
+      "id": "gut-brain-axis",
+      "type": "article",
+      "path": "article/gut-brain-axis",
+      "title": "Cure Anxiety & Brain Fog by Healing Your Gut"
+    },
+    {
+      "id": "nail-health-strength",
+      "type": "topic",
+      "path": "topic/nail-health-strength",
+      "title": "Nail Health & Strength"
+    }
+  ],
+  "topic/weight-loss-women": [
+    {
+      "id": "weight-loss-men",
+      "type": "topic",
+      "path": "topic/weight-loss-men",
+      "title": "Weight Loss for Men"
+    },
+    {
+      "id": "menopause-weight-mgmt",
+      "type": "topic",
+      "path": "topic/menopause-weight-mgmt",
+      "title": "Menopause Weight Management"
+    },
+    {
+      "id": "muscle-recovery",
+      "type": "topic",
+      "path": "topic/muscle-recovery",
+      "title": "Muscle Recovery & Strength"
+    }
+  ],
+  "topic/weight-loss-men": [
+    {
+      "id": "weight-loss-women",
+      "type": "topic",
+      "path": "topic/weight-loss-women",
+      "title": "Weight Loss for Women"
+    },
+    {
+      "id": "menopause-weight-mgmt",
+      "type": "topic",
+      "path": "topic/menopause-weight-mgmt",
+      "title": "Menopause Weight Management"
+    },
+    {
+      "id": "insulin-resistance-mgmt",
+      "type": "topic",
+      "path": "topic/insulin-resistance-mgmt",
+      "title": "Insulin Resistance Management"
+    }
+  ],
+  "topic/belly-fat-reduction": [
+    {
+      "id": "cortisol-balance",
+      "type": "topic",
+      "path": "topic/cortisol-balance",
+      "title": "Cortisol & Stress Balance"
+    },
+    {
+      "id": "circadian-eating",
+      "type": "article",
+      "path": "article/circadian-eating",
+      "title": "How to Lose Weight by Eating with the Sun (Circadian Diet)"
+    },
+    {
+      "id": "fatty-liver-reversal",
+      "type": "topic",
+      "path": "topic/fatty-liver-reversal",
+      "title": "Fatty Liver Reversal"
+    }
+  ],
+  "topic/insulin-resistance-mgmt": [
+    {
+      "id": "insulin-resistance",
+      "type": "condition",
+      "path": "condition/insulin-resistance",
+      "title": "Insulin Resistance"
+    },
+    {
+      "id": "weight-loss-men",
+      "type": "topic",
+      "path": "topic/weight-loss-men",
+      "title": "Weight Loss for Men"
+    },
+    {
+      "id": "diabetes-reversal",
+      "type": "topic",
+      "path": "topic/diabetes-reversal",
+      "title": "Diabetes Reversal"
+    }
+  ],
+  "topic/pre-diabetes-care": [
+    {
+      "id": "diabetes-reversal",
+      "type": "condition",
+      "path": "condition/diabetes-reversal",
+      "title": "Type 2 Diabetes Reversal"
+    },
+    {
+      "id": "diabetes-reversal",
+      "type": "topic",
+      "path": "topic/diabetes-reversal",
+      "title": "Diabetes Reversal"
+    },
+    {
+      "id": "histamine-intolerance-allergy",
+      "type": "topic",
+      "path": "topic/histamine-intolerance-allergy",
+      "title": "Histamine Intolerance Care"
+    }
+  ],
+  "topic/menopause-hormone-support": [
+    {
+      "id": "fertility-hormone-support",
+      "type": "topic",
+      "path": "topic/fertility-hormone-support",
+      "title": "Fertility & Hormone Support"
+    },
+    {
+      "id": "pcos-balance",
+      "type": "topic",
+      "path": "topic/pcos-balance",
+      "title": "PCOD/PCOS Balance"
+    },
+    {
+      "id": "cortisol-balance",
+      "type": "topic",
+      "path": "topic/cortisol-balance",
+      "title": "Cortisol & Stress Balance"
+    }
+  ],
+  "topic/hormonal-imbalance": [
+    {
+      "id": "fertility-hormone-support",
+      "type": "topic",
+      "path": "topic/fertility-hormone-support",
+      "title": "Fertility & Hormone Support"
+    },
+    {
+      "id": "pcos-balance",
+      "type": "topic",
+      "path": "topic/pcos-balance",
+      "title": "PCOD/PCOS Balance"
+    },
+    {
+      "id": "menopause-hormone-support",
+      "type": "topic",
+      "path": "topic/menopause-hormone-support",
+      "title": "Menopause Hormone Support"
+    }
+  ],
+  "topic/testosterone-boost": [
+    {
+      "id": "thyroid-optimization",
+      "type": "topic",
+      "path": "topic/thyroid-optimization",
+      "title": "Thyroid Optimization"
+    },
+    {
+      "id": "immunity-boost",
+      "type": "topic",
+      "path": "topic/immunity-boost",
+      "title": "Immunity Boost"
+    },
+    {
+      "id": "heart-health",
+      "type": "topic",
+      "path": "topic/heart-health",
+      "title": "Heart Health Optimization"
+    }
+  ],
+  "topic/cortisol-balance": [
+    {
+      "id": "ashwagandha",
+      "type": "herb",
+      "path": "herb/ashwagandha",
+      "title": "Ashwagandha"
+    },
+    {
+      "id": "menopause-hormone-support",
+      "type": "topic",
+      "path": "topic/menopause-hormone-support",
+      "title": "Menopause Hormone Support"
+    },
+    {
+      "id": "belly-fat-reduction",
+      "type": "topic",
+      "path": "topic/belly-fat-reduction",
+      "title": "Belly Fat Reduction"
+    }
+  ],
+  "topic/cholesterol-mgmt": [
+    {
+      "id": "heart-health",
+      "type": "topic",
+      "path": "topic/heart-health",
+      "title": "Heart Health Optimization"
+    },
+    {
+      "id": "hypertension-management",
+      "type": "topic",
+      "path": "topic/hypertension-management",
+      "title": "Hypertension Management"
+    },
+    {
+      "id": "insulin-resistance-mgmt",
+      "type": "topic",
+      "path": "topic/insulin-resistance-mgmt",
+      "title": "Insulin Resistance Management"
+    }
+  ],
+  "topic/heart-health": [
+    {
+      "id": "thyroid-optimization",
+      "type": "topic",
+      "path": "topic/thyroid-optimization",
+      "title": "Thyroid Optimization"
+    },
+    {
+      "id": "pregnancy-nutrition-support",
+      "type": "topic",
+      "path": "topic/pregnancy-nutrition-support",
+      "title": "Pregnancy Nutrition Support"
+    },
+    {
+      "id": "nail-health-strength",
+      "type": "topic",
+      "path": "topic/nail-health-strength",
+      "title": "Nail Health & Strength"
+    }
+  ],
+  "topic/blood-circulation": [
+    {
+      "id": "pregnancy-nutrition-support",
+      "type": "topic",
+      "path": "topic/pregnancy-nutrition-support",
+      "title": "Pregnancy Nutrition Support"
+    },
+    {
+      "id": "ginger",
+      "type": "herb",
+      "path": "herb/ginger",
+      "title": "Ginger"
+    },
+    {
+      "id": "fertility-hormone-support",
+      "type": "topic",
+      "path": "topic/fertility-hormone-support",
+      "title": "Fertility & Hormone Support"
+    }
+  ],
+  "topic/joint-pain-relief": [
+    {
+      "id": "anti-inflammatory-support",
+      "type": "topic",
+      "path": "topic/anti-inflammatory-support",
+      "title": "Anti-Inflammatory Support"
+    },
+    {
+      "id": "geriatric-strength-nutrition",
+      "type": "topic",
+      "path": "topic/geriatric-strength-nutrition",
+      "title": "Geriatric Strength Nutrition"
+    },
+    {
+      "id": "gout-uric-acid-reversal",
+      "type": "topic",
+      "path": "topic/gout-uric-acid-reversal",
+      "title": "Uric Acid & Gout Reversal"
+    }
+  ],
+  "topic/arthritis-support": [
+    {
+      "id": "pregnancy-nutrition-support",
+      "type": "topic",
+      "path": "topic/pregnancy-nutrition-support",
+      "title": "Pregnancy Nutrition Support"
+    },
+    {
+      "id": "anti-inflammatory-support",
+      "type": "topic",
+      "path": "topic/anti-inflammatory-support",
+      "title": "Anti-Inflammatory Support"
+    },
+    {
+      "id": "blood-circulation",
+      "type": "topic",
+      "path": "topic/blood-circulation",
+      "title": "Blood Circulation Support"
+    }
+  ],
+  "topic/osteoporosis-prevention": [
+    {
+      "id": "geriatric-strength-nutrition",
+      "type": "topic",
+      "path": "topic/geriatric-strength-nutrition",
+      "title": "Geriatric Strength Nutrition"
+    },
+    {
+      "id": "ragi",
+      "type": "herb",
+      "path": "herb/ragi",
+      "title": "Ragi (Finger Millet)"
+    },
+    {
+      "id": "award-2023",
+      "type": "article",
+      "path": "article/award-2023",
+      "title": "Dr. Shilpa Thakur Wins \"Best Holistic Nutritionist 2023\""
+    }
+  ],
+  "topic/hyperthyroid-protocol": [
+    {
+      "id": "weight-loss-men",
+      "type": "topic",
+      "path": "topic/weight-loss-men",
+      "title": "Weight Loss for Men"
+    },
+    {
+      "id": "award-2023",
+      "type": "article",
+      "path": "article/award-2023",
+      "title": "Dr. Shilpa Thakur Wins \"Best Holistic Nutritionist 2023\""
+    },
+    {
+      "id": "weight-loss-women",
+      "type": "topic",
+      "path": "topic/weight-loss-women",
+      "title": "Weight Loss for Women"
+    }
+  ],
+  "topic/muscle-recovery": [
+    {
+      "id": "plant-protein-myth",
+      "type": "article",
+      "path": "article/plant-protein-myth",
+      "title": "Plant Protein Mastery: Building Strength Naturally"
+    },
+    {
+      "id": "geriatric-strength-nutrition",
+      "type": "topic",
+      "path": "topic/geriatric-strength-nutrition",
+      "title": "Geriatric Strength Nutrition"
+    },
+    {
+      "id": "post-viral-recovery",
+      "type": "topic",
+      "path": "topic/post-viral-recovery",
+      "title": "Post-Viral Recovery"
+    }
+  ],
+  "topic/back-spine-health": [
+    {
+      "id": "kidney-health-diet",
+      "type": "topic",
+      "path": "topic/kidney-health-diet",
+      "title": "Kidney Health Support"
+    },
+    {
+      "id": "pregnancy-nutrition-support",
+      "type": "topic",
+      "path": "topic/pregnancy-nutrition-support",
+      "title": "Pregnancy Nutrition Support"
+    },
+    {
+      "id": "anti-inflammatory-support",
+      "type": "topic",
+      "path": "topic/anti-inflammatory-support",
+      "title": "Anti-Inflammatory Support"
+    }
+  ],
+  "topic/hair-growth-strength": [
+    {
+      "id": "nail-health-strength",
+      "type": "topic",
+      "path": "topic/nail-health-strength",
+      "title": "Nail Health & Strength"
+    },
+    {
+      "id": "pregnancy-nutrition-support",
+      "type": "topic",
+      "path": "topic/pregnancy-nutrition-support",
+      "title": "Pregnancy Nutrition Support"
+    },
+    {
+      "id": "geriatric-strength-nutrition",
+      "type": "topic",
+      "path": "topic/geriatric-strength-nutrition",
+      "title": "Geriatric Strength Nutrition"
+    }
+  ],
+  "topic/skin-glow-detox": [
+    {
+      "id": "liver-detoxification-pathways",
+      "type": "topic",
+      "path": "topic/liver-detoxification-pathways",
+      "title": "Liver Detox Pathways"
+    },
+    {
+      "id": "detox-rejuvenation",
+      "type": "topic",
+      "path": "topic/detox-rejuvenation",
+      "title": "Detox & Rejuvenation"
+    },
+    {
+      "id": "fatty-liver-reversal",
+      "type": "topic",
+      "path": "topic/fatty-liver-reversal",
+      "title": "Fatty Liver Reversal"
+    }
+  ],
+  "topic/anti-aging-support": [
+    {
+      "id": "healthy-aging-solutions",
+      "type": "topic",
+      "path": "topic/healthy-aging-solutions",
+      "title": "Healthy Aging Solutions"
+    },
+    {
+      "id": "pregnancy-nutrition-support",
+      "type": "topic",
+      "path": "topic/pregnancy-nutrition-support",
+      "title": "Pregnancy Nutrition Support"
+    },
+    {
+      "id": "kidney-health-diet",
+      "type": "topic",
+      "path": "topic/kidney-health-diet",
+      "title": "Kidney Health Support"
+    }
+  ],
+  "topic/acne-skin-clarity": [
+    {
+      "id": "skin-glow-detox",
+      "type": "topic",
+      "path": "topic/skin-glow-detox",
+      "title": "Skin Glow & Detox"
+    },
+    {
+      "id": "award-2023",
+      "type": "article",
+      "path": "article/award-2023",
+      "title": "Dr. Shilpa Thakur Wins \"Best Holistic Nutritionist 2023\""
+    },
+    {
+      "id": "hyperthyroid-protocol",
+      "type": "topic",
+      "path": "topic/hyperthyroid-protocol",
+      "title": "Hyperthyroid Protocol"
+    }
+  ],
+  "topic/nail-health-strength": [
+    {
+      "id": "geriatric-strength-nutrition",
+      "type": "topic",
+      "path": "topic/geriatric-strength-nutrition",
+      "title": "Geriatric Strength Nutrition"
+    },
+    {
+      "id": "hair-growth-strength",
+      "type": "topic",
+      "path": "topic/hair-growth-strength",
+      "title": "Hair Growth & Strength"
+    },
+    {
+      "id": "plant-protein-myth",
+      "type": "article",
+      "path": "article/plant-protein-myth",
+      "title": "Plant Protein Mastery: Building Strength Naturally"
+    }
+  ],
+  "topic/immunity-boost": [
+    {
+      "id": "kid-immunity-growth",
+      "type": "topic",
+      "path": "topic/kid-immunity-growth",
+      "title": "Pediatric Immunity & Growth"
+    },
+    {
+      "id": "fertility-hormone-support",
+      "type": "topic",
+      "path": "topic/fertility-hormone-support",
+      "title": "Fertility & Hormone Support"
+    },
+    {
+      "id": "gut-health",
+      "type": "condition",
+      "path": "condition/gut-health",
+      "title": "Gut Health & Microbiome Restoration"
+    }
+  ],
+  "topic/detox-rejuvenation": [
+    {
+      "id": "liver-detoxification-pathways",
+      "type": "topic",
+      "path": "topic/liver-detoxification-pathways",
+      "title": "Liver Detox Pathways"
+    },
+    {
+      "id": "skin-glow-detox",
+      "type": "topic",
+      "path": "topic/skin-glow-detox",
+      "title": "Skin Glow & Detox"
+    },
+    {
+      "id": "fatty-liver-reversal",
+      "type": "topic",
+      "path": "topic/fatty-liver-reversal",
+      "title": "Fatty Liver Reversal"
+    }
+  ],
+  "topic/anti-inflammatory-support": [
+    {
+      "id": "ginger",
+      "type": "herb",
+      "path": "herb/ginger",
+      "title": "Ginger"
+    },
+    {
+      "id": "pregnancy-nutrition-support",
+      "type": "topic",
+      "path": "topic/pregnancy-nutrition-support",
+      "title": "Pregnancy Nutrition Support"
+    },
+    {
+      "id": "chronic-fatigue-syndrome",
+      "type": "topic",
+      "path": "topic/chronic-fatigue-syndrome",
+      "title": "Chronic Fatigue Reversal"
+    }
+  ],
+  "topic/healthy-aging-solutions": [
+    {
+      "id": "pregnancy-nutrition-support",
+      "type": "topic",
+      "path": "topic/pregnancy-nutrition-support",
+      "title": "Pregnancy Nutrition Support"
+    },
+    {
+      "id": "anti-aging-support",
+      "type": "topic",
+      "path": "topic/anti-aging-support",
+      "title": "Anti-Aging Support"
+    },
+    {
+      "id": "kidney-health-diet",
+      "type": "topic",
+      "path": "topic/kidney-health-diet",
+      "title": "Kidney Health Support"
+    }
+  ],
+  "topic/wellness-longevity": [
+    {
+      "id": "insulin-resistance",
+      "type": "condition",
+      "path": "condition/insulin-resistance",
+      "title": "Insulin Resistance"
+    },
+    {
+      "id": "insulin-resistance-mgmt",
+      "type": "topic",
+      "path": "topic/insulin-resistance-mgmt",
+      "title": "Insulin Resistance Management"
+    },
+    {
+      "id": "pregnancy-nutrition-support",
+      "type": "topic",
+      "path": "topic/pregnancy-nutrition-support",
+      "title": "Pregnancy Nutrition Support"
+    }
+  ],
+  "topic/fertility-hormone-support": [
+    {
+      "id": "pcos-balance",
+      "type": "topic",
+      "path": "topic/pcos-balance",
+      "title": "PCOD/PCOS Balance"
+    },
+    {
+      "id": "hormonal-imbalance",
+      "type": "topic",
+      "path": "topic/hormonal-imbalance",
+      "title": "Hormonal Imbalance Correction"
+    },
+    {
+      "id": "menopause-hormone-support",
+      "type": "topic",
+      "path": "topic/menopause-hormone-support",
+      "title": "Menopause Hormone Support"
+    }
+  ],
+  "topic/pcos-weight-diet": [
+    {
+      "id": "weight-loss-men",
+      "type": "topic",
+      "path": "topic/weight-loss-men",
+      "title": "Weight Loss for Men"
+    },
+    {
+      "id": "circadian-eating",
+      "type": "article",
+      "path": "article/circadian-eating",
+      "title": "How to Lose Weight by Eating with the Sun (Circadian Diet)"
+    },
+    {
+      "id": "pcod-pcos",
+      "type": "condition",
+      "path": "condition/pcod-pcos",
+      "title": "PCOD / PCOS (Metabolic & Hormonal Reversal)"
+    }
+  ],
+  "topic/menopause-weight-mgmt": [
+    {
+      "id": "weight-loss-men",
+      "type": "topic",
+      "path": "topic/weight-loss-men",
+      "title": "Weight Loss for Men"
+    },
+    {
+      "id": "insulin-resistance-mgmt",
+      "type": "topic",
+      "path": "topic/insulin-resistance-mgmt",
+      "title": "Insulin Resistance Management"
+    },
+    {
+      "id": "circadian-eating",
+      "type": "article",
+      "path": "article/circadian-eating",
+      "title": "How to Lose Weight by Eating with the Sun (Circadian Diet)"
+    }
+  ],
+  "topic/gout-uric-acid-reversal": [
+    {
+      "id": "fatty-liver-reversal",
+      "type": "topic",
+      "path": "topic/fatty-liver-reversal",
+      "title": "Fatty Liver Reversal"
+    },
+    {
+      "id": "gut-health-acidity",
+      "type": "topic",
+      "path": "topic/gut-health-acidity",
+      "title": "Gut Health & Acidity"
+    },
+    {
+      "id": "kidney-health-diet",
+      "type": "topic",
+      "path": "topic/kidney-health-diet",
+      "title": "Kidney Health Support"
+    }
+  ],
+  "topic/chronic-fatigue-syndrome": [
+    {
+      "id": "anti-inflammatory-support",
+      "type": "topic",
+      "path": "topic/anti-inflammatory-support",
+      "title": "Anti-Inflammatory Support"
+    },
+    {
+      "id": "fibromyalgia-pain-management",
+      "type": "topic",
+      "path": "topic/fibromyalgia-pain-management",
+      "title": "Fibromyalgia Management"
+    },
+    {
+      "id": "sleep-disorder-circadian-reset",
+      "type": "topic",
+      "path": "topic/sleep-disorder-circadian-reset",
+      "title": "Sleep & Circadian Reset"
+    }
+  ],
+  "topic/ibs-ibd-gut-repair": [
+    {
+      "id": "gut-health",
+      "type": "condition",
+      "path": "condition/gut-health",
+      "title": "Gut Health & Microbiome Restoration"
+    },
+    {
+      "id": "gut-health-acidity",
+      "type": "topic",
+      "path": "topic/gut-health-acidity",
+      "title": "Gut Health & Acidity"
+    },
+    {
+      "id": "autoimmune-hashimotos-protocol",
+      "type": "topic",
+      "path": "topic/autoimmune-hashimotos-protocol",
+      "title": "Hashimoto's Thyroid Care"
+    }
+  ],
+  "topic/post-viral-recovery": [
+    {
+      "id": "muscle-recovery",
+      "type": "topic",
+      "path": "topic/muscle-recovery",
+      "title": "Muscle Recovery & Strength"
+    },
+    {
+      "id": "immunity-boost",
+      "type": "topic",
+      "path": "topic/immunity-boost",
+      "title": "Immunity Boost"
+    },
+    {
+      "id": "pregnancy-nutrition-support",
+      "type": "topic",
+      "path": "topic/pregnancy-nutrition-support",
+      "title": "Pregnancy Nutrition Support"
+    }
+  ],
+  "topic/kidney-health-diet": [
+    {
+      "id": "pregnancy-nutrition-support",
+      "type": "topic",
+      "path": "topic/pregnancy-nutrition-support",
+      "title": "Pregnancy Nutrition Support"
+    },
+    {
+      "id": "fertility-hormone-support",
+      "type": "topic",
+      "path": "topic/fertility-hormone-support",
+      "title": "Fertility & Hormone Support"
+    },
+    {
+      "id": "geriatric-strength-nutrition",
+      "type": "topic",
+      "path": "topic/geriatric-strength-nutrition",
+      "title": "Geriatric Strength Nutrition"
+    }
+  ],
+  "topic/migraine-headache-relief": [
+    {
+      "id": "pregnancy-nutrition-support",
+      "type": "topic",
+      "path": "topic/pregnancy-nutrition-support",
+      "title": "Pregnancy Nutrition Support"
+    },
+    {
+      "id": "joint-pain-relief",
+      "type": "topic",
+      "path": "topic/joint-pain-relief",
+      "title": "Joint Pain Relief"
+    },
+    {
+      "id": "gut-brain-axis",
+      "type": "article",
+      "path": "article/gut-brain-axis",
+      "title": "Cure Anxiety & Brain Fog by Healing Your Gut"
+    }
+  ],
+  "topic/adhd-brain-focus-kids": [
+    {
+      "id": "kid-immunity-growth",
+      "type": "topic",
+      "path": "topic/kid-immunity-growth",
+      "title": "Pediatric Immunity & Growth"
+    },
+    {
+      "id": "pregnancy-nutrition-support",
+      "type": "topic",
+      "path": "topic/pregnancy-nutrition-support",
+      "title": "Pregnancy Nutrition Support"
+    },
+    {
+      "id": "gut-brain-axis",
+      "type": "article",
+      "path": "article/gut-brain-axis",
+      "title": "Cure Anxiety & Brain Fog by Healing Your Gut"
+    }
+  ],
+  "topic/geriatric-strength-nutrition": [
+    {
+      "id": "muscle-recovery",
+      "type": "topic",
+      "path": "topic/muscle-recovery",
+      "title": "Muscle Recovery & Strength"
+    },
+    {
+      "id": "nail-health-strength",
+      "type": "topic",
+      "path": "topic/nail-health-strength",
+      "title": "Nail Health & Strength"
+    },
+    {
+      "id": "plant-protein-myth",
+      "type": "article",
+      "path": "article/plant-protein-myth",
+      "title": "Plant Protein Mastery: Building Strength Naturally"
+    }
+  ],
+  "topic/pregnancy-nutrition-support": [
+    {
+      "id": "blood-circulation",
+      "type": "topic",
+      "path": "topic/blood-circulation",
+      "title": "Blood Circulation Support"
+    },
+    {
+      "id": "kidney-health-diet",
+      "type": "topic",
+      "path": "topic/kidney-health-diet",
+      "title": "Kidney Health Support"
+    },
+    {
+      "id": "healthy-aging-solutions",
+      "type": "topic",
+      "path": "topic/healthy-aging-solutions",
+      "title": "Healthy Aging Solutions"
+    }
+  ],
+  "topic/sleep-disorder-circadian-reset": [
+    {
+      "id": "circadian-dysregulation",
+      "type": "condition",
+      "path": "condition/circadian-dysregulation",
+      "title": "Circadian Rhythm Dysregulation"
+    },
+    {
+      "id": "chronic-fatigue-syndrome",
+      "type": "topic",
+      "path": "topic/chronic-fatigue-syndrome",
+      "title": "Chronic Fatigue Reversal"
+    },
+    {
+      "id": "pregnancy-nutrition-support",
+      "type": "topic",
+      "path": "topic/pregnancy-nutrition-support",
+      "title": "Pregnancy Nutrition Support"
+    }
+  ],
+  "topic/fibromyalgia-pain-management": [
+    {
+      "id": "chronic-fatigue-syndrome",
+      "type": "topic",
+      "path": "topic/chronic-fatigue-syndrome",
+      "title": "Chronic Fatigue Reversal"
+    },
+    {
+      "id": "anti-inflammatory-support",
+      "type": "topic",
+      "path": "topic/anti-inflammatory-support",
+      "title": "Anti-Inflammatory Support"
+    },
+    {
+      "id": "pregnancy-nutrition-support",
+      "type": "topic",
+      "path": "topic/pregnancy-nutrition-support",
+      "title": "Pregnancy Nutrition Support"
+    }
+  ],
+  "topic/histamine-intolerance-allergy": [
+    {
+      "id": "pre-diabetes-care",
+      "type": "topic",
+      "path": "topic/pre-diabetes-care",
+      "title": "Pre-Diabetes Care"
+    },
+    {
+      "id": "autoimmune-hashimotos-protocol",
+      "type": "topic",
+      "path": "topic/autoimmune-hashimotos-protocol",
+      "title": "Hashimoto's Thyroid Care"
+    },
+    {
+      "id": "pregnancy-nutrition-support",
+      "type": "topic",
+      "path": "topic/pregnancy-nutrition-support",
+      "title": "Pregnancy Nutrition Support"
+    }
+  ],
+  "topic/autoimmune-hashimotos-protocol": [
+    {
+      "id": "thyroid-dysfunction",
+      "type": "condition",
+      "path": "condition/thyroid-dysfunction",
+      "title": "Thyroid Dysfunction (Hypothyroidism & Hashimoto's)"
+    },
+    {
+      "id": "thyroid-optimization",
+      "type": "topic",
+      "path": "topic/thyroid-optimization",
+      "title": "Thyroid Optimization"
+    },
+    {
+      "id": "hyperthyroid-protocol",
+      "type": "topic",
+      "path": "topic/hyperthyroid-protocol",
+      "title": "Hyperthyroid Protocol"
+    }
+  ],
+  "topic/kid-immunity-growth": [
+    {
+      "id": "adhd-brain-focus-kids",
+      "type": "topic",
+      "path": "topic/adhd-brain-focus-kids",
+      "title": "Pediatric ADHD Focus"
+    },
+    {
+      "id": "pregnancy-nutrition-support",
+      "type": "topic",
+      "path": "topic/pregnancy-nutrition-support",
+      "title": "Pregnancy Nutrition Support"
+    },
+    {
+      "id": "immunity-boost",
+      "type": "topic",
+      "path": "topic/immunity-boost",
+      "title": "Immunity Boost"
+    }
+  ],
+  "topic/liver-detoxification-pathways": [
+    {
+      "id": "detox-rejuvenation",
+      "type": "topic",
+      "path": "topic/detox-rejuvenation",
+      "title": "Detox & Rejuvenation"
+    },
+    {
+      "id": "skin-glow-detox",
+      "type": "topic",
+      "path": "topic/skin-glow-detox",
+      "title": "Skin Glow & Detox"
+    },
+    {
+      "id": "fatty-liver-reversal",
+      "type": "topic",
+      "path": "topic/fatty-liver-reversal",
+      "title": "Fatty Liver Reversal"
+    }
+  ]
+}

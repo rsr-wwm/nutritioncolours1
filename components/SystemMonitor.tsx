@@ -164,7 +164,7 @@ export const SystemMonitor = () => {
                         </div>
                         <h2 className="text-3xl md:text-4xl font-black brand-font mb-2">Portal Diagnostics</h2>
                         <p className="text-emerald-300 text-sm max-w-lg">
-                            Comprehensive scan for SEO, Performance, Accessibility, and Content Integrity according to 2024 Web Vitals guidelines.
+                            Comprehensive scan for SEO, Performance, Accessibility, and Content Integrity according to 2026 Web Vitals guidelines.
                         </p>
                     </div>
                     

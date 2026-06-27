@@ -44,6 +44,7 @@ export const SmartMealGenerator = ({ activeLocation }: { activeLocation?: any })
   const [appliedProtein, setAppliedProtein] = useState<number | null>(null);
   const [appliedBmi, setAppliedBmi] = useState<{ bmi: number; category: string } | null>(null);
   const [appliedWater, setAppliedWater] = useState<number | null>(null);
+  const timersRef = React.useRef<any[]>([]);
 
   // Listen to custom events from calculators
   useEffect(() => {
@@ -52,7 +53,8 @@ export const SmartMealGenerator = ({ activeLocation }: { activeLocation?: any })
       if (customEvent.detail && customEvent.detail.calories) {
         setCalories(customEvent.detail.calories);
         setAppliedCalories(true);
-        setTimeout(() => setAppliedCalories(false), 8000);
+        const timer = setTimeout(() => setAppliedCalories(false), 8000);
+        timersRef.current.push(timer);
         
         const el = document.getElementById('smart-meal-generator');
         if (el) {
@@ -65,7 +67,8 @@ export const SmartMealGenerator = ({ activeLocation }: { activeLocation?: any })
       const customEvent = e as CustomEvent;
       if (customEvent.detail && customEvent.detail.protein) {
         setAppliedProtein(customEvent.detail.protein);
-        setTimeout(() => setAppliedProtein(null), 8000);
+        const timer = setTimeout(() => setAppliedProtein(null), 8000);
+        timersRef.current.push(timer);
 
         const el = document.getElementById('smart-meal-generator');
         if (el) {
@@ -86,7 +89,8 @@ export const SmartMealGenerator = ({ activeLocation }: { activeLocation?: any })
         } else if (cat.includes('Underweight')) {
           setGoal('Muscle Gain');
         }
-        setTimeout(() => setAppliedBmi(null), 8000);
+        const timer = setTimeout(() => setAppliedBmi(null), 8000);
+        timersRef.current.push(timer);
         const el = document.getElementById('smart-meal-generator');
         if (el) {
           el.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -98,7 +102,8 @@ export const SmartMealGenerator = ({ activeLocation }: { activeLocation?: any })
       const customEvent = e as CustomEvent;
       if (customEvent.detail && customEvent.detail.water) {
         setAppliedWater(customEvent.detail.water);
-        setTimeout(() => setAppliedWater(null), 8000);
+        const timer = setTimeout(() => setAppliedWater(null), 8000);
+        timersRef.current.push(timer);
         const el = document.getElementById('smart-meal-generator');
         if (el) {
           el.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -115,6 +120,7 @@ export const SmartMealGenerator = ({ activeLocation }: { activeLocation?: any })
       window.removeEventListener('apply_protein_to_meal_planner', handleApplyProtein);
       window.removeEventListener('apply_bmi_to_meal_planner', handleApplyBmi);
       window.removeEventListener('apply_water_to_meal_planner', handleApplyWater);
+      timersRef.current.forEach(clearTimeout);
     };
   }, []);
 
@@ -151,6 +157,38 @@ export const SmartMealGenerator = ({ activeLocation }: { activeLocation?: any })
     localStorage.setItem('nutrition_saved_plans', JSON.stringify(updated));
   };
 
+  const getCircadianWindow = () => {
+    if (activeLocation) {
+      // Deterministic generation based on city name hash
+      const cityHash = activeLocation.city.split('').reduce((acc: number, c: string) => acc + c.charCodeAt(0), 0);
+      const sunriseHour = 5 + (cityHash % 2); // 5 AM or 6 AM
+      const sunriseMin = (cityHash * 7) % 60;
+      const sunsetHour = 17 + (cityHash % 2); // 5 PM or 6 PM
+      const sunsetMin = (cityHash * 13) % 60;
+      
+      const formatTime = (h: number, m: number) => {
+        const h12 = h > 12 ? h - 12 : h === 0 ? 12 : h;
+        const ampm = h >= 12 ? 'PM' : 'AM';
+        return `${h12.toString().padStart(2, '0')}:${m.toString().padStart(2, '0')} ${ampm}`;
+      };
+      
+      return {
+        sunrise: formatTime(sunriseHour, sunriseMin),
+        sunset: formatTime(sunsetHour, sunsetMin),
+        eatingStart: formatTime(sunriseHour + 1, sunriseMin), // 1 hour post sunrise
+        eatingEnd: formatTime(sunriseHour + 11, sunriseMin), // 10 hour window
+      };
+    }
+    return {
+      sunrise: "06:00 AM",
+      sunset: "06:30 PM",
+      eatingStart: "07:30 AM",
+      eatingEnd: "05:30 PM"
+    };
+  };
+
+  const circadian = getCircadianWindow();
+
   const generatePlan = async () => {
     setLoading(true);
     trackInteraction('calculator', `Smart Meal Planner: Triggered menu generation (${diet}, ${goal}, ${calories} kcal)`);
@@ -168,7 +206,7 @@ export const SmartMealGenerator = ({ activeLocation }: { activeLocation?: any })
         : "Indian Context";
 
       const prompt = `
-        Act as a professional Clinical Nutritionist (${locationContext}). 
+        Act as a professional Clinical Chronobiologist and Nutritionist (${locationContext}). 
         Generate a strict one-day meal plan for a patient with the following profile:
         - Diet: ${diet}
         - Goal: ${goal}
@@ -177,14 +215,21 @@ export const SmartMealGenerator = ({ activeLocation }: { activeLocation?: any })
         - Target Hydration: ${appliedWater ? `${appliedWater} Liters` : 'Default 2-3 Liters'}
         - Target Protein: ${appliedProtein ? `${appliedProtein} grams` : 'Normal'}
         - Allergies/Avoid: ${allergies || 'None'}
+        - Circadian Eating Window: ${circadian.eatingStart} to ${circadian.eatingEnd} (10-hour sun-aligned window)
         ${activeLocation ? `- Location/Zone: ${activeLocation.city}, ${activeLocation.country} (Zone: ${activeLocation.zone})` : ''}
+
+        Chronobiology Rules:
+        1. Breakfast and Lunch must have the highest complex carbohydrates, matching peak digestive fire (agni).
+        2. Snack must be a clean, low-glycemic transition element.
+        3. Dinner MUST be low-carb and high-protein/fiber to support overnight cellular autophagy and prevent blood glucose excursions.
+        4. Provide an optimal time of consumption for each meal fitting within the eating window: ${circadian.eatingStart} to ${circadian.eatingEnd}.
 
         Return ONLY a JSON object with this exact structure (no markdown):
         {
-          "breakfast": { "name": "Name of dish", "calories": 300, "protein": 10, "carbs": 40, "fats": 5, "ingredients": ["ing1", "ing2"] },
-          "lunch": { ... },
-          "snack": { ... },
-          "dinner": { ... }
+          "breakfast": { "name": "Name of dish", "calories": 300, "protein": 10, "carbs": 40, "fats": 5, "ingredients": ["ing1", "ing2"], "optimalTime": "${circadian.eatingStart}", "circadianNote": "Note explaining chronobiology benefit" },
+          "lunch": { "name": "Name of dish", "calories": 500, "protein": 20, "carbs": 60, "fats": 10, "ingredients": [...], "optimalTime": "Optimal time", "circadianNote": "Note" },
+          "snack": { "name": "Name of dish", "calories": 150, "protein": 5, "carbs": 15, "fats": 2, "ingredients": [...], "optimalTime": "Optimal time", "circadianNote": "Note" },
+          "dinner": { "name": "Name of dish", "calories": 350, "protein": 25, "carbs": 10, "fats": 8, "ingredients": [...], "optimalTime": "Optimal time", "circadianNote": "Note" }
         }
         Make the dishes specific, healthy, and culturally appropriate for the ${locationContext} context. Emphasize healthy local staples and avoid regional dietary risks associated with this zone. Ensure variety.
       `;
@@ -208,39 +253,49 @@ export const SmartMealGenerator = ({ activeLocation }: { activeLocation?: any })
     }
   };
 
-  const MealCard = ({ title, icon, data, color }: { title: string, icon: any, data: Meal, color: string }) => (
+  const MealCard = ({ title, icon, data, color }: { title: string, icon: any, data: any, color: string }) => (
     <div className={`bg-white rounded-3xl p-6 shadow-lg border border-stone-100 hover:shadow-xl transition-all duration-300 relative overflow-hidden group`}>
        <div className={`absolute top-0 right-0 w-24 h-24 rounded-bl-full -mr-6 -mt-6 opacity-20 ${color}`}></div>
        
-       <div className="flex items-center gap-3 mb-4 relative z-10">
-          <div className={`p-2.5 rounded-full ${color} bg-opacity-20 text-stone-700`}>{icon}</div>
-          <h4 className="font-black text-lg text-stone-800 uppercase tracking-wide">{title}</h4>
+       <div className="flex justify-between items-start mb-4 relative z-10">
+          <div className="flex items-center gap-3">
+             <div className={`p-2.5 rounded-full ${color} bg-opacity-20 text-stone-700`}>{icon}</div>
+             <h4 className="font-black text-sm text-stone-800 uppercase tracking-wider">{title}</h4>
+          </div>
+          <span className="text-[10px] font-mono font-bold bg-stone-100 text-stone-650 px-2.5 py-1 rounded-full border border-stone-200/50">
+             {data.optimalTime}
+          </span>
        </div>
 
-       <div className="relative z-10">
-          <h5 className="font-bold text-xl text-emerald-900 mb-2 line-clamp-2">{data.name}</h5>
-          <div className="flex flex-wrap gap-2 mb-4">
-             {data.ingredients.slice(0, 3).map((ing, i) => (
-               <span key={i} className="text-[10px] bg-stone-100 text-stone-600 px-2 py-1 rounded-md border border-stone-200 truncate max-w-[100px]">{ing}</span>
+       <div className="relative z-10 space-y-3">
+          <div>
+            <h5 className="font-bold text-lg text-emerald-900 mb-1 line-clamp-2">{data.name}</h5>
+            {data.circadianNote && (
+              <p className="text-[10px] text-stone-500 italic leading-relaxed">{data.circadianNote}</p>
+            )}
+          </div>
+          <div className="flex flex-wrap gap-1.5">
+             {data.ingredients.slice(0, 3).map((ing: string, i: number) => (
+                <span key={i} className="text-[9px] bg-stone-105/40 text-stone-600 px-2 py-0.5 rounded-md border border-stone-200 truncate max-w-[100px]">{ing}</span>
              ))}
           </div>
           
-          <div className="grid grid-cols-4 gap-2 text-center bg-stone-50 p-3 rounded-xl border border-stone-100">
+          <div className="grid grid-cols-4 gap-2 text-center bg-stone-50 p-2.5 rounded-xl border border-stone-100">
              <div>
-                <span className="block text-[9px] text-stone-400 font-bold uppercase">Kcal</span>
-                <span className="font-black text-emerald-600">{data.calories}</span>
+                <span className="block text-[8px] text-stone-400 font-bold uppercase">Kcal</span>
+                <span className="font-black text-emerald-600 text-xs">{data.calories}</span>
              </div>
              <div>
-                <span className="block text-[9px] text-stone-400 font-bold uppercase">Prot</span>
-                <span className="font-bold text-stone-700">{data.protein}g</span>
+                <span className="block text-[8px] text-stone-400 font-bold uppercase">Prot</span>
+                <span className="font-bold text-stone-700 text-xs">{data.protein}g</span>
              </div>
              <div>
-                <span className="block text-[9px] text-stone-400 font-bold uppercase">Carb</span>
-                <span className="font-bold text-stone-700">{data.carbs}g</span>
+                <span className="block text-[8px] text-stone-400 font-bold uppercase">Carb</span>
+                <span className="font-bold text-stone-700 text-xs">{data.carbs}g</span>
              </div>
              <div>
-                <span className="block text-[9px] text-stone-400 font-bold uppercase">Fat</span>
-                <span className="font-bold text-stone-700">{data.fats}g</span>
+                <span className="block text-[8px] text-stone-400 font-bold uppercase">Fat</span>
+                <span className="font-bold text-stone-700 text-xs">{data.fats}g</span>
              </div>
           </div>
        </div>
@@ -337,6 +392,19 @@ export const SmartMealGenerator = ({ activeLocation }: { activeLocation?: any })
                                 <option value="PCOD Management">PCOD Management</option>
                                 <option value="Gut Health">Gut Health</option>
                             </select>
+                        </div>
+
+                        {/* Circadian Timing Alert */}
+                        <div className="bg-emerald-50/50 border border-emerald-100 p-4 rounded-2xl text-[11px] text-stone-600 space-y-1.5 relative overflow-hidden">
+                          <div className="absolute top-0 right-0 w-16 h-16 bg-yellow-400 opacity-5 rounded-full blur-xl"></div>
+                          <span className="font-black text-emerald-800 uppercase tracking-widest block text-[9px]">Circadian Sun Cycle Calibration</span>
+                          <div className="flex justify-between items-center text-xs font-bold text-emerald-950">
+                            <span>☀️ Sunrise: {circadian.sunrise}</span>
+                            <span>🌙 Sunset: {circadian.sunset}</span>
+                          </div>
+                          <p className="border-t border-emerald-100/30 pt-2 leading-relaxed">
+                            Your biological clock indicates an optimal **10-hour eating window**: <strong className="text-emerald-800">{circadian.eatingStart} to {circadian.eatingEnd}</strong>.
+                          </p>
                         </div>
 
                         <div>

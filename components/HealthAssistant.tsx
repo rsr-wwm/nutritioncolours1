@@ -50,7 +50,7 @@ interface Message {
 type ChatMode = 'clinical' | 'deep' | 'search' | 'maps';
 
 const MODES: { id: ChatMode; label: string; icon: React.ReactNode; model: string; desc: string }[] = [
-  { id: 'clinical', label: 'Clinical Chat', icon: <IconBot size={16} />, model: 'gemini-3-flash-preview', desc: 'Context-aware medical reasoning' },
+  { id: 'clinical', label: 'Clinical Chat', icon: <IconBot size={16} />, model: 'gemini-3-flash-preview', desc: 'Context-aware clinical nutrition reasoning' },
   { id: 'deep', label: 'Deep Research', icon: <span className="text-xs font-black">🧠</span>, model: 'gemini-3-flash-preview', desc: 'Complex reasoning (Thinking Mode)' },
   { id: 'search', label: 'Web Search', icon: <IconSearch size={16} />, model: 'gemini-3-flash-preview', desc: 'Live web information' },
   { id: 'maps', label: 'Local Guide', icon: <IconMapPin size={16} />, model: 'gemini-2.5-flash', desc: 'Find stores & clinics' },
@@ -340,7 +340,7 @@ export const HealthAssistant: React.FC<HealthAssistantProps> = ({ isOpen, setIsO
               </div>
               <div>
                 <h3 className="font-bold text-lg leading-none">Clinical Assistant</h3>
-                <p className="text-[10px] text-emerald-200 uppercase tracking-widest mt-1">Medical Protocol Guide</p>
+                <p className="text-[10px] text-emerald-200 uppercase tracking-widest mt-1">Clinical Protocol Guide</p>
               </div>
             </div>
             
@@ -389,6 +389,7 @@ export const HealthAssistant: React.FC<HealthAssistantProps> = ({ isOpen, setIsO
                     value={apiKeyInput}
                     onChange={(e) => setApiKeyInput(e.target.value)}
                     placeholder="Enter your Gemini API key..." 
+                    aria-label="Gemini API Key input"
                     className="flex-1 bg-emerald-950 border border-emerald-800 rounded-lg px-3 py-2 text-xs text-white placeholder:text-emerald-700 focus:outline-none focus:border-lime-400"
                   />
 	                  <button 
@@ -497,6 +498,7 @@ export const HealthAssistant: React.FC<HealthAssistantProps> = ({ isOpen, setIsO
                     onClick={() => fileInputRef.current?.click()} 
                     className="p-2 text-stone-400 hover:text-emerald-600 hover:bg-emerald-50 rounded-xl transition-colors"
                     title="Upload Image"
+                    aria-label="Upload image"
                   >
                      <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
                   </button>
@@ -505,6 +507,7 @@ export const HealthAssistant: React.FC<HealthAssistantProps> = ({ isOpen, setIsO
                     ref={fileInputRef} 
                     className="hidden" 
                     accept="image/*"
+                    aria-label="Upload Image File"
                     onChange={(e) => e.target.files?.[0] && setSelectedImage(e.target.files[0])} 
                   />
                   
@@ -513,6 +516,7 @@ export const HealthAssistant: React.FC<HealthAssistantProps> = ({ isOpen, setIsO
                     onChange={(e) => setInput(e.target.value)}
                     onKeyDown={(e) => { if(e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); handleSend(); } }}
                     placeholder={isRecording ? "Listening..." : "Ask Clinical Assistant..."}
+                    aria-label="Ask Clinical Assistant"
                     className="flex-1 bg-transparent border-none focus:ring-0 text-sm max-h-24 resize-none py-2"
                     rows={1}
                   />

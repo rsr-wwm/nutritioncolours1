@@ -16,7 +16,7 @@ export const DietaryAuditor = ({ activeLocation }: { activeLocation?: any }) => 
   const runAudit = async () => {
     if (!mealPlanText.trim()) return;
     setLoading(true);
-    trackInteraction('calculator', `Dietary Auditor: Submitted plan audit (Allergies: ${allergies || 'none'}, Meds: ${medications || 'none'}, Conditions: ${conditions || 'none'})`);
+    trackInteraction('calculator', 'Dietary Auditor: Submitted plan audit');
     try {
       const apiKey = getStoredGeminiApiKey();
       if (!apiKey) {
@@ -147,7 +147,7 @@ export const DietaryAuditor = ({ activeLocation }: { activeLocation?: any }) => 
         : "";
 
       const prompt = `
-        You are an expert Clinical Diet Auditor and Safety Officer for a medical nutrition clinic.
+        You are an expert Clinical Diet Auditor and Safety Officer for a clinical nutrition practice.
         Analyze this patient's proposed dietary plan for safety, drug-nutrient interactions, and allergy compliance.
         
         PATIENT PROFILE:
@@ -219,6 +219,7 @@ export const DietaryAuditor = ({ activeLocation }: { activeLocation?: any }) => 
             value={mealPlanText}
             onChange={(e) => setMealPlanText(e.target.value)}
             placeholder="e.g. Breakfast: Ragi porridge with turmeric, soy milk, and seeds. Lunch: Rice, dal, and spinach salad."
+            aria-label="Draft Meal Plan or Food Log"
             className="w-full bg-stone-50 dark:bg-emerald-900/20 border border-stone-200 dark:border-emerald-800/40 p-3 rounded-xl focus:border-emerald-500 outline-none text-sm min-h-24 resize-none text-stone-800 dark:text-emerald-100"
           />
         </div>
@@ -231,6 +232,7 @@ export const DietaryAuditor = ({ activeLocation }: { activeLocation?: any }) => 
               value={allergies}
               onChange={(e) => setAllergies(e.target.value)}
               placeholder="e.g. Gluten, Peanuts"
+              aria-label="Allergies"
               className="w-full bg-stone-50 dark:bg-emerald-900/20 border border-stone-200 dark:border-emerald-800/40 p-3 rounded-xl focus:border-emerald-500 outline-none text-xs font-bold text-stone-700 dark:text-emerald-100"
             />
           </div>
@@ -241,6 +243,7 @@ export const DietaryAuditor = ({ activeLocation }: { activeLocation?: any }) => 
               value={medications}
               onChange={(e) => setMedications(e.target.value)}
               placeholder="e.g. Levothyroxine, Metformin"
+              aria-label="Active Medications"
               className="w-full bg-stone-50 dark:bg-emerald-900/20 border border-stone-200 dark:border-emerald-800/40 p-3 rounded-xl focus:border-emerald-500 outline-none text-xs font-bold text-stone-700 dark:text-emerald-100"
             />
           </div>
@@ -251,6 +254,7 @@ export const DietaryAuditor = ({ activeLocation }: { activeLocation?: any }) => 
               value={conditions}
               onChange={(e) => setConditions(e.target.value)}
               placeholder="e.g. Hypothyroidism, T2 Diabetes"
+              aria-label="Health Conditions"
               className="w-full bg-stone-50 dark:bg-emerald-900/20 border border-stone-200 dark:border-emerald-800/40 p-3 rounded-xl focus:border-emerald-500 outline-none text-xs font-bold text-stone-700 dark:text-emerald-100"
             />
           </div>
@@ -259,10 +263,10 @@ export const DietaryAuditor = ({ activeLocation }: { activeLocation?: any }) => 
         <button
           onClick={runAudit}
           disabled={loading || !mealPlanText}
-          aria-label="Perform medical audit on submitted meal plan text"
+          aria-label="Perform clinical audit on submitted meal plan text"
           className="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold uppercase tracking-widest py-3.5 rounded-xl transition-all shadow-lg shadow-emerald-100 dark:shadow-emerald-950/20 flex items-center justify-center gap-2 cursor-pointer"
         >
-          {loading ? 'Performing Medical Audit...' : 'Audit Dietary Plan'} <IconBot size={18} />
+          {loading ? 'Performing Clinical Audit...' : 'Audit Dietary Plan'} <IconBot size={18} />
         </button>
       </div>
 

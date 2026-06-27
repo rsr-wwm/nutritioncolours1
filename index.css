@@ -1,5 +1,103 @@
 @import "tailwindcss";
 
+/* local Inter font definitions for offline resilience & privacy compliance */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/fonts/inter-latin-300-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/inter-latin-400-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/inter-latin-500-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/inter-latin-600-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/inter-latin-700-normal.woff2') format('woff2');
+}
+
+/* Cascade Architecture Definition (Feature #104) */
+@layer base, components, utilities;
+@layer base {
+  h1 { font-size: clamp(2rem, 1.33rem + 2.22vw, 3rem) !important; font-weight: 700 !important; text-wrap: balance; }
+  h2 { font-size: clamp(1.5rem, 1rem + 1.67vw, 2.25rem) !important; font-weight: 600 !important; text-wrap: balance; }
+  h3 { font-size: clamp(1.25rem, 0.92rem + 1.11vw, 1.75rem) !important; font-weight: 600 !important; text-wrap: balance; }
+  p { font-size: clamp(0.938rem, 0.81rem + 0.42vw, 1.125rem) !important; line-height: 1.6 !important; }
+  small, .caption, .footer-text { font-size: clamp(0.75rem, 0.67rem + 0.28vw, 0.875rem) !important; }
+
+  body {
+    /* Feature #105: Native form accent-color theming */
+    accent-color: #047857;
+    /* Feature #100: overflow clip to prevent unwanted BFC breakings */
+    overflow-x: clip;
+  }
+
+  /* Feature #123: CSS Print Data Leakage Prevention */
+  @media print {
+    nav, footer, button, .no-print, iframe {
+      display: none !important;
+    }
+    body {
+      color: #000 !important;
+      background: #fff !important;
+    }
+  }
+}
+
+@property --circadian-bg-1 {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: #FAFAF9;
+}
+@property --circadian-bg-2 {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: #FFFFFF;
+}
+
+html[data-circadian-phase="dawn"] {
+  --circadian-bg-1: #fffbeb; /* amber-50 */
+  --circadian-bg-2: #f0fdf4; /* emerald-50 */
+}
+html[data-circadian-phase="midday"] {
+  --circadian-bg-1: #fafaf9; /* stone-50 */
+  --circadian-bg-2: #ffffff; /* white */
+}
+html[data-circadian-phase="dusk"] {
+  --circadian-bg-1: #fef2f2; /* red-50 */
+  --circadian-bg-2: #fff7ed; /* orange-50 */
+}
+html[data-circadian-phase="night"] {
+  --circadian-bg-1: #022c22; /* emerald-950 */
+  --circadian-bg-2: #0c0a09; /* stone-950 */
+}
+
+.bg-gradient-circadian {
+  background: linear-gradient(135deg, var(--circadian-bg-1) 0%, var(--circadian-bg-2) 100%) !important;
+  transition: --circadian-bg-1 2000ms ease, --circadian-bg-2 2000ms ease !important;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -12,7 +110,7 @@ body {
     overflow-x: hidden;
 }
 h1, h2, h3, .brand-font {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Inter', sans-serif;
 }
 .dropdown-animate {
     animation: slideDown 0.2s ease-out;
@@ -66,6 +164,7 @@ h1, h2, h3, .brand-font {
         radial-gradient(#e5e7eb 0.5px, #FAFAF9 0.5px);
     background-size: 20px 20px;
     background-position: 0 0,10px 10px;
+    transition: background-color 1s ease, background-image 1s ease;
 }
 
 .texture-white {
@@ -97,7 +196,8 @@ h1, h2, h3, .brand-font {
     border: 1px solid #f1f5f9;
     border-radius: 32px;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px -1px rgba(0, 0, 0, 0.01);
-    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.5s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: transform, box-shadow;
 }
 .card-clinical:hover {
     border-color: #d1fae5;
@@ -410,7 +510,8 @@ h1, h2, h3, .brand-font {
 /* Premium Border Glows on Hover */
 .premium-hover-glow {
     position: relative;
-    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    will-change: transform, box-shadow;
 }
 .premium-hover-glow::before {
     content: '';
@@ -639,4 +740,521 @@ h1, h2, h3, .brand-font {
 /* Ensure minimum content height so footer doesn't awkwardly float */
 main {
     min-height: calc(100vh - 180px);
+}
+
+/* AI 3D spatial map screen-reader crawler accessible formatting */
+.sr-only-spatial-map {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+    pointer-events: none;
+    opacity: 0;
+}
+
+/* --- Circadian Auto-Tinting Shimmer & Themes --- */
+@keyframes shimmer {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.animate-shimmer {
+    position: relative;
+    overflow: hidden;
+}
+
+.animate-shimmer::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.4) 50%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    animation: shimmer 1.5s infinite;
+}
+
+.dark .animate-shimmer::after {
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(4, 120, 87, 0.15) 50%,
+        rgba(255, 255, 255, 0) 100%
+    );
+}
+
+/* Circadian Auto-Tinting gradient overrides for Light Mode */
+html:not(.dark)[data-circadian-phase="dawn"] .texture-light {
+    background-color: #FFFBEB; /* Amber-50 */
+    background-image: 
+        radial-gradient(rgba(245, 158, 11, 0.15) 1px, transparent 1px),
+        radial-gradient(rgba(245, 158, 11, 0.08) 1px, #FFFBEB 1px) !important;
+    background-size: 24px 24px;
+    background-position: 0 0, 12px 12px;
+}
+
+html:not(.dark)[data-circadian-phase="midday"] .texture-light {
+    background-color: #F0FDF4; /* Emerald-50 */
+    background-image: 
+        radial-gradient(rgba(16, 185, 129, 0.12) 1px, transparent 1px),
+        radial-gradient(rgba(16, 185, 129, 0.06) 1px, #F0FDF4 1px) !important;
+    background-size: 24px 24px;
+    background-position: 0 0, 12px 12px;
+}
+
+html:not(.dark)[data-circadian-phase="dusk"] .texture-light {
+    background-color: #FFF7ED; /* Orange-50 */
+    background-image: 
+        radial-gradient(rgba(234, 88, 12, 0.15) 1px, transparent 1px),
+        radial-gradient(rgba(234, 88, 12, 0.08) 1px, #FFF7ED 1px) !important;
+    background-size: 24px 24px;
+    background-position: 0 0, 12px 12px;
+}
+
+html:not(.dark)[data-circadian-phase="night"] .texture-light {
+    background-color: #F5F3FF; /* Violet-50 */
+    background-image: 
+        radial-gradient(rgba(99, 102, 241, 0.12) 1px, transparent 1px),
+        radial-gradient(rgba(99, 102, 241, 0.06) 1px, #F5F3FF 1px) !important;
+    background-size: 24px 24px;
+    background-position: 0 0, 12px 12px;
+}
+
+/* --- 3D Tactile Styling Classes (Hybrid Approach) --- */
+
+/* 1. Tactile 3D Buttons */
+.btn-3d {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-radius: 16px;
+    background-color: #064e3b; /* Primary dark emerald */
+    color: #ffffff;
+    border: 1px solid #047857;
+    box-shadow: 
+        0 4px 0 0 #022c22, /* Bottom depth edge */
+        0 8px 16px 0 rgba(2, 44, 34, 0.25); /* Ambient shadow */
+    transform: translateY(0);
+    transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    will-change: transform, box-shadow;
+    cursor: pointer;
+    text-shadow: 0 1px 2px rgba(2, 44, 34, 0.3);
+}
+
+.btn-3d:hover {
+    transform: translateY(-2px); /* Raise up slightly */
+    box-shadow: 
+        0 6px 0 0 #022c22, /* Taller depth edge */
+        0 12px 24px 0 rgba(2, 44, 34, 0.35); /* Larger ambient shadow */
+}
+
+.btn-3d:active {
+    transform: translateY(4px); /* Press down below ground line */
+    box-shadow: 
+        0 0 0 0 #022c22, /* Depth flattened */
+        0 2px 4px 0 rgba(2, 44, 34, 0.15); /* Tightened shadow */
+}
+
+/* 2. Tactile 3D Accent Buttons */
+.btn-3d-accent {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-radius: 16px;
+    background-color: #a3e635; /* Accent lime */
+    color: #022c22; /* Deep forest text */
+    border: 1px solid #84cc16;
+    box-shadow: 
+        0 4px 0 0 #4d7c0f, /* Bottom depth edge */
+        0 8px 16px 0 rgba(77, 124, 15, 0.25);
+    transform: translateY(0);
+    transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    will-change: transform, box-shadow;
+    cursor: pointer;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+.btn-3d-accent:hover {
+    transform: translateY(-2px);
+    box-shadow: 
+        0 6px 0 0 #4d7c0f,
+        0 12px 24px 0 rgba(77, 124, 15, 0.35);
+}
+
+.btn-3d-accent:active {
+    transform: translateY(4px);
+    box-shadow: 
+        0 0 0 0 #4d7c0f,
+        0 2px 4px 0 rgba(77, 124, 15, 0.15);
+}
+
+/* Dark mode overrides for 3D buttons */
+.dark .btn-3d {
+    background-color: #047857 !important;
+    border-color: #059669 !important;
+    box-shadow: 
+        0 4px 0 0 #022c22,
+        0 8px 16px 0 rgba(0, 0, 0, 0.4) !important;
+    color: #ffffff !important;
+}
+.dark .btn-3d:hover {
+    box-shadow: 
+        0 6px 0 0 #022c22,
+        0 12px 24px 0 rgba(0, 0, 0, 0.5) !important;
+}
+.dark .btn-3d:active {
+    box-shadow: 
+        0 0 0 0 #022c22,
+        0 2px 4px 0 rgba(0, 0, 0, 0.3) !important;
+}
+
+.dark .btn-3d-accent {
+    background-color: #84cc16 !important;
+    border-color: #a3e635 !important;
+    box-shadow: 
+        0 4px 0 0 #3f6212,
+        0 8px 16px 0 rgba(0, 0, 0, 0.4) !important;
+    color: #022c22 !important;
+}
+.dark .btn-3d-accent:hover {
+    box-shadow: 
+        0 6px 0 0 #3f6212,
+        0 12px 24px 0 rgba(0, 0, 0, 0.5) !important;
+}
+.dark .btn-3d-accent:active {
+    box-shadow: 
+        0 0 0 0 #3f6212,
+        0 2px 4px 0 rgba(0, 0, 0, 0.3) !important;
+}
+
+/* 3. Depressed Channel Inputs & Textareas */
+.input-3d {
+    box-shadow: 
+        inset 2px 2px 5px 0 rgba(0, 0, 0, 0.08), /* Depressed channel look */
+        inset -1px -1px 2px 0 rgba(255, 255, 255, 0.5);
+    background-color: #fafafa !important;
+    border: 1px solid #e2e8f0 !important;
+    transition: all 0.2s ease-in-out !important;
+}
+
+.input-3d:focus {
+    box-shadow: 
+        inset 1px 1px 3px 0 rgba(0, 0, 0, 0.05),
+        0 0 0 3px rgba(16, 185, 129, 0.15) !important;
+    border-color: #10b981 !important;
+    background-color: #ffffff !important;
+}
+
+.dark .input-3d {
+    box-shadow: 
+        inset 2px 2px 5px 0 rgba(0, 0, 0, 0.25),
+        inset -1px -1px 2px 0 rgba(255, 255, 255, 0.05) !important;
+    background-color: #022c22 !important;
+    border-color: #047857 !important;
+}
+
+.dark .input-3d:focus {
+    border-color: #10b981 !important;
+    background-color: #022c22 !important;
+}
+
+/* 4. Tactile 3D Cards */
+.card-3d {
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important, box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important, border-color 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important;
+    will-change: transform, box-shadow;
+    transform: perspective(1000px) rotateX(0deg) rotateY(0deg) translateY(0);
+    box-shadow: 0 4px 20px 0 rgba(6, 78, 59, 0.05) !important;
+}
+
+.card-3d:hover {
+    transform: perspective(1000px) rotateX(2deg) rotateY(-2deg) translateY(-4px) !important; /* Subtle 3D tilt */
+    box-shadow: 
+        0 20px 40px -15px rgba(6, 78, 59, 0.15) !important;
+    border-color: rgba(16, 185, 129, 0.3) !important;
+}
+
+.dark .card-3d {
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2) !important;
+}
+
+.dark .card-3d:hover {
+    box-shadow: 
+        0 20px 40px -15px rgba(0, 0, 0, 0.4) !important;
+    border-color: rgba(52, 211, 153, 0.3) !important;
+}
+
+/* Contrast Shadow Refinements */
+.text-shadow-contrast {
+    text-shadow: 0 1px 2px rgba(2, 44, 34, 0.15) !important;
+}
+.dark .text-shadow-contrast {
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* --- High-IQ Aesthetic and UXI Utilities --- */
+
+/* Feature #64: Houdini Registered Custom Properties for Smooth GPU transition of Mouse Pointer positioning */
+@property --mouse-x {
+  syntax: '<length>';
+  inherits: true;
+  initial-value: 0px;
+}
+@property --mouse-y {
+  syntax: '<length>';
+  inherits: true;
+  initial-value: 0px;
+}
+
+/* Feature #62: Variable Font Optical Sizing Axis Automation */
+.font-variable-opt {
+  font-optical-sizing: auto;
+  font-variation-settings: "opsz" auto;
+}
+
+/* Feature #63: Subtle SVG Noise Texture Fractal Overlay */
+.noise-overlay {
+  position: relative;
+}
+.noise-overlay::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.015;
+  pointer-events: none;
+  z-index: 5;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* Feature #29: Custom Responsive Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f5f5f4; /* stone-100 */
+}
+::-webkit-scrollbar-thumb {
+  background: #047857; /* emerald-700 */
+  border-radius: 5px;
+  border: 2px solid #f5f5f4;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #064e3b; /* emerald-900 */
+}
+
+/* Feature #30: Volumetric Dust Ray Animation */
+@keyframes dustSweep {
+  0% { transform: translateY(-50%) rotate(0deg); opacity: 0.15; }
+  50% { transform: translateY(-30%) rotate(180deg); opacity: 0.35; }
+  100% { transform: translateY(-50%) rotate(360deg); opacity: 0.15; }
+}
+.dust-ray-effect {
+  position: relative;
+  overflow: hidden;
+}
+.dust-ray-effect::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  pointer-events: none;
+  background: radial-gradient(circle, rgba(16, 185, 129, 0.04) 0%, transparent 60%);
+  animation: dustSweep 25s infinite linear;
+}
+
+/* Feature #31: CSS H1 Decryption Text Reveal Effect */
+@keyframes decryptReveal {
+  0% { letter-spacing: 0.2em; filter: blur(4px); opacity: 0; }
+  100% { letter-spacing: normal; filter: blur(0); opacity: 1; }
+}
+.reveal-decrypt {
+  animation: decryptReveal 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Feature #35: Holographic Card Refraction Overlays */
+.holographic-card {
+  position: relative;
+  overflow: hidden;
+}
+.holographic-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0) 70%
+  );
+  transform: translateX(-100%);
+}
+.holographic-card:hover::after {
+  opacity: 1;
+  transform: translateX(100%);
+  transition: transform 0.8s ease-in-out, opacity 0.4s ease;
+}
+
+/* Feature #36: Bounding Box HUD Inspect Scanner */
+.hud-scanner {
+  position: relative;
+}
+.hud-scanner::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border: 1px solid rgba(16, 185, 129, 0);
+  pointer-events: none;
+  transition: border-color 0.3s ease;
+  border-radius: inherit;
+}
+.hud-scanner:hover::before {
+  border-color: rgba(16, 185, 129, 0.45);
+}
+
+/* Feature #37: Chameleon Container Query adaptation wrappers */
+.chameleon-container {
+  container-type: inline-size;
+}
+
+/* Feature #38: Dynamic Mathematical Fluid Glow utility */
+.fluid-glow-track {
+  position: relative;
+}
+.fluid-glow-track::before {
+  content: "";
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  background: radial-gradient(circle, rgba(16, 185, 129, 0.08) 0%, transparent 70%);
+  top: calc(var(--mouse-y) - 175px);
+  left: calc(var(--mouse-x) - 175px);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 1;
+  border-radius: 50%;
+}
+.fluid-glow-track:hover::before {
+  opacity: var(--mouse-active, 1);
+}
+
+/* Feature #69: Staggered CSS Animation delays utility */
+.stagger-item-1 { animation-delay: 100ms; }
+.stagger-item-2 { animation-delay: 200ms; }
+.stagger-item-3 { animation-delay: 300ms; }
+.stagger-item-4 { animation-delay: 400ms; }
+.stagger-item-5 { animation-delay: 500ms; }
+
+/* Feature #67: prefers-reduced-motion Accessibility First Guard Rules */
+@media (prefers-reduced-motion: reduce) {
+  .card-3d:hover {
+    transform: none !important;
+  }
+  .reveal-decrypt {
+    animation: none !important;
+    letter-spacing: normal !important;
+    filter: none !important;
+    opacity: 1 !important;
+  }
+  .dust-ray-effect::after {
+    animation: none !important;
+  }
+  .holographic-card::after {
+    display: none !important;
+  }
+  .fluid-glow-track::before {
+    display: none !important;
+  }
+  * {
+    animation-delay: 0ms !important;
+    animation-duration: 0ms !important;
+    transition-duration: 0ms !important;
+  }
+}
+
+/* --- TIER 1 Compositor Advancements --- */
+
+/* Feature #97: subgrid grid child allocations */
+.grid-subgrid-parent {
+  display: grid;
+  grid-template-rows: auto auto auto;
+}
+.grid-subgrid-child {
+  grid-row: span 3;
+  display: grid;
+  grid-template-rows: subgrid;
+}
+
+/* Feature #102: parent query mappings via :has() */
+.card-clinical:has(button:focus-visible) {
+  border-color: #10b981 !important;
+  box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.2) !important;
+}
+
+/* Feature #107: form group styling via :focus-within */
+.form-group-custom:focus-within {
+  border-color: #10b981 !important;
+  box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.1) !important;
+}
+
+/* Feature #113: Popover CSS Entry animation using @starting-style */
+/* Feature #109: transition-behavior: allow-discrete for display animations */
+[popover] {
+  opacity: 0;
+  transform: scale(0.95) translateY(5px);
+  transition: opacity 0.25s ease, transform 0.25s ease, display 0.25s allow-discrete;
+  transition-behavior: allow-discrete;
+}
+[popover]:popover-open {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+}
+@starting-style {
+  [popover]:popover-open {
+    opacity: 0;
+    transform: scale(0.95) translateY(5px);
+  }
+}
+
+/* Feature #108: Mobile Tap Target Sizing based on coarse pointer */
+@media (pointer: coarse) {
+  button, a.btn, select, input {
+    min-width: 44px;
+    min-height: 44px;
+  }
+}
+
+/* Feature #115: hover effect gating rule */
+@media (hover: hover) {
+  .card-3d:hover {
+    border-color: rgba(16, 185, 129, 0.4) !important;
+  }
 }

@@ -36,7 +36,7 @@ export const BiologicalAgeEstimator = ({ activeLocation }: { activeLocation?: an
               <span>Chronological Age</span>
               <span className="text-emerald-700 dark:text-emerald-400">{chronologicalAge} Yrs</span>
             </div>
-            <input type="range" min="18" max="85" step="1" value={chronologicalAge} onChange={(e) => setChronologicalAge(Number(e.target.value))} className="w-full accent-emerald-600 h-1 bg-stone-100 dark:bg-emerald-900/40 rounded-lg appearance-none cursor-pointer" />
+            <input type="range" min="18" max="85" step="1" value={chronologicalAge} onChange={(e) => setChronologicalAge(Number(e.target.value))} aria-label="Chronological Age" className="w-full accent-emerald-600 h-1 bg-stone-100 dark:bg-emerald-900/40 rounded-lg appearance-none cursor-pointer" />
           </div>
 
           <div>
@@ -44,7 +44,7 @@ export const BiologicalAgeEstimator = ({ activeLocation }: { activeLocation?: an
               <span>HbA1c (Blood Sugar)</span>
               <span className="text-emerald-700 dark:text-emerald-400">{hba1c}%</span>
             </div>
-            <input type="range" min="4.5" max="9.0" step="0.1" value={hba1c} onChange={(e) => setHba1c(Number(e.target.value))} className="w-full accent-emerald-600 h-1 bg-stone-100 dark:bg-emerald-900/40 rounded-lg appearance-none cursor-pointer" />
+            <input type="range" min="4.5" max="9.0" step="0.1" value={hba1c} onChange={(e) => setHba1c(Number(e.target.value))} aria-label="HbA1c percentage" className="w-full accent-emerald-600 h-1 bg-stone-100 dark:bg-emerald-900/40 rounded-lg appearance-none cursor-pointer" />
           </div>
 
           <div>
@@ -52,7 +52,7 @@ export const BiologicalAgeEstimator = ({ activeLocation }: { activeLocation?: an
               <span>Triglyceride / HDL Ratio</span>
               <span className="text-emerald-700 dark:text-emerald-400">{trigHDL}</span>
             </div>
-            <input type="range" min="0.5" max="6.0" step="0.1" value={trigHDL} onChange={(e) => setTrigHDL(Number(e.target.value))} className="w-full accent-emerald-600 h-1 bg-stone-100 dark:bg-emerald-900/40 rounded-lg appearance-none cursor-pointer" />
+            <input type="range" min="0.5" max="6.0" step="0.1" value={trigHDL} onChange={(e) => setTrigHDL(Number(e.target.value))} aria-label="Triglyceride to HDL ratio" className="w-full accent-emerald-600 h-1 bg-stone-100 dark:bg-emerald-900/40 rounded-lg appearance-none cursor-pointer" />
           </div>
 
           <div>
@@ -60,7 +60,7 @@ export const BiologicalAgeEstimator = ({ activeLocation }: { activeLocation?: an
               <span>Systolic BP (mmHg)</span>
               <span className="text-emerald-700 dark:text-emerald-400">{systolic}</span>
             </div>
-            <input type="range" min="95" max="160" step="1" value={systolic} onChange={(e) => setSystolic(Number(e.target.value))} className="w-full accent-emerald-600 h-1 bg-stone-100 dark:bg-emerald-900/40 rounded-lg appearance-none cursor-pointer" />
+            <input type="range" min="95" max="160" step="1" value={systolic} onChange={(e) => setSystolic(Number(e.target.value))} aria-label="Systolic blood pressure" className="w-full accent-emerald-600 h-1 bg-stone-100 dark:bg-emerald-900/40 rounded-lg appearance-none cursor-pointer" />
           </div>
 
           <div>
@@ -68,7 +68,7 @@ export const BiologicalAgeEstimator = ({ activeLocation }: { activeLocation?: an
               <span>Waist-to-Height Ratio</span>
               <span className="text-emerald-700 dark:text-emerald-400">{waistHeight}</span>
             </div>
-            <input type="range" min="0.40" max="0.70" step="0.01" value={waistHeight} onChange={(e) => setWaistHeight(Number(e.target.value))} className="w-full accent-emerald-600 h-1 bg-stone-100 dark:bg-emerald-900/40 rounded-lg appearance-none cursor-pointer" />
+            <input type="range" min="0.40" max="0.70" step="0.01" value={waistHeight} onChange={(e) => setWaistHeight(Number(e.target.value))} aria-label="Waist-to-height ratio" className="w-full accent-emerald-600 h-1 bg-stone-100 dark:bg-emerald-900/40 rounded-lg appearance-none cursor-pointer" />
           </div>
         </div>
 

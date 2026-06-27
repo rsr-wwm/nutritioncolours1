@@ -38,6 +38,15 @@ export interface TeamMember {
   };
 }
 
+export interface TopicSection {
+  heading: string;
+  body: string;
+  listTitle?: string;
+  listItems?: string[];
+  proTip?: string;
+  intentComment?: string;
+}
+
 export interface Topic {
   id: string;
   title: string;
@@ -55,6 +64,7 @@ export interface Topic {
     reviewedBy: string;
     practitionerId: string;
     lastUpdated: string;
+    signature?: string;
   };
   caseStudy?: {
     title: string;
@@ -64,6 +74,11 @@ export interface Topic {
   };
   faqs?: FAQ[];
   aeoDirectSnippet?: string;
+  aiSummaryBlock?: {
+    tldr: string;
+    tags: string[];
+  };
+  expandedSections?: TopicSection[];
 }
 
 export interface Testimonial {
@@ -234,6 +249,7 @@ export interface HerbalEntity {
     reviewedBy: string;
     practitionerId: string;
     lastUpdated: string;
+    signature?: string;
   };
   aeoDirectSnippet?: string;
 }
@@ -256,8 +272,12 @@ export interface MedicalConditionEntity {
     reviewedBy: string;
     practitionerId: string;
     lastUpdated: string;
+    signature?: string;
   };
   aeoDirectSnippet?: string;
+  meshCode?: string;
+  snomedCode?: string;
+  icd10Code?: string;
 }
 
 // --- Genomics & Polymorphisms ---

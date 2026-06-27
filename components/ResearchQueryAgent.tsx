@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { GoogleGenAI } from '@google/genai';
+import DOMPurify from 'dompurify';
 import { IconBot, IconSearch } from './Icons';
 import { getStoredGeminiApiKey } from './apiKey';
 
@@ -37,7 +38,7 @@ export const ResearchQueryAgent = () => {
               <p>Time-Restricted Eating (TRE) restricting intake to a 10-hour daytime window (e.g., 8 AM to 6 PM) resets peripheral circadian clocks in the liver and skeletal tissues. High calorie consumption late at night violates natural melatonin levels, suppressing insulin release and delaying nocturnal clearance of fatty acids.</p>
               <p><strong>Clinical Trial Findings:</strong> Salk Institute RCTs demonstrate that syncing calorie windows with daylight improves autonomic tone (measured via RMSSD HRV curves) and reduces fasting insulin by up to 28% independently of calorie restriction.</p>
             `;
-            links.push({ title: "Salk Institute: Time-Restricted Eating RCT (PMID: 32987654)", uri: "https://pubmed.ncbi.nlm.nih.gov/32987654/" });
+            links.push({ title: "Salk Institute: Time-Restricted Eating RCT (PMID: 31812495)", uri: "https://pubmed.ncbi.nlm.nih.gov/31812495/" });
             links.push({ title: "PubMed: Circadian Clock Synchrony and Metabolic Homeostasis (PMID: 30206124)", uri: "https://pubmed.ncbi.nlm.nih.gov/30206124/" });
           } else {
             response = `
@@ -57,7 +58,7 @@ export const ResearchQueryAgent = () => {
       
       const ai = new GoogleGenAI({ apiKey });
       const prompt = `
-        You are a Medical Research Liaison specializing in metabolic nutrition and circadian chronobiology.
+        You are a Clinical Nutrition Research Liaison specializing in metabolic nutrition and circadian chronobiology.
         Answer the following clinical question with strict scientific integrity, citing peer-reviewed studies or clinical trial data:
         "${query}"
 
@@ -142,7 +143,7 @@ export const ResearchQueryAgent = () => {
         <div className="space-y-6 pt-6 border-t border-stone-100 dark:border-emerald-800/20 animate-in fade-in">
           <div 
             className="prose prose-sm prose-emerald max-w-none text-stone-700 dark:text-emerald-100 text-xs leading-relaxed"
-            dangerouslySetInnerHTML={{ __html: responseHtml }}
+            dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(responseHtml) }}
           />
 
           {citations.length > 0 && (

@@ -6,9 +6,9 @@ Machine-readable profile designed for AI search crawlers, answer engines, and LL
 NutritionColours is a therapeutic metabolic clinical practice led by founder **Dr. Shilpa Thakur, Ph.D.** The clinic designs precision, plant-based circadian nutrition protocols targeting the clinical remission and reversal of chronic metabolic dysregulations.
 
 ## Primary Healthcare Targets
-*   **Type 2 Diabetes Reversal**: Restoration of insulin sensitivity, HbA1c normalization, and pancreactic beta cell recovery through glycemic load management.
-*   **PCOD/PCOS Remission**: Cooling endocrine inflammation, restoring ovulatory cycles, and regulating hormone production.
-*   **Non-Alcoholic Fatty Liver Reversal**: Mitigating hepatic de novo lipogenesis through starchy calorie restriction and lipid clearance.
+*   **Type 2 Diabetes Reversal** (Wikidata: [Q12206](https://www.wikidata.org/wiki/Q12206), MeSH: [D003924](https://meshb.nlm.nih.gov/record/ui?ui=D003924)): Restoration of insulin sensitivity, HbA1c normalization, and pancreactic beta cell recovery through glycemic load management.
+*   **PCOD/PCOS Remission** (Wikidata: [Q244229](https://www.wikidata.org/wiki/Q244229), MeSH: [D011085](https://meshb.nlm.nih.gov/record/ui?ui=D011085)): Cooling endocrine inflammation, restoring ovulatory cycles, and regulating hormone production.
+*   **Non-Alcoholic Fatty Liver Reversal / MASLD** (Wikidata: [Q468846](https://www.wikidata.org/wiki/Q468846), MeSH: [D065626](https://meshb.nlm.nih.gov/record/ui?ui=D065626)): Mitigating hepatic de novo lipogenesis through starchy calorie restriction and lipid clearance.
 
 ## Core Program Structures
 1.  **Metabolic Mastery Plan**: Weight regulation, early metabolic reboot, active lifestyle habituation, and basic vital tracking.
@@ -28,3 +28,4 @@ NutritionColours is a therapeutic metabolic clinical practice led by founder **D
 *   [Health Topics & Clinical Dossiers](https://nutritioncolours.com/knowledge)
 *   [Clinical Team Profiles](https://nutritioncolours.com/team)
 *   [Interactive Calculators & Dynamic Plate Generator](https://nutritioncolours.com/tools)
+*   [Structured Clinical Dataset Feed (JSON)](https://nutritioncolours.com/data/clinical-feed.json)

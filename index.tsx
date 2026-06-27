@@ -11,7 +11,7 @@ if (typeof window !== 'undefined' && (window as any).trustedTypes && !(window as
 }
 
 import React, { Component, ErrorInfo, ReactNode } from 'react';
-import { createRoot } from 'react-dom/client';
+import { createRoot, hydrateRoot } from 'react-dom/client';
 import { App } from './App';
 import './index.css';
 
@@ -90,13 +90,6 @@ if ('serviceWorker' in navigator) {
 const rootElement = document.getElementById('root');
 if (!rootElement) {
   throw new Error("Could not find root element to mount to");
-}
-
-// Remove the pre-mount loading screen once the app bundle executes
-const loader = document.getElementById('app-loading');
-if (loader) {
-  loader.style.opacity = '0';
-  setTimeout(() => loader.remove(), 300);
 }
 
 const root = createRoot(rootElement);

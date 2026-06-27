@@ -27,10 +27,7 @@ function extractIdsFromVar(content, varName) {
 function slugify(text) {
   return text.toLowerCase()
     .replace(/&/g, 'and')
-    .replace(/\s+/g, '-')
-    .replace(/\//g, '-')
-    .replace(/[().',]/g, '')
-    .replace(/-+/g, '-')
+    .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '');
 }
 
@@ -119,7 +116,7 @@ function startPreviewServer() {
 
     previewProcess.stdout.on('data', (data) => {
       const output = data.toString();
-      const match = output.match(/http:\/\/localhost:\d+/);
+      const match = output.match(/http:\/\/(?:localhost|127\.0\.0\.1):\d+/);
       if (match) {
         baseUrl = match[0];
         console.log(`Server detected at ${baseUrl}`);
@@ -164,6 +161,15 @@ async function prerender() {
   async function worker(workerId) {
     const page = await browser.newPage();
     await page.setViewport({ width: 1280, height: 800 });
+    await page.setRequestInterception(true);
+    page.on('request', (req) => {
+      const url = req.url();
+      if (url.startsWith('http://localhost') || url.startsWith('http://127.0.0.1')) {
+        req.continue();
+      } else {
+        req.abort();
+      }
+    });
 
     while (index < routes.length) {
       const route = routes[index++];
@@ -173,7 +179,7 @@ async function prerender() {
       console.log(`[Worker ${workerId}] Prerendering (${index}/${routes.length}): ${url}`);
 
       try {
-        await page.goto(url, { waitUntil: 'networkidle0', timeout: 15000 });
+        await page.goto(url, { waitUntil: 'networkidle2', timeout: 35000 });
         // Extra sleep to ensure any client-side transitions or font loading complete
         await new Promise(r => setTimeout(r, 600));
 

@@ -25,8 +25,9 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
     primaryKeyword: 'Turmeric clinical benefits',
     clinicalReview: {
       reviewedBy: 'Dr. Shilpa Thakur',
-      practitionerId: 'NUTR-001',
-      lastUpdated: 'May 28, 2026'
+      practitionerId: 'NUTR-SHILPA-001',
+      lastUpdated: 'May 28, 2026',
+      signature: '5ce299544a6a05e16f22f0aa3176d0edecba9722fcf77ea5a1571f96fcccca32'
     }
   },
   {
@@ -52,8 +53,9 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
     primaryKeyword: 'Ashwagandha dosage cortisol',
     clinicalReview: {
       reviewedBy: 'Dr. Shilpa Thakur',
-      practitionerId: 'NUTR-001',
-      lastUpdated: 'May 28, 2026'
+      practitionerId: 'NUTR-SHILPA-001',
+      lastUpdated: 'May 28, 2026',
+      signature: '79847fad0a293e9d934b29c942403603580b14a67e536f9666dc215b4aa1779e'
     }
   },
   {
@@ -79,8 +81,9 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
     primaryKeyword: 'Ceylon Cinnamon insulin resistance',
     clinicalReview: {
       reviewedBy: 'Dr. Shilpa Thakur',
-      practitionerId: 'NUTR-001',
-      lastUpdated: 'May 28, 2026'
+      practitionerId: 'NUTR-SHILPA-001',
+      lastUpdated: 'May 28, 2026',
+      signature: '82adaa5d8d14627e4c2fd4670460d434b3ff1b2dca0145c2a62b91b91da99b1e'
     }
   },
   {
@@ -106,8 +109,9 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
     primaryKeyword: 'Ginger gastric emptying dosage',
     clinicalReview: {
       reviewedBy: 'Dr. Shilpa Thakur',
-      practitionerId: 'NUTR-001',
-      lastUpdated: 'May 28, 2026'
+      practitionerId: 'NUTR-SHILPA-001',
+      lastUpdated: 'May 28, 2026',
+      signature: 'c298d0fb359c87226283b71d638baf0988315fd5e95a62b98e2c800a22b0cd92'
     }
   },
   {
@@ -133,8 +137,9 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
     primaryKeyword: 'Ragi millet health benefits',
     clinicalReview: {
       reviewedBy: 'Dr. Shilpa Thakur',
-      practitionerId: 'NUTR-001',
-      lastUpdated: 'May 28, 2026'
+      practitionerId: 'NUTR-SHILPA-001',
+      lastUpdated: 'May 28, 2026',
+      signature: 'a1a841a08604dda8bc98095f834232b1adbbc191a5d31a169198928ca77ffc11'
     }
   },
   {
@@ -160,8 +165,9 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
     primaryKeyword: 'Spirulina phycocyanin dosage',
     clinicalReview: {
       reviewedBy: 'Dr. Shilpa Thakur',
-      practitionerId: 'NUTR-001',
-      lastUpdated: 'May 28, 2026'
+      practitionerId: 'NUTR-SHILPA-001',
+      lastUpdated: 'May 28, 2026',
+      signature: '455fc99449498901db1bdc6f680d98391737e65bf9eb3d2dcb4cfb6b65384fd5'
     }
   },
   {
@@ -187,8 +193,9 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
     primaryKeyword: 'Fenugreek seeds diabetes',
     clinicalReview: {
       reviewedBy: 'Dr. Shilpa Thakur',
-      practitionerId: 'NUTR-001',
-      lastUpdated: 'May 28, 2026'
+      practitionerId: 'NUTR-SHILPA-001',
+      lastUpdated: 'May 28, 2026',
+      signature: '0c13422a0b037b4f1eef7edf25bd85bb293f4f2c0e791384527c1e530483201f'
     }
   },
   {
@@ -214,8 +221,9 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
     primaryKeyword: 'Holy Basil Tulsi benefits',
     clinicalReview: {
       reviewedBy: 'Dr. Shilpa Thakur',
-      practitionerId: 'NUTR-001',
-      lastUpdated: 'May 28, 2026'
+      practitionerId: 'NUTR-SHILPA-001',
+      lastUpdated: 'May 28, 2026',
+      signature: '3866a87cb5ea54ad9bd426c01d2e160b1912e640126836563e6cdc06a21c66c2'
     }
   },
   {
@@ -233,7 +241,7 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
       { question: "Does garlic reduce blood pressure?", answer: "Yes, by increasing nitric oxide production, garlic promotes blood vessel relaxation, reducing vascular resistance.", category: "Cardiovascular" }
     ],
     citations: [
-      { text: "Garlic for Cardiovascular Health: A Clinical Review (PMID: 32300792)", url: "https://pubmed.ncbi.nlm.nih.gov/32300792/" }
+      { text: "Effect of garlic on blood pressure: a meta-analysis (PMID: 25557383)", url: "https://pubmed.ncbi.nlm.nih.gov/25557383/" }
     ],
     image: 'https://images.unsplash.com/photo-1596040033229-a9821ebd058d?q=80&w=800',
     pageTitle: 'Garlic Clinical Cardiovascular Guide – Allicin & Blood Pressure',
@@ -241,8 +249,9 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
     primaryKeyword: 'Garlic allicin blood pressure',
     clinicalReview: {
       reviewedBy: 'Dr. Shilpa Thakur',
-      practitionerId: 'NUTR-001',
-      lastUpdated: 'May 28, 2026'
+      practitionerId: 'NUTR-SHILPA-001',
+      lastUpdated: 'May 28, 2026',
+      signature: 'bd00713257f5f0f10a393453b89ff7f7a0b336427e3dbefa079df654085cb339'
     }
   }
 ];
@@ -269,9 +278,13 @@ export const MEDICAL_CONDITIONS_DATA: MedicalConditionEntity[] = [
     primaryKeyword: 'reverse MASLD fatty liver',
     clinicalReview: {
       reviewedBy: 'Dr. Shilpa Thakur',
-      practitionerId: 'NUTR-001',
-      lastUpdated: 'May 28, 2026'
-    }
+      practitionerId: 'NUTR-SHILPA-001',
+      lastUpdated: 'May 28, 2026',
+      signature: '36fe221fffcc166b819753f4c847ba94a44cb9cee1627c25acca09ff98ccf56d'
+    },
+    meshCode: 'D005234',
+    snomedCode: '268023004',
+    icd10Code: 'K76.0'
   },
   {
     id: 'insulin-resistance',
@@ -286,7 +299,7 @@ export const MEDICAL_CONDITIONS_DATA: MedicalConditionEntity[] = [
       { question: "How does meal sequencing reduce glucose spikes?", answer: "Eating vegetables (fiber) and protein first slows down stomach emptying and glucose absorption, requiring less insulin release.", category: "Sequencing" }
     ],
     citations: [
-      { text: "Insulin Resistance Mechanisms and Circadian Synchronization (PMID: 32987654)", url: "https://pubmed.ncbi.nlm.nih.gov/32987654/" }
+      { text: "Circadian clocks and insulin resistance (PMID: 30765876)", url: "https://pubmed.ncbi.nlm.nih.gov/30765876/" }
     ],
     image: 'https://images.unsplash.com/photo-1498837167922-ddd27525d352?q=80&w=800',
     pageTitle: 'Reverse Insulin Resistance – Clinical Nutrition & Circadian Rhythm',
@@ -294,9 +307,13 @@ export const MEDICAL_CONDITIONS_DATA: MedicalConditionEntity[] = [
     primaryKeyword: 'reverse insulin resistance naturally',
     clinicalReview: {
       reviewedBy: 'Dr. Shilpa Thakur',
-      practitionerId: 'NUTR-001',
-      lastUpdated: 'May 28, 2026'
-    }
+      practitionerId: 'NUTR-SHILPA-001',
+      lastUpdated: 'May 28, 2026',
+      signature: '31d1baa5cce356e492e91315c50a46aa95edf43e5a12f2e211c57724ec65a2be'
+    },
+    meshCode: 'D007333',
+    snomedCode: '25287000',
+    icd10Code: 'E88.81'
   },
   {
     id: 'circadian-dysregulation',
@@ -312,7 +329,7 @@ export const MEDICAL_CONDITIONS_DATA: MedicalConditionEntity[] = [
     ],
     citations: [
       { text: "Circadian Clocks and Metabolic Homeostasis (PMID: 30206124)", url: "https://pubmed.ncbi.nlm.nih.gov/30206124/" },
-      { text: "Time-Restricted Eating for Metabolic Health (PMID: 32987654)", url: "https://pubmed.ncbi.nlm.nih.gov/32987654/" }
+      { text: "Ten-Hour Time-Restricted Eating Reduces Weight, Blood Pressure, and Atherogenic Lipids in Patients with Metabolic Syndrome (PMID: 31812495)", url: "https://pubmed.ncbi.nlm.nih.gov/31812495/" }
     ],
     image: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=800',
     pageTitle: 'Circadian Rhythm & Metabolic Reversal – Chrononutrition Protocol',
@@ -320,9 +337,13 @@ export const MEDICAL_CONDITIONS_DATA: MedicalConditionEntity[] = [
     primaryKeyword: 'circadian rhythm chrononutrition',
     clinicalReview: {
       reviewedBy: 'Dr. Shilpa Thakur',
-      practitionerId: 'NUTR-001',
-      lastUpdated: 'May 28, 2026'
-    }
+      practitionerId: 'NUTR-SHILPA-001',
+      lastUpdated: 'May 28, 2026',
+      signature: '08eb4fc29bc90a7558d7af21b0b6701284243daaf8e9523922688391a8986fa9'
+    },
+    meshCode: 'D002940',
+    snomedCode: '398944009',
+    icd10Code: 'G47.20'
   },
   {
     id: 'diabetes-reversal',
@@ -346,9 +367,13 @@ export const MEDICAL_CONDITIONS_DATA: MedicalConditionEntity[] = [
     primaryKeyword: 'reverse type 2 diabetes naturally',
     clinicalReview: {
       reviewedBy: 'Dr. Shilpa Thakur',
-      practitionerId: 'NUTR-001',
-      lastUpdated: 'May 28, 2026'
-    }
+      practitionerId: 'NUTR-SHILPA-001',
+      lastUpdated: 'May 28, 2026',
+      signature: '033720caa60fda870b61a431220e5dae8f7a7e18ce3bee33e0f38993c5347b6a'
+    },
+    meshCode: 'D003924',
+    snomedCode: '44054006',
+    icd10Code: 'E11.9'
   },
   {
     id: 'pcod-pcos',
@@ -363,7 +388,7 @@ export const MEDICAL_CONDITIONS_DATA: MedicalConditionEntity[] = [
       { question: "Why is spearmint tea recommended for PCOS?", answer: "Spearmint tea has documented clinical anti-androgenic properties, helping reduce hirsutism and restore natural ovulation cycles.", category: "Herbal Care" }
     ],
     citations: [
-      { text: "Role of Insulin Sensitizers in PCOS Therapy (PMID: 32300792)", url: "https://pubmed.ncbi.nlm.nih.gov/32300792/" },
+      { text: "Effects of different insulin sensitisers in the management of PCOS (PMID: 37933831)", url: "https://pubmed.ncbi.nlm.nih.gov/37933831/" },
       { text: "Dietary Modifications in Polycystic Ovary Syndrome (PMID: 33024519)", url: "https://pubmed.ncbi.nlm.nih.gov/33024519/" }
     ],
     image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=800',
@@ -372,9 +397,13 @@ export const MEDICAL_CONDITIONS_DATA: MedicalConditionEntity[] = [
     primaryKeyword: 'reverse pcos naturally insulin',
     clinicalReview: {
       reviewedBy: 'Dr. Shilpa Thakur',
-      practitionerId: 'NUTR-001',
-      lastUpdated: 'May 28, 2026'
-    }
+      practitionerId: 'NUTR-SHILPA-001',
+      lastUpdated: 'May 28, 2026',
+      signature: '87217379d6378b102f4d39982c21c388cbf6faa628163e9c28f2921c099191fb'
+    },
+    meshCode: 'D011085',
+    snomedCode: '237055002',
+    icd10Code: 'E28.2'
   },
   {
     id: 'thyroid-dysfunction',
@@ -398,9 +427,13 @@ export const MEDICAL_CONDITIONS_DATA: MedicalConditionEntity[] = [
     primaryKeyword: 'hypothyroidism diet thyroid antibodies',
     clinicalReview: {
       reviewedBy: 'Dr. Shilpa Thakur',
-      practitionerId: 'NUTR-001',
-      lastUpdated: 'May 28, 2026'
-    }
+      practitionerId: 'NUTR-SHILPA-001',
+      lastUpdated: 'May 28, 2026',
+      signature: '46abba5540d58519f8075d972892b454dd51964d5f1a0aec18793e09e1f029de'
+    },
+    meshCode: 'D007037',
+    snomedCode: '40930008',
+    icd10Code: 'E03.9'
   },
   {
     id: 'gut-health',
@@ -424,9 +457,13 @@ export const MEDICAL_CONDITIONS_DATA: MedicalConditionEntity[] = [
     primaryKeyword: 'gut health microbiome restoration',
     clinicalReview: {
       reviewedBy: 'Dr. Shilpa Thakur',
-      practitionerId: 'NUTR-001',
-      lastUpdated: 'May 28, 2026'
-    }
+      practitionerId: 'NUTR-SHILPA-001',
+      lastUpdated: 'May 28, 2026',
+      signature: 'f63bb7cc3e37ca323b4d7e3c1a7466be37ba8fdc6841505824c483d9f4b0b826'
+    },
+    meshCode: 'D064368',
+    snomedCode: '708241004',
+    icd10Code: 'K63.89'
   },
   {
     id: 'hypertension',
@@ -441,7 +478,7 @@ export const MEDICAL_CONDITIONS_DATA: MedicalConditionEntity[] = [
       { question: "Does garlic act like a natural BP medication?", answer: "Yes, by increasing nitric oxide production, garlic promotes blood vessel relaxation, relaxing smooth muscle tissues in blood vessel walls.", category: "Therapies" }
     ],
     citations: [
-      { text: "Garlic for Cardiovascular Health: A Clinical Review (PMID: 32300792)", url: "https://pubmed.ncbi.nlm.nih.gov/32300792/" }
+      { text: "Effect of garlic on blood pressure: a meta-analysis (PMID: 25557383)", url: "https://pubmed.ncbi.nlm.nih.gov/25557383/" }
     ],
     image: 'https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=800',
     pageTitle: 'Reverse Hypertension Naturally – Clinical Nitric Oxide Protocols',
@@ -449,9 +486,13 @@ export const MEDICAL_CONDITIONS_DATA: MedicalConditionEntity[] = [
     primaryKeyword: 'reverse hypertension naturally',
     clinicalReview: {
       reviewedBy: 'Dr. Shilpa Thakur',
-      practitionerId: 'NUTR-001',
-      lastUpdated: 'May 28, 2026'
-    }
+      practitionerId: 'NUTR-SHILPA-001',
+      lastUpdated: 'May 28, 2026',
+      signature: '06d968692a4830f76d3ff26aca1a91e3324d8a81b430969f4350b81036a0a08f'
+    },
+    meshCode: 'D006973',
+    snomedCode: '38341003',
+    icd10Code: 'I10'
   }
 ];
 

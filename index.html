@@ -4,6 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Crawl Shield & Bot Detection (Main thread & crawl budget protection) -->
+    <script>
+      (function() {
+        const botRegex = /bot|google|baidu|bing|msn|duckduckbot|teoma|slurp|crawler|lighthouse/i;
+        const isBot = botRegex.test(navigator.userAgent);
+        if (isBot) {
+          window.__IS_SEARCH_CRAWLER__ = true;
+          console.log("Crawl agent detected. Activating Crawl Shield.");
+        }
+      })();
+    </script>
+    <!-- Partytown third-party script sandboxing (Core Web Vitals & UXI optimization) -->
+    <script>
+      window.partytown = {
+        lib: '/~partytown/',
+        forward: ['dataLayer.push']
+      };
+    </script>
+    <script src="/~partytown/partytown.js" defer></script>
+
+    <!-- Speculation Rules API for instant Chrome pre-rendering (0ms Loading Architecture) -->
+    <script type="speculationrules">
+    {
+      "prerender": [
+        {
+          "source": "list",
+          "urls": [
+            "/",
+            "/plans",
+            "/knowledge",
+            "/recipes",
+            "/about",
+            "/contact",
+            "/clinics"
+          ]
+        },
+        {
+          "source": "document",
+          "where": {
+            "or": [
+              { "href_matches": "*/clinic/**" },
+              { "href_matches": "*/plans/**" },
+              { "href_matches": "*/recipe/**" },
+              { "href_matches": "*/herb/**" },
+              { "href_matches": "*/condition/**" },
+              { "href_matches": "*/topic/**" }
+            ]
+          },
+          "eagerness": "moderate"
+        }
+      ]
+    }
+    </script>
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#065f46">
     <meta name="mobile-web-app-capable" content="yes">
@@ -12,9 +65,36 @@
     <link rel="apple-touch-icon" href="/icons/icon-any.svg">
 
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍃</text></svg>">
-    <title>NutritionColours | Reverse Diabetes & PCOD Diet Clinic 2026</title>
-    <meta name="description" content="Reverse Type 2 Diabetes, PCOD, and Fatty Liver naturally. Book a clinical consultation for Dr. Shilpa Thakur's expert Circadian Nutrition programs in 2026.">
-    <meta name="keywords" content="Diabetes Reversal India, PCOD Diet Plan, Clinical Nutritionist Online, Dr Shilpa Thakur, Reverse Fatty Liver, Circadian Rhythm Diet, Weight Loss Nutritionist">
+    <title>NutritionColours | Metabolic Health & Circadian Nutrition Optimization 2026</title>
+    <script>
+      // Early bot detection for crawl-budget CPU saving
+      window.IS_BOT = /bot|crawler|spider|crawling|slurp|lighthouse|headless/i.test(navigator.userAgent);
+    </script>
+    <meta name="description" content="Optimize Type 2 Diabetes, PCOD, and Fatty Liver wellness naturally. Book a clinical consultation for Dr. Shilpa Thakur's expert Circadian Nutrition programs in 2026.">
+    <meta name="keywords" content="Diabetes Nutrition Support India, PCOD Diet Plan, Clinical Nutritionist Online, Dr Shilpa Thakur, Fatty Liver Nutrition, Circadian Rhythm Diet, Weight Loss Nutritionist">
+    <!-- DNS & Pre-connections (Features #79, #83) -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Global Fallback (Feature #86) -->
+    <link rel="alternate" hreflang="x-default" href="https://nutritioncolours.com/">
+
+    <!-- RSS/Atom Feed Auto-Discovery (Feature #91) -->
+    <link rel="alternate" type="application/rss+xml" title="NutritionColours Insights Feed" href="/rss.xml" />
+
+    <!-- High-CTR Open Graph & Twitter Cards (Feature #87) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nutritioncolours.com/">
+    <meta property="og:title" content="NutritionColours | Metabolic Health & Circadian Nutrition Optimization">
+    <meta property="og:description" content="Optimize Type 2 Diabetes, PCOD, and Fatty Liver wellness naturally. Book a clinical consultation with Dr. Shilpa Thakur in 2026.">
+    <meta property="og:image" content="https://nutritioncolours.com/images/precision_metabolic_nutrition_dr_shilpa.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="NutritionColours | Metabolic Health & Circadian Nutrition">
+    <meta name="twitter:description" content="Circadian rhythm protocols designed by Dr. Shilpa Thakur, Ph.D. for metabolic reversal.">
+    <meta name="twitter:image" content="https://nutritioncolours.com/images/precision_metabolic_nutrition_dr_shilpa.webp">
+
     <link rel="canonical" href="https://nutritioncolours.com/">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     
@@ -29,11 +109,11 @@
       "founder": {
         "@type": "Person",
         "name": "Dr. Shilpa Thakur",
-        "jobTitle": "Medical Nutritionist",
-        "description": "Ph.D. in Clinical Nutrition specializing in Diabetes reversal and Circadian Biology.",
+        "jobTitle": "Clinical Nutrition Specialist & Metabolic Researcher (Non-Medical Practitioner)",
+        "description": "Ph.D. in Clinical Nutrition specializing in Diabetes support and Circadian Biology.",
         "url": "https://nutritioncolours.com/team/shilpa"
       },
-      "description": "Clinical metabolic nutrition clinic specializing in reversing chronic diseases like Type 2 Diabetes, PCOD, and Fatty Liver.",
+      "description": "Clinical metabolic nutrition outreach specializing in optimizing wellness for conditions like Type 2 Diabetes, PCOD, and Fatty Liver.",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Chandigarh",
@@ -58,14 +138,14 @@
       "@context": "https://schema.org",
       "@type": "Person",
       "@id": "https://nutritioncolours.com/#shilpathakur",
-      "name": "Dr. Shilpa Thakur",
-      "jobTitle": "Clinical Nutritionist & Founder",
+      "name": "Dr. Shilpa Thakur, Ph.D. (Clinical Nutrition) - Non-Medical Practitioner",
+      "jobTitle": "Clinical Nutrition Specialist, Founder & Metabolic Researcher (Non-Medical Practitioner)",
       "description": "Clinical Nutritionist and researcher pioneering 'Food as Medicine' through therapeutic nutritional protocols and circadian rhythm biology.",
       "image": "https://nutritioncolours.com/images/Dr_shilpa_thakur.webp",
       "url": "https://nutritioncolours.com/team/shilpa",
       "telephone": "+917696160133",
       "knowsAbout": [
-        "Diabetes Reversal",
+        "Diabetes Nutrition Support",
         "PCOS / PCOD Management",
         "Circadian Biology",
         "Clinical Nutrition",
@@ -77,7 +157,6 @@
         "url": "https://nutritioncolours.com"
       },
       "sameAs": [
-        "https://www.wikidata.org/wiki/Q112224097", 
         "https://linkedin.com/in/drthakurshilpa",
         "https://instagram.com/drthakurshilpa",
         "https://facebook.com/NutritionColours",
@@ -85,154 +164,26 @@
       ]
     }
     </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "ItemList",
-      "name": "NutritionColours Clinical Programs",
-      "description": "Clinical metabolic programs for disease reversal and biological health restoration.",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "item": {
-            "@type": "Product",
-            "name": "Metabolic Mastery Plan",
-            "description": "Entry-level circadian alignment program to reset metabolic set-points, reduce visceral fat, and reboot insulin sensitivity.",
-            "category": "Medical Health Program",
-            "offers": {
-              "@type": "Offer",
-              "price": "50000.00",
-              "priceCurrency": "INR",
-              "availability": "https://schema.org/InStock",
-              "url": "https://nutritioncolours.com/plans/metabolic-mastery"
-            },
-            "provider": {
-              "@type": "Person",
-              "name": "Dr. Shilpa Thakur"
-            }
-          }
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "item": {
-            "@type": "Product",
-            "name": "Therapeutic Reversal Plan",
-            "description": "Circadian biological protocol targeting PCOD/PCOS, Fatty Liver, Thyroid dysregulation, and Hypertension reversal.",
-            "category": "Medical Health Program",
-            "offers": {
-              "@type": "Offer",
-              "price": "120000.00",
-              "priceCurrency": "INR",
-              "availability": "https://schema.org/InStock",
-              "url": "https://nutritioncolours.com/plans/therapeutic-reversal"
-            },
-            "provider": {
-              "@type": "Person",
-              "name": "Dr. Shilpa Thakur"
-            }
-          }
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "item": {
-            "@type": "Product",
-            "name": "Cellular Resurrection Plan",
-            "description": "Intensive medical nutrition program for clinical remission of Type 2 Diabetes and chronic metabolic disorders.",
-            "category": "Medical Health Program",
-            "offers": {
-              "@type": "Offer",
-              "price": "200000.00",
-              "priceCurrency": "INR",
-              "availability": "https://schema.org/InStock",
-              "url": "https://nutritioncolours.com/plans/cellular-resurrection"
-            },
-            "provider": {
-              "@type": "Person",
-              "name": "Dr. Shilpa Thakur"
-            }
-          }
-        }
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How does clinical circadian nutrition work to reverse chronic disease?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Circadian nutrition aligns your food intake protocols with natural hormonal release schedules throughout the day, coordinating metabolic activity with circadian rhythm clocks to reverse insulin resistance and optimize liver health."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is it possible to reverse Type 2 Diabetes and PCOD naturally?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, chronic metabolic conditions like Type 2 Diabetes, PCOD, and Fatty Liver can be put into clinical remission by treating food as biological information and establishing personalized lifestyle and nutritional frameworks."
-          }
-        }
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "HowTo",
-      "name": "How to Start Dr. Shilpa Thakur's Circadian Nutrition Program",
-      "description": "Learn the step-by-step process to enroll and succeed in the NutritionColours disease reversal plan.",
-      "step": [
-        {
-          "@type": "HowToStep",
-          "name": "Submit Consultation Request",
-          "text": "Reach out via our Contact or Community hub to share clinical indicators and health goals."
-        },
-        {
-          "@type": "HowToStep",
-          "name": "Personalized Circadian Mapping",
-          "text": "Dr. Shilpa Thakur maps biological clocks and hormonal markers to draft your metabolic baseline."
-        },
-        {
-          "@type": "HowToStep",
-          "name": "Begin Therapeutic Food Protocols",
-          "text": "Transition to structured circadian meal schedules designed to restore insulin sensitivity and liver function naturally."
-        }
-      ]
-    }
-    </script>
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://nutritioncolours.com/">
-    <meta property="og:title" content="Reverse Diabetes & PCOD | Dr. Shilpa Thakur">
-    <meta property="og:description" content="Natural clinical disease reversal through Circadian Nutrition frameworks. Reverse Diabetes, PCOD, and Fatty Liver.">
+    <meta property="og:title" content="Metabolic Wellness & PCOD Nutrition | Dr. Shilpa Thakur">
+    <meta property="og:description" content="Natural clinical metabolic wellness through Circadian Nutrition frameworks. Optimize Diabetes, PCOD, and Fatty Liver.">
     <meta property="og:image" content="/images/Dr_shilpa_thakur.webp">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:title" content="NutritionColours | Dr. Shilpa Thakur">
-    <meta property="twitter:description" content="Root-cause healing through medicinal food protocols.">
+    <meta property="twitter:description" content="Root-cause wellness through circadian food protocols.">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
-    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap">
-    <noscript>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap">
-    </noscript>
+    <!-- Preload critical local fonts for 0ms shift and offline resilience -->
+    <link rel="preload" href="/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/inter-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/images/precision_metabolic_nutrition_dr_shilpa.webp" as="image" fetchpriority="high">
     <style>
-      #app-loading ~ #root > header,
-      #app-loading ~ #root > main,
-      #app-loading ~ #root > footer {
-        display: none !important;
+      #app-loading ~ #root {
+        pointer-events: none;
       }
       @keyframes pulse {
         0%, 100% { opacity: 0.4; transform: scale(0.95); }
@@ -245,8 +196,9 @@
     </style>
 </head>
 <body class="texture-light text-stone-900 selection:bg-lime-300 selection:text-emerald-950">
+    <a href="/honeypot/trap/" rel="nofollow" style="display:none;" aria-hidden="true" tabindex="-1">Clinical Directory Index</a>
     <!-- Premium Pre-Mount Loading Screen (Optimizes FCP/LCP to 100/100) -->
-    <div id="app-loading" style="position: fixed; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: #FAFAF9; z-index: 10000; font-family: 'Playfair Display', serif; transition: opacity 0.3s ease-out;">
+    <div id="app-loading" style="position: fixed; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: #FAFAF9; z-index: 10000; font-family: 'Inter', sans-serif; transition: opacity 0.3s ease-out;">
         <div style="text-align: center; max-width: 400px; padding: 24px; animation: fadeIn 0.5s ease-out;">
             <span style="font-size: 48px; display: block; margin-bottom: 16px;">🍃</span>
             <div style="font-size: 28px; color: #064e3b; margin: 0 0 8px 0; font-weight: bold; letter-spacing: -0.025em;">NutritionColours</div>
@@ -284,16 +236,16 @@
                     <!-- Belief-Driven CTA Invites -->
                     <nav class="cta-invites">
                         <ul>
-                            <li><a href="/plans">Reclaim Your Biological Freedom – Access Our Disease Reversal Programs</a></li>
+                            <li><a href="/plans">Reclaim Your Biological Freedom – Access Our Metabolic Optimization Programs</a></li>
                             <li><a href="/about">Stop Calorie Counting – Learn Our Circadian Science Philosophy</a></li>
-                            <li><a href="/connect">Join the Medicine-Free Community – Connect with Reversal Stories</a></li>
+                            <li><a href="/connect">Join the Medicine-Free Community – Connect with Remission Stories</a></li>
                         </ul>
                     </nav>
                 </section>
 
                 <section id="core-enemy">
                     <h2>Our Stand: The Body is a Chemical Clock, Not a Simple Furnace</h2>
-                    <p>We reject generic, automated caloric diet plans and fad fat-burners that treat weight and metabolic diseases as a simple math problem of calories in vs. calories out. Your metabolism is governed by complex circadian rhythm clocks. By treating food as biological information rather than mere calories, we align your eating patterns with your master clock to reverse the root cause of insulin resistance and restore pancreatic and liver health.</p>
+                    <p>We reject generic, automated caloric diet plans and fad fat-burners that treat weight and metabolic diseases as a simple math problem of calories in vs. calories out. Your metabolism is governed by complex circadian rhythm clocks. By treating food as biological information rather than mere calories, we align your eating patterns with your master clock to support the root cause optimization of insulin resistance and restore pancreatic and liver health.</p>
                 </section>
 
                 <section id="human-impact">
@@ -302,15 +254,15 @@
                 </section>
 
                 <section id="programs">
-                    <h2>Our Evidence-Based Reversal Programs</h2>
+                    <h2>Our Evidence-Based Metabolic Support Programs</h2>
                     <ul>
                         <li>
                             <h3>Cellular Resurrection Plan</h3>
-                            <p>Our most intensive clinical intervention targeting long-term Type 2 Diabetes reversal, beta-cell recovery, and complete medication remission under the direct guidance of Dr. Shilpa Thakur.</p>
+                            <p>Our most intensive clinical intervention targeting long-term Type 2 Diabetes support, beta-cell recovery, and complete metabolic wellness under the direct guidance of Dr. Shilpa Thakur.</p>
                         </li>
                         <li>
-                            <h3>Therapeutic Reversal Plan</h3>
-                            <p>A specialized chronobiological protocol designed to reverse PCOD/PCOS, Fatty Liver, and Thyroid dysregulation by restoring hormonal clock cycles.</p>
+                            <h3>Therapeutic Support Plan</h3>
+                            <p>A specialized chronobiological protocol designed to support PCOD/PCOS, Fatty Liver, and Thyroid dysregulation by restoring hormonal clock cycles.</p>
                         </li>
                         <li>
                             <h3>Metabolic Mastery Plan</h3>
@@ -320,9 +272,9 @@
                 </section>
 
                 <section id="clinical-reversal">
-                    <h2>Targeted Metabolic Remission</h2>
+                    <h2>Targeted Metabolic Wellness</h2>
                     <ul>
-                        <li><strong>Type 2 Diabetes Reversal:</strong> Stabilize HbA1c, reduce insulin resistance, and taper off medications under medical supervision.</li>
+                        <li><strong>Type 2 Diabetes Support:</strong> Stabilize HbA1c, reduce insulin resistance, and taper off medications under medical supervision.</li>
                         <li><strong>PCOS & Ovarian Regularity:</strong> Reduce hyperinsulinemia, cool endocrine inflammation, and restore natural cycle rhythms.</li>
                         <li><strong>Fatty Liver Resolution:</strong> Restructure hepatic lipid metabolism and optimize liver enzyme balances.</li>
                         <li><strong>Hypertension & Gut Health:</strong> Sodium-balanced vasodilatory protocols combined with microbiome barrier repair.</li>
@@ -331,7 +283,7 @@
             </article>
         </main>
         <footer>
-            <p>&copy; 2024 NutritionColours. Clinical Metabolic Practice led by Dr. Shilpa Thakur. Chandigarh, Punjab, India. Serving patients globally.</p>
+            <p>&copy; 2026 NutritionColours. Clinical Metabolic Outreach led by Dr. Shilpa Thakur (Non-Medical Practitioner). Chandigarh, Punjab, India. Serving clients globally.</p>
             <p>Contact: +91-76961-60133 | Email: drthakurshilpa@gmail.com</p>
         </footer>
     </div>

@@ -25,6 +25,9 @@ export const ViewerTrackerProvider: React.FC<{ children: React.ReactNode }> = ({
 
   // Initialize tracking data from localStorage
   useEffect(() => {
+    const isBot = (window as any).IS_BOT || (typeof navigator !== 'undefined' && /bot|crawler|spider|crawling|slurp|lighthouse|headless/i.test(navigator.userAgent));
+    if (isBot) return;
+
     // 1. Load historical sessions
     const savedHistory = localStorage.getItem('nutrition_tracker_history');
     const parsedHistory: ViewerSession[] = savedHistory ? JSON.parse(savedHistory) : [];
@@ -91,8 +94,18 @@ export const ViewerTrackerProvider: React.FC<{ children: React.ReactNode }> = ({
       if (clickable) {
         const id = clickable.id ? `#${clickable.id}` : '';
         const name = clickable.textContent?.trim() || clickable.getAttribute('aria-label') || 'interactive element';
-        const truncatedName = name.replace(/\s+/g, ' ').substring(0, 40);
-        trackInteraction('click', `Clicked element ${id} ("${truncatedName}")`);
+        let cleanName = name.replace(/\s+/g, ' ').substring(0, 40);
+        
+        // Sanitize: strip emails, phone numbers, or typical clinical parameter strings
+        const emailRegex = /[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/g;
+        const phoneRegex = /\+?[0-9][0-9\s-]{6,14}[0-9]/g;
+        
+        cleanName = cleanName.replace(emailRegex, '[EMAIL]');
+        cleanName = cleanName.replace(phoneRegex, '[PHONE]');
+        
+        // Strip out exact names if they contain multiple words with letters only and numbers mixed, or are too specific
+        // Just general safety: if string matches specific patterns, redact it or mask it
+        trackInteraction('click', `Clicked element ${id} ("${cleanName}")`);
       }
     };
     window.addEventListener('click', handleGlobalClick);
@@ -154,6 +167,10 @@ export const ViewerTrackerProvider: React.FC<{ children: React.ReactNode }> = ({
     localStorage.removeItem('nutrition_tracker_history');
     localStorage.removeItem('nutrition_tracker_report_history');
     localStorage.removeItem('nutrition_tracker_last_report_time');
+    localStorage.removeItem('nutrition_clinic_appointments');
+    localStorage.removeItem('nutrition_inquiries');
+    localStorage.removeItem('nutrition_saved_plans');
+    localStorage.removeItem('VITE_GEMINI_API_KEY');
     setSessionsHistory([]);
     setReportsHistory([]);
     const freshSession = createNewSession();

@@ -2,9 +2,62 @@ import React, { useState, useMemo } from 'react';
 import { LOCATIONS_DATA, LocationNode } from './locationsData';
 import { INTERNATIONAL_COUNTRIES, InternationalCountryNode } from './internationalData';
 import { useViewerTracker } from './ViewerTracker';
+import { TOPICS } from '../topics';
 import { IconSearch, IconMapPin, IconPhone, IconMail, IconArrowRight, IconLeaf, IconCheck, IconBot, IconX } from './Icons';
+import { GeospatialMap } from './GeospatialMap';
 
 const slugify = (text: string) => text.toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+
+const SYNONYM_DICTIONARY: Record<string, string[]> = {
+  'sugar': ['diabetes', 'hba1c', 'insulin', 'hyperglycemia'],
+  'diabetes': ['sugar', 'hba1c', 'insulin', 'diabetic'],
+  'heart': ['cardio', 'hypertension', 'blood pressure', 'bp', 'cholesterol', 'cardiovascular'],
+  'bp': ['blood pressure', 'hypertension', 'heart', 'cardio'],
+  'hypertension': ['blood pressure', 'bp', 'heart', 'cardio'],
+  'liver': ['masld', 'nafld', 'fatty liver', 'hepatic', 'cirrhosis'],
+  'fatty liver': ['masld', 'nafld', 'liver', 'hepatic'],
+  'joints': ['arthritis', 'osteoarthritis', 'rheumatoid', 'inflammation', 'joint pain'],
+  'arthritis': ['joints', 'osteoarthritis', 'rheumatoid', 'joint pain'],
+  'pcos': ['pcod', 'hormonal', 'fertility', 'ovary', 'polycystic'],
+  'pcod': ['pcos', 'hormonal', 'fertility', 'ovary', 'polycystic'],
+  'kidney': ['ckd', 'renal', 'creatinine', 'filtration'],
+  'obesity': ['weight', 'fat', 'bmi', 'overweight'],
+  'weight': ['obesity', 'fat', 'bmi', 'overweight']
+};
+
+const tokenize = (text: string): string[] => {
+  return text.toLowerCase().split(/[^a-z0-9]+/).filter(Boolean);
+};
+
+const highlightText = (text: string, searchTerms: string[]) => {
+  if (!text || !searchTerms || searchTerms.length === 0) return <span>{text}</span>;
+  
+  const sortedTerms = [...searchTerms]
+    .filter(t => t.length > 1)
+    .sort((a, b) => b.length - a.length);
+
+  if (sortedTerms.length === 0) return <span>{text}</span>;
+
+  const escapedTerms = sortedTerms.map(t => t.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&'));
+  const regex = new RegExp(`(${escapedTerms.join('|')})`, 'gi');
+
+  const parts = text.split(regex);
+  return (
+    <span>
+      {parts.map((part, i) => {
+        const isMatch = regex.test(part);
+        return isMatch ? (
+          <mark key={i} className="bg-lime-200 text-emerald-950 font-black px-0.5 rounded shadow-sm">
+            {part}
+          </mark>
+        ) : (
+          <span key={i}>{part}</span>
+        );
+      })}
+    </span>
+  );
+};
+
 
 // Deterministic hash based on a string to generate consistent values
 const getDeterministicValue = (key: string, salt: string, min: number, max: number): number => {
@@ -321,6 +374,7 @@ interface LocalDirectoryProps {
 export const LocalDirectory: React.FC<LocalDirectoryProps> = ({ navigate, currentPath }) => {
   const { trackInteraction } = useViewerTracker();
   const [searchQuery, setSearchQuery] = useState('');
+  const deferredSearchQuery = React.useDeferredValue(searchQuery);
   const [selectedState, setSelectedState] = useState('');
   const [selectedCountry, setSelectedCountry] = useState('India');
   const [bookingSuccess, setBookingSuccess] = useState(false);
@@ -340,33 +394,174 @@ export const LocalDirectory: React.FC<LocalDirectoryProps> = ({ navigate, curren
     return map;
   }, []);
 
-  // Filter locations based on search query (combines local India and global nodes)
-  const filteredLocations = useMemo(() => {
-    if (!searchQuery) return [];
-    const query = searchQuery.toLowerCase().trim();
-    
-    // Search Indian clinics
-    const localMatches = LOCATIONS_DATA.filter(loc => 
-      loc.city.toLowerCase().includes(query) || 
-      loc.pincode.includes(query) ||
-      loc.state.toLowerCase().includes(query)
-    ).map(l => ({ ...l, country: 'India' }));
+  // Filter locations based on search query (combines local India and global nodes with synonym-expanded TF-IDF ranking)
+  const { filteredLocations, activeSearchTerms } = useMemo(() => {
+    if (!deferredSearchQuery) return { filteredLocations: [], activeSearchTerms: [] };
+    const query = deferredSearchQuery.toLowerCase().trim();
+    const queryTokens = tokenize(query);
+    if (queryTokens.length === 0) return { filteredLocations: [], activeSearchTerms: [] };
 
-    // Search International clinics
-    const intlMatches = INTERNATIONAL_COUNTRIES.filter(loc => 
-      loc.country.toLowerCase().includes(query) ||
-      loc.city.toLowerCase().includes(query) || 
-      loc.pincode.includes(query)
-    ).map(l => ({
-      state: l.country,
-      city: l.city,
-      pincode: l.pincode,
-      id: `${l.id}/${slugify(l.city)}`,
-      country: l.country
-    }));
+    // Expand search query with synonyms
+    const expandedTerms = new Set<string>();
+    queryTokens.forEach(token => {
+      expandedTerms.add(token);
+      if (SYNONYM_DICTIONARY[token]) {
+        SYNONYM_DICTIONARY[token].forEach(syn => expandedTerms.add(syn));
+      }
+    });
+    const termArray = Array.from(expandedTerms);
 
-    return [...localMatches, ...intlMatches].slice(0, 15);
-  }, [searchQuery]);
+    // Dynamic IDF calculation for terms
+    const totalDocs = LOCATIONS_DATA.length + INTERNATIONAL_COUNTRIES.length;
+    const termDocCounts: Record<string, number> = {};
+    termArray.forEach(term => {
+      let count = 0;
+      LOCATIONS_DATA.forEach(loc => {
+        const docText = `${loc.city} ${loc.state} ${loc.pincode} ${(loc.healthIssues || []).join(' ')} ${loc.commonStaples || ''}`.toLowerCase();
+        if (docText.includes(term)) count++;
+      });
+      INTERNATIONAL_COUNTRIES.forEach(loc => {
+        const docText = `${loc.city} ${loc.country} ${loc.pincode} ${(loc.healthIssues || []).join(' ')} ${loc.commonStaples || ''}`.toLowerCase();
+        if (docText.includes(term)) count++;
+      });
+      termDocCounts[term] = count;
+    });
+
+    const idfs: Record<string, number> = {};
+    termArray.forEach(term => {
+      idfs[term] = Math.log(1 + totalDocs / (termDocCounts[term] || 1));
+    });
+
+    // Score local Indian nodes
+    const localScored = LOCATIONS_DATA.map(loc => {
+      let score = 0;
+      let matchedReason = '';
+      const matchedIssues: string[] = [];
+      let matchedStaples = false;
+
+      termArray.forEach(term => {
+        const idf = idfs[term];
+        let tf = 0;
+
+        const cityLower = loc.city.toLowerCase();
+        if (cityLower === term) tf += 15.0;
+        else if (cityLower.startsWith(term)) tf += 8.0;
+        else if (cityLower.includes(term)) tf += 4.0;
+
+        if (loc.pincode === term) tf += 12.0;
+        else if (loc.pincode.includes(term)) tf += 6.0;
+
+        const stateLower = loc.state.toLowerCase();
+        if (stateLower === term) tf += 8.0;
+        else if (stateLower.includes(term)) tf += 4.0;
+
+        if (loc.healthIssues) {
+          loc.healthIssues.forEach(issue => {
+            if (issue.toLowerCase().includes(term)) {
+              tf += 3.0;
+              if (!matchedIssues.includes(issue)) {
+                matchedIssues.push(issue);
+              }
+            }
+          });
+        }
+
+        if (loc.commonStaples && loc.commonStaples.toLowerCase().includes(term)) {
+          tf += 2.0;
+          matchedStaples = true;
+        }
+
+        score += tf * idf;
+      });
+
+      if (score > 0) {
+        if (matchedIssues.length > 0) {
+          matchedReason = `Specialized in: ${matchedIssues.slice(0, 2).join(', ')}`;
+        } else if (matchedStaples) {
+          matchedReason = `Adapts to regional staples: ${loc.commonStaples}`;
+        } else {
+          matchedReason = `Active remote hub in ${loc.state}`;
+        }
+      }
+
+      return {
+        ...loc,
+        country: 'India',
+        score,
+        matchReason: matchedReason
+      };
+    }).filter(loc => loc.score > 0);
+
+    // Score International nodes
+    const intlScored = INTERNATIONAL_COUNTRIES.map(loc => {
+      let score = 0;
+      let matchedReason = '';
+      const matchedIssues: string[] = [];
+      let matchedStaples = false;
+
+      termArray.forEach(term => {
+        const idf = idfs[term];
+        let tf = 0;
+
+        const cityLower = loc.city.toLowerCase();
+        if (cityLower === term) tf += 15.0;
+        else if (cityLower.startsWith(term)) tf += 8.0;
+        else if (cityLower.includes(term)) tf += 4.0;
+
+        if (loc.pincode === term) tf += 12.0;
+        else if (loc.pincode.includes(term)) tf += 6.0;
+
+        const countryLower = loc.country.toLowerCase();
+        if (countryLower === term) tf += 8.0;
+        else if (countryLower.includes(term)) tf += 4.0;
+
+        if (loc.healthIssues) {
+          loc.healthIssues.forEach(issue => {
+            if (issue.toLowerCase().includes(term)) {
+              tf += 3.0;
+              if (!matchedIssues.includes(issue)) {
+                matchedIssues.push(issue);
+              }
+            }
+          });
+        }
+
+        if (loc.commonStaples && loc.commonStaples.toLowerCase().includes(term)) {
+          tf += 2.0;
+          matchedStaples = true;
+        }
+
+        score += tf * idf;
+      });
+
+      if (score > 0) {
+        if (matchedIssues.length > 0) {
+          matchedReason = `Specialized in: ${matchedIssues.slice(0, 2).join(', ')}`;
+        } else if (matchedStaples) {
+          matchedReason = `Adapts to regional staples: ${loc.commonStaples}`;
+        } else {
+          matchedReason = `Active outreach hub in ${loc.country}`;
+        }
+      }
+
+      return {
+        state: loc.country,
+        city: loc.city,
+        pincode: loc.pincode,
+        id: `${loc.id}/${slugify(loc.city)}`,
+        country: loc.country,
+        score,
+        matchReason: matchedReason
+      };
+    }).filter(loc => loc.score > 0);
+
+    const combined = [...localScored, ...intlScored]
+      .sort((a, b) => b.score - a.score || a.city.localeCompare(b.city))
+      .slice(0, 15);
+
+    return { filteredLocations: combined, activeSearchTerms: termArray };
+  }, [deferredSearchQuery]);
+
 
   // Handle active clinic resolution from route path e.g. "clinic/punjab-amritsar" or "clinic/united-states/new-york-city"
   const activeClinic = useMemo(() => {
@@ -386,26 +581,18 @@ export const LocalDirectory: React.FC<LocalDirectoryProps> = ({ navigate, curren
         const match = matches.find(loc => slugify(loc.city) === citySlug);
         if (match) {
           return {
+            ...match,
             state: match.country,
-            city: match.city,
-            pincode: match.pincode,
-            id: match.id,
-            country: match.country,
-            type: 'Outreach Center',
-            zone: match.zone
+            type: 'Outreach Center'
           };
         }
       }
       // Fallback to first match for this country
       const defaultHub = matches[0];
       return {
+        ...defaultHub,
         state: defaultHub.country,
-        city: defaultHub.city,
-        pincode: defaultHub.pincode,
-        id: defaultHub.id,
-        country: defaultHub.country,
-        type: 'Outreach Center',
-        zone: defaultHub.zone
+        type: 'Outreach Center'
       };
     }
     return null;
@@ -554,70 +741,288 @@ export const LocalDirectory: React.FC<LocalDirectoryProps> = ({ navigate, curren
                     {(activeClinic as any).commonStaples || 'Polished white rice, wheat bread, seed oils.'}
                   </p>
                 </div>
+
+                <div className="grid md:grid-cols-2 gap-6 text-sm pt-2">
+                  <div className="bg-stone-50 p-6 rounded-2xl border border-stone-200/50 space-y-2">
+                    <span className="text-[10px] font-black uppercase tracking-widest text-emerald-800 block font-bold">Circadian & Environmental Context</span>
+                    <ul className="space-y-1.5 text-stone-700 font-semibold text-xs">
+                      <li>🕒 Timezone: <span className="text-emerald-950 font-bold">{(activeClinic as any).timezone || 'N/A'}</span></li>
+                      <li>📞 Dialing Prefix: <span className="text-emerald-950 font-bold">{(activeClinic as any).dialingCode || 'N/A'}</span></li>
+                      <li>💵 Local Currency: <span className="text-emerald-950 font-bold">{(activeClinic as any).currency || 'N/A'}</span></li>
+                      <li>⛅ Climate & Weather: <span className="text-emerald-950 font-bold block mt-0.5 leading-relaxed font-semibold">{(activeClinic as any).weather || 'N/A'}</span></li>
+                    </ul>
+                  </div>
+
+                  <div className="bg-stone-50 p-6 rounded-2xl border border-stone-200/50 space-y-3">
+                    <span className="text-[10px] font-black uppercase tracking-widest text-emerald-800 block font-bold">Circadian Whole Foods (Local Produce)</span>
+                    <div className="space-y-2">
+                      <div>
+                        <span className="text-[9px] font-bold text-stone-500 uppercase tracking-wider block mb-1">Local Fruits</span>
+                        <div className="flex flex-wrap gap-1">
+                          {(activeClinic as any).localFruits?.map((fruit: string, idx: number) => (
+                            <span key={idx} className="px-2 py-0.5 bg-emerald-50 text-emerald-800 text-[10px] font-bold rounded-full border border-emerald-100">
+                              🍎 {fruit}
+                            </span>
+                          )) || <span className="text-stone-500 italic text-[10px]">No local fruits listed</span>}
+                        </div>
+                      </div>
+                      <div>
+                        <span className="text-[9px] font-bold text-stone-500 uppercase tracking-wider block mb-1">Local Vegetables</span>
+                        <div className="flex flex-wrap gap-1">
+                          {(activeClinic as any).localVegetables?.map((veg: string, idx: number) => (
+                            <span key={idx} className="px-2 py-0.5 bg-lime-50/40 text-lime-900 text-[10px] font-bold rounded-full border border-lime-100">
+                              🥬 {veg}
+                            </span>
+                          )) || <span className="text-stone-500 italic text-[10px]">No local vegetables listed</span>}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
 
-              {/* Dynamic Telecommunication & Geographic Integrity Details */}
+              {/* Clinical Chrononutrition & Deficiency Diagnosis Card */}
               <div className="bg-white rounded-[32px] border border-stone-100 p-8 shadow-sm space-y-6">
                 <div className="flex gap-4 items-center border-b border-stone-50 pb-6">
-                  <div className="p-3 bg-emerald-50 text-emerald-700 rounded-full">📡</div>
+                  <div className="p-3 bg-emerald-50 text-emerald-700 rounded-full">🔬</div>
                   <div>
-                    <h2 className="text-2xl font-black text-emerald-950 brand-font">Local Infrastructure, Proximity & Network Diagnostics</h2>
+                    <h2 className="text-2xl font-black text-emerald-950 brand-font">Regional Chrononutrition Diagnosis & Clinical Guidance</h2>
                     <p className="text-xs text-stone-500 uppercase tracking-widest font-bold">
-                      Verified regional telecom signals, coordinates, landmarks & dialing profiles
+                      Personalized metabolic findings and program targets for {activeClinic.city}
                     </p>
                   </div>
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-6 text-sm">
+                  {/* Card 1: Targeted Metabolic Solution */}
+                  <div className="bg-stone-50 p-6 rounded-2xl border border-stone-200/50 space-y-3">
+                    <span className="text-[10px] font-black uppercase tracking-widest text-emerald-800 block font-bold">Targeted Metabolic Solution</span>
+                    <div className="space-y-2">
+                      <div className="text-xs font-semibold text-stone-600">
+                        Recommended Program:
+                      </div>
+                      <div className="bg-white p-4 rounded-xl border border-stone-150/45 space-y-2">
+                        <div className="flex justify-between items-center text-xs">
+                          <span className="font-bold text-stone-800">
+                            {(activeClinic as any).recommendedPlanId === 'cellular-resurrection' ? 'Cellular Resurrection Plan' :
+                             (activeClinic as any).recommendedPlanId === 'therapeutic-reversal' ? 'Therapeutic Reversal Plan' :
+                             'Metabolic Mastery Plan'}
+                          </span>
+                          <span className="px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-800 text-[10px] font-bold">Recommended</span>
+                        </div>
+                        <p className="text-[11px] text-stone-500 leading-relaxed pt-1">
+                          Calibrated to address local issues: <strong>{(activeClinic as any).healthIssues?.join(', ')}</strong>.
+                        </p>
+                        {(() => {
+                          const topicId = (activeClinic as any).associatedTopicId;
+                          const assocTopic = TOPICS.find(t => t.id === topicId);
+                          if (!assocTopic) return null;
+                          return (
+                            <div className="pt-2 border-t border-stone-100 mt-2">
+                              <span className="text-[10px] text-stone-400 block font-semibold uppercase tracking-wider">Clinical Protocol</span>
+                              <a 
+                                href={`/topic/${assocTopic.id}`} 
+                                onClick={(e) => { e.preventDefault(); navigate(`topic/${assocTopic.id}`); }}
+                                className="text-emerald-700 hover:text-emerald-950 text-[11px] font-black block mt-0.5 hover:underline"
+                              >
+                                {assocTopic.title} Protocol →
+                              </a>
+                            </div>
+                          );
+                        })()}
+                        <div className="pt-2">
+                          <a 
+                            href={`/plans`} 
+                            onClick={(e) => { e.preventDefault(); navigate('plans'); }}
+                            className="text-emerald-700 hover:text-emerald-950 text-xs font-bold flex items-center gap-1"
+                          >
+                            Explore Plan Details →
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Card 2: Local Spice & Produce Synergy */}
+                  <div className="bg-stone-50 p-6 rounded-2xl border border-stone-200/50 space-y-3 flex flex-col justify-between">
+                    <div>
+                      <span className="text-[10px] font-black uppercase tracking-widest text-emerald-800 block font-bold mb-2">Local Spice & Produce Synergy</span>
+                      <p className="text-xs text-stone-700 font-semibold leading-relaxed">
+                        Primary Therapeutic Spice: <span className="text-emerald-950 font-bold">{(activeClinic as any).localTherapeuticSpice || 'Turmeric'}</span>
+                      </p>
+                      <div className="bg-emerald-950/5 p-4 rounded-xl border border-emerald-900/10 mt-3">
+                        <span className="text-[9px] font-black uppercase tracking-widest text-emerald-900 block font-bold mb-1">Synergy Recipe Recommendation</span>
+                        <p className="text-[11px] text-emerald-950/90 leading-relaxed font-semibold italic">
+                          "{(activeClinic as any).localProduceSynergy}"
+                        </p>
+                      </div>
+                    </div>
+                    <p className="text-[10px] text-stone-500 leading-relaxed pt-2 font-medium">
+                      Pairing regional crops with key spices utilizes natural synergists to optimize absorption of active bio-compounds.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="grid md:grid-cols-2 gap-6 text-sm">
+                  {/* Card 3: Target Blood Biomarkers */}
+                  <div className="bg-stone-50 p-6 rounded-2xl border border-stone-200/50 space-y-2">
+                    <span className="text-[10px] font-black uppercase tracking-widest text-blue-800 block font-bold">Primary Target Blood Biomarkers</span>
+                    <p className="text-xs text-stone-700 font-bold leading-relaxed">
+                      🧪 {(activeClinic as any).clinicalTargetBiomarker}
+                    </p>
+                    <p className="text-[11px] text-stone-500 leading-relaxed font-medium">
+                      Under Dr. Shilpa Thakur's oversight, local patient onboarding includes auditing these baseline markers. Periodic checks verify cellular-level metabolic recovery and guide diet adjustments.
+                    </p>
+                  </div>
+
+                  {/* Card 4: Dietary Staple & Swap */}
+                  <div className="bg-stone-50 p-6 rounded-2xl border border-stone-200/50 space-y-2">
+                    <span className="text-[10px] font-black uppercase tracking-widest text-emerald-800 block font-bold">Dietary Staple Optimization</span>
+                    <p className="text-xs text-stone-700 leading-relaxed font-semibold">
+                      Baseline Staple: <span className="text-stone-500 font-medium">{(activeClinic as any).commonStaples}</span>
+                    </p>
+                    <div className="bg-lime-900/5 p-3 rounded-xl border border-lime-900/10 mt-1">
+                      <span className="text-[9px] font-black uppercase tracking-widest text-lime-900 block font-bold mb-0.5">Recommended Grain Swap</span>
+                      <p className="text-[11px] text-lime-950 font-bold leading-relaxed">
+                        🔄 {(activeClinic as any).regionalStapleAlternative}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="grid md:grid-cols-2 gap-6 text-sm">
+                  {/* Card 5: Regional Nutritional Deficiency Risk */}
+                  <div className="bg-stone-50 p-6 rounded-2xl border border-stone-200/50 space-y-2">
+                    <span className="text-[10px] font-black uppercase tracking-widest text-red-700 block font-bold">Regional Nutritional Deficiency Risk</span>
+                    <p className="text-xs text-stone-700 font-semibold leading-relaxed">
+                      ⚠️ {(activeClinic as any).regionalDeficiencyRisk}
+                    </p>
+                    <p className="text-[11px] text-stone-500 leading-relaxed font-medium">
+                      Geographic soils and typical food-prep methods in this zone increase the risk of this deficiency. We adjust our daily chrononutrition meal maps to compensate for this baseline gap.
+                    </p>
+                  </div>
+
+                  {/* Card 6: Circadian Challenge & Climate Impact */}
+                  <div className="bg-stone-50 p-6 rounded-2xl border border-stone-200/50 space-y-2">
+                    <span className="text-[10px] font-black uppercase tracking-widest text-amber-800 block font-bold">Primary Circadian & Climate Impact</span>
+                    <p className="text-xs text-stone-700 font-semibold leading-relaxed">
+                      🕒 {(activeClinic as any).circadianChallenge}
+                    </p>
+                    <p className="text-[11px] text-stone-600 leading-relaxed font-semibold mt-1">
+                      Climatic Impact: <span className="text-stone-500 font-medium block mt-0.5">{(activeClinic as any).microclimateMetabolicImpact}</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Dynamic Telecommunication & Geographic Integrity Details */}
+              <div className="bg-white rounded-[32px] border border-stone-100 p-8 shadow-sm space-y-6">
+                <div className="flex gap-4 items-center border-b border-stone-50 pb-6">
+                  <div className="p-3 bg-emerald-50 text-emerald-700 rounded-full">🌐</div>
+                  <div>
+                    <h2 className="text-2xl font-black text-emerald-950 brand-font">Remote Clinic Service Coverage</h2>
+                    <p className="text-xs text-stone-500 uppercase tracking-widest font-bold">
+                      100% remote digital health consultations & support profiles for this region
+                    </p>
+                  </div>
+                </div>
+
+                <div className="grid md:grid-cols-3 gap-6 text-sm">
                   <div className="bg-stone-50 p-6 rounded-2xl border border-stone-200/50 space-y-4">
-                    <span className="text-[10px] font-black uppercase tracking-widest text-emerald-800 block font-bold">Regional Connectivity & Telecom Grid</span>
+                    <span className="text-[10px] font-black uppercase tracking-widest text-emerald-800 block font-bold">Consultation Access & Availability</span>
                     <div className="space-y-3">
                       <div className="text-xs font-semibold text-stone-600">
-                        Mobile Carrier Quality Metrics for <span className="text-emerald-950 font-bold">{activeClinic.city}</span>:
+                        Clinical coverage status for <span className="text-emerald-950 font-bold">{activeClinic.city}</span>:
                       </div>
-                      <div className="space-y-2">
-                        {getCarrierQuality(activeClinic.city, activeClinic.country === 'India').map((carrier, idx) => (
-                          <div key={idx} className="flex justify-between items-center bg-white p-2.5 rounded-xl border border-stone-150/45 text-xs">
-                            <span className="font-bold text-stone-800 flex items-center gap-1.5">
-                              📶 {carrier.name}
-                            </span>
-                            <div className="flex gap-3 text-[10px] font-bold">
-                              <span className={`px-2 py-0.5 rounded-full ${
-                                carrier.strength === 'Excellent' || carrier.strength === 'Strong' ? 'bg-emerald-50 text-emerald-800' : 'bg-amber-50 text-amber-800'
-                              }`}>{carrier.strength}</span>
-                              <span className="text-stone-500">{carrier.speed}</span>
-                            </div>
-                          </div>
-                        ))}
+                      <div className="bg-white p-4 rounded-xl border border-stone-150/45 space-y-2">
+                        <div className="flex justify-between items-center text-xs">
+                          <span className="font-bold text-stone-800">Telehealth Status</span>
+                          <span className="px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-800 text-[10px] font-bold">🟢 Fully Active</span>
+                        </div>
+                        <p className="text-[11px] text-stone-500 leading-relaxed pt-1">
+                          Dr. Shilpa Thakur provides direct, personalized virtual dietary consultations. All protocols, chrononutrition schedules, and biomarker updates are delivered securely.
+                        </p>
                       </div>
                     </div>
                   </div>
 
                   <div className="bg-stone-50 p-6 rounded-2xl border border-stone-200/50 space-y-4">
-                    <span className="text-[10px] font-black uppercase tracking-widest text-emerald-800 block font-bold">Regional Coordinates & Landmarks</span>
-                    <ul className="space-y-2.5 text-stone-700 font-semibold text-xs">
-                      <li className="flex justify-between border-b border-stone-200/40 pb-1.5">
-                        <span>📍 Lat/Lng Coordinates:</span>
-                        <span className="text-emerald-950 font-bold">
-                          {getCoordinates(activeClinic.city, activeClinic.state, activeClinic.country || 'India').latitude}° N, {getCoordinates(activeClinic.city, activeClinic.state, activeClinic.country || 'India').longitude}° E
-                        </span>
+                    <span className="text-[10px] font-black uppercase tracking-widest text-emerald-800 block font-bold">Digital Health Dashboard Integration</span>
+                    <ul className="space-y-2.5 text-stone-700 font-semibold text-xs bg-white p-4 rounded-xl border border-stone-150/45">
+                      <li className="flex justify-between border-b border-stone-100 pb-1.5">
+                        <span>📡 Connection Type:</span>
+                        <span className="text-emerald-950 font-bold text-[10px]">Encrypted Portal</span>
                       </li>
-                      <li className="flex justify-between border-b border-stone-200/40 pb-1.5">
-                        <span>📡 Coordinate Proximity:</span>
-                        <span className="text-emerald-950 font-bold">
-                          {getCoordinates(activeClinic.city, activeClinic.state, activeClinic.country || 'India').proximity}
-                        </span>
+                      <li className="flex justify-between border-b border-stone-100 pb-1.5">
+                        <span>🔒 Compliance Profile:</span>
+                        <span className="text-emerald-950 font-bold text-[10px]">Secure & Redacted</span>
                       </li>
-                      <li className="flex flex-col gap-1 border-b border-stone-200/40 pb-1.5">
-                        <span>🏛️ Local Landmarks:</span>
-                        <span className="text-emerald-950 font-bold pl-4">
-                          {getDeterministicLandmarks(activeClinic.city, activeClinic.state).map((landmark, idx) => (
-                            <span key={idx} className="block text-xs font-semibold text-emerald-900">• {landmark}</span>
-                          ))}
-                        </span>
+                      <li className="flex justify-between pb-1.5">
+                        <span>📋 Deliverables:</span>
+                        <span className="text-emerald-950 font-bold text-[10px]">Meal Maps & Lab Sync</span>
                       </li>
                     </ul>
                   </div>
+
+                  {(() => {
+                    const coords = getCoordinates(activeClinic.city, activeClinic.state || '', activeClinic.country || 'India');
+                    const hydrationMultiplier = (1 + (Math.abs(parseFloat(coords.latitude)) / 90) * 0.15).toFixed(2);
+                    
+                    // Client-side Solar Declination & Sunset Calculation
+                    const getSunsetTime = (lat: number, lng: number) => {
+                      const now = new Date();
+                      const start = new Date(now.getFullYear(), 0, 0);
+                      const diff = now.getTime() - start.getTime();
+                      const oneDay = 1000 * 60 * 60 * 24;
+                      const N = Math.floor(diff / oneDay);
+                      
+                      const latRad = lat * Math.PI / 180;
+                      const delta = 23.45 * Math.sin((360 / 365) * (284 + N) * Math.PI / 180);
+                      const deltaRad = delta * Math.PI / 180;
+                      
+                      const cosHs = -Math.tan(latRad) * Math.tan(deltaRad);
+                      if (cosHs < -1) return "Polar Day";
+                      if (cosHs > 1) return "Polar Night";
+                      
+                      const Hs = Math.acos(cosHs) * 180 / Math.PI;
+                      const B = (360 / 364) * (N - 81) * Math.PI / 180;
+                      const EoT = 9.87 * Math.sin(2 * B) - 7.53 * Math.cos(B) - 1.5 * Math.sin(B);
+                      
+                      const timezoneOffset = -now.getTimezoneOffset() / 60;
+                      const LST = 12 + Hs / 15 - (lng - 15 * timezoneOffset) / 15 - EoT / 60;
+                      
+                      const hour = Math.floor(LST % 24);
+                      const min = Math.floor((LST * 60) % 60);
+                      const ampm = hour >= 12 ? 'PM' : 'AM';
+                      const displayH = hour % 12 === 0 ? 12 : hour % 12;
+                      return `${displayH}:${min.toString().padStart(2, '0')} ${ampm}`;
+                    };
+
+                    const localSunset = getSunsetTime(parseFloat(coords.latitude), parseFloat(coords.longitude));
+
+                    return (
+                      <div className="bg-stone-50 p-6 rounded-2xl border border-stone-200/50 space-y-4">
+                        <span className="text-[10px] font-black uppercase tracking-widest text-emerald-800 block font-bold">Circadian Hydration & Coordinates</span>
+                        <div className="bg-white p-4 rounded-xl border border-stone-150/45 space-y-2 text-xs">
+                          <div className="flex justify-between items-center">
+                            <span className="font-bold text-stone-700">Geographic Nodes</span>
+                            <span className="font-mono text-stone-500 text-[10px]">{coords.latitude}°N, {coords.longitude}°E</span>
+                          </div>
+                          <div className="flex justify-between items-center pt-1 border-t border-stone-100">
+                            <span className="font-bold text-stone-700">Hydration Index</span>
+                            <span className="font-mono text-emerald-700 font-bold bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-100 text-[10px]">{hydrationMultiplier}x</span>
+                          </div>
+                          <div className="flex justify-between items-center pt-1 border-t border-stone-100">
+                            <span className="font-bold text-stone-700">Solar Sunset Today</span>
+                            <span className="font-mono text-amber-700 font-bold bg-amber-50 px-2 py-0.5 rounded-md border border-amber-100 text-[10px]">{localSunset}</span>
+                          </div>
+                        </div>
+                        <p className="text-[11px] text-stone-500 leading-relaxed font-semibold">
+                          Calculated astronomically. Sunset at <strong>{localSunset}</strong> requires aligning evening meal windows prior to melatonin onset.
+                        </p>
+                      </div>
+                    );
+                  })()}
                 </div>
 
                 <div className="grid md:grid-cols-3 gap-6 text-sm">
@@ -700,7 +1105,7 @@ export const LocalDirectory: React.FC<LocalDirectoryProps> = ({ navigate, curren
               <div className="bg-white rounded-[32px] border border-stone-100 p-8 shadow-sm space-y-4">
                 <h3 className="text-xl font-bold text-emerald-950 brand-font">Virtual Consultation Outreach</h3>
                 <p className="text-stone-600 text-sm leading-relaxed">
-                  Our service coverage zones are managed remotely and synchronized online under Dr. Shilpa Thakur's centralized medical practice. Patients in <strong>{activeClinic.city}</strong> receive direct digital access to health vital trackers, circadian charts, and localized meal sheets. Any physical laboratory reports (ALT/AST, HbA1c, HOMA-IR) are parsed and synced to customize the diet plan dynamically.
+                  Our service coverage zones are managed remotely and synchronized online under Dr. Shilpa Thakur's centralized clinical nutrition practice. Patients in <strong>{activeClinic.city}</strong> receive direct digital access to health vital trackers, circadian charts, and localized meal sheets. Any physical laboratory reports (ALT/AST, HbA1c, HOMA-IR) are parsed and synced to customize the diet plan dynamically.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs font-bold text-stone-500 pt-4 border-t border-stone-150/40">
                   <div className="flex items-center gap-2">
@@ -853,8 +1258,17 @@ export const LocalDirectory: React.FC<LocalDirectoryProps> = ({ navigate, curren
                     <div className="flex items-center gap-3">
                       <span className="text-emerald-800 group-hover:scale-110 transition-transform"><IconMapPin size={16} /></span>
                       <div className="flex flex-col">
-                        <div className="font-bold text-emerald-950">{loc.city} Outreach Zone</div>
-                        <span className="text-[10px] text-stone-500 uppercase tracking-wider">{loc.state} (PIN: {loc.pincode})</span>
+                        <div className="font-bold text-emerald-950">
+                          {highlightText(loc.city, activeSearchTerms)} Outreach Zone
+                        </div>
+                        <span className="text-[10px] text-stone-500 uppercase tracking-wider">
+                          {highlightText(loc.state, activeSearchTerms)} (PIN: {highlightText(loc.pincode, activeSearchTerms)})
+                        </span>
+                        {(loc as any).matchReason && (
+                          <span className="text-[10px] text-emerald-700 font-bold mt-1 bg-emerald-50 px-2 py-0.5 rounded-full w-max border border-emerald-100 flex items-center gap-1">
+                            ✨ {highlightText((loc as any).matchReason, activeSearchTerms)}
+                          </span>
+                        )}
                       </div>
                     </div>
                     <span className="text-stone-500 group-hover:text-emerald-800 transition-colors"><IconArrowRight size={14} /></span>
@@ -897,35 +1311,25 @@ export const LocalDirectory: React.FC<LocalDirectoryProps> = ({ navigate, curren
               </div>
             </div>
 
-            <div className="md:col-span-5 flex justify-center">
-              {/* Abstract Visual Map Diagram */}
-              <svg aria-hidden="true" width="220" height="250" viewBox="0 0 220 250" className="opacity-95 glow-pulse">
-                {/* Outlined map of India (abstract representation) */}
-                <path 
-                  d="M100 20 L120 40 L130 60 L140 80 L160 90 L170 110 L180 120 L160 140 L150 150 L130 160 L120 180 L110 220 L100 240 L90 220 L80 180 L75 160 L60 150 L50 140 L40 120 L50 100 L60 90 L80 80 L90 60 Z" 
-                  fill="none" 
-                  stroke="#10b981" 
-                  strokeWidth="2" 
-                  strokeDasharray="4 4"
-                />
-                {/* Glowing Nodes (Major Cities) */}
-                <circle cx="100" cy="50" r="4" fill="#65a30d" /> {/* Shimla */}
-                <circle cx="95" cy="80" r="5" fill="#10b981" /> {/* Delhi/Chandigarh */}
-                <circle cx="65" cy="140" r="4" fill="#65a30d" /> {/* Gujarat/Ahmedabad */}
-                <circle cx="70" cy="170" r="6" fill="#10b981" /> {/* Mumbai */}
-                <circle cx="110" cy="220" r="5" fill="#65a30d" /> {/* Kerala/Kochi */}
-                <circle cx="125" cy="200" r="4" fill="#10b981" /> {/* Bangalore */}
-                <circle cx="130" cy="180" r="5" fill="#65a30d" /> {/* Chennai */}
-                <circle cx="140" cy="140" r="6" fill="#10b981" /> {/* Hyderabad / Attili */}
-                <circle cx="170" cy="120" r="4" fill="#65a30d" /> {/* West Bengal/Kolkata */}
-                <circle cx="120" cy="110" r="4" fill="#10b981" /> {/* Patna */}
-                
-                {/* Connection Lines to represent active clinical R&D synchronization */}
-                <line x1="95" y1="80" x2="70" y2="170" stroke="#10b981" strokeWidth="0.5" opacity="0.4" />
-                <line x1="95" y1="80" x2="140" y2="140" stroke="#10b981" strokeWidth="0.5" opacity="0.4" />
-                <line x1="140" y1="140" x2="125" y2="200" stroke="#10b981" strokeWidth="0.5" opacity="0.4" />
-                <line x1="140" y1="140" x2="170" y2="120" stroke="#10b981" strokeWidth="0.5" opacity="0.4" />
-              </svg>
+            <div className="md:col-span-5 flex flex-col items-center justify-center">
+              {/* Interactive 3D Geospatial Globe Map */}
+              <GeospatialMap 
+                selectedCountry={selectedCountry} 
+                onSelectCountry={setSelectedCountry} 
+              />
+              {/* Hidden semantic details block for screen-reader and search bot (AEO/SEO) crawlability */}
+              <div className="sr-only-spatial-map" aria-live="polite">
+                <h3>Remote Outreach Clinic Hubs & Demographic Targets</h3>
+                <ul vocab="https://schema.org/" typeof="MedicalClinic">
+                  <li property="areaServed" content="Delhi NCR Hub"><strong>India (Delhi NCR Hub):</strong> Reverses <span property="medicalSpecialty">circadian dysregulation</span>, vitamin B12 deficits, and <span property="medicalSpecialty">fatty liver (MASLD)</span> using Ceylon Cinnamon & Ragi flatbread swaps.</li>
+                  <li property="areaServed" content="Dubai Hub"><strong>United Arab Emirates (Dubai Hub):</strong> Targets <span property="medicalSpecialty">visceral adiposity</span> and <span property="medicalSpecialty">insulin resistance</span>. Swaps high glycemic carbohydrates for Moringa infusions and daylight-restricted meals.</li>
+                  <li property="areaServed" content="London Hub"><strong>United Kingdom (London Hub):</strong> Reverses vitamin D deficiency, <span property="medicalSpecialty">metabolic syndrome</span>, and intracellular lipid blocks. Promotes sprouted grains and sunset dining constraints.</li>
+                  <li property="areaServed" content="New York Hub"><strong>United States (New York Hub):</strong> Targets <span property="medicalSpecialty">type 2 diabetes</span> and <span property="medicalSpecialty">hyperinsulinemia</span>. Recommends organic tempeh swaps and cortisol-aligned breakfast.</li>
+                  <li property="areaServed" content="Riyadh Hub"><strong>Saudi Arabia (Riyadh Hub):</strong> Reverses postprandial glucose surges and cardiovascular risk. Promotes whole-grain pearl barley and daytime fasting swap methods.</li>
+                  <li property="areaServed" content="Manama Hub"><strong>Bahrain (Manama Hub):</strong> Reverses <span property="medicalSpecialty">dyslipidemia</span> and <span property="medicalSpecialty">metabolic syndrome</span>. Supports early-dinner constraints and stevia-cardamom teas.</li>
+                  <li property="areaServed" content="Singapore Hub"><strong>Singapore Hub:</strong> Targets <span property="medicalSpecialty">pre-diabetes</span> and postprandial fat storing. Promotes brown/millet rice swaps and daylight fat intake timing.</li>
+                </ul>
+              </div>
             </div>
 
           </div>

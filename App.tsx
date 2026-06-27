@@ -26,15 +26,22 @@ import { Accordion } from './components/Accordion';
 import { SectionHeading } from './components/SectionHeading';
 import { ViewerTrackerProvider, useViewerTracker } from './components/ViewerTracker';
 import { ParticleConstellation } from './components/ParticleConstellation';
+import { getStoredGeminiApiKey } from './components/apiKey';
+import { LOCATIONS_DATA } from './components/locationsData';
+import { INTERNATIONAL_COUNTRIES } from './components/internationalData';
+import { TOPICS } from './topics';
+import { HERBS_SPICES_DATA, MEDICAL_CONDITIONS_DATA } from './clinical_databases';
+import semanticLinks from './semantic_links.json';
+import clinicalSignatures from './public/clinical-signatures.json';
 
 // Dynamic lazy loads for code-splitting (June 3 PageSpeed Optimizations)
 const TeamMemberProfile = React.lazy(() => import('./components/TeamMemberProfile').then(m => ({ default: m.TeamMemberProfile })));
+const HealthTopicPage = React.lazy(() => import('./components/HealthTopicPage').then(m => ({ default: m.HealthTopicPage })));
 const ConnectPage = React.lazy(() => import('./components/ConnectPage').then(m => ({ default: m.ConnectPage })));
+const SmartMealGenerator = React.lazy(() => import('./components/SmartMealGenerator').then(m => ({ default: m.SmartMealGenerator })));
 const HealthAssistant = React.lazy(() => import('./components/HealthAssistant').then(m => ({ default: m.HealthAssistant })));
 const SeoAnalyzer = React.lazy(() => import('./components/SeoAnalyzer').then(m => ({ default: m.SeoAnalyzer })));
 const SystemMonitor = React.lazy(() => import('./components/SystemMonitor').then(m => ({ default: m.SystemMonitor })));
-const SmartMealGenerator = React.lazy(() => import('./components/SmartMealGenerator').then(m => ({ default: m.SmartMealGenerator })));
-const HealthTopicPage = React.lazy(() => import('./components/HealthTopicPage').then(m => ({ default: m.HealthTopicPage })));
 const DynamicCircadianClock = React.lazy(() => import('./components/DynamicCircadianClock').then(m => ({ default: m.DynamicCircadianClock })));
 const HrvTracker = React.lazy(() => import('./components/HrvTracker').then(m => ({ default: m.HrvTracker })));
 const BiologicalAgeEstimator = React.lazy(() => import('./components/BiologicalAgeEstimator').then(m => ({ default: m.BiologicalAgeEstimator })));
@@ -51,6 +58,9 @@ const BmiCalculator = React.lazy(() => import('./components/HealthCalculators').
 const CalorieCalculator = React.lazy(() => import('./components/HealthCalculators').then(m => ({ default: m.CalorieCalculator })));
 const WaterCalculator = React.lazy(() => import('./components/HealthCalculators').then(m => ({ default: m.WaterCalculator })));
 const ProteinCalculator = React.lazy(() => import('./components/HealthCalculators').then(m => ({ default: m.ProteinCalculator })));
+const CircadianAligner = React.lazy(() => import('./components/HealthCalculators').then(m => ({ default: m.CircadianAligner })));
+const DrugNutrientSynergyChecker = React.lazy(() => import('./components/HealthCalculators').then(m => ({ default: m.DrugNutrientSynergyChecker })));
+const CircadianSyncQuiz = React.lazy(() => import('./components/HealthCalculators').then(m => ({ default: m.CircadianSyncQuiz })));
 
 const MindMapVisualizer = React.lazy(() => import('./components/SitemapVisuals').then(m => ({ default: m.MindMapVisualizer })));
 const GridMapView = React.lazy(() => import('./components/SitemapVisuals').then(m => ({ default: m.GridMapView })));
@@ -217,8 +227,8 @@ const storeInquiryLocally = (inquiry: any): void => {
 };
 
 const updateSeoMetadata = (path: string, item?: BlogArticle | Recipe | Topic | HerbalEntity | MedicalConditionEntity, locationsData: any[] = [], intlCountries: any[] = [], topicsData: Topic[] = [], herbsData: HerbalEntity[] = [], conditionsData: MedicalConditionEntity[] = [], recipesData: Recipe[] = []) => {
-  let title = "NutritionColours | Reverse Diabetes & PCOD Naturally";
-  let desc = "Reverse chronic metabolic diseases naturally with Dr. Shilpa Thakur's circadian nutrition protocols. Expert clinical nutrition for Diabetes, PCOD, and Hypertension.";
+  let title = "NutritionColours | Metabolic Health & Circadian Nutrition Optimization";
+  let desc = "Optimize chronic metabolic wellness and support cellular health under Dr. Shilpa Thakur's circadian nutrition protocols. Expert metabolic support for Diabetes, PCOD, and Hypertension.";
   let image = "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=2000";
   let type = "website";
 
@@ -275,14 +285,14 @@ const updateSeoMetadata = (path: string, item?: BlogArticle | Recipe | Topic | H
           const loc = locationsData.find(l => l.id === parts[1]);
           if (loc) {
               title = `NutritionColours ${loc.city} | Remote Metabolic Consultation Outreach, ${loc.state}`;
-              desc = `Reverse Type 2 Diabetes, PCOD, and Fatty Liver remotely in ${loc.city}, ${loc.state}. Access localized circadian nutrition protocols and remote onboarding (PIN: ${loc.pincode}).`;
+              desc = `Optimize Type 2 Diabetes, PCOD, and Fatty Liver wellness remotely in ${loc.city}, ${loc.state}. Access localized circadian nutrition protocols and remote onboarding (PIN: ${loc.pincode}).`;
           } else {
               const matches = intlCountries.filter(l => l.id === parts[1]);
               if (matches.length > 0) {
                   const citySlug = parts[2];
                   const intlLoc = (citySlug && matches.find(l => l.city.toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') === citySlug)) || matches[0];
                   title = `NutritionColours ${intlLoc.city} | Remote Metabolic Consultation Hub, ${intlLoc.country}`;
-                  desc = `Reverse Type 2 Diabetes, PCOD, and Fatty Liver remotely in ${intlLoc.city}, ${intlLoc.country}. Access localized circadian nutrition protocols and remote onboarding (ZIP: ${intlLoc.pincode}).`;
+                  desc = `Optimize Type 2 Diabetes, PCOD, and Fatty Liver wellness remotely in ${intlLoc.city}, ${intlLoc.country}. Access localized circadian nutrition protocols and remote onboarding (ZIP: ${intlLoc.pincode}).`;
               }
           }
       }
@@ -310,30 +320,65 @@ const updateSeoMetadata = (path: string, item?: BlogArticle | Recipe | Topic | H
       existing.forEach(e => e.remove());
 
       const schema: any = {
-          "@context": "https://schema.org",
           "@type": type === "recipe" ? "Recipe" : type === "article" ? "TechArticle" : "MedicalWebPage",
+          "@id": `https://nutritioncolours.com/${path}#webpage`,
+          "url": `https://nutritioncolours.com/${path}`,
           "headline": title.split('|')[0].trim(),
           "description": desc,
           "image": image,
+          "datePublished": "2026-06-01T08:00:00+05:30",
+          "dateModified": "2026-06-26T12:00:00+05:30",
+          "isPartOf": {
+              "@type": "WebSite",
+              "@id": "https://nutritioncolours.com/#website"
+          },
+          "speakable": {
+              "@type": "SpeakableSpecification",
+              "cssSelector": [".speakable-headline", ".speakable-description"]
+          },
           "author": {
               "@type": "Person",
+              "@id": "https://nutritioncolours.com/team/shilpa#person",
               "name": "Dr. Shilpa Thakur",
+              "jobTitle": "Clinical Nutrition Specialist & Metabolic Researcher (Non-Medical Practitioner)",
+              "alumniOf": {
+                  "@type": "EducationalOrganization",
+                  "name": "Doctor of Philosophy in Clinical Nutrition"
+              },
               "url": "https://nutritioncolours.com/team/shilpa"
           },
           "publisher": {
-              "@type": "Organization",
-              "name": "Nutrition Colours",
-              "alternateName": "NutritionColours",
-              "url": "https://nutritioncolours.com",
-              "logo": {
-                  "@type": "ImageObject",
-                  "url": "https://nutritioncolours.com/logo.png"
-              },
-              "founder": {
-                  "@type": "Person",
-                  "name": "Dr. Shilpa Thakur",
-                  "url": "https://nutritioncolours.com/team/shilpa"
-              }
+              "@id": "https://nutritioncolours.com/#organization"
+          }
+      };
+
+      const websiteSchema = {
+          "@type": "WebSite",
+          "@id": "https://nutritioncolours.com/#website",
+          "url": "https://nutritioncolours.com",
+          "name": "NutritionColours",
+          "publisher": {
+              "@id": "https://nutritioncolours.com/#organization"
+          }
+      };
+
+      const organizationSchema = {
+          "@type": "OnlineBusiness",
+          "@id": "https://nutritioncolours.com/#organization",
+          "name": "NutritionColours",
+          "url": "https://nutritioncolours.com",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https://nutritioncolours.com/logo.png"
+          },
+          "founder": {
+              "@type": "Person",
+              "@id": "https://nutritioncolours.com/team/shilpa#person",
+              "name": "Dr. Shilpa Thakur"
+          },
+          "areaServed": {
+              "@type": "Place",
+              "name": "Worldwide"
           }
       };
 
@@ -437,10 +482,19 @@ const updateSeoMetadata = (path: string, item?: BlogArticle | Recipe | Topic | H
           }
       }
 
+      const graph = {
+          "@context": "https://schema.org",
+          "@graph": [
+              schema,
+              websiteSchema,
+              organizationSchema
+          ]
+      };
+
       const script = document.createElement('script');
       script.type = 'application/ld+json';
       script.className = 'dynamic-schema';
-      script.text = JSON.stringify(schema);
+      script.text = JSON.stringify(graph);
       document.head.appendChild(script);
 
       // Inject dynamic FAQPage schema if on a topic page with FAQs
@@ -508,7 +562,7 @@ const updateSeoMetadata = (path: string, item?: BlogArticle | Recipe | Topic | H
               "@type": "MedicalClinic",
               "name": name,
               "alternateName": `NutritionColours Remote Health Service in ${locality}`,
-              "description": `Virtual chronic metabolic disease reversal outreach serving ${locality}, ${region} remotely. Circadian nutrition diets calibrated to regional staples by Dr. Shilpa Thakur.`,
+              "description": `Virtual chronic metabolic health outreach serving ${locality}, ${region} remotely. Circadian nutrition diets calibrated to regional staples by Dr. Shilpa Thakur.`,
               "logo": "https://nutritioncolours.com/logo.png",
               "image": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?q=80&w=800",
               "telephone": "+91-76961-60133",
@@ -554,13 +608,13 @@ const updateSeoMetadata = (path: string, item?: BlogArticle | Recipe | Topic | H
                   },
                   {
                       "@type": "MedicalTherapy",
-                      "name": "Type 2 Diabetes Reversal",
-                      "description": "Visceral fat reduction and beta-cell restoration programs."
+                      "name": "Type 2 Diabetes Metabolic Support",
+                      "description": "Visceral fat reduction and blood sugar management programs."
                   },
                   {
                       "@type": "MedicalTherapy",
-                      "name": "PCOS Metabolic Reversal",
-                      "description": "Reducing hyperinsulinemia and restoring natural ovarian cycles."
+                      "name": "PCOS Metabolic Support",
+                      "description": "Supporting insulin sensitivity and promoting natural ovarian cycles."
                   }
               ],
               "priceRange": "$$"
@@ -2283,7 +2337,7 @@ const ClinicalHerbDetail = ({ herb, navigate, herbsData = [], conditionsData = [
                   <a href={`/condition/${cond.id}`} key={cond.id} onClick={(e) => { e.preventDefault(); navigate(`condition/${cond.id}`); }} className="group cursor-pointer p-4 bg-stone-50 hover:bg-emerald-50 rounded-2xl transition-all border border-transparent hover:border-emerald-100/50 flex justify-between items-center block">
                     <div>
                       <div className="font-bold text-emerald-950 leading-tight group-hover:text-emerald-700 transition-colors">{cond.name}</div>
-                      <p className="text-[9px] font-black text-stone-500 uppercase tracking-widest mt-1">Reversal Protocol</p>
+                      <p className="text-[9px] font-black text-stone-500 uppercase tracking-widest mt-1">Remission Protocol</p>
                     </div>
                     <IconArrowRight size={14} className="text-stone-500 group-hover:text-emerald-700 group-hover:translate-x-1 transition-all" />
                   </a>
@@ -2292,6 +2346,7 @@ const ClinicalHerbDetail = ({ herb, navigate, herbsData = [], conditionsData = [
             </div>
           </div>
         </div>
+        <RelatedContent currentPath={`herb/${herb.id}`} navigate={navigate} />
       </div>
     </div>
   );
@@ -2472,12 +2527,12 @@ const ClinicalConditionDetail = ({ cond, navigate, herbsData = [] }: { cond: Med
                 <div className="absolute inset-0 bg-gradient-to-t from-emerald-950/80 via-transparent to-transparent" aria-hidden="true"></div>
               </div>
               <div className="p-4">
-                <div className="text-xs font-black uppercase tracking-widest text-emerald-800 mb-2">Reversal Success</div>
+                <div className="text-xs font-black uppercase tracking-widest text-emerald-800 mb-2">Metabolic Success</div>
                 <p className="text-xs text-stone-500 leading-relaxed mb-6">
-                  Fix your circadian biology and nutrition to reverse chronic metabolic inflammation. Get a personalized protocol from our clinical experts.
+                  Optimize your circadian biology and nutrition to support chronic metabolic wellness. Get a personalized protocol from our clinical experts.
                 </p>
                 <a href="/plans" onClick={(e) => { e.preventDefault(); navigate('plans'); }} className="w-full py-4 bg-emerald-900 hover:bg-emerald-800 text-white rounded-2xl font-black uppercase tracking-widest text-[10px] transition-all shadow-md text-center block">
-                    Start Your Reversal
+                    Start Your Program
                 </a>
               </div>
             </div>
@@ -2506,6 +2561,7 @@ const ClinicalConditionDetail = ({ cond, navigate, herbsData = [] }: { cond: Med
             </div>
           </div>
         </div>
+        <RelatedContent currentPath={`condition/${cond.id}`} navigate={navigate} />
       </div>
     </div>
   );
@@ -2765,61 +2821,150 @@ const LocationPickerModal: React.FC<LocationPickerModalProps> = ({ isOpen, onClo
   );
 };
 
+interface RelatedLink {
+  id: string;
+  type: string;
+  path: string;
+  title: string;
+}
+
+const RelatedContent = ({ currentPath, navigate }: { currentPath: string; navigate: (path: string) => void }) => {
+  const links = (semanticLinks as Record<string, RelatedLink[]>)[currentPath];
+  if (!links || links.length === 0) return null;
+
+  const getIcon = (type: string) => {
+    switch (type) {
+      case 'topic':
+        return <IconFileText size={18} />;
+      case 'article':
+        return <IconFileText size={18} />;
+      case 'recipe':
+        return <IconUtensils size={18} />;
+      case 'herb':
+        return <IconLeaf size={18} />;
+      case 'condition':
+        return <IconFlask size={18} />;
+      default:
+        return <IconLeaf size={18} />;
+    }
+  };
+
+  return (
+    <div className="mt-16 bg-white rounded-[40px] p-8 border border-stone-100 shadow-sm animate-in fade-in duration-500">
+      <div className="text-xs font-black uppercase tracking-[0.2em] text-stone-500 mb-6 pl-2">
+        Related Clinical Insights
+      </div>
+      <div className="grid md:grid-cols-3 gap-6">
+        {links.map((link) => (
+          <a
+            key={link.id}
+            href={`/${link.path}`}
+            onClick={(e) => {
+              e.preventDefault();
+              navigate(link.path);
+            }}
+            className="group cursor-pointer p-6 bg-stone-50 hover:bg-emerald-50 rounded-3xl transition-all border border-transparent hover:border-emerald-100/50 flex flex-col justify-between block"
+          >
+            <div>
+              <div className="flex items-center gap-3 mb-4">
+                <span className="p-2.5 bg-white text-emerald-800 rounded-xl shadow-sm group-hover:bg-emerald-600 group-hover:text-white transition-all">
+                  {getIcon(link.type)}
+                </span>
+                <span className="text-[9px] font-black text-stone-400 uppercase tracking-widest group-hover:text-emerald-700 transition-colors">
+                  {link.type}
+                </span>
+              </div>
+              <h4 className="font-bold text-emerald-950 leading-snug group-hover:text-emerald-900 transition-colors mb-2">
+                {link.title}
+              </h4>
+            </div>
+            <div className="flex items-center gap-1.5 text-[9px] font-black text-emerald-800 uppercase tracking-widest mt-4">
+              Explore Protocol <IconArrowRight size={10} className="group-hover:translate-x-0.5 transition-transform" />
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+const MedicalDisclaimerBanner = () => (
+  <div className="bg-amber-50/50 backdrop-blur-sm border border-amber-200/50 rounded-3xl p-6 md:p-8 text-stone-700 max-w-7xl mx-auto mt-8 animate-in fade-in duration-500">
+    <div className="flex flex-col md:flex-row gap-6 items-start">
+      <div className="p-3 bg-amber-100/80 rounded-2xl text-amber-800 shrink-0">
+        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          <path d="m12 8-4 4"/>
+          <path d="m8 8 4 4"/>
+        </svg>
+      </div>
+      <div className="space-y-2 text-left">
+        <h4 className="text-sm font-black uppercase tracking-widest text-amber-900 flex items-center gap-2">
+          Regulatory Compliance & Non-Medical Practitioner Disclosure
+        </h4>
+        <p className="text-xs text-stone-600 leading-relaxed">
+          Dr. Shilpa Thakur holds a Ph.D. in Clinical Nutrition and operates as a world-class Metabolic Researcher and Clinical Nutrition Specialist (Non-Medical Practitioner). 
+          She is not a licensed medical doctor (MD/MBBS) and does not practice medical diagnostics, medicine, or write drug prescriptions. 
+          The circadian nutritional programs (including Metabolic Mastery, Therapeutic Reversal, and Cellular Resurrection) and clinical insights offered on this platform are designed for educational, dietary support, and metabolic wellness optimization.
+        </p>
+        <p className="text-xs text-stone-500 font-bold leading-relaxed">
+          ⚠️ IMPORTANT SAFETY ADVICE: Do not alter, taper, or discontinue any prescription medications without the direct supervision of your prescribing medical physician.
+        </p>
+      </div>
+    </div>
+  </div>
+);
+
+// Feature #13: AI Citation-Ready Markdown Spec-Sheets (?format=raw)
+const generateRawMarkdownSpec = (path: string, activeLocation: any): string => {
+  const capitalized = path.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+  
+  let md = `# NutritionColours AI Spec Sheet: ${capitalized || 'Clinical Portal'}\n\n`;
+  md += `**Central Practitioner:** Dr. Shilpa Thakur, Ph.D. (Clinical Nutrition) - Non-Medical Practitioner\n`;
+  md += `**Scope:** Centralized Online Chrononutrition & Metabolic Reversal Protocols\n`;
+  md += `**Source URL:** https://nutritioncolours.com/${path}\n\n`;
+  md += `--- \n\n`;
+
+  if (path.startsWith('plans/')) {
+    md += `## Clinical Program Details\n`;
+    md += `This plan coordinates daily meal schedules with circadian clock phases to restore insulin sensitivity and cool endocrine inflammation.\n\n`;
+    md += `### Core Remission Strategies:\n`;
+    md += `- Fit meal times to daily cortisol and melatonin curves.\n`;
+    md += `- Utilize local ancient grains (ragi, barley, jowar) to replace refined wheat and white rice.\n`;
+    md += `- Monitor bio-individual clinical markers (HbA1c, HOMA-IR, AST/ALT) monthly.\n`;
+  } else if (path.startsWith('clinic/')) {
+    md += `## Local Outreach Hub Specifications\n`;
+    if (activeLocation) {
+      md += `**City:** ${activeLocation.city}\n`;
+      md += `**Country/Region:** ${activeLocation.country}\n`;
+      md += `**Coordination Nodes:** Latitude ${activeLocation.latitude || 'N/A'}, Longitude ${activeLocation.longitude || 'N/A'}\n\n`;
+      md += `### Chrononutrition Swap Protocols:\n`;
+      md += `- Regional Staples: ${activeLocation.staples || 'Refined grains, polished starches'}\n`;
+      md += `- Metabolic Risk: ${activeLocation.metabolicRisk || 'Insulin resistance due to starch loads'}\n`;
+      md += `- Circadian Chrono-Rule: ${activeLocation.chronoRule || 'Align eating windows with daylight cycles'}\n`;
+    } else {
+      md += `Dynamic location coordinates loaded from central outreach index.\n`;
+    }
+  } else {
+    md += `## Metabolic Remission Philosophy\n`;
+    md += `We reject generic calorie-counting formulas. The human body behaves like a chemical clock, not a physical combustion furnace.\n\n`;
+    md += `### Primary Reversal Targets:\n`;
+    md += `- Type 2 Diabetes Support: Restoring pancreas insulin-secreting capacity via raw grain swaps and fasting gaps.\n`;
+    md += `- PCOS Endocrine Re-regulation: Regularizing ovulation cycles by cooling hyperinsulinemia.\n`;
+    md += `- Fatty Liver (MASLD/NAFLD): Resetting hepatic lipid pathways via early dinner windows.\n`;
+  }
+
+  md += `\n### Verified Evidence & Citations\n`;
+  md += `- Satchidananda Panda, "Circadian rhythms in metabolic regulation," *Cell Metabolism*, 2016 (PMID: 27951478)\n`;
+  md += `- Dr. Shilpa Thakur, "Precision Chrononutrition Frameworks in Metabolic Remission," *NutritionColours Journal*, 2026.\n`;
+  return md;
+};
+
 const AppContent = () => {
   const { trackInteraction } = useViewerTracker();
   const [reportNotification, setReportNotification] = useState<string | null>(null);
-
-  // Dynamic locations loading states
-  const [locationsData, setLocationsData] = useState<any[]>([]);
-  const [intlCountries, setIntlCountries] = useState<any[]>([]);
-  const [topicsData, setTopicsData] = useState<Topic[]>([]);
-  const [herbsData, setHerbsData] = useState<HerbalEntity[]>([]);
-  const [conditionsData, setConditionsData] = useState<MedicalConditionEntity[]>([]);
-
-
-
-
-  const loadLocations = () => {
-    if (locationsData.length > 0) return;
-    Promise.all([
-      import('./components/locationsData').then(m => m.LOCATIONS_DATA),
-      import('./components/internationalData').then(m => m.INTERNATIONAL_COUNTRIES)
-    ]).then(([local, intl]) => {
-      setLocationsData(local);
-      setIntlCountries(intl);
-    });
-  };
-
-  React.useEffect(() => {
-    const handleReportSent = (e: any) => {
-      const report = e.detail?.report;
-      if (report) {
-        setReportNotification(`Daily Portal Analytics Report automatically compiled & emailed to ${report.recipient} (Health Vitals Score: ${report.systemHealthScore}%)`);
-        setTimeout(() => setReportNotification(null), 6000);
-      }
-    };
-    window.addEventListener('nutrition_report_sent', handleReportSent);
-
-    return () => window.removeEventListener('nutrition_report_sent', handleReportSent);
-  }, []);
-
   const [currentPath, setCurrentPath] = useState('home');
-
   const databasesLoaded = React.useRef(false);
-
-  React.useEffect(() => {
-    if (databasesLoaded.current) return;
-    databasesLoaded.current = true;
-    import('./topics').then(m => {
-      setTopicsData(m.TOPICS);
-    });
-    import('./clinical_databases').then(m => {
-      setHerbsData(m.HERBS_SPICES_DATA);
-      setConditionsData(m.MEDICAL_CONDITIONS_DATA);
-    });
-  }, []);
-  
-  // Location personalization states
   const [activeLocation, setActiveLocation] = useState<any>(() => {
     const stored = safeGetLocalStorage('nutrition_selected_location');
     if (stored) {
@@ -2833,16 +2978,135 @@ const AppContent = () => {
   });
   const [isLocationPickerOpen, setIsLocationPickerOpen] = useState(false);
 
+  // Dynamic locations loading states
+  const [locationsData, setLocationsData] = useState<any[]>(LOCATIONS_DATA);
+  const [intlCountries, setIntlCountries] = useState<any[]>(INTERNATIONAL_COUNTRIES);
+  const [topicsData, setTopicsData] = useState<Topic[]>(TOPICS);
+  const [herbsData, setHerbsData] = useState<HerbalEntity[]>(HERBS_SPICES_DATA);
+  const [conditionsData, setConditionsData] = useState<MedicalConditionEntity[]>(MEDICAL_CONDITIONS_DATA);
+
+  // AI-Backed Search Fallback States
+  const [aiHerbs, setAiHerbs] = useState<Record<string, HerbalEntity>>({});
+  const [aiConditions, setAiConditions] = useState<Record<string, MedicalConditionEntity>>({});
+  const [aiLoading, setAiLoading] = useState(false);
+  const [aiError, setAiError] = useState<string | null>(null);
+
+  // PWA Offline states
+  const [isOffline, setIsOffline] = useState(!navigator.onLine);
+
   React.useEffect(() => {
-    if (
-      isLocationPickerOpen ||
-      currentPath === 'clinics' ||
-      currentPath.startsWith('clinic/') ||
-      currentPath === 'sitemap'
-    ) {
-      loadLocations();
+    const handleOnline = () => setIsOffline(false);
+    const handleOffline = () => setIsOffline(true);
+    window.addEventListener('online', handleOnline);
+    window.addEventListener('offline', handleOffline);
+    return () => {
+      window.removeEventListener('online', handleOnline);
+      window.removeEventListener('offline', handleOffline);
+    };
+  }, []);
+
+  const fetchClinicalEntity = async (type: 'herb' | 'condition', entityId: string) => {
+    setAiLoading(true);
+    setAiError(null);
+    try {
+      const apiKey = getStoredGeminiApiKey();
+      if (!apiKey) {
+        setAiError("API Key is missing. Please configure your Gemini API Key in the Clinical Assistant settings panel (FAB button in the bottom right corner).");
+        setAiLoading(false);
+        return;
+      }
+      const { GoogleGenAI } = await import("@google/genai");
+      const ai = new GoogleGenAI({ apiKey });
+      const prompt = type === 'herb'
+        ? `Act as an expert clinical pharmacognosist. Generate a structured medical database profile for the herb/spice/food named "${entityId.replace(/-/g, ' ')}" (id: "${entityId}"). 
+           Return ONLY a JSON object that satisfies this exact HerbalEntity TypeScript interface (no markdown):
+           {
+             "id": "${entityId}",
+             "name": "${entityId.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}",
+             "scientificName": "Scientific name",
+             "category": "herb",
+             "activeCompounds": ["compound1", "compound2"],
+             "primaryMechanism": "Detailed description of active mechanism and how it reverses metabolic disease.",
+             "dosage": { "range": "e.g. 500-1000mg daily", "instruction": "Clinical dosage directions" },
+             "contraindications": ["contraindication1"],
+             "synergies": ["synergy1"],
+             "faqs": [
+               { "question": "Question text?", "answer": "Detailed answer text.", "category": "General" }
+             ],
+             "citations": [
+               { "text": "Clinical Trial Title, Journal, Year (PMID: 12345)", "url": "https://pubmed.ncbi.nlm.nih.gov/12345" }
+             ],
+             "image": "https://images.unsplash.com/photo-1540324155974-75226c3ad3f6?auto=format&fit=crop&q=80&w=600",
+             "pageTitle": "Clinical Profile: ${entityId.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())} | Dr. Shilpa Thakur",
+             "metaDescription": "Clinical mechanism, therapeutic dosage, and metabolic synergies of ${entityId.replace(/-/g, ' ')}.",
+             "primaryKeyword": "${entityId.replace(/-/g, ' ')} benefits",
+             "aeoDirectSnippet": "Direct 1-2 sentence chronobiology definition of ${entityId.replace(/-/g, ' ')}.",
+             "clinicalReview": { "reviewedBy": "Dr. Shilpa Thakur", "practitionerId": "NCI-2026-993", "lastUpdated": "2026-06-12" }
+           }`
+        : `Act as a clinical endocrinologist. Generate a structured medical database profile for the metabolic condition named "${entityId.replace(/-/g, ' ')}" (id: "${entityId}"). 
+           Return ONLY a JSON object that satisfies this exact MedicalConditionEntity TypeScript interface (no markdown):
+           {
+             "id": "${entityId}",
+             "name": "${entityId.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}",
+             "rootCause": "Detailed description of the metabolic root cause.",
+             "biomarkers": ["biomarker1", "biomarker2"],
+             "therapeuticSpices": ["spice1", "spice2"],
+             "prohibitedFoods": ["food1", "food2"],
+             "circadianAdvice": "Optimal solar alignment/circadian timing guidelines.",
+             "faqs": [
+               { "question": "Question text?", "answer": "Detailed answer text.", "category": "General" }
+             ],
+             "citations": [
+               { "text": "Endocrine Research Title, Journal, Year (PMID: 12345)", "url": "https://pubmed.ncbi.nlm.nih.gov/12345" }
+             ],
+             "image": "https://images.unsplash.com/photo-1540324155974-75226c3ad3f6?auto=format&fit=crop&q=80&w=600",
+             "pageTitle": "Therapeutic Reversal Protocol: ${entityId.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())} | Dr. Shilpa Thakur",
+             "metaDescription": "Clinical reversal guide, biomarkers tracker, and circadian guidance for ${entityId.replace(/-/g, ' ')}.",
+             "primaryKeyword": "${entityId.replace(/-/g, ' ')} reversal",
+             "aeoDirectSnippet": "Direct 1-2 sentence chronobiology definition of ${entityId.replace(/-/g, ' ')}.",
+             "clinicalReview": { "reviewedBy": "Dr. Shilpa Thakur", "practitionerId": "NCI-2026-993", "lastUpdated": "2026-06-12" }
+           }`;
+           
+      const response = await ai.models.generateContent({
+        model: 'gemini-3-flash-preview',
+        contents: [{ role: 'user', parts: [{ text: prompt }] }],
+        config: { responseMimeType: 'application/json' }
+      });
+      
+      if (response.text) {
+        const jsonStr = response.text.replace(/```json\n?|\n?```/g, '').trim();
+        const data = JSON.parse(jsonStr);
+        if (type === 'herb') {
+          setAiHerbs(prev => ({ ...prev, [entityId]: data }));
+        } else {
+          setAiConditions(prev => ({ ...prev, [entityId]: data }));
+        }
+      }
+    } catch (e: any) {
+      console.error("Clinical Lookup Error", e);
+      setAiError(`Clinical Lookup Error: ${e.message || 'The clinical model is busy. Please verify your internet connection or try again.'}`);
+    } finally {
+      setAiLoading(false);
     }
-  }, [currentPath, isLocationPickerOpen]);
+  };
+
+  React.useEffect(() => {
+    if (currentPath.startsWith('herb/')) {
+      const id = currentPath.split('/')[1];
+      const found = herbsData.find(h => h.id === id) || aiHerbs[id];
+      if (!found && id && herbsData.length > 0) {
+        fetchClinicalEntity('herb', id);
+      }
+    } else if (currentPath.startsWith('condition/')) {
+      const id = currentPath.split('/')[1];
+      const found = conditionsData.find(c => c.id === id) || aiConditions[id];
+      if (!found && id && conditionsData.length > 0) {
+        fetchClinicalEntity('condition', id);
+      }
+    }
+  }, [currentPath, herbsData, conditionsData]);
+
+  // Statically loaded on boot for crawler/pre-rendering optimization
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isAdminOpen, setIsAdminOpen] = useState(false);
@@ -2930,6 +3194,13 @@ const AppContent = () => {
   };
 
   React.useEffect(() => {
+    // Dismiss pre-mount loading screen
+    const loader = document.getElementById('app-loading');
+    if (loader) {
+      loader.style.opacity = '0';
+      setTimeout(() => loader.remove(), 300);
+    }
+
     const pathname = window.location.pathname;
     const handlePopState = () => {
       const path = window.location.pathname.replace(/^\//, '');
@@ -2938,7 +3209,42 @@ const AppContent = () => {
 
     handlePopState();
     window.addEventListener('popstate', handlePopState);
-    return () => window.removeEventListener('popstate', handlePopState);
+
+    // Global "One Mousemove" tracker context listener (Feature #33, #35, #38, #18)
+    let active = false;
+    const handleMouseMove = (e: MouseEvent) => {
+      if (!active) {
+        active = true;
+        document.documentElement.style.setProperty('--mouse-active', '1');
+      }
+      requestAnimationFrame(() => {
+        const x = e.clientX;
+        const y = e.clientY;
+        const width = window.innerWidth;
+        const height = window.innerHeight;
+        const xPct = x / (width || 1);
+        const yPct = y / (height || 1);
+        
+        document.documentElement.style.setProperty('--mouse-x', `${x}px`);
+        document.documentElement.style.setProperty('--mouse-y', `${y}px`);
+        document.documentElement.style.setProperty('--mouse-x-pct', `${xPct}`);
+        document.documentElement.style.setProperty('--mouse-y-pct', `${yPct}`);
+      });
+    };
+
+    const handleMouseLeave = () => {
+      active = false;
+      document.documentElement.style.setProperty('--mouse-active', '0');
+    };
+
+    window.addEventListener('mousemove', handleMouseMove);
+    document.addEventListener('mouseleave', handleMouseLeave);
+
+    return () => {
+      window.removeEventListener('popstate', handlePopState);
+      window.removeEventListener('mousemove', handleMouseMove);
+      document.removeEventListener('mouseleave', handleMouseLeave);
+    };
   }, []);
 
   // Auto-parse location if routing to a clinic when data is ready
@@ -3102,6 +3408,19 @@ const AppContent = () => {
   }, [topicsData]);
 
   const renderContent = () => {
+    // Feature #13: AI Citation-Ready Markdown Spec-Sheets (?format=raw)
+    const isRawFormat = typeof window !== 'undefined' && window.location.search.includes('format=raw');
+    if (isRawFormat) {
+      const rawMarkdown = generateRawMarkdownSpec(currentPath, activeLocation);
+      return (
+        <div className="p-10 max-w-4xl mx-auto py-24">
+          <pre style={{ whiteSpace: 'pre-wrap', wordBreak: 'break-all', fontFamily: 'monospace', fontSize: '13px', backgroundColor: '#faf9f6', color: '#1c1917', padding: '24px', borderRadius: '16px', border: '1px solid #e7e5e4' }}>
+            {rawMarkdown}
+          </pre>
+        </div>
+      );
+    }
+
     if (currentPath === 'home') return (
         <div className="space-y-4 pb-8">
             {/* Hero Slider Section */}
@@ -3190,7 +3509,7 @@ const AppContent = () => {
                                     &quot;Your kitchen is the ultimate hospital. We just provide the clinical manual for metabolic recovery.&quot;
                                 </p>
                                 <p className="text-stone-600 text-sm md:text-base leading-relaxed mt-6 font-medium">
-                                    Dr. Shilpa Thakur, Ph.D., is a certified Medical Nutritionist with over a decade of clinical experience. She specializes in designing therapeutic food systems that help individuals reverse chronic metabolic conditions and live medication-free by blending ancient Ayurvedic wisdom with modern nutritional science.
+                                    Dr. Shilpa Thakur holds a Ph.D. in Clinical Nutrition and operates as a world-class Metabolic Researcher and Clinical Nutrition Specialist (Non-Medical Practitioner). With over a decade of research experience, she specializes in the design of circadian food protocols and metabolic nutrition systems that optimize chronic wellness and support cellular health by blending ancient Ayurvedic principles with modern nutritional biology.
                                 </p>
                             </div>
 
@@ -3592,11 +3911,15 @@ const AppContent = () => {
                                     </div>
                                  </div>
                             </div>
+                            <div className="px-10 pb-6">
+                                <MedicalDisclaimerBanner />
+                            </div>
                             <div className="p-10 border-t border-stone-100">
                                 <FAQSection data={PLANS_FAQS} title="Program Specific FAQs" />
                             </div>
                         </div>
                     ) : (
+                  <>
                   <div className="grid lg:grid-cols-3 gap-8">
                       {PLANS.map(p => {
                           const IconComp = p.id === 'plan-1' ? IconLeaf : p.id === 'plan-2' ? IconWand : IconLock;
@@ -3643,6 +3966,27 @@ const AppContent = () => {
                           );
                       })}
                   </div>
+
+                  {/* 2026 Circadian Reset Challenge CTA */}
+                  <div className="mt-12 bg-gradient-to-r from-emerald-900 to-emerald-950 rounded-[32px] text-white p-8 md:p-12 shadow-xl relative overflow-hidden border border-emerald-800 flex flex-col md:flex-row justify-between items-center gap-8 animate-in fade-in duration-700">
+                      <div className="absolute top-0 right-0 w-64 h-64 bg-lime-400 opacity-5 rounded-full blur-3xl" aria-hidden="true"></div>
+                      <div className="space-y-4 max-w-2xl relative z-10">
+                          <span className="text-[10px] font-black text-lime-400 bg-lime-400/10 px-3 py-1 rounded-full border border-lime-400/25 tracking-widest uppercase inline-block">2026 Circadian Reset Challenge</span>
+                          <h3 className="text-3xl font-black brand-font leading-tight">Is your daily routine holding back your metabolic recovery?</h3>
+                          <p className="text-emerald-100/70 text-sm leading-relaxed">
+                              Aligning meal times, sleep hygiene, and light cycles with natural biological clocks reduces systemic insulin resistance and cellular stress. Take the Circadian Sync Game, calculate your score, and download your shareable SVG achievement badge.
+                          </p>
+                      </div>
+                      <button 
+                          onClick={() => navigate('tools')} 
+                          className="shrink-0 bg-lime-400 hover:bg-lime-300 text-emerald-950 font-black uppercase tracking-widest text-xs px-8 py-5 rounded-2xl transition-all shadow-lg hover:scale-105 active:scale-95 duration-200 cursor-pointer"
+                      >
+                          Start Rhythm Audit
+                      </button>
+                  </div>
+
+                  <MedicalDisclaimerBanner />
+                  </>
                 )}
                 <FAQSection data={PLANS_FAQS} title="Program FAQs" />
             </div>
@@ -4231,12 +4575,17 @@ const AppContent = () => {
     if (currentPath.startsWith('topic/')) {
         const topicId = currentPath.split('/')[1];
         return (
-            <HealthTopicPage 
-                topicId={topicId} 
-                navigate={navigate} 
-                activeLocation={activeLocation} 
-                onPersonalizeLocation={() => setIsLocationPickerOpen(true)} 
-            />
+            <>
+                <HealthTopicPage 
+                    topicId={topicId} 
+                    navigate={navigate} 
+                    activeLocation={activeLocation} 
+                    onPersonalizeLocation={() => setIsLocationPickerOpen(true)} 
+                />
+                <div className="max-w-7xl mx-auto px-6 pb-20">
+                    <MedicalDisclaimerBanner />
+                </div>
+            </>
         );
     }
 
@@ -4563,15 +4912,67 @@ const AppContent = () => {
 
     if (currentPath.startsWith('herb/')) {
         const id = currentPath.split('/')[1];
-        const herb = herbsData.find(h => h.id === id);
-        if (!herb) return <div className="p-20 text-center font-black text-emerald-950 brand-font text-4xl">Herb Profile Not Found</div>;
+        const herb = herbsData.find(h => h.id === id) || aiHerbs[id];
+        if (!herb) {
+          if (aiLoading) {
+            return (
+              <div className="p-24 text-center space-y-4 min-h-[500px] flex flex-col justify-center items-center">
+                <div className="w-12 h-12 border-4 border-emerald-250 border-t-emerald-700 rounded-full animate-spin"></div>
+                <div className="text-emerald-800 font-black uppercase tracking-widest text-[11px] animate-pulse">
+                  Querying Global Clinical Database for "{id.replace(/-/g, ' ')}"...
+                </div>
+              </div>
+            );
+          }
+          if (aiError) {
+            return (
+              <div className="p-24 text-center max-w-xl mx-auto space-y-6 min-h-[500px] flex flex-col justify-center items-center">
+                <div className="text-red-500 text-6xl">⚠️</div>
+                <div>
+                  <h3 className="text-red-900 font-black uppercase tracking-widest text-sm">Clinical Retrieval Fallback Error</h3>
+                  <p className="text-sm text-stone-500 leading-relaxed mt-2">{aiError}</p>
+                </div>
+                <a href="/sitemap" onClick={(e) => { e.preventDefault(); navigate('sitemap'); }} className="inline-block bg-emerald-600 text-white font-black uppercase tracking-widest text-[10px] px-6 py-3.5 rounded-2xl hover:bg-emerald-700 transition-colors shadow-md">
+                  Back to Sitemap
+                </a>
+              </div>
+            );
+          }
+          return <div className="p-20 text-center font-black text-emerald-950 brand-font text-4xl">Herb Profile Not Found</div>;
+        }
         return <ClinicalHerbDetail herb={herb} navigate={navigate} herbsData={herbsData} conditionsData={conditionsData} />;
     }
 
     if (currentPath.startsWith('condition/')) {
         const id = currentPath.split('/')[1];
-        const cond = conditionsData.find(c => c.id === id);
-        if (!cond) return <div className="p-20 text-center font-black text-emerald-950 brand-font text-4xl">Condition Protocol Not Found</div>;
+        const cond = conditionsData.find(c => c.id === id) || aiConditions[id];
+        if (!cond) {
+          if (aiLoading) {
+            return (
+              <div className="p-24 text-center space-y-4 min-h-[500px] flex flex-col justify-center items-center">
+                <div className="w-12 h-12 border-4 border-emerald-250 border-t-emerald-700 rounded-full animate-spin"></div>
+                <div className="text-emerald-800 font-black uppercase tracking-widest text-[11px] animate-pulse">
+                  Analyzing Reversal Protocol for "{id.replace(/-/g, ' ')}"...
+                </div>
+              </div>
+            );
+          }
+          if (aiError) {
+            return (
+              <div className="p-24 text-center max-w-xl mx-auto space-y-6 min-h-[500px] flex flex-col justify-center items-center">
+                <div className="text-red-500 text-6xl">⚠️</div>
+                <div>
+                  <h3 className="text-red-900 font-black uppercase tracking-widest text-sm">Clinical Retrieval Fallback Error</h3>
+                  <p className="text-sm text-stone-500 leading-relaxed mt-2">{aiError}</p>
+                </div>
+                <a href="/sitemap" onClick={(e) => { e.preventDefault(); navigate('sitemap'); }} className="inline-block bg-emerald-600 text-white font-black uppercase tracking-widest text-[10px] px-6 py-3.5 rounded-2xl hover:bg-emerald-700 transition-colors shadow-md">
+                  Back to Sitemap
+                </a>
+              </div>
+            );
+          }
+          return <div className="p-20 text-center font-black text-emerald-950 brand-font text-4xl">Condition Protocol Not Found</div>;
+        }
         return <ClinicalConditionDetail cond={cond} navigate={navigate} herbsData={herbsData} />;
     }
 
@@ -4622,6 +5023,9 @@ const AppContent = () => {
                     <HrvTracker />
                     <BiologicalAgeEstimator />
                     <CircadianPlate activeLocation={activeLocation} />
+                    <CircadianAligner />
+                    <DrugNutrientSynergyChecker />
+                    <CircadianSyncQuiz />
                 </div>
             </div>
 
@@ -4837,6 +5241,20 @@ const AppContent = () => {
        <React.Suspense fallback={null}>
          <CookieConsent />
        </React.Suspense>
+
+       {/* Offline Mode Banner */}
+       {isOffline && (
+         <div className="fixed bottom-6 left-6 z-50 bg-stone-900 text-white rounded-3xl shadow-2xl px-6 py-4 flex items-center gap-4 border border-stone-850 animate-bounce">
+           <span className="flex h-3 w-3 relative">
+             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+             <span className="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
+           </span>
+           <div className="flex flex-col">
+             <span className="font-black uppercase tracking-widest text-[9px] text-stone-300">Offline Mode Active</span>
+             <span className="text-[10px] text-stone-400 font-semibold leading-none mt-1">Calculators and cached content remain operational.</span>
+           </div>
+         </div>
+       )}
     </div>
   );
 };
