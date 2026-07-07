@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import gsap from 'gsap';
-import { BANNERS } from '../data/constants';
+import { BANNERS } from '@/lib/constants';
 
 interface HeroSliderProps {
   banners: typeof BANNERS;
@@ -48,7 +48,7 @@ export const HeroSlider: React.FC<HeroSliderProps> = ({ banners }) => {
 
   return (
     <div className="relative w-full min-h-[680px] md:min-h-[550px] md:h-[65vh] lg:h-[75vh] bg-emerald-950 overflow-hidden">
-      {banners.map((banner, i) => {
+      {banners.map((banner: any, i: number) => {
         const isCurrent = i === current;
         return (
           <div
@@ -85,7 +85,7 @@ export const HeroSlider: React.FC<HeroSliderProps> = ({ banners }) => {
                     <span className="text-lime-400 text-[10px] font-black uppercase tracking-[0.6em] block drop-shadow-md">Clinical Metabolic Protocol</span>
                   </div>
                   <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-black brand-font leading-[0.9] md:leading-[0.85] tracking-tighter text-white">
-                    {banner.title.split(' ').map((word, index) => (
+                    {banner.title.split(' ').map((word: string, index: number) => (
                       <span key={index} className={index % 2 === 1 ? 'text-lime-400' : ''}>
                         {word}{' '}
                       </span>
@@ -100,15 +100,15 @@ export const HeroSlider: React.FC<HeroSliderProps> = ({ banners }) => {
                 <div className="flex flex-col gap-4 w-full max-w-[320px]">
                   <a href="/plans" className="w-full bg-lime-400 text-emerald-950 py-4 px-6 rounded-2xl font-black uppercase tracking-widest text-[10px] hover:bg-white hover:text-emerald-950 transition-all shadow-2xl shadow-lime-400/20 transform hover:translate-x-2 active:scale-95 group flex items-center justify-between">
                     <span>Reclaim Biological Freedom</span>
-                    <svg aria-hidden="true" class="group-hover:translate-x-1 transition-transform" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                    <svg aria-hidden="true" className="group-hover:translate-x-1 transition-transform" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                   </a>
                   <a href="/about" className="w-full bg-white/5 backdrop-blur-xl text-white border border-white/20 py-4 px-6 rounded-2xl font-black uppercase tracking-widest text-[10px] hover:bg-white hover:text-emerald-950 transition-all transform hover:translate-x-2 active:scale-95 group flex items-center justify-between">
                     <span>Stop Calorie Counting</span>
-                    <svg aria-hidden="true" class="text-lime-400" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
+                    <svg aria-hidden="true" className="text-lime-400" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
                   </a>
                   <a href="/connect" className="w-full bg-white/5 backdrop-blur-xl text-white border border-white/10 py-4 px-6 rounded-2xl font-black uppercase tracking-widest text-[10px] hover:bg-white hover:text-emerald-950 transition-all transform hover:translate-x-2 active:scale-95 group flex items-center justify-between">
                     <span>Join Medicine-Free Hub</span>
-                    <svg aria-hidden="true" class="text-lime-400" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 2h6"/><path d="M12 2v14"/><path d="M12 22a7 7 0 1 0 0-14 7 7 0 0 0 0 14z"/><path d="M15.5 13.5l1.5-1.5"/><path d="M8.5 13.5l-1.5-1.5"/></svg>
+                    <svg aria-hidden="true" className="text-lime-400" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 2h6"/><path d="M12 2v14"/><path d="M12 22a7 7 0 1 0 0-14 7 7 0 0 0 0 14z"/><path d="M15.5 13.5l1.5-1.5"/><path d="M8.5 13.5l-1.5-1.5"/></svg>
                   </a>
                 </div>
               </div>
@@ -117,7 +117,7 @@ export const HeroSlider: React.FC<HeroSliderProps> = ({ banners }) => {
         );
       })}
       <div className="absolute bottom-6 md:bottom-12 left-1/2 -translate-x-1/2 flex gap-4 z-30 items-center">
-        {banners.map((_, i) => (
+        {banners.map((_: any, i: number) => (
           <button key={i} onClick={() => handleDotClick(i)} className="h-12 w-12 transition-all focus:outline-none flex items-center justify-center rounded-full" aria-label={`Go to slide ${i + 1}`}>
             <span className={`h-1.5 rounded-full transition-colors duration-500 ${i === current ? 'w-10 bg-lime-400' : 'w-3 bg-white/30 hover:bg-white/50'}`} style={{ transformOrigin: 'left center' }} />
           </button>

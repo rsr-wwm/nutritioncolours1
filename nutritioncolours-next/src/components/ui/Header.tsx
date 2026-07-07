@@ -9,7 +9,7 @@ const usePathname = () => {
 };
 import { Logo } from './Logo';
 import CompatLink from '@/components/CompatLink';
-import { LocalizationHub } from './LocalizationHub';
+import { LocalizationHub } from '../LocalizationHub';
 import { useIntentAwareNavigation } from '@/lib/intentNavigation';
 import {
   IconPhone, IconMail, IconMapPin,
@@ -139,7 +139,7 @@ export function Header() {
                             className={`w-full text-left px-4 py-3 rounded-xl text-[11px] font-black uppercase tracking-wider transition-all flex items-center justify-between ${currentPath.startsWith(child.id) ? 'bg-emerald-50 text-emerald-900' : 'text-stone-600 dark:text-stone-300 hover:bg-stone-50 dark:hover:bg-white/5 hover:text-emerald-900'}`}
                           >
                             <span>{child.label}</span>
-                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 opacity-0 group-hover:opacity-100 transition-opacity"></span>
+                            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 opacity-0 group-hover:opacity-100 transition-opacity"></span>
                           </CompatLink>
                         ))}
                       </div>
@@ -157,7 +157,7 @@ export function Header() {
               {darkMode ? <IconSun size={16} className="text-amber-500" /> : <IconMoon size={16} className="text-emerald-950" />}
             </button>
             
-            <a href="/contact" class="ml-4 bg-emerald-900 text-white hover:bg-emerald-800 px-6 py-3 rounded-xl text-xs font-black uppercase tracking-widest transition-all shadow-xl shadow-emerald-900/10 hover:-translate-y-0.5 hover:shadow-emerald-900/20">
+            <a href="/contact" className="ml-4 bg-emerald-900 text-white hover:bg-emerald-800 px-6 py-3 rounded-xl text-xs font-black uppercase tracking-widest transition-all shadow-xl shadow-emerald-900/10 hover:-translate-y-0.5 hover:shadow-emerald-900/20">
               Contact
             </a>
           </div>

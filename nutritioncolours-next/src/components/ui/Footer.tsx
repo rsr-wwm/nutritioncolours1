@@ -1,7 +1,7 @@
 'use client';
 
 // // // // // import CompatLink from '@/components/CompatLink';
-import CompatLink from '/src/components/CompatLink'; // Replaced for Astro compatibility
+import CompatLink from '@/components/CompatLink'; // Replaced for Astro compatibility
 import { Logo } from './Logo';
 import {
   IconPhone, IconMail, IconInstagram, IconLinkedIn, IconTwitter,

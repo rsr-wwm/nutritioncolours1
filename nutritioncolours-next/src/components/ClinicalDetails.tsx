@@ -1,7 +1,7 @@
 'use client';
 import { useState } from 'react';
 // // // // // import CompatLink from '@/components/CompatLink';
-import CompatLink from '/src/components/CompatLink'; // Replaced for Astro compatibility
+import CompatLink from '@/components/CompatLink'; // Replaced for Astro compatibility
 import { HERBS_SPICES_DATA, MEDICAL_CONDITIONS_DATA } from '@/lib/clinical_databases';
 import { IconLeaf, IconFlask, IconMapPin, IconArrowRight, IconCheck } from './ui/Icons';
 import { Accordion } from './ui/Accordion';

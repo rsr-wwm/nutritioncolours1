@@ -1,5 +1,5 @@
 // // // // // import CompatLink from '@/components/CompatLink';
-import CompatLink from '/src/components/CompatLink'; // Replaced for Astro compatibility
+import CompatLink from '@/components/CompatLink'; // Replaced for Astro compatibility
 
 interface HeroProps {
   title: string;
