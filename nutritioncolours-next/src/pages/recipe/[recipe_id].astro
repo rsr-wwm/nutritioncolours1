@@ -1,4 +1,5 @@
 ---
+import BaseLayout from '../../layouts/BaseLayout.astro';
 import Icons from '../../components/Icons.astro';
 import SharedSections from '../../components/SharedSections.astro';
 import Accordion from '../../components/Accordion.astro';
@@ -27,9 +28,32 @@ function getAeoSnippet(customSnippet?: string, fallbackText?: string): string {
   if (words.length <= 35) return fallbackText;
   return words.slice(0, 35).join(' ') + '...';
 }
+
+const recipeSchema = {
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": recipe.title,
+  "description": recipe.description,
+  "author": {
+    "@type": "Person",
+    "name": recipe.preparedBy || "Dr. Shilpa Thakur"
+  },
+  "calories": `${recipe.calories} KCAL`,
+  "recipeCategory": recipe.category,
+  "recipeIngredient": recipe.ingredients || [],
+  "recipeInstructions": recipe.instructions || []
+};
 ---
 
-<div class="min-h-screen bg-stone-50/30 pb-24 pt-24">
+<BaseLayout 
+  title={`${recipe.title} | Metabolic Nutrition Recipe`}
+  description={`Dr. Shilpa Thakur's clinical protocol for ${recipe.title}. Glycemic load: ${recipe.glycemicLoad || 'Low'}, Prepared by: ${recipe.preparedBy}.`}
+  keywords={[recipe.category, "Metabolic Recipe", recipe.title]}
+>
+  {/* Dynamic JSON-LD Schema */}
+  <script type="application/ld+json" set:html={JSON.stringify(recipeSchema)} />
+
+  <div class="min-h-screen bg-stone-50/30 pb-24 pt-24">
   <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-12 gap-12">
     <div class="lg:col-span-8 space-y-12">
       <div class="bg-white rounded-[48px] p-10 md:p-16 border border-stone-100 shadow-sm relative overflow-hidden">
@@ -188,3 +212,4 @@ function getAeoSnippet(customSnippet?: string, fallbackText?: string): string {
     </aside>
   </div>
 </div>
+</BaseLayout>

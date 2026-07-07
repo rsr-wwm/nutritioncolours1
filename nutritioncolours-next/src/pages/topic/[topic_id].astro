@@ -70,9 +70,28 @@ function getAeoSnippet(customSnippet?: string, fallbackText?: string): string {
   if (words.length <= 35) return fallbackText;
   return words.slice(0, 35).join(' ') + '...';
 }
+const topicSchema = {
+  "@context": "https://schema.org",
+  "@type": "MedicalCondition",
+  "name": topic.title,
+  "description": topic.shortDesc || topic.solution,
+  "possibleTreatment": [
+    {
+      "@type": "MedicalTherapy",
+      "name": "Circadian Nutrition Optimization"
+    }
+  ]
+};
 ---
 
-<BaseLayout>
+<BaseLayout 
+  title={topic.pageTitle || `${topic.title} | Clinical Protocol`}
+  description={topic.metaDescription || topic.shortDesc}
+  keywords={[topic.primaryKeyword || topic.title, "Clinical Protocol", "NutritionColours"]}
+>
+  {/* Dynamic JSON-LD Schema */}
+  <script type="application/ld+json" set:html={JSON.stringify(topicSchema)} />
+
 <div class="space-y-20 pb-20 bg-white">
   {/* Scientific Dossier Hero */}
   <div class="bg-emerald-950 pt-40 pb-24 px-6 relative overflow-hidden">
