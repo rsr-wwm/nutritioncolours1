@@ -4,8 +4,8 @@ import CompatLink from '/src/components/CompatLink'; // Replaced for Astro compa
 import { RECIPES } from '@/lib/recipes_database';
 import { RECIPE_SPECIFIC_FAQS } from '@/lib/constants';
 import { ClinicalCategorySign, getAeoSnippet } from '@/components/SharedSections';
-import { Accordion } from '@/components/Accordion';
-import { IconFlask, IconCheck, IconArrowRight, IconUtensils } from '@/components/Icons';
+import { Accordion } from '@/components/ui/Accordion';
+import { IconFlask, IconCheck, IconArrowRight, IconUtensils } from '@/components/ui/Icons';
 
 export function RecipeClientPage({ recipeId }: { recipeId: string }) {
   const recipe = RECIPES.find(r => r.id === recipeId);

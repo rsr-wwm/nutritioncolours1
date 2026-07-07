@@ -5,7 +5,7 @@ import CompatLink from '/src/components/CompatLink'; // Replaced for Astro compa
 import { BLOG_ARTICLES, BLOGS_FAQS } from '@/lib/constants';
 import { CategoryType } from '@/lib/types';
 import { FAQSection } from '@/components/SharedSections';
-import { IconSearch, IconFlask, IconArrowRight } from '@/components/Icons';
+import { IconSearch, IconFlask, IconArrowRight } from '@/components/ui/Icons';
 
 export default function BlogsPage() {
   const [blogQuery, setBlogQuery] = useState('');

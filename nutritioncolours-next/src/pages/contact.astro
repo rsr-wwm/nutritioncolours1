@@ -1,0 +1,11 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ContactPage from '../app/contact/page.tsx';
+---
+
+<BaseLayout
+  title="Contact Us | NutritionColours Reversal Clinic"
+  description="Get in touch with our clinical support, schedule consulting sessions, or send general inquiries to our medical team."
+>
+  <ContactPage client:load />
+</BaseLayout>

@@ -1,8 +1,8 @@
 'use client';
 import { TESTIMONIALS, TESTIMONIALS_FAQS } from '@/lib/constants';
-import { SectionHeading } from '@/components/SectionHeading';
+import { SectionHeading } from '@/components/ui/SectionHeading';
 import { FAQSection } from '@/components/SharedSections';
-import { IconUser } from '@/components/Icons';
+import { IconUser } from '@/components/ui/Icons';
 
 export default function TestimonialsPage() {
   return (

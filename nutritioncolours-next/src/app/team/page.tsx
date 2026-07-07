@@ -2,9 +2,9 @@
 // // // // // import CompatLink from '@/components/CompatLink';
 import CompatLink from '/src/components/CompatLink'; // Replaced for Astro compatibility
 import { TEAM, TEAM_FAQS } from '@/lib/constants';
-import { SectionHeading } from '@/components/SectionHeading';
+import { SectionHeading } from '@/components/ui/SectionHeading';
 import { FAQSection } from '@/components/SharedSections';
-import { IconArrowRight } from '@/components/Icons';
+import { IconArrowRight } from '@/components/ui/Icons';
 
 export default function TeamPage() {
   const departments = [

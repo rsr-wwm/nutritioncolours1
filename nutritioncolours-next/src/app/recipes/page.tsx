@@ -4,9 +4,9 @@ import { useState } from 'react';
 import CompatLink from '/src/components/CompatLink'; // Replaced for Astro compatibility
 import { RECIPES } from '@/lib/recipes_database';
 import { RECIPES_FAQS } from '@/lib/constants';
-import { SectionHeading } from '@/components/SectionHeading';
+import { SectionHeading } from '@/components/ui/SectionHeading';
 import { FAQSection } from '@/components/SharedSections';
-import { IconSearch, IconUtensils, IconArrowRight } from '@/components/Icons';
+import { IconSearch, IconUtensils, IconArrowRight } from '@/components/ui/Icons';
 
 export default function RecipesPage() {
   const [recipeQuery, setRecipeQuery] = useState('');

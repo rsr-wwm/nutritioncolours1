@@ -1,8 +1,8 @@
 'use client';
 import { ABOUT_FAQS } from '@/lib/constants';
-import { SectionHeading } from '@/components/SectionHeading';
+import { SectionHeading } from '@/components/ui/SectionHeading';
 import { FAQSection } from '@/components/SharedSections';
-import { IconLeaf } from '@/components/Icons';
+import { IconLeaf } from '@/components/ui/Icons';
 
 export default function HistoryPage() {
   const timeline = [

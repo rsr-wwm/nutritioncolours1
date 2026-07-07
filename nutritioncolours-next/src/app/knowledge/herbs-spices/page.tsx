@@ -1,7 +1,7 @@
 // // // // // import CompatLink from '@/components/CompatLink';
 import CompatLink from '/src/components/CompatLink'; // Replaced for Astro compatibility
 import { HERBS_SPICES_DATA } from '@/lib/clinical_databases';
-import { IconFlask, IconArrowRight } from '@/components/Icons';
+import { IconFlask, IconArrowRight } from '@/components/ui/Icons';
 
 export default function HerbsSpicesPage() {
   return (

@@ -7,7 +7,7 @@ import { TOPICS } from '@/lib/topics';
 import { CategoryType } from '@/lib/types';
 import { KNOWLEDGE_FAQS } from '@/lib/constants';
 import { FAQSection } from '@/components/SharedSections';
-import { IconSearch, IconFlask, IconArrowRight } from '@/components/Icons';
+import { IconSearch, IconFlask, IconArrowRight } from '@/components/ui/Icons';
 import EditorialPolicy from '@/components/EditorialPolicy';
 
 export default function HealthTopicsPage() {

@@ -1,9 +1,9 @@
 'use client';
 import { useState } from 'react';
 import { CONTACT_FAQS } from '@/lib/constants';
-import { SectionHeading } from '@/components/SectionHeading';
+import { SectionHeading } from '@/components/ui/SectionHeading';
 import { FAQSection } from '@/components/SharedSections';
-import { IconPhone, IconMail, IconInstagram, IconFacebook, IconLinkedIn, IconCheck } from '@/components/Icons';
+import { IconPhone, IconMail, IconInstagram, IconFacebook, IconLinkedIn, IconCheck } from '@/components/ui/Icons';
 
 export default function ContactPage() {
   const [contactSubmitting, setContactSubmitting] = useState(false);

@@ -1,0 +1,11 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ClinicsPage from '../app/clinics/page.tsx';
+---
+
+<BaseLayout
+  title="Outreach Locations | Clinical Metabolic Clinics"
+  description="Locate our clinical outreach programs, consulting centers, and mobile medical units across various regions."
+>
+  <ClinicsPage client:load />
+</BaseLayout>

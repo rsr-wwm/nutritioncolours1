@@ -1,7 +1,7 @@
 'use client';
 // // // // // import dynamic from 'next/dynamic'; // Replaced for Astro compatibility // Replaced for Astro compatibility // Replaced for Astro compatibility // Replaced for Astro compatibility // Replaced for Astro compatibility
 import { TOOLS_FAQS } from '@/lib/constants';
-import { SectionHeading } from '@/components/SectionHeading';
+import { SectionHeading } from '@/components/ui/SectionHeading';
 import { FAQSection } from '@/components/SharedSections';
 
 import { DynamicCircadianClock } from '@/components/DynamicCircadianClock';

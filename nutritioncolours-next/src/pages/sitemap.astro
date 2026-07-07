@@ -1,0 +1,11 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SitemapPage from '../app/sitemap/page.tsx';
+---
+
+<BaseLayout
+  title="Sitemap & Clinical Index | NutritionColours"
+  description="Structured index of all clinical topics, program details, recipes, sitemap nodes, and medical files."
+>
+  <SitemapPage client:load />
+</BaseLayout>

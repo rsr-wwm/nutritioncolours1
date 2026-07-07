@@ -5,9 +5,9 @@ import CompatLink from '/src/components/CompatLink'; // Replaced for Astro compa
 import { BANNERS, PLANS, TESTIMONIALS, TEAM, HOW_IT_WORKS, HOME_FAQS, VEGAN_SUB_TOPICS } from '@/lib/constants';
 import { TOPICS } from '@/lib/topics';
 import { RECIPES } from '@/lib/recipes_database';
-import { SectionHeading } from '@/components/SectionHeading';
+import { SectionHeading } from '@/components/ui/SectionHeading';
 import { FAQSection, MedicalDisclaimerBanner, AnimatedVisual, OrganicBlobs } from '@/components/SharedSections';
-import { IconArrowRight, IconCheck, IconFlask, IconLeaf, IconFileText, IconSearch, IconMapPin, IconUser, IconUtensils, IconWand, IconLock, IconInstagram, IconLinkedIn, IconTwitter, IconFacebook, IconYouTube, IconQuora } from '@/components/Icons';
+import { IconArrowRight, IconCheck, IconFlask, IconLeaf, IconFileText, IconSearch, IconMapPin, IconUser, IconUtensils, IconWand, IconLock, IconInstagram, IconLinkedIn, IconTwitter, IconFacebook, IconYouTube, IconQuora } from '@/components/ui/Icons';
 import { m, AnimatePresence, LazyMotion, domAnimation } from 'framer-motion';
 
 const HeroSlider = ({ banners, onNavigate }: { banners: typeof BANNERS; onNavigate: (path: string) => void }) => {

@@ -2,9 +2,9 @@
 // // // // // import CompatLink from '@/components/CompatLink';
 import CompatLink from '/src/components/CompatLink'; // Replaced for Astro compatibility
 import { PLANS, PLANS_FAQS, HOW_IT_WORKS } from '@/lib/constants';
-import { SectionHeading } from '@/components/SectionHeading';
+import { SectionHeading } from '@/components/ui/SectionHeading';
 import { FAQSection, MedicalDisclaimerBanner, AnimatedVisual } from '@/components/SharedSections';
-import { IconArrowRight, IconCheck, IconFlask, IconLeaf, IconWand, IconLock, IconMapPin } from '@/components/Icons';
+import { IconArrowRight, IconCheck, IconFlask, IconLeaf, IconWand, IconLock, IconMapPin } from '@/components/ui/Icons';
 import { getDynamicCategoryFaqs } from '@/lib/faqHelper';
 
 export default function PlansPage() {

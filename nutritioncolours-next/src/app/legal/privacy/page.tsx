@@ -1,6 +1,6 @@
 'use client';
 import { LEGAL_CONTENT } from '@/lib/constants';
-import { SectionHeading } from '@/components/SectionHeading';
+import { SectionHeading } from '@/components/ui/SectionHeading';
 
 export default function PrivacyPage() {
   const content = LEGAL_CONTENT.privacy;

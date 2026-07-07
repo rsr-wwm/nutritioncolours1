@@ -2,9 +2,9 @@
 // // // // // // import CompatLink from '@/components/CompatLink';
 import CompatLink from '/src/components/CompatLink'; // Replaced for Astro compatibility
 import { ABOUT_FAQS } from '@/lib/constants';
-import { SectionHeading } from '@/components/SectionHeading';
+import { SectionHeading } from '@/components/ui/SectionHeading';
 import { FAQSection } from '@/components/SharedSections';
-import { IconLeaf, IconFileText, IconCheck, IconSearch, IconArrowRight } from '@/components/Icons';
+import { IconLeaf, IconFileText, IconCheck, IconSearch, IconArrowRight } from '@/components/ui/Icons';
 
 export default function AboutPage() {
   return (

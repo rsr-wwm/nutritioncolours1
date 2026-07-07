@@ -1,0 +1,11 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import BlogsPage from '../../app/knowledge/blogs/page.tsx';
+---
+
+<BaseLayout
+  title="Metabolic Health Research & Latest Articles"
+  description="Clinical insights, research breakdowns, and metabolic guidelines published by our multidisciplinary medical team."
+>
+  <BlogsPage client:load />
+</BaseLayout>

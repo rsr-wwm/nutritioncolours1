@@ -3,9 +3,9 @@
 import CompatLink from '/src/components/CompatLink'; // Replaced for Astro compatibility
 import { VEGAN_SUB_TOPICS, VEGAN_FAQS, BLOG_ARTICLES } from '@/lib/constants';
 import { CategoryType } from '@/lib/types';
-import { SectionHeading } from '@/components/SectionHeading';
+import { SectionHeading } from '@/components/ui/SectionHeading';
 import { FAQSection } from '@/components/SharedSections';
-import { IconLeaf, IconArrowRight } from '@/components/Icons';
+import { IconLeaf, IconArrowRight } from '@/components/ui/Icons';
 
 export default function VeganPage() {
   return (

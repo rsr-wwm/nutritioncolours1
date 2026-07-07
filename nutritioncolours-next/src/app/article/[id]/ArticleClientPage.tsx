@@ -2,7 +2,7 @@
 // // // // // import CompatLink from '@/components/CompatLink';
 import CompatLink from '/src/components/CompatLink'; // Replaced for Astro compatibility
 import { BLOG_ARTICLES } from '@/lib/constants';
-import { IconLeaf, IconFlask, IconFacebook, IconLinkedIn } from '@/components/Icons';
+import { IconLeaf, IconFlask, IconFacebook, IconLinkedIn } from '@/components/ui/Icons';
 
 export function ArticleClientPage({ articleId }: { articleId: string }) {
   const article = BLOG_ARTICLES.find(a => a.id === articleId);
