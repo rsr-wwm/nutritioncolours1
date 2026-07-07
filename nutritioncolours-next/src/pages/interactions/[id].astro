@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { ClinicalInteractionDetail } from '../../components/ClinicalDetails';
+import { DRUG_INTERACTIONS_DATA } from '../../lib/clinical_databases';
+
+export async function getStaticPaths() {
+  return DRUG_INTERACTIONS_DATA.map((interaction) => ({
+    params: { id: interaction.id },
+    props: { interaction },
+  }));
+}
+
+const { interaction } = Astro.props;
+---
+
+<BaseLayout
+  title={`${interaction.drugName} - Drug-Nutrient Interaction | NutritionColours`}
+  description={interaction.monitoringAdvice}
+  keywords={[interaction.drugName, interaction.drugClass, "Drug nutrient interaction"]}
+>
+  <ClinicalInteractionDetail client:load interaction={interaction} />
+</BaseLayout>

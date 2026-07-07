@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { ClinicalHerbDetail } from '../../components/ClinicalDetails';
+import { HERBS_SPICES_DATA, MEDICAL_CONDITIONS_DATA } from '../../lib/clinical_databases';
+
+export async function getStaticPaths() {
+  return HERBS_SPICES_DATA.map((herb) => ({
+    params: { id: herb.id },
+    props: { herb },
+  }));
+}
+
+const { herb } = Astro.props;
+---
+
+<BaseLayout
+  title={herb.pageTitle || `${herb.name} (Clinical Guide) | NutritionColours`}
+  description={herb.metaDescription || herb.primaryMechanism}
+  keywords={[herb.name, herb.scientificName, ...(herb.seoKeywords || [])]}
+>
+  <ClinicalHerbDetail client:load herb={herb} herbsData={HERBS_SPICES_DATA} conditionsData={MEDICAL_CONDITIONS_DATA} />
+</BaseLayout>

@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { ClinicalGenomicsDetail } from '../../components/ClinicalDetails';
+import { GENOMIC_VARIANTS_DATA } from '../../lib/clinical_databases';
+
+export async function getStaticPaths() {
+  return GENOMIC_VARIANTS_DATA.map((variant) => ({
+    params: { id: variant.id },
+    props: { variant },
+  }));
+}
+
+const { variant } = Astro.props;
+---
+
+<BaseLayout
+  title={`${variant.rsid} (${variant.genotype}) - Nutrigenomics | NutritionColours`}
+  description={variant.clinicalImpact}
+  keywords={[variant.rsid, variant.geneName, variant.genotype, "Nutrigenomics"]}
+>
+  <ClinicalGenomicsDetail client:load variant={variant} />
+</BaseLayout>

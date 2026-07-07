@@ -1,0 +1,21 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { ClinicClientPage } from '../../app/clinic/[id]/ClinicClientPage';
+import { LOCATIONS_DATA } from '../../lib/locationsData';
+
+export async function getStaticPaths() {
+  const cities = [...new Set(LOCATIONS_DATA.map(l => l.city.toLowerCase().replace(/\s+/g, '-')))];
+  return cities.map((id) => ({
+    params: { id },
+  }));
+}
+
+const { id } = Astro.params;
+---
+
+<BaseLayout
+  title={`Metabolic Clinic in ${id?.replace(/-/g, ' ').toUpperCase()} | NutritionColours`}
+  description={`Find metabolic health services, diagnostic labs, and consulting hours in ${id?.replace(/-/g, ' ').toUpperCase()}.`}
+>
+  <ClinicClientPage client:load clinicId={id || ''} />
+</BaseLayout>

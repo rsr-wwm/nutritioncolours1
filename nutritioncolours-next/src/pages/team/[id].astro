@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { TeamClientPage } from '../../app/team/[id]/TeamClientPage';
+import { TEAM } from '../../lib/constants';
+
+export async function getStaticPaths() {
+  return TEAM.map((member) => ({
+    params: { id: member.id },
+    props: { member },
+  }));
+}
+
+const { member } = Astro.props;
+---
+
+<BaseLayout
+  title={`${member.name} - ${member.role} | NutritionColours Team`}
+  description={`${member.name} is a specialist in ${member.role} at NutritionColours Clinic.`
+  }
+>
+  <TeamClientPage client:load memberId={member.id} />
+</BaseLayout>
