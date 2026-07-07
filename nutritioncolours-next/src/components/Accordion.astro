@@ -1,0 +1,114 @@
+---
+import Icons from './Icons.astro';
+
+interface Props {
+  title: string;
+  content: string;
+  category?: string;
+}
+
+const { title, content, category } = Astro.props;
+
+// Process the simple markdown/markup for pure HTML rendering at build time.
+function getCleanHtml(text: string) {
+  if (!text) return '';
+
+  const hasHtml = /<\/?[a-z][\s\S]*>/i.test(text);
+  const hasMarkdown = /(\*\*|__|\*|_|`|\[.+\]\(.+\))/.test(text) || /^\s*[-*+]\s+/m.test(text) || /^\s*\d+\.\s+/m.test(text);
+
+  if (hasHtml || hasMarkdown) {
+    let html = text;
+    if (hasMarkdown && !hasHtml) {
+      html = html
+        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+        .replace(/__(.*?)__/g, '<strong>$1</strong>')
+        .replace(/\*(.*?)\*/g, '<em>$1</em>')
+        .replace(/_(.*?)_/g, '<em>$1</em>')
+        .replace(/`(.*?)`/g, '<code>$1</code>')
+        .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">$1</a>');
+
+      const lines = html.split('\n');
+      let inList = false;
+      const processed = [];
+
+      for (const line of lines) {
+        const trimmed = line.trim();
+        if (!trimmed) {
+          if (inList) {
+            processed.push('</ul>');
+            inList = false;
+          }
+          continue;
+        }
+
+        const listMatch = line.match(/^(\s*)[-*+]\s+(.*)/);
+        if (listMatch) {
+          if (!inList) {
+            processed.push('<ul class="list-disc pl-5 my-2">');
+            inList = true;
+          }
+          processed.push(`<li>${listMatch[2]}</li>`);
+        } else {
+          if (inList) {
+            processed.push('</ul>');
+            inList = false;
+          }
+          processed.push(`<p class="mb-2">${line}</p>`);
+        }
+      }
+      if (inList) {
+        processed.push('</ul>');
+      }
+      html = processed.join('');
+    }
+    return html;
+  }
+
+  // Plain text sentence highlighting
+  const sentenceEndRegex = /([.!?])(\s+|$)/;
+  const match = text.match(sentenceEndRegex);
+  if (match && match.index !== undefined) {
+    const endPos = match.index + match[1].length;
+    const firstSentence = text.substring(0, endPos);
+    const restOfText = text.substring(endPos);
+    return `<strong>${firstSentence}</strong>${restOfText}`;
+  }
+  return `<strong>${text}</strong>`;
+}
+
+const htmlContent = getCleanHtml(content);
+---
+
+<details
+  class="group border border-stone-100 rounded-2xl bg-white mb-4 overflow-hidden transition-all duration-300 ease-in-out open:border-emerald-200 open:shadow-lg open:ring-1 open:ring-emerald-100 hover:border-emerald-200 hover:shadow-md"
+  itemscope
+  itemprop="mainEntity"
+  itemtype="https://schema.org/Question"
+>
+  <summary class="list-none w-full p-5 flex items-start justify-between text-left group bg-white relative z-10 focus:outline-none cursor-pointer [&::-webkit-details-marker]:hidden">
+    <div class="pr-6 flex-1">
+      {category && (
+        <span class="text-[10px] font-black uppercase tracking-widest mb-2 block transition-colors duration-300 text-stone-500 group-hover:text-emerald-700 group-open:text-emerald-700">
+          {category}
+        </span>
+      )}
+      <span itemprop="name" class="font-bold text-lg speakable-q transition-colors duration-300 text-stone-700 group-hover:text-emerald-900 group-open:text-emerald-950">
+        {title}
+      </span>
+    </div>
+    <span class="p-3 rounded-full transition-transform duration-300 ease-in-out flex-shrink-0 bg-stone-50 text-stone-400 group-hover:bg-emerald-50 group-hover:text-emerald-600 group-open:rotate-180 group-open:bg-emerald-100 group-open:text-emerald-700">
+      <Icons name="chevron-down" size={20} />
+    </span>
+  </summary>
+
+  <div class="p-5 pt-0 text-stone-600 leading-relaxed transition-opacity duration-300">
+    <div
+      itemscope
+      itemprop="acceptedAnswer"
+      itemtype="https://schema.org/Answer"
+      class="pt-4 border-t border-stone-100/50"
+    >
+      <div itemprop="text" class="speakable-a" set:html={htmlContent} />
+    </div>
+  </div>
+</details>

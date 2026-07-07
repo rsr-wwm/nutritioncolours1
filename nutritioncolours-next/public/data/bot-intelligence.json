@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "description": "Bot intelligence configuration defining expected bot behaviors, crawl-delay recommendations, and allowed paths per bot class.",
+    "generatedAt": "2026-01-15",
+    "purpose": "Reference configuration for bot management and audit scripts."
+  },
+  "botClasses": [
+    {
+      "class": "search-engine",
+      "description": "Major search engine crawlers — full access to indexable content",
+      "bots": [
+        { "name": "Googlebot", "userAgent": "Googlebot", "crawlDelay": 0, "allowedPaths": ["/"], "priority": "high" },
+        { "name": "Bingbot", "userAgent": "bingbot", "crawlDelay": 0, "allowedPaths": ["/"], "priority": "high" }
+      ]
+    },
+    {
+      "class": "ai-crawler",
+      "description": "AI training and search crawlers — controlled access per consent policy",
+      "bots": [
+        { "name": "GPTBot", "userAgent": "GPTBot", "crawlDelay": 5, "allowedPaths": ["/", "/topic/", "/condition/", "/herb/"], "blockedPaths": ["/api/", "/admin/"], "priority": "medium" },
+        { "name": "ClaudeBot", "userAgent": "ClaudeBot", "crawlDelay": 5, "allowedPaths": ["/", "/topic/", "/condition/", "/herb/"], "blockedPaths": ["/api/", "/admin/"], "priority": "medium" },
+        { "name": "PerplexityBot", "userAgent": "PerplexityBot", "crawlDelay": 5, "allowedPaths": ["/", "/topic/", "/condition/", "/herb/"], "blockedPaths": ["/api/", "/admin/"], "priority": "medium" },
+        { "name": "CCBot", "userAgent": "CCBot", "crawlDelay": 10, "allowedPaths": ["/"], "blockedPaths": ["/api/", "/admin/", "/plans"], "priority": "low" },
+        { "name": "Google-Extended", "userAgent": "Google-Extended", "crawlDelay": 5, "allowedPaths": ["/", "/topic/"], "blockedPaths": ["/api/", "/admin/"], "priority": "medium" }
+      ]
+    },
+    {
+      "class": "seo-tool",
+      "description": "SEO audit and analysis tools — rate-limited access",
+      "bots": [
+        { "name": "AhrefsBot", "userAgent": "AhrefsBot", "crawlDelay": 10, "allowedPaths": ["/"], "priority": "low" },
+        { "name": "SemrushBot", "userAgent": "SemrushBot", "crawlDelay": 10, "allowedPaths": ["/"], "priority": "low" },
+        { "name": "MJ12bot", "userAgent": "MJ12bot", "crawlDelay": 15, "allowedPaths": ["/"], "priority": "low" }
+      ]
+    },
+    {
+      "class": "social",
+      "description": "Social media preview crawlers — allowed for link previews",
+      "bots": [
+        { "name": "facebookexternalhit", "userAgent": "facebookexternalhit", "crawlDelay": 0, "allowedPaths": ["/"], "priority": "medium" },
+        { "name": "Twitterbot", "userAgent": "Twitterbot", "crawlDelay": 0, "allowedPaths": ["/"], "priority": "medium" },
+        { "name": "LinkedInBot", "userAgent": "LinkedInBot", "crawlDelay": 0, "allowedPaths": ["/"], "priority": "medium" }
+      ]
+    },
+    {
+      "class": "blocked",
+      "description": "Bots explicitly blocked via robots.txt — scrapers, data miners",
+      "bots": [
+        { "name": "PetalBot", "userAgent": "PetalBot", "crawlDelay": -1, "allowedPaths": [], "blockedPaths": ["/"], "priority": "none" },
+        { "name": "DotBot", "userAgent": "DotBot", "crawlDelay": -1, "allowedPaths": [], "blockedPaths": ["/"], "priority": "none" }
+      ]
+    }
+  ],
+  "crawlBudget": {
+    "totalIndexableUrls": 150,
+    "highPriorityPaths": ["/", "/condition/", "/herb/", "/topic/", "/recipes", "/knowledge"],
+    "mediumPriorityPaths": ["/recipe/", "/blog/", "/tools"],
+    "lowPriorityPaths": ["/team/", "/testimonials/", "/legal/"],
+    "excludedPaths": ["/api/", "/admin/", "/honeypot/"]
+  },
+  "expectedCrawlRate": {
+    "pagesPerDay": 30,
+    "fullSiteCrawlDays": 5,
+    "highValueRefreshHours": 24
+  }
+}

@@ -1,0 +1,1220 @@
+{
+  "generated": "2026-07-04T14:47:27.266Z",
+  "summary": {
+    "total": 57,
+    "byStatus": {
+      "fresh": 57,
+      "aging": 0,
+      "decaying": 0,
+      "critical": 0
+    },
+    "averageFreshnessScore": 100,
+    "totalCitations": 22
+  },
+  "criticalPages": [],
+  "decayingPages": [],
+  "allPages": [
+    {
+      "type": "condition",
+      "id": "masld",
+      "name": "MASLD (Fatty Liver)",
+      "url": "/condition/masld",
+      "lastModified": "2026-07-04T14:47:27.262Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/34567890"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://pubmed.ncbi.nlm.nih.gov/34567890/",
+          "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "condition",
+      "id": "insulin-resistance",
+      "name": "Insulin Resistance",
+      "url": "/condition/insulin-resistance",
+      "lastModified": "2026-07-04T14:47:27.262Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/30765876"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://pubmed.ncbi.nlm.nih.gov/30765876/",
+          "https://images.unsplash.com/photo-1498837167922-ddd27525d352?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "condition",
+      "id": "circadian-dysregulation",
+      "name": "Circadian Rhythm Dysregulation",
+      "url": "/condition/circadian-dysregulation",
+      "lastModified": "2026-07-04T14:47:27.262Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 2,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/30206124",
+          "https://pubmed.ncbi.nlm.nih.gov/31812495"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://pubmed.ncbi.nlm.nih.gov/30206124/",
+          "https://pubmed.ncbi.nlm.nih.gov/31812495/",
+          "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "condition",
+      "id": "diabetes-reversal",
+      "name": "Type 2 Diabetes Reversal",
+      "url": "/condition/diabetes-reversal",
+      "lastModified": "2026-07-04T14:47:27.262Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 2,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/29289258",
+          "https://pubmed.ncbi.nlm.nih.gov/34185074"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://pubmed.ncbi.nlm.nih.gov/29289258/",
+          "https://pubmed.ncbi.nlm.nih.gov/34185074/",
+          "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "condition",
+      "id": "pcod-pcos",
+      "name": "PCOD / PCOS (Metabolic & Hormonal Reversal)",
+      "url": "/condition/pcod-pcos",
+      "lastModified": "2026-07-04T14:47:27.262Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 2,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/37933831",
+          "https://pubmed.ncbi.nlm.nih.gov/33024519"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://pubmed.ncbi.nlm.nih.gov/37933831/",
+          "https://pubmed.ncbi.nlm.nih.gov/33024519/",
+          "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "condition",
+      "id": "thyroid-dysfunction",
+      "name": "Thyroid Dysfunction (Hypothyroidism & Hashimoto's)",
+      "url": "/condition/thyroid-dysfunction",
+      "lastModified": "2026-07-04T14:47:27.262Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 2,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/31133379",
+          "https://pubmed.ncbi.nlm.nih.gov/30060266"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://pubmed.ncbi.nlm.nih.gov/31133379/",
+          "https://pubmed.ncbi.nlm.nih.gov/30060266/",
+          "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "condition",
+      "id": "gut-health",
+      "name": "Gut Health & Microbiome Restoration",
+      "url": "/condition/gut-health",
+      "lastModified": "2026-07-04T14:47:27.262Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 2,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/33803407",
+          "https://pubmed.ncbi.nlm.nih.gov/28191884"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://pubmed.ncbi.nlm.nih.gov/33803407/",
+          "https://pubmed.ncbi.nlm.nih.gov/28191884/",
+          "https://images.unsplash.com/photo-1616671285420-a61250239cf2?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "condition",
+      "id": "hypertension",
+      "name": "Hypertension (High Blood Pressure)",
+      "url": "/condition/hypertension",
+      "lastModified": "2026-07-04T14:47:27.262Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/25557383"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://pubmed.ncbi.nlm.nih.gov/25557383/",
+          "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "turmeric",
+      "name": "Turmeric",
+      "url": "/herb/turmeric",
+      "lastModified": "2026-07-04T14:47:27.237Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/29065496"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://pubmed.ncbi.nlm.nih.gov/29065496/",
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5664031/",
+          "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "ashwagandha",
+      "name": "Ashwagandha",
+      "url": "/herb/ashwagandha",
+      "lastModified": "2026-07-04T14:47:27.237Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/31517876"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://pubmed.ncbi.nlm.nih.gov/31517876/",
+          "https://images.unsplash.com/photo-1628559253457-3bf71239c0dc?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "cinnamon",
+      "name": "Ceylon Cinnamon",
+      "url": "/herb/cinnamon",
+      "lastModified": "2026-07-04T14:47:27.237Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/24019277"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://pubmed.ncbi.nlm.nih.gov/24019277/",
+          "https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "ginger",
+      "name": "Ginger",
+      "url": "/herb/ginger",
+      "lastModified": "2026-07-04T14:47:27.237Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/32675085"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://pubmed.ncbi.nlm.nih.gov/32675085/",
+          "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "ragi",
+      "name": "Ragi (Finger Millet)",
+      "url": "/herb/ragi",
+      "lastModified": "2026-07-04T14:47:27.237Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/29876543"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://pubmed.ncbi.nlm.nih.gov/29876543/",
+          "https://images.unsplash.com/photo-1541832676-9b763b0239ab?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "spirulina",
+      "name": "Spirulina",
+      "url": "/herb/spirulina",
+      "lastModified": "2026-07-04T14:47:27.237Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/21234253"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://pubmed.ncbi.nlm.nih.gov/21234253/",
+          "https://images.unsplash.com/photo-1610970881699-44a5587caa9a?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "fenugreek",
+      "name": "Fenugreek",
+      "url": "/herb/fenugreek",
+      "lastModified": "2026-07-04T14:47:27.237Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/28191884"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://pubmed.ncbi.nlm.nih.gov/28191884/",
+          "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "holy-basil",
+      "name": "Holy Basil (Tulsi)",
+      "url": "/herb/holy-basil",
+      "lastModified": "2026-07-04T14:47:27.237Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/25624701"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://pubmed.ncbi.nlm.nih.gov/25624701/",
+          "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "garlic",
+      "name": "Garlic",
+      "url": "/herb/garlic",
+      "lastModified": "2026-07-04T14:47:27.237Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/25557383"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://pubmed.ncbi.nlm.nih.gov/25557383/",
+          "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "golden-turmeric-quinoa",
+      "name": "Golden Turmeric Quinoa Nourish Bowl",
+      "url": "/recipe/golden-turmeric-quinoa",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1546793665-c74683f339cf?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "avocado-lentil-tartare",
+      "name": "Avocado & Sprouted Lentil Herb Tartare",
+      "url": "/recipe/avocado-lentil-tartare",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1511688858341-a1ca5d89851a?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "green-vitality-soup",
+      "name": "Moringa & Spinach Green Vitality Soup",
+      "url": "/recipe/green-vitality-soup",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1547592166-83ac45744acd?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "beetroot-walnut-carpaccio",
+      "name": "Roasted Beetroot & Walnut Carpaccio",
+      "url": "/recipe/beetroot-walnut-carpaccio",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1543326162-81788c09d57a?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "ayurvedic-millet-stew",
+      "name": "Ayurvedic Kitchari-Style Millet Stew",
+      "url": "/recipe/ayurvedic-millet-stew",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1631296531952-52643a60a720?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "kimchi-rice-bowl",
+      "name": "Fermented Kimchi Brown Rice Bowl",
+      "url": "/recipe/kimchi-rice-bowl",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "ashwagandha-sweet-potato",
+      "name": "Sweet Potato & Ashwagandha Coconut Mash",
+      "url": "/recipe/ashwagandha-sweet-potato",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1594911771144-ec406a454227?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "papaya-detox-salad",
+      "name": "Rainbow Raw Papaya & Lime Detox Salad",
+      "url": "/recipe/papaya-detox-salad",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "hemp-basil-zoodles",
+      "name": "Hemp Seed & Basil Cream Zoodles",
+      "url": "/recipe/hemp-basil-zoodles",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1584270354949-c26b0d5b4a0c?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "mushroom-thyme-broth",
+      "name": "Mushroom & Thyme Healing Broth",
+      "url": "/recipe/mushroom-thyme-broth",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1511144583984-38118201f0c8?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "charred-broccoli-almonds",
+      "name": "Charred Broccoli with Lemon Almond Drizzle",
+      "url": "/recipe/charred-broccoli-almonds",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1432457990754-c8b5f21448de?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "chia-berry-parfait",
+      "name": "Chia & Berry Antioxidant Parfait",
+      "url": "/recipe/chia-berry-parfait",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1510629954389-c1e0da47d414?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "jackfruit-turmeric-wraps",
+      "name": "Jackfruit & Turmeric Leaf Wraps",
+      "url": "/recipe/jackfruit-turmeric-wraps",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1589147118279-335d18d53085?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "matcha-coconut-truffles",
+      "name": "Matcha & Coconut Energy Truffles",
+      "url": "/recipe/matcha-coconut-truffles",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1515516089376-88db1e26e9c0?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "baked-pears-cinnamon",
+      "name": "Baked Pears with Cinnamon & Cacao Nibs",
+      "url": "/recipe/baked-pears-cinnamon",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "spirulina-lemon-shots",
+      "name": "Spirulina & Lemon Vitality Shots",
+      "url": "/recipe/spirulina-lemon-shots",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1628556270448-4d4e4148e1b1?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "grilled-artichoke-rosemary",
+      "name": "Grilled Artichoke with Rosemary Salt",
+      "url": "/recipe/grilled-artichoke-rosemary",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1543326162-81788c09d57a?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "lentil-kale-curry",
+      "name": "Lentil & Kale Iron-Rich Curry",
+      "url": "/recipe/lentil-kale-curry",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "collard-wraps-chili",
+      "name": "Chili-Spiced Collard Wraps",
+      "url": "/recipe/collard-wraps-chili",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1546793665-c74683f339cf?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "reishi-cocoa-elixir",
+      "name": "Red Reishi & Cocoa Elixir",
+      "url": "/recipe/reishi-cocoa-elixir",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1505252585461-04e157eb543b?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "black-bean-mole",
+      "name": "Black Bean & Cacao Mole Bowl",
+      "url": "/recipe/black-bean-mole",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1582284906010-9118c7fd52cc?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "golden-milk-elixir",
+      "name": "Turmeric & Black Pepper Golden Milk",
+      "url": "/recipe/golden-milk-elixir",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1605612573210-953b006c4b2b?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "fennel-citrus-salad",
+      "name": "Fennel & Citrus Digestive Salad",
+      "url": "/recipe/fennel-citrus-salad",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "buckwheat-seaweed-soup",
+      "name": "Buckwheat Noodle & Seaweed Soup",
+      "url": "/recipe/buckwheat-seaweed-soup",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "sleep-smoothie-valerian",
+      "name": "Cherry & Valerian Sleep Smoothie",
+      "url": "/recipe/sleep-smoothie-valerian",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "purple-sweet-potato-pudding",
+      "name": "Purple Sweet Potato & Ginger Pudding",
+      "url": "/recipe/purple-sweet-potato-pudding",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "adzuki-bean-stew",
+      "name": "Adzuki Bean & Shiitake Umami Stew",
+      "url": "/recipe/adzuki-bean-stew",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1631296531952-52643a60a720?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "pomegranate-beauty-water",
+      "name": "Pomegranate & Rosehip Beauty Water",
+      "url": "/recipe/pomegranate-beauty-water",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "quinoa-sesame-cereal",
+      "name": "Sprouted Quinoa & Black Sesame Cereal",
+      "url": "/recipe/quinoa-sesame-cereal",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1463740839922-2d3b7e426a56?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "brussels-sprouts-mustard",
+      "name": "Roasted Brussels Sprouts with Mustard & Tamari",
+      "url": "/recipe/brussels-sprouts-mustard",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1432457990754-c8b5f21448de?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "cauliflower-tabbouleh-hemp",
+      "name": "Cauliflower Rice Tabbouleh with Hemp Oil",
+      "url": "/recipe/cauliflower-tabbouleh-hemp",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "black-garlic-drizzle",
+      "name": "Black Garlic & Fermented Hot Sauce Drizzle",
+      "url": "/recipe/black-garlic-drizzle",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1547928500-477b10905470?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "mango-cardamom-lassi",
+      "name": "Mango & Cardamom Lassi (Vegan)",
+      "url": "/recipe/mango-cardamom-lassi",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "watercress-alfalfa-sandwich",
+      "name": "Watercress & Alfalfa Sprout Sandwich",
+      "url": "/recipe/watercress-alfalfa-sandwich",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1509722747041-031f09802528?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "rooibos-cinnamon-tea",
+      "name": "Rooibos & Cinnamon Antioxidant Tea",
+      "url": "/recipe/rooibos-cinnamon-tea",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1605612573210-953b006c4b2b?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "chickpea-cauliflower-tagine",
+      "name": "Spiced Chickpea & Cauliflower Tagine",
+      "url": "/recipe/chickpea-cauliflower-tagine",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1585937421612-70a008356fbe?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "hemp-saffron-drink",
+      "name": "Hemp Milk & Saffron Calming Drink",
+      "url": "/recipe/hemp-saffron-drink",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1544367563-12123d8965cd?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "cucumber-jicama-salad",
+      "name": "Cucumber & Jicama Hydration Salad",
+      "url": "/recipe/cucumber-jicama-salad",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "lentil-walnut-pate",
+      "name": "Black Lentil & Walnut Paté",
+      "url": "/recipe/lentil-walnut-pate",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1544510205-919d73c8f7cd?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "pear-ginger-slaw",
+      "name": "Pear & Ginger Probiotic Slaw",
+      "url": "/recipe/pear-ginger-slaw",
+      "lastModified": "2026-07-04T14:47:27.264Z",
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://images.unsplash.com/photo-1518512335140-5178dca8fbfb?q=80&w=800"
+        ]
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    }
+  ]
+}

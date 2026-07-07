@@ -1,0 +1,56 @@
+{
+  "@context": "https://schema.org",
+  "@type": "DataCatalog",
+  "name": "NutritionColours Clinical Data API",
+  "description": "Evidence-based clinical nutrition data feeds for AI search engines, researchers, and developers.",
+  "url": "https://nutritioncolours.com/data",
+  "provider": {
+    "@type": "Organization",
+    "name": "NutritionColours",
+    "url": "https://nutritioncolours.com"
+  },
+  "dataset": [
+    {
+      "@type": "Dataset",
+      "name": "Clinical Conditions Database",
+      "description": "8 metabolic conditions with root causes, biomarkers, therapeutic spices, and ontology references.",
+      "url": "https://nutritioncolours.com/data/api/v1/conditions.json",
+      "distribution": { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://nutritioncolours.com/data/api/v1/conditions.json" },
+      "license": "https://nutritioncolours.com/data/api/v1/cite.json",
+      "dateModified": "2026-07-04"
+    },
+    {
+      "@type": "Dataset",
+      "name": "Herbal Database",
+      "description": "9 therapeutic herbs and spices with active compounds, dosages, contraindications, and ontology references.",
+      "url": "https://nutritioncolours.com/data/api/v1/herbs.json",
+      "distribution": { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://nutritioncolours.com/data/api/v1/herbs.json" },
+      "license": "https://nutritioncolours.com/data/api/v1/cite.json",
+      "dateModified": "2026-07-04"
+    },
+    {
+      "@type": "Dataset",
+      "name": "Citation Metadata",
+      "description": "How to properly attribute NutritionColours clinical data in AI citations and academic references.",
+      "url": "https://nutritioncolours.com/data/api/v1/cite.json",
+      "distribution": { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://nutritioncolours.com/data/api/v1/cite.json" },
+      "dateModified": "2026-07-04"
+    },
+    {
+      "@type": "Dataset",
+      "name": "Population Health Metrics",
+      "description": "Anonymous aggregate health metrics from user calculator interactions.",
+      "url": "https://nutritioncolours.com/data/population-metrics.json",
+      "distribution": { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://nutritioncolours.com/data/population-metrics.json" },
+      "dateModified": "2026-07-04"
+    },
+    {
+      "@type": "Dataset",
+      "name": "Answer Fragments",
+      "description": "Curated question-to-fragment mappings for AI answer engine extraction.",
+      "url": "https://nutritioncolours.com/answer-fragments.json",
+      "distribution": { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://nutritioncolours.com/answer-fragments.json" },
+      "dateModified": "2026-07-04"
+    }
+  ]
+}

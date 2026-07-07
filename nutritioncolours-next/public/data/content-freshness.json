@@ -1,0 +1,115 @@
+{
+  "version": "1.0.0",
+  "description": "Content freshness tracking for Google's freshness algorithm and editorial transparency.",
+  "lastGenerated": "2026-07-04T00:00:00Z",
+  "pages": [
+    {
+      "path": "/",
+      "title": "Home",
+      "datePublished": "2020-01-15",
+      "dateModified": "2026-07-04",
+      "lastReviewed": "2026-07-04",
+      "reviewer": "Dr. Shilpa Thakur, Ph.D.",
+      "changeSummary": "Updated hero messaging and program descriptions"
+    },
+    {
+      "path": "/condition/insulin-resistance",
+      "title": "Insulin Resistance",
+      "datePublished": "2021-03-10",
+      "dateModified": "2026-07-01",
+      "lastReviewed": "2026-07-01",
+      "reviewer": "Dr. Shilpa Thakur, Ph.D.",
+      "changeSummary": "Added new clinical trial citations and updated biomarker data"
+    },
+    {
+      "path": "/condition/pcod-pcos",
+      "title": "PCOD/PCOS",
+      "datePublished": "2021-04-22",
+      "dateModified": "2026-06-28",
+      "lastReviewed": "2026-06-28",
+      "reviewer": "Dr. Shilpa Thakur, Ph.D.",
+      "changeSummary": "Updated therapeutic spice recommendations based on 2026 meta-analysis"
+    },
+    {
+      "path": "/condition/masld",
+      "title": "MASLD (Fatty Liver)",
+      "datePublished": "2021-05-15",
+      "dateModified": "2026-06-25",
+      "lastReviewed": "2026-06-25",
+      "reviewer": "Dr. Shilpa Thakur, Ph.D.",
+      "changeSummary": "Added circadian eating window protocols"
+    },
+    {
+      "path": "/condition/diabetes-reversal",
+      "title": "Type 2 Diabetes",
+      "datePublished": "2021-02-20",
+      "dateModified": "2026-07-02",
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur, Ph.D.",
+      "changeSummary": "Updated beta-cell recovery evidence and reversal protocols"
+    },
+    {
+      "path": "/condition/thyroid-dysfunction",
+      "title": "Hypothyroidism",
+      "datePublished": "2021-06-10",
+      "dateModified": "2026-06-20",
+      "lastReviewed": "2026-06-20",
+      "reviewer": "Dr. Shilpa Thakur, Ph.D.",
+      "changeSummary": "Added Hashimoto's gluten connection research"
+    },
+    {
+      "path": "/condition/hypertension",
+      "title": "Hypertension",
+      "datePublished": "2021-07-05",
+      "dateModified": "2026-06-18",
+      "lastReviewed": "2026-06-18",
+      "reviewer": "Dr. Shilpa Thakur, Ph.D.",
+      "changeSummary": "Updated nitric oxide pathway data"
+    },
+    {
+      "path": "/condition/gut-health",
+      "title": "Gut Health & Leaky Gut",
+      "datePublished": "2021-08-12",
+      "dateModified": "2026-06-15",
+      "lastReviewed": "2026-06-15",
+      "reviewer": "Dr. Shilpa Thakur, Ph.D.",
+      "changeSummary": "Added tight junction repair protocols"
+    },
+    {
+      "path": "/herb/turmeric",
+      "title": "Turmeric",
+      "datePublished": "2021-09-01",
+      "dateModified": "2026-07-03",
+      "lastReviewed": "2026-07-03",
+      "reviewer": "Dr. Shilpa Thakur, Ph.D.",
+      "changeSummary": "Updated bioavailability research and dosage guidelines"
+    },
+    {
+      "path": "/herb/cinnamon",
+      "title": "Cinnamon",
+      "datePublished": "2021-09-15",
+      "dateModified": "2026-06-30",
+      "lastReviewed": "2026-06-30",
+      "reviewer": "Dr. Shilpa Thakur, Ph.D.",
+      "changeSummary": "Added Ceylon vs Cassia safety data"
+    },
+    {
+      "path": "/plans",
+      "title": "Clinical Programs",
+      "datePublished": "2020-06-01",
+      "dateModified": "2026-07-04",
+      "lastReviewed": "2026-07-04",
+      "reviewer": "Dr. Shilpa Thakur, Ph.D.",
+      "changeSummary": "Updated program descriptions and outcomes data"
+    },
+    {
+      "path": "/recipes",
+      "title": "Healing Recipes",
+      "datePublished": "2021-01-10",
+      "dateModified": "2026-06-22",
+      "lastReviewed": "2026-06-22",
+      "reviewer": "Dr. Shilpa Thakur, Ph.D.",
+      "changeSummary": "Added 3 new circadian-aligned recipes"
+    }
+  ]
+}

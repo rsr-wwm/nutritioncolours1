@@ -1,0 +1,54 @@
+---
+import Accordion from './Accordion.astro';
+
+interface FAQ {
+  question: string;
+  answer: string;
+  category: string;
+}
+
+interface Props {
+  faqData?: FAQ[];
+  faqTitle?: string;
+  type: 'faq' | 'disclaimer';
+}
+
+const { faqData = [], faqTitle = "Frequently Asked Questions", type } = Astro.props;
+---
+
+{type === 'faq' && (
+  <div itemScope itemType="https://schema.org/FAQPage" class="max-w-4xl mx-auto px-6 py-16 optimize-render">
+    <h2 class="text-2xl font-black text-emerald-950 mb-8 text-center brand-font">{faqTitle}</h2>
+    <div class="grid gap-4">
+      {faqData.map((faq) => (
+        <Accordion title={faq.question} content={faq.answer} category={faq.category} />
+      ))}
+    </div>
+  </div>
+)}
+
+{type === 'disclaimer' && (
+  <div class="bg-amber-50/50 backdrop-blur-sm border border-amber-200/50 rounded-3xl p-6 md:p-8 text-stone-700 max-w-7xl mx-auto mt-8">
+    <div class="flex flex-col md:flex-row gap-6 items-start">
+      <div class="p-3 bg-amber-100/80 rounded-2xl text-amber-800 shrink-0">
+        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          <path d="m12 8-4 4"/><path d="m8 8 4 4"/>
+        </svg>
+      </div>
+      <div class="space-y-2 text-left">
+        <h4 class="text-sm font-black uppercase tracking-widest text-amber-900 flex items-center gap-2">
+          Regulatory Compliance & Non-Medical Practitioner Disclosure
+        </h4>
+        <p class="text-xs text-stone-600 leading-relaxed">
+          Dr. Shilpa Thakur holds a Ph.D. in Clinical Nutrition and operates as a world-class Metabolic Researcher and Clinical Nutrition Specialist (Non-Medical Practitioner). 
+          She is not a licensed medical doctor (MD/MBBS) and does not practice medical diagnostics, medicine, or write drug prescriptions. 
+          The circadian nutritional programs (including Metabolic Mastery, Therapeutic Reversal, and Cellular Resurrection) and clinical insights offered on this platform are designed for educational, dietary support, and metabolic wellness optimization.
+        </p>
+        <p class="text-xs text-stone-500 font-bold leading-relaxed">
+          ⚠️ IMPORTANT SAFETY ADVICE: Do not alter, taper, or discontinue any prescription medications without the direct supervision of your prescribing medical physician.
+        </p>
+      </div>
+    </div>
+  </div>
+)}

@@ -1,0 +1,287 @@
+{
+  "/condition/masld": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/condition/insulin-resistance": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/condition/circadian-dysregulation": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/condition/diabetes-reversal": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/condition/pcod-pcos": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/condition/thyroid-dysfunction": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/condition/gut-health": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/condition/hypertension": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/herb/turmeric": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/herb/ashwagandha": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/herb/cinnamon": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/herb/ginger": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/herb/ragi": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/herb/spirulina": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/herb/fenugreek": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/herb/holy-basil": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/herb/garlic": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/golden-turmeric-quinoa": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/avocado-lentil-tartare": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/green-vitality-soup": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/beetroot-walnut-carpaccio": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/ayurvedic-millet-stew": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/kimchi-rice-bowl": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/ashwagandha-sweet-potato": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/papaya-detox-salad": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/hemp-basil-zoodles": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/mushroom-thyme-broth": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/charred-broccoli-almonds": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/chia-berry-parfait": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/jackfruit-turmeric-wraps": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/matcha-coconut-truffles": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/baked-pears-cinnamon": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/spirulina-lemon-shots": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/grilled-artichoke-rosemary": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/lentil-kale-curry": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/collard-wraps-chili": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/reishi-cocoa-elixir": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/black-bean-mole": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/golden-milk-elixir": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/fennel-citrus-salad": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/buckwheat-seaweed-soup": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/sleep-smoothie-valerian": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/purple-sweet-potato-pudding": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/adzuki-bean-stew": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/pomegranate-beauty-water": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/quinoa-sesame-cereal": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/brussels-sprouts-mustard": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/cauliflower-tabbouleh-hemp": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/black-garlic-drizzle": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/mango-cardamom-lassi": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/watercress-alfalfa-sandwich": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/rooibos-cinnamon-tea": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/chickpea-cauliflower-tagine": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/hemp-saffron-drink": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/cucumber-jicama-salad": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/lentil-walnut-pate": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/pear-ginger-slaw": {
+    "lastmod": "2026-07-04",
+    "freshnessScore": 100,
+    "status": "fresh"
+  }
+}

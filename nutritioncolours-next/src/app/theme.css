@@ -1,0 +1,37 @@
+:root {
+  /* Primary */
+  --color-primary: hsl(210, 80%, 55%);
+  --color-primary-dark: hsl(210, 80%, 45%);
+  /* Accent */
+  --color-accent: hsl(45, 90%, 60%);
+  --color-accent-dark: hsl(45, 90%, 45%);
+  /* Neutrals */
+  --color-bg: hsl(0, 0%, 100%);
+  --color-bg-dark: hsl(0, 0%, 8%);
+  --color-surface: hsla(0,0%,100%,0.85);
+  --color-surface-dark: hsla(0,0%,10%,0.85);
+  --color-text: hsl(210, 10%, 20%);
+  --color-text-dark: hsl(0,0%,90%);
+  /* Semantic */
+  --color-success: hsl(150, 70%, 40%);
+  --color-warning: hsl(40, 90%, 45%);
+  --color-error: hsl(0, 80%, 45%);
+  --color-info: hsl(210, 80%, 55%);
+}
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: var(--color-bg-dark);
+    --color-surface: var(--color-surface-dark);
+    --color-text: var(--color-text-dark);
+  }
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: var(--color-surface);
+  backdrop-filter: blur(12px);
+  border-radius: 12px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+}

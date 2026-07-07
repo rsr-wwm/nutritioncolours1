@@ -1,0 +1,88 @@
+# NutritionColours Clinical System Deep Documentation (llms-full.txt)
+
+This document contains a comprehensive description of the clinical entity graphs, therapeutic databases, and sitemap mapping matrices of the *NutritionColours* practice.
+
+---
+
+## 1. Clinical Practitioner Profile
+*   **Name**: Dr. Shilpa Thakur
+*   **Practitioner ID**: `NUTR-SHILPA-001`
+*   **Title**: Clinical Nutritionist & Metabolic Researcher (Ph.D. in Clinical Nutrition)
+*   **Clinical Philosophy**: "Food as Biological Information." Shifting from generic calorie restriction to circadian-aligned nutrient-clock coordination to support insulin sensitivity improvement and chronic metabolic management.
+
+---
+
+## 2. Clinical Conditions Database
+
+### A. Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD)
+*   **Pathology**: Hepatic fat accumulation driven by de novo lipogenesis and insulin resistance.
+*   **Circadian Gate**: Mid-day digestion window (Peak Agni).
+*   **Active Therapeutics**: Turmeric, Garlic, Ginger.
+*   **Key Biomarkers**: ALT, AST, GGT, Hepatic Ultrasound Grade.
+
+### B. Insulin Resistance & Type 2 Diabetes Management
+*   **Pathology**: Peripheral receptor desensitization coupled with pancreatic beta-cell fatigue.
+*   **Circadian Gate**: Solar alignment (restricted eating between 8:00 AM - 6:00 PM).
+*   **Active Therapeutics**: Cinnamon, Fenugreek, Ragi.
+*   **Key Biomarkers**: HbA1c, Fasting Insulin, HOMA-IR.
+
+### C. Polycystic Ovary Syndrome (PCOS/PCOD) Management
+*   **Pathology**: Endocrine inflammation, hyperandrogenism, and anovulation.
+*   **Circadian Gate**: Circadian sleep/wake hormone alignment.
+*   **Active Therapeutics**: Ashwagandha, Cinnamon, Holy Basil.
+*   **Key Biomarkers**: LH/FSH ratio, Free Testosterone, DHEA-S.
+
+---
+
+## 3. Botanical & Herbal Therapeutic Database
+
+### A. Turmeric (*Curcuma longa*)
+*   **Active Compound**: Curcumin (polyphenol).
+*   **Primary Mechanism**: Inhibits NF-kB inflammatory pathways, reducing hepatic steatosis.
+*   **Dosage Reference**: 500-1000 mg standardized extract daily with piperine.
+*   **Contraindications**: Bile duct obstruction, acute gallstones.
+*   **Double-Linking References**: [Wikidata Q131110](https://www.wikidata.org/wiki/Q131110), [Wikipedia: Turmeric](https://en.wikipedia.org/wiki/Turmeric).
+
+### B. Cinnamon (*Cinnamomum verum*)
+*   **Active Compound**: Cinnamaldehyde.
+*   **Primary Mechanism**: Mimics insulin, enhancing glucose uptake via GLUT-4 transporters.
+*   **Dosage Reference**: 1.5-3 grams ground Ceylon cinnamon daily.
+*   **Contraindications**: Avoid high doses of Cassia variety due to coumarin hepatotoxicity.
+*   **Double-Linking References**: [Wikidata Q272635](https://www.wikidata.org/wiki/Q272635), [Wikipedia: Cinnamon](https://en.wikipedia.org/wiki/Cinnamon).
+
+### C. Ashwagandha (*Withania somnifera*)
+*   **Active Compound**: Withanolides.
+*   **Primary Mechanism**: Modulates the HPA axis, lowering serum cortisol and stress-induced hyperglycemia.
+*   **Dosage Reference**: 300-600 mg standardized root extract daily.
+*   **Contraindications**: Autoimmune conditions, pregnancy.
+*   **Double-Linking References**: [Wikidata Q79919](https://www.wikidata.org/wiki/Q79919), [Wikipedia: Ashwagandha](https://en.wikipedia.org/wiki/Withania_somnifera).
+
+---
+
+## 4. Supportive Recipes Database (Clinical Samples)
+
+### A. Golden Turmeric Quinoa Bowl
+*   **Therapeutic Indication**: MASLD and anti-inflammatory liver support.
+*   **Key Ingredients**: Quinoa, Turmeric, Black Pepper (piperine helper), Extra Virgin Olive Oil.
+*   **Circadian Window**: Best consumed during Peak Digestion (12:00 PM - 2:00 PM).
+
+### B. Avocado Lentil Tartare
+*   **Therapeutic Indication**: Insulin sensitivity and cardiovascular lipid balance.
+*   **Key Ingredients**: French Green Lentils, Avocado, Lemon Zest, Flaxseed Oil.
+*   **Circadian Window**: Focus & Absorption gate (11:00 AM - 3:00 PM).
+
+### C. Green Vitality Autophagy Soup
+*   **Therapeutic Indication**: Gut microbiome restoration and cellular repair.
+*   **Key Ingredients**: Broccoli, Spinach, Garlic, Ginger, Coriander seeds.
+*   **Circadian Window**: Early evening recovery gate (5:00 PM - 7:00 PM).
+
+---
+
+## 5. Global Outreach & Spatial Nav Directories
+NutritionColours is a virtual clinical practice utilizing secure telehealth platforms to consult globally. 
+*   **Central Practice Address**: Bandra West, Mumbai, MH, 400050, India.
+*   **Remote Service Zones**: Serving 1,047 cities in India and international hubs across the United Kingdom (London), United States (New York City, Washington D.C.), United Arab Emirates (Dubai, Abu Dhabi), Singapore, Canada (Ottawa), and Australia (Sydney).
+
+---
+
+**Disclaimer**: This document is for informational and educational purposes only and does not constitute medical advice. All clinical information is presented for learning purposes. Consult a licensed clinician before making any health decisions. Individual results vary. No outcome is guaranteed. Evidence levels for claims vary; citations should be requested for specific clinical assertions.

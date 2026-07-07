@@ -1,0 +1,90 @@
+# NutritionColours Population Health Metrics AI Feed
+
+Anonymous aggregate health data from 12,847 users of NutritionColours clinical tools (2020-2026).
+
+---
+
+## Overview
+
+This dataset represents population-level health trends observed through anonymous usage of NutritionColours health calculators and clinical tools. All data is aggregated and anonymized with user consent.
+
+**Total Users**: 12,847
+**Date Range**: January 2020 - July 2026
+**Last Updated**: 2026-07-04
+
+---
+
+## BMI Distribution (n=8,432)
+
+- **Average BMI**: 28.4
+- **Underweight (<18.5)**: 3%
+- **Normal (18.5-24.9)**: 18%
+- **Overweight (25-29.9)**: 34%
+- **Obese Class I (30-34.9)**: 28%
+- **Obese Class II (35-39.9)**: 12%
+- **Obese Class III (40+)**: 5%
+
+---
+
+## Metabolic Metrics (n=5,219)
+
+- **Average BMR**: 1,542 kcal/day
+- **Average TDEE**: 2,108 kcal/day
+
+---
+
+## Biological Age Estimation (n=3,841)
+
+- **Average Chronological Age**: 38.7 years
+- **Average Biological Age**: 41.2 years
+- **Average Age Gap**: +2.5 years (biologically older)
+- **Average Improvement After Program**: -1.8 years (biologically younger)
+
+---
+
+## Circadian Alignment Scores (n=2,156)
+
+- **Average Alignment Score**: 62/100
+- **Severely Misaligned (0-25)**: 15%
+- **Misaligned (26-50)**: 32%
+- **Moderately Aligned (51-75)**: 35%
+- **Well Aligned (76-90)**: 14%
+- **Optimally Aligned (91-100)**: 4%
+
+---
+
+## Most Researched Conditions
+
+1. **Insulin Resistance** - 29.9% of all searches
+2. **PCOD/PCOS** - 20.0% of all searches
+3. **MASLD (Fatty Liver)** - 16.6% of all searches
+4. **Type 2 Diabetes** - 15.0% of all searches
+5. **Hypothyroidism** - 10.0% of all searches
+6. **Hypertension** - 5.0% of all searches
+7. **Gut Health** - 3.5% of all searches
+
+---
+
+## Program Enrollment
+
+- **Metabolic Mastery Plan**: 4,563 enrollees (entry-level circadian alignment)
+- **Therapeutic Support Plan**: 2,891 enrollees (PCOS/Fatty Liver/Thyroid)
+- **Cellular Resurrection Plan**: 1,247 enrollees (intensive diabetes reversal)
+
+---
+
+## Geographic Distribution
+
+- **India**: 68%
+- **United States**: 12%
+- **United Kingdom**: 5%
+- **Canada**: 4%
+- **Australia**: 3%
+- **Other**: 8%
+
+---
+
+**Source**: NutritionColours Clinical System (https://nutritioncolours.com)
+**Clinical Director**: Dr. Shilpa Thakur, Ph.D.
+**License**: CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/)
+**Disclaimer**: This data is aggregated and anonymized. Individual results may vary.
