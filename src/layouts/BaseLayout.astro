@@ -54,6 +54,17 @@ const organizationSchema = {
         },
       }),
     },
+    {
+      // No `potentialAction`/SearchAction here deliberately — the site has no real
+      // search endpoint today. Adding one would describe a feature that doesn't exist.
+      "@type": "WebSite",
+      "@id": `${SITE_URL}/#website`,
+      "url": SITE_URL,
+      "name": "NutritionColours",
+      "description": "Remote clinical nutrition practice specializing in circadian-aligned metabolic nutrition guidance for Type 2 Diabetes, PCOD/PCOS, and fatty liver.",
+      "publisher": { "@id": `${SITE_URL}/#organization` },
+      "inLanguage": "en",
+    },
   ],
 };
 ---

@@ -4,9 +4,32 @@ import SharedSections from '../components/SharedSections.astro';
 import AnimatedVisual from '../components/AnimatedVisual.astro';
 import { PLANS, PLANS_FAQS } from '../data/constants';
 import BaseLayout from '../layouts/BaseLayout.astro';
+
+// References the same Service @ids minted by plans/[slug].astro (which owns the
+// full Offer/pricing data) — this overview page just lists them.
+const SITE_URL = (Astro.site || 'https://nutritioncolours.com').toString().replace(/\/$/, '');
+const plansListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "NutritionColours Clinical Healing Programs",
+  "itemListElement": PLANS.map((plan, i) => {
+    const slug = plan.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+    return {
+      "@type": "ListItem",
+      "position": i + 1,
+      "item": {
+        "@type": "Service",
+        "@id": `${SITE_URL}/plans/${slug}#service`,
+        "name": plan.name,
+        "url": `${SITE_URL}/plans/${slug}`,
+      },
+    };
+  }),
+};
 ---
 
 <BaseLayout title="Clinical Healing Programs | NutritionColours" description="Explore Dr. Shilpa Thakur's clinical nutrition programs for Diabetes, PCOS, Fatty Liver, and metabolic wellness.">
+  <script type="application/ld+json" set:html={JSON.stringify(plansListSchema)} />
   <div class="space-y-0 bg-[#FAF9F6] dark:bg-[#022c22]">
     {/* Scientific Dossier Hero with vibrant gradients */}
     <div class="relative w-full min-h-[500px] lg:h-[70vh] bg-gradient-to-br from-emerald-950 via-emerald-900 to-stone-900 overflow-hidden flex items-center px-6">

@@ -4,9 +4,21 @@ import SharedSections from '../components/SharedSections.astro';
 import Icons from '../components/Icons.astro';
 import { ABOUT_FAQS } from '../data/constants';
 import BaseLayout from '../layouts/BaseLayout.astro';
+
+const SITE_URL = (Astro.site || 'https://nutritioncolours.com').toString().replace(/\/$/, '');
+const aboutPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "@id": `${SITE_URL}/about#page`,
+  "url": `${SITE_URL}/about`,
+  "name": "Our Approach & Philosophy | NutritionColours",
+  "about": { "@id": `${SITE_URL}/#organization` },
+  "mainEntity": { "@id": `${SITE_URL}/#organization` },
+};
 ---
 
 <BaseLayout title="Our Approach & Philosophy | NutritionColours" description="Learn about our root-cause medical nutrition protocols led by clinical nutritionist Dr. Shilpa Thakur.">
+  <script type="application/ld+json" set:html={JSON.stringify(aboutPageSchema)} />
   <div class="p-6 md:p-10 max-w-7xl mx-auto space-y-24">
     <div class="space-y-16">
       <SectionHeading subtitle="Philosophy" title="Our Approach" isMain={true} />

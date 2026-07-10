@@ -10,12 +10,25 @@ import { TOPICS } from '../data/topics';
 import { RECIPES } from '../data/recipes';
 
 const topicsData = TOPICS;
+
+const SITE_URL = (Astro.site || 'https://nutritioncolours.com').toString().replace(/\/$/, '');
+const homePageSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": `${SITE_URL}/#webpage`,
+  "url": SITE_URL,
+  "name": "NutritionColours | Metabolic Health & Circadian Nutrition Reversal",
+  "isPartOf": { "@id": `${SITE_URL}/#website` },
+  "about": { "@id": `${SITE_URL}/#organization` },
+  "mainEntity": { "@id": `${SITE_URL}/#organization` },
+};
 ---
 
 <BaseLayout
   title="NutritionColours | Metabolic Health & Circadian Nutrition Reversal"
   description="Clinical Metabolic Reversal practice led by Dr. Shilpa Thakur, Ph.D. Reversing Type 2 Diabetes, PCOS, and Fatty Liver via evidence-based circadian nutrition systems."
 >
+  <script type="application/ld+json" set:html={JSON.stringify(homePageSchema)} />
   <div class="space-y-4 pb-8">
     {/* Stateful React island loaded client-side */}
     <div class="relative">

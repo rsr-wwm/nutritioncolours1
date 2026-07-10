@@ -24,19 +24,30 @@ if (!selectedPlan) {
 
 const specificFaqs = getDynamicCategoryFaqs(`plans/${slug}`, null);
 
+const SITE_URL = (Astro.site || 'https://nutritioncolours.com').toString().replace(/\/$/, '');
+// Real published tiers/prices from PLANS data — not invented figures.
+const planOffers = (selectedPlan.tiers || []).map((tier) => ({
+  "@type": "Offer",
+  "name": `${selectedPlan.name} — ${tier.label}`,
+  "priceCurrency": "INR",
+  "price": tier.price.replace(/[^\d]/g, ''),
+  "availability": "https://schema.org/InStock",
+}));
+
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
+  "@id": `${SITE_URL}/plans/${slug}#service`,
   "name": selectedPlan.name,
   "description": selectedPlan.description,
-  "provider": {
-    "@type": "MedicalOrganization",
-    "name": "NutritionColours",
-    "founder": {
-      "@type": "Person",
-      "name": "Dr. Shilpa Thakur"
-    }
-  },
+  "provider": { "@id": `${SITE_URL}/#organization` },
+  ...(planOffers.length > 0 && {
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": `${selectedPlan.name} Pricing`,
+      "itemListElement": planOffers,
+    },
+  }),
   "areaServed": "IN"
 };
 ---

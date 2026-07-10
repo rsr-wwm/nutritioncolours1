@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Icons from '../../components/Icons.astro';
 import { LocalDirectory as ClinicClientPage } from '../../components/LocalDirectory';
 import { LOCATIONS_DATA } from '../../lib/locationsData';
 
@@ -63,6 +64,14 @@ const clinicSchema = loc ? {
         <p class="text-xs text-stone-400 uppercase tracking-widest font-bold">
           {cityLocations.length > 1 ? `${cityLocations.length} outreach records for this city` : 'Outreach region profile'} · Climate: {loc.weather}
         </p>
+        <a
+          href={`https://wa.me/917696160133?text=${encodeURIComponent(`Hi, I'm from ${cityLabel} and I'd like to know more about NutritionColours' clinical nutrition programs.`)}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 mt-2 px-6 py-3 rounded-full bg-emerald-600 text-white text-sm font-bold hover:bg-emerald-700 transition-colors shadow-md"
+        >
+          <Icons name="whatsapp" size={18} /> Chat on WhatsApp
+        </a>
       </div>
     </div>
   )}

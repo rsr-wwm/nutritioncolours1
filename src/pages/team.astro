@@ -11,12 +11,33 @@ const departments = [
   { name: 'Mind-Body Rehabilitation & Movement', desc: 'Restoring neuromuscular tone, active joint mobility, and autonomic balance to synergize with metabolic recovery.', members: TEAM.filter(m => m.id === 'karan' || m.id === 'nanz' || m.id === 'sagar') },
   { name: 'Operational Strategy & Governance', desc: 'Structuring healthcare delivery, patient care pipelines, and global clinic operations.', members: TEAM.filter(m => m.id === 'rana') }
 ];
+
+// References the same Person @ids minted by team/[id].astro — this list page doesn't
+// redeclare Person data, it just enumerates the entities that are fully defined there.
+const SITE_URL = (Astro.site || 'https://nutritioncolours.com').toString().replace(/\/$/, '');
+const teamListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "NutritionColours Clinical Team",
+  "itemListElement": TEAM.map((member, i) => ({
+    "@type": "ListItem",
+    "position": i + 1,
+    "item": {
+      "@type": "Person",
+      "@id": `${SITE_URL}/team/${member.slug || member.id}#person`,
+      "name": member.name,
+      "jobTitle": member.role,
+      "url": `${SITE_URL}/team/${member.slug || member.id}`,
+    },
+  })),
+};
 ---
 
 <BaseLayout
   title="Our Clinical Team | Dr. Shilpa Thakur & Medical Specialists"
   description="Meet the multidisciplinary clinical team leading evidence-based circadian metabolic reversal protocols."
 >
+  <script type="application/ld+json" set:html={JSON.stringify(teamListSchema)} />
   <div class="pt-12 pb-20 max-w-7xl mx-auto px-6 animate-in fade-in duration-700">
     <SectionHeading subtitle="Our Experts" title="Clinical Team" isMain={true} />
     {departments.map(dept => (
