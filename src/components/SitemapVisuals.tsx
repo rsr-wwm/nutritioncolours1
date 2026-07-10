@@ -71,6 +71,10 @@ export const MindMapVisualizer = ({ data, onNodeClick }: { data: SitemapNode, on
   const svgRef = useRef<SVGSVGElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const [dimensions, setDimensions] = useState({ width: 800, height: 600 });
+  // Real leaf count drives the SVG's actual height (see the tree-layout effect
+  // below for why) — computed once per `data` change, shared by both the D3
+  // effect and the rendered <svg height> so they never disagree.
+  const treeHeight = React.useMemo(() => Math.max(600, d3.hierarchy(data).leaves().length * 22), [data]);
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -89,15 +93,22 @@ export const MindMapVisualizer = ({ data, onNodeClick }: { data: SitemapNode, on
   useEffect(() => {
     if (!svgRef.current) return;
 
-    const { width, height } = dimensions;
+    const { width } = dimensions;
     const svg = d3.select(svgRef.current);
     svg.selectAll("*").remove();
 
     svg.append("title").text("Visual Mind Map and Navigation Sitemap Chart");
 
     const root = d3.hierarchy(data);
+    // The full site tree can have hundreds of leaves (every condition/herb/topic/
+    // recipe page). Sizing the tree to the container's fixed 600px height — as if
+    // the whole tree fit on one screen — crams every leaf label into the same few
+    // pixels of vertical space, so they render on top of each other. `treeHeight`
+    // (shared with the rendered <svg height> below) sizes the tree to the real
+    // leaf count instead; the container keeps its fixed height with overflow-auto,
+    // so this just becomes a scrollable canvas.
     const treeWidth = Math.max(800, width);
-    const treeLayout = d3.tree<SitemapNode>().size([height - 100, treeWidth - 200]);
+    const treeLayout = d3.tree<SitemapNode>().size([treeHeight - 100, treeWidth - 200]);
     treeLayout(root);
 
     const g = svg.append("g").attr("transform", "translate(100, 50)");
@@ -146,11 +157,11 @@ export const MindMapVisualizer = ({ data, onNodeClick }: { data: SitemapNode, on
       .style("opacity", 0)
       .transition().duration(500).style("opacity", 1);
 
-  }, [data, dimensions, onNodeClick]);
+  }, [data, dimensions, treeHeight, onNodeClick]);
 
   return (
     <div ref={containerRef} className="w-full h-[600px] bg-stone-50 rounded-3xl border border-stone-200 overflow-auto shadow-inner relative group">
-      <svg ref={svgRef} width={Math.max(800, dimensions.width)} height={dimensions.height} role="img" aria-label="Visual Mind Map and Navigation Sitemap Chart"></svg>
+      <svg ref={svgRef} width={Math.max(800, dimensions.width)} height={treeHeight} role="img" aria-label="Visual Mind Map and Navigation Sitemap Chart"></svg>
       <div className="absolute bottom-4 right-4 bg-white/80 backdrop-blur-sm px-3 py-1 rounded-full text-[10px] text-stone-400 border border-stone-100">
         Click nodes to view details
       </div>
@@ -196,7 +207,7 @@ const SitemapNodeItem: React.FC<SitemapNodeItemProps> = ({ node, depth = 0 }) =>
               <a
                 href={`/${node.path}`}
                 onClick={(e) => e.stopPropagation()}
-                className={`text-[10px] font-mono opacity-60 hover:opacity-100 hover:underline transition-all ${depth === 0 ? 'text-emerald-300 hover:text-white' : 'text-stone-400 hover:text-emerald-600'}`}
+                className={`text-[10px] font-mono hover:underline transition-colors ${depth === 0 ? 'text-emerald-200 hover:text-white' : 'text-stone-500 hover:text-emerald-700'}`}
               >
                   Go to /{node.path}
               </a>
