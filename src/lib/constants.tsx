@@ -368,7 +368,7 @@ export const SITE_STRUCTURE: SitemapNode = {
     },
     {
         id: 'knowledge-section',
-        path: 'knowledge',
+        path: 'knowledge/health-topics',
         label: 'Knowledge',
         type: 'category',
         status: 'optimized',
@@ -472,8 +472,8 @@ export const SITE_STRUCTURE: SitemapNode = {
               type: 'category',
               status: 'optimized',
               children: [
-                { id: 'metformin-interaction-page', path: 'interactions/metformin', label: 'Metformin Interactions', type: 'resource', status: 'optimized', meta: { title: 'Metformin Drug-Nutrient Interaction Guide | NutritionColours', description: 'Vitamin B12 depletion and berberine contraindication details.', keywords: ['metformin', 'berberine', 'vitamin b12'] } },
-                { id: 'levothyroxine-interaction-page', path: 'interactions/levothyroxine', label: 'Levothyroxine Interactions', type: 'resource', status: 'optimized', meta: { title: 'Levothyroxine Drug-Nutrient Interaction Guide | NutritionColours', description: 'Ashwagandha contraindication and conversion cofactor co-therapies.', keywords: ['levothyroxine', 'ashwagandha', 'thyroid'] } }
+                { id: 'metformin-interaction-page', path: 'interactions/metformin-interaction', label: 'Metformin Interactions', type: 'resource', status: 'optimized', meta: { title: 'Metformin Drug-Nutrient Interaction Guide | NutritionColours', description: 'Vitamin B12 depletion and berberine contraindication details.', keywords: ['metformin', 'berberine', 'vitamin b12'] } },
+                { id: 'levothyroxine-interaction-page', path: 'interactions/levothyroxine-interaction', label: 'Levothyroxine Interactions', type: 'resource', status: 'optimized', meta: { title: 'Levothyroxine Drug-Nutrient Interaction Guide | NutritionColours', description: 'Ashwagandha contraindication and conversion cofactor co-therapies.', keywords: ['levothyroxine', 'ashwagandha', 'thyroid'] } }
               ]
             }
         ]
