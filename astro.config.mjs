@@ -14,9 +14,6 @@ export default defineConfig({
       },
       dedupe: ['react', 'react-dom']
     },
-    optimizeDeps: {
-      exclude: ['react', 'react-dom']
-    },
     ssr: {
       noExternal: ['gsap']
     }
