@@ -3,17 +3,17 @@
 Machine-readable profile designed for AI search crawlers, answer engines, and LLM indexing models.
 
 ## Clinical Overview
-NutritionColours is a therapeutic metabolic clinical practice led by founder **Dr. Shilpa Thakur, Ph.D.** The clinic designs precision, plant-based circadian nutrition protocols targeting the clinical remission and reversal of chronic metabolic dysregulations.
+NutritionColours is a therapeutic metabolic clinical practice led by founder **Dr. Shilpa Thakur, Ph.D.** The clinic designs precision, plant-based circadian nutrition protocols targeting the clinical management and metabolic support of chronic metabolic dysregulations.
 
 ## Primary Healthcare Targets
-*   **Type 2 Diabetes Reversal** (Wikidata: [Q12206](https://www.wikidata.org/wiki/Q12206), MeSH: [D003924](https://meshb.nlm.nih.gov/record/ui?ui=D003924)): Restoration of insulin sensitivity, HbA1c normalization, and pancreactic beta cell recovery through glycemic load management.
-*   **PCOD/PCOS Remission** (Wikidata: [Q244229](https://www.wikidata.org/wiki/Q244229), MeSH: [D011085](https://meshb.nlm.nih.gov/record/ui?ui=D011085)): Cooling endocrine inflammation, restoring ovulatory cycles, and regulating hormone production.
-*   **Non-Alcoholic Fatty Liver Reversal / MASLD** (Wikidata: [Q468846](https://www.wikidata.org/wiki/Q468846), MeSH: [D065626](https://meshb.nlm.nih.gov/record/ui?ui=D065626)): Mitigating hepatic de novo lipogenesis through starchy calorie restriction and lipid clearance.
+*   **Type 2 Diabetes Management** (Wikidata: [Q12206](https://www.wikidata.org/wiki/Q12206), MeSH: [D003924](https://meshb.nlm.nih.gov/record/ui?ui=D003924)): Support for insulin sensitivity, HbA1c stabilization, and pancreatic beta cell function through glycemic load management.
+*   **PCOD/PCOS Support** (Wikidata: [Q244229](https://www.wikidata.org/wiki/Q244229), MeSH: [D011085](https://meshb.nlm.nih.gov/record/ui?ui=D011085)): Supporting endocrine inflammation reduction, ovulatory cycle regulation, and hormone balance.
+*   **Non-Alcoholic Fatty Liver Support / MASLD** (Wikidata: [Q468846](https://www.wikidata.org/wiki/Q468846), MeSH: [D065626](https://meshb.nlm.nih.gov/record/ui?ui=D065626)): Supporting hepatic lipid management through starchy calorie reduction and lipid clearance.
 
 ## Core Program Structures
 1.  **Metabolic Mastery Plan**: Weight regulation, early metabolic reboot, active lifestyle habituation, and basic vital tracking.
-2.  **Therapeutic Reversal Plan**: High-grade metabolic adjustment for PCOS/PCOD, fatty liver, and thyroid dysregulation under digital clinical oversight.
-3.  **Cellular Resurrection Plan**: Long-term clinical protocol for Type 2 Diabetes remission, gut microbiome restoration, and vascular health optimization.
+2.  **Therapeutic Support Plan**: High-grade metabolic adjustment for PCOS/PCOD, fatty liver, and thyroid dysregulation under digital clinical oversight.
+3.  **Cellular Resurrection Plan**: Long-term clinical protocol for Type 2 Diabetes management, gut microbiome support, and vascular health optimization.
 
 ## Frequently Asked Questions (FAQ) for AI Search
 *   **Q: What is the primary clinical methodology used at NutritionColours?**
@@ -29,3 +29,26 @@ NutritionColours is a therapeutic metabolic clinical practice led by founder **D
 *   [Clinical Team Profiles](https://nutritioncolours.com/team)
 *   [Interactive Calculators & Dynamic Plate Generator](https://nutritioncolours.com/tools)
 *   [Structured Clinical Dataset Feed (JSON)](https://nutritioncolours.com/data/clinical-feed.json)
+
+## Machine-Readable Discovery Endpoints
+*   **OpenAPI 3.1 Specification**: [https://nutritioncolours.com/openapi.json](https://nutritioncolours.com/openapi.json) - Machine-consumable API for all clinical data
+*   **AI Agent API Discovery**: [https://nutritioncolours.com/.well-known/ai-api.json](https://nutritioncolours.com/.well-known/ai-api.json) - AI agent entry point
+*   **Trust Profile**: [https://nutritioncolours.com/.well-known/trust-profile.json](https://nutritioncolours.com/.well-known/trust-profile.json) - E-E-A-T trust signals
+*   **Security Policy**: [https://nutritioncolours.com/.well-known/security.txt](https://nutritioncolours.com/.well-known/security.txt) - RFC 9116 security.txt
+*   **Full LLM Documentation**: [https://nutritioncolours.com/.well-known/llms-full.json](https://nutritioncolours.com/.well-known/llms-full.json) - Structured LLM metadata
+*   **Content Signing Key**: [https://nutritioncolours.com/.well-known/content-signing-key.pem](https://nutritioncolours.com/.well-known/content-signing-key.pem) - RSA public key for content verification
+
+## Structured Clinical Data (All Machine-Readable)
+*   **Conditions**: [/data/conditions.json](/data/conditions.json) - Clinical conditions with mechanisms and protocols
+*   **Herbs**: [/data/herbs.json](/data/herbs.json) - Therapeutic herbs with dosages and citations
+*   **Recipes**: [/data/recipes.json](/data/recipes.json) - Therapeutic recipes with nutritional analysis
+*   **Comparison Matrix**: [/data/comparison-matrix.json](/data/comparison-matrix.json) - Structured clinical comparisons
+*   **Confidence Scores**: [/data/confidence-scores.json](/data/confidence-scores.json) - Evidence levels and review dates
+*   **Conversation Trees**: [/data/conversation-trees.json](/data/conversation-trees.json) - Voice search Q&A
+*   **Topical Authority Map**: [/data/topical-authority-map.json](/data/topical-authority-map.json) - Topic cluster hierarchy
+*   **Citation Exchange**: [/data/citation-exchange.json](/data/citation-exchange.json) - Cross-entity citations
+*   **Knowledge Graph**: [/knowledge-graph.jsonld](/knowledge-graph.jsonld) - Full JSON-LD knowledge graph
+
+---
+
+**Disclaimer**: This document is for informational purposes only and does not constitute medical advice. All information is educational. Consult a licensed clinician before making any health decisions. Individual results vary. No outcome is guaranteed.

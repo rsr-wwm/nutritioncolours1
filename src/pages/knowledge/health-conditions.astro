@@ -1,0 +1,33 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { MEDICAL_CONDITIONS_DATA } from '../../lib/clinical_databases';
+
+// NOTE: this page previously rendered <ClinicalDetails client:only="react" /> (the
+// ClinicalConditionDetail component) with no `cond` prop — that component requires a single
+// specific condition object, so this index page was broken (would throw at runtime with
+// `cond` undefined). Replaced with a real listing linking to each condition's own page.
+---
+
+<BaseLayout
+  title="Therapeutic Health Conditions Reversal Protocols"
+  description="Clinical pathways, root-cause resolutions, and circadian nutritional systems to reverse metabolic diseases naturally."
+>
+  <div class="max-w-7xl mx-auto px-6 py-16 space-y-12">
+    <div class="text-center max-w-3xl mx-auto space-y-4">
+      <h1 class="text-4xl md:text-5xl font-black text-emerald-950 brand-font">Health Conditions</h1>
+      <p class="text-stone-600 leading-relaxed">
+        Root-cause clinical protocols for chronic metabolic conditions, each reviewed by
+        Dr. Shilpa Thakur against current clinical evidence.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {MEDICAL_CONDITIONS_DATA.map((cond) => (
+        <a href={`/condition/${cond.id}`} class="bg-white border border-stone-100 p-8 rounded-3xl hover:border-emerald-200 hover:shadow-xl transition-all group block">
+          <h2 class="text-lg font-black text-emerald-950 brand-font uppercase tracking-tight mb-3 group-hover:text-emerald-700 transition-colors">{cond.name}</h2>
+          <p class="text-stone-500 text-sm leading-relaxed line-clamp-3">{cond.rootCause}</p>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

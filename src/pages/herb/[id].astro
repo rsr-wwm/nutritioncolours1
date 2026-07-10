@@ -1,0 +1,40 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { ClinicalHerbDetail } from '../../components/ClinicalDetails';
+import { HERBS_SPICES_DATA, MEDICAL_CONDITIONS_DATA } from '../../lib/clinical_databases';
+import { getHerbEntityGraph } from '../../lib/seo/entityGraph';
+import { getBreadcrumbSchema } from '../../lib/seo/structuredData';
+
+export async function getStaticPaths() {
+  return HERBS_SPICES_DATA.map((herb) => ({
+    params: { id: herb.id },
+    props: { herb },
+  }));
+}
+
+const { herb } = Astro.props;
+
+// Only link conditions whose therapeuticSpices explicitly reference this herb by name —
+// avoids inventing relationships the clinical data doesn't actually state.
+const relatedConditionIds = MEDICAL_CONDITIONS_DATA
+  .filter((c) => (c.therapeuticSpices || []).some((s: string) => s.toLowerCase().includes(herb.name.toLowerCase().split(' ')[0])))
+  .map((c) => c.id);
+
+const herbSchema = getHerbEntityGraph(herb.id, herb, relatedConditionIds);
+const breadcrumbSchema = getBreadcrumbSchema(`herb/${herb.id}`, [
+  { label: 'Home', path: 'home' },
+  { label: 'Herbs & Spices', path: 'knowledge/herbs-spices' },
+  { label: herb.name, path: `herb/${herb.id}` },
+]);
+---
+
+<BaseLayout
+  title={herb.pageTitle || `${herb.name} (Clinical Guide) | NutritionColours`}
+  description={herb.metaDescription || herb.primaryMechanism}
+  keywords={[herb.name, herb.scientificName, ...(herb.seoKeywords || [])]}
+  ogImage={`/og/herb/${herb.id}.png`}
+>
+  <script type="application/ld+json" set:html={herbSchema} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  <ClinicalHerbDetail client:load herb={herb} herbsData={HERBS_SPICES_DATA} conditionsData={MEDICAL_CONDITIONS_DATA} />
+</BaseLayout>

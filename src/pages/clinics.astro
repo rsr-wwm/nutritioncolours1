@@ -1,0 +1,15 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { LocalDirectory } from '../components/LocalDirectory';
+---
+
+<BaseLayout
+  title="Outreach Locations | Clinical Metabolic Clinics"
+  description="Locate our clinical outreach programs, consulting centers, and mobile medical units across various regions."
+>
+  <LocalDirectory
+    client:only="react"
+    currentPath="clinics"
+    navigate={(path: string) => { window.location.href = '/' + path; }}
+  />
+</BaseLayout>

@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { DRUG_INTERACTIONS_DATA } from '../../lib/clinical_databases';
+
+// NOTE: this page previously rendered <ClinicalDetails client:only="react" /> (the
+// ClinicalInteractionDetail component) with no `interaction` prop — that component requires a
+// single specific interaction object, so this index page was broken (would throw at runtime
+// with `interaction` undefined). Replaced with a real listing linking to each interaction's
+// own page (see src/pages/interactions/[id].astro).
+---
+
+<BaseLayout
+  title="Drug-Nutrient Interactions & Depletion Registry"
+  description="Clinical database for monitoring nutrient depletions and clinical contraindications between drugs and functional foods."
+>
+  <div class="max-w-7xl mx-auto px-6 py-16 space-y-12">
+    <div class="text-center max-w-3xl mx-auto space-y-4">
+      <h1 class="text-4xl md:text-5xl font-black text-emerald-950 brand-font">Drug-Nutrient Interactions</h1>
+      <p class="text-stone-600 leading-relaxed">
+        A clinical registry of nutrient depletions and food/herb contraindications for
+        common medications, for use alongside — never in place of — your prescribing physician.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {DRUG_INTERACTIONS_DATA.map((interaction) => (
+        <a href={`/interactions/${interaction.id}`} class="bg-white border border-stone-100 p-8 rounded-3xl hover:border-emerald-200 hover:shadow-xl transition-all group block">
+          <span class="text-[10px] font-black text-emerald-800 uppercase tracking-widest">{interaction.drugClass}</span>
+          <h2 class="text-lg font-black text-emerald-950 brand-font uppercase tracking-tight mt-2 mb-3 group-hover:text-emerald-700 transition-colors">{interaction.drugName}</h2>
+          <p class="text-stone-500 text-sm leading-relaxed line-clamp-3">{interaction.monitoringAdvice}</p>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

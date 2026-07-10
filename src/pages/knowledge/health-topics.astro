@@ -1,0 +1,40 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { TOPICS } from '../../lib/topics';
+
+// NOTE: this page previously rendered <HealthTopicPage client:load /> with no `topicId` or
+// `navigate` prop — HealthTopicPage is a single-topic detail view (see src/pages/topic/[topic_id].astro
+// for the real per-topic route), so this index page was broken (missing required props,
+// would throw at runtime). Replaced with a real listing that links to each topic's own page.
+const categories = [...new Set(TOPICS.map((t) => t.category))];
+---
+
+<BaseLayout
+  title="Clinical Health Topics | Metabolic & Circadian Nutrition"
+  description="Clinical metabolic library detailing natural reversal approaches, nutritional science, and protocols for chronic conditions."
+>
+  <div class="max-w-7xl mx-auto px-6 py-16 space-y-16">
+    <div class="text-center max-w-3xl mx-auto space-y-4">
+      <h1 class="text-4xl md:text-5xl font-black text-emerald-950 brand-font">Clinical Health Topics</h1>
+      <p class="text-stone-600 leading-relaxed">
+        {TOPICS.length}+ clinical protocols covering metabolic, cardiovascular, hormonal, and
+        circadian health topics — each reviewed against peer-reviewed evidence.
+      </p>
+    </div>
+
+    {categories.map((category) => (
+      <div class="space-y-6">
+        <h2 class="text-xs font-black uppercase tracking-[0.3em] text-emerald-700 border-l-4 border-lime-400 pl-4">
+          {category}
+        </h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          {TOPICS.filter((t) => t.category === category).map((topic) => (
+            <a href={`/topic/${topic.id}`} class="bg-white border border-stone-100 p-5 rounded-2xl hover:border-emerald-200 hover:shadow-lg transition-all group block">
+              <h3 class="text-xs font-black text-emerald-950 uppercase tracking-tight leading-tight group-hover:text-emerald-700 transition-colors">{topic.title}</h3>
+            </a>
+          ))}
+        </div>
+      </div>
+    ))}
+  </div>
+</BaseLayout>

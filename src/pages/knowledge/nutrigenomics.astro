@@ -1,0 +1,11 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { GenomicMatcher } from '../../components/GenomicMatcher';
+---
+
+<BaseLayout
+  title="Nutrigenomics & Dietary Polymorphism Targets"
+  description="Analyze genetic variants (SNPs) and align dietary protocols with genomic markers like MTHFR, COMT, and FTO."
+>
+  <GenomicMatcher client:load />
+</BaseLayout>

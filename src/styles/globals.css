@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+:root {
+  --brand-primary: #059669; /* Default: Emerald 600 */
+  --brand-primary-hover: #047857; /* Default: Emerald 700 */
+}
+
+html[data-page-category="clinical"] {
+  --brand-primary: #059669; /* Emerald 600 */
+  --brand-primary-hover: #047857; /* Emerald 700 */
+}
+
+html[data-page-category="knowledge"] {
+  --brand-primary: #d97706; /* Amber 600 */
+  --brand-primary-hover: #b45309; /* Amber 700 */
+}
+
+html[data-page-category="recipe"] {
+  --brand-primary: #16a34a; /* Green 600 */
+  --brand-primary-hover: #15803d; /* Green 700 */
+}
+
+html[data-page-category="tool"] {
+  --brand-primary: #2563eb; /* Blue 600 */
+  --brand-primary-hover: #1d4ed8; /* Blue 700 */
+}
+
+@theme {
+  --color-brand-50: #ecfdf5;
+  --color-brand-100: #d1fae5;
+  --color-brand-200: #a7f3d0;
+  --color-brand-300: #6ee7b7;
+  --color-brand-400: #34d399;
+  --color-brand-500: #10b981;
+  --color-brand-600: var(--brand-primary);
+  --color-brand-700: var(--brand-primary-hover);
+  --color-brand-800: #065f46;
+  --color-brand-900: #064e3b;
+  --color-brand-950: #022c22;
+}
+
+/* Base styles */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.skip-nav {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  z-index: 9999;
+}
+
+.skip-nav:focus {
+  top: 0;
+}
+
+/* Focus visible styles */
+:focus-visible {
+  outline: 2px solid #10b981;
+  outline-offset: 2px;
+}

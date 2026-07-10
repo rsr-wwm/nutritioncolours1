@@ -1,0 +1,150 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SitemapPage } from '../components/SitemapVisuals';
+import { SITE_STRUCTURE, BLOG_ARTICLES } from '../lib/constants';
+import { TOPICS } from '../data/topics';
+import { HERBS_SPICES_DATA, MEDICAL_CONDITIONS_DATA } from '../lib/clinical_databases';
+import { RECIPES } from '../data/recipes';
+
+// Deep clone structure to modify safely
+const dynamicStructure = JSON.parse(JSON.stringify(SITE_STRUCTURE));
+
+// Find specific category folders to populate dynamically
+const traverseAndPopulate = (node: any) => {
+  if (node.id === 'topics-page') {
+    // Populate all 200+ topics
+    node.children = TOPICS.map(topic => ({
+      id: `topic-${topic.id}`,
+      path: `topic/${topic.id}`,
+      label: topic.title,
+      type: 'resource',
+      status: 'optimized',
+      meta: { title: topic.pageTitle, description: topic.metaDescription, keywords: [topic.primaryKeyword] },
+      content: {
+        benefits: topic.naturalApproach || [],
+        features: topic.aiSummaryBlock?.tags || [topic.category]
+      }
+    }));
+  } else if (node.id === 'herbs-spices-category') {
+    // Populate all herbs and spices
+    node.children = HERBS_SPICES_DATA.map(herb => ({
+      id: `herb-${herb.id}`,
+      path: `herb/${herb.id}`,
+      label: `${herb.name} (${herb.scientificName})`,
+      type: 'resource',
+      status: 'optimized',
+      meta: { title: herb.pageTitle, description: herb.metaDescription, keywords: herb.seoKeywords || [] },
+      content: {
+        benefits: herb.contraindications || [],
+        features: herb.activeCompounds || []
+      }
+    }));
+  } else if (node.id === 'conditions-category') {
+    // Populate all conditions
+    node.children = MEDICAL_CONDITIONS_DATA.map(cond => ({
+      id: `condition-${cond.id}`,
+      path: `condition/${cond.id}`,
+      label: `${cond.name} Protocol`,
+      type: 'resource',
+      status: 'optimized',
+      meta: { title: cond.pageTitle, description: cond.metaDescription, keywords: cond.seoKeywords || [] },
+      content: {
+        benefits: cond.swapGuidelines?.incorporate || [],
+        features: cond.biomarkers || []
+      }
+    }));
+  } else if (node.id === 'recipes-page') {
+    // Populate all recipes
+    node.children = RECIPES.map(recipe => ({
+      id: `recipe-${recipe.id}`,
+      path: `recipe/${recipe.id}`,
+      label: recipe.title,
+      type: 'resource',
+      status: 'optimized',
+      meta: { title: recipe.pageTitle || recipe.title, description: recipe.metaDescription || recipe.description, keywords: recipe.tags || [] },
+      content: {
+        benefits: [recipe.primaryBenefit, recipe.prepTime],
+        features: recipe.tags || []
+      }
+    }));
+  } else if (node.id === 'blogs-page') {
+    // Populate all articles
+    node.children = BLOG_ARTICLES.map(art => ({
+      id: `blog-${art.id}`,
+      path: `article/${art.id}`,
+      label: art.title,
+      type: 'resource',
+      status: 'optimized',
+      meta: { title: art.pageTitle || art.title, description: art.metaDescription || art.excerpt, keywords: art.tags || [] },
+      content: {
+        benefits: [art.category, `Written by ${art.author}`],
+        features: art.tags || []
+      }
+    }));
+  } else if (node.id === 'team-page') {
+    // Populate team details
+    node.children = node.children.map((child: any) => {
+      const memberId = child.id.replace('team-', '');
+      const TEAM_DATA = [
+        { id: 'shilpa', name: 'Dr. Shilpa Thakur', role: 'Medical Nutritionist', location: 'Chandigarh', specialties: ['Blood Sugar Optimization', 'Circadian Nutrition'] },
+        { id: 'kelive', name: 'Kelive D\'Souza', role: 'Food Recipe Expert', location: 'Goa', specialties: ['Therapeutic Recipes', 'Gourmet Health Food'] },
+        { id: 'karan', name: 'Karan Singh', role: 'Physical Recovery Specialist', location: 'Chandigarh', specialties: ['Physical Rehab', 'Movement Therapy'] },
+        { id: 'sagar', name: 'Sagar Thapa', role: 'Yoga & Mindfulness Coach', location: 'Dharamshala', specialties: ['Asana Practice', 'Shatkarma Cleansing'] },
+        { id: 'nanz', name: 'Nanzin Dolma', role: 'Trained Nurse', location: 'Chandigarh', specialties: ['Patient Vitals Tracking', 'CGM Optimization'] },
+        { id: 'rana', name: 'R.S. Rana', role: 'Administrative Head', location: 'Chandigarh', specialties: ['Clinical Operations', 'Patient Logistics'] }
+      ];
+      const match = TEAM_DATA.find(t => t.id === memberId);
+      if (match) {
+        return {
+          ...child,
+          meta: {
+            title: `${match.name} | ${match.role} | NutritionColours`,
+            description: `Meet ${match.name}, our expert ${match.role} located in ${match.location}.`,
+            keywords: [match.role, match.location, ...match.specialties]
+          },
+          content: {
+            benefits: [match.role, `Base Location: ${match.location}`],
+            features: match.specialties
+          }
+        };
+      }
+      return child;
+    });
+  } else if (node.id === 'vegan-page') {
+    // Populate vegan subtopics
+    node.children = node.children.map((child: any) => {
+      const slug = child.path.replace('vegan/', '');
+      const topicKey = `vegan-${slug}`;
+      const match = TOPICS.find(t => t.id === topicKey);
+      if (match) {
+        return {
+          ...child,
+          meta: {
+            title: match.pageTitle,
+            description: match.metaDescription,
+            keywords: [match.primaryKeyword || match.title]
+          },
+          content: {
+            benefits: match.naturalApproach || [],
+            features: match.aiSummaryBlock?.tags || [match.category]
+          }
+        };
+      }
+      return child;
+    });
+  }
+
+  if (node.children) {
+    node.children.forEach(traverseAndPopulate);
+  }
+};
+
+traverseAndPopulate(dynamicStructure);
+---
+
+<BaseLayout
+  title="Sitemap & Clinical Index | NutritionColours"
+  description="Structured index of all clinical topics, program details, recipes, sitemap nodes, and medical files."
+>
+  <SitemapPage client:load siteStructure={dynamicStructure} />
+</BaseLayout>

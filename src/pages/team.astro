@@ -1,0 +1,52 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { TEAM, TEAM_FAQS } from '../lib/constants';
+import SectionHeading from '../components/SectionHeading.astro';
+import SharedSections from '../components/SharedSections.astro';
+import Icons from '../components/Icons.astro';
+
+const departments = [
+  { name: 'Clinical & Metabolic Research', desc: 'Translating cellular biology and chrononutrition protocols into clinical disease reversal programs.', members: TEAM.filter(m => m.id === 'shilpa') },
+  { name: 'Culinary Medicine & Nutrition', desc: 'Designing low-glycemic, anti-inflammatory recipe protocols that turn food into daily medical therapy.', members: TEAM.filter(m => m.id === 'kelive') },
+  { name: 'Mind-Body Rehabilitation & Movement', desc: 'Restoring neuromuscular tone, active joint mobility, and autonomic balance to synergize with metabolic recovery.', members: TEAM.filter(m => m.id === 'karan' || m.id === 'nanz' || m.id === 'sagar') },
+  { name: 'Operational Strategy & Governance', desc: 'Structuring healthcare delivery, patient care pipelines, and global clinic operations.', members: TEAM.filter(m => m.id === 'rana') }
+];
+---
+
+<BaseLayout
+  title="Our Clinical Team | Dr. Shilpa Thakur & Medical Specialists"
+  description="Meet the multidisciplinary clinical team leading evidence-based circadian metabolic reversal protocols."
+>
+  <div class="pt-12 pb-20 max-w-7xl mx-auto px-6 animate-in fade-in duration-700">
+    <SectionHeading subtitle="Our Experts" title="Clinical Team" isMain={true} />
+    {departments.map(dept => (
+      <div class="mt-16 first:mt-8 space-y-6">
+        <div class="border-l-4 border-emerald-600 pl-4 space-y-1">
+          <h2 class="text-2xl font-black text-emerald-950 brand-font uppercase tracking-tight">{dept.name}</h2>
+          <p class="text-xs text-stone-500 max-w-3xl italic">{dept.desc}</p>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+          {dept.members.map(m => (
+            <a href={`/team/${m.slug || m.id}`} class="cursor-pointer card-clinical p-6 group flex flex-col justify-between h-full block border border-stone-100 rounded-[32px] hover:border-emerald-500 transition-all bg-white shadow-sm hover:shadow-lg">
+              <div>
+                <div class="aspect-square rounded-[24px] overflow-hidden mb-6 relative transition-all duration-700 shadow-inner">
+                  <img src={m.image} loading="lazy" class="w-full h-full object-cover transition-transform duration-[1500ms] group-hover:scale-110" alt={`Portrait of ${m.name}`} referrerpolicy="no-referrer" />
+                  <div class="absolute inset-0 bg-emerald-900/10 group-hover:bg-transparent transition-colors"></div>
+                </div>
+                <div class="space-y-1 mt-4">
+                  <h3 class="text-lg font-black text-emerald-950 brand-font group-hover:text-emerald-700 transition-colors uppercase tracking-tight leading-tight">{m.name}</h3>
+                  <p class="text-[10px] font-black text-emerald-800 uppercase tracking-widest leading-relaxed">{m.role}</p>
+                </div>
+              </div>
+              <div class="mt-6 pt-4 border-t border-stone-50 flex items-center text-xs font-bold text-stone-500 uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
+                View Bio &amp; FAQs <span class="ml-2"><Icons name="arrow-right" size={12} /></span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    ))}
+    <div class="mt-20 px-6"><SharedSections type="faq" faqData={TEAM_FAQS} faqTitle="Team FAQs" /></div>
+  </div>
+</BaseLayout>
+

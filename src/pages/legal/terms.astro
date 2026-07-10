@@ -1,0 +1,11 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EditorialPolicy from '../../components/EditorialPolicy';
+---
+
+<BaseLayout
+  title="Terms & Conditions | NutritionColours Reversal Clinic"
+  description="Clinical consultation directives, protocol liability agreements, and terms of service."
+>
+  <EditorialPolicy client:load navigate={(path: string) => { window.location.href = '/' + path; }} />
+</BaseLayout>

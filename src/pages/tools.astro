@@ -1,0 +1,74 @@
+---
+import SectionHeading from '../components/SectionHeading.astro';
+import SharedSections from '../components/SharedSections.astro';
+import { TOOLS_FAQS } from '../data/constants';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+// React Islands Imports
+import { DynamicCircadianClock } from '../components/DynamicCircadianClock';
+import { HrvTracker } from '../components/HrvTracker';
+import { BiologicalAgeEstimator } from '../components/BiologicalAgeEstimator';
+import { CircadianPlate } from '../components/ui/CircadianPlate';
+import { FarmSwapGuide } from '../components/ui/FarmSwapGuide';
+import { DietaryAuditor } from '../components/DietaryAuditor';
+import { GenomicMatcher } from '../components/GenomicMatcher';
+import { ResearchQueryAgent } from '../components/ResearchQueryAgent';
+import { BmiCalculator } from '../components/HealthCalculators';
+import { PdfBuilder } from '../components/PdfBuilder';
+import { SmartMealGenerator } from '../components/SmartMealGenerator';
+import { SeoAnalyzer } from '../components/SeoAnalyzer';
+import { SystemMonitor } from '../components/SystemMonitor';
+---
+
+<BaseLayout title="Metabolic Diagnostics & Health Tools | NutritionColours" description="Clinical diagnostics portal featuring Circadian Clocks, HRV Trackers, Biological Age Estimators, and Meal Planners.">
+  <div class="p-6 md:p-10 max-w-7xl mx-auto space-y-24">
+    <div>
+      <SectionHeading subtitle="Interactive Diagnostics" title="Circadian & Metabolic Hub" isMain={true} />
+      <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-8 mt-12">
+        <DynamicCircadianClock client:only="react" />
+        <HrvTracker client:only="react" />
+        <BiologicalAgeEstimator client:only="react" />
+        <CircadianPlate client:only="react" />
+        <div class="md:col-span-2">
+          <FarmSwapGuide client:only="react" />
+        </div>
+      </div>
+    </div>
+    
+    <div>
+      <SectionHeading subtitle="Advanced Science" title="Metabolic Auditing & Nutrigenomics" />
+      <div class="grid grid-cols-1 gap-8 mt-12">
+        <DietaryAuditor client:only="react" />
+        <GenomicMatcher client:only="react" />
+        <ResearchQueryAgent client:only="react" />
+      </div>
+    </div>
+    
+    <div>
+      <SectionHeading subtitle="Resources" title="Standard Health Calculators" />
+      <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-8 mt-12">
+        <BmiCalculator client:only="react" />
+        <PdfBuilder client:only="react" />
+      </div>
+    </div>
+    
+    <div>
+      <SectionHeading subtitle="Planning" title="Therapeutic Circadian Meal Planner" />
+      <div class="mt-12">
+        <SmartMealGenerator client:only="react" />
+      </div>
+    </div>
+    
+    <div>
+      <SectionHeading subtitle="Analysis" title="SEO & System Metrics" />
+      <div class="grid grid-cols-1 gap-8 mt-12">
+        <SeoAnalyzer client:only="react" />
+        <SystemMonitor client:only="react" />
+      </div>
+    </div>
+    
+    <div class="pt-12 border-t border-stone-200/60">
+      <SharedSections type="faq" faqData={TOOLS_FAQS} faqTitle="Tools Usage FAQs" />
+    </div>
+  </div>
+</BaseLayout>

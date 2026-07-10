@@ -1,0 +1,103 @@
+---
+import Icons from '../components/Icons.astro';
+import SharedSections from '../components/SharedSections.astro';
+import AnimatedVisual from '../components/AnimatedVisual.astro';
+import { PLANS, PLANS_FAQS } from '../data/constants';
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Clinical Healing Programs | NutritionColours" description="Explore Dr. Shilpa Thakur's clinical nutrition programs for Diabetes, PCOS, Fatty Liver, and metabolic wellness.">
+  <div class="space-y-0 bg-[#FAF9F6] dark:bg-[#022c22]">
+    {/* Scientific Dossier Hero with vibrant gradients */}
+    <div class="relative w-full min-h-[500px] lg:h-[70vh] bg-gradient-to-br from-emerald-950 via-emerald-900 to-stone-900 overflow-hidden flex items-center px-6">
+      <div class="absolute inset-0 z-0">
+        <div class="absolute inset-0 bg-[radial-gradient(#10b981_1.5px,transparent_1.5px)] [background-size:32px_32px] opacity-10" aria-hidden="true"></div>
+        <AnimatedVisual type="catalog" />
+        <div class="absolute inset-0 bg-gradient-to-r from-emerald-950 via-emerald-950/90 to-transparent" aria-hidden="true"></div>
+        <div class="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-[#FAF9F6] dark:from-[#022c22] to-transparent" aria-hidden="true"></div>
+      </div>
+      
+      <div class="relative z-10 max-w-7xl mx-auto w-full">
+        <div class="max-w-3xl space-y-8">
+          <div class="inline-flex items-center gap-3 px-5 py-2 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-lime-400 text-xs font-black uppercase tracking-[0.4em]">
+            <span class="w-2 h-2 rounded-full bg-lime-400 animate-ping"></span>
+            <Icons name="flask" size={14} /> Precision Healing Systems
+          </div>
+          <div class="space-y-4">
+            <h1 class="text-5xl md:text-7xl font-black text-white brand-font leading-[0.85] tracking-tighter">
+              Clinical <span class="text-transparent bg-clip-text bg-gradient-to-r from-lime-300 to-emerald-400 italic">Reversal</span> Protocols
+            </h1>
+            <p class="text-stone-100/90 text-lg md:text-xl font-bold max-w-2xl leading-relaxed border-l-4 border-lime-400 pl-6">
+              Evidence-based metabolic systems calibrated to achieve drug-free remission from chronic lifestyle diseases under clinical guidance.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {/* Cards Section */}
+    <div class="max-w-7xl mx-auto px-6 py-24 space-y-24">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {PLANS.map((plan) => {
+          const slug = plan.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+          return (
+            <div class="bg-white dark:bg-emerald-950/40 rounded-[32px] border border-stone-200/50 dark:border-emerald-800/30 p-8 shadow-xl hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col justify-between group relative overflow-hidden">
+              <div class="absolute -top-12 -right-12 w-36 h-36 bg-emerald-500/5 rounded-full group-hover:scale-150 transition-transform duration-500" aria-hidden="true"></div>
+              
+              <div class="space-y-6 relative z-10">
+                <div class="w-16 h-16 rounded-2xl bg-emerald-50 dark:bg-emerald-900/50 text-emerald-800 dark:text-lime-300 flex items-center justify-center border border-emerald-100/50 dark:border-emerald-800/40 shadow-inner">
+                  <Icons name={plan.icon || 'flask'} size={28} />
+                </div>
+                
+                <div class="space-y-2">
+                  <span class="inline-flex items-center gap-1.5 text-[9px] font-black tracking-widest text-emerald-800 dark:text-lime-300 uppercase bg-emerald-50 dark:bg-emerald-900/40 px-3 py-1 rounded-full border border-emerald-100 dark:border-emerald-800/30">
+                    ⏱️ {plan.duration || 'Flexible'} Program
+                  </span>
+                  <h3 class="text-2xl font-black text-emerald-950 dark:text-emerald-50 brand-font leading-tight pt-2">{plan.name}</h3>
+                </div>
+                
+                <p class="text-stone-500 dark:text-emerald-100/60 text-sm leading-relaxed">{plan.description}</p>
+                
+                <div class="space-y-2 pt-2">
+                  <span class="text-[10px] font-black text-emerald-950 dark:text-lime-400 tracking-wider uppercase block">Focus Metrics & Targets:</span>
+                  <ul class="space-y-2 text-xs text-stone-600 dark:text-emerald-100/80 font-bold uppercase tracking-wider">
+                    {plan.features.slice(0, 3).map((f) => (
+                      <li class="flex items-center gap-2">
+                        <span class="p-0.5 rounded-full bg-lime-100 dark:bg-emerald-900 text-emerald-800 dark:text-lime-300">
+                          <Icons name="check" size={10} />
+                        </span>
+                        <span>{f}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+              
+              <div class="pt-8 relative z-10">
+                <a href={`/plans/${slug}`} class="w-full py-4 rounded-2xl font-black uppercase tracking-[0.2em] text-xs transition-all bg-emerald-950 hover:bg-emerald-900 dark:bg-lime-400 dark:hover:bg-lime-300 shadow-lg hover:shadow-emerald-950/20 text-center block">
+                  <span class="btn-cta-text-white">Access Full Protocol</span>
+                </a>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+      {/* Circadian Reset Banner CTA */}
+      <div class="bg-gradient-to-r from-emerald-900 to-emerald-950 rounded-[32px] text-white p-8 md:p-12 shadow-2xl relative overflow-hidden border border-emerald-800 flex flex-col md:flex-row justify-between items-center gap-8">
+        <div class="absolute top-0 right-0 w-64 h-64 bg-lime-400 opacity-5 rounded-full blur-3xl" aria-hidden="true"></div>
+        <div class="space-y-4 max-w-2xl relative z-10">
+          <span class="text-[10px] font-black text-lime-400 bg-lime-400/10 px-3 py-1 rounded-full border border-lime-400/25 tracking-widest uppercase inline-block">2026 Circadian Reset Challenge</span>
+          <h3 class="text-3xl font-black brand-font leading-tight">Is your daily routine holding back your metabolic recovery?</h3>
+          <p class="text-emerald-100/70 text-sm leading-relaxed">Aligning meal times, sleep hygiene, and light cycles with natural biological clocks reduces systemic insulin resistance and cellular stress.</p>
+        </div>
+        <a href="/tools" class="shrink-0 bg-lime-400 hover:bg-lime-300 font-black uppercase tracking-widest text-xs px-8 py-5 rounded-2xl transition-all shadow-lg hover:scale-105 active:scale-95 duration-200 cursor-pointer text-center block">
+          <span class="btn-cta-text-dark">Start Rhythm Audit</span>
+        </a>
+      </div>
+
+      <SharedSections type="disclaimer" />
+      <SharedSections type="faq" faqData={PLANS_FAQS} faqTitle="Program FAQs" />
+    </div>
+  </div>
+</BaseLayout>

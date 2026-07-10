@@ -1,7 +1,23 @@
-// NutritionColours Service Worker
-const CACHE_VERSION = 'nutritioncolours-v1';
+// NutritionColours Service Worker v3
+// Enhanced with: Periodic Background Sync, Stale-While-Revalidate, Data Saver Mode
+const CACHE_VERSION = 'nutritioncolours-v3';
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const DYNAMIC_CACHE = `${CACHE_VERSION}-dynamic`;
+const DATA_CACHE = `${CACHE_VERSION}-data`;
+const AI_QUEUE_CACHE = `${CACHE_VERSION}-ai-queue`;
+
+// Cache TTLs
+const HTML_CACHE_MAX_AGE = 7 * 24 * 60 * 60 * 1000; // 7 days for HTML
+const DATA_CACHE_MAX_AGE = 24 * 60 * 60 * 1000; // 24 hours for data feeds
+
+// Clinical data feeds to periodically refresh
+const CLINICAL_DATA_FEEDS = [
+  '/data/clinical-feed.json',
+  '/data/conditions.json',
+  '/data/herbs.json',
+  '/data/featured-snippets.json',
+  '/data/content-freshness.json'
+];
 
 // Static assets to pre-cache during install
 const PRECACHE_ASSETS = [
@@ -92,12 +108,83 @@ self.addEventListener('activate', (event) => {
       .then((cacheNames) => {
         return Promise.all(
           cacheNames
-            .filter((name) => name !== STATIC_CACHE && name !== DYNAMIC_CACHE)
+            .filter((name) => name !== STATIC_CACHE && name !== DYNAMIC_CACHE && name !== DATA_CACHE && name !== AI_QUEUE_CACHE)
             .map((name) => caches.delete(name))
         );
       })
       .then(() => self.clients.claim())
   );
+});
+
+// ── Periodic Background Sync (refresh clinical data every 24h) ─────────────
+self.addEventListener('periodicsync', (event) => {
+  if (event.tag === 'refresh-clinical-data') {
+    event.waitUntil(refreshClinicalDataFeeds());
+  }
+});
+
+// ── Background Sync (replay queued AI chat requests) ───────────────────────
+self.addEventListener('sync', (event) => {
+  if (event.tag === 'sync-ai-queue') {
+    event.waitUntil(processAIQueue());
+  }
+});
+
+async function refreshClinicalDataFeeds() {
+  const cache = await caches.open(DATA_CACHE);
+  for (const feedUrl of CLINICAL_DATA_FEEDS) {
+    try {
+      const response = await fetch(feedUrl);
+      if (response.ok) {
+        await cache.put(feedUrl, response);
+      }
+    } catch (e) {
+      // Feed refresh failed, keep existing cached version
+    }
+  }
+}
+
+async function processAIQueue() {
+  const cache = await caches.open(AI_QUEUE_CACHE);
+  const keys = await cache.keys();
+  for (const request of keys) {
+    try {
+      const queuedRequest = await cache.match(request);
+      if (queuedRequest) {
+        const body = await queuedRequest.json();
+        // Replay the queued AI request
+        await fetch(body.url, {
+          method: 'POST',
+          headers: body.headers,
+          body: JSON.stringify(body.payload)
+        });
+        await cache.delete(request);
+      }
+    } catch (e) {
+      // Will retry on next sync
+    }
+  }
+}
+
+/**
+ * Register periodic sync for clinical data refresh.
+ * Called from the main thread when the SW is ready.
+ */
+async function registerPeriodicSync() {
+  if ('periodicSync' in self.registration) {
+    try {
+      await self.registration.periodicSync.register('refresh-clinical-data', {
+        minInterval: 24 * 60 * 60 * 1000 // 24 hours
+      });
+    } catch (e) {
+      // Periodic sync not supported or permission denied
+    }
+  }
+}
+
+// Register on activate
+self.addEventListener('activate', () => {
+  registerPeriodicSync();
 });
 
 // ── Fetch Event ────────────────────────────────────────────────────────────
@@ -130,6 +217,9 @@ self.addEventListener('fetch', (event) => {
   // Only handle GET requests
   if (event.request.method !== 'GET') return;
 
+  // ── Data Saver Mode: serve minimal content when saveData is on ──
+  const isDataSaver = navigator.connection && navigator.connection.saveData;
+
   // ── Network-first strategy for API calls ──
   if (isApiRequest(url)) {
     event.respondWith(
@@ -148,6 +238,25 @@ self.addEventListener('fetch', (event) => {
           // Fall back to cached API response if network fails
           return caches.match(event.request);
         })
+    );
+    return;
+  }
+
+  // ── Stale-while-revalidate for JSON data feeds ──
+  if (url.pathname.startsWith('/data/') && url.pathname.endsWith('.json')) {
+    event.respondWith(
+      caches.open(DATA_CACHE).then(async (cache) => {
+        const cachedResponse = await cache.match(event.request);
+        const fetchPromise = fetch(event.request).then((networkResponse) => {
+          if (networkResponse.ok) {
+            cache.put(event.request, networkResponse.clone());
+          }
+          return networkResponse;
+        }).catch(() => cachedResponse);
+
+        // Return cache immediately (stale), background update runs async
+        return cachedResponse || fetchPromise;
+      })
     );
     return;
   }
@@ -184,33 +293,34 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // ── Network-first with offline fallback for navigation requests ──
+  // ── Stale-while-revalidate for navigation (HTML pages) ──
   if (event.request.mode === 'navigate') {
     event.respondWith(
-      fetch(event.request)
-        .then((response) => {
-          // Cache the navigation response
-          const responseClone = response.clone();
-          caches.open(DYNAMIC_CACHE).then((cache) => {
-            cache.put(event.request, responseClone);
-          });
-          return response;
-        })
-        .catch(() => {
-          return caches.match(event.request)
-            .then((cachedResponse) => {
-              if (cachedResponse) return cachedResponse;
-              // SPA Fallback: serve /index.html from static cache to allow React client routing to take over offline
-              return caches.match('/index.html')
-                .then((indexResponse) => {
-                  if (indexResponse) return indexResponse;
-                  // If even index.html isn't cached, serve the inline offline fallback page
-                  return new Response(OFFLINE_FALLBACK_HTML, {
-                    headers: { 'Content-Type': 'text/html' }
-                  });
-                });
+      caches.open(DYNAMIC_CACHE).then(async (cache) => {
+        const cachedResponse = await cache.match(event.request);
+        
+        // Data saver: return cache immediately, skip network
+        if (isDataSaver && cachedResponse) {
+          return cachedResponse;
+        }
+
+        const fetchPromise = fetch(event.request).then((networkResponse) => {
+          if (networkResponse.ok) {
+            cache.put(event.request, networkResponse.clone());
+          }
+          return networkResponse;
+        }).catch(() => {
+          return caches.match('/index.html').then((indexResponse) => {
+            if (indexResponse) return indexResponse;
+            return new Response(OFFLINE_FALLBACK_HTML, {
+              headers: { 'Content-Type': 'text/html' }
             });
-        })
+          });
+        });
+
+        // Return cache immediately if available (stale), network response updates cache
+        return cachedResponse || fetchPromise;
+      })
     );
     return;
   }

@@ -1,0 +1,40 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { ClinicalConditionDetail } from '../../components/ClinicalDetails';
+import { MEDICAL_CONDITIONS_DATA, HERBS_SPICES_DATA } from '../../lib/clinical_databases';
+import { getConditionEntityGraph } from '../../lib/seo/entityGraph';
+import { getBreadcrumbSchema } from '../../lib/seo/structuredData';
+
+export async function getStaticPaths() {
+  return MEDICAL_CONDITIONS_DATA.map((cond) => ({
+    params: { id: cond.id },
+    props: { cond },
+  }));
+}
+
+const { cond } = Astro.props;
+
+// Real therapeuticSpices are free-text names, not guaranteed to match herb ids —
+// only pass through ids that exist in the herb database to avoid inventing entities.
+const relatedHerbIds = (cond.therapeuticSpices || [])
+  .map((spiceName: string) => HERBS_SPICES_DATA.find((h) => spiceName.toLowerCase().includes(h.name.toLowerCase().split(' ')[0]))?.id)
+  .filter(Boolean) as string[];
+
+const conditionSchema = getConditionEntityGraph(cond.id, cond, relatedHerbIds);
+const breadcrumbSchema = getBreadcrumbSchema(`condition/${cond.id}`, [
+  { label: 'Home', path: 'home' },
+  { label: 'Health Conditions', path: 'knowledge/health-conditions' },
+  { label: cond.name, path: `condition/${cond.id}` },
+]);
+---
+
+<BaseLayout
+  title={`${cond.name} - Reversal Protocol | NutritionColours`}
+  description={cond.rootCause}
+  keywords={[cond.name, ...(cond.seoKeywords || [])]}
+  ogImage={`/og/condition/${cond.id}.png`}
+>
+  <script type="application/ld+json" set:html={conditionSchema} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  <ClinicalConditionDetail client:load cond={cond} herbsData={HERBS_SPICES_DATA} />
+</BaseLayout>

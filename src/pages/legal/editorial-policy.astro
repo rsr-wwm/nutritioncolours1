@@ -1,0 +1,11 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EditorialPolicy from '../../components/EditorialPolicy';
+---
+
+<BaseLayout
+  title="Clinical Editorial Policy | NutritionColours"
+  description="Medical peer review guidelines, editorial policies, and scientific source verification rules."
+>
+  <EditorialPolicy client:load navigate={(path: string) => { window.location.href = '/' + path; }} />
+</BaseLayout>

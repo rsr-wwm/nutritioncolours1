@@ -1,0 +1,11 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SmartMealGenerator } from '../components/SmartMealGenerator';
+---
+
+<BaseLayout
+  title="Healing Recipes | Circadian & Metabolic Kitchen"
+  description="Clinical metabolic recipes designed to align with circadian nutrition, lower inflammation, and support diabetes reversal."
+>
+  <SmartMealGenerator client:load />
+</BaseLayout>

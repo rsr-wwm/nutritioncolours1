@@ -1,0 +1,269 @@
+---
+import { Header } from '../components/ui/Header';
+import Footer from './Footer.astro';
+import { CookieConsent } from '../components/CookieConsent';
+import Icons from '../components/Icons.astro';
+import { TEAM } from '../lib/constants';
+import '../styles/globals.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  keywords?: string[];
+  canonicalUrl?: string;
+  ogImage?: string;
+}
+
+const {
+  title = "NutritionColours | Metabolic Health & Circadian Nutrition Optimization 2026",
+  description = "Optimize Type 2 Diabetes, PCOD, and Fatty Liver wellness naturally. Book a clinical consultation for Dr. Shilpa Thakur's expert Circadian Nutrition programs in 2026.",
+  keywords = ["Diabetes Nutrition Support India", "PCOD Diet Plan", "Clinical Nutritionist Online", "Dr Shilpa Thakur", "Fatty Liver Nutrition"],
+  canonicalUrl = Astro.url.pathname,
+  ogImage
+} = Astro.props;
+
+// Site-wide entity graph — Organization + founder Person, real fields only
+// (no invented phone/address/ORCID/Wikidata: schema must only describe verifiable facts).
+const SITE_URL = (Astro.site || 'https://nutritioncolours.com').toString().replace(/\/$/, '');
+const resolvedOgImage = ogImage
+  ? new URL(ogImage, SITE_URL).href
+  : `${SITE_URL}/images/precision_metabolic_nutrition_dr_shilpa.webp`;
+const founder = TEAM.find((m) => m.id === 'shilpa');
+const founderSameAs = founder?.socials ? Object.values(founder.socials).filter(Boolean) : [];
+
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": `${SITE_URL}/#organization`,
+      "name": "NutritionColours",
+      "url": SITE_URL,
+      "logo": `${SITE_URL}/images/precision_metabolic_nutrition_dr_shilpa.webp`,
+      "description": "Remote clinical nutrition practice specializing in circadian-aligned metabolic nutrition guidance for Type 2 Diabetes, PCOD/PCOS, and fatty liver.",
+      ...(founder && {
+        "founder": {
+          "@type": "Person",
+          "@id": `${SITE_URL}/team/${founder.slug || founder.id}#person`,
+          "name": "Dr. Shilpa Thakur",
+          "jobTitle": founder.role,
+          "url": `${SITE_URL}/team/${founder.slug || founder.id}`,
+          "image": `${SITE_URL}${founder.image}`,
+          "worksFor": { "@id": `${SITE_URL}/#organization` },
+          ...(founderSameAs.length > 0 && { "sameAs": founderSameAs }),
+        },
+      }),
+    },
+  ],
+};
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="keywords" content={keywords.join(', ')} />
+    <link rel="canonical" href={new URL(canonicalUrl, Astro.site || 'https://nutritioncolours.com').href} />
+
+    {/* Favicons */}
+    <link rel="icon" type="image/svg+xml" href="/icons/icon-any.svg" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    {/* Search & Robots Metadata (SEO/AEO/GEO/AIO) */}
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="bingbot" content="index, follow" />
+    
+    {/* OpenGraph / Social Metadata */}
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:site_name" content="NutritionColours" />
+    <meta property="og:url" content={new URL(canonicalUrl, Astro.site || 'https://nutritioncolours.com').href} />
+    <meta property="og:image" content={resolvedOgImage} />
+    <meta property="og:locale" content="en_US" />
+
+    {/* Twitter Cards */}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={resolvedOgImage} />
+
+    {/* AI Search & LLM User Agent Directives */}
+    <meta name="ai-search-agent" content="index, answer" />
+    <meta name="llm-corpus" content="index, train" />
+
+    {/* Preconnect hints */}
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://generativelanguage.googleapis.com" crossorigin="anonymous" />
+
+    {/* PWA meta tags */}
+    <meta name="theme-color" content="#065f46" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="apple-touch-icon" href="/icons/icon-any.svg" />
+    <link rel="manifest" href="/manifest.json" />
+
+    {/* RSS Feed */}
+    <link rel="alternate" type="application/rss+xml" title="NutritionColours Insights Feed" href="/rss.xml" />
+
+    {/* AI/LLM links */}
+    <link rel="lrdd" type="application/json" href="/data/clinical-feed.json" title="Clinical Entity Feed" />
+    <link rel="alternate" type="text/markdown" href="/llms.txt" title="LLM-optimized documentation" />
+    <link rel="alternate" type="text/markdown" href="/llms-full.txt" title="LLM deep documentation" />
+    <link rel="alternate" type="text/markdown" href="/llms-conditions.txt" title="Clinical FAQ corpus for AI engines" />
+    <link rel="llms" href="/llms.txt" title="NutritionColours Clinical Nutrition AI Feed" />
+    <link rel="service" type="application/openapi+json" href="/openapi.json" title="NutritionColours Clinical Data API" />
+
+    {/* Site-wide entity graph (Organization + founder Person) — real fields only */}
+    <script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
+
+    {/* Oxford-centric Card Styling */}
+    <style is:global>
+      :root {
+        --card-hue: 210;
+        --card-start-light: 45%;
+        --card-end-light: 60%;
+        --card-start-light-hover: 55%;
+        --card-end-light-hover: 70%;
+        --card-radius: 0.75rem;
+        --card-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        --card-shadow-hover: 0 8px 12px rgba(0,0,0,0.2);
+      }
+      .card-3d {
+        display: inline-block;
+        padding: 0.75rem 1.25rem;
+        border-radius: var(--card-radius);
+        background: linear-gradient(135deg,
+          hsl(var(--card-hue), 70%, var(--card-start-light)),
+          hsl(var(--card-hue), 70%, var(--card-end-light)));
+        color: #fff;
+        text-decoration: none;
+        box-shadow: var(--card-shadow);
+        transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+      }
+      .card-3d:hover {
+        transform: translateY(-4px) scale(1.02);
+        box-shadow: var(--card-shadow-hover);
+        background: linear-gradient(135deg,
+          hsl(var(--card-hue), 70%, var(--card-start-light-hover)),
+          hsl(var(--card-hue), 70%, var(--card-end-light-hover)));
+      }
+      .hero-overlay { background: linear-gradient(180deg, rgba(0,0,0,0.5), transparent); }
+    </style>
+  </head>
+  <body class="bg-[#FAF9F6] dark:bg-[#022c22] text-[#0c1a16] dark:text-[#ecfdf5] selection:bg-emerald-800 selection:text-white font-sans transition-colors duration-300">
+    <a href="#main-content" class="skip-nav sr-only focus:not-sr-only focus:absolute focus:p-4 focus:bg-white focus:text-emerald-950 focus:z-50">
+      Skip to main content
+    </a>
+    
+    {/* Honeypot trap */}
+    <a href="/honeypot/trap/" rel="nofollow" style="display: none;" aria-hidden="true" tabindex="-1" class="exclude-link">
+      Clinical Directory Index
+    </a>
+
+    {/* Header component loaded as React client island */}
+    <Header client:load />
+
+    {/* Progress bar loaded on scroll */}
+    <div
+      id="scroll-progress-bar"
+      class="fixed top-0 left-0 h-1 bg-gradient-to-r from-emerald-500 to-lime-400 z-50 transition-all duration-150"
+      style="width: 0%"
+      role="progressbar"
+      aria-valuenow="0"
+      aria-valuemin="0"
+      aria-valuemax="100"
+      aria-label="Scroll progress"
+    ></div>
+
+    <main id="main-content" class="pt-28">
+      <slot />
+    </main>
+
+    <Footer />
+
+    {/* Client side sw, offline, progressive theme and scroll scripts */}
+    <script>
+      // 1. Service Worker & Offline Banner
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js').catch(() => {});
+      }
+
+      const showOfflineBanner = () => {
+        const banner = document.getElementById('offline-banner');
+        if (banner) banner.style.display = 'flex';
+      };
+      const hideOfflineBanner = () => {
+        const banner = document.getElementById('offline-banner');
+        if (banner) banner.style.display = 'none';
+      };
+      window.addEventListener('offline', showOfflineBanner);
+      window.addEventListener('online', hideOfflineBanner);
+
+      // 2. Dynamic Scroll Progress
+      const updateScrollProgress = () => {
+        const bar = document.getElementById('scroll-progress-bar');
+        if (!bar) return;
+        const scrollTop = window.scrollY;
+        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+        bar.style.width = `${progress}%`;
+        bar.setAttribute('aria-valuenow', Math.round(progress).toString());
+      };
+      window.addEventListener('scroll', updateScrollProgress, { passive: true });
+
+      // 3. Page Atmosphere & Category Toggles (Task 7 / Task 13)
+      const updateAtmosphere = () => {
+        const html = document.documentElement;
+        const path = window.location.pathname;
+
+        // Set category for brand atmosphere
+        if (path.startsWith('/plans') || path.startsWith('/about') || path.startsWith('/team') || path.startsWith('/testimonials') || path.startsWith('/clinics') || path.startsWith('/clinic/')) {
+          html.setAttribute('data-page-category', 'clinical');
+        } else if (path.startsWith('/knowledge') || path.startsWith('/herb/') || path.startsWith('/condition/') || path.startsWith('/topic/') || path.startsWith('/article/') || path.startsWith('/vegan/') || path.startsWith('/genomics/') || path.startsWith('/interactions/')) {
+          html.setAttribute('data-page-category', 'knowledge');
+        } else if (path.startsWith('/recipe') || path.startsWith('/recipes')) {
+          html.setAttribute('data-page-category', 'recipe');
+        } else if (path.startsWith('/tools')) {
+          html.setAttribute('data-page-category', 'tool');
+        } else {
+          html.removeAttribute('data-page-category');
+        }
+
+        // Set nav context for intent-aware navigation
+        if (path.startsWith('/knowledge') || path.startsWith('/herb/') || path.startsWith('/condition/') || path.startsWith('/topic/') || path.startsWith('/article/') || path.startsWith('/vegan/')) {
+          html.setAttribute('data-nav-context', 'knowledge');
+        } else if (path.startsWith('/plans') || path.startsWith('/about') || path.startsWith('/team')) {
+          html.setAttribute('data-nav-context', 'service');
+        } else if (path.startsWith('/tools') || path.startsWith('/recipes')) {
+          html.setAttribute('data-nav-context', 'tools');
+        } else {
+          html.removeAttribute('data-nav-context');
+        }
+      };
+      updateAtmosphere();
+      document.addEventListener('astro:after-navigation', updateAtmosphere);
+    </script>
+
+    {/* Offline notice banner container */}
+    <div id="offline-banner" style="display: none;" class="fixed bottom-0 left-0 right-0 bg-amber-500 text-white text-center py-3 px-4 z-[9999] text-sm font-bold">
+      You are offline. Some features may be unavailable.
+    </div>
+
+    {/* Interactive cookies banner */}
+    <CookieConsent client:only="react" />
+
+    {/* Hidden honeypot at bottom */}
+    <a href="/honeypot/trap" style="display: none; position: absolute; left: -9999px;" rel="nofollow" aria-hidden="true" class="exclude-link">
+      Clinical Resources Archive
+    </a>
+  </body>
+</html>
