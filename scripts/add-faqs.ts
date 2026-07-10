@@ -32,14 +32,28 @@ function shortLabel(s: string): string {
   return s.split(' (')[0].trim();
 }
 
+function normalize(s: string): string {
+  return s.toLowerCase().replace(/[^\w\s]/g, '').replace(/\s+/g, ' ').trim();
+}
+
+// Dedupes on BOTH question and answer text — two differently-worded questions
+// that resolve to the identical underlying fact (e.g. an existing FAQ already
+// covers what a new template would ask, just phrased differently) are just as
+// redundant as two identical questions, and several source fields legitimately
+// contain the exact same string as another field (e.g. `solution` and
+// `naturalApproach[0]` are often identical), so answer-level dedup is necessary,
+// not just question-level.
 function dedupeAppend(existing: FAQ[], candidates: FAQ[], target: number): FAQ[] {
-  const seen = new Set(existing.map((f) => f.question.toLowerCase().trim()));
+  const seenQuestions = new Set(existing.map((f) => normalize(f.question)));
+  const seenAnswers = new Set(existing.map((f) => normalize(f.answer)));
   const result = [...existing];
   for (const c of candidates) {
     if (result.length >= target) break;
-    const key = c.question.toLowerCase().trim();
-    if (seen.has(key)) continue;
-    seen.add(key);
+    const qKey = normalize(c.question);
+    const aKey = normalize(c.answer);
+    if (seenQuestions.has(qKey) || seenAnswers.has(aKey)) continue;
+    seenQuestions.add(qKey);
+    seenAnswers.add(aKey);
     result.push(c);
   }
   return result;

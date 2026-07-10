@@ -396,3 +396,14 @@ export function getRecipeEntityGraph(recipeId: string, recipeData?: any): string
     pageDescription: recipeData?.metaDescription,
   });
 }
+
+/**
+ * Standalone FAQPage schema for templates that already render their own primary
+ * schema separately (e.g. topic pages) and just need the real FAQ content made
+ * crawlable alongside it.
+ */
+export function getFaqPageSchema(url: string, faqs?: { question: string; answer: string }[]): string | null {
+  const faqPage = buildFaqPageEntity(url, faqs);
+  if (!faqPage) return null;
+  return JSON.stringify({ '@context': 'https://schema.org', ...faqPage });
+}

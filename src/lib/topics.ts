@@ -21,10 +21,57 @@ export const TOPICS: Topic[] = [
       narrative: 'A 52-year-old teacher optimized glucose levels and reduced HbA1c in just 6 months through Our protocol.'
     },
     faqs: [
-      { question: "Can I eat whole fruit on this program?", answer: "Yes. Dr. Shilpa Thakur recommends selecting low-glycemic whole fruits like berries and apples, consumed in controlled portions during the active anabolic window.", category: "Diet" },
-      { question: "How quickly can I see blood sugar stabilization?", answer: "Many patients observe glucose improvements within 7 to 14 days of starting the circadian diet protocol, under Dr. Shilpa's oversight.", category: "Timeline" },
-      { question: "Do I have to stop all carbs?", answer: "No. The protocol focuses on complex, slow-digesting carbohydrates (like ragi or legumes) paired with healthy fats and fiber rather than complete carbohydrate elimination.", category: "Diet" },
-    ],
+      {
+          question: "Can I eat whole fruit on this program?",
+          answer: "Yes. Dr. Shilpa Thakur recommends selecting low-glycemic whole fruits like berries and apples, consumed in controlled portions during the active anabolic window.",
+          category: "Diet"
+      },
+      {
+          question: "How quickly can I see blood sugar stabilization?",
+          answer: "Many patients observe glucose improvements within 7 to 14 days of starting the circadian diet protocol, under Dr. Shilpa's oversight.",
+          category: "Timeline"
+      },
+      {
+          question: "Do I have to stop all carbs?",
+          answer: "No. The protocol focuses on complex, slow-digesting carbohydrates (like ragi or legumes) paired with healthy fats and fiber rather than complete carbohydrate elimination.",
+          category: "Diet"
+      },
+      {
+          question: "What causes Blood Sugar & Insulin Optimization?",
+          answer: "High blood sugar due to insulin resistance, often caused by excessive sugar and processed carb intake.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Blood Sugar & Insulin Optimization through nutrition?",
+          answer: "Focus on restoring the body's sensitivity to insulin through strict low-glycemic, whole-foods diet.",
+          category: "Solution"
+      },
+      {
+          question: "What results have patients seen with Blood Sugar & Insulin Optimization?",
+          answer: "Average HbA1c drop of 1.8 points within 90 days across 500+ participants. A 52-year-old teacher optimized glucose levels and reduced HbA1c in just 6 months through Our protocol.",
+          category: "Case Study"
+      },
+      {
+          question: "Can you summarize Blood Sugar & Insulin Optimization in brief?",
+          answer: "Insulin resistance occurs when cell receptors ignore glucose-uptake signals. We restore insulin sensitivity by aligning eating windows with daylight cycles and replacing simple refined starches with slow-digesting complex carbs. This lets the pancreas rest and lowers glucose levels naturally.",
+          category: "Summary"
+      },
+      {
+          question: "The Real Cause of Blood Sugar Spikes?",
+          answer: "Your cells are overwhelmed. Continuous carbohydrate loading causes the pancreas to pump out insulin, but cells stop responding to the signal. This creates insulin resistance, leaving sugar circulating in your blood.",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Non-starchy vegetables\" help with Blood Sugar & Insulin Optimization?",
+          answer: "Yes \u2014 Non-starchy vegetables is one of the natural approaches recommended for Blood Sugar & Insulin Optimization.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Circadian Nutrition: Sychronizing Meal Schedules?",
+          answer: "Your body processes food differently depending on the time of day. Insulin sensitivity naturally drops as sunset approaches. Eating heavy meals late overrides your circadian clock, leading directly to fat accumulation.",
+          category: "Deep Dive"
+      }
+  ],
     aiSummaryBlock: {
       tldr: "Insulin resistance occurs when cell receptors ignore glucose-uptake signals. We restore insulin sensitivity by aligning eating windows with daylight cycles and replacing simple refined starches with slow-digesting complex carbs. This lets the pancreas rest and lowers glucose levels naturally.",
       tags: ["insulin-sensitivity", "metabolic-management", "circadian-nutrition", "blood-sugar"]
@@ -76,10 +123,57 @@ export const TOPICS: Topic[] = [
       narrative: 'A 24-year-old with PCOD Grade 2 achieved regular cycles and clear skin after eliminating secret dairy and inflammatory seed oils.'
     },
     faqs: [
-      { question: "Will this protocol help me get pregnant?", answer: "Yes. By addressing the root insulin resistance and lowering androgens, hormone protocols have successfully helped many women restore regular ovulation and improve fertility.", category: "Fertility" },
-      { question: "Is dairy allowed in the PCOS program?", answer: "Dr. Shilpa Thakur recommends eliminating processed commercial dairy during the initial phase, as it contains insulinogenic proteins.", category: "Diet" },
-      { question: "Do I need to take birth control pills to regulate my periods?", answer: "Our goal is to restore natural hormone production. Through circadian eating and weight management, we help patients regulate cycles naturally.", category: "Approach" },
-    ],
+      {
+          question: "Will this protocol help me get pregnant?",
+          answer: "Yes. By addressing the root insulin resistance and lowering androgens, hormone protocols have successfully helped many women restore regular ovulation and improve fertility.",
+          category: "Fertility"
+      },
+      {
+          question: "Is dairy allowed in the PCOS program?",
+          answer: "Dr. Shilpa Thakur recommends eliminating processed commercial dairy during the initial phase, as it contains insulinogenic proteins.",
+          category: "Diet"
+      },
+      {
+          question: "Do I need to take birth control pills to regulate my periods?",
+          answer: "Our goal is to restore natural hormone production. Through circadian eating and weight management, we help patients regulate cycles naturally.",
+          category: "Approach"
+      },
+      {
+          question: "What causes Endocrine & Hormonal Balance?",
+          answer: "Hormonal imbalance often caused by insulin resistance, leading to elevated androgens and fertility issues.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Endocrine & Hormonal Balance through nutrition?",
+          answer: "Balance hormones naturally through low-GI foods, fiber, and lifestyle changes.",
+          category: "Solution"
+      },
+      {
+          question: "What results have patients seen with Endocrine & Hormonal Balance?",
+          answer: "92% restoration of menstrual cycle regularity within 120 days. A 24-year-old with PCOD Grade 2 achieved regular cycles and clear skin after eliminating secret dairy and inflammatory seed oils.",
+          category: "Case Study"
+      },
+      {
+          question: "Can you summarize Endocrine & Hormonal Balance in brief?",
+          answer: "Polycystic ovarian syndrome is closely linked to high circulating insulin, which prompts the ovaries to produce excess testosterone. We lower these androgen markers and restore ovulation by eliminating dairy and balancing glycemic loads.",
+          category: "Summary"
+      },
+      {
+          question: "The Link Between PCOS and Insulin?",
+          answer: "Many women are told PCOS is solely an ovarian issue, but the real driver is often metabolic. High insulin levels stimulate the ovaries to produce excess male hormones (testosterone). This halts normal follicular development and triggers cycle irregularies.",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Low-GI foods\" help with Endocrine & Hormonal Balance?",
+          answer: "Yes \u2014 Low-GI foods is one of the natural approaches recommended for Endocrine & Hormonal Balance.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"High fiber\" help with Endocrine & Hormonal Balance?",
+          answer: "Yes \u2014 High fiber is one of the natural approaches recommended for Endocrine & Hormonal Balance.",
+          category: "Natural Approach"
+      }
+  ],
     aiSummaryBlock: {
       tldr: "Polycystic ovarian syndrome is closely linked to high circulating insulin, which prompts the ovaries to produce excess testosterone. We lower these androgen markers and restore ovulation by eliminating dairy and balancing glycemic loads.",
       tags: ["pcos-management", "hormone-balance", "fertility-nutrition", "ovulation-support"]
@@ -119,10 +213,57 @@ export const TOPICS: Topic[] = [
       narrative: 'A 45-year-old businessman reduced his liver enzymes (ALT/AST) by 60% by replacing fructose with liver-supportive fats and cruciferous elixirs.'
     },
     faqs: [
-      { question: "Can fatty liver be completely resolved?", answer: "Yes. The liver is highly regenerative. Circadian protocols help support liver clearance of fat deposits within 3 to 6 months.", category: "Prognosis" },
-      { question: "Are eggs good for fatty liver?", answer: "Yes. Eggs are an excellent source of choline, which is vital for transporting fats out of the liver. Dr. Shilpa recommends organic eggs.", category: "Diet" },
-      { question: "Should I avoid all fats?", answer: "No. Healthy monounsaturated fats and Omega-3s support liver repair. We focus on removing processed trans fats and industrial seed oils instead.", category: "Nutrition" },
-    ],
+      {
+          question: "Can fatty liver be completely resolved?",
+          answer: "Yes. The liver is highly regenerative. Circadian protocols help support liver clearance of fat deposits within 3 to 6 months.",
+          category: "Prognosis"
+      },
+      {
+          question: "Are eggs good for fatty liver?",
+          answer: "Yes. Eggs are an excellent source of choline, which is vital for transporting fats out of the liver. Dr. Shilpa recommends organic eggs.",
+          category: "Diet"
+      },
+      {
+          question: "Should I avoid all fats?",
+          answer: "No. Healthy monounsaturated fats and Omega-3s support liver repair. We focus on removing processed trans fats and industrial seed oils instead.",
+          category: "Nutrition"
+      },
+      {
+          question: "What causes Liver Health & Metabolic Detoxification?",
+          answer: "Fat accumulation in the liver primarily caused by excessive sugar and processed food intake.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Liver Health & Metabolic Detoxification through nutrition?",
+          answer: "Remove fructose and refined sugar, increase intake of liver-supportive nutrients like choline.",
+          category: "Solution"
+      },
+      {
+          question: "What results have patients seen with Liver Health & Metabolic Detoxification?",
+          answer: "FibroScan\u00AE fatty liver indicators optimized from Grade 3 to Grade 1 within 180 days. A 45-year-old businessman reduced his liver enzymes (ALT/AST) by 60% by replacing fructose with liver-supportive fats and cruciferous elixirs.",
+          category: "Case Study"
+      },
+      {
+          question: "Can you summarize Liver Health & Metabolic Detoxification in brief?",
+          answer: "Non-alcoholic fatty liver (MASLD) is triggered by hepatic fat deposition, chiefly driven by dietary fructose processing. We support liver health by removing refined corn syrup and supplying choline to facilitate fat transport and clearance.",
+          category: "Summary"
+      },
+      {
+          question: "How Fructose Overloads the Liver?",
+          answer: "Unlike glucose, which can be used by all cells, fructose is processed exclusively by the liver. When you consume high amounts of fructose (like in juices or sodas), the liver converts the excess directly into triglycerides, causing fat storage.",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Eliminate Fructose\" help with Liver Health & Metabolic Detoxification?",
+          answer: "Yes \u2014 Eliminate Fructose is one of the natural approaches recommended for Liver Health & Metabolic Detoxification.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Choline-rich foods\" help with Liver Health & Metabolic Detoxification?",
+          answer: "Yes \u2014 Choline-rich foods is one of the natural approaches recommended for Liver Health & Metabolic Detoxification.",
+          category: "Natural Approach"
+      }
+  ],
     aiSummaryBlock: {
       tldr: "Non-alcoholic fatty liver (MASLD) is triggered by hepatic fat deposition, chiefly driven by dietary fructose processing. We support liver health by removing refined corn syrup and supplying choline to facilitate fat transport and clearance.",
       tags: ["fatty-liver", "liver-clearance", "metabolic-detox", "choline-sources"]
@@ -162,10 +303,57 @@ export const TOPICS: Topic[] = [
       narrative: 'A 34-year-old female achieved normal thyroid function after optimizing her gut microbiome and iodine-selenium mapping.'
     },
     faqs: [
-      { question: "Can I reduce my thyroid medication?", answer: "Many patients at Nutrition Colours are able to optimize thyroid parameters under medical supervision as thyroid cell function and gut conversion rates improve through Dr. Shilpa's protocols.", category: "Medication" },
-      { question: "Why is gut health important for thyroid?", answer: "Approximately 20% of thyroid hormone conversion (T4 to T3) occurs in the gut. Dr. Shilpa focuses on gut microbiome health at Nutrition Colours to maximize this conversion.", category: "Science" },
-      { question: "Should I avoid cruciferous vegetables?", answer: "No. Lightly cooked cruciferous vegetables are perfectly safe. Dr. Shilpa advises against eating raw cruciferous greens in large quantities if you have hypothyroidism.", category: "Diet" },
-    ]
+      {
+          question: "Can I reduce my thyroid medication?",
+          answer: "Many patients at Nutrition Colours are able to optimize thyroid parameters under medical supervision as thyroid cell function and gut conversion rates improve through Dr. Shilpa's protocols.",
+          category: "Medication"
+      },
+      {
+          question: "Why is gut health important for thyroid?",
+          answer: "Approximately 20% of thyroid hormone conversion (T4 to T3) occurs in the gut. Dr. Shilpa focuses on gut microbiome health at Nutrition Colours to maximize this conversion.",
+          category: "Science"
+      },
+      {
+          question: "Should I avoid cruciferous vegetables?",
+          answer: "No. Lightly cooked cruciferous vegetables are perfectly safe. Dr. Shilpa advises against eating raw cruciferous greens in large quantities if you have hypothyroidism.",
+          category: "Diet"
+      },
+      {
+          question: "What causes Thyroid & Metabolic Optimization?",
+          answer: "Low thyroid function leading to fatigue and slow metabolism.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Thyroid & Metabolic Optimization through nutrition?",
+          answer: "Ensure adequate intake of Iodine, Selenium, and Zinc, and support gut health.",
+          category: "Solution"
+      },
+      {
+          question: "What results have patients seen with Thyroid & Metabolic Optimization?",
+          answer: "T3/T4 levels optimized without dose increases in 4 months. A 34-year-old female achieved normal thyroid function after optimizing her gut microbiome and iodine-selenium mapping.",
+          category: "Case Study"
+      },
+      {
+          question: "Does \"Brazil Nuts (Selenium)\" help with Thyroid & Metabolic Optimization?",
+          answer: "Yes \u2014 Brazil Nuts (Selenium) is one of the natural approaches recommended for Thyroid & Metabolic Optimization.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Seaweed (Iodine)\" help with Thyroid & Metabolic Optimization?",
+          answer: "Yes \u2014 Seaweed (Iodine) is one of the natural approaches recommended for Thyroid & Metabolic Optimization.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Zinc sources\" help with Thyroid & Metabolic Optimization?",
+          answer: "Yes \u2014 Zinc sources is one of the natural approaches recommended for Thyroid & Metabolic Optimization.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Gut Health support\" help with Thyroid & Metabolic Optimization?",
+          answer: "Yes \u2014 Gut Health support is one of the natural approaches recommended for Thyroid & Metabolic Optimization.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'hypertension-management',
@@ -183,10 +371,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "Can I stop my BP pills on this diet?", answer: "Medication changes must always be supervised. However, Dr. Shilpa's sodium-potassium balancing protocols at Nutrition Colours have helped many patients support arterial elasticity and tone under doctor supervision.", category: "Medication" },
-      { question: "Which salt is best for high BP?", answer: "We recommend reducing refined table salt. Dr. Shilpa at Nutrition Colours suggests minimal amounts of mineral-rich pink Himalayan salt or rock salt.", category: "Diet" },
-      { question: "Does stress raise my blood pressure permanently?", answer: "Chronic stress elevates cortisol and tightens blood vessels. Our lifestyle coaching at Nutrition Colours includes breathing techniques to calm the nervous system.", category: "Stress" },
-    ]
+      {
+          question: "Can I stop my BP pills on this diet?",
+          answer: "Medication changes must always be supervised. However, Dr. Shilpa's sodium-potassium balancing protocols at Nutrition Colours have helped many patients support arterial elasticity and tone under doctor supervision.",
+          category: "Medication"
+      },
+      {
+          question: "Which salt is best for high BP?",
+          answer: "We recommend reducing refined table salt. Dr. Shilpa at Nutrition Colours suggests minimal amounts of mineral-rich pink Himalayan salt or rock salt.",
+          category: "Diet"
+      },
+      {
+          question: "Does stress raise my blood pressure permanently?",
+          answer: "Chronic stress elevates cortisol and tightens blood vessels. Our lifestyle coaching at Nutrition Colours includes breathing techniques to calm the nervous system.",
+          category: "Stress"
+      },
+      {
+          question: "What causes Hypertension Management?",
+          answer: "Stiff blood vessels and high sodium intake increasing pressure.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Hypertension Management through nutrition?",
+          answer: "Adopt DASH diet, reduce sodium, and boost Potassium and Magnesium.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Low Sodium\" help with Hypertension Management?",
+          answer: "Yes \u2014 Low Sodium is one of the natural approaches recommended for Hypertension Management.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"High Potassium\" help with Hypertension Management?",
+          answer: "Yes \u2014 High Potassium is one of the natural approaches recommended for Hypertension Management.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Magnesium-rich foods\" help with Hypertension Management?",
+          answer: "Yes \u2014 Magnesium-rich foods is one of the natural approaches recommended for Hypertension Management.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"DASH Diet\" help with Hypertension Management?",
+          answer: "Yes \u2014 DASH Diet is one of the natural approaches recommended for Hypertension Management.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'gut-health-acidity',
@@ -204,10 +434,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "Why does my acidity flare up after meals?", answer: "It is often due to low stomach acid (hypochlorhydria) or poor cardiac sphincter function. Dr. Shilpa uses natural digestive stimulants at Nutrition Colours to balance acid levels.", category: "Science" },
-      { question: "Are antacids safe long-term?", answer: "Long-term antacids shut down stomach acid, leading to poor protein digestion and bacterial overgrowth. Nutrition Colours protocols aim to heal the stomach lining naturally.", category: "Treatment" },
-      { question: "Which probiotics do you recommend?", answer: "We prioritize prebiotic foods and natural ferments first. Dr. Shilpa Thakur selects specific clinical probiotic strains when necessary to resolve dysbiosis.", category: "Probiotics" },
-    ]
+      {
+          question: "Why does my acidity flare up after meals?",
+          answer: "It is often due to low stomach acid (hypochlorhydria) or poor cardiac sphincter function. Dr. Shilpa uses natural digestive stimulants at Nutrition Colours to balance acid levels.",
+          category: "Science"
+      },
+      {
+          question: "Are antacids safe long-term?",
+          answer: "Long-term antacids shut down stomach acid, leading to poor protein digestion and bacterial overgrowth. Nutrition Colours protocols aim to heal the stomach lining naturally.",
+          category: "Treatment"
+      },
+      {
+          question: "Which probiotics do you recommend?",
+          answer: "We prioritize prebiotic foods and natural ferments first. Dr. Shilpa Thakur selects specific clinical probiotic strains when necessary to resolve dysbiosis.",
+          category: "Probiotics"
+      },
+      {
+          question: "What causes Gut Health & Acidity?",
+          answer: "Microbiome imbalance and high acid levels.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Gut Health & Acidity through nutrition?",
+          answer: "Feed beneficial bacteria with prebiotics and avoid acidic triggers.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Prebiotics\" help with Gut Health & Acidity?",
+          answer: "Yes \u2014 Prebiotics is one of the natural approaches recommended for Gut Health & Acidity.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Probiotics\" help with Gut Health & Acidity?",
+          answer: "Yes \u2014 Probiotics is one of the natural approaches recommended for Gut Health & Acidity.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Reduce coffee/alcohol\" help with Gut Health & Acidity?",
+          answer: "Yes \u2014 Reduce coffee/alcohol is one of the natural approaches recommended for Gut Health & Acidity.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Mindful eating\" help with Gut Health & Acidity?",
+          answer: "Yes \u2014 Mindful eating is one of the natural approaches recommended for Gut Health & Acidity.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'weight-loss-women',
@@ -225,10 +497,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "How does cycle syncing help with weight loss?", answer: "By aligning your caloric intake and training types with estrogen and progesterone phases, Dr. Shilpa optimizes fat burning and reduces cravings at Nutrition Colours.", category: "Science" },
-      { question: "Why is visceral fat harder to lose for women?", answer: "Hormonal shifts, particularly declines in estrogen or elevations in cortisol, encourage belly fat storage. We target these root hormonal issues.", category: "Hormones" },
-      { question: "Will I lose muscle if I lose weight?", answer: "Not with our plans. Nutrition Colours protocols are rich in protein and paired with resistance guidance to ensure you lose fat, not muscle.", category: "Fitness" },
-    ]
+      {
+          question: "How does cycle syncing help with weight loss?",
+          answer: "By aligning your caloric intake and training types with estrogen and progesterone phases, Dr. Shilpa optimizes fat burning and reduces cravings at Nutrition Colours.",
+          category: "Science"
+      },
+      {
+          question: "Why is visceral fat harder to lose for women?",
+          answer: "Hormonal shifts, particularly declines in estrogen or elevations in cortisol, encourage belly fat storage. We target these root hormonal issues.",
+          category: "Hormones"
+      },
+      {
+          question: "Will I lose muscle if I lose weight?",
+          answer: "Not with our plans. Nutrition Colours protocols are rich in protein and paired with resistance guidance to ensure you lose fat, not muscle.",
+          category: "Fitness"
+      },
+      {
+          question: "What causes Weight Loss for Women?",
+          answer: "Hormonal shifts impacting metabolism and weight storage.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Weight Loss for Women through nutrition?",
+          answer: "Prioritize protein to preserve muscle and align with cycle.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"High Protein\" help with Weight Loss for Women?",
+          answer: "Yes \u2014 High Protein is one of the natural approaches recommended for Weight Loss for Women.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Cycle Syncing\" help with Weight Loss for Women?",
+          answer: "Yes \u2014 Cycle Syncing is one of the natural approaches recommended for Weight Loss for Women.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Iron & Vitamin D\" help with Weight Loss for Women?",
+          answer: "Yes \u2014 Iron & Vitamin D is one of the natural approaches recommended for Weight Loss for Women.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Resistance training\" help with Weight Loss for Women?",
+          answer: "Yes \u2014 Resistance training is one of the natural approaches recommended for Weight Loss for Women.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'weight-loss-men',
@@ -246,10 +560,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "How does testosterone affect weight loss in men?", answer: "Testosterone builds muscle and burns fat. Dr. Shilpa designs diets that supply zinc and healthy fats to support natural testosterone output at Nutrition Colours.", category: "Hormones" },
-      { question: "Is intermittent fasting recommended for men?", answer: "Yes. Intermittent fasting is highly effective for men to improve insulin sensitivity and manage calorie intake, as structured in our plans.", category: "Timing" },
-      { question: "How much protein do I need?", answer: "We calculate protein based on your active lean mass. Our plans ensure sufficient protein to preserve strength during weight loss.", category: "Nutrition" },
-    ]
+      {
+          question: "How does testosterone affect weight loss in men?",
+          answer: "Testosterone builds muscle and burns fat. Dr. Shilpa designs diets that supply zinc and healthy fats to support natural testosterone output at Nutrition Colours.",
+          category: "Hormones"
+      },
+      {
+          question: "Is intermittent fasting recommended for men?",
+          answer: "Yes. Intermittent fasting is highly effective for men to improve insulin sensitivity and manage calorie intake, as structured in our plans.",
+          category: "Timing"
+      },
+      {
+          question: "How much protein do I need?",
+          answer: "We calculate protein based on your active lean mass. Our plans ensure sufficient protein to preserve strength during weight loss.",
+          category: "Nutrition"
+      },
+      {
+          question: "What causes Weight Loss for Men?",
+          answer: "Metabolic slowdown and visceral fat storage.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Weight Loss for Men through nutrition?",
+          answer: "High-protein diet combined with resistance training and intermittent fasting.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"High Protein\" help with Weight Loss for Men?",
+          answer: "Yes \u2014 High Protein is one of the natural approaches recommended for Weight Loss for Men.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Intermittent Fasting\" help with Weight Loss for Men?",
+          answer: "Yes \u2014 Intermittent Fasting is one of the natural approaches recommended for Weight Loss for Men.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Resistance training\" help with Weight Loss for Men?",
+          answer: "Yes \u2014 Resistance training is one of the natural approaches recommended for Weight Loss for Men.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Zinc-rich foods\" help with Weight Loss for Men?",
+          answer: "Yes \u2014 Zinc-rich foods is one of the natural approaches recommended for Weight Loss for Men.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'belly-fat-reduction',
@@ -267,10 +623,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "Why is belly fat so dangerous?", answer: "Belly fat is visceral fat, which secretes inflammatory cytokines and increases the risk of heart disease and diabetes. Dr. Shilpa prioritizes its reduction.", category: "Health" },
-      { question: "Can I spot-reduce belly fat?", answer: "You cannot spot-reduce via exercise, but metabolic changes through Nutrition Colours plans selectively target visceral fat first by lowering insulin.", category: "Science" },
-      { question: "How does stress affect belly fat?", answer: "High cortisol shifts fat storage directly to the abdominal area. Dr. Shilpa incorporates adaptogens and sleep protocols to block this pathway.", category: "Stress" },
-    ]
+      {
+          question: "Why is belly fat so dangerous?",
+          answer: "Belly fat is visceral fat, which secretes inflammatory cytokines and increases the risk of heart disease and diabetes. Dr. Shilpa prioritizes its reduction.",
+          category: "Health"
+      },
+      {
+          question: "Can I spot-reduce belly fat?",
+          answer: "You cannot spot-reduce via exercise, but metabolic changes through Nutrition Colours plans selectively target visceral fat first by lowering insulin.",
+          category: "Science"
+      },
+      {
+          question: "How does stress affect belly fat?",
+          answer: "High cortisol shifts fat storage directly to the abdominal area. Dr. Shilpa incorporates adaptogens and sleep protocols to block this pathway.",
+          category: "Stress"
+      },
+      {
+          question: "What causes Belly Fat Reduction?",
+          answer: "Dangerous visceral fat caused by sugar, alcohol, and insulin imbalance.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Belly Fat Reduction through nutrition?",
+          answer: "Strict reduction of sugar/alcohol, high-fiber intake.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Soluble Fiber\" help with Belly Fat Reduction?",
+          answer: "Yes \u2014 Soluble Fiber is one of the natural approaches recommended for Belly Fat Reduction.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"No Sugary Drinks\" help with Belly Fat Reduction?",
+          answer: "Yes \u2014 No Sugary Drinks is one of the natural approaches recommended for Belly Fat Reduction.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"High Protein\" help with Belly Fat Reduction?",
+          answer: "Yes \u2014 High Protein is one of the natural approaches recommended for Belly Fat Reduction.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Stress Management\" help with Belly Fat Reduction?",
+          answer: "Yes \u2014 Stress Management is one of the natural approaches recommended for Belly Fat Reduction.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'insulin-resistance-mgmt',
@@ -288,10 +686,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "What are the signs of insulin resistance?", answer: "Common signs include fatigue after meals, intense sugar cravings, skin tags, and weight accumulation around the waist, which we assess at Nutrition Colours.", category: "Symptoms" },
-      { question: "Can walking after meals reduce insulin spikes?", answer: "Yes. Walking for 10-15 minutes immediately after eating allows muscles to clear glucose from the blood without relying on insulin.", category: "Lifestyle" },
-      { question: "How long does it take to optimize insulin sensitivity?", answer: "With strict adherence to Dr. Shilpa's circadian protocols, insulin sensitivity begins improving within 30 days and can be fully optimized in 90 days.", category: "Timeline" },
-    ]
+      {
+          question: "What are the signs of insulin resistance?",
+          answer: "Common signs include fatigue after meals, intense sugar cravings, skin tags, and weight accumulation around the waist, which we assess at Nutrition Colours.",
+          category: "Symptoms"
+      },
+      {
+          question: "Can walking after meals reduce insulin spikes?",
+          answer: "Yes. Walking for 10-15 minutes immediately after eating allows muscles to clear glucose from the blood without relying on insulin.",
+          category: "Lifestyle"
+      },
+      {
+          question: "How long does it take to optimize insulin sensitivity?",
+          answer: "With strict adherence to Dr. Shilpa's circadian protocols, insulin sensitivity begins improving within 30 days and can be fully optimized in 90 days.",
+          category: "Timeline"
+      },
+      {
+          question: "What causes Insulin Resistance Management?",
+          answer: "Cells ignoring insulin signals leading to high blood sugar.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Insulin Resistance Management through nutrition?",
+          answer: "Slow-digesting carbs paired with protein and fat.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Slow Carbs\" help with Insulin Resistance Management?",
+          answer: "Yes \u2014 Slow Carbs is one of the natural approaches recommended for Insulin Resistance Management.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Food Pairing\" help with Insulin Resistance Management?",
+          answer: "Yes \u2014 Food Pairing is one of the natural approaches recommended for Insulin Resistance Management.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Post-meal walking\" help with Insulin Resistance Management?",
+          answer: "Yes \u2014 Post-meal walking is one of the natural approaches recommended for Insulin Resistance Management.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Magnesium\" help with Insulin Resistance Management?",
+          answer: "Yes \u2014 Magnesium is one of the natural approaches recommended for Insulin Resistance Management.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'pre-diabetes-care',
@@ -309,10 +749,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "Is pre-diabetes reversible?", answer: "Absolutely. Pre-diabetes is a warning light. Dr. Shilpa's protocols at Nutrition Colours have a near 100% success rate in restoring normal HbA1c levels within 90 days.", category: "Prognosis" },
-      { question: "What should my fasting blood sugar be?", answer: "We aim for fasting glucose below 100 mg/dL and HbA1c below 5.7%. Our programs help you achieve and maintain these metrics.", category: "Metrics" },
-      { question: "Do I need a continuous glucose monitor (CGM)?", answer: "A CGM is highly recommended as it provides real-time data on how your body reacts to specific foods, helping us customize your diet.", category: "Tools" },
-    ]
+      {
+          question: "Is pre-diabetes reversible?",
+          answer: "Absolutely. Pre-diabetes is a warning light. Dr. Shilpa's protocols at Nutrition Colours have a near 100% success rate in restoring normal HbA1c levels within 90 days.",
+          category: "Prognosis"
+      },
+      {
+          question: "What should my fasting blood sugar be?",
+          answer: "We aim for fasting glucose below 100 mg/dL and HbA1c below 5.7%. Our programs help you achieve and maintain these metrics.",
+          category: "Metrics"
+      },
+      {
+          question: "Do I need a continuous glucose monitor (CGM)?",
+          answer: "A CGM is highly recommended as it provides real-time data on how your body reacts to specific foods, helping us customize your diet.",
+          category: "Tools"
+      },
+      {
+          question: "What causes Pre-Diabetes Care?",
+          answer: "Elevated blood sugar that hasn't reached type 2 diabetes levels yet.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Pre-Diabetes Care through nutrition?",
+          answer: "Intensive lifestyle intervention focusing on diet and activity.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Consistent Activity\" help with Pre-Diabetes Care?",
+          answer: "Yes \u2014 Consistent Activity is one of the natural approaches recommended for Pre-Diabetes Care.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"High Fiber\" help with Pre-Diabetes Care?",
+          answer: "Yes \u2014 High Fiber is one of the natural approaches recommended for Pre-Diabetes Care.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Monitoring\" help with Pre-Diabetes Care?",
+          answer: "Yes \u2014 Monitoring is one of the natural approaches recommended for Pre-Diabetes Care.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Early Intervention\" help with Pre-Diabetes Care?",
+          answer: "Yes \u2014 Early Intervention is one of the natural approaches recommended for Pre-Diabetes Care.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'menopause-hormone-support',
@@ -330,10 +812,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "What are phytoestrogens?", answer: "Phytoestrogens are plant compounds found in ground flaxseed and non-GMO soy that naturally balance estrogen receptors to reduce hot flashes.", category: "Science" },
-      { question: "Can diet help with hot flashes?", answer: "Yes. Dr. Shilpa's hormone-supporting diets at Nutrition Colours have helped many women reduce the frequency and intensity of hot flashes naturally.", category: "Remedies" },
-      { question: "How do I prevent bone loss during menopause?", answer: "By pairing calcium-rich foods with Vitamin D and K2, and doing light resistance training as structured in our joint and hormone protocols.", category: "Bones" },
-    ]
+      {
+          question: "What are phytoestrogens?",
+          answer: "Phytoestrogens are plant compounds found in ground flaxseed and non-GMO soy that naturally balance estrogen receptors to reduce hot flashes.",
+          category: "Science"
+      },
+      {
+          question: "Can diet help with hot flashes?",
+          answer: "Yes. Dr. Shilpa's hormone-supporting diets at Nutrition Colours have helped many women reduce the frequency and intensity of hot flashes naturally.",
+          category: "Remedies"
+      },
+      {
+          question: "How do I prevent bone loss during menopause?",
+          answer: "By pairing calcium-rich foods with Vitamin D and K2, and doing light resistance training as structured in our joint and hormone protocols.",
+          category: "Bones"
+      },
+      {
+          question: "What causes Menopause Hormone Support?",
+          answer: "Natural decline in estrogen and progesterone causing symptoms like hot flashes and night sweats.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Menopause Hormone Support through nutrition?",
+          answer: "Incorporate phytoestrogens and manage stress to support hormonal balance.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Phytoestrogens\" help with Menopause Hormone Support?",
+          answer: "Yes \u2014 Phytoestrogens is one of the natural approaches recommended for Menopause Hormone Support.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Calcium\" help with Menopause Hormone Support?",
+          answer: "Yes \u2014 Calcium is one of the natural approaches recommended for Menopause Hormone Support.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Magnesium\" help with Menopause Hormone Support?",
+          answer: "Yes \u2014 Magnesium is one of the natural approaches recommended for Menopause Hormone Support.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Black Cohosh (consultation needed)\" help with Menopause Hormone Support?",
+          answer: "Yes \u2014 Black Cohosh (consultation needed) is one of the natural approaches recommended for Menopause Hormone Support.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'hormonal-imbalance',
@@ -351,10 +875,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "What are endocrine disruptors?", answer: "These are chemical toxins found in plastic containers, pesticides, and body care products that mimic hormones and block natural receptors.", category: "Toxins" },
-      { question: "How does the liver affect my hormones?", answer: "The liver filters and breaks down used hormones. Sluggish liver pathways lead to hormone recycling and buildup, which Dr. Shilpa addresses.", category: "Science" },
-      { question: "Are cruciferous vegetables good for hormones?", answer: "Yes. Broccoli, kale, and cabbage contain Indole-3-Carbinol, which supports the safe detoxification of estrogens in the liver.", category: "Diet" },
-    ]
+      {
+          question: "What are endocrine disruptors?",
+          answer: "These are chemical toxins found in plastic containers, pesticides, and body care products that mimic hormones and block natural receptors.",
+          category: "Toxins"
+      },
+      {
+          question: "How does the liver affect my hormones?",
+          answer: "The liver filters and breaks down used hormones. Sluggish liver pathways lead to hormone recycling and buildup, which Dr. Shilpa addresses.",
+          category: "Science"
+      },
+      {
+          question: "Are cruciferous vegetables good for hormones?",
+          answer: "Yes. Broccoli, kale, and cabbage contain Indole-3-Carbinol, which supports the safe detoxification of estrogens in the liver.",
+          category: "Diet"
+      },
+      {
+          question: "What causes Hormonal Imbalance Correction?",
+          answer: "Disrupted communication between endocrine glands due to environmental and dietary factors.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Hormonal Imbalance Correction through nutrition?",
+          answer: "Eliminate endocrine disruptors and support liver detoxification.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Cruciferous Veggies\" help with Hormonal Imbalance Correction?",
+          answer: "Yes \u2014 Cruciferous Veggies is one of the natural approaches recommended for Hormonal Imbalance Correction.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Limit Plastics\" help with Hormonal Imbalance Correction?",
+          answer: "Yes \u2014 Limit Plastics is one of the natural approaches recommended for Hormonal Imbalance Correction.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Organic foods\" help with Hormonal Imbalance Correction?",
+          answer: "Yes \u2014 Organic foods is one of the natural approaches recommended for Hormonal Imbalance Correction.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Liver support\" help with Hormonal Imbalance Correction?",
+          answer: "Yes \u2014 Liver support is one of the natural approaches recommended for Hormonal Imbalance Correction.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'testosterone-boost',
@@ -372,10 +938,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "Does body fat lower testosterone?", answer: "Yes. Adipose tissue contains an enzyme called aromatase, which converts active testosterone into estrogen. Losing fat is vital for male vitality.", category: "Science" },
-      { question: "What foods are high in zinc?", answer: "Pumpkin seeds, lentils, chickpeas, and sesame seeds are rich plant sources of zinc. Dr. Shilpa includes them in our male vitality plans.", category: "Diet" },
-      { question: "How does sleep affect testosterone?", answer: "Most testosterone is produced during deep REM sleep. Fragmented or short sleep can drop your testosterone levels by 15% in just one week.", category: "Sleep" },
-    ]
+      {
+          question: "Does body fat lower testosterone?",
+          answer: "Yes. Adipose tissue contains an enzyme called aromatase, which converts active testosterone into estrogen. Losing fat is vital for male vitality.",
+          category: "Science"
+      },
+      {
+          question: "What foods are high in zinc?",
+          answer: "Pumpkin seeds, lentils, chickpeas, and sesame seeds are rich plant sources of zinc. Dr. Shilpa includes them in our male vitality plans.",
+          category: "Diet"
+      },
+      {
+          question: "How does sleep affect testosterone?",
+          answer: "Most testosterone is produced during deep REM sleep. Fragmented or short sleep can drop your testosterone levels by 15% in just one week.",
+          category: "Sleep"
+      },
+      {
+          question: "What causes Testosterone Boost?",
+          answer: "Low testosterone linked to high body fat and poor nutrient intake.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Testosterone Boost through nutrition?",
+          answer: "Optimize Zinc, Vitamin D, and sleep; incorporate heavy lifting.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Zinc-rich foods\" help with Testosterone Boost?",
+          answer: "Yes \u2014 Zinc-rich foods is one of the natural approaches recommended for Testosterone Boost.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Vitamin D\" help with Testosterone Boost?",
+          answer: "Yes \u2014 Vitamin D is one of the natural approaches recommended for Testosterone Boost.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Strength training\" help with Testosterone Boost?",
+          answer: "Yes \u2014 Strength training is one of the natural approaches recommended for Testosterone Boost.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Quality Sleep\" help with Testosterone Boost?",
+          answer: "Yes \u2014 Quality Sleep is one of the natural approaches recommended for Testosterone Boost.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'cortisol-balance',
@@ -393,10 +1001,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "What are adaptogens?", answer: "Adaptogens are natural herbs like Ashwagandha and Holy Basil that help regulate the HPA axis, keeping cortisol spikes in check.", category: "Science" },
-      { question: "Does high cortisol cause belly fat?", answer: "Yes. Cortisol triggers the mobilization of triglycerides and relocates them to deep visceral fat cells around the abdomen.", category: "Weight" },
-      { question: "How can I check my cortisol levels?", answer: "We recommend salivary cortisol testing at multiple points during the day to map your natural adrenal curve at Nutrition Colours.", category: "Testing" },
-    ]
+      {
+          question: "What are adaptogens?",
+          answer: "Adaptogens are natural herbs like Ashwagandha and Holy Basil that help regulate the HPA axis, keeping cortisol spikes in check.",
+          category: "Science"
+      },
+      {
+          question: "Does high cortisol cause belly fat?",
+          answer: "Yes. Cortisol triggers the mobilization of triglycerides and relocates them to deep visceral fat cells around the abdomen.",
+          category: "Weight"
+      },
+      {
+          question: "How can I check my cortisol levels?",
+          answer: "We recommend salivary cortisol testing at multiple points during the day to map your natural adrenal curve at Nutrition Colours.",
+          category: "Testing"
+      },
+      {
+          question: "What causes Cortisol & Stress Balance?",
+          answer: "Chronic stress causing high cortisol, leading to anxiety and belly fat.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Cortisol & Stress Balance through nutrition?",
+          answer: "Use adaptogenic herbs and prioritize sleep and meditation.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Ashwagandha\" help with Cortisol & Stress Balance?",
+          answer: "Yes \u2014 Ashwagandha is one of the natural approaches recommended for Cortisol & Stress Balance.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Magnesium\" help with Cortisol & Stress Balance?",
+          answer: "Yes \u2014 Magnesium is one of the natural approaches recommended for Cortisol & Stress Balance.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Routine Sleep\" help with Cortisol & Stress Balance?",
+          answer: "Yes \u2014 Routine Sleep is one of the natural approaches recommended for Cortisol & Stress Balance.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Meditation\" help with Cortisol & Stress Balance?",
+          answer: "Yes \u2014 Meditation is one of the natural approaches recommended for Cortisol & Stress Balance.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'cholesterol-mgmt',
@@ -414,10 +1064,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "Do I need to avoid all cholesterol foods?", answer: "Dietary cholesterol has a minor impact on blood cholesterol for most people. Dr. Shilpa focuses on reducing refined sugars and trans fats instead.", category: "Science" },
-      { question: "What is the role of soluble fiber?", answer: "Soluble fiber acts like a sponge in the gut, binding to bile acids and cholesterol and facilitating their elimination from the body.", category: "Diet" },
-      { question: "Are statins the only way to manage cholesterol?", answer: "Statins are medical decisions, but our nutritional therapies at Nutrition Colours have helped many patients achieve healthy lipid profiles naturally.", category: "Treatment" },
-    ]
+      {
+          question: "Do I need to avoid all cholesterol foods?",
+          answer: "Dietary cholesterol has a minor impact on blood cholesterol for most people. Dr. Shilpa focuses on reducing refined sugars and trans fats instead.",
+          category: "Science"
+      },
+      {
+          question: "What is the role of soluble fiber?",
+          answer: "Soluble fiber acts like a sponge in the gut, binding to bile acids and cholesterol and facilitating their elimination from the body.",
+          category: "Diet"
+      },
+      {
+          question: "Are statins the only way to manage cholesterol?",
+          answer: "Statins are medical decisions, but our nutritional therapies at Nutrition Colours have helped many patients achieve healthy lipid profiles naturally.",
+          category: "Treatment"
+      },
+      {
+          question: "What causes Cholesterol Management?",
+          answer: "Unbalanced LDL/HDL ratios increasing heart disease risk.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Cholesterol Management through nutrition?",
+          answer: "High intake of soluble fiber and healthy Omega-3 fats.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Soluble Fiber\" help with Cholesterol Management?",
+          answer: "Yes \u2014 Soluble Fiber is one of the natural approaches recommended for Cholesterol Management.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Omega-3 Fats\" help with Cholesterol Management?",
+          answer: "Yes \u2014 Omega-3 Fats is one of the natural approaches recommended for Cholesterol Management.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Olive Oil\" help with Cholesterol Management?",
+          answer: "Yes \u2014 Olive Oil is one of the natural approaches recommended for Cholesterol Management.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Avoid Trans Fats\" help with Cholesterol Management?",
+          answer: "Yes \u2014 Avoid Trans Fats is one of the natural approaches recommended for Cholesterol Management.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'heart-health',
@@ -435,10 +1127,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "How do beets help heart health?", answer: "Beets are rich in dietary nitrates, which convert into nitric oxide in the blood, relaxing arteries and lowering blood pressure instantly.", category: "Science" },
-      { question: "What causes arterial inflammation?", answer: "High blood sugar, industrial seed oils, and chronic stress damage the endothelial lining of blood vessels, which we address at Nutrition Colours.", category: "Science" },
-      { question: "Is CoQ10 necessary?", answer: "CoQ10 is essential for heart cell energy. If you take cholesterol-lowering statins, you may need CoQ10 supplements as statins deplete them.", category: "Supplements" },
-    ]
+      {
+          question: "How do beets help heart health?",
+          answer: "Beets are rich in dietary nitrates, which convert into nitric oxide in the blood, relaxing arteries and lowering blood pressure instantly.",
+          category: "Science"
+      },
+      {
+          question: "What causes arterial inflammation?",
+          answer: "High blood sugar, industrial seed oils, and chronic stress damage the endothelial lining of blood vessels, which we address at Nutrition Colours.",
+          category: "Science"
+      },
+      {
+          question: "Is CoQ10 necessary?",
+          answer: "CoQ10 is essential for heart cell energy. If you take cholesterol-lowering statins, you may need CoQ10 supplements as statins deplete them.",
+          category: "Supplements"
+      },
+      {
+          question: "What causes Heart Health Optimization?",
+          answer: "Weak heart muscle and arterial inflammation.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Heart Health Optimization through nutrition?",
+          answer: "Anti-inflammatory diet rich in antioxidants and cardiovascular movement.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Berries\" help with Heart Health Optimization?",
+          answer: "Yes \u2014 Berries is one of the natural approaches recommended for Heart Health Optimization.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Beets (Nitrates)\" help with Heart Health Optimization?",
+          answer: "Yes \u2014 Beets (Nitrates) is one of the natural approaches recommended for Heart Health Optimization.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"CoQ10\" help with Heart Health Optimization?",
+          answer: "Yes \u2014 CoQ10 is one of the natural approaches recommended for Heart Health Optimization.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Cardio exercise\" help with Heart Health Optimization?",
+          answer: "Yes \u2014 Cardio exercise is one of the natural approaches recommended for Heart Health Optimization.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'blood-circulation',
@@ -456,10 +1190,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "Can spices improve my cold hands and feet?", answer: "Yes. Warming spices like cayenne and ginger act as mild natural vasodilators, expanding small capillaries to improve distal circulation.", category: "Remedies" },
-      { question: "How does hydration affect blood flow?", answer: "Dehydration thickens the blood, making it harder for the heart to pump. Dr. Shilpa emphasizes proper electrolyte-balanced hydration.", category: "Lifestyle" },
-      { question: "What exercises are best for circulation?", answer: "Rebounding, walking, and gentle calf-raise exercises help pump venous blood back to the heart, as incorporated in our daily routines.", category: "Exercise" },
-    ]
+      {
+          question: "Can spices improve my cold hands and feet?",
+          answer: "Yes. Warming spices like cayenne and ginger act as mild natural vasodilators, expanding small capillaries to improve distal circulation.",
+          category: "Remedies"
+      },
+      {
+          question: "How does hydration affect blood flow?",
+          answer: "Dehydration thickens the blood, making it harder for the heart to pump. Dr. Shilpa emphasizes proper electrolyte-balanced hydration.",
+          category: "Lifestyle"
+      },
+      {
+          question: "What exercises are best for circulation?",
+          answer: "Rebounding, walking, and gentle calf-raise exercises help pump venous blood back to the heart, as incorporated in our daily routines.",
+          category: "Exercise"
+      },
+      {
+          question: "What causes Blood Circulation Support?",
+          answer: "Poor circulation leading to cold extremities and numbness.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Blood Circulation Support through nutrition?",
+          answer: "Use warming spices and ensure adequate hydration and movement.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Ginger\" help with Blood Circulation Support?",
+          answer: "Yes \u2014 Ginger is one of the natural approaches recommended for Blood Circulation Support.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Turmeric\" help with Blood Circulation Support?",
+          answer: "Yes \u2014 Turmeric is one of the natural approaches recommended for Blood Circulation Support.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Hydration\" help with Blood Circulation Support?",
+          answer: "Yes \u2014 Hydration is one of the natural approaches recommended for Blood Circulation Support.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Leg movement\" help with Blood Circulation Support?",
+          answer: "Yes \u2014 Leg movement is one of the natural approaches recommended for Blood Circulation Support.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'joint-pain-relief',
@@ -477,10 +1253,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "How does sugar affect joint pain?", answer: "Sugar triggers the release of inflammatory cytokines, which directly aggravate arthritic joints. We remove refined sugar to ease flares.", category: "Triggers" },
-      { question: "Why is collagen important?", answer: "Collagen is the primary structural protein in joint cartilage. Dr. Shilpa provides cofactors like Vitamin C to help your body build its own collagen.", category: "Science" },
-      { question: "Does turmeric really relieve pain?", answer: "Yes. Curcumin in turmeric blocks inflammatory pathways. We pair it with black pepper and fats at Nutrition Colours to maximize absorption.", category: "Remedies" },
-    ]
+      {
+          question: "How does sugar affect joint pain?",
+          answer: "Sugar triggers the release of inflammatory cytokines, which directly aggravate arthritic joints. We remove refined sugar to ease flares.",
+          category: "Triggers"
+      },
+      {
+          question: "Why is collagen important?",
+          answer: "Collagen is the primary structural protein in joint cartilage. Dr. Shilpa provides cofactors like Vitamin C to help your body build its own collagen.",
+          category: "Science"
+      },
+      {
+          question: "Does turmeric really relieve pain?",
+          answer: "Yes. Curcumin in turmeric blocks inflammatory pathways. We pair it with black pepper and fats at Nutrition Colours to maximize absorption.",
+          category: "Remedies"
+      },
+      {
+          question: "What causes Joint Pain Relief?",
+          answer: "Age-related wear or inflammatory conditions causing pain.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Joint Pain Relief through nutrition?",
+          answer: "Anti-inflammatory diet and joint-lubricating nutrients.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Turmeric/Curcumin\" help with Joint Pain Relief?",
+          answer: "Yes \u2014 Turmeric/Curcumin is one of the natural approaches recommended for Joint Pain Relief.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Omega-3\" help with Joint Pain Relief?",
+          answer: "Yes \u2014 Omega-3 is one of the natural approaches recommended for Joint Pain Relief.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Vitamin C\" help with Joint Pain Relief?",
+          answer: "Yes \u2014 Vitamin C is one of the natural approaches recommended for Joint Pain Relief.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Gentle Yoga\" help with Joint Pain Relief?",
+          answer: "Yes \u2014 Gentle Yoga is one of the natural approaches recommended for Joint Pain Relief.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'arthritis-support',
@@ -498,10 +1316,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "What is the difference between OA and RA?", answer: "OA is wear-and-tear cartilage breakdown, while RA is an autoimmune attack on joint linings. Both benefit from Dr. Shilpa's metabolic diets.", category: "Science" },
-      { question: "Why should I avoid nightshades?", answer: "Nightshades contain solanine, a chemical compound that can trigger joint inflammation in sensitive arthritic patients, which we test for.", category: "Diet" },
-      { question: "Can dietary changes reduce RA inflammation?", answer: "Yes. By healing gut permeability and eliminating inflammatory foods, we help lower systemic autoimmune reactions in RA patients.", category: "Autoimmune" },
-    ]
+      {
+          question: "What is the difference between OA and RA?",
+          answer: "OA is wear-and-tear cartilage breakdown, while RA is an autoimmune attack on joint linings. Both benefit from Dr. Shilpa's metabolic diets.",
+          category: "Science"
+      },
+      {
+          question: "Why should I avoid nightshades?",
+          answer: "Nightshades contain solanine, a chemical compound that can trigger joint inflammation in sensitive arthritic patients, which we test for.",
+          category: "Diet"
+      },
+      {
+          question: "Can dietary changes reduce RA inflammation?",
+          answer: "Yes. By healing gut permeability and eliminating inflammatory foods, we help lower systemic autoimmune reactions in RA patients.",
+          category: "Autoimmune"
+      },
+      {
+          question: "What causes Arthritis Support?",
+          answer: "Autoimmune or degenerative destruction of joint tissue.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Arthritis Support through nutrition?",
+          answer: "Identify food triggers (nightshades) and boost antioxidants.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Avoid Nightshades\" help with Arthritis Support?",
+          answer: "Yes \u2014 Avoid Nightshades is one of the natural approaches recommended for Arthritis Support.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Antioxidants\" help with Arthritis Support?",
+          answer: "Yes \u2014 Antioxidants is one of the natural approaches recommended for Arthritis Support.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Gluten-free trial\" help with Arthritis Support?",
+          answer: "Yes \u2014 Gluten-free trial is one of the natural approaches recommended for Arthritis Support.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Weight Management\" help with Arthritis Support?",
+          answer: "Yes \u2014 Weight Management is one of the natural approaches recommended for Arthritis Support.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'osteoporosis-prevention',
@@ -519,10 +1379,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "Is milk necessary for strong bones?", answer: "No. Dr. Shilpa utilizes excellent non-dairy calcium sources like ragi (finger millet), sesame seeds, and green leafy vegetables at Nutrition Colours.", category: "Diet" },
-      { question: "Why is Vitamin K2 important for bones?", answer: "Vitamin K2 acts as a traffic controller, directing calcium into the bone matrix and keeping it out of your arteries where it causes plaque.", category: "Science" },
-      { question: "Does weight-bearing exercise help bones?", answer: "Yes. Stressing bones through walking or strength training stimulates osteoblasts, the cells responsible for building new bone tissue.", category: "Exercise" },
-    ]
+      {
+          question: "Is milk necessary for strong bones?",
+          answer: "No. Dr. Shilpa utilizes excellent non-dairy calcium sources like ragi (finger millet), sesame seeds, and green leafy vegetables at Nutrition Colours.",
+          category: "Diet"
+      },
+      {
+          question: "Why is Vitamin K2 important for bones?",
+          answer: "Vitamin K2 acts as a traffic controller, directing calcium into the bone matrix and keeping it out of your arteries where it causes plaque.",
+          category: "Science"
+      },
+      {
+          question: "Does weight-bearing exercise help bones?",
+          answer: "Yes. Stressing bones through walking or strength training stimulates osteoblasts, the cells responsible for building new bone tissue.",
+          category: "Exercise"
+      },
+      {
+          question: "What causes Osteoporosis Prevention?",
+          answer: "Loss of bone mineral density, increasing fracture risk.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Osteoporosis Prevention through nutrition?",
+          answer: "Ensure absorption of Calcium with Vitamin D and K2.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Ragi/Sesame\" help with Osteoporosis Prevention?",
+          answer: "Yes \u2014 Ragi/Sesame is one of the natural approaches recommended for Osteoporosis Prevention.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Vitamin D/K2\" help with Osteoporosis Prevention?",
+          answer: "Yes \u2014 Vitamin D/K2 is one of the natural approaches recommended for Osteoporosis Prevention.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Strength Training\" help with Osteoporosis Prevention?",
+          answer: "Yes \u2014 Strength Training is one of the natural approaches recommended for Osteoporosis Prevention.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Avoid excessive caffeine\" help with Osteoporosis Prevention?",
+          answer: "Yes \u2014 Avoid excessive caffeine is one of the natural approaches recommended for Osteoporosis Prevention.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'hyperthyroid-protocol',
@@ -540,10 +1442,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "What are goitrogens?", answer: "Goitrogens are natural compounds in foods like raw broccoli and cabbage that block iodine uptake, helping slow an overactive thyroid.", category: "Science" },
-      { question: "Why should I limit iodine in hyperthyroidism?", answer: "Iodine is the raw building block of thyroid hormone. Consuming excess iodine can overstimulate hormone synthesis, which we monitor.", category: "Diet" },
-      { question: "Can stress trigger hyperthyroidism?", answer: "Yes, chronic stress and high adrenaline can trigger Graves' autoimmune flares. Nutrition Colours includes nervous system balancing.", category: "Stress" },
-    ]
+      {
+          question: "What are goitrogens?",
+          answer: "Goitrogens are natural compounds in foods like raw broccoli and cabbage that block iodine uptake, helping slow an overactive thyroid.",
+          category: "Science"
+      },
+      {
+          question: "Why should I limit iodine in hyperthyroidism?",
+          answer: "Iodine is the raw building block of thyroid hormone. Consuming excess iodine can overstimulate hormone synthesis, which we monitor.",
+          category: "Diet"
+      },
+      {
+          question: "Can stress trigger hyperthyroidism?",
+          answer: "Yes, chronic stress and high adrenaline can trigger Graves' autoimmune flares. Nutrition Colours includes nervous system balancing.",
+          category: "Stress"
+      },
+      {
+          question: "What causes Hyperthyroid Protocol?",
+          answer: "Excessive thyroid hormone production causing weight loss and anxiety.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Hyperthyroid Protocol through nutrition?",
+          answer: "Incorporate goitrogens responsibly and manage iodine intake.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Raw Cruciferous Veggies\" help with Hyperthyroid Protocol?",
+          answer: "Yes \u2014 Raw Cruciferous Veggies is one of the natural approaches recommended for Hyperthyroid Protocol.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"L-Carnitine support\" help with Hyperthyroid Protocol?",
+          answer: "Yes \u2014 L-Carnitine support is one of the natural approaches recommended for Hyperthyroid Protocol.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Stress management\" help with Hyperthyroid Protocol?",
+          answer: "Yes \u2014 Stress management is one of the natural approaches recommended for Hyperthyroid Protocol.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Bugleweed\" help with Hyperthyroid Protocol?",
+          answer: "Yes \u2014 Bugleweed is one of the natural approaches recommended for Hyperthyroid Protocol.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'muscle-recovery',
@@ -561,10 +1505,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "How do I get complete amino acids from plants?", answer: "By pairing grains with legumes (like brown rice with lentils), you obtain all nine essential amino acids needed for muscle synthesis.", category: "Nutrition" },
-      { question: "When is the best time to eat protein after workouts?", answer: "Dr. Shilpa recommends consuming a high-protein meal within 45 to 60 minutes after exercise to optimize muscle repair at Nutrition Colours.", category: "Timing" },
-      { question: "Does ginger help muscle soreness?", answer: "Yes. Ginger contains gingerols, which act as natural anti-inflammatory agents to reduce delayed onset muscle soreness (DOMS).", category: "Remedies" },
-    ]
+      {
+          question: "How do I get complete amino acids from plants?",
+          answer: "By pairing grains with legumes (like brown rice with lentils), you obtain all nine essential amino acids needed for muscle synthesis.",
+          category: "Nutrition"
+      },
+      {
+          question: "When is the best time to eat protein after workouts?",
+          answer: "Dr. Shilpa recommends consuming a high-protein meal within 45 to 60 minutes after exercise to optimize muscle repair at Nutrition Colours.",
+          category: "Timing"
+      },
+      {
+          question: "Does ginger help muscle soreness?",
+          answer: "Yes. Ginger contains gingerols, which act as natural anti-inflammatory agents to reduce delayed onset muscle soreness (DOMS).",
+          category: "Remedies"
+      },
+      {
+          question: "What causes Muscle Recovery & Strength?",
+          answer: "Slow recovery, muscle soreness, and sarcopenia (age-related muscle loss).",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Muscle Recovery & Strength through nutrition?",
+          answer: "Optimizing plant-based protein intake and timing for maximum repair.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Complete Plant Proteins\" help with Muscle Recovery & Strength?",
+          answer: "Yes \u2014 Complete Plant Proteins is one of the natural approaches recommended for Muscle Recovery & Strength.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Post-workout windows\" help with Muscle Recovery & Strength?",
+          answer: "Yes \u2014 Post-workout windows is one of the natural approaches recommended for Muscle Recovery & Strength.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Ginger\" help with Muscle Recovery & Strength?",
+          answer: "Yes \u2014 Ginger is one of the natural approaches recommended for Muscle Recovery & Strength.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Sufficient Calories\" help with Muscle Recovery & Strength?",
+          answer: "Yes \u2014 Sufficient Calories is one of the natural approaches recommended for Muscle Recovery & Strength.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'back-spine-health',
@@ -582,10 +1568,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "How does magnesium help back pain?", answer: "Magnesium relaxes skeletal muscles and blocks pain receptors in the spinal cord, reducing spasms and tension around vertebrae.", category: "Science" },
-      { question: "Which vitamins support spinal nerves?", answer: "Vitamin B12 and methylfolate are vital for maintaining the myelin sheath that insulates spinal nerves, as structured in our plans.", category: "Vitamins" },
-      { question: "Does core strength affect back pain?", answer: "Absolutely. Weak abdominal muscles force the spine to bear excess load. We integrate core-stabilizing movements into recovery plans.", category: "Exercise" },
-    ]
+      {
+          question: "How does magnesium help back pain?",
+          answer: "Magnesium relaxes skeletal muscles and blocks pain receptors in the spinal cord, reducing spasms and tension around vertebrae.",
+          category: "Science"
+      },
+      {
+          question: "Which vitamins support spinal nerves?",
+          answer: "Vitamin B12 and methylfolate are vital for maintaining the myelin sheath that insulates spinal nerves, as structured in our plans.",
+          category: "Vitamins"
+      },
+      {
+          question: "Does core strength affect back pain?",
+          answer: "Absolutely. Weak abdominal muscles force the spine to bear excess load. We integrate core-stabilizing movements into recovery plans.",
+          category: "Exercise"
+      },
+      {
+          question: "What causes Back & Spine Health?",
+          answer: "Chronic back pain, poor posture, and intervertebral disc issues.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Back & Spine Health through nutrition?",
+          answer: "Anti-inflammatory diet and micronutrients for bone and nerve health.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Magnesium/Potassium\" help with Back & Spine Health?",
+          answer: "Yes \u2014 Magnesium/Potassium is one of the natural approaches recommended for Back & Spine Health.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Vitamin B12\" help with Back & Spine Health?",
+          answer: "Yes \u2014 Vitamin B12 is one of the natural approaches recommended for Back & Spine Health.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Omega-3\" help with Back & Spine Health?",
+          answer: "Yes \u2014 Omega-3 is one of the natural approaches recommended for Back & Spine Health.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Stretching\" help with Back & Spine Health?",
+          answer: "Yes \u2014 Stretching is one of the natural approaches recommended for Back & Spine Health.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'hair-growth-strength',
@@ -603,10 +1631,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "Can iron deficiency cause hair loss?", answer: "Yes. Low ferritin (stored iron) shuts down oxygen delivery to hair follicles, causing hair to enter the shedding phase. We monitor this closely.", category: "Science" },
-      { question: "Is biotin the best vitamin for hair?", answer: "Biotin supports keratin production, but it must be paired with complete proteins and trace minerals to work effectively.", category: "Nutrition" },
-      { question: "How does sugar affect scalp health?", answer: "High sugar diets raise insulin, which elevates sebum production and feeds scalp yeast, leading to dandruff and hair fall.", category: "Scalp" },
-    ]
+      {
+          question: "Can iron deficiency cause hair loss?",
+          answer: "Yes. Low ferritin (stored iron) shuts down oxygen delivery to hair follicles, causing hair to enter the shedding phase. We monitor this closely.",
+          category: "Science"
+      },
+      {
+          question: "Is biotin the best vitamin for hair?",
+          answer: "Biotin supports keratin production, but it must be paired with complete proteins and trace minerals to work effectively.",
+          category: "Nutrition"
+      },
+      {
+          question: "How does sugar affect scalp health?",
+          answer: "High sugar diets raise insulin, which elevates sebum production and feeds scalp yeast, leading to dandruff and hair fall.",
+          category: "Scalp"
+      },
+      {
+          question: "What causes Hair Growth & Strength?",
+          answer: "Thinning hair, hair fall, and brittle strands due to nutrient lack.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Hair Growth & Strength through nutrition?",
+          answer: "Ensure adequate Iron, Biotin, and high-quality protein.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Iron-rich foods\" help with Hair Growth & Strength?",
+          answer: "Yes \u2014 Iron-rich foods is one of the natural approaches recommended for Hair Growth & Strength.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Biotin sources\" help with Hair Growth & Strength?",
+          answer: "Yes \u2014 Biotin sources is one of the natural approaches recommended for Hair Growth & Strength.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"High Protein\" help with Hair Growth & Strength?",
+          answer: "Yes \u2014 High Protein is one of the natural approaches recommended for Hair Growth & Strength.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Scalp Care\" help with Hair Growth & Strength?",
+          answer: "Yes \u2014 Scalp Care is one of the natural approaches recommended for Hair Growth & Strength.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'skin-glow-detox',
@@ -624,10 +1694,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "Can diet clear up dull skin?", answer: "Yes. Skin reflects your gut and liver health. Removing toxins and processed foods at Nutrition Colours restores a natural radiant glow.", category: "Prognosis" },
-      { question: "How does hydration affect skin elasticity?", answer: "Cellular hydration requires structured water from raw vegetables and mineral-rich elixirs to lock moisture into skin layers.", category: "Hydration" },
-      { question: "Are antioxidants good for skin aging?", answer: "Yes. Vitamins C and E neutralize free radicals from UV light and pollution, preventing collagen breakdown and fine lines.", category: "Science" },
-    ]
+      {
+          question: "Can diet clear up dull skin?",
+          answer: "Yes. Skin reflects your gut and liver health. Removing toxins and processed foods at Nutrition Colours restores a natural radiant glow.",
+          category: "Prognosis"
+      },
+      {
+          question: "How does hydration affect skin elasticity?",
+          answer: "Cellular hydration requires structured water from raw vegetables and mineral-rich elixirs to lock moisture into skin layers.",
+          category: "Hydration"
+      },
+      {
+          question: "Are antioxidants good for skin aging?",
+          answer: "Yes. Vitamins C and E neutralize free radicals from UV light and pollution, preventing collagen breakdown and fine lines.",
+          category: "Science"
+      },
+      {
+          question: "What causes Skin Glow & Detox?",
+          answer: "Dull skin, congestion, and toxin buildup reflected on the face.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Skin Glow & Detox through nutrition?",
+          answer: "High antioxidant intake and support for the body's natural elimination pathways.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Vitamin C\" help with Skin Glow & Detox?",
+          answer: "Yes \u2014 Vitamin C is one of the natural approaches recommended for Skin Glow & Detox.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Beta-Carotene\" help with Skin Glow & Detox?",
+          answer: "Yes \u2014 Beta-Carotene is one of the natural approaches recommended for Skin Glow & Detox.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Hydration\" help with Skin Glow & Detox?",
+          answer: "Yes \u2014 Hydration is one of the natural approaches recommended for Skin Glow & Detox.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Liver support\" help with Skin Glow & Detox?",
+          answer: "Yes \u2014 Liver support is one of the natural approaches recommended for Skin Glow & Detox.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'anti-aging-support',
@@ -645,10 +1757,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "What is autophagy?", answer: "Autophagy is the body's recycling system, clearing out damaged cells. Dr. Shilpa uses timed eating at Nutrition Colours to stimulate this process.", category: "Science" },
-      { question: "Which foods activate longevity genes?", answer: "Polyphenol-rich foods like dark berries, green tea, and raw cacao help activate sirtuins to support DNA repair.", category: "Diet" },
-      { question: "How does insulin speed up aging?", answer: "Chronically high insulin levels accelerate cellular division and senescent cell accumulation, which we target in our protocols.", category: "Science" },
-    ]
+      {
+          question: "What is autophagy?",
+          answer: "Autophagy is the body's recycling system, clearing out damaged cells. Dr. Shilpa uses timed eating at Nutrition Colours to stimulate this process.",
+          category: "Science"
+      },
+      {
+          question: "Which foods activate longevity genes?",
+          answer: "Polyphenol-rich foods like dark berries, green tea, and raw cacao help activate sirtuins to support DNA repair.",
+          category: "Diet"
+      },
+      {
+          question: "How does insulin speed up aging?",
+          answer: "Chronically high insulin levels accelerate cellular division and senescent cell accumulation, which we target in our protocols.",
+          category: "Science"
+      },
+      {
+          question: "What causes Anti-Aging Support?",
+          answer: "Accelerated aging, wrinkles, and cellular damage.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Anti-Aging Support through nutrition?",
+          answer: "Adopt an antioxidant-rich diet and emphasize healthy fats.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Clean Omega-3s\" help with Anti-Aging Support?",
+          answer: "Yes \u2014 Clean Omega-3s is one of the natural approaches recommended for Anti-Aging Support.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Sirtuin foods\" help with Anti-Aging Support?",
+          answer: "Yes \u2014 Sirtuin foods is one of the natural approaches recommended for Anti-Aging Support.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Lower Sugar\" help with Anti-Aging Support?",
+          answer: "Yes \u2014 Lower Sugar is one of the natural approaches recommended for Anti-Aging Support.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Limit Sun Damage\" help with Anti-Aging Support?",
+          answer: "Yes \u2014 Limit Sun Damage is one of the natural approaches recommended for Anti-Aging Support.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'acne-skin-clarity',
@@ -666,10 +1820,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "Does dairy cause acne?", answer: "Yes. Commercial dairy raises IGF-1 levels, which triggers sebum production and clogs pores. We suggest removing dairy during acne recovery.", category: "Triggers" },
-      { question: "How does zinc help with acne?", answer: "Zinc is a natural anti-inflammatory and anti-microbial mineral that regulates sebum and speeds skin healing, as used in our tracks.", category: "Science" },
-      { question: "Can stress trigger acne breakouts?", answer: "Yes. Stress triggers cortisol and androgen release, which overstimulate oil glands, leading to inflammation and breakouts.", category: "Stress" },
-    ]
+      {
+          question: "Does dairy cause acne?",
+          answer: "Yes. Commercial dairy raises IGF-1 levels, which triggers sebum production and clogs pores. We suggest removing dairy during acne recovery.",
+          category: "Triggers"
+      },
+      {
+          question: "How does zinc help with acne?",
+          answer: "Zinc is a natural anti-inflammatory and anti-microbial mineral that regulates sebum and speeds skin healing, as used in our tracks.",
+          category: "Science"
+      },
+      {
+          question: "Can stress trigger acne breakouts?",
+          answer: "Yes. Stress triggers cortisol and androgen release, which overstimulate oil glands, leading to inflammation and breakouts.",
+          category: "Stress"
+      },
+      {
+          question: "What causes Acne & Skin Clarity?",
+          answer: "Clogged pores and inflammatory breakouts, often hormonally driven.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Acne & Skin Clarity through nutrition?",
+          answer: "Eliminate dairy and highly processed carbohydrates.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"No Dairy\" help with Acne & Skin Clarity?",
+          answer: "Yes \u2014 No Dairy is one of the natural approaches recommended for Acne & Skin Clarity.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Zinc-rich foods\" help with Acne & Skin Clarity?",
+          answer: "Yes \u2014 Zinc-rich foods is one of the natural approaches recommended for Acne & Skin Clarity.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Omega-3\" help with Acne & Skin Clarity?",
+          answer: "Yes \u2014 Omega-3 is one of the natural approaches recommended for Acne & Skin Clarity.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Low sugar\" help with Acne & Skin Clarity?",
+          answer: "Yes \u2014 Low sugar is one of the natural approaches recommended for Acne & Skin Clarity.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'nail-health-strength',
@@ -687,10 +1883,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "Why do my nails have white spots?", answer: "White spots are often a sign of minor zinc or calcium deficiency, or past nail matrix trauma. We assess mineral levels at Nutrition Colours.", category: "Symptoms" },
-      { question: "What foods are high in silica?", answer: "Oats, cucumbers, and horsetail herbal infusions are rich in silica, which Dr. Shilpa uses to strengthen nail beds.", category: "Diet" },
-      { question: "How does gut absorption affect nails?", answer: "If you have low stomach acid or leaky gut, you cannot absorb the minerals needed to build strong nails. We prioritize gut repair.", category: "Science" },
-    ]
+      {
+          question: "Why do my nails have white spots?",
+          answer: "White spots are often a sign of minor zinc or calcium deficiency, or past nail matrix trauma. We assess mineral levels at Nutrition Colours.",
+          category: "Symptoms"
+      },
+      {
+          question: "What foods are high in silica?",
+          answer: "Oats, cucumbers, and horsetail herbal infusions are rich in silica, which Dr. Shilpa uses to strengthen nail beds.",
+          category: "Diet"
+      },
+      {
+          question: "How does gut absorption affect nails?",
+          answer: "If you have low stomach acid or leaky gut, you cannot absorb the minerals needed to build strong nails. We prioritize gut repair.",
+          category: "Science"
+      },
+      {
+          question: "What causes Nail Health & Strength?",
+          answer: "Brittle, splitting, or weak nails indicating nutrient deficiencies.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Nail Health & Strength through nutrition?",
+          answer: "Optimize protein, Biotin, and Mineral intake.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Biotin sources\" help with Nail Health & Strength?",
+          answer: "Yes \u2014 Biotin sources is one of the natural approaches recommended for Nail Health & Strength.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"High Protein\" help with Nail Health & Strength?",
+          answer: "Yes \u2014 High Protein is one of the natural approaches recommended for Nail Health & Strength.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Zinc & Iron\" help with Nail Health & Strength?",
+          answer: "Yes \u2014 Zinc & Iron is one of the natural approaches recommended for Nail Health & Strength.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Avoid harsh chemicals\" help with Nail Health & Strength?",
+          answer: "Yes \u2014 Avoid harsh chemicals is one of the natural approaches recommended for Nail Health & Strength.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'immunity-boost',
@@ -708,10 +1946,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "How does Vitamin D support immunity?", answer: "Vitamin D regulates immune cells (T-cells) to fight infections while preventing cytokine storm inflammatory overreactions.", category: "Science" },
-      { question: "What foods are highest in Vitamin C?", answer: "Amla (Indian gooseberry), bell peppers, and citrus fruits are packed with Vitamin C. Dr. Shilpa incorporates them fresh into daily plans.", category: "Diet" },
-      { question: "Can sugar weaken my immune system?", answer: "Yes. Refined sugar temporarily reduces the ability of white blood cells to destroy bacteria and viruses for up to 5 hours.", category: "Triggers" },
-    ]
+      {
+          question: "How does Vitamin D support immunity?",
+          answer: "Vitamin D regulates immune cells (T-cells) to fight infections while preventing cytokine storm inflammatory overreactions.",
+          category: "Science"
+      },
+      {
+          question: "What foods are highest in Vitamin C?",
+          answer: "Amla (Indian gooseberry), bell peppers, and citrus fruits are packed with Vitamin C. Dr. Shilpa incorporates them fresh into daily plans.",
+          category: "Diet"
+      },
+      {
+          question: "Can sugar weaken my immune system?",
+          answer: "Yes. Refined sugar temporarily reduces the ability of white blood cells to destroy bacteria and viruses for up to 5 hours.",
+          category: "Triggers"
+      },
+      {
+          question: "What causes Immunity Boost?",
+          answer: "Frequent illness and slow recovery due to weak immune response.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Immunity Boost through nutrition?",
+          answer: "Boost gut health and optimize intake of Vitamins C and D.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Probiotics\" help with Immunity Boost?",
+          answer: "Yes \u2014 Probiotics is one of the natural approaches recommended for Immunity Boost.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Vitamin C\" help with Immunity Boost?",
+          answer: "Yes \u2014 Vitamin C is one of the natural approaches recommended for Immunity Boost.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Vitamin D\" help with Immunity Boost?",
+          answer: "Yes \u2014 Vitamin D is one of the natural approaches recommended for Immunity Boost.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Adequate Sleep\" help with Immunity Boost?",
+          answer: "Yes \u2014 Adequate Sleep is one of the natural approaches recommended for Immunity Boost.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'detox-rejuvenation',
@@ -729,10 +2009,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "Do I need to do a juice cleanse to detox?", answer: "No. The liver requires specific amino acids from proteins to complete detox. Dr. Shilpa utilizes whole-food detox protocols at Nutrition Colours.", category: "Science" },
-      { question: "How do cilantro and parsley help detox?", answer: "These herbs contain natural chelating agents that bind to heavy metals and assist the body in safely excreting them, as used in our plans.", category: "Diet" },
-      { question: "What is the best way to support kidney detox?", answer: "Alkalizing water infused with lemon or cucumber helps flush metabolic waste and prevents kidney stone formation.", category: "Hydration" },
-    ]
+      {
+          question: "Do I need to do a juice cleanse to detox?",
+          answer: "No. The liver requires specific amino acids from proteins to complete detox. Dr. Shilpa utilizes whole-food detox protocols at Nutrition Colours.",
+          category: "Science"
+      },
+      {
+          question: "How do cilantro and parsley help detox?",
+          answer: "These herbs contain natural chelating agents that bind to heavy metals and assist the body in safely excreting them, as used in our plans.",
+          category: "Diet"
+      },
+      {
+          question: "What is the best way to support kidney detox?",
+          answer: "Alkalizing water infused with lemon or cucumber helps flush metabolic waste and prevents kidney stone formation.",
+          category: "Hydration"
+      },
+      {
+          question: "What causes Detox & Rejuvenation?",
+          answer: "Lethargy, bloating, and overall \"heaviness\" due to toxic load.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Detox & Rejuvenation through nutrition?",
+          answer: "Support liver and kidneys with whole foods and hydration.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"High Fiber\" help with Detox & Rejuvenation?",
+          answer: "Yes \u2014 High Fiber is one of the natural approaches recommended for Detox & Rejuvenation.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Lemon Water\" help with Detox & Rejuvenation?",
+          answer: "Yes \u2014 Lemon Water is one of the natural approaches recommended for Detox & Rejuvenation.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Beets\" help with Detox & Rejuvenation?",
+          answer: "Yes \u2014 Beets is one of the natural approaches recommended for Detox & Rejuvenation.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Infrared Sauna equivalent\" help with Detox & Rejuvenation?",
+          answer: "Yes \u2014 Infrared Sauna equivalent is one of the natural approaches recommended for Detox & Rejuvenation.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'anti-inflammatory-support',
@@ -750,10 +2072,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "What is systemic chronic inflammation?", answer: "It is low-grade immune activation that slowly damages tissues. Dr. Shilpa focuses on reversing this to prevent chronic diseases.", category: "Science" },
-      { question: "Why are seed oils inflammatory?", answer: "Industrial seed oils (like canola or soy) are high in Omega-6 fats, which oxidize easily and fuel inflammatory pathways in the body.", category: "Science" },
-      { question: "Which spices are highly anti-inflammatory?", answer: "Turmeric (curcumin), ginger, and garlic block primary inflammatory markers (like NF-kB) and are incorporated daily at Nutrition Colours.", category: "Diet" },
-    ]
+      {
+          question: "What is systemic chronic inflammation?",
+          answer: "It is low-grade immune activation that slowly damages tissues. Dr. Shilpa focuses on reversing this to prevent chronic diseases.",
+          category: "Science"
+      },
+      {
+          question: "Why are seed oils inflammatory?",
+          answer: "Industrial seed oils (like canola or soy) are high in Omega-6 fats, which oxidize easily and fuel inflammatory pathways in the body.",
+          category: "Science"
+      },
+      {
+          question: "Which spices are highly anti-inflammatory?",
+          answer: "Turmeric (curcumin), ginger, and garlic block primary inflammatory markers (like NF-kB) and are incorporated daily at Nutrition Colours.",
+          category: "Diet"
+      },
+      {
+          question: "What causes Anti-Inflammatory Support?",
+          answer: "Chronic pain, fatigue, and increased risk of chronic disease.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Anti-Inflammatory Support through nutrition?",
+          answer: "Adopt an anti-inflammatory diet rich in Omega-3s and antioxidants.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"No refined sugar\" help with Anti-Inflammatory Support?",
+          answer: "Yes \u2014 No refined sugar is one of the natural approaches recommended for Anti-Inflammatory Support.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Omega-3 (walnuts/flax)\" help with Anti-Inflammatory Support?",
+          answer: "Yes \u2014 Omega-3 (walnuts/flax) is one of the natural approaches recommended for Anti-Inflammatory Support.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Turmeric\" help with Anti-Inflammatory Support?",
+          answer: "Yes \u2014 Turmeric is one of the natural approaches recommended for Anti-Inflammatory Support.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Ginger\" help with Anti-Inflammatory Support?",
+          answer: "Yes \u2014 Ginger is one of the natural approaches recommended for Anti-Inflammatory Support.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'healthy-aging-solutions',
@@ -771,10 +2135,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "Can I prevent muscle loss in older age?", answer: "Yes. Muscle wasting (sarcopenia) can be managed with easily digestible plant-based proteins and resistance movement under Dr. Shilpa's guidance.", category: "Aging" },
-      { question: "How do I maintain cognitive health?", answer: "Nutrition Colours plans are rich in brain-protective antioxidants and healthy fats that support neural connections and prevent cognitive decline.", category: "Cognitive" },
-      { question: "Is calorie restriction required for longevity?", answer: "Not starvation. We use circadian eating windows to activate longevity genes without compromising nutrient density or strength.", category: "Science" },
-    ]
+      {
+          question: "Can I prevent muscle loss in older age?",
+          answer: "Yes. Muscle wasting (sarcopenia) can be managed with easily digestible plant-based proteins and resistance movement under Dr. Shilpa's guidance.",
+          category: "Aging"
+      },
+      {
+          question: "How do I maintain cognitive health?",
+          answer: "Nutrition Colours plans are rich in brain-protective antioxidants and healthy fats that support neural connections and prevent cognitive decline.",
+          category: "Cognitive"
+      },
+      {
+          question: "Is calorie restriction required for longevity?",
+          answer: "Not starvation. We use circadian eating windows to activate longevity genes without compromising nutrient density or strength.",
+          category: "Science"
+      },
+      {
+          question: "What causes Healthy Aging Solutions?",
+          answer: "Fragility, cognitive decline, and loss of independence.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Healthy Aging Solutions through nutrition?",
+          answer: "Balanced nutrition with focus on protein and brain-boosting fats.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Plant-based protein\" help with Healthy Aging Solutions?",
+          answer: "Yes \u2014 Plant-based protein is one of the natural approaches recommended for Healthy Aging Solutions.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Brain-boosting fats\" help with Healthy Aging Solutions?",
+          answer: "Yes \u2014 Brain-boosting fats is one of the natural approaches recommended for Healthy Aging Solutions.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Berries\" help with Healthy Aging Solutions?",
+          answer: "Yes \u2014 Berries is one of the natural approaches recommended for Healthy Aging Solutions.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Movement\" help with Healthy Aging Solutions?",
+          answer: "Yes \u2014 Movement is one of the natural approaches recommended for Healthy Aging Solutions.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'wellness-longevity',
@@ -792,10 +2198,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "What is the key to longevity?", answer: "Maintaining low insulin, healthy mitochondria, and low cellular inflammation. Dr. Shilpa designs plans specifically to target these keys.", category: "Science" },
-      { question: "Do genetics dictate my lifespan?", answer: "Genetics are only 10-20% of the equation. Epigenetics (diet, sleep, stress) controls how your genes express, which we guide at Nutrition Colours.", category: "Science" },
-      { question: "Can lifestyle changes repair cellular damage?", answer: "Yes. Restoring antioxidant pathways and sleep helps cells clear out damaged structures and repair DNA damage naturally.", category: "Prognosis" },
-    ]
+      {
+          question: "What is the key to longevity?",
+          answer: "Maintaining low insulin, healthy mitochondria, and low cellular inflammation. Dr. Shilpa designs plans specifically to target these keys.",
+          category: "Science"
+      },
+      {
+          question: "Do genetics dictate my lifespan?",
+          answer: "Genetics are only 10-20% of the equation. Epigenetics (diet, sleep, stress) controls how your genes express, which we guide at Nutrition Colours.",
+          category: "Science"
+      },
+      {
+          question: "Can lifestyle changes repair cellular damage?",
+          answer: "Yes. Restoring antioxidant pathways and sleep helps cells clear out damaged structures and repair DNA damage naturally.",
+          category: "Prognosis"
+      },
+      {
+          question: "What causes Wellness & Longevity?",
+          answer: "Premature physical decline due to lifestyle choices.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Wellness & Longevity through nutrition?",
+          answer: "Adopting a longevity-focused lifestyle rooted in whole foods.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Blue Zone principles\" help with Wellness & Longevity?",
+          answer: "Yes \u2014 Blue Zone principles is one of the natural approaches recommended for Wellness & Longevity.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"High fiber\" help with Wellness & Longevity?",
+          answer: "Yes \u2014 High fiber is one of the natural approaches recommended for Wellness & Longevity.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Natural movement\" help with Wellness & Longevity?",
+          answer: "Yes \u2014 Natural movement is one of the natural approaches recommended for Wellness & Longevity.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Social connection\" help with Wellness & Longevity?",
+          answer: "Yes \u2014 Social connection is one of the natural approaches recommended for Wellness & Longevity.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'fertility-hormone-support',
@@ -813,10 +2261,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "How does blood sugar affect fertility?", answer: "High insulin tells ovaries to produce excess male hormones, which blocks egg development. Reversing insulin resistance is vital for conception.", category: "Science" },
-      { question: "Are prenatal vitamins enough?", answer: "No. A whole-food diet supplies cofactor nutrients that synthetic pills lack. Dr. Shilpa designs complete fertility nutrition programs.", category: "Nutrition" },
-      { question: "Does male partner diet affect fertility?", answer: "Absolutely. Sperm health is highly dependent on zinc, selenium, and antioxidant status, which we address in our couples' plans.", category: "Fertility" },
-    ]
+      {
+          question: "How does blood sugar affect fertility?",
+          answer: "High insulin tells ovaries to produce excess male hormones, which blocks egg development. Reversing insulin resistance is vital for conception.",
+          category: "Science"
+      },
+      {
+          question: "Are prenatal vitamins enough?",
+          answer: "No. A whole-food diet supplies cofactor nutrients that synthetic pills lack. Dr. Shilpa designs complete fertility nutrition programs.",
+          category: "Nutrition"
+      },
+      {
+          question: "Does male partner diet affect fertility?",
+          answer: "Absolutely. Sperm health is highly dependent on zinc, selenium, and antioxidant status, which we address in our couples' plans.",
+          category: "Fertility"
+      },
+      {
+          question: "What causes Fertility & Hormone Support?",
+          answer: "Difficulties conceiving often linked to egg/sperm quality and hormone balance.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Fertility & Hormone Support through nutrition?",
+          answer: "Boost antioxidant intake and ensure optimal nutrient stores.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"High antioxidants\" help with Fertility & Hormone Support?",
+          answer: "Yes \u2014 High antioxidants is one of the natural approaches recommended for Fertility & Hormone Support.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Methyl-Folate\" help with Fertility & Hormone Support?",
+          answer: "Yes \u2014 Methyl-Folate is one of the natural approaches recommended for Fertility & Hormone Support.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Iron/B12\" help with Fertility & Hormone Support?",
+          answer: "Yes \u2014 Iron/B12 is one of the natural approaches recommended for Fertility & Hormone Support.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Blood sugar stability\" help with Fertility & Hormone Support?",
+          answer: "Yes \u2014 Blood sugar stability is one of the natural approaches recommended for Fertility & Hormone Support.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'pcos-weight-diet',
@@ -834,10 +2324,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "Why is it so hard to lose weight with PCOS?", answer: "High insulin acts as a one-way valve, storing fat and blocking its release. Dr. Shilpa's diets lower insulin to allow fat burning.", category: "Weight" },
-      { question: "What is the role of fiber in PCOS?", answer: "Soluble fiber slows down sugar absorption, preventing the insulin spikes that drive weight gain and sugar cravings.", category: "Diet" },
-      { question: "Can strength training help PCOS weight loss?", answer: "Yes. Muscle tissue burns glucose for fuel without needing insulin, helping optimize insulin sensitivity and speed up weight loss.", category: "Fitness" },
-    ]
+      {
+          question: "Why is it so hard to lose weight with PCOS?",
+          answer: "High insulin acts as a one-way valve, storing fat and blocking its release. Dr. Shilpa's diets lower insulin to allow fat burning.",
+          category: "Weight"
+      },
+      {
+          question: "What is the role of fiber in PCOS?",
+          answer: "Soluble fiber slows down sugar absorption, preventing the insulin spikes that drive weight gain and sugar cravings.",
+          category: "Diet"
+      },
+      {
+          question: "Can strength training help PCOS weight loss?",
+          answer: "Yes. Muscle tissue burns glucose for fuel without needing insulin, helping optimize insulin sensitivity and speed up weight loss.",
+          category: "Fitness"
+      },
+      {
+          question: "What causes PCOS Weight & Diet?",
+          answer: "Difficulty losing weight despite diet efforts due to high insulin.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address PCOS Weight & Diet through nutrition?",
+          answer: "Very low-GI approach and high protein/fiber for satiety.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Very Low-GI\" help with PCOS Weight & Diet?",
+          answer: "Yes \u2014 Very Low-GI is one of the natural approaches recommended for PCOS Weight & Diet.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"High Protein/Fiber\" help with PCOS Weight & Diet?",
+          answer: "Yes \u2014 High Protein/Fiber is one of the natural approaches recommended for PCOS Weight & Diet.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Strength training\" help with PCOS Weight & Diet?",
+          answer: "Yes \u2014 Strength training is one of the natural approaches recommended for PCOS Weight & Diet.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Inositol\" help with PCOS Weight & Diet?",
+          answer: "Yes \u2014 Inositol is one of the natural approaches recommended for PCOS Weight & Diet.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'menopause-weight-mgmt',
@@ -855,10 +2387,52 @@ export const TOPICS: Topic[] = [
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     
     faqs: [
-      { question: "Why does weight shift to the belly during menopause?", answer: "Estrogen declines cause the body to store fat around the abdomen. Dr. Shilpa designs plans that support metabolism and hormone balance.", category: "Hormones" },
-      { question: "Will cardio help me lose menopause weight?", answer: "Excessive cardio raises cortisol, which can worsen belly fat. Dr. Shilpa at Nutrition Colours recommends resistance training instead.", category: "Fitness" },
-      { question: "How does protein help in menopause?", answer: "Higher protein intake prevents the muscle loss associated with estrogen decline, keeping your metabolism active and strong.", category: "Nutrition" },
-    ]
+      {
+          question: "Why does weight shift to the belly during menopause?",
+          answer: "Estrogen declines cause the body to store fat around the abdomen. Dr. Shilpa designs plans that support metabolism and hormone balance.",
+          category: "Hormones"
+      },
+      {
+          question: "Will cardio help me lose menopause weight?",
+          answer: "Excessive cardio raises cortisol, which can worsen belly fat. Dr. Shilpa at Nutrition Colours recommends resistance training instead.",
+          category: "Fitness"
+      },
+      {
+          question: "How does protein help in menopause?",
+          answer: "Higher protein intake prevents the muscle loss associated with estrogen decline, keeping your metabolism active and strong.",
+          category: "Nutrition"
+      },
+      {
+          question: "What causes Menopause Weight Management?",
+          answer: "Shift in weight storage towards the belly due to hormonal drops.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Menopause Weight Management through nutrition?",
+          answer: "Focus on muscle preservation and insulin sensitivity.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Preserve muscle\" help with Menopause Weight Management?",
+          answer: "Yes \u2014 Preserve muscle is one of the natural approaches recommended for Menopause Weight Management.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Anti-inflammatory fats\" help with Menopause Weight Management?",
+          answer: "Yes \u2014 Anti-inflammatory fats is one of the natural approaches recommended for Menopause Weight Management.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"High Fiber\" help with Menopause Weight Management?",
+          answer: "Yes \u2014 High Fiber is one of the natural approaches recommended for Menopause Weight Management.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Resistance training\" help with Menopause Weight Management?",
+          answer: "Yes \u2014 Resistance training is one of the natural approaches recommended for Menopause Weight Management.",
+          category: "Natural Approach"
+      }
+  ]
   },
 { 
     id: 'gout-uric-acid-reversal', 
@@ -875,11 +2449,57 @@ export const TOPICS: Topic[] = [
     primaryKeyword: 'Uric Acid Gout Support',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     faqs: [
-      { question: "Can I eat lentils if I have high uric acid?", answer: "Yes, clinical research shows plant-based purines in lentils do not trigger gout flares compared to animal purines. Dr. Shilpa recommends specific preparation methods to reduce phytates.", category: "Diet" },
-      { question: "Does sugar trigger gout?", answer: "Absolutely. Fructose accelerates purine metabolism and raises uric acid. Removing soda and sweet treats is priority number one at Nutrition Colours.", category: "Science" },
-      { question: "Will drinking cherry juice help?", answer: "Yes, tart cherry juice contains anthocyanins that reduce inflammation and facilitate renal excretion of uric acid, as studied in our protocols.", category: "Remedies" },
-      { question: "Can uric acid be managed permanently?", answer: "Yes, by addressing underlying insulin resistance and kidney filtration efficiency through metabolic nutrition, maintaining optimal uric acid levels is highly achievable.", category: "Prognosis" }
-    ]
+      {
+          question: "Can I eat lentils if I have high uric acid?",
+          answer: "Yes, clinical research shows plant-based purines in lentils do not trigger gout flares compared to animal purines. Dr. Shilpa recommends specific preparation methods to reduce phytates.",
+          category: "Diet"
+      },
+      {
+          question: "Does sugar trigger gout?",
+          answer: "Absolutely. Fructose accelerates purine metabolism and raises uric acid. Removing soda and sweet treats is priority number one at Nutrition Colours.",
+          category: "Science"
+      },
+      {
+          question: "Will drinking cherry juice help?",
+          answer: "Yes, tart cherry juice contains anthocyanins that reduce inflammation and facilitate renal excretion of uric acid, as studied in our protocols.",
+          category: "Remedies"
+      },
+      {
+          question: "Can uric acid be managed permanently?",
+          answer: "Yes, by addressing underlying insulin resistance and kidney filtration efficiency through metabolic nutrition, maintaining optimal uric acid levels is highly achievable.",
+          category: "Prognosis"
+      },
+      {
+          question: "What causes Uric Acid & Gout Support?",
+          answer: "Excessive uric acid crystal accumulation in joints causing intense inflammatory gout flares.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Uric Acid & Gout Support through nutrition?",
+          answer: "Optimize renal filtration and reduce high-purine foods under specialized clinical supervision.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Alkalizing hydration\" help with Uric Acid & Gout Support?",
+          answer: "Yes \u2014 Alkalizing hydration is one of the natural approaches recommended for Uric Acid & Gout Support.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Tart cherry extract\" help with Uric Acid & Gout Support?",
+          answer: "Yes \u2014 Tart cherry extract is one of the natural approaches recommended for Uric Acid & Gout Support.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Low fructose\" help with Uric Acid & Gout Support?",
+          answer: "Yes \u2014 Low fructose is one of the natural approaches recommended for Uric Acid & Gout Support.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Limit purine foods\" help with Uric Acid & Gout Support?",
+          answer: "Yes \u2014 Limit purine foods is one of the natural approaches recommended for Uric Acid & Gout Support.",
+          category: "Natural Approach"
+      }
+  ]
   },
   { 
     id: 'chronic-fatigue-syndrome', 
@@ -896,11 +2516,57 @@ export const TOPICS: Topic[] = [
     primaryKeyword: 'Chronic Fatigue Energy Support',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     faqs: [
-      { question: "Is chronic fatigue just in my head?", answer: "No, it is a metabolic disorder characterized by low mitochondrial ATP production and systemic inflammation. Our tests help quantify this.", category: "Science" },
-      { question: "How does diet restore energy?", answer: "By removing inflammatory sugars and prioritizing healthy fats and amino acids, we restore the cellular battery (mitochondria) at Nutrition Colours.", category: "Nutrition" },
-      { question: "Do I need to stop exercising?", answer: "Post-exertional malaise is common. Dr. Shilpa recommends gentle, low-heart-rate movement rather than intense cardio during early recovery.", category: "Activity" },
-      { question: "Are B-vitamins helpful?", answer: "Yes, specifically active forms like methylcobalamin (B12) and methylfolate, which support methylation and cellular energy generation.", category: "Supplements" }
-    ]
+      {
+          question: "Is chronic fatigue just in my head?",
+          answer: "No, it is a metabolic disorder characterized by low mitochondrial ATP production and systemic inflammation. Our tests help quantify this.",
+          category: "Science"
+      },
+      {
+          question: "How does diet restore energy?",
+          answer: "By removing inflammatory sugars and prioritizing healthy fats and amino acids, we restore the cellular battery (mitochondria) at Nutrition Colours.",
+          category: "Nutrition"
+      },
+      {
+          question: "Do I need to stop exercising?",
+          answer: "Post-exertional malaise is common. Dr. Shilpa recommends gentle, low-heart-rate movement rather than intense cardio during early recovery.",
+          category: "Activity"
+      },
+      {
+          question: "Are B-vitamins helpful?",
+          answer: "Yes, specifically active forms like methylcobalamin (B12) and methylfolate, which support methylation and cellular energy generation.",
+          category: "Supplements"
+      },
+      {
+          question: "What causes Chronic Fatigue & Energy Support?",
+          answer: "Persistent, debilitating fatigue not relieved by rest, often linked to mitochondrial dysfunction.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Chronic Fatigue & Energy Support through nutrition?",
+          answer: "Rebuild cellular energy pathways with cofactors, low-toxin eating, and deep circadian rest.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"CoQ10 cofactors\" help with Chronic Fatigue & Energy Support?",
+          answer: "Yes \u2014 CoQ10 cofactors is one of the natural approaches recommended for Chronic Fatigue & Energy Support.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Magnesium optimization\" help with Chronic Fatigue & Energy Support?",
+          answer: "Yes \u2014 Magnesium optimization is one of the natural approaches recommended for Chronic Fatigue & Energy Support.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Circadian meal timing\" help with Chronic Fatigue & Energy Support?",
+          answer: "Yes \u2014 Circadian meal timing is one of the natural approaches recommended for Chronic Fatigue & Energy Support.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Oxidative stress reduction\" help with Chronic Fatigue & Energy Support?",
+          answer: "Yes \u2014 Oxidative stress reduction is one of the natural approaches recommended for Chronic Fatigue & Energy Support.",
+          category: "Natural Approach"
+      }
+  ]
   },
   { 
     id: 'ibs-ibd-gut-repair', 
@@ -917,11 +2583,57 @@ export const TOPICS: Topic[] = [
     primaryKeyword: 'IBS IBD Gut Repair',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     faqs: [
-      { question: "Should I follow a low-FODMAP diet forever?", answer: "No. Low-FODMAP is a short-term therapeutic tool to reduce symptoms while Dr. Shilpa helps you heal the underlying gut barrier at Nutrition Colours.", category: "Diet" },
-      { question: "What is the difference between IBS and IBD?", answer: "IBS is a functional disorder, while IBD involves visible structural inflammation and damage to the gut wall. Both benefit from targeted chrononutrition.", category: "Science" },
-      { question: "Can gluten trigger flares?", answer: "Yes, gluten increases zonulin, which opens tight junctions in the gut lining. We recommend a temporary gluten-free trial for recovery.", category: "Triggers" },
-      { question: "Are probiotics safe during a flare?", answer: "During an active IBD flare, high-dose probiotics can sometimes cause irritation. We prioritize gut-soothing mucosal agents first.", category: "Probiotics" }
-    ]
+      {
+          question: "Should I follow a low-FODMAP diet forever?",
+          answer: "No. Low-FODMAP is a short-term therapeutic tool to reduce symptoms while Dr. Shilpa helps you heal the underlying gut barrier at Nutrition Colours.",
+          category: "Diet"
+      },
+      {
+          question: "What is the difference between IBS and IBD?",
+          answer: "IBS is a functional disorder, while IBD involves visible structural inflammation and damage to the gut wall. Both benefit from targeted chrononutrition.",
+          category: "Science"
+      },
+      {
+          question: "Can gluten trigger flares?",
+          answer: "Yes, gluten increases zonulin, which opens tight junctions in the gut lining. We recommend a temporary gluten-free trial for recovery.",
+          category: "Triggers"
+      },
+      {
+          question: "Are probiotics safe during a flare?",
+          answer: "During an active IBD flare, high-dose probiotics can sometimes cause irritation. We prioritize gut-soothing mucosal agents first.",
+          category: "Probiotics"
+      },
+      {
+          question: "What causes IBS & IBD Gut Repair?",
+          answer: "Abdominal pain, cramping, bloating, and irregular bowel patterns due to mucosal inflammation.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address IBS & IBD Gut Repair through nutrition?",
+          answer: "Implement an elemental phase diet, repair gut lining integrity, and rebalance the microbiome.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"L-Glutamine support\" help with IBS & IBD Gut Repair?",
+          answer: "Yes \u2014 L-Glutamine support is one of the natural approaches recommended for IBS & IBD Gut Repair.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Anti-inflammatory herbs\" help with IBS & IBD Gut Repair?",
+          answer: "Yes \u2014 Anti-inflammatory herbs is one of the natural approaches recommended for IBS & IBD Gut Repair.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Low-FODMAP phase\" help with IBS & IBD Gut Repair?",
+          answer: "Yes \u2014 Low-FODMAP phase is one of the natural approaches recommended for IBS & IBD Gut Repair.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Microbiome balancing\" help with IBS & IBD Gut Repair?",
+          answer: "Yes \u2014 Microbiome balancing is one of the natural approaches recommended for IBS & IBD Gut Repair.",
+          category: "Natural Approach"
+      }
+  ]
   },
   { 
     id: 'post-viral-recovery', 
@@ -938,11 +2650,57 @@ export const TOPICS: Topic[] = [
     primaryKeyword: 'Post Viral Recovery',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     faqs: [
-      { question: "Why do I still feel tired months later?", answer: "It is often caused by microvascular inflammation or persistent viral fragments. Dr. Shilpa uses antioxidant protocols to clear this metabolic debris.", category: "Science" },
-      { question: "How does food help my immune system reset?", answer: "Certain phytonutrients act as natural immune regulators, preventing your body from attacking its own tissues while enhancing clearing mechanisms.", category: "Mechanism" },
-      { question: "Is Vitamin D helpful?", answer: "Yes, maintaining blood Vitamin D levels between 50-80 ng/mL is essential for correct T-cell modulation and preventing immune overdrive.", category: "Vitamins" },
-      { question: "Can I drink coffee?", answer: "Coffee stimulates cortisol, which can strain recovering adrenals. We recommend herbal infusions like Holy Basil during recovery.", category: "Beverages" }
-    ]
+      {
+          question: "Why do I still feel tired months later?",
+          answer: "It is often caused by microvascular inflammation or persistent viral fragments. Dr. Shilpa uses antioxidant protocols to clear this metabolic debris.",
+          category: "Science"
+      },
+      {
+          question: "How does food help my immune system reset?",
+          answer: "Certain phytonutrients act as natural immune regulators, preventing your body from attacking its own tissues while enhancing clearing mechanisms.",
+          category: "Mechanism"
+      },
+      {
+          question: "Is Vitamin D helpful?",
+          answer: "Yes, maintaining blood Vitamin D levels between 50-80 ng/mL is essential for correct T-cell modulation and preventing immune overdrive.",
+          category: "Vitamins"
+      },
+      {
+          question: "Can I drink coffee?",
+          answer: "Coffee stimulates cortisol, which can strain recovering adrenals. We recommend herbal infusions like Holy Basil during recovery.",
+          category: "Beverages"
+      },
+      {
+          question: "What causes Post-Viral Recovery?",
+          answer: "Lingering fatigue, brain fog, and muscle aches weeks or months after a viral infection.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Post-Viral Recovery through nutrition?",
+          answer: "Systematic immunomodulation, antioxidant loading, and autonomic nervous system support.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Quercetin & Zinc\" help with Post-Viral Recovery?",
+          answer: "Yes \u2014 Quercetin & Zinc is one of the natural approaches recommended for Post-Viral Recovery.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"N-Acetyl Cysteine (NAC)\" help with Post-Viral Recovery?",
+          answer: "Yes \u2014 N-Acetyl Cysteine (NAC) is one of the natural approaches recommended for Post-Viral Recovery.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Circadian spacing\" help with Post-Viral Recovery?",
+          answer: "Yes \u2014 Circadian spacing is one of the natural approaches recommended for Post-Viral Recovery.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Anti-inflammatory fats\" help with Post-Viral Recovery?",
+          answer: "Yes \u2014 Anti-inflammatory fats is one of the natural approaches recommended for Post-Viral Recovery.",
+          category: "Natural Approach"
+      }
+  ]
   },
   { 
     id: 'kidney-health-diet', 
@@ -959,11 +2717,57 @@ export const TOPICS: Topic[] = [
     primaryKeyword: 'Kidney Health Diet',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     faqs: [
-      { question: "Is a high-protein diet bad for my kidneys?", answer: "Excessive animal protein increases glomerular pressure. At Nutrition Colours, we balance clean, low-acid plant proteins to support muscle without overloading filtration.", category: "Protein" },
-      { question: "How does blood sugar affect kidneys?", answer: "High glucose damages the delicate filtering units (nephrons) over time. Reversing insulin resistance is crucial for kidney longevity.", category: "Diabetes" },
-      { question: "Should I limit potassium?", answer: "Potassium restriction is only necessary in advanced stages of kidney disease. For early protection, potassium-rich foods are actually beneficial.", category: "Electrolytes" },
-      { question: "Is water intake the most important factor?", answer: "Adequate hydration is essential, but it must be balanced with mineral intake to prevent diluting key electrolytes.", category: "Hydration" }
-    ]
+      {
+          question: "Is a high-protein diet bad for my kidneys?",
+          answer: "Excessive animal protein increases glomerular pressure. At Nutrition Colours, we balance clean, low-acid plant proteins to support muscle without overloading filtration.",
+          category: "Protein"
+      },
+      {
+          question: "How does blood sugar affect kidneys?",
+          answer: "High glucose damages the delicate filtering units (nephrons) over time. Reversing insulin resistance is crucial for kidney longevity.",
+          category: "Diabetes"
+      },
+      {
+          question: "Should I limit potassium?",
+          answer: "Potassium restriction is only necessary in advanced stages of kidney disease. For early protection, potassium-rich foods are actually beneficial.",
+          category: "Electrolytes"
+      },
+      {
+          question: "Is water intake the most important factor?",
+          answer: "Adequate hydration is essential, but it must be balanced with mineral intake to prevent diluting key electrolytes.",
+          category: "Hydration"
+      },
+      {
+          question: "What causes Kidney Health Support?",
+          answer: "Reduced kidney filtration efficiency leading to buildup of nitrogenous waste and fluid retention.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Kidney Health Support through nutrition?",
+          answer: "Manage protein load, control blood pressure, and eliminate renal stressors.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Alkalizing foods\" help with Kidney Health Support?",
+          answer: "Yes \u2014 Alkalizing foods is one of the natural approaches recommended for Kidney Health Support.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Controlled protein intake\" help with Kidney Health Support?",
+          answer: "Yes \u2014 Controlled protein intake is one of the natural approaches recommended for Kidney Health Support.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Blood pressure control\" help with Kidney Health Support?",
+          answer: "Yes \u2014 Blood pressure control is one of the natural approaches recommended for Kidney Health Support.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Dandelion root tea\" help with Kidney Health Support?",
+          answer: "Yes \u2014 Dandelion root tea is one of the natural approaches recommended for Kidney Health Support.",
+          category: "Natural Approach"
+      }
+  ]
   },
   { 
     id: 'migraine-headache-relief', 
@@ -980,11 +2784,57 @@ export const TOPICS: Topic[] = [
     primaryKeyword: 'Migraine Relief',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     faqs: [
-      { question: "Can certain foods trigger my migraines?", answer: "Yes, histamines, tyramine, and artificial sweeteners are classic triggers. Dr. Shilpa conducts detailed food logging to pinpoint your specific culprits.", category: "Triggers" },
-      { question: "Why is magnesium recommended for migraines?", answer: "Magnesium relaxes blood vessels and blocks pain-transmitting chemicals in the brain. It is a cornerstone of our therapy at Nutrition Colours.", category: "Science" },
-      { question: "Does caffeine help or hurt?", answer: "Temporary caffeine can constrict blood vessels and relieve pain, but chronic use causes rebound headaches. We focus on natural vascular stability.", category: "Caffeine" },
-      { question: "How does sleep timing affect migraines?", answer: "Circadian shifts are strong triggers. Going to bed and waking up at the exact same time every day significantly lowers attack frequency.", category: "Sleep" }
-    ]
+      {
+          question: "Can certain foods trigger my migraines?",
+          answer: "Yes, histamines, tyramine, and artificial sweeteners are classic triggers. Dr. Shilpa conducts detailed food logging to pinpoint your specific culprits.",
+          category: "Triggers"
+      },
+      {
+          question: "Why is magnesium recommended for migraines?",
+          answer: "Magnesium relaxes blood vessels and blocks pain-transmitting chemicals in the brain. It is a cornerstone of our therapy at Nutrition Colours.",
+          category: "Science"
+      },
+      {
+          question: "Does caffeine help or hurt?",
+          answer: "Temporary caffeine can constrict blood vessels and relieve pain, but chronic use causes rebound headaches. We focus on natural vascular stability.",
+          category: "Caffeine"
+      },
+      {
+          question: "How does sleep timing affect migraines?",
+          answer: "Circadian shifts are strong triggers. Going to bed and waking up at the exact same time every day significantly lowers attack frequency.",
+          category: "Sleep"
+      },
+      {
+          question: "What causes Migraine Relief?",
+          answer: "Chronic, pulsating headaches often accompanied by nausea and sensory sensitivity.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Migraine Relief through nutrition?",
+          answer: "Identify dietary histamine or tyramine triggers and support mitochondrial magnesium levels.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Magnesium glycinate\" help with Migraine Relief?",
+          answer: "Yes \u2014 Magnesium glycinate is one of the natural approaches recommended for Migraine Relief.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Riboflavin (B2)\" help with Migraine Relief?",
+          answer: "Yes \u2014 Riboflavin (B2) is one of the natural approaches recommended for Migraine Relief.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Elimination diet\" help with Migraine Relief?",
+          answer: "Yes \u2014 Elimination diet is one of the natural approaches recommended for Migraine Relief.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Hydration stability\" help with Migraine Relief?",
+          answer: "Yes \u2014 Hydration stability is one of the natural approaches recommended for Migraine Relief.",
+          category: "Natural Approach"
+      }
+  ]
   },
   { 
     id: 'adhd-brain-focus-kids', 
@@ -1001,11 +2851,57 @@ export const TOPICS: Topic[] = [
     primaryKeyword: 'Pediatric ADHD Focus',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     faqs: [
-      { question: "Are food dyes really harmful to focus?", answer: "Yes, clinical studies link synthetic food dyes (like Red 40, Yellow 5) to increased hyperactivity in sensitive children. We strictly avoid them.", category: "Additives" },
-      { question: "What is the best breakfast for a child with ADHD?", answer: "A protein-rich breakfast (like chickpea chilla or nut butter) stabilizes blood sugar, avoiding the glucose spikes and crashes that hurt school focus.", category: "Diet" },
-      { question: "How does gut health affect behavior?", answer: "90% of serotonin and other neurotransmitters are influenced by gut bacteria. A healthy microbiome leads to a calmer brain, as taught in our family protocols.", category: "Science" },
-      { question: "Should my child take Omega-3 supplements?", answer: "Yes, Omega-3 fatty acids are major structural components of brain tissue. Dr. Shilpa guides families on safe, plant-based algae oil or seed sources.", category: "Supplements" }
-    ]
+      {
+          question: "Are food dyes really harmful to focus?",
+          answer: "Yes, clinical studies link synthetic food dyes (like Red 40, Yellow 5) to increased hyperactivity in sensitive children. We strictly avoid them.",
+          category: "Additives"
+      },
+      {
+          question: "What is the best breakfast for a child with ADHD?",
+          answer: "A protein-rich breakfast (like chickpea chilla or nut butter) stabilizes blood sugar, avoiding the glucose spikes and crashes that hurt school focus.",
+          category: "Diet"
+      },
+      {
+          question: "How does gut health affect behavior?",
+          answer: "90% of serotonin and other neurotransmitters are influenced by gut bacteria. A healthy microbiome leads to a calmer brain, as taught in our family protocols.",
+          category: "Science"
+      },
+      {
+          question: "Should my child take Omega-3 supplements?",
+          answer: "Yes, Omega-3 fatty acids are major structural components of brain tissue. Dr. Shilpa guides families on safe, plant-based algae oil or seed sources.",
+          category: "Supplements"
+      },
+      {
+          question: "What causes Pediatric ADHD Focus?",
+          answer: "Hyperactivity, lack of focus, and emotional dysregulation in children.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Pediatric ADHD Focus through nutrition?",
+          answer: "Eliminate food dyes/sugar, optimize omega-3 fatty acids, and support gut neurotransmitters.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Omega-3 DHA/EPA\" help with Pediatric ADHD Focus?",
+          answer: "Yes \u2014 Omega-3 DHA/EPA is one of the natural approaches recommended for Pediatric ADHD Focus.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Zero food dyes\" help with Pediatric ADHD Focus?",
+          answer: "Yes \u2014 Zero food dyes is one of the natural approaches recommended for Pediatric ADHD Focus.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Zinc and Iron levels\" help with Pediatric ADHD Focus?",
+          answer: "Yes \u2014 Zinc and Iron levels is one of the natural approaches recommended for Pediatric ADHD Focus.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Gut health balance\" help with Pediatric ADHD Focus?",
+          answer: "Yes \u2014 Gut health balance is one of the natural approaches recommended for Pediatric ADHD Focus.",
+          category: "Natural Approach"
+      }
+  ]
   },
   { 
     id: 'geriatric-strength-nutrition', 
@@ -1022,11 +2918,57 @@ export const TOPICS: Topic[] = [
     primaryKeyword: 'Geriatric Strength Nutrition',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     faqs: [
-      { question: "Is muscle loss inevitable with age?", answer: "No. Sarcopenia can be prevented and managed with adequate, clean protein intake and light resistance training, even in your 70s.", category: "Aging" },
-      { question: "Why do seniors struggle to absorb protein?", answer: "Stomach acid naturally declines with age, reducing digestion efficiency. Dr. Shilpa recommends easily digestible plant proteins and natural enzyme supports.", category: "Digestion" },
-      { question: "How do I prevent joint stiffness?", answer: "Hydration combined with anti-inflammatory spices like ginger and turmeric acts as a natural lubricant for synovial joints.", category: "Joints" },
-      { question: "Can nutrition prevent falls?", answer: "Yes, by stabilizing muscle strength and improving cognitive focus/balance through proper neuro-nutrition, fall risk drops significantly.", category: "Safety" }
-    ]
+      {
+          question: "Is muscle loss inevitable with age?",
+          answer: "No. Sarcopenia can be prevented and managed with adequate, clean protein intake and light resistance training, even in your 70s.",
+          category: "Aging"
+      },
+      {
+          question: "Why do seniors struggle to absorb protein?",
+          answer: "Stomach acid naturally declines with age, reducing digestion efficiency. Dr. Shilpa recommends easily digestible plant proteins and natural enzyme supports.",
+          category: "Digestion"
+      },
+      {
+          question: "How do I prevent joint stiffness?",
+          answer: "Hydration combined with anti-inflammatory spices like ginger and turmeric acts as a natural lubricant for synovial joints.",
+          category: "Joints"
+      },
+      {
+          question: "Can nutrition prevent falls?",
+          answer: "Yes, by stabilizing muscle strength and improving cognitive focus/balance through proper neuro-nutrition, fall risk drops significantly.",
+          category: "Safety"
+      },
+      {
+          question: "What causes Geriatric Strength Nutrition?",
+          answer: "Age-related loss of muscle mass (sarcopenia) and strength, leading to falls and stiffness.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Geriatric Strength Nutrition through nutrition?",
+          answer: "Optimize protein absorption, support joint cushioning, and ensure bone density nutrients.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Absorbable plant protein\" help with Geriatric Strength Nutrition?",
+          answer: "Yes \u2014 Absorbable plant protein is one of the natural approaches recommended for Geriatric Strength Nutrition.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Joint lubrication fats\" help with Geriatric Strength Nutrition?",
+          answer: "Yes \u2014 Joint lubrication fats is one of the natural approaches recommended for Geriatric Strength Nutrition.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Calcium & Vitamin D\" help with Geriatric Strength Nutrition?",
+          answer: "Yes \u2014 Calcium & Vitamin D is one of the natural approaches recommended for Geriatric Strength Nutrition.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Gentle mobility exercises\" help with Geriatric Strength Nutrition?",
+          answer: "Yes \u2014 Gentle mobility exercises is one of the natural approaches recommended for Geriatric Strength Nutrition.",
+          category: "Natural Approach"
+      }
+  ]
   },
   { 
     id: 'pregnancy-nutrition-support', 
@@ -1043,11 +2985,57 @@ export const TOPICS: Topic[] = [
     primaryKeyword: 'Pregnancy Nutrition Support',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     faqs: [
-      { question: "What is the difference between folic acid and folate?", answer: "Folate is the natural form found in leafy greens, which is absorbed far better than synthetic folic acid, especially for mothers with methylation issues.", category: "Nutrients" },
-      { question: "How do I manage gestational diabetes?", answer: "By eating low-GI meals, avoiding sweet snacks, and walking for 10 minutes after eating, as structured in our maternal programs at Nutrition Colours.", category: "Glucose" },
-      { question: "What should I eat to combat morning sickness?", answer: "Small, protein-paired meals and ginger infusions are highly effective for stabilizing blood glucose and soothing the nervous system.", category: "Morning Sickness" },
-      { question: "Is a vegan diet safe during pregnancy?", answer: "Yes, but it must be carefully planned to ensure adequate B12, Iron, Choline, and Vitamin D. Dr. Shilpa designs specialized plant-based prenatal tracks.", category: "Diet Type" }
-    ]
+      {
+          question: "What is the difference between folic acid and folate?",
+          answer: "Folate is the natural form found in leafy greens, which is absorbed far better than synthetic folic acid, especially for mothers with methylation issues.",
+          category: "Nutrients"
+      },
+      {
+          question: "How do I manage gestational diabetes?",
+          answer: "By eating low-GI meals, avoiding sweet snacks, and walking for 10 minutes after eating, as structured in our maternal programs at Nutrition Colours.",
+          category: "Glucose"
+      },
+      {
+          question: "What should I eat to combat morning sickness?",
+          answer: "Small, protein-paired meals and ginger infusions are highly effective for stabilizing blood glucose and soothing the nervous system.",
+          category: "Morning Sickness"
+      },
+      {
+          question: "Is a vegan diet safe during pregnancy?",
+          answer: "Yes, but it must be carefully planned to ensure adequate B12, Iron, Choline, and Vitamin D. Dr. Shilpa designs specialized plant-based prenatal tracks.",
+          category: "Diet Type"
+      },
+      {
+          question: "What causes Pregnancy Nutrition Support?",
+          answer: "Nutritional gaps, morning sickness, and gestational diabetes risk during pregnancy.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Pregnancy Nutrition Support through nutrition?",
+          answer: "Ensure optimal folate, iron, choline, and healthy fats while managing blood glucose.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Active Folate sources\" help with Pregnancy Nutrition Support?",
+          answer: "Yes \u2014 Active Folate sources is one of the natural approaches recommended for Pregnancy Nutrition Support.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Choline-rich foods\" help with Pregnancy Nutrition Support?",
+          answer: "Yes \u2014 Choline-rich foods is one of the natural approaches recommended for Pregnancy Nutrition Support.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Stable blood glucose\" help with Pregnancy Nutrition Support?",
+          answer: "Yes \u2014 Stable blood glucose is one of the natural approaches recommended for Pregnancy Nutrition Support.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Iron-rich plants\" help with Pregnancy Nutrition Support?",
+          answer: "Yes \u2014 Iron-rich plants is one of the natural approaches recommended for Pregnancy Nutrition Support.",
+          category: "Natural Approach"
+      }
+  ]
   },
   { 
     id: 'sleep-disorder-circadian-reset', 
@@ -1064,11 +3052,57 @@ export const TOPICS: Topic[] = [
     primaryKeyword: 'Sleep Circadian Reset',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     faqs: [
-      { question: "How does eating late affect my sleep?", answer: "Eating late raises core body temperature and insulin, which directly blocks the release of melatonin, disrupting deep sleep phases.", category: "Science" },
-      { question: "What is the best natural sleep supplement?", answer: "We prioritize magnesium glycinate and chamomile/valerian infusions to naturally calm neuro-excitation at Nutrition Colours.", category: "Remedies" },
-      { question: "Why is morning sunlight important for sleep?", answer: "Sunlight exposure in the morning stops melatonin production and sets your internal timer to release melatonin 14-16 hours later.", category: "Light" },
-      { question: "Can metabolic disease cause insomnia?", answer: "Yes, nighttime blood glucose crashes (hypoglycemia) trigger adrenaline and cortisol spikes, waking you up in a panic around 3 AM.", category: "Metabolism" }
-    ]
+      {
+          question: "How does eating late affect my sleep?",
+          answer: "Eating late raises core body temperature and insulin, which directly blocks the release of melatonin, disrupting deep sleep phases.",
+          category: "Science"
+      },
+      {
+          question: "What is the best natural sleep supplement?",
+          answer: "We prioritize magnesium glycinate and chamomile/valerian infusions to naturally calm neuro-excitation at Nutrition Colours.",
+          category: "Remedies"
+      },
+      {
+          question: "Why is morning sunlight important for sleep?",
+          answer: "Sunlight exposure in the morning stops melatonin production and sets your internal timer to release melatonin 14-16 hours later.",
+          category: "Light"
+      },
+      {
+          question: "Can metabolic disease cause insomnia?",
+          answer: "Yes, nighttime blood glucose crashes (hypoglycemia) trigger adrenaline and cortisol spikes, waking you up in a panic around 3 AM.",
+          category: "Metabolism"
+      },
+      {
+          question: "What causes Sleep & Circadian Reset?",
+          answer: "Insomnia, fragmented sleep, and morning fatigue caused by circadian misalignment.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Sleep & Circadian Reset through nutrition?",
+          answer: "Block blue light, time meals with natural cycles, and optimize magnesium intake.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Circadian meal timing\" help with Sleep & Circadian Reset?",
+          answer: "Yes \u2014 Circadian meal timing is one of the natural approaches recommended for Sleep & Circadian Reset.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Magnesium Bisglycinate\" help with Sleep & Circadian Reset?",
+          answer: "Yes \u2014 Magnesium Bisglycinate is one of the natural approaches recommended for Sleep & Circadian Reset.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Blue-light block\" help with Sleep & Circadian Reset?",
+          answer: "Yes \u2014 Blue-light block is one of the natural approaches recommended for Sleep & Circadian Reset.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Morning sunlight\" help with Sleep & Circadian Reset?",
+          answer: "Yes \u2014 Morning sunlight is one of the natural approaches recommended for Sleep & Circadian Reset.",
+          category: "Natural Approach"
+      }
+  ]
   },
   { 
     id: 'fibromyalgia-pain-management', 
@@ -1085,11 +3119,57 @@ export const TOPICS: Topic[] = [
     primaryKeyword: 'Fibromyalgia Pain Management',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     faqs: [
-      { question: "What are excitotoxins?", answer: "Excitotoxins are food compounds like MSG and artificial sweeteners that overstimulate nerve cells, causing pain signals in fibromyalgia.", category: "Triggers" },
-      { question: "How does mitochondria relate to fibromyalgia?", answer: "Low mitochondrial energy forces muscles to operate in anaerobic states, leading to chronic lactic acid buildup and widespread soreness.", category: "Science" },
-      { question: "Is heat therapy helpful?", answer: "Yes, hot epsom salt baths supply transdermal magnesium, which helps relax tight muscles and calm the nervous system.", category: "Therapies" },
-      { question: "Should I avoid nightshades?", answer: "Some fibromyalgia patients report symptom improvement after removing nightshades due to solanine sensitivity. We recommend a structured 3-week test.", category: "Diet" }
-    ]
+      {
+          question: "What are excitotoxins?",
+          answer: "Excitotoxins are food compounds like MSG and artificial sweeteners that overstimulate nerve cells, causing pain signals in fibromyalgia.",
+          category: "Triggers"
+      },
+      {
+          question: "How does mitochondria relate to fibromyalgia?",
+          answer: "Low mitochondrial energy forces muscles to operate in anaerobic states, leading to chronic lactic acid buildup and widespread soreness.",
+          category: "Science"
+      },
+      {
+          question: "Is heat therapy helpful?",
+          answer: "Yes, hot epsom salt baths supply transdermal magnesium, which helps relax tight muscles and calm the nervous system.",
+          category: "Therapies"
+      },
+      {
+          question: "Should I avoid nightshades?",
+          answer: "Some fibromyalgia patients report symptom improvement after removing nightshades due to solanine sensitivity. We recommend a structured 3-week test.",
+          category: "Diet"
+      },
+      {
+          question: "What causes Fibromyalgia Management?",
+          answer: "Widespread musculoskeletal pain accompanied by fatigue, sleep, and memory issues.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Fibromyalgia Management through nutrition?",
+          answer: "Eliminate neuro-inflammatory triggers like MSG and aspartame, and support nerve repair.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Excitotoxin elimination\" help with Fibromyalgia Management?",
+          answer: "Yes \u2014 Excitotoxin elimination is one of the natural approaches recommended for Fibromyalgia Management.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Magnesium loading\" help with Fibromyalgia Management?",
+          answer: "Yes \u2014 Magnesium loading is one of the natural approaches recommended for Fibromyalgia Management.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"CoQ10 support\" help with Fibromyalgia Management?",
+          answer: "Yes \u2014 CoQ10 support is one of the natural approaches recommended for Fibromyalgia Management.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Low-inflammatory diet\" help with Fibromyalgia Management?",
+          answer: "Yes \u2014 Low-inflammatory diet is one of the natural approaches recommended for Fibromyalgia Management.",
+          category: "Natural Approach"
+      }
+  ]
   },
   { 
     id: 'histamine-intolerance-allergy', 
@@ -1106,11 +3186,57 @@ export const TOPICS: Topic[] = [
     primaryKeyword: 'Histamine Intolerance Care',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     faqs: [
-      { question: "Why do healthy foods like spinach make me feel sick?", answer: "Spinach, avocados, and fermented foods are naturally rich in histamines. If your DAO enzymes are sluggish, these foods trigger allergic reactions.", category: "Science" },
-      { question: "Can I eat leftovers?", answer: "Histamine increases as food sits. Dr. Shilpa recommends consuming freshly prepared meals or freezing leftovers immediately at Nutrition Colours.", category: "Prep" },
-      { question: "What supplements support histamine clearance?", answer: "Quercetin acts as a natural mast-cell stabilizer, while Vitamin C and B6 function as direct cofactors for the histamine-clearing DAO enzyme.", category: "Supplements" },
-      { question: "Is histamine intolerance permanent?", answer: "No, it is usually secondary to gut dysbiosis or leaky gut. Once the gut lining is restored, histamine tolerance returns to normal.", category: "Prognosis" }
-    ]
+      {
+          question: "Why do healthy foods like spinach make me feel sick?",
+          answer: "Spinach, avocados, and fermented foods are naturally rich in histamines. If your DAO enzymes are sluggish, these foods trigger allergic reactions.",
+          category: "Science"
+      },
+      {
+          question: "Can I eat leftovers?",
+          answer: "Histamine increases as food sits. Dr. Shilpa recommends consuming freshly prepared meals or freezing leftovers immediately at Nutrition Colours.",
+          category: "Prep"
+      },
+      {
+          question: "What supplements support histamine clearance?",
+          answer: "Quercetin acts as a natural mast-cell stabilizer, while Vitamin C and B6 function as direct cofactors for the histamine-clearing DAO enzyme.",
+          category: "Supplements"
+      },
+      {
+          question: "Is histamine intolerance permanent?",
+          answer: "No, it is usually secondary to gut dysbiosis or leaky gut. Once the gut lining is restored, histamine tolerance returns to normal.",
+          category: "Prognosis"
+      },
+      {
+          question: "What causes Histamine Intolerance Care?",
+          answer: "Hives, nasal congestion, headaches, and bloating after consuming fermented or aged foods.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Histamine Intolerance Care through nutrition?",
+          answer: "Implement a low-histamine diet phase and support DAO enzyme cofactor pathways.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Low histamine foods\" help with Histamine Intolerance Care?",
+          answer: "Yes \u2014 Low histamine foods is one of the natural approaches recommended for Histamine Intolerance Care.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"DAO cofactors (Vitamin C, B6)\" help with Histamine Intolerance Care?",
+          answer: "Yes \u2014 DAO cofactors (Vitamin C, B6) is one of the natural approaches recommended for Histamine Intolerance Care.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Quercetin support\" help with Histamine Intolerance Care?",
+          answer: "Yes \u2014 Quercetin support is one of the natural approaches recommended for Histamine Intolerance Care.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Fresh food sourcing\" help with Histamine Intolerance Care?",
+          answer: "Yes \u2014 Fresh food sourcing is one of the natural approaches recommended for Histamine Intolerance Care.",
+          category: "Natural Approach"
+      }
+  ]
   },
   { 
     id: 'autoimmune-hashimotos-protocol', 
@@ -1127,11 +3253,57 @@ export const TOPICS: Topic[] = [
     primaryKeyword: 'Hashimotos Thyroid Care',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     faqs: [
-      { question: "What is thyroid molecular mimicry?", answer: "Gluten proteins look identical to thyroid tissue. When gluten leaks into the blood, the immune system gets confused and attacks the thyroid.", category: "Science" },
-      { question: "Do my thyroid antibodies have to stay high?", answer: "No. By removing inflammatory triggers and supporting gut health, clinical protocols may support thyroid antibody reduction in some cases at Nutrition Colours.", category: "Antibodies" },
-      { question: "Is iodine good or bad for Hashimoto's?", answer: "High iodine without selenium can actually worsen thyroid inflammation. Dr. Shilpa carefully calibrates selenium before adjusting iodine.", category: "Minerals" },
-      { question: "Can Hashimoto's be put in remission?", answer: "When antibody levels return to normal and thyroid hormone production stabilizes, clinical improvement is possible under professional supervision. Individual outcomes vary.", category: "Prognosis" }
-    ]
+      {
+          question: "What is thyroid molecular mimicry?",
+          answer: "Gluten proteins look identical to thyroid tissue. When gluten leaks into the blood, the immune system gets confused and attacks the thyroid.",
+          category: "Science"
+      },
+      {
+          question: "Do my thyroid antibodies have to stay high?",
+          answer: "No. By removing inflammatory triggers and supporting gut health, clinical protocols may support thyroid antibody reduction in some cases at Nutrition Colours.",
+          category: "Antibodies"
+      },
+      {
+          question: "Is iodine good or bad for Hashimoto's?",
+          answer: "High iodine without selenium can actually worsen thyroid inflammation. Dr. Shilpa carefully calibrates selenium before adjusting iodine.",
+          category: "Minerals"
+      },
+      {
+          question: "Can Hashimoto's be put in remission?",
+          answer: "When antibody levels return to normal and thyroid hormone production stabilizes, clinical improvement is possible under professional supervision. Individual outcomes vary.",
+          category: "Prognosis"
+      },
+      {
+          question: "What causes Hashimoto's Thyroid Care?",
+          answer: "Autoimmune attack on the thyroid gland, leading to hypothyroidism, weight gain, and fatigue.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Hashimoto's Thyroid Care through nutrition?",
+          answer: "Eliminate systemic molecular mimicry triggers like gluten and soy, and optimize selenium/zinc.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Gluten-free protocol\" help with Hashimoto's Thyroid Care?",
+          answer: "Yes \u2014 Gluten-free protocol is one of the natural approaches recommended for Hashimoto's Thyroid Care.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Selenium (Brazil nuts)\" help with Hashimoto's Thyroid Care?",
+          answer: "Yes \u2014 Selenium (Brazil nuts) is one of the natural approaches recommended for Hashimoto's Thyroid Care.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Zinc cofactors\" help with Hashimoto's Thyroid Care?",
+          answer: "Yes \u2014 Zinc cofactors is one of the natural approaches recommended for Hashimoto's Thyroid Care.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Systemic anti-inflammatory diet\" help with Hashimoto's Thyroid Care?",
+          answer: "Yes \u2014 Systemic anti-inflammatory diet is one of the natural approaches recommended for Hashimoto's Thyroid Care.",
+          category: "Natural Approach"
+      }
+  ]
   },
   { 
     id: 'kid-immunity-growth', 
@@ -1148,11 +3320,57 @@ export const TOPICS: Topic[] = [
     primaryKeyword: 'Pediatric Immunity Growth',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     faqs: [
-      { question: "How does sugar affect my child's immune system?", answer: "Refined sugar temporarily paralyzes immune cells (macrophages) for hours, making kids far more vulnerable to catching colds.", category: "Immunity" },
-      { question: "My child is a picky eater. What can I do?", answer: "We focus on creative, nutrient-dense presentation and gradual micro-adjustments, as structured in Kelive D'Souza's recipes at Nutrition Colours.", category: "Picky Eating" },
-      { question: "Should my child take a multivitamin?", answer: "We prioritize whole-food nutrition first, but suggest target supplementation of Vitamin D and Zinc during seasonal transitions.", category: "Supplements" },
-      { question: "Can diet improve height growth?", answer: "Yes, by optimizing protein absorption and bone minerals like calcium, phosphorus, and vitamin D, we support natural genetic growth potential.", category: "Growth" }
-    ]
+      {
+          question: "How does sugar affect my child's immune system?",
+          answer: "Refined sugar temporarily paralyzes immune cells (macrophages) for hours, making kids far more vulnerable to catching colds.",
+          category: "Immunity"
+      },
+      {
+          question: "My child is a picky eater. What can I do?",
+          answer: "We focus on creative, nutrient-dense presentation and gradual micro-adjustments, as structured in Kelive D'Souza's recipes at Nutrition Colours.",
+          category: "Picky Eating"
+      },
+      {
+          question: "Should my child take a multivitamin?",
+          answer: "We prioritize whole-food nutrition first, but suggest target supplementation of Vitamin D and Zinc during seasonal transitions.",
+          category: "Supplements"
+      },
+      {
+          question: "Can diet improve height growth?",
+          answer: "Yes, by optimizing protein absorption and bone minerals like calcium, phosphorus, and vitamin D, we support natural genetic growth potential.",
+          category: "Growth"
+      },
+      {
+          question: "What causes Pediatric Immunity & Growth?",
+          answer: "Frequent colds, poor appetite, and slow height/weight growth in children.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Pediatric Immunity & Growth through nutrition?",
+          answer: "Feed gut microbiome with diverse plant fibers, optimize Vitamin D/Zinc, and avoid refined sugars.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Vitamin D & Zinc\" help with Pediatric Immunity & Growth?",
+          answer: "Yes \u2014 Vitamin D & Zinc is one of the natural approaches recommended for Pediatric Immunity & Growth.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Diverse plant prebiotic fibers\" help with Pediatric Immunity & Growth?",
+          answer: "Yes \u2014 Diverse plant prebiotic fibers is one of the natural approaches recommended for Pediatric Immunity & Growth.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"No industrial sweets\" help with Pediatric Immunity & Growth?",
+          answer: "Yes \u2014 No industrial sweets is one of the natural approaches recommended for Pediatric Immunity & Growth.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Mineral-rich local grains\" help with Pediatric Immunity & Growth?",
+          answer: "Yes \u2014 Mineral-rich local grains is one of the natural approaches recommended for Pediatric Immunity & Growth.",
+          category: "Natural Approach"
+      }
+  ]
   },
   { 
     id: 'liver-detoxification-pathways', 
@@ -1169,11 +3387,57 @@ export const TOPICS: Topic[] = [
     primaryKeyword: 'Liver Detox Pathways',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-06-03' },
     faqs: [
-      { question: "What is Phase 1 and Phase 2 detox?", answer: "Phase 1 breaks down toxins into reactive intermediates, and Phase 2 neutralizes them. If Phase 2 is slow, it causes toxic backup and inflammation.", category: "Science" },
-      { question: "Are commercial juice cleanses good for liver detox?", answer: "No, they lack the amino acids required for Phase 2 conjugation. Dr. Shilpa utilizes complete whole-food detox protocols at Nutrition Colours.", category: "Cleanses" },
-      { question: "What foods support glutathione?", answer: "Sulfur-rich foods like garlic, onions, broccoli, brussels sprouts, and avocados directly support glutathione production.", category: "Diet" },
-      { question: "Can liver detox help balance hormones?", answer: "Yes, the liver is responsible for breaking down excess estrogen. Sluggish detox pathways often lead to estrogen dominance and weight gain.", category: "Hormones" }
-    ]
+      {
+          question: "What is Phase 1 and Phase 2 detox?",
+          answer: "Phase 1 breaks down toxins into reactive intermediates, and Phase 2 neutralizes them. If Phase 2 is slow, it causes toxic backup and inflammation.",
+          category: "Science"
+      },
+      {
+          question: "Are commercial juice cleanses good for liver detox?",
+          answer: "No, they lack the amino acids required for Phase 2 conjugation. Dr. Shilpa utilizes complete whole-food detox protocols at Nutrition Colours.",
+          category: "Cleanses"
+      },
+      {
+          question: "What foods support glutathione?",
+          answer: "Sulfur-rich foods like garlic, onions, broccoli, brussels sprouts, and avocados directly support glutathione production.",
+          category: "Diet"
+      },
+      {
+          question: "Can liver detox help balance hormones?",
+          answer: "Yes, the liver is responsible for breaking down excess estrogen. Sluggish detox pathways often lead to estrogen dominance and weight gain.",
+          category: "Hormones"
+      },
+      {
+          question: "What causes Liver Detox Pathways?",
+          answer: "Estrogen dominance, chemical sensitivities, and sluggish metabolism due to overloaded liver detox pathways.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Liver Detox Pathways through nutrition?",
+          answer: "Provide sulfur-rich foods, cruciferous glucosinolates, and binders to facilitate toxin removal.",
+          category: "Solution"
+      },
+      {
+          question: "Does \"Glutathione precursors\" help with Liver Detox Pathways?",
+          answer: "Yes \u2014 Glutathione precursors is one of the natural approaches recommended for Liver Detox Pathways.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Cruciferous vegetables\" help with Liver Detox Pathways?",
+          answer: "Yes \u2014 Cruciferous vegetables is one of the natural approaches recommended for Liver Detox Pathways.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Phase 2 conjugation support\" help with Liver Detox Pathways?",
+          answer: "Yes \u2014 Phase 2 conjugation support is one of the natural approaches recommended for Liver Detox Pathways.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Soluble binders\" help with Liver Detox Pathways?",
+          answer: "Yes \u2014 Soluble binders is one of the natural approaches recommended for Liver Detox Pathways.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'vegan-recipes',
@@ -1234,9 +3498,57 @@ export const TOPICS: Topic[] = [
       }
     ],
     faqs: [
-      { question: "What is the easiest thing to cook as a vegan?", answer: "The easiest vegan meals are stir-fries, pasta with marinara, and grain bowls. These dishes require minimal prep, use accessible ingredients like tofu, beans, and seasonal vegetables, and can be cooked in under 30 minutes.", category: "Recipes" },
-      { question: "How do I meal prep vegan food for the week?", answer: "To meal prep vegan food, batch-cook a base grain (like quinoa or rice), roast a large tray of vegetables, and prepare a plant-based protein (like baked tofu or simmered lentils). Store them separately in airtight containers and mix and match with different vegan sauces throughout the week.", category: "Meal Prep" }
-    ]
+      {
+          question: "What is the easiest thing to cook as a vegan?",
+          answer: "The easiest vegan meals are stir-fries, pasta with marinara, and grain bowls. These dishes require minimal prep, use accessible ingredients like tofu, beans, and seasonal vegetables, and can be cooked in under 30 minutes.",
+          category: "Recipes"
+      },
+      {
+          question: "How do I meal prep vegan food for the week?",
+          answer: "To meal prep vegan food, batch-cook a base grain (like quinoa or rice), roast a large tray of vegetables, and prepare a plant-based protein (like baked tofu or simmered lentils). Store them separately in airtight containers and mix and match with different vegan sauces throughout the week.",
+          category: "Meal Prep"
+      },
+      {
+          question: "What causes Vegan Recipes & Circadian Cooking?",
+          answer: "Sourcing balanced, high-protein plant-based recipes that align with natural circadian windows and do not trigger blood sugar spikes.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Vegan Recipes & Circadian Cooking through nutrition?",
+          answer: "Implement clean whole-food templates, post-sunset fasting principles, and high-bioavailability amino acid swaps.",
+          category: "Solution"
+      },
+      {
+          question: "What results have patients seen with Vegan Recipes & Circadian Cooking?",
+          answer: "Stabilized postprandial glucose surges in 14 days using circadian grain-lentil ratios. A 45-year-old software engineer integrated our millet-based vegan recipes, achieving lower fasting insulin without caloric restriction.",
+          category: "Case Study"
+      },
+      {
+          question: "Can you summarize Vegan Recipes & Circadian Cooking in brief?",
+          answer: "Circadian vegan recipes focus on metabolic efficiency by placing complex starches and seed proteins during peak daylight hours. This allows natural cellular autophagy to take place overnight.",
+          category: "Summary"
+      },
+      {
+          question: "Quick & Easy Weeknight Vegan Dinners?",
+          answer: "Busy schedules often lead to processed vegan food. Our weeknight templates use quick-cooking legumes and steamed cruciferous vegetables to construct a complete meal in under 20 minutes.",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Spiced lentil stews\" help with Vegan Recipes & Circadian Cooking?",
+          answer: "Yes \u2014 Spiced lentil stews is one of the natural approaches recommended for Vegan Recipes & Circadian Cooking.",
+          category: "Natural Approach"
+      },
+      {
+          question: "High-Protein Plant-Based Meal Prep?",
+          answer: "Building and repairing tissue requires a steady supply of essential amino acids. Batch-cooking ensures you have protein-rich options ready after workouts.",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Quinoa power bowls\" help with Vegan Recipes & Circadian Cooking?",
+          answer: "Yes \u2014 Quinoa power bowls is one of the natural approaches recommended for Vegan Recipes & Circadian Cooking.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'vegan-alternatives',
@@ -1297,9 +3609,57 @@ export const TOPICS: Topic[] = [
       }
     ],
     faqs: [
-      { question: "What is the best vegan substitute for eggs in baking?", answer: "The best vegan egg substitute depends on the recipe. For moisture and binding in cakes, use 1/4 cup of applesauce or mashed banana. For light and airy baked goods like macarons, use aquafaba (the liquid from a can of chickpeas). For structuring cookies, use 1 tablespoon of ground flaxseed mixed with 3 tablespoons of water.", category: "Baking" },
-      { question: "Which plant-based milk tastes most like dairy milk?", answer: "Soy milk and oat milk taste the closest to dairy milk. Oat milk is naturally creamy and slightly sweet, making it ideal for coffee and cereals, while soy milk has a similar protein content and neutral flavor profile to cow's milk.", category: "Beverages" }
-    ]
+      {
+          question: "What is the best vegan substitute for eggs in baking?",
+          answer: "The best vegan egg substitute depends on the recipe. For moisture and binding in cakes, use 1/4 cup of applesauce or mashed banana. For light and airy baked goods like macarons, use aquafaba (the liquid from a can of chickpeas). For structuring cookies, use 1 tablespoon of ground flaxseed mixed with 3 tablespoons of water.",
+          category: "Baking"
+      },
+      {
+          question: "Which plant-based milk tastes most like dairy milk?",
+          answer: "Soy milk and oat milk taste the closest to dairy milk. Oat milk is naturally creamy and slightly sweet, making it ideal for coffee and cereals, while soy milk has a similar protein content and neutral flavor profile to cow's milk.",
+          category: "Beverages"
+      },
+      {
+          question: "What causes Alternatives & Substitutes?",
+          answer: "Replacing dairy, eggs, and meat in everyday cooking without losing texture, taste, or essential nutritional cofactors.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Alternatives & Substitutes through nutrition?",
+          answer: "Utilize food-science replacements like seed-gels, aquafaba, and fermented nut cultures.",
+          category: "Solution"
+      },
+      {
+          question: "What results have patients seen with Alternatives & Substitutes?",
+          answer: "90% of transitioners reported complete resolution of dairy cravings within 21 days using seed-based milk alternatives. A patient with severe bloating swapped cow's milk for our high-calcium pumpkin seed milk, resulting in gut mucosal recovery and symptom clearance.",
+          category: "Case Study"
+      },
+      {
+          question: "Can you summarize Alternatives & Substitutes in brief?",
+          answer: "Vegan alternatives replace the structural and enzymatic functions of animal fats and proteins using clean plant substrates, maximizing food pleasure and metabolic safety.",
+          category: "Summary"
+      },
+      {
+          question: "Baking Without Eggs?",
+          answer: "Eggs provide structure, emulsification, and moisture. Plant binders can serve the same chemical purpose in baked goods.",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Aquafaba egg binders\" help with Alternatives & Substitutes?",
+          answer: "Yes \u2014 Aquafaba egg binders is one of the natural approaches recommended for Alternatives & Substitutes.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Comparing Plant Milks?",
+          answer: "Not all plant milks are created equal. Nut, grain, and seed milks behave differently in coffee, cooking, and digestive tracts.",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Cultured cashew cheeses\" help with Alternatives & Substitutes?",
+          answer: "Yes \u2014 Cultured cashew cheeses is one of the natural approaches recommended for Alternatives & Substitutes.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'vegan-nutrition',
@@ -1360,9 +3720,57 @@ export const TOPICS: Topic[] = [
       }
     ],
     faqs: [
-      { question: "Do vegans need to take B12 supplements?", answer: "Yes, vegans must take a Vitamin B12 supplement or consume B12-fortified foods. Vitamin B12 is produced by bacteria, not plants, and is exclusively found in animal products in nature. A deficiency can lead to neurological issues and anemia.", category: "Supplements" },
-      { question: "How can vegans get enough protein daily?", answer: "Vegans can easily meet their protein needs by eating a variety of legumes (lentils, chickpeas, black beans), soy products (tofu, tempeh, edamame), seitan, quinoa, and hemp seeds. Combining different plant protein sources throughout the day ensures a complete amino acid profile.", category: "Protein" }
-    ]
+      {
+          question: "Do vegans need to take B12 supplements?",
+          answer: "Yes, vegans must take a Vitamin B12 supplement or consume B12-fortified foods. Vitamin B12 is produced by bacteria, not plants, and is exclusively found in animal products in nature. A deficiency can lead to neurological issues and anemia.",
+          category: "Supplements"
+      },
+      {
+          question: "How can vegans get enough protein daily?",
+          answer: "Vegans can easily meet their protein needs by eating a variety of legumes (lentils, chickpeas, black beans), soy products (tofu, tempeh, edamame), seitan, quinoa, and hemp seeds. Combining different plant protein sources throughout the day ensures a complete amino acid profile.",
+          category: "Protein"
+      },
+      {
+          question: "What causes Health & Nutrition Protocols?",
+          answer: "Avoiding key nutritional depletions (like B12, Iron, Vitamin D, and Omega-3) and ensuring complete amino acid profiles on a plant-only diet.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Health & Nutrition Protocols through nutrition?",
+          answer: "Optimize nutrient absorption via germination, targeted supplementation, and clinical cofactor pairing.",
+          category: "Solution"
+      },
+      {
+          question: "What results have patients seen with Health & Nutrition Protocols?",
+          answer: "Increased ferritin levels by 45% in 60 days using vitamin-C iron pairing protocols. A long-term vegan patient corrected severe fatigue and low iron storage by applying our strategic vegetable pairings and soaking guidelines.",
+          category: "Case Study"
+      },
+      {
+          question: "Can you summarize Health & Nutrition Protocols in brief?",
+          answer: "Vegan nutrition requires careful management of mineral absorption and direct supplementation of B12. Pairing iron-rich greens with citrus acids prevents phytic inhibition.",
+          category: "Summary"
+      },
+      {
+          question: "Essential Supplements for Vegans?",
+          answer: "Certain essential nutrients are not synthesized in sufficient quantities by plants and require clean clinical supplementation.",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Methylated B12 & Folate\" help with Health & Nutrition Protocols?",
+          answer: "Yes \u2014 Methylated B12 & Folate is one of the natural approaches recommended for Health & Nutrition Protocols.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Complete Protein Profiling?",
+          answer: "Plants contain all essential amino acids, but some are limiting in specific grains or legumes. Pairing them ensures optimal protein synthesis.",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Iron paired with Vitamin C\" help with Health & Nutrition Protocols?",
+          answer: "Yes \u2014 Iron paired with Vitamin C is one of the natural approaches recommended for Health & Nutrition Protocols.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'vegan-lifestyle',
@@ -1423,9 +3831,57 @@ export const TOPICS: Topic[] = [
       }
     ],
     faqs: [
-      { question: "What is the difference between cruelty-free and vegan beauty products?", answer: "Cruelty-free means a product and its ingredients were not tested on animals. Vegan means the product does not contain any animal-derived ingredients (like beeswax, carmine, or lanolin). A product can be cruelty-free but not vegan, and vice versa.", category: "Beauty" },
-      { question: "What are the best sustainable vegan fabrics?", answer: "The best sustainable vegan fabrics include organic cotton, linen (made from flax), hemp, Tencel/Lyocell (made from sustainably sourced wood pulp), and recycled polyester. These materials avoid the environmental harm of synthetic plastic-based 'vegan leather' (PU).", category: "Fashion" }
-    ]
+      {
+          question: "What is the difference between cruelty-free and vegan beauty products?",
+          answer: "Cruelty-free means a product and its ingredients were not tested on animals. Vegan means the product does not contain any animal-derived ingredients (like beeswax, carmine, or lanolin). A product can be cruelty-free but not vegan, and vice versa.",
+          category: "Beauty"
+      },
+      {
+          question: "What are the best sustainable vegan fabrics?",
+          answer: "The best sustainable vegan fabrics include organic cotton, linen (made from flax), hemp, Tencel/Lyocell (made from sustainably sourced wood pulp), and recycled polyester. These materials avoid the environmental harm of synthetic plastic-based 'vegan leather' (PU).",
+          category: "Fashion"
+      },
+      {
+          question: "What causes Lifestyle & Fashion?",
+          answer: "Avoiding toxic synthetics and animal derivatives hidden in clothing, beauty labels, and household cleaning products.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Lifestyle & Fashion through nutrition?",
+          answer: "Adopt organic plant fibers, certified cruelty-free labels, and non-toxic home remedies.",
+          category: "Solution"
+      },
+      {
+          question: "What results have patients seen with Lifestyle & Fashion?",
+          answer: "Reported a 60% reduction in skin dermatitis triggers by transitioning to organic hemp and plant-based cleaning solutions. A patient resolved persistent contact allergies after swapping polyurethane synthetic fabrics and petrochemical laundry detergents for clean plant-based alternatives.",
+          category: "Case Study"
+      },
+      {
+          question: "Can you summarize Lifestyle & Fashion in brief?",
+          answer: "Vegan lifestyle guidelines prioritize organic plant fibers and cruelty-free home products, protecting the body from endocrine-disrupting chemicals found in cheap synthetic materials.",
+          category: "Summary"
+      },
+      {
+          question: "Cruelty-Free Beauty Labels?",
+          answer: "Chemicals and animal derivatives are frequently hidden in cosmetic products under confusing technical names.",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Organic linen & hemp\" help with Lifestyle & Fashion?",
+          answer: "Yes \u2014 Organic linen & hemp is one of the natural approaches recommended for Lifestyle & Fashion.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Sustainable Vegan Fabrics?",
+          answer: "Cheap vegan leather is often made of toxic polyurethane (PU) or PVC. Sustainable options use organic plant matter or bio-recyclables.",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Leaping Bunny cosmetics\" help with Lifestyle & Fashion?",
+          answer: "Yes \u2014 Leaping Bunny cosmetics is one of the natural approaches recommended for Lifestyle & Fashion.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'vegan-travel',
@@ -1486,9 +3942,57 @@ export const TOPICS: Topic[] = [
       }
     ],
     faqs: [
-      { question: "What can vegans eat at fast-food restaurants?", answer: "Vegans can eat French fries (if cooked in vegetable oil), bean burritos without cheese (like at Taco Bell), and vegetable-heavy sushi rolls. Many major chains now offer dedicated plant-based burgers (like the Impossible Whopper at Burger King, ordered without mayo).", category: "Dining" },
-      { question: "How do I ask for vegan food in a non-vegan restaurant?", answer: "When dining at a non-vegan restaurant, ask the server directly: 'I eat a strict plant-based diet with no meat, dairy, eggs, or honey. Can the chef prepare a vegetable pasta with olive oil, or a salad without cheese?' Reviewing the menu for naturally vegetable-heavy dishes first makes it easier for the kitchen to accommodate.", category: "Dining Out" }
-    ]
+      {
+          question: "What can vegans eat at fast-food restaurants?",
+          answer: "Vegans can eat French fries (if cooked in vegetable oil), bean burritos without cheese (like at Taco Bell), and vegetable-heavy sushi rolls. Many major chains now offer dedicated plant-based burgers (like the Impossible Whopper at Burger King, ordered without mayo).",
+          category: "Dining"
+      },
+      {
+          question: "How do I ask for vegan food in a non-vegan restaurant?",
+          answer: "When dining at a non-vegan restaurant, ask the server directly: 'I eat a strict plant-based diet with no meat, dairy, eggs, or honey. Can the chef prepare a vegetable pasta with olive oil, or a salad without cheese?' Reviewing the menu for naturally vegetable-heavy dishes first makes it easier for the kitchen to accommodate.",
+          category: "Dining Out"
+      },
+      {
+          question: "What causes Dining & Travel?",
+          answer: "Staying aligned with plant-based nutrition while traveling, dining at non-vegan restaurants, or ordering on the go.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Dining & Travel through nutrition?",
+          answer: "Deploy clear ordering scripts, utilize mapping applications, and select natural fast-food hacks.",
+          category: "Solution"
+      },
+      {
+          question: "What results have patients seen with Dining & Travel?",
+          answer: "100% compliance maintained by business travelers using our pre-packed snack templates and restaurant pre-selection guides. A corporate consultant maintained metabolic stability during a 3-week global tour by following our airport dining guides and kitchen ordering scripts.",
+          category: "Case Study"
+      },
+      {
+          question: "Can you summarize Dining & Travel in brief?",
+          answer: "Vegan travel success relies on advance mapping of restaurant hubs and requesting simple whole-food substitutions (like olive oil instead of butter) at non-vegan eateries.",
+          category: "Summary"
+      },
+      {
+          question: "Finding Vegan Food Globally?",
+          answer: "Digital maps and local communities make it easy to locate plant-based hubs in unfamiliar locations.",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"HappyCow restaurant locator\" help with Dining & Travel?",
+          answer: "Yes \u2014 HappyCow restaurant locator is one of the natural approaches recommended for Dining & Travel.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Fast Food Survival Guide?",
+          answer: "When options are limited, major chains offer customizable items that can be quickly adapted for a clean plant-based meal.",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Assertive restaurant ordering scripts\" help with Dining & Travel?",
+          answer: "Yes \u2014 Assertive restaurant ordering scripts is one of the natural approaches recommended for Dining & Travel.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'vegan-beginners',
@@ -1550,9 +4054,57 @@ export const TOPICS: Topic[] = [
       }
     ],
     faqs: [
-      { question: "How long does it take to transition to a vegan diet?", answer: "It typically takes 21 to 30 days to adjust to a vegan diet. Transitioning gradually—such as replacing dairy milk with plant milk first, then eliminating meat—helps the digestive system adapt to higher fiber intake and makes the lifestyle change more sustainable.", category: "Transition" },
-      { question: "Is being vegan expensive?", answer: "No, being vegan is generally cheaper than an omnivorous diet if you base your meals on whole foods. Staples like beans, lentils, rice, oats, and seasonal vegetables are the cheapest foods in the world. Veganism becomes expensive when relying heavily on processed fake meats and specialty vegan cheeses.", category: "Cost" }
-    ]
+      {
+          question: "How long does it take to transition to a vegan diet?",
+          answer: "It typically takes 21 to 30 days to adjust to a vegan diet. Transitioning gradually\u2014such as replacing dairy milk with plant milk first, then eliminating meat\u2014helps the digestive system adapt to higher fiber intake and makes the lifestyle change more sustainable.",
+          category: "Transition"
+      },
+      {
+          question: "Is being vegan expensive?",
+          answer: "No, being vegan is generally cheaper than an omnivorous diet if you base your meals on whole foods. Staples like beans, lentils, rice, oats, and seasonal vegetables are the cheapest foods in the world. Veganism becomes expensive when relying heavily on processed fake meats and specialty vegan cheeses.",
+          category: "Cost"
+      },
+      {
+          question: "What causes Beginner Guides?",
+          answer: "Feeling overwhelmed by ingredient labels, suffering from initial fiber bloating, or giving in to strong cravings during the transition phase.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Beginner Guides through nutrition?",
+          answer: "Establish a structured 30-day transition timeline, seed your pantry correctly, and adapt your microbiome gradually.",
+          category: "Solution"
+      },
+      {
+          question: "What results have patients seen with Beginner Guides?",
+          answer: "95% of beginners resolved initial bloating in 10 days by incorporating ginger cofactors and soaking grains. A new vegan patient experienced gut discomfort due to rapid fiber increases. By introducing ginger infusions and sprouting legumes, they successfully stabilized their digestive tract.",
+          category: "Case Study"
+      },
+      {
+          question: "Can you summarize Beginner Guides in brief?",
+          answer: "A successful plant-based transition requires stocking pantry staples (beans, grains, seeds) and gradually increasing fiber intake to prevent digestive issues.",
+          category: "Summary"
+      },
+      {
+          question: "Pantry Staple Checklist?",
+          answer: "Having the right ingredients on hand makes healthy plant-based cooking effortless and prevents impulse ordering.",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Sprouting legumes\" help with Beginner Guides?",
+          answer: "Yes \u2014 Sprouting legumes is one of the natural approaches recommended for Beginner Guides.",
+          category: "Natural Approach"
+      },
+      {
+          question: "30-Day Transition Timeline?",
+          answer: "A gradual transition is more sustainable and allows your palate and digestive system time to adapt.",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Pantry staples list\" help with Beginner Guides?",
+          answer: "Yes \u2014 Pantry staples list is one of the natural approaches recommended for Beginner Guides.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'vegan-reviews',
@@ -1613,9 +4165,57 @@ export const TOPICS: Topic[] = [
       }
     ],
     faqs: [
-      { question: "What is the best-tasting vegan protein powder?", answer: "Based on consistent taste tests, pea-protein isolate blends (like Vega or Orgain) are the best-tasting vegan protein powders because they mix smoothly and have a neutral flavor that absorbs fruits and sweeteners well in smoothies.", category: "Reviews" },
-      { question: "Which vegan meal delivery service is the most affordable?", answer: "Factor's Plant-Based meals and Daily Harvest are frequently cited as cost-effective options for prepared vegan meals. For meal kits, HelloFresh and Green Chef offer affordable plant-based tiers, though pricing varies based on weekly promotions and serving sizes.", category: "Services" }
-    ]
+      {
+          question: "What is the best-tasting vegan protein powder?",
+          answer: "Based on consistent taste tests, pea-protein isolate blends (like Vega or Orgain) are the best-tasting vegan protein powders because they mix smoothly and have a neutral flavor that absorbs fruits and sweeteners well in smoothies.",
+          category: "Reviews"
+      },
+      {
+          question: "Which vegan meal delivery service is the most affordable?",
+          answer: "Factor's Plant-Based meals and Daily Harvest are frequently cited as cost-effective options for prepared vegan meals. For meal kits, HelloFresh and Green Chef offer affordable plant-based tiers, though pricing varies based on weekly promotions and serving sizes.",
+          category: "Services"
+      },
+      {
+          question: "What causes Product Reviews & Testing?",
+          answer: "Sifting through hundreds of plant-based protein powders and meal kits to find clean, chemical-free options.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Product Reviews & Testing through nutrition?",
+          answer: "Conduct rigorous ingredient audits to identify heavy metals, artificial sweeteners, and clean processing methods.",
+          category: "Solution"
+      },
+      {
+          question: "What results have patients seen with Product Reviews & Testing?",
+          answer: "Helped 150+ patients lower toxic build-up by swapping protein powders containing hidden artificial thickeners for organic raw pea isolates. A patient resolved unexplained brain fog and skin breakouts after replacing a popular commercial plant-protein blend with a single-ingredient organic hemp powder.",
+          category: "Case Study"
+      },
+      {
+          question: "Can you summarize Product Reviews & Testing in brief?",
+          answer: "We evaluate vegan products for chemical purity, choosing unsweetened protein isolates and gums-free milks to protect long-term gut mucosal lining.",
+          category: "Summary"
+      },
+      {
+          question: "Testing Vegan Protein Powders?",
+          answer: "Many plant protein powders contain heavy metals, artificial sweeteners (like sucralose), and thickeners (like xanthan gum).",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Pea-protein evaluations\" help with Product Reviews & Testing?",
+          answer: "Yes \u2014 Pea-protein evaluations is one of the natural approaches recommended for Product Reviews & Testing.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Meal Delivery Services?",
+          answer: "Meal kits save time but can be high in sodium and industrial seed oils (like canola or sunflower oil).",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Unsweetened meal kits\" help with Product Reviews & Testing?",
+          answer: "Yes \u2014 Unsweetened meal kits is one of the natural approaches recommended for Product Reviews & Testing.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'vegan-news',
@@ -1676,9 +4276,57 @@ export const TOPICS: Topic[] = [
       }
     ],
     faqs: [
-      { question: "How does animal agriculture affect climate change?", answer: "Animal agriculture contributes to climate change by producing significant greenhouse gases, primarily methane from cows and sheep, and nitrous oxide from manure. It accounts for roughly 14.5% of global greenhouse gas emissions and is a leading cause of deforestation and water pollution.", category: "Environment" },
-      { question: "What is the difference between animal rights and animal welfare?", answer: "Animal welfare advocates for the humane treatment and reduction of suffering for animals used by humans, whereas animal rights is the philosophical stance that animals have inherent rights (like freedom from being used for food, clothing, or experimentation) and should not be treated as human property.", category: "Ethics" }
-    ]
+      {
+          question: "How does animal agriculture affect climate change?",
+          answer: "Animal agriculture contributes to climate change by producing significant greenhouse gases, primarily methane from cows and sheep, and nitrous oxide from manure. It accounts for roughly 14.5% of global greenhouse gas emissions and is a leading cause of deforestation and water pollution.",
+          category: "Environment"
+      },
+      {
+          question: "What is the difference between animal rights and animal welfare?",
+          answer: "Animal welfare advocates for the humane treatment and reduction of suffering for animals used by humans, whereas animal rights is the philosophical stance that animals have inherent rights (like freedom from being used for food, clothing, or experimentation) and should not be treated as human property.",
+          category: "Ethics"
+      },
+      {
+          question: "What causes News & Environmental Science?",
+          answer: "Staying informed on animal agriculture emissions, global plant-based initiatives, and cutting-edge food technology updates.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address News & Environmental Science through nutrition?",
+          answer: "Analyze environmental datasets, support regional advocacy, and track cell-cultured protein developments.",
+          category: "Solution"
+      },
+      {
+          question: "What results have patients seen with News & Environmental Science?",
+          answer: "Advocated for and implemented high-protein vegan meals in 3 local school districts, improving student nutritional density. Our team partnered with community leaders to design simple, kid-approved plant-based menu options that were successfully integrated into regional cafeterias.",
+          category: "Case Study"
+      },
+      {
+          question: "Can you summarize News & Environmental Science in brief?",
+          answer: "Animal agriculture accounts for a substantial share of global carbon and methane emissions. Food tech innovations like precision fermentation are paving the way for clean plant substitutes.",
+          category: "Summary"
+      },
+      {
+          question: "Climate Impact of Agriculture?",
+          answer: "Deforestation, water depletion, and greenhouse gas emissions are heavily accelerated by industrial livestock farming.",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Deforestation studies\" help with News & Environmental Science?",
+          answer: "Yes \u2014 Deforestation studies is one of the natural approaches recommended for News & Environmental Science.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Community Advocacy Models?",
+          answer: "Creating local change starts by making plant-based foods accessible and inviting in schools, workplaces, and local restaurants.",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Local option advocacy templates\" help with News & Environmental Science?",
+          answer: "Yes \u2014 Local option advocacy templates is one of the natural approaches recommended for News & Environmental Science.",
+          category: "Natural Approach"
+      }
+  ]
   },
   {
     id: 'type-2-diabetes',
@@ -1700,13 +4348,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Weight loss; muscle building.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Type 2 Diabetes?', answer: 'High blood sugar; cells block insulin. Scientific name: T2DM.', category: 'Overview' },
-      { question: 'What causes Type 2 Diabetes?', answer: 'Excess sugar/carbs cause insulin resistance.', category: 'Cause' },
-      { question: 'What is a hidden fact about Type 2 Diabetes?', answer: 'Can improve significantly via weight loss and circadian nutrition.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Type 2 Diabetes?', answer: 'Low-carb, high-fiber, no refined sugar.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Type 2 Diabetes?', answer: 'Cinnamon, Berberine, Chromium.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Type 2 Diabetes?', answer: 'Weight loss; muscle building.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Type 2 Diabetes?",
+          answer: "High blood sugar; cells block insulin. Scientific name: T2DM.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Type 2 Diabetes?",
+          answer: "Excess sugar/carbs cause insulin resistance.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Type 2 Diabetes?",
+          answer: "Can improve significantly via weight loss and circadian nutrition.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Type 2 Diabetes?",
+          answer: "Low-carb, high-fiber, no refined sugar.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Type 2 Diabetes?",
+          answer: "Cinnamon, Berberine, Chromium.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Type 2 Diabetes?",
+          answer: "Weight loss; muscle building.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Type 2 Diabetes typically become a concern?",
+          answer: "Type 2 Diabetes typically becomes a concern around 30s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Low-carb, high-fiber, no refined sugar.\" help with Type 2 Diabetes?",
+          answer: "Yes \u2014 Low-carb, high-fiber, no refined sugar. is one of the natural approaches recommended for Type 2 Diabetes.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'fatty-liver',
@@ -1728,13 +4410,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Lose 7-10% body weight; daily walking.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Fatty Liver?', answer: 'Fat trapped inside liver cells. Scientific name: NAFLD/MASLD.', category: 'Overview' },
-      { question: 'What causes Fatty Liver?', answer: 'Excess fructose/alcohol turned into liver fat.', category: 'Cause' },
-      { question: 'What is a hidden fact about Fatty Liver?', answer: 'Fructose (sugar) is metabolized directly into liver fat.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Fatty Liver?', answer: 'Zero refined sugar, low fructose.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Fatty Liver?', answer: 'Milk Thistle, NAC, Choline.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Fatty Liver?', answer: 'Lose 7-10% body weight; daily walking.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Fatty Liver?",
+          answer: "Fat trapped inside liver cells. Scientific name: NAFLD/MASLD.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Fatty Liver?",
+          answer: "Excess fructose/alcohol turned into liver fat.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Fatty Liver?",
+          answer: "Fructose (sugar) is metabolized directly into liver fat.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Fatty Liver?",
+          answer: "Zero refined sugar, low fructose.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Fatty Liver?",
+          answer: "Milk Thistle, NAC, Choline.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Fatty Liver?",
+          answer: "Lose 7-10% body weight; daily walking.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Fatty Liver typically become a concern?",
+          answer: "Fatty Liver typically becomes a concern around 40s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Zero refined sugar, low fructose.\" help with Fatty Liver?",
+          answer: "Yes \u2014 Zero refined sugar, low fructose. is one of the natural approaches recommended for Fatty Liver.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'pcod-pcos',
@@ -1756,13 +4472,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Weight loss; strength training.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is PCOD / PCOS?', answer: 'Hormonal imbalance causing cysts. Scientific name: Polycystic Ovary Syndrome.', category: 'Overview' },
-      { question: 'What causes PCOD / PCOS?', answer: 'Insulin spikes ovaries to make testosterone.', category: 'Cause' },
-      { question: 'What is a hidden fact about PCOD / PCOS?', answer: 'You can have PCOS without actually having ovarian cysts.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with PCOD / PCOS?', answer: 'Low-glycemic diet, high protein.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with PCOD / PCOS?', answer: 'Inositol, Spearmint, Zinc.', category: 'Supplements' },
-      { question: 'What lifestyle changes help PCOD / PCOS?', answer: 'Weight loss; strength training.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is PCOD / PCOS?",
+          answer: "Hormonal imbalance causing cysts. Scientific name: Polycystic Ovary Syndrome.",
+          category: "Overview"
+      },
+      {
+          question: "What causes PCOD / PCOS?",
+          answer: "Insulin spikes ovaries to make testosterone.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about PCOD / PCOS?",
+          answer: "You can have PCOS without actually having ovarian cysts.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with PCOD / PCOS?",
+          answer: "Low-glycemic diet, high protein.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with PCOD / PCOS?",
+          answer: "Inositol, Spearmint, Zinc.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help PCOD / PCOS?",
+          answer: "Weight loss; strength training.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does PCOD / PCOS typically become a concern?",
+          answer: "PCOD / PCOS typically becomes a concern around Teens-30s.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Low-glycemic diet, high protein.\" help with PCOD / PCOS?",
+          answer: "Yes \u2014 Low-glycemic diet, high protein. is one of the natural approaches recommended for PCOD / PCOS.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'obesity',
@@ -1784,13 +4534,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Daily movement; sleep regulation.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Obesity?', answer: 'Excess body fat. Scientific name: Adiposity.', category: 'Overview' },
-      { question: 'What causes Obesity?', answer: 'Calorie surplus from ultra-processed foods.', category: 'Cause' },
-      { question: 'What is a hidden fact about Obesity?', answer: 'Fat tissue is active endocrine tissue, not just stored energy.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Obesity?', answer: 'Calorie deficit, high protein.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Obesity?', answer: 'Green tea extract, soluble fiber.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Obesity?', answer: 'Daily movement; sleep regulation.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Obesity?",
+          answer: "Excess body fat. Scientific name: Adiposity.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Obesity?",
+          answer: "Calorie surplus from ultra-processed foods.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Obesity?",
+          answer: "Fat tissue is active endocrine tissue, not just stored energy.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Obesity?",
+          answer: "Calorie deficit, high protein.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Obesity?",
+          answer: "Green tea extract, soluble fiber.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Obesity?",
+          answer: "Daily movement; sleep regulation.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Obesity typically become a concern?",
+          answer: "Obesity typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Calorie deficit, high protein.\" help with Obesity?",
+          answer: "Yes \u2014 Calorie deficit, high protein. is one of the natural approaches recommended for Obesity.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'high-blood-sugar',
@@ -1812,13 +4596,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Walk 10 mins after meals; intermittent fasting.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is High Blood Sugar?', answer: 'Glucose spikes in blood. Scientific name: Hyperglycemia.', category: 'Overview' },
-      { question: 'What causes High Blood Sugar?', answer: 'Fast carbs without fiber spike glucose.', category: 'Cause' },
-      { question: 'What is a hidden fact about High Blood Sugar?', answer: 'Chronic high sugar damages nerves and blood vessels silently.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with High Blood Sugar?', answer: 'Fiber-rich veggies, complex carbs.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with High Blood Sugar?', answer: 'Apple Cider Vinegar, Fenugreek.', category: 'Supplements' },
-      { question: 'What lifestyle changes help High Blood Sugar?', answer: 'Walk 10 mins after meals; intermittent fasting.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is High Blood Sugar?",
+          answer: "Glucose spikes in blood. Scientific name: Hyperglycemia.",
+          category: "Overview"
+      },
+      {
+          question: "What causes High Blood Sugar?",
+          answer: "Fast carbs without fiber spike glucose.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about High Blood Sugar?",
+          answer: "Chronic high sugar damages nerves and blood vessels silently.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with High Blood Sugar?",
+          answer: "Fiber-rich veggies, complex carbs.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with High Blood Sugar?",
+          answer: "Apple Cider Vinegar, Fenugreek.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help High Blood Sugar?",
+          answer: "Walk 10 mins after meals; intermittent fasting.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does High Blood Sugar typically become a concern?",
+          answer: "High Blood Sugar typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Fiber-rich veggies, complex carbs.\" help with High Blood Sugar?",
+          answer: "Yes \u2014 Fiber-rich veggies, complex carbs. is one of the natural approaches recommended for High Blood Sugar.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'metabolic-syndrome',
@@ -1840,13 +4658,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Cardio 150 mins/week; lose belly fat.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Metabolic Syndrome?', answer: 'Cluster of high BP, sugar, fat. Scientific name: Syndrome X.', category: 'Overview' },
-      { question: 'What causes Metabolic Syndrome?', answer: 'Junk diet causes simultaneous metabolic failures.', category: 'Cause' },
-      { question: 'What is a hidden fact about Metabolic Syndrome?', answer: 'Having 3 of 5 criteria (BP, sugar, belly fat, low HDL, high TG) means you have it.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Metabolic Syndrome?', answer: 'Mediterranean diet, whole foods.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Metabolic Syndrome?', answer: 'Omega-3, Magnesium, Berberine.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Metabolic Syndrome?', answer: 'Cardio 150 mins/week; lose belly fat.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Metabolic Syndrome?",
+          answer: "Cluster of high BP, sugar, fat. Scientific name: Syndrome X.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Metabolic Syndrome?",
+          answer: "Junk diet causes simultaneous metabolic failures.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Metabolic Syndrome?",
+          answer: "Having 3 of 5 criteria (BP, sugar, belly fat, low HDL, high TG) means you have it.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Metabolic Syndrome?",
+          answer: "Mediterranean diet, whole foods.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Metabolic Syndrome?",
+          answer: "Omega-3, Magnesium, Berberine.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Metabolic Syndrome?",
+          answer: "Cardio 150 mins/week; lose belly fat.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Metabolic Syndrome typically become a concern?",
+          answer: "Metabolic Syndrome typically becomes a concern around 40s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Mediterranean diet, whole foods.\" help with Metabolic Syndrome?",
+          answer: "Yes \u2014 Mediterranean diet, whole foods. is one of the natural approaches recommended for Metabolic Syndrome.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'gestational-diabetes',
@@ -1868,13 +4720,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Daily prenatal walking.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Gestational Diabetes?', answer: 'Diabetes during pregnancy. Scientific name: GDM.', category: 'Overview' },
-      { question: 'What causes Gestational Diabetes?', answer: 'Pregnancy hormones cause insulin resistance.', category: 'Cause' },
-      { question: 'What is a hidden fact about Gestational Diabetes?', answer: 'Increases mother\'s risk of T2DM by 50% later in life.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Gestational Diabetes?', answer: 'Low-carb pregnancy diet, small meals.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Gestational Diabetes?', answer: 'Magnesium, Vitamin D.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Gestational Diabetes?', answer: 'Daily prenatal walking.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Gestational Diabetes?",
+          answer: "Diabetes during pregnancy. Scientific name: GDM.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Gestational Diabetes?",
+          answer: "Pregnancy hormones cause insulin resistance.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Gestational Diabetes?",
+          answer: "Increases mother's risk of T2DM by 50% later in life.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Gestational Diabetes?",
+          answer: "Low-carb pregnancy diet, small meals.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Gestational Diabetes?",
+          answer: "Magnesium, Vitamin D.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Gestational Diabetes?",
+          answer: "Daily prenatal walking.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Gestational Diabetes typically become a concern?",
+          answer: "Gestational Diabetes typically becomes a concern around 20s-30s.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Low-carb pregnancy diet, small meals.\" help with Gestational Diabetes?",
+          answer: "Yes \u2014 Low-carb pregnancy diet, small meals. is one of the natural approaches recommended for Gestational Diabetes.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'low-blood-sugar',
@@ -1896,13 +4782,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Regulate meal times; avoid sugar binges.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Low Blood Sugar?', answer: 'Blood sugar drops dangerously. Scientific name: Hypoglycemia.', category: 'Overview' },
-      { question: 'What causes Low Blood Sugar?', answer: 'Skipping meals or excess diabetic meds.', category: 'Cause' },
-      { question: 'What is a hidden fact about Low Blood Sugar?', answer: 'Brain panics without sugar; causes shaking, then coma.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Low Blood Sugar?', answer: 'Complex carbs + protein every 3 hrs.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Low Blood Sugar?', answer: 'Licorice root (adrenal support).', category: 'Supplements' },
-      { question: 'What lifestyle changes help Low Blood Sugar?', answer: 'Regulate meal times; avoid sugar binges.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Low Blood Sugar?",
+          answer: "Blood sugar drops dangerously. Scientific name: Hypoglycemia.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Low Blood Sugar?",
+          answer: "Skipping meals or excess diabetic meds.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Low Blood Sugar?",
+          answer: "Brain panics without sugar; causes shaking, then coma.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Low Blood Sugar?",
+          answer: "Complex carbs + protein every 3 hrs.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Low Blood Sugar?",
+          answer: "Licorice root (adrenal support).",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Low Blood Sugar?",
+          answer: "Regulate meal times; avoid sugar binges.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Low Blood Sugar typically become a concern?",
+          answer: "Low Blood Sugar typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Complex carbs + protein every 3 hrs.\" help with Low Blood Sugar?",
+          answer: "Yes \u2014 Complex carbs + protein every 3 hrs. is one of the natural approaches recommended for Low Blood Sugar.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'dka-prevention',
@@ -1924,13 +4844,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Regular insulin; monitor ketones.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is DKA Prevention?', answer: 'Blood turns acidic. Scientific name: Diabetic Ketoacidosis.', category: 'Overview' },
-      { question: 'What causes DKA Prevention?', answer: 'Missing insulin or massive carb binges.', category: 'Cause' },
-      { question: 'What is a hidden fact about DKA Prevention?', answer: 'Breath smells like nail polish remover (acetone).', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with DKA Prevention?', answer: 'Strict carb-counting, hydration.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with DKA Prevention?', answer: 'Electrolytes, Potassium.', category: 'Supplements' },
-      { question: 'What lifestyle changes help DKA Prevention?', answer: 'Regular insulin; monitor ketones.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is DKA Prevention?",
+          answer: "Blood turns acidic. Scientific name: Diabetic Ketoacidosis.",
+          category: "Overview"
+      },
+      {
+          question: "What causes DKA Prevention?",
+          answer: "Missing insulin or massive carb binges.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about DKA Prevention?",
+          answer: "Breath smells like nail polish remover (acetone).",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with DKA Prevention?",
+          answer: "Strict carb-counting, hydration.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with DKA Prevention?",
+          answer: "Electrolytes, Potassium.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help DKA Prevention?",
+          answer: "Regular insulin; monitor ketones.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does DKA Prevention typically become a concern?",
+          answer: "DKA Prevention typically becomes a concern around T1 Diabetics.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Strict carb-counting, hydration.\" help with DKA Prevention?",
+          answer: "Yes \u2014 Strict carb-counting, hydration. is one of the natural approaches recommended for DKA Prevention.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'type-1-diabetes',
@@ -1952,13 +4906,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Insulin management; daily exercise.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Type 1 Diabetes?', answer: 'Body makes zero insulin. Scientific name: T1DM.', category: 'Overview' },
-      { question: 'What causes Type 1 Diabetes?', answer: 'Autoimmune attack on pancreas.', category: 'Cause' },
-      { question: 'What is a hidden fact about Type 1 Diabetes?', answer: 'Not caused by diet; controlled 100% by diet.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Type 1 Diabetes?', answer: 'Strict carb-counting to match insulin.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Type 1 Diabetes?', answer: 'Cinnamon, Alpha-Lipoic Acid.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Type 1 Diabetes?', answer: 'Insulin management; daily exercise.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Type 1 Diabetes?",
+          answer: "Body makes zero insulin. Scientific name: T1DM.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Type 1 Diabetes?",
+          answer: "Autoimmune attack on pancreas.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Type 1 Diabetes?",
+          answer: "Not caused by diet; controlled 100% by diet.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Type 1 Diabetes?",
+          answer: "Strict carb-counting to match insulin.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Type 1 Diabetes?",
+          answer: "Cinnamon, Alpha-Lipoic Acid.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Type 1 Diabetes?",
+          answer: "Insulin management; daily exercise.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Type 1 Diabetes typically become a concern?",
+          answer: "Type 1 Diabetes typically becomes a concern around Childhood+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Strict carb-counting to match insulin.\" help with Type 1 Diabetes?",
+          answer: "Yes \u2014 Strict carb-counting to match insulin. is one of the natural approaches recommended for Type 1 Diabetes.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'type-3c-diabetes',
@@ -1980,13 +4968,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Absolute alcohol cessation.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Type 3c Diabetes?', answer: 'Pancreas fails to make insulin. Scientific name: Pancreatogenic Diabetes.', category: 'Overview' },
-      { question: 'What causes Type 3c Diabetes?', answer: 'Pancreatitis destroys insulin cells.', category: 'Cause' },
-      { question: 'What is a hidden fact about Type 3c Diabetes?', answer: 'Caused by alcohol or high triglycerides, not autoimmunity.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Type 3c Diabetes?', answer: 'Very low fat, zero alcohol.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Type 3c Diabetes?', answer: 'Digestive enzymes, Vitamin A.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Type 3c Diabetes?', answer: 'Absolute alcohol cessation.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Type 3c Diabetes?",
+          answer: "Pancreas fails to make insulin. Scientific name: Pancreatogenic Diabetes.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Type 3c Diabetes?",
+          answer: "Pancreatitis destroys insulin cells.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Type 3c Diabetes?",
+          answer: "Caused by alcohol or high triglycerides, not autoimmunity.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Type 3c Diabetes?",
+          answer: "Very low fat, zero alcohol.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Type 3c Diabetes?",
+          answer: "Digestive enzymes, Vitamin A.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Type 3c Diabetes?",
+          answer: "Absolute alcohol cessation.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Type 3c Diabetes typically become a concern?",
+          answer: "Type 3c Diabetes typically becomes a concern around 40s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Very low fat, zero alcohol.\" help with Type 3c Diabetes?",
+          answer: "Yes \u2014 Very low fat, zero alcohol. is one of the natural approaches recommended for Type 3c Diabetes.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'high-cholesterol',
@@ -2008,13 +5030,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Cardio exercise; lose belly fat.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is High Cholesterol?', answer: 'Plaque builds in arteries. Scientific name: Hypercholesterolemia.', category: 'Overview' },
-      { question: 'What causes High Cholesterol?', answer: 'Trans fats + low fiber raise LDL.', category: 'Cause' },
-      { question: 'What is a hidden fact about High Cholesterol?', answer: 'Your liver makes 75% of your cholesterol; diet is only part.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with High Cholesterol?', answer: 'Oats, beans, olive oil, nuts.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with High Cholesterol?', answer: 'Red Yeast Rice, Psyllium.', category: 'Supplements' },
-      { question: 'What lifestyle changes help High Cholesterol?', answer: 'Cardio exercise; lose belly fat.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is High Cholesterol?",
+          answer: "Plaque builds in arteries. Scientific name: Hypercholesterolemia.",
+          category: "Overview"
+      },
+      {
+          question: "What causes High Cholesterol?",
+          answer: "Trans fats + low fiber raise LDL.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about High Cholesterol?",
+          answer: "Your liver makes 75% of your cholesterol; diet is only part.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with High Cholesterol?",
+          answer: "Oats, beans, olive oil, nuts.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with High Cholesterol?",
+          answer: "Red Yeast Rice, Psyllium.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help High Cholesterol?",
+          answer: "Cardio exercise; lose belly fat.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does High Cholesterol typically become a concern?",
+          answer: "High Cholesterol typically becomes a concern around 40s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Oats, beans, olive oil, nuts.\" help with High Cholesterol?",
+          answer: "Yes \u2014 Oats, beans, olive oil, nuts. is one of the natural approaches recommended for High Cholesterol.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'gout',
@@ -2036,13 +5092,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Drink 3L water daily; lose weight.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Gout?', answer: 'Severe joint pain (big toe). Scientific name: Gouty Arthritis.', category: 'Overview' },
-      { question: 'What causes Gout?', answer: 'High purines (meat/beer) form joint crystals.', category: 'Cause' },
-      { question: 'What is a hidden fact about Gout?', answer: 'Historically called the \'disease of kings\' due to rich diets.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Gout?', answer: 'Low purine, low fructose, low alcohol.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Gout?', answer: 'Cherries, Celery seed, Vit C.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Gout?', answer: 'Drink 3L water daily; lose weight.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Gout?",
+          answer: "Severe joint pain (big toe). Scientific name: Gouty Arthritis.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Gout?",
+          answer: "High purines (meat/beer) form joint crystals.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Gout?",
+          answer: "Historically called the 'disease of kings' due to rich diets.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Gout?",
+          answer: "Low purine, low fructose, low alcohol.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Gout?",
+          answer: "Cherries, Celery seed, Vit C.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Gout?",
+          answer: "Drink 3L water daily; lose weight.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Gout typically become a concern?",
+          answer: "Gout typically becomes a concern around 40s+ (Men).",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Low purine, low fructose, low alcohol.\" help with Gout?",
+          answer: "Yes \u2014 Low purine, low fructose, low alcohol. is one of the natural approaches recommended for Gout.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'dark-neckskin-tags',
@@ -2064,13 +5154,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Weight loss; insulin management.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Dark Neck/Skin Tags?', answer: 'Dark, velvety skin folds. Scientific name: Acanthosis Nigricans.', category: 'Overview' },
-      { question: 'What causes Dark Neck/Skin Tags?', answer: 'High insulin thickens skin folds.', category: 'Cause' },
-      { question: 'What is a hidden fact about Dark Neck/Skin Tags?', answer: 'A visible warning sign of severe insulin resistance.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Dark Neck/Skin Tags?', answer: 'Low-carb, zero sugar diet.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Dark Neck/Skin Tags?', answer: 'Inositol, Berberine.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Dark Neck/Skin Tags?', answer: 'Weight loss; insulin management.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Dark Neck/Skin Tags?",
+          answer: "Dark, velvety skin folds. Scientific name: Acanthosis Nigricans.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Dark Neck/Skin Tags?",
+          answer: "High insulin thickens skin folds.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Dark Neck/Skin Tags?",
+          answer: "A visible warning sign of severe insulin resistance.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Dark Neck/Skin Tags?",
+          answer: "Low-carb, zero sugar diet.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Dark Neck/Skin Tags?",
+          answer: "Inositol, Berberine.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Dark Neck/Skin Tags?",
+          answer: "Weight loss; insulin management.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Dark Neck/Skin Tags typically become a concern?",
+          answer: "Dark Neck/Skin Tags typically becomes a concern around 30s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Low-carb, zero sugar diet.\" help with Dark Neck/Skin Tags?",
+          answer: "Yes \u2014 Low-carb, zero sugar diet. is one of the natural approaches recommended for Dark Neck/Skin Tags.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'cholesterol-deposits',
@@ -2092,13 +5216,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Cardio exercise; weight loss.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Cholesterol Deposits?', answer: 'Yellow fat under eyes/skin. Scientific name: Xanthelasma.', category: 'Overview' },
-      { question: 'What causes Cholesterol Deposits?', answer: 'High blood fat deposits under skin.', category: 'Cause' },
-      { question: 'What is a hidden fact about Cholesterol Deposits?', answer: 'Can indicate a genetic cholesterol disorder (FH).', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Cholesterol Deposits?', answer: 'Strict low-saturated fat, high fiber.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Cholesterol Deposits?', answer: 'Plant Sterols, Niacin.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Cholesterol Deposits?', answer: 'Cardio exercise; weight loss.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Cholesterol Deposits?",
+          answer: "Yellow fat under eyes/skin. Scientific name: Xanthelasma.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Cholesterol Deposits?",
+          answer: "High blood fat deposits under skin.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Cholesterol Deposits?",
+          answer: "Can indicate a genetic cholesterol disorder (FH).",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Cholesterol Deposits?",
+          answer: "Strict low-saturated fat, high fiber.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Cholesterol Deposits?",
+          answer: "Plant Sterols, Niacin.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Cholesterol Deposits?",
+          answer: "Cardio exercise; weight loss.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Cholesterol Deposits typically become a concern?",
+          answer: "Cholesterol Deposits typically becomes a concern around 40s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Strict low-saturated fat, high fiber.\" help with Cholesterol Deposits?",
+          answer: "Yes \u2014 Strict low-saturated fat, high fiber. is one of the natural approaches recommended for Cholesterol Deposits.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'high-bp',
@@ -2120,13 +5278,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Stress management; quit smoking.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is High BP?', answer: 'Blood pressure too high. Scientific name: Hypertension.', category: 'Overview' },
-      { question: 'What causes High BP?', answer: 'High salt/stress stiffens arteries.', category: 'Cause' },
-      { question: 'What is a hidden fact about High BP?', answer: 'Silent killer; often zero symptoms until a stroke.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with High BP?', answer: 'DASH diet (high potassium, low sodium).', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with High BP?', answer: 'Garlic, Hibiscus, Magnesium.', category: 'Supplements' },
-      { question: 'What lifestyle changes help High BP?', answer: 'Stress management; quit smoking.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is High BP?",
+          answer: "Blood pressure too high. Scientific name: Hypertension.",
+          category: "Overview"
+      },
+      {
+          question: "What causes High BP?",
+          answer: "High salt/stress stiffens arteries.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about High BP?",
+          answer: "Silent killer; often zero symptoms until a stroke.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with High BP?",
+          answer: "DASH diet (high potassium, low sodium).",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with High BP?",
+          answer: "Garlic, Hibiscus, Magnesium.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help High BP?",
+          answer: "Stress management; quit smoking.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does High BP typically become a concern?",
+          answer: "High BP typically becomes a concern around 40s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"DASH diet (high potassium, low sodium).\" help with High BP?",
+          answer: "Yes \u2014 DASH diet (high potassium, low sodium). is one of the natural approaches recommended for High BP.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'heart-disease',
@@ -2148,13 +5340,47 @@ export const TOPICS: Topic[] = [
     lifestyle: '150 mins/week cardio.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Heart Disease?', answer: 'Heart arteries narrowed. Scientific name: Coronary Heart Disease.', category: 'Overview' },
-      { question: 'What causes Heart Disease?', answer: 'Plaque builds up from bad fats/smoking.', category: 'Cause' },
-      { question: 'What is a hidden fact about Heart Disease?', answer: 'Gum disease bacteria are found inside heart plaque.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Heart Disease?', answer: 'Mediterranean diet, Omega-3s.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Heart Disease?', answer: 'CoQ10, Niacin, Fish Oil.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Heart Disease?', answer: '150 mins/week cardio.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Heart Disease?",
+          answer: "Heart arteries narrowed. Scientific name: Coronary Heart Disease.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Heart Disease?",
+          answer: "Plaque builds up from bad fats/smoking.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Heart Disease?",
+          answer: "Gum disease bacteria are found inside heart plaque.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Heart Disease?",
+          answer: "Mediterranean diet, Omega-3s.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Heart Disease?",
+          answer: "CoQ10, Niacin, Fish Oil.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Heart Disease?",
+          answer: "150 mins/week cardio.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Heart Disease typically become a concern?",
+          answer: "Heart Disease typically becomes a concern around 50s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Mediterranean diet, Omega-3s.\" help with Heart Disease?",
+          answer: "Yes \u2014 Mediterranean diet, Omega-3s. is one of the natural approaches recommended for Heart Disease.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'heart-attack',
@@ -2176,13 +5402,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Cardiac rehab; quit smoking/alcohol.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Heart Attack?', answer: 'Heart muscle dies. Scientific name: Myocardial Infarction.', category: 'Overview' },
-      { question: 'What causes Heart Attack?', answer: 'Plaque ruptures, blocking heart blood flow.', category: 'Cause' },
-      { question: 'What is a hidden fact about Heart Attack?', answer: 'Women\'s symptoms differ - jaw/back pain, nausea, not just chest.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Heart Attack?', answer: 'Heart-healthy diet post-attack.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Heart Attack?', answer: 'Omega-3s, Magnesium.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Heart Attack?', answer: 'Cardiac rehab; quit smoking/alcohol.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Heart Attack?",
+          answer: "Heart muscle dies. Scientific name: Myocardial Infarction.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Heart Attack?",
+          answer: "Plaque ruptures, blocking heart blood flow.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Heart Attack?",
+          answer: "Women's symptoms differ - jaw/back pain, nausea, not just chest.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Heart Attack?",
+          answer: "Heart-healthy diet post-attack.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Heart Attack?",
+          answer: "Omega-3s, Magnesium.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Heart Attack?",
+          answer: "Cardiac rehab; quit smoking/alcohol.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Heart Attack typically become a concern?",
+          answer: "Heart Attack typically becomes a concern around 50s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Heart-healthy diet post-attack.\" help with Heart Attack?",
+          answer: "Yes \u2014 Heart-healthy diet post-attack. is one of the natural approaches recommended for Heart Attack.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'stroke',
@@ -2204,13 +5464,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'BP control; daily walking.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Stroke?', answer: 'Brain blood flow stops. Scientific name: Cerebrovascular Accident.', category: 'Overview' },
-      { question: 'What causes Stroke?', answer: 'Plaque or clot blocks blood to the brain.', category: 'Cause' },
-      { question: 'What is a hidden fact about Stroke?', answer: '1.9 million brain cells die per minute during a stroke.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Stroke?', answer: 'Low sodium, high antioxidant foods.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Stroke?', answer: 'Ginkgo Biloba, Omega-3s.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Stroke?', answer: 'BP control; daily walking.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Stroke?",
+          answer: "Brain blood flow stops. Scientific name: Cerebrovascular Accident.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Stroke?",
+          answer: "Plaque or clot blocks blood to the brain.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Stroke?",
+          answer: "1.9 million brain cells die per minute during a stroke.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Stroke?",
+          answer: "Low sodium, high antioxidant foods.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Stroke?",
+          answer: "Ginkgo Biloba, Omega-3s.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Stroke?",
+          answer: "BP control; daily walking.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Stroke typically become a concern?",
+          answer: "Stroke typically becomes a concern around 60s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Low sodium, high antioxidant foods.\" help with Stroke?",
+          answer: "Yes \u2014 Low sodium, high antioxidant foods. is one of the natural approaches recommended for Stroke.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'angina',
@@ -2232,13 +5526,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Weight loss; cardio rehab.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Angina?', answer: 'Chest pain on exertion. Scientific name: Angina Pectoris.', category: 'Overview' },
-      { question: 'What causes Angina?', answer: 'Heart arteries narrowed by plaque.', category: 'Cause' },
-      { question: 'What is a hidden fact about Angina?', answer: 'Stable angina stops when you rest; unstable is a heart attack warning.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Angina?', answer: 'Heart-healthy, low-fat diet.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Angina?', answer: 'CoQ10, L-Carnitine, Magnesium.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Angina?', answer: 'Weight loss; cardio rehab.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Angina?",
+          answer: "Chest pain on exertion. Scientific name: Angina Pectoris.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Angina?",
+          answer: "Heart arteries narrowed by plaque.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Angina?",
+          answer: "Stable angina stops when you rest; unstable is a heart attack warning.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Angina?",
+          answer: "Heart-healthy, low-fat diet.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Angina?",
+          answer: "CoQ10, L-Carnitine, Magnesium.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Angina?",
+          answer: "Weight loss; cardio rehab.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Angina typically become a concern?",
+          answer: "Angina typically becomes a concern around 50s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Heart-healthy, low-fat diet.\" help with Angina?",
+          answer: "Yes \u2014 Heart-healthy, low-fat diet. is one of the natural approaches recommended for Angina.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'a-fib',
@@ -2260,13 +5588,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Cut alcohol; manage stress.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is A-Fib?', answer: 'Irregular heartbeat. Scientific name: Atrial Fibrillation.', category: 'Overview' },
-      { question: 'What causes A-Fib?', answer: 'Binge drinking, obesity, stress.', category: 'Cause' },
-      { question: 'What is a hidden fact about A-Fib?', answer: 'Holiday Heart Syndrome is triggered by binge drinking.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with A-Fib?', answer: 'Limit caffeine/alcohol; magnesium-rich.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with A-Fib?', answer: 'Magnesium, Taurine, CoQ10.', category: 'Supplements' },
-      { question: 'What lifestyle changes help A-Fib?', answer: 'Cut alcohol; manage stress.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is A-Fib?",
+          answer: "Irregular heartbeat. Scientific name: Atrial Fibrillation.",
+          category: "Overview"
+      },
+      {
+          question: "What causes A-Fib?",
+          answer: "Binge drinking, obesity, stress.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about A-Fib?",
+          answer: "Holiday Heart Syndrome is triggered by binge drinking.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with A-Fib?",
+          answer: "Limit caffeine/alcohol; magnesium-rich.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with A-Fib?",
+          answer: "Magnesium, Taurine, CoQ10.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help A-Fib?",
+          answer: "Cut alcohol; manage stress.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does A-Fib typically become a concern?",
+          answer: "A-Fib typically becomes a concern around 50s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Limit caffeine/alcohol; magnesium-rich.\" help with A-Fib?",
+          answer: "Yes \u2014 Limit caffeine/alcohol; magnesium-rich. is one of the natural approaches recommended for A-Fib.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'peripheral-artery',
@@ -2288,13 +5650,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Smoking cessation; daily walking.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Peripheral Artery?', answer: 'Plaque in leg arteries. Scientific name: PAD.', category: 'Overview' },
-      { question: 'What causes Peripheral Artery?', answer: 'Smoking and poor diet block leg vessels.', category: 'Cause' },
-      { question: 'What is a hidden fact about Peripheral Artery?', answer: 'Pain stops when you rest; walking pushes blood into new vessels.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Peripheral Artery?', answer: 'Low saturated fat, high fiber.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Peripheral Artery?', answer: 'Garlic, Ginkgo Biloba, Omega-3.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Peripheral Artery?', answer: 'Smoking cessation; daily walking.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Peripheral Artery?",
+          answer: "Plaque in leg arteries. Scientific name: PAD.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Peripheral Artery?",
+          answer: "Smoking and poor diet block leg vessels.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Peripheral Artery?",
+          answer: "Pain stops when you rest; walking pushes blood into new vessels.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Peripheral Artery?",
+          answer: "Low saturated fat, high fiber.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Peripheral Artery?",
+          answer: "Garlic, Ginkgo Biloba, Omega-3.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Peripheral Artery?",
+          answer: "Smoking cessation; daily walking.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Peripheral Artery typically become a concern?",
+          answer: "Peripheral Artery typically becomes a concern around 60s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Low saturated fat, high fiber.\" help with Peripheral Artery?",
+          answer: "Yes \u2014 Low saturated fat, high fiber. is one of the natural approaches recommended for Peripheral Artery.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'varicose-veins',
@@ -2316,13 +5712,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Calf exercises; leg elevation.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Varicose Veins?', answer: 'Bulging, twisted leg veins. Scientific name: Varicosities.', category: 'Overview' },
-      { question: 'What causes Varicose Veins?', answer: 'Standing too long; weak vein valves.', category: 'Cause' },
-      { question: 'What is a hidden fact about Varicose Veins?', answer: 'Everyone has these veins; they only become \'varicose\' when swollen.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Varicose Veins?', answer: 'High fiber (prevents straining).', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Varicose Veins?', answer: 'Horse Chestnut, Butcher\'s Broom.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Varicose Veins?', answer: 'Calf exercises; leg elevation.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Varicose Veins?",
+          answer: "Bulging, twisted leg veins. Scientific name: Varicosities.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Varicose Veins?",
+          answer: "Standing too long; weak vein valves.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Varicose Veins?",
+          answer: "Everyone has these veins; they only become 'varicose' when swollen.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Varicose Veins?",
+          answer: "High fiber (prevents straining).",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Varicose Veins?",
+          answer: "Horse Chestnut, Butcher's Broom.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Varicose Veins?",
+          answer: "Calf exercises; leg elevation.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Varicose Veins typically become a concern?",
+          answer: "Varicose Veins typically becomes a concern around 30s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"High fiber (prevents straining).\" help with Varicose Veins?",
+          answer: "Yes \u2014 High fiber (prevents straining). is one of the natural approaches recommended for Varicose Veins.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'leg-ulcers',
@@ -2344,13 +5774,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Compression socks; walking.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Leg Ulcers?', answer: 'Skin rots from pooled blood. Scientific name: Venous Stasis Ulcer.', category: 'Overview' },
-      { question: 'What causes Leg Ulcers?', answer: 'Sedentary lifestyle causes blood to pool in legs.', category: 'Cause' },
-      { question: 'What is a hidden fact about Leg Ulcers?', answer: 'Compression socks are the only way to push blood back up.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Leg Ulcers?', answer: 'High protein/zinc for wound healing.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Leg Ulcers?', answer: 'Gotu Kola, Horse Chestnut.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Leg Ulcers?', answer: 'Compression socks; walking.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Leg Ulcers?",
+          answer: "Skin rots from pooled blood. Scientific name: Venous Stasis Ulcer.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Leg Ulcers?",
+          answer: "Sedentary lifestyle causes blood to pool in legs.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Leg Ulcers?",
+          answer: "Compression socks are the only way to push blood back up.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Leg Ulcers?",
+          answer: "High protein/zinc for wound healing.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Leg Ulcers?",
+          answer: "Gotu Kola, Horse Chestnut.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Leg Ulcers?",
+          answer: "Compression socks; walking.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Leg Ulcers typically become a concern?",
+          answer: "Leg Ulcers typically becomes a concern around 60s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"High protein/zinc for wound healing.\" help with Leg Ulcers?",
+          answer: "Yes \u2014 High protein/zinc for wound healing. is one of the natural approaches recommended for Leg Ulcers.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'low-bp',
@@ -2372,13 +5836,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Stand up slowly; avoid hot baths.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Low BP?', answer: 'Blood pressure too low. Scientific name: Hypotension.', category: 'Overview' },
-      { question: 'What causes Low BP?', answer: 'Severe dehydration and lack of salt.', category: 'Cause' },
-      { question: 'What is a hidden fact about Low BP?', answer: 'Can cause fainting when standing up too fast (orthostatic).', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Low BP?', answer: 'Increase salt intake, hydrate well.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Low BP?', answer: 'Licorice root, electrolytes.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Low BP?', answer: 'Stand up slowly; avoid hot baths.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Low BP?",
+          answer: "Blood pressure too low. Scientific name: Hypotension.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Low BP?",
+          answer: "Severe dehydration and lack of salt.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Low BP?",
+          answer: "Can cause fainting when standing up too fast (orthostatic).",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Low BP?",
+          answer: "Increase salt intake, hydrate well.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Low BP?",
+          answer: "Licorice root, electrolytes.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Low BP?",
+          answer: "Stand up slowly; avoid hot baths.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Low BP typically become a concern?",
+          answer: "Low BP typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Increase salt intake, hydrate well.\" help with Low BP?",
+          answer: "Yes \u2014 Increase salt intake, hydrate well. is one of the natural approaches recommended for Low BP.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'varicocele',
@@ -2400,13 +5898,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Regular exercise; avoid heavy lifting.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Varicocele?', answer: 'Swollen veins in scrotum. Scientific name: Varicocele.', category: 'Overview' },
-      { question: 'What causes Varicocele?', answer: 'Constipation/straining pools blood.', category: 'Cause' },
-      { question: 'What is a hidden fact about Varicocele?', answer: 'Groin hernias are 10x more common in men due to testicle descent.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Varicocele?', answer: 'High fiber, lots of water.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Varicocele?', answer: 'Horse Chestnut, Butcher\'s Broom.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Varicocele?', answer: 'Regular exercise; avoid heavy lifting.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Varicocele?",
+          answer: "Swollen veins in scrotum. Scientific name: Varicocele.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Varicocele?",
+          answer: "Constipation/straining pools blood.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Varicocele?",
+          answer: "Groin hernias are 10x more common in men due to testicle descent.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Varicocele?",
+          answer: "High fiber, lots of water.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Varicocele?",
+          answer: "Horse Chestnut, Butcher's Broom.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Varicocele?",
+          answer: "Regular exercise; avoid heavy lifting.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Varicocele typically become a concern?",
+          answer: "Varicocele typically becomes a concern around 20s-30s.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"High fiber, lots of water.\" help with Varicocele?",
+          answer: "Yes \u2014 High fiber, lots of water. is one of the natural approaches recommended for Varicocele.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'dvt',
@@ -2428,13 +5960,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Walk every 2 hours on flights.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is DVT?', answer: 'Blood clot in leg. Scientific name: Deep Vein Thrombosis.', category: 'Overview' },
-      { question: 'What causes DVT?', answer: 'Sitting too long causes clot.', category: 'Cause' },
-      { question: 'What is a hidden fact about DVT?', answer: 'Clots in the leg can break off and lodge in the lung (embolism).', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with DVT?', answer: 'Hydration, blood-thinning foods.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with DVT?', answer: 'Nattokinase, Garlic, Ginger.', category: 'Supplements' },
-      { question: 'What lifestyle changes help DVT?', answer: 'Walk every 2 hours on flights.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is DVT?",
+          answer: "Blood clot in leg. Scientific name: Deep Vein Thrombosis.",
+          category: "Overview"
+      },
+      {
+          question: "What causes DVT?",
+          answer: "Sitting too long causes clot.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about DVT?",
+          answer: "Clots in the leg can break off and lodge in the lung (embolism).",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with DVT?",
+          answer: "Hydration, blood-thinning foods.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with DVT?",
+          answer: "Nattokinase, Garlic, Ginger.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help DVT?",
+          answer: "Walk every 2 hours on flights.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does DVT typically become a concern?",
+          answer: "DVT typically becomes a concern around 40s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Hydration, blood-thinning foods.\" help with DVT?",
+          answer: "Yes \u2014 Hydration, blood-thinning foods. is one of the natural approaches recommended for DVT.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'iron-overload',
@@ -2456,13 +6022,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Regular blood donation.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Iron Overload?', answer: 'Too much iron in body. Scientific name: Hemochromatosis.', category: 'Overview' },
-      { question: 'What causes Iron Overload?', answer: 'Genetic issue rusts organs.', category: 'Cause' },
-      { question: 'What is a hidden fact about Iron Overload?', answer: 'Body absorbs excess iron; rusts the liver and heart.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Iron Overload?', answer: 'Avoid iron supplements/red meat.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Iron Overload?', answer: 'None (avoid iron).', category: 'Supplements' },
-      { question: 'What lifestyle changes help Iron Overload?', answer: 'Regular blood donation.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Iron Overload?",
+          answer: "Too much iron in body. Scientific name: Hemochromatosis.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Iron Overload?",
+          answer: "Genetic issue rusts organs.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Iron Overload?",
+          answer: "Body absorbs excess iron; rusts the liver and heart.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Iron Overload?",
+          answer: "Avoid iron supplements/red meat.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Iron Overload?",
+          answer: "None (avoid iron).",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Iron Overload?",
+          answer: "Regular blood donation.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Iron Overload typically become a concern?",
+          answer: "Iron Overload typically becomes a concern around 40s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Avoid iron supplements/red meat.\" help with Iron Overload?",
+          answer: "Yes \u2014 Avoid iron supplements/red meat. is one of the natural approaches recommended for Iron Overload.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'iron-deficiency',
@@ -2484,13 +6084,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Don\'t drink tea with meals.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Iron Deficiency?', answer: 'Low red blood cells. Scientific name: Iron Def. Anemia.', category: 'Overview' },
-      { question: 'What causes Iron Deficiency?', answer: 'Lack of meat/greens or blood loss.', category: 'Cause' },
-      { question: 'What is a hidden fact about Iron Deficiency?', answer: 'Craving ice (pagophagia) is a bizarre symptom of low iron.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Iron Deficiency?', answer: 'Red meat, spinach + Vitamin C.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Iron Deficiency?', answer: 'Iron Bisglycinate, Vitamin C.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Iron Deficiency?', answer: 'Don\'t drink tea with meals.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Iron Deficiency?",
+          answer: "Low red blood cells. Scientific name: Iron Def. Anemia.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Iron Deficiency?",
+          answer: "Lack of meat/greens or blood loss.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Iron Deficiency?",
+          answer: "Craving ice (pagophagia) is a bizarre symptom of low iron.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Iron Deficiency?",
+          answer: "Red meat, spinach + Vitamin C.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Iron Deficiency?",
+          answer: "Iron Bisglycinate, Vitamin C.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Iron Deficiency?",
+          answer: "Don't drink tea with meals.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Iron Deficiency typically become a concern?",
+          answer: "Iron Deficiency typically becomes a concern around Women 20s-40s.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Red meat, spinach + Vitamin C.\" help with Iron Deficiency?",
+          answer: "Yes \u2014 Red meat, spinach + Vitamin C. is one of the natural approaches recommended for Iron Deficiency.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'vitamin-d-deficiency',
@@ -2512,13 +6146,47 @@ export const TOPICS: Topic[] = [
     lifestyle: '15 mins midday sun exposure.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Vitamin D Deficiency?', answer: 'Low vitamin D levels. Scientific name: Hypovitaminosis D.', category: 'Overview' },
-      { question: 'What causes Vitamin D Deficiency?', answer: 'Indoor living blocks UV rays.', category: 'Cause' },
-      { question: 'What is a hidden fact about Vitamin D Deficiency?', answer: 'It\'s a prohormone, not a true vitamin; affects immunity.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Vitamin D Deficiency?', answer: 'Fatty fish, egg yolks.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Vitamin D Deficiency?', answer: 'Vitamin D3 + K2.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Vitamin D Deficiency?', answer: '15 mins midday sun exposure.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Vitamin D Deficiency?",
+          answer: "Low vitamin D levels. Scientific name: Hypovitaminosis D.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Vitamin D Deficiency?",
+          answer: "Indoor living blocks UV rays.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Vitamin D Deficiency?",
+          answer: "It's a prohormone, not a true vitamin; affects immunity.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Vitamin D Deficiency?",
+          answer: "Fatty fish, egg yolks.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Vitamin D Deficiency?",
+          answer: "Vitamin D3 + K2.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Vitamin D Deficiency?",
+          answer: "15 mins midday sun exposure.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Vitamin D Deficiency typically become a concern?",
+          answer: "Vitamin D Deficiency typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Fatty fish, egg yolks.\" help with Vitamin D Deficiency?",
+          answer: "Yes \u2014 Fatty fish, egg yolks. is one of the natural approaches recommended for Vitamin D Deficiency.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'b12-deficiency',
@@ -2540,13 +6208,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Treat gut issues; limit alcohol.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is B12 Deficiency?', answer: 'Nerve/brain damage. Scientific name: Vit B12 Deficiency.', category: 'Overview' },
-      { question: 'What causes B12 Deficiency?', answer: 'Vegan diet or poor gut absorption.', category: 'Cause' },
-      { question: 'What is a hidden fact about B12 Deficiency?', answer: 'Causes a smooth, beefy red tongue and memory loss.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with B12 Deficiency?', answer: 'Meat, dairy, fortified foods.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with B12 Deficiency?', answer: 'Methylcobalamin (B12).', category: 'Supplements' },
-      { question: 'What lifestyle changes help B12 Deficiency?', answer: 'Treat gut issues; limit alcohol.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is B12 Deficiency?",
+          answer: "Nerve/brain damage. Scientific name: Vit B12 Deficiency.",
+          category: "Overview"
+      },
+      {
+          question: "What causes B12 Deficiency?",
+          answer: "Vegan diet or poor gut absorption.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about B12 Deficiency?",
+          answer: "Causes a smooth, beefy red tongue and memory loss.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with B12 Deficiency?",
+          answer: "Meat, dairy, fortified foods.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with B12 Deficiency?",
+          answer: "Methylcobalamin (B12).",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help B12 Deficiency?",
+          answer: "Treat gut issues; limit alcohol.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does B12 Deficiency typically become a concern?",
+          answer: "B12 Deficiency typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Meat, dairy, fortified foods.\" help with B12 Deficiency?",
+          answer: "Yes \u2014 Meat, dairy, fortified foods. is one of the natural approaches recommended for B12 Deficiency.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'folate-deficiency',
@@ -2568,13 +6270,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Limit alcohol; cook veggies lightly.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Folate Deficiency?', answer: 'Birth defects/anemia. Scientific name: Vit B9 Deficiency.', category: 'Overview' },
-      { question: 'What causes Folate Deficiency?', answer: 'Lack of greens or alcoholism.', category: 'Cause' },
-      { question: 'What is a hidden fact about Folate Deficiency?', answer: 'Folate is destroyed by overcooking vegetables.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Folate Deficiency?', answer: 'Spinach, lentils, avocados.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Folate Deficiency?', answer: 'Folic Acid (B9), Methylfolate.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Folate Deficiency?', answer: 'Limit alcohol; cook veggies lightly.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Folate Deficiency?",
+          answer: "Birth defects/anemia. Scientific name: Vit B9 Deficiency.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Folate Deficiency?",
+          answer: "Lack of greens or alcoholism.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Folate Deficiency?",
+          answer: "Folate is destroyed by overcooking vegetables.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Folate Deficiency?",
+          answer: "Spinach, lentils, avocados.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Folate Deficiency?",
+          answer: "Folic Acid (B9), Methylfolate.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Folate Deficiency?",
+          answer: "Limit alcohol; cook veggies lightly.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Folate Deficiency typically become a concern?",
+          answer: "Folate Deficiency typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Spinach, lentils, avocados.\" help with Folate Deficiency?",
+          answer: "Yes \u2014 Spinach, lentils, avocados. is one of the natural approaches recommended for Folate Deficiency.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'acid-reflux',
@@ -2596,13 +6332,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Don\'t lie down 3 hrs after eating.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Acid Reflux?', answer: 'Stomach acid in esophagus. Scientific name: GERD / GORD.', category: 'Overview' },
-      { question: 'What causes Acid Reflux?', answer: 'Overeating/late meals weaken valve.', category: 'Cause' },
-      { question: 'What is a hidden fact about Acid Reflux?', answer: 'Chronic untreated reflux can permanently damage vocal cords.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Acid Reflux?', answer: 'Smaller meals; avoid spicy/fatty.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Acid Reflux?', answer: 'DGL Licorice, Aloe Vera, Slippery Elm.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Acid Reflux?', answer: 'Don\'t lie down 3 hrs after eating.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Acid Reflux?",
+          answer: "Stomach acid in esophagus. Scientific name: GERD / GORD.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Acid Reflux?",
+          answer: "Overeating/late meals weaken valve.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Acid Reflux?",
+          answer: "Chronic untreated reflux can permanently damage vocal cords.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Acid Reflux?",
+          answer: "Smaller meals; avoid spicy/fatty.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Acid Reflux?",
+          answer: "DGL Licorice, Aloe Vera, Slippery Elm.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Acid Reflux?",
+          answer: "Don't lie down 3 hrs after eating.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Acid Reflux typically become a concern?",
+          answer: "Acid Reflux typically becomes a concern around 30s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Smaller meals; avoid spicy/fatty.\" help with Acid Reflux?",
+          answer: "Yes \u2014 Smaller meals; avoid spicy/fatty. is one of the natural approaches recommended for Acid Reflux.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'ibs',
@@ -2624,13 +6394,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Stress reduction; yoga.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is IBS?', answer: 'Stomach cramps, bowels. Scientific name: Irritable Bowel Syndrome.', category: 'Overview' },
-      { question: 'What causes IBS?', answer: 'Stress/trigger foods disrupt gut-brain.', category: 'Cause' },
-      { question: 'What is a hidden fact about IBS?', answer: 'Gut microbes are completely different in IBS patients.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with IBS?', answer: 'Low-FODMAP diet; probiotics.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with IBS?', answer: 'Peppermint oil, Fennel, Iberogast.', category: 'Supplements' },
-      { question: 'What lifestyle changes help IBS?', answer: 'Stress reduction; yoga.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is IBS?",
+          answer: "Stomach cramps, bowels. Scientific name: Irritable Bowel Syndrome.",
+          category: "Overview"
+      },
+      {
+          question: "What causes IBS?",
+          answer: "Stress/trigger foods disrupt gut-brain.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about IBS?",
+          answer: "Gut microbes are completely different in IBS patients.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with IBS?",
+          answer: "Low-FODMAP diet; probiotics.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with IBS?",
+          answer: "Peppermint oil, Fennel, Iberogast.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help IBS?",
+          answer: "Stress reduction; yoga.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does IBS typically become a concern?",
+          answer: "IBS typically becomes a concern around 20s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Low-FODMAP diet; probiotics.\" help with IBS?",
+          answer: "Yes \u2014 Low-FODMAP diet; probiotics. is one of the natural approaches recommended for IBS.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'constipation',
@@ -2652,13 +6456,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Squatting position; daily walking.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Constipation?', answer: 'Hard, infrequent stools. Scientific name: Obstipation.', category: 'Overview' },
-      { question: 'What causes Constipation?', answer: 'Low fiber/dehydration slows colon.', category: 'Cause' },
-      { question: 'What is a hidden fact about Constipation?', answer: 'Ignoring the urge stretches the colon, making it lazy.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Constipation?', answer: 'Psyllium husk, prunes, greens.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Constipation?', answer: 'Magnesium Citrate, Senna.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Constipation?', answer: 'Squatting position; daily walking.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Constipation?",
+          answer: "Hard, infrequent stools. Scientific name: Obstipation.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Constipation?",
+          answer: "Low fiber/dehydration slows colon.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Constipation?",
+          answer: "Ignoring the urge stretches the colon, making it lazy.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Constipation?",
+          answer: "Psyllium husk, prunes, greens.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Constipation?",
+          answer: "Magnesium Citrate, Senna.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Constipation?",
+          answer: "Squatting position; daily walking.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Constipation typically become a concern?",
+          answer: "Constipation typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Psyllium husk, prunes, greens.\" help with Constipation?",
+          answer: "Yes \u2014 Psyllium husk, prunes, greens. is one of the natural approaches recommended for Constipation.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'diverticulitis',
@@ -2680,13 +6518,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Avoid seeds/nuts during flares (cautious).',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Diverticulitis?', answer: 'Infected pouches in colon. Scientific name: Diverticular Disease.', category: 'Overview' },
-      { question: 'What causes Diverticulitis?', answer: 'Low fiber causes pressure build-up.', category: 'Cause' },
-      { question: 'What is a hidden fact about Diverticulitis?', answer: 'Seeds/nuts don\'t actually cause flare-ups (an old myth).', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Diverticulitis?', answer: 'High-fiber diet (once healed).', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Diverticulitis?', answer: 'Probiotics, Slippery Elm.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Diverticulitis?', answer: 'Avoid seeds/nuts during flares (cautious).', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Diverticulitis?",
+          answer: "Infected pouches in colon. Scientific name: Diverticular Disease.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Diverticulitis?",
+          answer: "Low fiber causes pressure build-up.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Diverticulitis?",
+          answer: "Seeds/nuts don't actually cause flare-ups (an old myth).",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Diverticulitis?",
+          answer: "High-fiber diet (once healed).",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Diverticulitis?",
+          answer: "Probiotics, Slippery Elm.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Diverticulitis?",
+          answer: "Avoid seeds/nuts during flares (cautious).",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Diverticulitis typically become a concern?",
+          answer: "Diverticulitis typically becomes a concern around 50s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"High-fiber diet (once healed).\" help with Diverticulitis?",
+          answer: "Yes \u2014 High-fiber diet (once healed). is one of the natural approaches recommended for Diverticulitis.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'bowel-polyps',
@@ -2708,13 +6580,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Colonoscopies; daily exercise.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Bowel Polyps?', answer: 'Growths in colon. Scientific name: Colorectal Polyps.', category: 'Overview' },
-      { question: 'What causes Bowel Polyps?', answer: 'Red meat/low fiber alters gut bacteria.', category: 'Cause' },
-      { question: 'What is a hidden fact about Bowel Polyps?', answer: 'Most are benign, but adenomas turn into cancer over 10 years.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Bowel Polyps?', answer: 'High fiber, plant-based.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Bowel Polyps?', answer: 'Curcumin, Garlic, Green Tea.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Bowel Polyps?', answer: 'Colonoscopies; daily exercise.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Bowel Polyps?",
+          answer: "Growths in colon. Scientific name: Colorectal Polyps.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Bowel Polyps?",
+          answer: "Red meat/low fiber alters gut bacteria.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Bowel Polyps?",
+          answer: "Most are benign, but adenomas turn into cancer over 10 years.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Bowel Polyps?",
+          answer: "High fiber, plant-based.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Bowel Polyps?",
+          answer: "Curcumin, Garlic, Green Tea.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Bowel Polyps?",
+          answer: "Colonoscopies; daily exercise.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Bowel Polyps typically become a concern?",
+          answer: "Bowel Polyps typically becomes a concern around 50s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"High fiber, plant-based.\" help with Bowel Polyps?",
+          answer: "Yes \u2014 High fiber, plant-based. is one of the natural approaches recommended for Bowel Polyps.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'bowel-cancer',
@@ -2736,13 +6642,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Exercise; limit alcohol.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Bowel Cancer?', answer: 'Cancer of colon/rectum. Scientific name: Colorectal Carcinoma.', category: 'Overview' },
-      { question: 'What causes Bowel Cancer?', answer: 'Processed meat/alcohol mutate DNA.', category: 'Cause' },
-      { question: 'What is a hidden fact about Bowel Cancer?', answer: 'Removing polyps during a colonoscopy prevents cancer.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Bowel Cancer?', answer: 'High fiber, plant-heavy diet.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Bowel Cancer?', answer: 'Curcumin, Omega-3, Quercetin.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Bowel Cancer?', answer: 'Exercise; limit alcohol.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Bowel Cancer?",
+          answer: "Cancer of colon/rectum. Scientific name: Colorectal Carcinoma.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Bowel Cancer?",
+          answer: "Processed meat/alcohol mutate DNA.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Bowel Cancer?",
+          answer: "Removing polyps during a colonoscopy prevents cancer.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Bowel Cancer?",
+          answer: "High fiber, plant-heavy diet.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Bowel Cancer?",
+          answer: "Curcumin, Omega-3, Quercetin.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Bowel Cancer?",
+          answer: "Exercise; limit alcohol.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Bowel Cancer typically become a concern?",
+          answer: "Bowel Cancer typically becomes a concern around 50s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"High fiber, plant-heavy diet.\" help with Bowel Cancer?",
+          answer: "Yes \u2014 High fiber, plant-heavy diet. is one of the natural approaches recommended for Bowel Cancer.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'stomach-ulcer',
@@ -2764,13 +6704,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Cut alcohol/NSAIDs.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Stomach Ulcer?', answer: 'Sores in stomach lining. Scientific name: Peptic Ulcer / H. pylori.', category: 'Overview' },
-      { question: 'What causes Stomach Ulcer?', answer: 'H. pylori bacteria + stress.', category: 'Cause' },
-      { question: 'What is a hidden fact about Stomach Ulcer?', answer: 'Stress doesn\'t cause ulcers, but makes them hurt more.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Stomach Ulcer?', answer: 'Bone broth, cabbage juice.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Stomach Ulcer?', answer: 'Mastic gum, Matula tea, Zinc Carnosine.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Stomach Ulcer?', answer: 'Cut alcohol/NSAIDs.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Stomach Ulcer?",
+          answer: "Sores in stomach lining. Scientific name: Peptic Ulcer / H. pylori.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Stomach Ulcer?",
+          answer: "H. pylori bacteria + stress.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Stomach Ulcer?",
+          answer: "Stress doesn't cause ulcers, but makes them hurt more.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Stomach Ulcer?",
+          answer: "Bone broth, cabbage juice.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Stomach Ulcer?",
+          answer: "Mastic gum, Matula tea, Zinc Carnosine.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Stomach Ulcer?",
+          answer: "Cut alcohol/NSAIDs.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Stomach Ulcer typically become a concern?",
+          answer: "Stomach Ulcer typically becomes a concern around 40s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Bone broth, cabbage juice.\" help with Stomach Ulcer?",
+          answer: "Yes \u2014 Bone broth, cabbage juice. is one of the natural approaches recommended for Stomach Ulcer.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'gallstones',
@@ -2792,13 +6766,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Slow weight loss; daily exercise.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Gallstones?', answer: 'Stones in gallbladder. Scientific name: Cholelithiasis.', category: 'Overview' },
-      { question: 'What causes Gallstones?', answer: 'Rapid weight loss dumps cholesterol.', category: 'Cause' },
-      { question: 'What is a hidden fact about Gallstones?', answer: 'Crash diets cause the liver to dump cholesterol into bile.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Gallstones?', answer: 'Healthy fats gradually.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Gallstones?', answer: 'Chanca Piedra, Peppermint, Milk Thistle.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Gallstones?', answer: 'Slow weight loss; daily exercise.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Gallstones?",
+          answer: "Stones in gallbladder. Scientific name: Cholelithiasis.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Gallstones?",
+          answer: "Rapid weight loss dumps cholesterol.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Gallstones?",
+          answer: "Crash diets cause the liver to dump cholesterol into bile.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Gallstones?",
+          answer: "Healthy fats gradually.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Gallstones?",
+          answer: "Chanca Piedra, Peppermint, Milk Thistle.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Gallstones?",
+          answer: "Slow weight loss; daily exercise.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Gallstones typically become a concern?",
+          answer: "Gallstones typically becomes a concern around 40s+ (Women).",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Healthy fats gradually.\" help with Gallstones?",
+          answer: "Yes \u2014 Healthy fats gradually. is one of the natural approaches recommended for Gallstones.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'hemorrhoids',
@@ -2820,13 +6828,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Squatting stool; don\'t sit >5 mins.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Hemorrhoids?', answer: 'Swollen rectal veins/tears. Scientific name: Haemorrhoids / Fissures.', category: 'Overview' },
-      { question: 'What causes Hemorrhoids?', answer: 'Straining from hard stools.', category: 'Cause' },
-      { question: 'What is a hidden fact about Hemorrhoids?', answer: 'Passing a stone is often compared to childbirth in pain scale.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Hemorrhoids?', answer: 'High fiber, lots of water.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Hemorrhoids?', answer: 'Witch Hazel, Rutin, Psyllium.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Hemorrhoids?', answer: 'Squatting stool; don\'t sit >5 mins.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Hemorrhoids?",
+          answer: "Swollen rectal veins/tears. Scientific name: Haemorrhoids / Fissures.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Hemorrhoids?",
+          answer: "Straining from hard stools.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Hemorrhoids?",
+          answer: "Passing a stone is often compared to childbirth in pain scale.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Hemorrhoids?",
+          answer: "High fiber, lots of water.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Hemorrhoids?",
+          answer: "Witch Hazel, Rutin, Psyllium.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Hemorrhoids?",
+          answer: "Squatting stool; don't sit >5 mins.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Hemorrhoids typically become a concern?",
+          answer: "Hemorrhoids typically becomes a concern around 30s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"High fiber, lots of water.\" help with Hemorrhoids?",
+          answer: "Yes \u2014 High fiber, lots of water. is one of the natural approaches recommended for Hemorrhoids.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'nafld-cirrhosis',
@@ -2848,13 +6890,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Absolute alcohol cessation.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is NAFLD Cirrhosis?', answer: 'Scarred liver. Scientific name: Liver Fibrosis.', category: 'Overview' },
-      { question: 'What causes NAFLD Cirrhosis?', answer: 'Late-stage scarring from alcohol/fat.', category: 'Cause' },
-      { question: 'What is a hidden fact about NAFLD Cirrhosis?', answer: 'The liver can regenerate, but cirrhosis is irreversible.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with NAFLD Cirrhosis?', answer: 'Extreme low-fat, zero alcohol/sugar.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with NAFLD Cirrhosis?', answer: 'Milk Thistle, NAC, SAM-e.', category: 'Supplements' },
-      { question: 'What lifestyle changes help NAFLD Cirrhosis?', answer: 'Absolute alcohol cessation.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is NAFLD Cirrhosis?",
+          answer: "Scarred liver. Scientific name: Liver Fibrosis.",
+          category: "Overview"
+      },
+      {
+          question: "What causes NAFLD Cirrhosis?",
+          answer: "Late-stage scarring from alcohol/fat.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about NAFLD Cirrhosis?",
+          answer: "The liver can regenerate, but cirrhosis is irreversible.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with NAFLD Cirrhosis?",
+          answer: "Extreme low-fat, zero alcohol/sugar.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with NAFLD Cirrhosis?",
+          answer: "Milk Thistle, NAC, SAM-e.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help NAFLD Cirrhosis?",
+          answer: "Absolute alcohol cessation.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does NAFLD Cirrhosis typically become a concern?",
+          answer: "NAFLD Cirrhosis typically becomes a concern around 50s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Extreme low-fat, zero alcohol/sugar.\" help with NAFLD Cirrhosis?",
+          answer: "Yes \u2014 Extreme low-fat, zero alcohol/sugar. is one of the natural approaches recommended for NAFLD Cirrhosis.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'fatty-pancreas',
@@ -2876,13 +6952,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Weight loss; blood sugar control.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Fatty Pancreas?', answer: 'Fat in pancreas. Scientific name: NAFP.', category: 'Overview' },
-      { question: 'What causes Fatty Pancreas?', answer: 'Obesity and high triglycerides.', category: 'Cause' },
-      { question: 'What is a hidden fact about Fatty Pancreas?', answer: 'Fat deposits restore insulin-producing function when lost.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Fatty Pancreas?', answer: 'Diet-induced weight loss, low fat.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Fatty Pancreas?', answer: 'Chromium, Berberine, Enzymes.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Fatty Pancreas?', answer: 'Weight loss; blood sugar control.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Fatty Pancreas?",
+          answer: "Fat in pancreas. Scientific name: NAFP.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Fatty Pancreas?",
+          answer: "Obesity and high triglycerides.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Fatty Pancreas?",
+          answer: "Fat deposits restore insulin-producing function when lost.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Fatty Pancreas?",
+          answer: "Diet-induced weight loss, low fat.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Fatty Pancreas?",
+          answer: "Chromium, Berberine, Enzymes.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Fatty Pancreas?",
+          answer: "Weight loss; blood sugar control.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Fatty Pancreas typically become a concern?",
+          answer: "Fatty Pancreas typically becomes a concern around 40s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Diet-induced weight loss, low fat.\" help with Fatty Pancreas?",
+          answer: "Yes \u2014 Diet-induced weight loss, low fat. is one of the natural approaches recommended for Fatty Pancreas.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'celiac-disease',
@@ -2904,13 +7014,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Avoid cross-contamination.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Celiac Disease?', answer: 'Gut damage from gluten. Scientific name: Coeliac Disease.', category: 'Overview' },
-      { question: 'What causes Celiac Disease?', answer: 'Gluten triggers immune attack.', category: 'Cause' },
-      { question: 'What is a hidden fact about Celiac Disease?', answer: 'It\'s an immune reaction, not the same as gluten sensitivity.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Celiac Disease?', answer: '100% strict gluten-free diet.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Celiac Disease?', answer: 'Probiotics, L-Glutamine.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Celiac Disease?', answer: 'Avoid cross-contamination.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Celiac Disease?",
+          answer: "Gut damage from gluten. Scientific name: Coeliac Disease.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Celiac Disease?",
+          answer: "Gluten triggers immune attack.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Celiac Disease?",
+          answer: "It's an immune reaction, not the same as gluten sensitivity.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Celiac Disease?",
+          answer: "100% strict gluten-free diet.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Celiac Disease?",
+          answer: "Probiotics, L-Glutamine.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Celiac Disease?",
+          answer: "Avoid cross-contamination.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Celiac Disease typically become a concern?",
+          answer: "Celiac Disease typically becomes a concern around Infants+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"100% strict gluten-free diet.\" help with Celiac Disease?",
+          answer: "Yes \u2014 100% strict gluten-free diet. is one of the natural approaches recommended for Celiac Disease.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'crohns-uc',
@@ -2932,13 +7076,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Stop smoking; stress mgmt.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Crohn\'s / UC?', answer: 'Gut inflammation/ulcers. Scientific name: IBD.', category: 'Overview' },
-      { question: 'What causes Crohn\'s / UC?', answer: 'Emulsifiers/sugar tear gut lining.', category: 'Cause' },
-      { question: 'What is a hidden fact about Crohn\'s / UC?', answer: 'It can affect anywhere from mouth to anus.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Crohn\'s / UC?', answer: 'Exclusive Enteral Nutrition; low-fiber.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Crohn\'s / UC?', answer: 'Boswellia, Turmeric, Fish Oil.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Crohn\'s / UC?', answer: 'Stop smoking; stress mgmt.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Crohn's / UC?",
+          answer: "Gut inflammation/ulcers. Scientific name: IBD.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Crohn's / UC?",
+          answer: "Emulsifiers/sugar tear gut lining.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Crohn's / UC?",
+          answer: "It can affect anywhere from mouth to anus.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Crohn's / UC?",
+          answer: "Exclusive Enteral Nutrition; low-fiber.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Crohn's / UC?",
+          answer: "Boswellia, Turmeric, Fish Oil.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Crohn's / UC?",
+          answer: "Stop smoking; stress mgmt.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Crohn's / UC typically become a concern?",
+          answer: "Crohn's / UC typically becomes a concern around 20s-40s.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Exclusive Enteral Nutrition; low-fiber.\" help with Crohn's / UC?",
+          answer: "Yes \u2014 Exclusive Enteral Nutrition; low-fiber. is one of the natural approaches recommended for Crohn's / UC.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'sibo',
@@ -2960,13 +7138,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Prokinetics (ginger); meal spacing.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is SIBO?', answer: 'Bacteria in wrong place. Scientific name: Small Intestine Bacterial Overgrowth.', category: 'Overview' },
-      { question: 'What causes SIBO?', answer: 'Low motility lets bacteria climb.', category: 'Cause' },
-      { question: 'What is a hidden fact about SIBO?', answer: 'Antibiotics wipe out good bacteria, letting SIBO explode.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with SIBO?', answer: 'Specific Carb Diet (SCD) / Low-FODMAP.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with SIBO?', answer: 'Oregano oil, Berberine, Allicin.', category: 'Supplements' },
-      { question: 'What lifestyle changes help SIBO?', answer: 'Prokinetics (ginger); meal spacing.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is SIBO?",
+          answer: "Bacteria in wrong place. Scientific name: Small Intestine Bacterial Overgrowth.",
+          category: "Overview"
+      },
+      {
+          question: "What causes SIBO?",
+          answer: "Low motility lets bacteria climb.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about SIBO?",
+          answer: "Antibiotics wipe out good bacteria, letting SIBO explode.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with SIBO?",
+          answer: "Specific Carb Diet (SCD) / Low-FODMAP.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with SIBO?",
+          answer: "Oregano oil, Berberine, Allicin.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help SIBO?",
+          answer: "Prokinetics (ginger); meal spacing.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does SIBO typically become a concern?",
+          answer: "SIBO typically becomes a concern around 30s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Specific Carb Diet (SCD) / Low-FODMAP.\" help with SIBO?",
+          answer: "Yes \u2014 Specific Carb Diet (SCD) / Low-FODMAP. is one of the natural approaches recommended for SIBO.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'histamine-intolerance',
@@ -2988,13 +7200,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Gut healing; stress mgmt.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Histamine Intolerance?', answer: 'Allergy-like symptoms. Scientific name: Histamine Intolerance.', category: 'Overview' },
-      { question: 'What causes Histamine Intolerance?', answer: 'Poor diet lacks DAO enzyme.', category: 'Cause' },
-      { question: 'What is a hidden fact about Histamine Intolerance?', answer: 'Aged cheeses, wine, and leftovers are packed with histamine.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Histamine Intolerance?', answer: 'Avoid aged cheese, wine, leftovers.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Histamine Intolerance?', answer: 'DAO enzyme supplements, Quercetin.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Histamine Intolerance?', answer: 'Gut healing; stress mgmt.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Histamine Intolerance?",
+          answer: "Allergy-like symptoms. Scientific name: Histamine Intolerance.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Histamine Intolerance?",
+          answer: "Poor diet lacks DAO enzyme.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Histamine Intolerance?",
+          answer: "Aged cheeses, wine, and leftovers are packed with histamine.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Histamine Intolerance?",
+          answer: "Avoid aged cheese, wine, leftovers.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Histamine Intolerance?",
+          answer: "DAO enzyme supplements, Quercetin.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Histamine Intolerance?",
+          answer: "Gut healing; stress mgmt.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Histamine Intolerance typically become a concern?",
+          answer: "Histamine Intolerance typically becomes a concern around 30s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Avoid aged cheese, wine, leftovers.\" help with Histamine Intolerance?",
+          answer: "Yes \u2014 Avoid aged cheese, wine, leftovers. is one of the natural approaches recommended for Histamine Intolerance.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'leaky-gut',
@@ -3016,13 +7262,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Cut alcohol/NSAIDs; manage stress.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Leaky Gut?', answer: 'Holes in gut lining. Scientific name: Intestinal Permeability.', category: 'Overview' },
-      { question: 'What causes Leaky Gut?', answer: 'Alcohol/junk food breaks gut glue.', category: 'Cause' },
-      { question: 'What is a hidden fact about Leaky Gut?', answer: 'Lets undigested food particles leak directly into blood.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Leaky Gut?', answer: 'Bone broth, fermented foods.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Leaky Gut?', answer: 'L-Glutamine, Colostrum, Probiotics.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Leaky Gut?', answer: 'Cut alcohol/NSAIDs; manage stress.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Leaky Gut?",
+          answer: "Holes in gut lining. Scientific name: Intestinal Permeability.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Leaky Gut?",
+          answer: "Alcohol/junk food breaks gut glue.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Leaky Gut?",
+          answer: "Lets undigested food particles leak directly into blood.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Leaky Gut?",
+          answer: "Bone broth, fermented foods.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Leaky Gut?",
+          answer: "L-Glutamine, Colostrum, Probiotics.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Leaky Gut?",
+          answer: "Cut alcohol/NSAIDs; manage stress.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Leaky Gut typically become a concern?",
+          answer: "Leaky Gut typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Bone broth, fermented foods.\" help with Leaky Gut?",
+          answer: "Yes \u2014 Bone broth, fermented foods. is one of the natural approaches recommended for Leaky Gut.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'pancreatitis',
@@ -3044,13 +7324,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Absolute alcohol cessation.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Pancreatitis?', answer: 'Pancreas digests itself. Scientific name: Acute / Chronic Pancreatitis.', category: 'Overview' },
-      { question: 'What causes Pancreatitis?', answer: 'Alcohol/high triglycerides.', category: 'Cause' },
-      { question: 'What is a hidden fact about Pancreatitis?', answer: 'The pancreas literally digests itself with its own enzymes.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Pancreatitis?', answer: 'Strict low-fat, zero alcohol.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Pancreatitis?', answer: 'Digestive enzymes, antioxidants.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Pancreatitis?', answer: 'Absolute alcohol cessation.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Pancreatitis?",
+          answer: "Pancreas digests itself. Scientific name: Acute / Chronic Pancreatitis.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Pancreatitis?",
+          answer: "Alcohol/high triglycerides.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Pancreatitis?",
+          answer: "The pancreas literally digests itself with its own enzymes.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Pancreatitis?",
+          answer: "Strict low-fat, zero alcohol.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Pancreatitis?",
+          answer: "Digestive enzymes, antioxidants.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Pancreatitis?",
+          answer: "Absolute alcohol cessation.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Pancreatitis typically become a concern?",
+          answer: "Pancreatitis typically becomes a concern around 30s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Strict low-fat, zero alcohol.\" help with Pancreatitis?",
+          answer: "Yes \u2014 Strict low-fat, zero alcohol. is one of the natural approaches recommended for Pancreatitis.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'stomach-cancer',
@@ -3072,13 +7386,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Treat H. pylori; quit smoking.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Stomach Cancer?', answer: 'Cancer of stomach. Scientific name: Gastric Carcinoma.', category: 'Overview' },
-      { question: 'What causes Stomach Cancer?', answer: 'High salt/smoked meats feed H. pylori.', category: 'Cause' },
-      { question: 'What is a hidden fact about Stomach Cancer?', answer: 'Rates are highest in Japan/Korea due to salted foods.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Stomach Cancer?', answer: 'Fresh foods, high antioxidants.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Stomach Cancer?', answer: 'Green Tea extract, Curcumin, Garlic.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Stomach Cancer?', answer: 'Treat H. pylori; quit smoking.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Stomach Cancer?",
+          answer: "Cancer of stomach. Scientific name: Gastric Carcinoma.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Stomach Cancer?",
+          answer: "High salt/smoked meats feed H. pylori.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Stomach Cancer?",
+          answer: "Rates are highest in Japan/Korea due to salted foods.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Stomach Cancer?",
+          answer: "Fresh foods, high antioxidants.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Stomach Cancer?",
+          answer: "Green Tea extract, Curcumin, Garlic.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Stomach Cancer?",
+          answer: "Treat H. pylori; quit smoking.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Stomach Cancer typically become a concern?",
+          answer: "Stomach Cancer typically becomes a concern around 50s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Fresh foods, high antioxidants.\" help with Stomach Cancer?",
+          answer: "Yes \u2014 Fresh foods, high antioxidants. is one of the natural approaches recommended for Stomach Cancer.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'esophagitis',
@@ -3100,13 +7448,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Don\'t lie down after eating.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Esophagitis?', answer: 'Acid burns esophagus. Scientific name: Barrett\'s Esophagus / Cancer.', category: 'Overview' },
-      { question: 'What causes Esophagitis?', answer: 'Chronic acid reflux burns cells.', category: 'Cause' },
-      { question: 'What is a hidden fact about Esophagitis?', answer: 'Acid reflux changing cells is a major hidden cancer cause.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Esophagitis?', answer: 'Weight loss, small meals, low acid.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Esophagitis?', answer: 'DGL Licorice, Aloe Vera.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Esophagitis?', answer: 'Don\'t lie down after eating.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Esophagitis?",
+          answer: "Acid burns esophagus. Scientific name: Barrett's Esophagus / Cancer.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Esophagitis?",
+          answer: "Chronic acid reflux burns cells.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Esophagitis?",
+          answer: "Acid reflux changing cells is a major hidden cancer cause.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Esophagitis?",
+          answer: "Weight loss, small meals, low acid.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Esophagitis?",
+          answer: "DGL Licorice, Aloe Vera.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Esophagitis?",
+          answer: "Don't lie down after eating.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Esophagitis typically become a concern?",
+          answer: "Esophagitis typically becomes a concern around 50s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Weight loss, small meals, low acid.\" help with Esophagitis?",
+          answer: "Yes \u2014 Weight loss, small meals, low acid. is one of the natural approaches recommended for Esophagitis.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'gastritis',
@@ -3128,13 +7510,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Cut alcohol/NSAIDs; manage stress.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Gastritis?', answer: 'Stomach lining inflamed. Scientific name: Erosive Gastritis.', category: 'Overview' },
-      { question: 'What causes Gastritis?', answer: 'Spicy food, alcohol, coffee.', category: 'Cause' },
-      { question: 'What is a hidden fact about Gastritis?', answer: 'H. pylori survives acid by creating an ammonia cloud.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Gastritis?', answer: 'Bland diet, cabbage juice.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Gastritis?', answer: 'Slippery Elm, Marshmallow Root, Zinc.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Gastritis?', answer: 'Cut alcohol/NSAIDs; manage stress.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Gastritis?",
+          answer: "Stomach lining inflamed. Scientific name: Erosive Gastritis.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Gastritis?",
+          answer: "Spicy food, alcohol, coffee.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Gastritis?",
+          answer: "H. pylori survives acid by creating an ammonia cloud.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Gastritis?",
+          answer: "Bland diet, cabbage juice.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Gastritis?",
+          answer: "Slippery Elm, Marshmallow Root, Zinc.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Gastritis?",
+          answer: "Cut alcohol/NSAIDs; manage stress.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Gastritis typically become a concern?",
+          answer: "Gastritis typically becomes a concern around 30s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Bland diet, cabbage juice.\" help with Gastritis?",
+          answer: "Yes \u2014 Bland diet, cabbage juice. is one of the natural approaches recommended for Gastritis.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'anal-fissure',
@@ -3156,13 +7572,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Squatting position; stool softeners.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Anal Fissure?', answer: 'Tear in anal lining. Scientific name: Fissure in Ano.', category: 'Overview' },
-      { question: 'What causes Anal Fissure?', answer: 'Straining from low-fiber diet.', category: 'Cause' },
-      { question: 'What is a hidden fact about Anal Fissure?', answer: 'Often misdiagnosed as hemorrhoids, but it\'s a literal cut.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Anal Fissure?', answer: 'High fiber, lots of water.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Anal Fissure?', answer: 'Witch Hazel, Sitz baths.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Anal Fissure?', answer: 'Squatting position; stool softeners.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Anal Fissure?",
+          answer: "Tear in anal lining. Scientific name: Fissure in Ano.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Anal Fissure?",
+          answer: "Straining from low-fiber diet.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Anal Fissure?",
+          answer: "Often misdiagnosed as hemorrhoids, but it's a literal cut.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Anal Fissure?",
+          answer: "High fiber, lots of water.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Anal Fissure?",
+          answer: "Witch Hazel, Sitz baths.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Anal Fissure?",
+          answer: "Squatting position; stool softeners.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Anal Fissure typically become a concern?",
+          answer: "Anal Fissure typically becomes a concern around 30s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"High fiber, lots of water.\" help with Anal Fissure?",
+          answer: "Yes \u2014 High fiber, lots of water. is one of the natural approaches recommended for Anal Fissure.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'eoe',
@@ -3184,13 +7634,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Allergy testing; chew thoroughly.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is EoE?', answer: 'Allergies swarm esophagus. Scientific name: Eosinophilic Esophagitis.', category: 'Overview' },
-      { question: 'What causes EoE?', answer: 'Severe food allergies.', category: 'Cause' },
-      { question: 'What is a hidden fact about EoE?', answer: 'White blood cells swarm the esophagus, causing choking.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with EoE?', answer: 'Six-food Elimination Diet.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with EoE?', answer: 'Fish Oil, Quercetin, Zinc.', category: 'Supplements' },
-      { question: 'What lifestyle changes help EoE?', answer: 'Allergy testing; chew thoroughly.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is EoE?",
+          answer: "Allergies swarm esophagus. Scientific name: Eosinophilic Esophagitis.",
+          category: "Overview"
+      },
+      {
+          question: "What causes EoE?",
+          answer: "Severe food allergies.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about EoE?",
+          answer: "White blood cells swarm the esophagus, causing choking.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with EoE?",
+          answer: "Six-food Elimination Diet.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with EoE?",
+          answer: "Fish Oil, Quercetin, Zinc.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help EoE?",
+          answer: "Allergy testing; chew thoroughly.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does EoE typically become a concern?",
+          answer: "EoE typically becomes a concern around Kids-30s.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Six-food Elimination Diet.\" help with EoE?",
+          answer: "Yes \u2014 Six-food Elimination Diet. is one of the natural approaches recommended for EoE.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'gluten-sensitivity',
@@ -3212,13 +7696,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Read labels for hidden wheat.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Gluten Sensitivity?', answer: 'Bloating/brain fog from wheat. Scientific name: Non-Celiac Gluten Sensitivity.', category: 'Overview' },
-      { question: 'What causes Gluten Sensitivity?', answer: 'Eating wheat causes inflammation.', category: 'Cause' },
-      { question: 'What is a hidden fact about Gluten Sensitivity?', answer: 'Can develop suddenly to foods eaten safely for years.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Gluten Sensitivity?', answer: 'Remove gluten/wheat completely.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Gluten Sensitivity?', answer: 'Probiotics, L-Glutamine.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Gluten Sensitivity?', answer: 'Read labels for hidden wheat.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Gluten Sensitivity?",
+          answer: "Bloating/brain fog from wheat. Scientific name: Non-Celiac Gluten Sensitivity.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Gluten Sensitivity?",
+          answer: "Eating wheat causes inflammation.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Gluten Sensitivity?",
+          answer: "Can develop suddenly to foods eaten safely for years.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Gluten Sensitivity?",
+          answer: "Remove gluten/wheat completely.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Gluten Sensitivity?",
+          answer: "Probiotics, L-Glutamine.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Gluten Sensitivity?",
+          answer: "Read labels for hidden wheat.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Gluten Sensitivity typically become a concern?",
+          answer: "Gluten Sensitivity typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Remove gluten/wheat completely.\" help with Gluten Sensitivity?",
+          answer: "Yes \u2014 Remove gluten/wheat completely. is one of the natural approaches recommended for Gluten Sensitivity.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'vitamin-k-deficiency',
@@ -3240,13 +7758,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Eat healthy fats to absorb Vit K.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Vitamin K Deficiency?', answer: 'Blood won\'t clot. Scientific name: Hypovitaminosis K.', category: 'Overview' },
-      { question: 'What causes Vitamin K Deficiency?', answer: 'Long-term antibiotics/fat malabsorption.', category: 'Cause' },
-      { question: 'What is a hidden fact about Vitamin K Deficiency?', answer: 'Fat is required to absorb Vit K; low-fat diets cause deficiency.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Vitamin K Deficiency?', answer: 'Dark leafy greens (kale, spinach).', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Vitamin K Deficiency?', answer: 'Vitamin K2, Bile acids.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Vitamin K Deficiency?', answer: 'Eat healthy fats to absorb Vit K.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Vitamin K Deficiency?",
+          answer: "Blood won't clot. Scientific name: Hypovitaminosis K.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Vitamin K Deficiency?",
+          answer: "Long-term antibiotics/fat malabsorption.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Vitamin K Deficiency?",
+          answer: "Fat is required to absorb Vit K; low-fat diets cause deficiency.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Vitamin K Deficiency?",
+          answer: "Dark leafy greens (kale, spinach).",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Vitamin K Deficiency?",
+          answer: "Vitamin K2, Bile acids.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Vitamin K Deficiency?",
+          answer: "Eat healthy fats to absorb Vit K.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Vitamin K Deficiency typically become a concern?",
+          answer: "Vitamin K Deficiency typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Dark leafy greens (kale, spinach).\" help with Vitamin K Deficiency?",
+          answer: "Yes \u2014 Dark leafy greens (kale, spinach). is one of the natural approaches recommended for Vitamin K Deficiency.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'malnutrition',
@@ -3268,13 +7820,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Access to regular balanced meals.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Malnutrition?', answer: 'Lack of calories/nutrients. Scientific name: Nutritional Deficiency.', category: 'Overview' },
-      { question: 'What causes Malnutrition?', answer: 'Starvation or empty calorie junk.', category: 'Cause' },
-      { question: 'What is a hidden fact about Malnutrition?', answer: 'Can cause a swollen belly (kwashiorkor) despite starvation.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Malnutrition?', answer: 'Nutrient-dense whole foods.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Malnutrition?', answer: 'Multivitamins, Iron, Zinc.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Malnutrition?', answer: 'Access to regular balanced meals.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Malnutrition?",
+          answer: "Lack of calories/nutrients. Scientific name: Nutritional Deficiency.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Malnutrition?",
+          answer: "Starvation or empty calorie junk.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Malnutrition?",
+          answer: "Can cause a swollen belly (kwashiorkor) despite starvation.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Malnutrition?",
+          answer: "Nutrient-dense whole foods.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Malnutrition?",
+          answer: "Multivitamins, Iron, Zinc.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Malnutrition?",
+          answer: "Access to regular balanced meals.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Malnutrition typically become a concern?",
+          answer: "Malnutrition typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Nutrient-dense whole foods.\" help with Malnutrition?",
+          answer: "Yes \u2014 Nutrient-dense whole foods. is one of the natural approaches recommended for Malnutrition.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'dehydration',
@@ -3296,13 +7882,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Carry water bottle; avoid hot sun.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Dehydration?', answer: 'Lack of body water. Scientific name: Hypohydration.', category: 'Overview' },
-      { question: 'What causes Dehydration?', answer: 'Replacing water with soda/caffeine.', category: 'Cause' },
-      { question: 'What is a hidden fact about Dehydration?', answer: 'Thirst is a late sign; dark urine is an early warning.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Dehydration?', answer: '3L water daily, electrolytes.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Dehydration?', answer: 'Electrolyte powders, Coconut water.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Dehydration?', answer: 'Carry water bottle; avoid hot sun.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Dehydration?",
+          answer: "Lack of body water. Scientific name: Hypohydration.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Dehydration?",
+          answer: "Replacing water with soda/caffeine.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Dehydration?",
+          answer: "Thirst is a late sign; dark urine is an early warning.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Dehydration?",
+          answer: "3L water daily, electrolytes.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Dehydration?",
+          answer: "Electrolyte powders, Coconut water.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Dehydration?",
+          answer: "Carry water bottle; avoid hot sun.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Dehydration typically become a concern?",
+          answer: "Dehydration typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"3L water daily, electrolytes.\" help with Dehydration?",
+          answer: "Yes \u2014 3L water daily, electrolytes. is one of the natural approaches recommended for Dehydration.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'heatstroke',
@@ -3324,13 +7944,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Acclimatize to heat; take shade breaks.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Heatstroke?', answer: 'Body overheats. Scientific name: Hyperthermia.', category: 'Overview' },
-      { question: 'What causes Heatstroke?', answer: 'Extreme heat without water.', category: 'Cause' },
-      { question: 'What is a hidden fact about Heatstroke?', answer: 'Sweat stops; the brain\'s thermostat fails.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Heatstroke?', answer: 'Hydrate with electrolytes.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Heatstroke?', answer: 'Electrolytes, Salt tabs.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Heatstroke?', answer: 'Acclimatize to heat; take shade breaks.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Heatstroke?",
+          answer: "Body overheats. Scientific name: Hyperthermia.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Heatstroke?",
+          answer: "Extreme heat without water.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Heatstroke?",
+          answer: "Sweat stops; the brain's thermostat fails.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Heatstroke?",
+          answer: "Hydrate with electrolytes.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Heatstroke?",
+          answer: "Electrolytes, Salt tabs.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Heatstroke?",
+          answer: "Acclimatize to heat; take shade breaks.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Heatstroke typically become a concern?",
+          answer: "Heatstroke typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Hydrate with electrolytes.\" help with Heatstroke?",
+          answer: "Yes \u2014 Hydrate with electrolytes. is one of the natural approaches recommended for Heatstroke.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'bad-breath-gut',
@@ -3352,13 +8006,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Treat H. pylori; brush tongue.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Bad Breath (Gut)?', answer: 'Foul gut breath. Scientific name: Helicobacter pylori Infection.', category: 'Overview' },
-      { question: 'What causes Bad Breath (Gut)?', answer: 'H. pylori from contaminated food.', category: 'Cause' },
-      { question: 'What is a hidden fact about Bad Breath (Gut)?', answer: '90% of bad breath originates from the tongue or gut, not teeth.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Bad Breath (Gut)?', answer: 'Broccoli sprouts, no sugar.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Bad Breath (Gut)?', answer: 'Matula tea, Mastic gum, Probiotics.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Bad Breath (Gut)?', answer: 'Treat H. pylori; brush tongue.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Bad Breath (Gut)?",
+          answer: "Foul gut breath. Scientific name: Helicobacter pylori Infection.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Bad Breath (Gut)?",
+          answer: "H. pylori from contaminated food.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Bad Breath (Gut)?",
+          answer: "90% of bad breath originates from the tongue or gut, not teeth.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Bad Breath (Gut)?",
+          answer: "Broccoli sprouts, no sugar.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Bad Breath (Gut)?",
+          answer: "Matula tea, Mastic gum, Probiotics.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Bad Breath (Gut)?",
+          answer: "Treat H. pylori; brush tongue.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Bad Breath (Gut) typically become a concern?",
+          answer: "Bad Breath (Gut) typically becomes a concern around 30s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Broccoli sprouts, no sugar.\" help with Bad Breath (Gut)?",
+          answer: "Yes \u2014 Broccoli sprouts, no sugar. is one of the natural approaches recommended for Bad Breath (Gut).",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'kwashiorkor',
@@ -3380,13 +8068,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Nutritional rehabilitation.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Kwashiorkor?', answer: 'Swollen belly, starvation. Scientific name: Severe Protein Malnutrition.', category: 'Overview' },
-      { question: 'What causes Kwashiorkor?', answer: 'Diet of only starches, zero protein.', category: 'Cause' },
-      { question: 'What is a hidden fact about Kwashiorkor?', answer: 'Fluid leaks into the belly because there\'s no protein to hold it.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Kwashiorkor?', answer: 'Re-introduce protein slowly.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Kwashiorkor?', answer: 'Plumpy\'nut, Multivitamins.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Kwashiorkor?', answer: 'Nutritional rehabilitation.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Kwashiorkor?",
+          answer: "Swollen belly, starvation. Scientific name: Severe Protein Malnutrition.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Kwashiorkor?",
+          answer: "Diet of only starches, zero protein.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Kwashiorkor?",
+          answer: "Fluid leaks into the belly because there's no protein to hold it.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Kwashiorkor?",
+          answer: "Re-introduce protein slowly.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Kwashiorkor?",
+          answer: "Plumpy'nut, Multivitamins.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Kwashiorkor?",
+          answer: "Nutritional rehabilitation.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Kwashiorkor typically become a concern?",
+          answer: "Kwashiorkor typically becomes a concern around Children.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Re-introduce protein slowly.\" help with Kwashiorkor?",
+          answer: "Yes \u2014 Re-introduce protein slowly. is one of the natural approaches recommended for Kwashiorkor.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'water-intoxication',
@@ -3408,13 +8130,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Drink to thirst during endurance events.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Water Intoxication?', answer: 'Blood sodium diluted. Scientific name: Hyponatremia.', category: 'Overview' },
-      { question: 'What causes Water Intoxication?', answer: 'Drinking gallons of water without salt.', category: 'Cause' },
-      { question: 'What is a hidden fact about Water Intoxication?', answer: 'Drinking too much plain water can cause fatal brain swelling.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Water Intoxication?', answer: 'Electrolyte-rich fluids, salty foods.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Water Intoxication?', answer: 'Sodium, Potassium tabs.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Water Intoxication?', answer: 'Drink to thirst during endurance events.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Water Intoxication?",
+          answer: "Blood sodium diluted. Scientific name: Hyponatremia.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Water Intoxication?",
+          answer: "Drinking gallons of water without salt.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Water Intoxication?",
+          answer: "Drinking too much plain water can cause fatal brain swelling.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Water Intoxication?",
+          answer: "Electrolyte-rich fluids, salty foods.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Water Intoxication?",
+          answer: "Sodium, Potassium tabs.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Water Intoxication?",
+          answer: "Drink to thirst during endurance events.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Water Intoxication typically become a concern?",
+          answer: "Water Intoxication typically becomes a concern around Athletes.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Electrolyte-rich fluids, salty foods.\" help with Water Intoxication?",
+          answer: "Yes \u2014 Electrolyte-rich fluids, salty foods. is one of the natural approaches recommended for Water Intoxication.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'infertility',
@@ -3436,13 +8192,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Lose 5-10% weight; quit smoking.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Infertility?', answer: 'Can\'t conceive. Scientific name: Subfertility.', category: 'Overview' },
-      { question: 'What causes Infertility?', answer: 'Obesity, poor diet, smoking.', category: 'Cause' },
-      { question: 'What is a hidden fact about Infertility?', answer: 'Male factor causes 40% of cases; it\'s not just female.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Infertility?', answer: 'Mediterranean diet; high antioxidants.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Infertility?', answer: 'CoQ10, Zinc, Folate, Maca Root.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Infertility?', answer: 'Lose 5-10% weight; quit smoking.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Infertility?",
+          answer: "Can't conceive. Scientific name: Subfertility.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Infertility?",
+          answer: "Obesity, poor diet, smoking.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Infertility?",
+          answer: "Male factor causes 40% of cases; it's not just female.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Infertility?",
+          answer: "Mediterranean diet; high antioxidants.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Infertility?",
+          answer: "CoQ10, Zinc, Folate, Maca Root.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Infertility?",
+          answer: "Lose 5-10% weight; quit smoking.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Infertility typically become a concern?",
+          answer: "Infertility typically becomes a concern around 20s-40s.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Mediterranean diet; high antioxidants.\" help with Infertility?",
+          answer: "Yes \u2014 Mediterranean diet; high antioxidants. is one of the natural approaches recommended for Infertility.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'erectile-dysfunction',
@@ -3464,13 +8254,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Cardio exercise; quit smoking.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Erectile Dysfunction?', answer: 'Can\'t keep erection. Scientific name: Impotence (ED).', category: 'Overview' },
-      { question: 'What causes Erectile Dysfunction?', answer: 'Plaque blocks penile arteries.', category: 'Cause' },
-      { question: 'What is a hidden fact about Erectile Dysfunction?', answer: 'It is often an early warning sign of heart disease (3-5 yrs prior).', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Erectile Dysfunction?', answer: 'Dark chocolate, watermelon, pistachios.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Erectile Dysfunction?', answer: 'L-Arginine, Panax Ginseng, Ashwagandha.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Erectile Dysfunction?', answer: 'Cardio exercise; quit smoking.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Erectile Dysfunction?",
+          answer: "Can't keep erection. Scientific name: Impotence (ED).",
+          category: "Overview"
+      },
+      {
+          question: "What causes Erectile Dysfunction?",
+          answer: "Plaque blocks penile arteries.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Erectile Dysfunction?",
+          answer: "It is often an early warning sign of heart disease (3-5 yrs prior).",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Erectile Dysfunction?",
+          answer: "Dark chocolate, watermelon, pistachios.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Erectile Dysfunction?",
+          answer: "L-Arginine, Panax Ginseng, Ashwagandha.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Erectile Dysfunction?",
+          answer: "Cardio exercise; quit smoking.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Erectile Dysfunction typically become a concern?",
+          answer: "Erectile Dysfunction typically becomes a concern around 40s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Dark chocolate, watermelon, pistachios.\" help with Erectile Dysfunction?",
+          answer: "Yes \u2014 Dark chocolate, watermelon, pistachios. is one of the natural approaches recommended for Erectile Dysfunction.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'low-libido',
@@ -3492,13 +8316,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Adequate sleep; relationship counseling.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Low Libido?', answer: 'No sex drive. Scientific name: Hypoactive Sexual Desire.', category: 'Overview' },
-      { question: 'What causes Low Libido?', answer: 'Chronic stress, lack of zinc.', category: 'Cause' },
-      { question: 'What is a hidden fact about Low Libido?', answer: 'Can be a side effect of birth control pills.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Low Libido?', answer: 'Oysters, pumpkin seeds, healthy fats.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Low Libido?', answer: 'Maca, Ashwagandha, Tribulus.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Low Libido?', answer: 'Adequate sleep; relationship counseling.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Low Libido?",
+          answer: "No sex drive. Scientific name: Hypoactive Sexual Desire.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Low Libido?",
+          answer: "Chronic stress, lack of zinc.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Low Libido?",
+          answer: "Can be a side effect of birth control pills.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Low Libido?",
+          answer: "Oysters, pumpkin seeds, healthy fats.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Low Libido?",
+          answer: "Maca, Ashwagandha, Tribulus.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Low Libido?",
+          answer: "Adequate sleep; relationship counseling.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Low Libido typically become a concern?",
+          answer: "Low Libido typically becomes a concern around 30s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Oysters, pumpkin seeds, healthy fats.\" help with Low Libido?",
+          answer: "Yes \u2014 Oysters, pumpkin seeds, healthy fats. is one of the natural approaches recommended for Low Libido.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'menopause-symptoms',
@@ -3520,13 +8378,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Cool bedroom; stress management.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Menopause Symptoms?', answer: 'Hot flashes, mood swings. Scientific name: Menopause Transition.', category: 'Overview' },
-      { question: 'What causes Menopause Symptoms?', answer: 'Estrogen drop.', category: 'Cause' },
-      { question: 'What is a hidden fact about Menopause Symptoms?', answer: 'Can cause brain fog and joint pain, not just hot flashes.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Menopause Symptoms?', answer: 'Phytoestrogens (soy, flax); no caffeine.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Menopause Symptoms?', answer: 'Black Cohosh, Red Clover, Evening Primrose.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Menopause Symptoms?', answer: 'Cool bedroom; stress management.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Menopause Symptoms?",
+          answer: "Hot flashes, mood swings. Scientific name: Menopause Transition.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Menopause Symptoms?",
+          answer: "Estrogen drop.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Menopause Symptoms?",
+          answer: "Can cause brain fog and joint pain, not just hot flashes.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Menopause Symptoms?",
+          answer: "Phytoestrogens (soy, flax); no caffeine.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Menopause Symptoms?",
+          answer: "Black Cohosh, Red Clover, Evening Primrose.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Menopause Symptoms?",
+          answer: "Cool bedroom; stress management.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Menopause Symptoms typically become a concern?",
+          answer: "Menopause Symptoms typically becomes a concern around 45-55.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Phytoestrogens (soy, flax); no caffeine.\" help with Menopause Symptoms?",
+          answer: "Yes \u2014 Phytoestrogens (soy, flax); no caffeine. is one of the natural approaches recommended for Menopause Symptoms.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'pms-pmdd',
@@ -3548,13 +8440,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Regular exercise; sleep hygiene.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is PMS / PMDD?', answer: 'Extreme mood swings. Scientific name: Premenstrual Dysphoric Disorder.', category: 'Overview' },
-      { question: 'What causes PMS / PMDD?', answer: 'Blood sugar swings + hormones.', category: 'Cause' },
-      { question: 'What is a hidden fact about PMS / PMDD?', answer: 'PMDD can cause suicidal thoughts right before a period.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with PMS / PMDD?', answer: 'Magnesium-rich foods, low sugar/salt.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with PMS / PMDD?', answer: 'Chasteberry (Vitex), Calcium, B6.', category: 'Supplements' },
-      { question: 'What lifestyle changes help PMS / PMDD?', answer: 'Regular exercise; sleep hygiene.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is PMS / PMDD?",
+          answer: "Extreme mood swings. Scientific name: Premenstrual Dysphoric Disorder.",
+          category: "Overview"
+      },
+      {
+          question: "What causes PMS / PMDD?",
+          answer: "Blood sugar swings + hormones.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about PMS / PMDD?",
+          answer: "PMDD can cause suicidal thoughts right before a period.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with PMS / PMDD?",
+          answer: "Magnesium-rich foods, low sugar/salt.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with PMS / PMDD?",
+          answer: "Chasteberry (Vitex), Calcium, B6.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help PMS / PMDD?",
+          answer: "Regular exercise; sleep hygiene.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does PMS / PMDD typically become a concern?",
+          answer: "PMS / PMDD typically becomes a concern around Teens-40s.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Magnesium-rich foods, low sugar/salt.\" help with PMS / PMDD?",
+          answer: "Yes \u2014 Magnesium-rich foods, low sugar/salt. is one of the natural approaches recommended for PMS / PMDD.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'endometriosis-pain',
@@ -3576,13 +8502,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Heat pads; stress reduction.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Endometriosis Pain?', answer: 'Womb tissue outside womb. Scientific name: Endometriosis.', category: 'Overview' },
-      { question: 'What causes Endometriosis Pain?', answer: 'Red meat/trans fats inflame tissue.', category: 'Cause' },
-      { question: 'What is a hidden fact about Endometriosis Pain?', answer: 'Takes an average of 7-10 years to diagnose.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Endometriosis Pain?', answer: 'Anti-inflammatory Omega-3s, flaxseeds.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Endometriosis Pain?', answer: 'Turmeric, Ginger, NAC.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Endometriosis Pain?', answer: 'Heat pads; stress reduction.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Endometriosis Pain?",
+          answer: "Womb tissue outside womb. Scientific name: Endometriosis.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Endometriosis Pain?",
+          answer: "Red meat/trans fats inflame tissue.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Endometriosis Pain?",
+          answer: "Takes an average of 7-10 years to diagnose.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Endometriosis Pain?",
+          answer: "Anti-inflammatory Omega-3s, flaxseeds.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Endometriosis Pain?",
+          answer: "Turmeric, Ginger, NAC.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Endometriosis Pain?",
+          answer: "Heat pads; stress reduction.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Endometriosis Pain typically become a concern?",
+          answer: "Endometriosis Pain typically becomes a concern around 20s-40s.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Anti-inflammatory Omega-3s, flaxseeds.\" help with Endometriosis Pain?",
+          answer: "Yes \u2014 Anti-inflammatory Omega-3s, flaxseeds. is one of the natural approaches recommended for Endometriosis Pain.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'pre-eclampsia',
@@ -3604,13 +8564,52 @@ export const TOPICS: Topic[] = [
     lifestyle: 'BP monitoring; bed rest if severe.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Pre-Eclampsia?', answer: 'High BP in pregnancy. Scientific name: Toxemia of Pregnancy.', category: 'Overview' },
-      { question: 'What causes Pre-Eclampsia?', answer: 'Poor diet/obesity triggers BP.', category: 'Cause' },
-      { question: 'What is a hidden fact about Pre-Eclampsia?', answer: 'Only cure is delivering the baby, even if premature.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Pre-Eclampsia?', answer: 'High calcium, magnesium-rich foods.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Pre-Eclampsia?', answer: 'Baby Aspirin (med), Calcium, Magnesium.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Pre-Eclampsia?', answer: 'BP monitoring; bed rest if severe.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Pre-Eclampsia?",
+          answer: "High BP in pregnancy. Scientific name: Toxemia of Pregnancy.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Pre-Eclampsia?",
+          answer: "Poor diet/obesity triggers BP.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Pre-Eclampsia?",
+          answer: "Only cure is delivering the baby, even if premature.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Pre-Eclampsia?",
+          answer: "High calcium, magnesium-rich foods.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Pre-Eclampsia?",
+          answer: "Baby Aspirin (med), Calcium, Magnesium.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Pre-Eclampsia?",
+          answer: "BP monitoring; bed rest if severe.",
+          category: "Lifestyle"
+      },
+      {
+          question: "Is there a lesser-known fact about Pre-Eclampsia?",
+          answer: "Gestational hypertension typically resolves after delivery. Management focuses on monitoring and nutrition.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "At what age does Pre-Eclampsia typically become a concern?",
+          answer: "Pre-Eclampsia typically becomes a concern around Pregnancy.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"High calcium, magnesium-rich foods.\" help with Pre-Eclampsia?",
+          answer: "Yes \u2014 High calcium, magnesium-rich foods. is one of the natural approaches recommended for Pre-Eclampsia.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'fetal-alcohol-syndrome',
@@ -3632,13 +8631,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'ZERO alcohol during pregnancy.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Fetal Alcohol Syndrome?', answer: 'Baby brain damage. Scientific name: FASD.', category: 'Overview' },
-      { question: 'What causes Fetal Alcohol Syndrome?', answer: 'Alcohol poisons fetal brain.', category: 'Cause' },
-      { question: 'What is a hidden fact about Fetal Alcohol Syndrome?', answer: 'Alcohol causes the most preventable birth defects.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Fetal Alcohol Syndrome?', answer: 'Nutrient-dense maternal diet.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Fetal Alcohol Syndrome?', answer: 'Prenatal vitamins.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Fetal Alcohol Syndrome?', answer: 'ZERO alcohol during pregnancy.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Fetal Alcohol Syndrome?",
+          answer: "Baby brain damage. Scientific name: FASD.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Fetal Alcohol Syndrome?",
+          answer: "Alcohol poisons fetal brain.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Fetal Alcohol Syndrome?",
+          answer: "Alcohol causes the most preventable birth defects.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Fetal Alcohol Syndrome?",
+          answer: "Nutrient-dense maternal diet.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Fetal Alcohol Syndrome?",
+          answer: "Prenatal vitamins.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Fetal Alcohol Syndrome?",
+          answer: "ZERO alcohol during pregnancy.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Fetal Alcohol Syndrome typically become a concern?",
+          answer: "Fetal Alcohol Syndrome typically becomes a concern around Pregnancy.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Nutrient-dense maternal diet.\" help with Fetal Alcohol Syndrome?",
+          answer: "Yes \u2014 Nutrient-dense maternal diet. is one of the natural approaches recommended for Fetal Alcohol Syndrome.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'spina-bifida',
@@ -3660,13 +8693,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Pre-conception prenatal vitamins.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Spina Bifida?', answer: 'Spine doesn\'t close. Scientific name: Neural Tube Defects.', category: 'Overview' },
-      { question: 'What causes Spina Bifida?', answer: 'Lack of folate.', category: 'Cause' },
-      { question: 'What is a hidden fact about Spina Bifida?', answer: 'Taking folic acid before conception prevents it entirely.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Spina Bifida?', answer: 'Folate-rich greens, fortified foods.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Spina Bifida?', answer: 'Folic Acid (400mcg) before conception.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Spina Bifida?', answer: 'Pre-conception prenatal vitamins.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Spina Bifida?",
+          answer: "Spine doesn't close. Scientific name: Neural Tube Defects.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Spina Bifida?",
+          answer: "Lack of folate.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Spina Bifida?",
+          answer: "Taking folic acid before conception prevents it entirely.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Spina Bifida?",
+          answer: "Folate-rich greens, fortified foods.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Spina Bifida?",
+          answer: "Folic Acid (400mcg) before conception.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Spina Bifida?",
+          answer: "Pre-conception prenatal vitamins.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Spina Bifida typically become a concern?",
+          answer: "Spina Bifida typically becomes a concern around Pregnancy.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Folate-rich greens, fortified foods.\" help with Spina Bifida?",
+          answer: "Yes \u2014 Folate-rich greens, fortified foods. is one of the natural approaches recommended for Spina Bifida.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'adenomyosis',
@@ -3688,13 +8755,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Heat therapy; stress management.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Adenomyosis?', answer: 'Womb lining grows into muscle. Scientific name: Endometriosis Interna.', category: 'Overview' },
-      { question: 'What causes Adenomyosis?', answer: 'Hormones (estrogen).', category: 'Cause' },
-      { question: 'What is a hidden fact about Adenomyosis?', answer: 'Causes a boggy, enlarged uterus and severe cramps.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Adenomyosis?', answer: 'Anti-inflammatory, high-fiber diet.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Adenomyosis?', answer: 'Turmeric, Vitex, Omega-3.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Adenomyosis?', answer: 'Heat therapy; stress management.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Adenomyosis?",
+          answer: "Womb lining grows into muscle. Scientific name: Endometriosis Interna.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Adenomyosis?",
+          answer: "Hormones (estrogen).",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Adenomyosis?",
+          answer: "Causes a boggy, enlarged uterus and severe cramps.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Adenomyosis?",
+          answer: "Anti-inflammatory, high-fiber diet.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Adenomyosis?",
+          answer: "Turmeric, Vitex, Omega-3.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Adenomyosis?",
+          answer: "Heat therapy; stress management.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Adenomyosis typically become a concern?",
+          answer: "Adenomyosis typically becomes a concern around 30s-40s.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Anti-inflammatory, high-fiber diet.\" help with Adenomyosis?",
+          answer: "Yes \u2014 Anti-inflammatory, high-fiber diet. is one of the natural approaches recommended for Adenomyosis.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'endometrial-cancer',
@@ -3716,13 +8817,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Weight loss; limit alcohol.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Endometrial Cancer?', answer: 'Cancer of uterus. Scientific name: Uterine Cancer.', category: 'Overview' },
-      { question: 'What causes Endometrial Cancer?', answer: 'Obesity makes excess estrogen.', category: 'Cause' },
-      { question: 'What is a hidden fact about Endometrial Cancer?', answer: 'Fat cells convert androstenedione into estrogen.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Endometrial Cancer?', answer: 'High fiber (clears estrogen), low sugar.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Endometrial Cancer?', answer: 'DIM (cruciferous extract), Green Tea.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Endometrial Cancer?', answer: 'Weight loss; limit alcohol.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Endometrial Cancer?",
+          answer: "Cancer of uterus. Scientific name: Uterine Cancer.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Endometrial Cancer?",
+          answer: "Obesity makes excess estrogen.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Endometrial Cancer?",
+          answer: "Fat cells convert androstenedione into estrogen.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Endometrial Cancer?",
+          answer: "High fiber (clears estrogen), low sugar.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Endometrial Cancer?",
+          answer: "DIM (cruciferous extract), Green Tea.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Endometrial Cancer?",
+          answer: "Weight loss; limit alcohol.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Endometrial Cancer typically become a concern?",
+          answer: "Endometrial Cancer typically becomes a concern around 50s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"High fiber (clears estrogen), low sugar.\" help with Endometrial Cancer?",
+          answer: "Yes \u2014 High fiber (clears estrogen), low sugar. is one of the natural approaches recommended for Endometrial Cancer.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'breast-cancer',
@@ -3744,13 +8879,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Limit alcohol <1/day; maintain lean weight.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Breast Cancer?', answer: 'Cancer of breast. Scientific name: Mammary Carcinoma.', category: 'Overview' },
-      { question: 'What causes Breast Cancer?', answer: 'Alcohol intake and obesity.', category: 'Cause' },
-      { question: 'What is a hidden fact about Breast Cancer?', answer: 'Only 5-10% is strictly inherited; most are spontaneous.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Breast Cancer?', answer: 'High fiber, flaxseeds, low alcohol.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Breast Cancer?', answer: 'DIM, Curcumin, Vitamin D.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Breast Cancer?', answer: 'Limit alcohol <1/day; maintain lean weight.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Breast Cancer?",
+          answer: "Cancer of breast. Scientific name: Mammary Carcinoma.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Breast Cancer?",
+          answer: "Alcohol intake and obesity.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Breast Cancer?",
+          answer: "Only 5-10% is strictly inherited; most are spontaneous.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Breast Cancer?",
+          answer: "High fiber, flaxseeds, low alcohol.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Breast Cancer?",
+          answer: "DIM, Curcumin, Vitamin D.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Breast Cancer?",
+          answer: "Limit alcohol <1/day; maintain lean weight.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Breast Cancer typically become a concern?",
+          answer: "Breast Cancer typically becomes a concern around 40s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"High fiber, flaxseeds, low alcohol.\" help with Breast Cancer?",
+          answer: "Yes \u2014 High fiber, flaxseeds, low alcohol. is one of the natural approaches recommended for Breast Cancer.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'gestational-diabetes',
@@ -3772,13 +8941,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Daily prenatal walking.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Gestational Diabetes?', answer: 'Diabetes in pregnancy. Scientific name: GDM.', category: 'Overview' },
-      { question: 'What causes Gestational Diabetes?', answer: 'Pregnancy hormones cause insulin resistance.', category: 'Cause' },
-      { question: 'What is a hidden fact about Gestational Diabetes?', answer: 'Goes away after birth, but mother has high T2DM risk later.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Gestational Diabetes?', answer: 'Low-carb pregnancy diet, small meals.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Gestational Diabetes?', answer: 'Magnesium, Vitamin D, Inositol.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Gestational Diabetes?', answer: 'Daily prenatal walking.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Gestational Diabetes?",
+          answer: "Diabetes during pregnancy. Scientific name: GDM.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Gestational Diabetes?",
+          answer: "Pregnancy hormones cause insulin resistance.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Gestational Diabetes?",
+          answer: "Increases mother's risk of T2DM by 50% later in life.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Gestational Diabetes?",
+          answer: "Low-carb pregnancy diet, small meals.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Gestational Diabetes?",
+          answer: "Magnesium, Vitamin D.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Gestational Diabetes?",
+          answer: "Daily prenatal walking.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Gestational Diabetes typically become a concern?",
+          answer: "Gestational Diabetes typically becomes a concern around 20s-30s.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Low-carb pregnancy diet, small meals.\" help with Gestational Diabetes?",
+          answer: "Yes \u2014 Low-carb pregnancy diet, small meals. is one of the natural approaches recommended for Gestational Diabetes.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'baby-tooth-decay',
@@ -3800,13 +9003,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Wipe gums; don\'t sleep with bottle.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Baby Tooth Decay?', answer: 'Toddler tooth rot. Scientific name: Early Childhood Caries.', category: 'Overview' },
-      { question: 'What causes Baby Tooth Decay?', answer: 'Bedtime milk bottles sit on teeth.', category: 'Cause' },
-      { question: 'What is a hidden fact about Baby Tooth Decay?', answer: 'Putting baby to bed with milk/juice lets sugar sit all night.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Baby Tooth Decay?', answer: 'Water only at bedtime.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Baby Tooth Decay?', answer: 'Fluoride (pediatric dentist).', category: 'Supplements' },
-      { question: 'What lifestyle changes help Baby Tooth Decay?', answer: 'Wipe gums; don\'t sleep with bottle.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Baby Tooth Decay?",
+          answer: "Toddler tooth rot. Scientific name: Early Childhood Caries.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Baby Tooth Decay?",
+          answer: "Bedtime milk bottles sit on teeth.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Baby Tooth Decay?",
+          answer: "Putting baby to bed with milk/juice lets sugar sit all night.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Baby Tooth Decay?",
+          answer: "Water only at bedtime.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Baby Tooth Decay?",
+          answer: "Fluoride (pediatric dentist).",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Baby Tooth Decay?",
+          answer: "Wipe gums; don't sleep with bottle.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Baby Tooth Decay typically become a concern?",
+          answer: "Baby Tooth Decay typically becomes a concern around Toddlers.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Water only at bedtime.\" help with Baby Tooth Decay?",
+          answer: "Yes \u2014 Water only at bedtime. is one of the natural approaches recommended for Baby Tooth Decay.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'insomnia',
@@ -3828,13 +9065,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Dark room; no screens 1 hr before bed.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Insomnia?', answer: 'Can\'t fall/stay asleep. Scientific name: Sleep-onset/maintenance Insomnia.', category: 'Overview' },
-      { question: 'What causes Insomnia?', answer: 'Caffeine/blue light ruin rhythm.', category: 'Cause' },
-      { question: 'What is a hidden fact about Insomnia?', answer: 'Trying too hard to sleep causes performance anxiety in bed.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Insomnia?', answer: 'Tart cherry juice, kiwi, no late caffeine.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Insomnia?', answer: 'Melatonin, Valerian root, Magnesium Glycinate.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Insomnia?', answer: 'Dark room; no screens 1 hr before bed.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Insomnia?",
+          answer: "Can't fall/stay asleep. Scientific name: Sleep-onset/maintenance Insomnia.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Insomnia?",
+          answer: "Caffeine/blue light ruin rhythm.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Insomnia?",
+          answer: "Trying too hard to sleep causes performance anxiety in bed.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Insomnia?",
+          answer: "Tart cherry juice, kiwi, no late caffeine.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Insomnia?",
+          answer: "Melatonin, Valerian root, Magnesium Glycinate.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Insomnia?",
+          answer: "Dark room; no screens 1 hr before bed.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Insomnia typically become a concern?",
+          answer: "Insomnia typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Tart cherry juice, kiwi, no late caffeine.\" help with Insomnia?",
+          answer: "Yes \u2014 Tart cherry juice, kiwi, no late caffeine. is one of the natural approaches recommended for Insomnia.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'sleep-apnea',
@@ -3856,13 +9127,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Weight loss; CPAP machine.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Sleep Apnea?', answer: 'Breathing stops in sleep. Scientific name: Obstructive Sleep Apnoea.', category: 'Overview' },
-      { question: 'What causes Sleep Apnea?', answer: 'Neck fat collapses airway.', category: 'Cause' },
-      { question: 'What is a hidden fact about Sleep Apnea?', answer: 'Damages the heart because oxygen drops 100+ times a night.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Sleep Apnea?', answer: 'Anti-inflammatory diet for weight loss.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Sleep Apnea?', answer: 'Vitamin C, Fish Oil.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Sleep Apnea?', answer: 'Weight loss; CPAP machine.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Sleep Apnea?",
+          answer: "Breathing stops in sleep. Scientific name: Obstructive Sleep Apnoea.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Sleep Apnea?",
+          answer: "Neck fat collapses airway.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Sleep Apnea?",
+          answer: "Damages the heart because oxygen drops 100+ times a night.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Sleep Apnea?",
+          answer: "Anti-inflammatory diet for weight loss.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Sleep Apnea?",
+          answer: "Vitamin C, Fish Oil.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Sleep Apnea?",
+          answer: "Weight loss; CPAP machine.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Sleep Apnea typically become a concern?",
+          answer: "Sleep Apnea typically becomes a concern around 40s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Anti-inflammatory diet for weight loss.\" help with Sleep Apnea?",
+          answer: "Yes \u2014 Anti-inflammatory diet for weight loss. is one of the natural approaches recommended for Sleep Apnea.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'migraines',
@@ -3884,13 +9189,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Hydration; dark quiet room.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Migraines?', answer: 'Severe throbbing headache. Scientific name: Migraine Headache.', category: 'Overview' },
-      { question: 'What causes Migraines?', answer: 'Fasting/tyramine foods trigger spasms.', category: 'Cause' },
-      { question: 'What is a hidden fact about Migraines?', answer: 'It is a neurological disease, not just a bad headache.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Migraines?', answer: 'Regular meals; avoid aged cheese/wine.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Migraines?', answer: 'Magnesium, Butterbur, B2 (Riboflavin).', category: 'Supplements' },
-      { question: 'What lifestyle changes help Migraines?', answer: 'Hydration; dark quiet room.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Migraines?",
+          answer: "Severe throbbing headache. Scientific name: Migraine Headache.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Migraines?",
+          answer: "Fasting/tyramine foods trigger spasms.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Migraines?",
+          answer: "It is a neurological disease, not just a bad headache.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Migraines?",
+          answer: "Regular meals; avoid aged cheese/wine.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Migraines?",
+          answer: "Magnesium, Butterbur, B2 (Riboflavin).",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Migraines?",
+          answer: "Hydration; dark quiet room.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Migraines typically become a concern?",
+          answer: "Migraines typically becomes a concern around 20s-50s.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Regular meals; avoid aged cheese/wine.\" help with Migraines?",
+          answer: "Yes \u2014 Regular meals; avoid aged cheese/wine. is one of the natural approaches recommended for Migraines.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'depression',
@@ -3912,13 +9251,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Sunlight exposure; 30 mins cardio.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Depression?', answer: 'Low mood, energy. Scientific name: Major Depressive Disorder.', category: 'Overview' },
-      { question: 'What causes Depression?', answer: 'Poor diet/lack of sunlight.', category: 'Cause' },
-      { question: 'What is a hidden fact about Depression?', answer: 'Physical pain (backache) is a common hidden symptom.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Depression?', answer: 'Omega-3s, tryptophan-rich foods (turkey).', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Depression?', answer: 'St. John\'s Wort, SAM-e, Vitamin D.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Depression?', answer: 'Sunlight exposure; 30 mins cardio.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Depression?",
+          answer: "Low mood, energy. Scientific name: Major Depressive Disorder.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Depression?",
+          answer: "Poor diet/lack of sunlight.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Depression?",
+          answer: "Physical pain (backache) is a common hidden symptom.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Depression?",
+          answer: "Omega-3s, tryptophan-rich foods (turkey).",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Depression?",
+          answer: "St. John's Wort, SAM-e, Vitamin D.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Depression?",
+          answer: "Sunlight exposure; 30 mins cardio.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Depression typically become a concern?",
+          answer: "Depression typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Omega-3s, tryptophan-rich foods (turkey).\" help with Depression?",
+          answer: "Yes \u2014 Omega-3s, tryptophan-rich foods (turkey). is one of the natural approaches recommended for Depression.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'anxiety',
@@ -3940,13 +9313,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Cut caffeine; deep breathing therapy.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Anxiety?', answer: 'Excessive worry/panic. Scientific name: Generalized Anxiety Disorder.', category: 'Overview' },
-      { question: 'What causes Anxiety?', answer: 'Caffeine/alcohol/blood sugar drops.', category: 'Cause' },
-      { question: 'What is a hidden fact about Anxiety?', answer: 'Blood sugar crashes trigger the exact same panic response.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Anxiety?', answer: 'Complex carbs, no skipping meals.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Anxiety?', answer: 'Ashwagandha, L-Theanine, Lemon Balm.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Anxiety?', answer: 'Cut caffeine; deep breathing therapy.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Anxiety?",
+          answer: "Excessive worry/panic. Scientific name: Generalized Anxiety Disorder.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Anxiety?",
+          answer: "Caffeine/alcohol/blood sugar drops.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Anxiety?",
+          answer: "Blood sugar crashes trigger the exact same panic response.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Anxiety?",
+          answer: "Complex carbs, no skipping meals.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Anxiety?",
+          answer: "Ashwagandha, L-Theanine, Lemon Balm.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Anxiety?",
+          answer: "Cut caffeine; deep breathing therapy.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Anxiety typically become a concern?",
+          answer: "Anxiety typically becomes a concern around Teens+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Complex carbs, no skipping meals.\" help with Anxiety?",
+          answer: "Yes \u2014 Complex carbs, no skipping meals. is one of the natural approaches recommended for Anxiety.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'cognitive-decline',
@@ -3968,13 +9375,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Learn new skills; daily exercise.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Cognitive Decline?', answer: 'Brain shrinkage. Scientific name: Dementia / Alzheimer\'s.', category: 'Overview' },
-      { question: 'What causes Cognitive Decline?', answer: 'Sugar/plaque damage brain vessels.', category: 'Cause' },
-      { question: 'What is a hidden fact about Cognitive Decline?', answer: 'Alzheimer\'s starts in the brain 10-20 years before symptoms.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Cognitive Decline?', answer: 'MIND diet (berries, leafy greens, nuts).', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Cognitive Decline?', answer: 'Lion\'s Mane, Ginkgo, Omega-3 DHA.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Cognitive Decline?', answer: 'Learn new skills; daily exercise.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Cognitive Decline?",
+          answer: "Brain shrinkage. Scientific name: Dementia / Alzheimer's.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Cognitive Decline?",
+          answer: "Sugar/plaque damage brain vessels.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Cognitive Decline?",
+          answer: "Alzheimer's starts in the brain 10-20 years before symptoms.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Cognitive Decline?",
+          answer: "MIND diet (berries, leafy greens, nuts).",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Cognitive Decline?",
+          answer: "Lion's Mane, Ginkgo, Omega-3 DHA.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Cognitive Decline?",
+          answer: "Learn new skills; daily exercise.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Cognitive Decline typically become a concern?",
+          answer: "Cognitive Decline typically becomes a concern around 60s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"MIND diet (berries, leafy greens, nuts).\" help with Cognitive Decline?",
+          answer: "Yes \u2014 MIND diet (berries, leafy greens, nuts). is one of the natural approaches recommended for Cognitive Decline.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'adhd',
@@ -3996,13 +9437,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Strict routines; outdoor play.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is ADHD?', answer: 'Focus/hyperactivity. Scientific name: Attention Deficit Hyperactivity Disorder.', category: 'Overview' },
-      { question: 'What causes ADHD?', answer: 'Artificial dyes/sugar worsen swings.', category: 'Cause' },
-      { question: 'What is a hidden fact about ADHD?', answer: 'Caffeine often calms people with ADHD instead of stimulating them.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with ADHD?', answer: 'High protein, low sugar, no food dyes.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with ADHD?', answer: 'Omega-3 EPA/DHA, Zinc, Iron.', category: 'Supplements' },
-      { question: 'What lifestyle changes help ADHD?', answer: 'Strict routines; outdoor play.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is ADHD?",
+          answer: "Focus/hyperactivity. Scientific name: Attention Deficit Hyperactivity Disorder.",
+          category: "Overview"
+      },
+      {
+          question: "What causes ADHD?",
+          answer: "Artificial dyes/sugar worsen swings.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about ADHD?",
+          answer: "Caffeine often calms people with ADHD instead of stimulating them.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with ADHD?",
+          answer: "High protein, low sugar, no food dyes.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with ADHD?",
+          answer: "Omega-3 EPA/DHA, Zinc, Iron.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help ADHD?",
+          answer: "Strict routines; outdoor play.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does ADHD typically become a concern?",
+          answer: "ADHD typically becomes a concern around Childhood+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"High protein, low sugar, no food dyes.\" help with ADHD?",
+          answer: "Yes \u2014 High protein, low sugar, no food dyes. is one of the natural approaches recommended for ADHD.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'epilepsy-diet-cured',
@@ -4024,13 +9499,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Strict keto adherence; sleep tracking.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Epilepsy (Diet-Cured)?', answer: 'Brain electrical storms. Scientific name: Refractory Epilepsy.', category: 'Overview' },
-      { question: 'What causes Epilepsy (Diet-Cured)?', answer: 'Standard drugs fail.', category: 'Cause' },
-      { question: 'What is a hidden fact about Epilepsy (Diet-Cured)?', answer: 'The Ketogenic diet changes brain fuel, stopping seizures.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Epilepsy (Diet-Cured)?', answer: 'Ketogenic Diet (high fat, zero carb).', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Epilepsy (Diet-Cured)?', answer: 'MCT Oil, Vitamin D.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Epilepsy (Diet-Cured)?', answer: 'Strict keto adherence; sleep tracking.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Epilepsy (Diet-Cured)?",
+          answer: "Brain electrical storms. Scientific name: Refractory Epilepsy.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Epilepsy (Diet-Cured)?",
+          answer: "Standard drugs fail.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Epilepsy (Diet-Cured)?",
+          answer: "The Ketogenic diet changes brain fuel, stopping seizures.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Epilepsy (Diet-Cured)?",
+          answer: "Ketogenic Diet (high fat, zero carb).",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Epilepsy (Diet-Cured)?",
+          answer: "MCT Oil, Vitamin D.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Epilepsy (Diet-Cured)?",
+          answer: "Strict keto adherence; sleep tracking.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Epilepsy (Diet-Cured) typically become a concern?",
+          answer: "Epilepsy (Diet-Cured) typically becomes a concern around Childhood.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Ketogenic Diet (high fat, zero carb).\" help with Epilepsy (Diet-Cured)?",
+          answer: "Yes \u2014 Ketogenic Diet (high fat, zero carb). is one of the natural approaches recommended for Epilepsy (Diet-Cured).",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'restless-legs',
@@ -4052,13 +9561,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Cut caffeine; leg stretches before bed.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Restless Legs?', answer: 'Urge to move legs. Scientific name: Restless Legs Syndrome (RLS).', category: 'Overview' },
-      { question: 'What causes Restless Legs?', answer: 'Iron/magnesium deficiency.', category: 'Cause' },
-      { question: 'What is a hidden fact about Restless Legs?', answer: 'Symptoms only happen at night or when lying still.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Restless Legs?', answer: 'Iron-rich foods (red meat, spinach).', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Restless Legs?', answer: 'Iron Bisglycinate, Magnesium, Folate.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Restless Legs?', answer: 'Cut caffeine; leg stretches before bed.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Restless Legs?",
+          answer: "Urge to move legs. Scientific name: Restless Legs Syndrome (RLS).",
+          category: "Overview"
+      },
+      {
+          question: "What causes Restless Legs?",
+          answer: "Iron/magnesium deficiency.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Restless Legs?",
+          answer: "Symptoms only happen at night or when lying still.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Restless Legs?",
+          answer: "Iron-rich foods (red meat, spinach).",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Restless Legs?",
+          answer: "Iron Bisglycinate, Magnesium, Folate.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Restless Legs?",
+          answer: "Cut caffeine; leg stretches before bed.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Restless Legs typically become a concern?",
+          answer: "Restless Legs typically becomes a concern around 40s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Iron-rich foods (red meat, spinach).\" help with Restless Legs?",
+          answer: "Yes \u2014 Iron-rich foods (red meat, spinach). is one of the natural approaches recommended for Restless Legs.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'wernicke-korsakoff',
@@ -4080,13 +9623,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Absolute alcohol cessation.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Wernicke-Korsakoff?', answer: 'Memory loss, brain damage. Scientific name: Alcohol-Induced Brain Damage.', category: 'Overview' },
-      { question: 'What causes Wernicke-Korsakoff?', answer: 'Alcohol stops B1 absorption.', category: 'Cause' },
-      { question: 'What is a hidden fact about Wernicke-Korsakoff?', answer: 'Often misdiagnosed as dementia; completely reversible with B1.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Wernicke-Korsakoff?', answer: 'Thiamine-rich foods (pork, sunflower seeds).', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Wernicke-Korsakoff?', answer: 'High-dose IV/Oral Thiamine (B1).', category: 'Supplements' },
-      { question: 'What lifestyle changes help Wernicke-Korsakoff?', answer: 'Absolute alcohol cessation.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Wernicke-Korsakoff?",
+          answer: "Memory loss, brain damage. Scientific name: Alcohol-Induced Brain Damage.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Wernicke-Korsakoff?",
+          answer: "Alcohol stops B1 absorption.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Wernicke-Korsakoff?",
+          answer: "Often misdiagnosed as dementia; completely reversible with B1.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Wernicke-Korsakoff?",
+          answer: "Thiamine-rich foods (pork, sunflower seeds).",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Wernicke-Korsakoff?",
+          answer: "High-dose IV/Oral Thiamine (B1).",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Wernicke-Korsakoff?",
+          answer: "Absolute alcohol cessation.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Wernicke-Korsakoff typically become a concern?",
+          answer: "Wernicke-Korsakoff typically becomes a concern around 40s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Thiamine-rich foods (pork, sunflower seeds).\" help with Wernicke-Korsakoff?",
+          answer: "Yes \u2014 Thiamine-rich foods (pork, sunflower seeds). is one of the natural approaches recommended for Wernicke-Korsakoff.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'tension-headache',
@@ -4108,13 +9685,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Posture correction; screen breaks.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Tension Headache?', answer: 'Dull head pain. Scientific name: Tension-Type Headache.', category: 'Overview' },
-      { question: 'What causes Tension Headache?', answer: 'Dehydration, posture, skipped meals.', category: 'Cause' },
-      { question: 'What is a hidden fact about Tension Headache?', answer: 'Tech neck from looking at phones strains neck muscles.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Tension Headache?', answer: 'Water, regular balanced meals.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Tension Headache?', answer: 'Magnesium, Feverfew.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Tension Headache?', answer: 'Posture correction; screen breaks.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Tension Headache?",
+          answer: "Dull head pain. Scientific name: Tension-Type Headache.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Tension Headache?",
+          answer: "Dehydration, posture, skipped meals.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Tension Headache?",
+          answer: "Tech neck from looking at phones strains neck muscles.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Tension Headache?",
+          answer: "Water, regular balanced meals.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Tension Headache?",
+          answer: "Magnesium, Feverfew.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Tension Headache?",
+          answer: "Posture correction; screen breaks.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Tension Headache typically become a concern?",
+          answer: "Tension Headache typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Water, regular balanced meals.\" help with Tension Headache?",
+          answer: "Yes \u2014 Water, regular balanced meals. is one of the natural approaches recommended for Tension Headache.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'chronic-fatigue',
@@ -4136,13 +9747,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Pacing; strict sleep hygiene.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Chronic Fatigue?', answer: 'Extreme exhaustion. Scientific name: ME/CFS.', category: 'Overview' },
-      { question: 'What causes Chronic Fatigue?', answer: 'Nutrient deficiency, stress, virus.', category: 'Cause' },
-      { question: 'What is a hidden fact about Chronic Fatigue?', answer: 'The pain is in the brain/nerves, even if the original injury healed.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Chronic Fatigue?', answer: 'Anti-inflammatory, nutrient-dense diet.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Chronic Fatigue?', answer: 'CoQ10, D-Ribose, NADH, B12.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Chronic Fatigue?', answer: 'Pacing; strict sleep hygiene.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Chronic Fatigue?",
+          answer: "Extreme exhaustion. Scientific name: ME/CFS.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Chronic Fatigue?",
+          answer: "Nutrient deficiency, stress, virus.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Chronic Fatigue?",
+          answer: "The pain is in the brain/nerves, even if the original injury healed.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Chronic Fatigue?",
+          answer: "Anti-inflammatory, nutrient-dense diet.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Chronic Fatigue?",
+          answer: "CoQ10, D-Ribose, NADH, B12.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Chronic Fatigue?",
+          answer: "Pacing; strict sleep hygiene.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Chronic Fatigue typically become a concern?",
+          answer: "Chronic Fatigue typically becomes a concern around 20s-40s.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Anti-inflammatory, nutrient-dense diet.\" help with Chronic Fatigue?",
+          answer: "Yes \u2014 Anti-inflammatory, nutrient-dense diet. is one of the natural approaches recommended for Chronic Fatigue.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'tinnitus',
@@ -4164,13 +9809,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'White noise machines; stress mgmt.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Tinnitus?', answer: 'Phantom ear noise. Scientific name: Ringing in Ears.', category: 'Overview' },
-      { question: 'What causes Tinnitus?', answer: 'High salt/caffeine alters ear fluid.', category: 'Cause' },
-      { question: 'What is a hidden fact about Tinnitus?', answer: 'There is no cure; sound therapy retrains the brain to ignore it.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Tinnitus?', answer: 'Low sodium, low caffeine diet.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Tinnitus?', answer: 'Ginkgo Biloba, Zinc, B12.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Tinnitus?', answer: 'White noise machines; stress mgmt.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Tinnitus?",
+          answer: "Phantom ear noise. Scientific name: Ringing in Ears.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Tinnitus?",
+          answer: "High salt/caffeine alters ear fluid.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Tinnitus?",
+          answer: "There is no cure; sound therapy retrains the brain to ignore it.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Tinnitus?",
+          answer: "Low sodium, low caffeine diet.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Tinnitus?",
+          answer: "Ginkgo Biloba, Zinc, B12.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Tinnitus?",
+          answer: "White noise machines; stress mgmt.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Tinnitus typically become a concern?",
+          answer: "Tinnitus typically becomes a concern around 50s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Low sodium, low caffeine diet.\" help with Tinnitus?",
+          answer: "Yes \u2014 Low sodium, low caffeine diet. is one of the natural approaches recommended for Tinnitus.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'eye-twitches',
@@ -4192,13 +9871,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Cut caffeine; sleep more.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Eye Twitches?', answer: 'Eyelid spasms. Scientific name: Myokymia.', category: 'Overview' },
-      { question: 'What causes Eye Twitches?', answer: 'High caffeine, stress, Mg deficiency.', category: 'Cause' },
-      { question: 'What is a hidden fact about Eye Twitches?', answer: 'Brain tissue has no pain receptors; pain is from nerves/muscles.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Eye Twitches?', answer: 'Magnesium-rich foods (spinach, almonds).', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Eye Twitches?', answer: 'Magnesium, B-Complex.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Eye Twitches?', answer: 'Cut caffeine; sleep more.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Eye Twitches?",
+          answer: "Eyelid spasms. Scientific name: Myokymia.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Eye Twitches?",
+          answer: "High caffeine, stress, Mg deficiency.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Eye Twitches?",
+          answer: "Brain tissue has no pain receptors; pain is from nerves/muscles.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Eye Twitches?",
+          answer: "Magnesium-rich foods (spinach, almonds).",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Eye Twitches?",
+          answer: "Magnesium, B-Complex.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Eye Twitches?",
+          answer: "Cut caffeine; sleep more.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Eye Twitches typically become a concern?",
+          answer: "Eye Twitches typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Magnesium-rich foods (spinach, almonds).\" help with Eye Twitches?",
+          answer: "Yes \u2014 Magnesium-rich foods (spinach, almonds). is one of the natural approaches recommended for Eye Twitches.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'night-eating',
@@ -4220,13 +9933,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Reset hunger circadian rhythm; sleep.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Night Eating?', answer: 'Nighttime bingeing. Scientific name: Night Eating Syndrome.', category: 'Overview' },
-      { question: 'What causes Night Eating?', answer: 'Skipping breakfast/undereating.', category: 'Cause' },
-      { question: 'What is a hidden fact about Night Eating?', answer: 'Re-setting hunger and satiety hormones reverses this pattern.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Night Eating?', answer: 'Regular, high-protein meals throughout day.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Night Eating?', answer: 'Magnesium, 5-HTP.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Night Eating?', answer: 'Reset hunger circadian rhythm; sleep.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Night Eating?",
+          answer: "Nighttime bingeing. Scientific name: Night Eating Syndrome.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Night Eating?",
+          answer: "Skipping breakfast/undereating.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Night Eating?",
+          answer: "Re-setting hunger and satiety hormones reverses this pattern.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Night Eating?",
+          answer: "Regular, high-protein meals throughout day.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Night Eating?",
+          answer: "Magnesium, 5-HTP.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Night Eating?",
+          answer: "Reset hunger circadian rhythm; sleep.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Night Eating typically become a concern?",
+          answer: "Night Eating typically becomes a concern around 20s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Regular, high-protein meals throughout day.\" help with Night Eating?",
+          answer: "Yes \u2014 Regular, high-protein meals throughout day. is one of the natural approaches recommended for Night Eating.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'orthorexia',
@@ -4248,13 +9995,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Psychological therapy; stop tracking macros.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Orthorexia?', answer: 'Obsession with clean eating. Scientific name: Orthorexia Nervosa.', category: 'Overview' },
-      { question: 'What causes Orthorexia?', answer: 'Anxiety around impure foods.', category: 'Cause' },
-      { question: 'What is a hidden fact about Orthorexia?', answer: 'Can lead to severe malnutrition despite eating healthy.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Orthorexia?', answer: 'Reintroducing fear foods gradually.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Orthorexia?', answer: 'Multivitamin for deficiencies.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Orthorexia?', answer: 'Psychological therapy; stop tracking macros.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Orthorexia?",
+          answer: "Obsession with clean eating. Scientific name: Orthorexia Nervosa.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Orthorexia?",
+          answer: "Anxiety around impure foods.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Orthorexia?",
+          answer: "Can lead to severe malnutrition despite eating healthy.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Orthorexia?",
+          answer: "Reintroducing fear foods gradually.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Orthorexia?",
+          answer: "Multivitamin for deficiencies.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Orthorexia?",
+          answer: "Psychological therapy; stop tracking macros.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Orthorexia typically become a concern?",
+          answer: "Orthorexia typically becomes a concern around 20s-40s.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Reintroducing fear foods gradually.\" help with Orthorexia?",
+          answer: "Yes \u2014 Reintroducing fear foods gradually. is one of the natural approaches recommended for Orthorexia.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'jet-lag-shift-work',
@@ -4276,13 +10057,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Light therapy (sun AM, blue-blockers PM).',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Jet Lag / Shift Work?', answer: 'Ruined sleep clock. Scientific name: Circadian Rhythm Disorder.', category: 'Overview' },
-      { question: 'What causes Jet Lag / Shift Work?', answer: 'Time zones/night shifts.', category: 'Cause' },
-      { question: 'What is a hidden fact about Jet Lag / Shift Work?', answer: 'The body clock shifts 1 hour per day; flying east is harder.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Jet Lag / Shift Work?', answer: 'Timed meals; high protein AM, carbs PM.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Jet Lag / Shift Work?', answer: 'Melatonin, Magnesium.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Jet Lag / Shift Work?', answer: 'Light therapy (sun AM, blue-blockers PM).', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Jet Lag / Shift Work?",
+          answer: "Ruined sleep clock. Scientific name: Circadian Rhythm Disorder.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Jet Lag / Shift Work?",
+          answer: "Time zones/night shifts.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Jet Lag / Shift Work?",
+          answer: "The body clock shifts 1 hour per day; flying east is harder.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Jet Lag / Shift Work?",
+          answer: "Timed meals; high protein AM, carbs PM.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Jet Lag / Shift Work?",
+          answer: "Melatonin, Magnesium.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Jet Lag / Shift Work?",
+          answer: "Light therapy (sun AM, blue-blockers PM).",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Jet Lag / Shift Work typically become a concern?",
+          answer: "Jet Lag / Shift Work typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Timed meals; high protein AM, carbs PM.\" help with Jet Lag / Shift Work?",
+          answer: "Yes \u2014 Timed meals; high protein AM, carbs PM. is one of the natural approaches recommended for Jet Lag / Shift Work.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'motion-sickness',
@@ -4304,13 +10119,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Look at horizon; sit in front seat.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Motion Sickness?', answer: 'Nausea in vehicles. Scientific name: Kinetosis.', category: 'Overview' },
-      { question: 'What causes Motion Sickness?', answer: 'Sensory mismatch in brain.', category: 'Cause' },
-      { question: 'What is a hidden fact about Motion Sickness?', answer: 'Blind people can still get motion sickness via inner ear.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Motion Sickness?', answer: 'Ginger root before travel.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Motion Sickness?', answer: 'Ginger, Peppermint, B6.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Motion Sickness?', answer: 'Look at horizon; sit in front seat.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Motion Sickness?",
+          answer: "Nausea in vehicles. Scientific name: Kinetosis.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Motion Sickness?",
+          answer: "Sensory mismatch in brain.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Motion Sickness?",
+          answer: "Blind people can still get motion sickness via inner ear.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Motion Sickness?",
+          answer: "Ginger root before travel.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Motion Sickness?",
+          answer: "Ginger, Peppermint, B6.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Motion Sickness?",
+          answer: "Look at horizon; sit in front seat.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Motion Sickness typically become a concern?",
+          answer: "Motion Sickness typically becomes a concern around Childhood+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Ginger root before travel.\" help with Motion Sickness?",
+          answer: "Yes \u2014 Ginger root before travel. is one of the natural approaches recommended for Motion Sickness.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'anorexia-bulimia-bed',
@@ -4332,13 +10181,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'CBT therapy; regular meal timing.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Anorexia / Bulimia / BED?', answer: 'Starving/binge-purge. Scientific name: Eating Disorders.', category: 'Overview' },
-      { question: 'What causes Anorexia / Bulimia / BED?', answer: 'Severe restriction or trauma.', category: 'Cause' },
-      { question: 'What is a hidden fact about Anorexia / Bulimia / BED?', answer: 'Anorexia has the highest mortality rate of any mental illness.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Anorexia / Bulimia / BED?', answer: 'Regular balanced meals, re-feeding.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Anorexia / Bulimia / BED?', answer: 'Zinc, Omega-3, Probiotics.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Anorexia / Bulimia / BED?', answer: 'CBT therapy; regular meal timing.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Anorexia / Bulimia / BED?",
+          answer: "Starving/binge-purge. Scientific name: Eating Disorders.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Anorexia / Bulimia / BED?",
+          answer: "Severe restriction or trauma.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Anorexia / Bulimia / BED?",
+          answer: "Anorexia has the highest mortality rate of any mental illness.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Anorexia / Bulimia / BED?",
+          answer: "Regular balanced meals, re-feeding.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Anorexia / Bulimia / BED?",
+          answer: "Zinc, Omega-3, Probiotics.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Anorexia / Bulimia / BED?",
+          answer: "CBT therapy; regular meal timing.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Anorexia / Bulimia / BED typically become a concern?",
+          answer: "Anorexia / Bulimia / BED typically becomes a concern around Teens-30s.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Regular balanced meals, re-feeding.\" help with Anorexia / Bulimia / BED?",
+          answer: "Yes \u2014 Regular balanced meals, re-feeding. is one of the natural approaches recommended for Anorexia / Bulimia / BED.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'osteoporosis',
@@ -4360,13 +10243,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Weight-bearing exercise (lifting weights).',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Osteoporosis?', answer: 'Brittle bones. Scientific name: Bone Thinning.', category: 'Overview' },
-      { question: 'What causes Osteoporosis?', answer: 'Lack of Vit D/calcium + no exercise.', category: 'Cause' },
-      { question: 'What is a hidden fact about Osteoporosis?', answer: 'Bones are living tissue; weight-bearing exercise builds them.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Osteoporosis?', answer: 'Dairy, sardines, leafy greens.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Osteoporosis?', answer: 'Calcium, Vit D3, Vit K2, Magnesium.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Osteoporosis?', answer: 'Weight-bearing exercise (lifting weights).', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Osteoporosis?",
+          answer: "Brittle bones. Scientific name: Bone Thinning.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Osteoporosis?",
+          answer: "Lack of Vit D/calcium + no exercise.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Osteoporosis?",
+          answer: "Bones are living tissue; weight-bearing exercise builds them.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Osteoporosis?",
+          answer: "Dairy, sardines, leafy greens.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Osteoporosis?",
+          answer: "Calcium, Vit D3, Vit K2, Magnesium.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Osteoporosis?",
+          answer: "Weight-bearing exercise (lifting weights).",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Osteoporosis typically become a concern?",
+          answer: "Osteoporosis typically becomes a concern around 50s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Dairy, sardines, leafy greens.\" help with Osteoporosis?",
+          answer: "Yes \u2014 Dairy, sardines, leafy greens. is one of the natural approaches recommended for Osteoporosis.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'osteoarthritis',
@@ -4388,13 +10305,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Low-impact cardio (swimming); strength training.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Osteoarthritis?', answer: 'Joint cartilage wear. Scientific name: Degenerative Joint Disease.', category: 'Overview' },
-      { question: 'What causes Osteoarthritis?', answer: 'Obesity physically crushes cartilage.', category: 'Cause' },
-      { question: 'What is a hidden fact about Osteoarthritis?', answer: 'Cartilage has no blood vessels, so it heals very poorly.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Osteoarthritis?', answer: 'Anti-inflammatory diet, weight loss.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Osteoarthritis?', answer: 'Glucosamine, Chondroitin, Turmeric.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Osteoarthritis?', answer: 'Low-impact cardio (swimming); strength training.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Osteoarthritis?",
+          answer: "Joint cartilage wear. Scientific name: Degenerative Joint Disease.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Osteoarthritis?",
+          answer: "Obesity physically crushes cartilage.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Osteoarthritis?",
+          answer: "Cartilage has no blood vessels, so it heals very poorly.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Osteoarthritis?",
+          answer: "Anti-inflammatory diet, weight loss.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Osteoarthritis?",
+          answer: "Glucosamine, Chondroitin, Turmeric.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Osteoarthritis?",
+          answer: "Low-impact cardio (swimming); strength training.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Osteoarthritis typically become a concern?",
+          answer: "Osteoarthritis typically becomes a concern around 50s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Anti-inflammatory diet, weight loss.\" help with Osteoarthritis?",
+          answer: "Yes \u2014 Anti-inflammatory diet, weight loss. is one of the natural approaches recommended for Osteoarthritis.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'kidney-stones',
@@ -4416,13 +10367,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Lemon water; reduce red meat.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Kidney Stones?', answer: 'Hard mineral stones. Scientific name: Nephrolithiasis.', category: 'Overview' },
-      { question: 'What causes Kidney Stones?', answer: 'Dehydration + high salt/oxalates.', category: 'Cause' },
-      { question: 'What is a hidden fact about Kidney Stones?', answer: 'Passing a stone is often compared to childbirth in pain scale.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Kidney Stones?', answer: '3L water/day, low salt, low oxalate.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Kidney Stones?', answer: 'Chanca Piedra, Magnesium, Citrate.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Kidney Stones?', answer: 'Lemon water; reduce red meat.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Kidney Stones?",
+          answer: "Hard mineral stones. Scientific name: Nephrolithiasis.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Kidney Stones?",
+          answer: "Dehydration + high salt/oxalates.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Kidney Stones?",
+          answer: "Passing a stone is often compared to childbirth in pain scale.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Kidney Stones?",
+          answer: "3L water/day, low salt, low oxalate.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Kidney Stones?",
+          answer: "Chanca Piedra, Magnesium, Citrate.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Kidney Stones?",
+          answer: "Lemon water; reduce red meat.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Kidney Stones typically become a concern?",
+          answer: "Kidney Stones typically becomes a concern around 30s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"3L water/day, low salt, low oxalate.\" help with Kidney Stones?",
+          answer: "Yes \u2014 3L water/day, low salt, low oxalate. is one of the natural approaches recommended for Kidney Stones.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'sarcopenia',
@@ -4444,13 +10429,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Resistance training 3x/week.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Sarcopenia?', answer: 'Muscle wasting. Scientific name: Muscle Loss.', category: 'Overview' },
-      { question: 'What causes Sarcopenia?', answer: 'Aging + no protein + sitting.', category: 'Cause' },
-      { question: 'What is a hidden fact about Sarcopenia?', answer: 'Muscle tissue is the body\'s largest reservoir of amino acids.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Sarcopenia?', answer: 'High protein (leucine) at every meal.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Sarcopenia?', answer: 'Creatine, Whey Protein, Vit D.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Sarcopenia?', answer: 'Resistance training 3x/week.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Sarcopenia?",
+          answer: "Muscle wasting. Scientific name: Muscle Loss.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Sarcopenia?",
+          answer: "Aging + no protein + sitting.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Sarcopenia?",
+          answer: "Muscle tissue is the body's largest reservoir of amino acids.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Sarcopenia?",
+          answer: "High protein (leucine) at every meal.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Sarcopenia?",
+          answer: "Creatine, Whey Protein, Vit D.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Sarcopenia?",
+          answer: "Resistance training 3x/week.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Sarcopenia typically become a concern?",
+          answer: "Sarcopenia typically becomes a concern around 60s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"High protein (leucine) at every meal.\" help with Sarcopenia?",
+          answer: "Yes \u2014 High protein (leucine) at every meal. is one of the natural approaches recommended for Sarcopenia.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'back-pain',
@@ -4472,13 +10491,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Core strengthening; ergonomic desk setup.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Back Pain?', answer: 'Aches in lower/upper back. Scientific name: Lumbago / Dorsalgia.', category: 'Overview' },
-      { question: 'What causes Back Pain?', answer: 'Weak core + sitting strains discs.', category: 'Cause' },
-      { question: 'What is a hidden fact about Back Pain?', answer: 'Leading cause of global disability; often improves without scans.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Back Pain?', answer: 'Anti-inflammatory Omega-3s.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Back Pain?', answer: 'Turmeric, Devil\'s Claw, Collagen.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Back Pain?', answer: 'Core strengthening; ergonomic desk setup.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Back Pain?",
+          answer: "Aches in lower/upper back. Scientific name: Lumbago / Dorsalgia.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Back Pain?",
+          answer: "Weak core + sitting strains discs.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Back Pain?",
+          answer: "Leading cause of global disability; often improves without scans.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Back Pain?",
+          answer: "Anti-inflammatory Omega-3s.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Back Pain?",
+          answer: "Turmeric, Devil's Claw, Collagen.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Back Pain?",
+          answer: "Core strengthening; ergonomic desk setup.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Back Pain typically become a concern?",
+          answer: "Back Pain typically becomes a concern around 30s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Anti-inflammatory Omega-3s.\" help with Back Pain?",
+          answer: "Yes \u2014 Anti-inflammatory Omega-3s. is one of the natural approaches recommended for Back Pain.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'muscle-cramps',
@@ -4500,13 +10553,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Hydrate; stretch before sleep/exercise.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Muscle Cramps?', answer: 'Sudden severe muscle spasm. Scientific name: Charley Horse.', category: 'Overview' },
-      { question: 'What causes Muscle Cramps?', answer: 'Dehydration + low electrolytes.', category: 'Cause' },
-      { question: 'What is a hidden fact about Muscle Cramps?', answer: 'Magnesium deficiency is the most common hidden cause.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Muscle Cramps?', answer: 'Bananas, potatoes, leafy greens.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Muscle Cramps?', answer: 'Magnesium, Potassium, Sodium.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Muscle Cramps?', answer: 'Hydrate; stretch before sleep/exercise.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Muscle Cramps?",
+          answer: "Sudden severe muscle spasm. Scientific name: Charley Horse.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Muscle Cramps?",
+          answer: "Dehydration + low electrolytes.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Muscle Cramps?",
+          answer: "Magnesium deficiency is the most common hidden cause.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Muscle Cramps?",
+          answer: "Bananas, potatoes, leafy greens.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Muscle Cramps?",
+          answer: "Magnesium, Potassium, Sodium.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Muscle Cramps?",
+          answer: "Hydrate; stretch before sleep/exercise.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Muscle Cramps typically become a concern?",
+          answer: "Muscle Cramps typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Bananas, potatoes, leafy greens.\" help with Muscle Cramps?",
+          answer: "Yes \u2014 Bananas, potatoes, leafy greens. is one of the natural approaches recommended for Muscle Cramps.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'plantar-fasciitis',
@@ -4528,13 +10615,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Orthotic inserts; daily calf stretching.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Plantar Fasciitis?', answer: 'Heel pain in morning. Scientific name: Plantar Heel Pain.', category: 'Overview' },
-      { question: 'What causes Plantar Fasciitis?', answer: 'Obesity + bad shoes tear fascia.', category: 'Cause' },
-      { question: 'What is a hidden fact about Plantar Fasciitis?', answer: 'The pain is micro-tears in the foot arch ligament.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Plantar Fasciitis?', answer: 'Weight loss diet.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Plantar Fasciitis?', answer: 'Turmeric, Bromelain.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Plantar Fasciitis?', answer: 'Orthotic inserts; daily calf stretching.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Plantar Fasciitis?",
+          answer: "Heel pain in morning. Scientific name: Plantar Heel Pain.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Plantar Fasciitis?",
+          answer: "Obesity + bad shoes tear fascia.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Plantar Fasciitis?",
+          answer: "The pain is micro-tears in the foot arch ligament.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Plantar Fasciitis?",
+          answer: "Weight loss diet.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Plantar Fasciitis?",
+          answer: "Turmeric, Bromelain.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Plantar Fasciitis?",
+          answer: "Orthotic inserts; daily calf stretching.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Plantar Fasciitis typically become a concern?",
+          answer: "Plantar Fasciitis typically becomes a concern around 40s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Weight loss diet.\" help with Plantar Fasciitis?",
+          answer: "Yes \u2014 Weight loss diet. is one of the natural approaches recommended for Plantar Fasciitis.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'heelarch-pain',
@@ -4556,13 +10677,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Wear supportive shoes; avoid barefoot.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Heel/Arch Pain?', answer: 'General foot arch pain. Scientific name: Plantar Fasciitis (broad).', category: 'Overview' },
-      { question: 'What causes Heel/Arch Pain?', answer: 'Standing on hard surfaces.', category: 'Cause' },
-      { question: 'What is a hidden fact about Heel/Arch Pain?', answer: 'Flat feet or high arches increase the risk of developing this.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Heel/Arch Pain?', answer: 'Anti-inflammatory diet.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Heel/Arch Pain?', answer: 'Boswellia, Turmeric.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Heel/Arch Pain?', answer: 'Wear supportive shoes; avoid barefoot.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Heel/Arch Pain?",
+          answer: "General foot arch pain. Scientific name: Plantar Fasciitis (broad).",
+          category: "Overview"
+      },
+      {
+          question: "What causes Heel/Arch Pain?",
+          answer: "Standing on hard surfaces.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Heel/Arch Pain?",
+          answer: "Flat feet or high arches increase the risk of developing this.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Heel/Arch Pain?",
+          answer: "Anti-inflammatory diet.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Heel/Arch Pain?",
+          answer: "Boswellia, Turmeric.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Heel/Arch Pain?",
+          answer: "Wear supportive shoes; avoid barefoot.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Heel/Arch Pain typically become a concern?",
+          answer: "Heel/Arch Pain typically becomes a concern around 40s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Anti-inflammatory diet.\" help with Heel/Arch Pain?",
+          answer: "Yes \u2014 Anti-inflammatory diet. is one of the natural approaches recommended for Heel/Arch Pain.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'pre-osteoporosis',
@@ -4584,13 +10739,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Weight-bearing exercise; quit smoking.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Pre-Osteoporosis?', answer: 'Mild bone thinning. Scientific name: Osteopenia.', category: 'Overview' },
-      { question: 'What causes Pre-Osteoporosis?', answer: 'Sedentary lifestyle, low calcium.', category: 'Cause' },
-      { question: 'What is a hidden fact about Pre-Osteoporosis?', answer: 'The precursor to osteoporosis; completely reversible with weights.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Pre-Osteoporosis?', answer: 'Calcium-rich foods, Vitamin D.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Pre-Osteoporosis?', answer: 'Vit K2, Magnesium, Strontium.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Pre-Osteoporosis?', answer: 'Weight-bearing exercise; quit smoking.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Pre-Osteoporosis?",
+          answer: "Mild bone thinning. Scientific name: Osteopenia.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Pre-Osteoporosis?",
+          answer: "Sedentary lifestyle, low calcium.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Pre-Osteoporosis?",
+          answer: "The precursor to osteoporosis; completely reversible with weights.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Pre-Osteoporosis?",
+          answer: "Calcium-rich foods, Vitamin D.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Pre-Osteoporosis?",
+          answer: "Vit K2, Magnesium, Strontium.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Pre-Osteoporosis?",
+          answer: "Weight-bearing exercise; quit smoking.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Pre-Osteoporosis typically become a concern?",
+          answer: "Pre-Osteoporosis typically becomes a concern around 40s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Calcium-rich foods, Vitamin D.\" help with Pre-Osteoporosis?",
+          answer: "Yes \u2014 Calcium-rich foods, Vitamin D. is one of the natural approaches recommended for Pre-Osteoporosis.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'singers-nodules',
@@ -4612,13 +10801,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Voice therapy; vocal rest; quit smoking.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Singer\'s Nodules?', answer: 'Calluses on vocal cords. Scientific name: Vocal Cord Nodules.', category: 'Overview' },
-      { question: 'What causes Singer\'s Nodules?', answer: 'Chronic voice abuse or smoking.', category: 'Cause' },
-      { question: 'What is a hidden fact about Singer\'s Nodules?', answer: 'Caused by vocal cords swelling and failing to vibrate.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Singer\'s Nodules?', answer: 'Hydration, throat-coating foods (honey).', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Singer\'s Nodules?', answer: 'Slippery Elm, Marshmallow Root.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Singer\'s Nodules?', answer: 'Voice therapy; vocal rest; quit smoking.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Singer's Nodules?",
+          answer: "Calluses on vocal cords. Scientific name: Vocal Cord Nodules.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Singer's Nodules?",
+          answer: "Chronic voice abuse or smoking.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Singer's Nodules?",
+          answer: "Caused by vocal cords swelling and failing to vibrate.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Singer's Nodules?",
+          answer: "Hydration, throat-coating foods (honey).",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Singer's Nodules?",
+          answer: "Slippery Elm, Marshmallow Root.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Singer's Nodules?",
+          answer: "Voice therapy; vocal rest; quit smoking.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Singer's Nodules typically become a concern?",
+          answer: "Singer's Nodules typically becomes a concern around 20s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Hydration, throat-coating foods (honey).\" help with Singer's Nodules?",
+          answer: "Yes \u2014 Hydration, throat-coating foods (honey). is one of the natural approaches recommended for Singer's Nodules.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'tarsal-tunnel',
@@ -4640,13 +10863,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Wide shoes; arch supports; weight loss.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Tarsal Tunnel?', answer: 'Foot numbness/tingling. Scientific name: Tarsal Tunnel Syndrome.', category: 'Overview' },
-      { question: 'What causes Tarsal Tunnel?', answer: 'Tight shoes, flat feet, obesity.', category: 'Cause' },
-      { question: 'What is a hidden fact about Tarsal Tunnel?', answer: 'A pinched nerve in the ankle, similar to carpal tunnel.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Tarsal Tunnel?', answer: 'Anti-inflammatory Omega-3s.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Tarsal Tunnel?', answer: 'B6, Magnesium, Turmeric.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Tarsal Tunnel?', answer: 'Wide shoes; arch supports; weight loss.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Tarsal Tunnel?",
+          answer: "Foot numbness/tingling. Scientific name: Tarsal Tunnel Syndrome.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Tarsal Tunnel?",
+          answer: "Tight shoes, flat feet, obesity.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Tarsal Tunnel?",
+          answer: "A pinched nerve in the ankle, similar to carpal tunnel.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Tarsal Tunnel?",
+          answer: "Anti-inflammatory Omega-3s.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Tarsal Tunnel?",
+          answer: "B6, Magnesium, Turmeric.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Tarsal Tunnel?",
+          answer: "Wide shoes; arch supports; weight loss.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Tarsal Tunnel typically become a concern?",
+          answer: "Tarsal Tunnel typically becomes a concern around 30s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Anti-inflammatory Omega-3s.\" help with Tarsal Tunnel?",
+          answer: "Yes \u2014 Anti-inflammatory Omega-3s. is one of the natural approaches recommended for Tarsal Tunnel.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'rheumatoid-arthritis',
@@ -4668,13 +10925,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Stop smoking; low-impact exercise.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Rheumatoid Arthritis?', answer: 'Joint destruction. Scientific name: RA.', category: 'Overview' },
-      { question: 'What causes Rheumatoid Arthritis?', answer: 'Smoking, obesity, sugar trigger immune.', category: 'Cause' },
-      { question: 'What is a hidden fact about Rheumatoid Arthritis?', answer: 'It can damage the heart and lungs, not just joints.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Rheumatoid Arthritis?', answer: 'Mediterranean diet, Omega-3s.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Rheumatoid Arthritis?', answer: 'Boswellia, Turmeric, Fish Oil.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Rheumatoid Arthritis?', answer: 'Stop smoking; low-impact exercise.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Rheumatoid Arthritis?",
+          answer: "Joint destruction. Scientific name: RA.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Rheumatoid Arthritis?",
+          answer: "Smoking, obesity, sugar trigger immune.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Rheumatoid Arthritis?",
+          answer: "It can damage the heart and lungs, not just joints.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Rheumatoid Arthritis?",
+          answer: "Mediterranean diet, Omega-3s.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Rheumatoid Arthritis?",
+          answer: "Boswellia, Turmeric, Fish Oil.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Rheumatoid Arthritis?",
+          answer: "Stop smoking; low-impact exercise.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Rheumatoid Arthritis typically become a concern?",
+          answer: "Rheumatoid Arthritis typically becomes a concern around 30s-60s.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Mediterranean diet, Omega-3s.\" help with Rheumatoid Arthritis?",
+          answer: "Yes \u2014 Mediterranean diet, Omega-3s. is one of the natural approaches recommended for Rheumatoid Arthritis.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'lupus',
@@ -4696,13 +10987,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Strict sun avoidance; stress management.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Lupus?', answer: 'Immune attacks own body. Scientific name: SLE.', category: 'Overview' },
-      { question: 'What causes Lupus?', answer: 'UV light, stress, alfalfa trigger flares.', category: 'Cause' },
-      { question: 'What is a hidden fact about Lupus?', answer: 'The great imitator; mimics dozens of other diseases.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Lupus?', answer: 'Anti-inflammatory diet, Omega-3s.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Lupus?', answer: 'Turmeric, Vitamin D, Fish Oil.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Lupus?', answer: 'Strict sun avoidance; stress management.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Lupus?",
+          answer: "Immune attacks own body. Scientific name: SLE.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Lupus?",
+          answer: "UV light, stress, alfalfa trigger flares.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Lupus?",
+          answer: "The great imitator; mimics dozens of other diseases.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Lupus?",
+          answer: "Anti-inflammatory diet, Omega-3s.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Lupus?",
+          answer: "Turmeric, Vitamin D, Fish Oil.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Lupus?",
+          answer: "Strict sun avoidance; stress management.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Lupus typically become a concern?",
+          answer: "Lupus typically becomes a concern around 20s-40s.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Anti-inflammatory diet, Omega-3s.\" help with Lupus?",
+          answer: "Yes \u2014 Anti-inflammatory diet, Omega-3s. is one of the natural approaches recommended for Lupus.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'hashimotos',
@@ -4724,13 +11049,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Gut healing; stress management.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Hashimoto\'s?', answer: 'Underactive thyroid. Scientific name: Autoimmune Thyroiditis.', category: 'Overview' },
-      { question: 'What causes Hashimoto\'s?', answer: 'Leaky gut triggers thyroid attack.', category: 'Cause' },
-      { question: 'What is a hidden fact about Hashimoto\'s?', answer: 'Can mimic depression and cause weight gain mysteriously.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Hashimoto\'s?', answer: 'Gluten-free, selenium-rich (brazil nuts).', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Hashimoto\'s?', answer: 'Selenium, L-Tyrosine, Ashwagandha.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Hashimoto\'s?', answer: 'Gut healing; stress management.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Hashimoto's?",
+          answer: "Underactive thyroid. Scientific name: Autoimmune Thyroiditis.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Hashimoto's?",
+          answer: "Leaky gut triggers thyroid attack.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Hashimoto's?",
+          answer: "Can mimic depression and cause weight gain mysteriously.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Hashimoto's?",
+          answer: "Gluten-free, selenium-rich (brazil nuts).",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Hashimoto's?",
+          answer: "Selenium, L-Tyrosine, Ashwagandha.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Hashimoto's?",
+          answer: "Gut healing; stress management.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Hashimoto's typically become a concern?",
+          answer: "Hashimoto's typically becomes a concern around 30s-50s.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Gluten-free, selenium-rich (brazil nuts).\" help with Hashimoto's?",
+          answer: "Yes \u2014 Gluten-free, selenium-rich (brazil nuts). is one of the natural approaches recommended for Hashimoto's.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'acne',
@@ -4752,13 +11111,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Don\'t pick face; change pillowcases.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Acne?', answer: 'Pimples/blocked pores. Scientific name: Acne Vulgaris.', category: 'Overview' },
-      { question: 'What causes Acne?', answer: 'Dairy/sugar spike insulin.', category: 'Cause' },
-      { question: 'What is a hidden fact about Acne?', answer: 'It is genetically programmed to peak during hormone surges.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Acne?', answer: 'No dairy, low sugar, high zinc.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Acne?', answer: 'Zinc, Omega-3, Saw Palmetto.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Acne?', answer: 'Don\'t pick face; change pillowcases.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Acne?",
+          answer: "Pimples/blocked pores. Scientific name: Acne Vulgaris.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Acne?",
+          answer: "Dairy/sugar spike insulin.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Acne?",
+          answer: "It is genetically programmed to peak during hormone surges.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Acne?",
+          answer: "No dairy, low sugar, high zinc.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Acne?",
+          answer: "Zinc, Omega-3, Saw Palmetto.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Acne?",
+          answer: "Don't pick face; change pillowcases.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Acne typically become a concern?",
+          answer: "Acne typically becomes a concern around Teens-30s.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"No dairy, low sugar, high zinc.\" help with Acne?",
+          answer: "Yes \u2014 No dairy, low sugar, high zinc. is one of the natural approaches recommended for Acne.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'eczema',
@@ -4780,13 +11173,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Fragrance-free moisturizers; lukewarm showers.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Eczema?', answer: 'Dry, itchy skin. Scientific name: Atopic Dermatitis.', category: 'Overview' },
-      { question: 'What causes Eczema?', answer: 'Food allergies + stress.', category: 'Cause' },
-      { question: 'What is a hidden fact about Eczema?', answer: 'Faulty filaggrin protein lets moisture escape the skin.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Eczema?', answer: 'Probiotics, bone broth, no triggers.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Eczema?', answer: 'Evening Primrose, Fish Oil, Vitamin D.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Eczema?', answer: 'Fragrance-free moisturizers; lukewarm showers.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Eczema?",
+          answer: "Dry, itchy skin. Scientific name: Atopic Dermatitis.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Eczema?",
+          answer: "Food allergies + stress.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Eczema?",
+          answer: "Faulty filaggrin protein lets moisture escape the skin.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Eczema?",
+          answer: "Probiotics, bone broth, no triggers.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Eczema?",
+          answer: "Evening Primrose, Fish Oil, Vitamin D.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Eczema?",
+          answer: "Fragrance-free moisturizers; lukewarm showers.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Eczema typically become a concern?",
+          answer: "Eczema typically becomes a concern around Childhood+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Probiotics, bone broth, no triggers.\" help with Eczema?",
+          answer: "Yes \u2014 Probiotics, bone broth, no triggers. is one of the natural approaches recommended for Eczema.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'psoriasis',
@@ -4808,13 +11235,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Sunlight exposure; quit smoking/alcohol.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Psoriasis?', answer: 'Scaly red skin patches. Scientific name: Psoriasis Vulgaris.', category: 'Overview' },
-      { question: 'What causes Psoriasis?', answer: 'Alcohol/smoking trigger overgrowth.', category: 'Cause' },
-      { question: 'What is a hidden fact about Psoriasis?', answer: 'The skin replaces itself in 3 days instead of 28.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Psoriasis?', answer: 'Anti-inflammatory, gluten-free (for some).', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Psoriasis?', answer: 'Oregon Grape, Turmeric, Omega-3.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Psoriasis?', answer: 'Sunlight exposure; quit smoking/alcohol.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Psoriasis?",
+          answer: "Scaly red skin patches. Scientific name: Psoriasis Vulgaris.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Psoriasis?",
+          answer: "Alcohol/smoking trigger overgrowth.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Psoriasis?",
+          answer: "The skin replaces itself in 3 days instead of 28.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Psoriasis?",
+          answer: "Anti-inflammatory, gluten-free (for some).",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Psoriasis?",
+          answer: "Oregon Grape, Turmeric, Omega-3.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Psoriasis?",
+          answer: "Sunlight exposure; quit smoking/alcohol.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Psoriasis typically become a concern?",
+          answer: "Psoriasis typically becomes a concern around 20s-50s.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Anti-inflammatory, gluten-free (for some).\" help with Psoriasis?",
+          answer: "Yes \u2014 Anti-inflammatory, gluten-free (for some). is one of the natural approaches recommended for Psoriasis.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'hair-loss',
@@ -4836,13 +11297,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Scalp massage; stress reduction.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Hair Loss?', answer: 'Hair falls out. Scientific name: Alopecia.', category: 'Overview' },
-      { question: 'What causes Hair Loss?', answer: 'Iron/protein deficiency, high sugar.', category: 'Cause' },
-      { question: 'What is a hidden fact about Hair Loss?', answer: 'Hair follicles go dormant but stay alive; it can regrow.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Hair Loss?', answer: 'Eggs, berries, leafy greens.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Hair Loss?', answer: 'Biotin, Saw Palmetto, Iron, Collagen.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Hair Loss?', answer: 'Scalp massage; stress reduction.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Hair Loss?",
+          answer: "Hair falls out. Scientific name: Alopecia.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Hair Loss?",
+          answer: "Iron/protein deficiency, high sugar.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Hair Loss?",
+          answer: "Hair follicles go dormant but stay alive; it can regrow.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Hair Loss?",
+          answer: "Eggs, berries, leafy greens.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Hair Loss?",
+          answer: "Biotin, Saw Palmetto, Iron, Collagen.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Hair Loss?",
+          answer: "Scalp massage; stress reduction.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Hair Loss typically become a concern?",
+          answer: "Hair Loss typically becomes a concern around 30s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Eggs, berries, leafy greens.\" help with Hair Loss?",
+          answer: "Yes \u2014 Eggs, berries, leafy greens. is one of the natural approaches recommended for Hair Loss.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'rosacea',
@@ -4864,13 +11359,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Sunscreen; gentle skincare.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Rosacea?', answer: 'Red face, pimples. Scientific name: Rosacea.', category: 'Overview' },
-      { question: 'What causes Rosacea?', answer: 'Spicy food, alcohol, sun dilate vessels.', category: 'Cause' },
-      { question: 'What is a hidden fact about Rosacea?', answer: 'Triggered by hot drinks, spicy food, and alcohol.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Rosacea?', answer: 'Trigger-free diet (no spicy/hot foods).', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Rosacea?', answer: 'Green tea extract, Zinc, Omega-3.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Rosacea?', answer: 'Sunscreen; gentle skincare.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Rosacea?",
+          answer: "Red face, pimples. Scientific name: Rosacea.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Rosacea?",
+          answer: "Spicy food, alcohol, sun dilate vessels.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Rosacea?",
+          answer: "Triggered by hot drinks, spicy food, and alcohol.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Rosacea?",
+          answer: "Trigger-free diet (no spicy/hot foods).",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Rosacea?",
+          answer: "Green tea extract, Zinc, Omega-3.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Rosacea?",
+          answer: "Sunscreen; gentle skincare.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Rosacea typically become a concern?",
+          answer: "Rosacea typically becomes a concern around 30s-50s.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Trigger-free diet (no spicy/hot foods).\" help with Rosacea?",
+          answer: "Yes \u2014 Trigger-free diet (no spicy/hot foods). is one of the natural approaches recommended for Rosacea.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'dandruff',
@@ -4892,13 +11421,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Manage stress; anti-dandruff shampoos.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Dandruff?', answer: 'Flaky, itchy scalp. Scientific name: Seborrheic Dermatitis.', category: 'Overview' },
-      { question: 'What causes Dandruff?', answer: 'Sugar and stress feed yeast.', category: 'Cause' },
-      { question: 'What is a hidden fact about Dandruff?', answer: 'The yeast (Malassezia) lives on everyone\'s scalp but overgrows.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Dandruff?', answer: 'Low-sugar diet, probiotics.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Dandruff?', answer: 'Zinc, Starflower oil, Tea tree oil.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Dandruff?', answer: 'Manage stress; anti-dandruff shampoos.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Dandruff?",
+          answer: "Flaky, itchy scalp. Scientific name: Seborrheic Dermatitis.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Dandruff?",
+          answer: "Sugar and stress feed yeast.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Dandruff?",
+          answer: "The yeast (Malassezia) lives on everyone's scalp but overgrows.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Dandruff?",
+          answer: "Low-sugar diet, probiotics.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Dandruff?",
+          answer: "Zinc, Starflower oil, Tea tree oil.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Dandruff?",
+          answer: "Manage stress; anti-dandruff shampoos.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Dandruff typically become a concern?",
+          answer: "Dandruff typically becomes a concern around Teens+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Low-sugar diet, probiotics.\" help with Dandruff?",
+          answer: "Yes \u2014 Low-sugar diet, probiotics. is one of the natural approaches recommended for Dandruff.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'tooth-decay',
@@ -4920,13 +11483,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Brushing/flossing; regular dental visits.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Tooth Decay?', answer: 'Destruction of enamel. Scientific name: Dental Caries.', category: 'Overview' },
-      { question: 'What causes Tooth Decay?', answer: 'Sugar feeds plaque bacteria.', category: 'Cause' },
-      { question: 'What is a hidden fact about Tooth Decay?', answer: 'It is the most widespread disease worldwide.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Tooth Decay?', answer: 'No sugar; xylitol gum; crunchy veggies.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Tooth Decay?', answer: 'Fluoride, Calcium, Vit D.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Tooth Decay?', answer: 'Brushing/flossing; regular dental visits.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Tooth Decay?",
+          answer: "Destruction of enamel. Scientific name: Dental Caries.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Tooth Decay?",
+          answer: "Sugar feeds plaque bacteria.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Tooth Decay?",
+          answer: "It is the most widespread disease worldwide.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Tooth Decay?",
+          answer: "No sugar; xylitol gum; crunchy veggies.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Tooth Decay?",
+          answer: "Fluoride, Calcium, Vit D.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Tooth Decay?",
+          answer: "Brushing/flossing; regular dental visits.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Tooth Decay typically become a concern?",
+          answer: "Tooth Decay typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"No sugar; xylitol gum; crunchy veggies.\" help with Tooth Decay?",
+          answer: "Yes \u2014 No sugar; xylitol gum; crunchy veggies. is one of the natural approaches recommended for Tooth Decay.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'gum-disease',
@@ -4948,13 +11545,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Quit smoking; water flosser.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Gum Disease?', answer: 'Gums pull from teeth. Scientific name: Periodontitis.', category: 'Overview' },
-      { question: 'What causes Gum Disease?', answer: 'Sugar/smoking destroy bone.', category: 'Cause' },
-      { question: 'What is a hidden fact about Gum Disease?', answer: 'Blood on the toothbrush is the first warning sign.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Gum Disease?', answer: 'Low sugar, high Vit C.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Gum Disease?', answer: 'CoQ10, Vitamin C, Probiotics.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Gum Disease?', answer: 'Quit smoking; water flosser.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Gum Disease?",
+          answer: "Gums pull from teeth. Scientific name: Periodontitis.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Gum Disease?",
+          answer: "Sugar/smoking destroy bone.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Gum Disease?",
+          answer: "Blood on the toothbrush is the first warning sign.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Gum Disease?",
+          answer: "Low sugar, high Vit C.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Gum Disease?",
+          answer: "CoQ10, Vitamin C, Probiotics.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Gum Disease?",
+          answer: "Quit smoking; water flosser.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Gum Disease typically become a concern?",
+          answer: "Gum Disease typically becomes a concern around 30s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Low sugar, high Vit C.\" help with Gum Disease?",
+          answer: "Yes \u2014 Low sugar, high Vit C. is one of the natural approaches recommended for Gum Disease.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'mouth-ulcers',
@@ -4976,13 +11607,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Stress management; gentle toothpaste (SLS-free).',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Mouth Ulcers?', answer: 'Painful mouth sores. Scientific name: Aphthous Ulcers.', category: 'Overview' },
-      { question: 'What causes Mouth Ulcers?', answer: 'Stress, B12/iron deficiency.', category: 'Cause' },
-      { question: 'What is a hidden fact about Mouth Ulcers?', answer: 'Canker sores are not cold sores (not contagious).', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Mouth Ulcers?', answer: 'Soft foods, avoid acidic/spicy.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Mouth Ulcers?', answer: 'B12, Folate, Iron, Licorice root.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Mouth Ulcers?', answer: 'Stress management; gentle toothpaste (SLS-free).', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Mouth Ulcers?",
+          answer: "Painful mouth sores. Scientific name: Aphthous Ulcers.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Mouth Ulcers?",
+          answer: "Stress, B12/iron deficiency.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Mouth Ulcers?",
+          answer: "Canker sores are not cold sores (not contagious).",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Mouth Ulcers?",
+          answer: "Soft foods, avoid acidic/spicy.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Mouth Ulcers?",
+          answer: "B12, Folate, Iron, Licorice root.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Mouth Ulcers?",
+          answer: "Stress management; gentle toothpaste (SLS-free).",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Mouth Ulcers typically become a concern?",
+          answer: "Mouth Ulcers typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Soft foods, avoid acidic/spicy.\" help with Mouth Ulcers?",
+          answer: "Yes \u2014 Soft foods, avoid acidic/spicy. is one of the natural approaches recommended for Mouth Ulcers.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'cataracts-macular-degeneration',
@@ -5004,13 +11669,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Wear UV sunglasses; quit smoking.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Cataracts / Macular Degeneration?', answer: 'Cloudy lens / central vision loss. Scientific name: Cataract / AMD.', category: 'Overview' },
-      { question: 'What causes Cataracts / Macular Degeneration?', answer: 'UV light, high sugar cloud eye.', category: 'Cause' },
-      { question: 'What is a hidden fact about Cataracts / Macular Degeneration?', answer: 'The lens keeps growing throughout life, eventually clouding.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Cataracts / Macular Degeneration?', answer: 'Dark leafy greens, orange veggies.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Cataracts / Macular Degeneration?', answer: 'Lutein, Zeaxanthin, Vit C, Zinc.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Cataracts / Macular Degeneration?', answer: 'Wear UV sunglasses; quit smoking.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Cataracts / Macular Degeneration?",
+          answer: "Cloudy lens / central vision loss. Scientific name: Cataract / AMD.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Cataracts / Macular Degeneration?",
+          answer: "UV light, high sugar cloud eye.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Cataracts / Macular Degeneration?",
+          answer: "The lens keeps growing throughout life, eventually clouding.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Cataracts / Macular Degeneration?",
+          answer: "Dark leafy greens, orange veggies.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Cataracts / Macular Degeneration?",
+          answer: "Lutein, Zeaxanthin, Vit C, Zinc.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Cataracts / Macular Degeneration?",
+          answer: "Wear UV sunglasses; quit smoking.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Cataracts / Macular Degeneration typically become a concern?",
+          answer: "Cataracts / Macular Degeneration typically becomes a concern around 60s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Dark leafy greens, orange veggies.\" help with Cataracts / Macular Degeneration?",
+          answer: "Yes \u2014 Dark leafy greens, orange veggies. is one of the natural approaches recommended for Cataracts / Macular Degeneration.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'dry-eye',
@@ -5032,13 +11731,47 @@ export const TOPICS: Topic[] = [
     lifestyle: '20-20-20 screen rule; humidifier.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Dry Eye?', answer: 'Gritty, dry eyes. Scientific name: Keratoconjunctivitis.', category: 'Overview' },
-      { question: 'What causes Dry Eye?', answer: 'Screens + lack of Omega-3s.', category: 'Cause' },
-      { question: 'What is a hidden fact about Dry Eye?', answer: 'It\'s often a lack of oil (meibomian gland), not lack of water.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Dry Eye?', answer: 'Omega-3 rich fish, chia seeds.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Dry Eye?', answer: 'Fish Oil, Flaxseed Oil, Vitamin A.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Dry Eye?', answer: '20-20-20 screen rule; humidifier.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Dry Eye?",
+          answer: "Gritty, dry eyes. Scientific name: Keratoconjunctivitis.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Dry Eye?",
+          answer: "Screens + lack of Omega-3s.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Dry Eye?",
+          answer: "It's often a lack of oil (meibomian gland), not lack of water.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Dry Eye?",
+          answer: "Omega-3 rich fish, chia seeds.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Dry Eye?",
+          answer: "Fish Oil, Flaxseed Oil, Vitamin A.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Dry Eye?",
+          answer: "20-20-20 screen rule; humidifier.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Dry Eye typically become a concern?",
+          answer: "Dry Eye typically becomes a concern around 40s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Omega-3 rich fish, chia seeds.\" help with Dry Eye?",
+          answer: "Yes \u2014 Omega-3 rich fish, chia seeds. is one of the natural approaches recommended for Dry Eye.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'boils-hidradenitis',
@@ -5060,13 +11793,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Quit smoking; loose clothing.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Boils (Hidradenitis)?', answer: 'Painful boils in armpits/groin. Scientific name: Hidradenitis Suppurativa.', category: 'Overview' },
-      { question: 'What causes Boils (Hidradenitis)?', answer: 'Smoking/obesity inflame sweat glands.', category: 'Cause' },
-      { question: 'What is a hidden fact about Boils (Hidradenitis)?', answer: 'Brewers yeast and potatoes can trigger flare-ups.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Boils (Hidradenitis)?', answer: 'Anti-inflammatory, no brewer\'s yeast.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Boils (Hidradenitis)?', answer: 'Turmeric, Zinc, Omega-3.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Boils (Hidradenitis)?', answer: 'Quit smoking; loose clothing.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Boils (Hidradenitis)?",
+          answer: "Painful boils in armpits/groin. Scientific name: Hidradenitis Suppurativa.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Boils (Hidradenitis)?",
+          answer: "Smoking/obesity inflame sweat glands.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Boils (Hidradenitis)?",
+          answer: "Brewers yeast and potatoes can trigger flare-ups.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Boils (Hidradenitis)?",
+          answer: "Anti-inflammatory, no brewer's yeast.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Boils (Hidradenitis)?",
+          answer: "Turmeric, Zinc, Omega-3.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Boils (Hidradenitis)?",
+          answer: "Quit smoking; loose clothing.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Boils (Hidradenitis) typically become a concern?",
+          answer: "Boils (Hidradenitis) typically becomes a concern around 20s-40s.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Anti-inflammatory, no brewer's yeast.\" help with Boils (Hidradenitis)?",
+          answer: "Yes \u2014 Anti-inflammatory, no brewer's yeast. is one of the natural approaches recommended for Boils (Hidradenitis).",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'cold-sores',
@@ -5088,13 +11855,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Manage stress; use SPF lip balm.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Cold Sores?', answer: 'Blister on lip. Scientific name: Herpes Labialis.', category: 'Overview' },
-      { question: 'What causes Cold Sores?', answer: 'Arginine foods + stress wake virus.', category: 'Cause' },
-      { question: 'What is a hidden fact about Cold Sores?', answer: 'The virus hides in your spinal nerves for decades.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Cold Sores?', answer: 'Lysine-rich foods (fish, dairy).', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Cold Sores?', answer: 'Lysine, Lemon Balm, Vitamin C.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Cold Sores?', answer: 'Manage stress; use SPF lip balm.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Cold Sores?",
+          answer: "Blister on lip. Scientific name: Herpes Labialis.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Cold Sores?",
+          answer: "Arginine foods + stress wake virus.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Cold Sores?",
+          answer: "The virus hides in your spinal nerves for decades.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Cold Sores?",
+          answer: "Lysine-rich foods (fish, dairy).",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Cold Sores?",
+          answer: "Lysine, Lemon Balm, Vitamin C.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Cold Sores?",
+          answer: "Manage stress; use SPF lip balm.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Cold Sores typically become a concern?",
+          answer: "Cold Sores typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Lysine-rich foods (fish, dairy).\" help with Cold Sores?",
+          answer: "Yes \u2014 Lysine-rich foods (fish, dairy). is one of the natural approaches recommended for Cold Sores.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'dental-erosion',
@@ -5116,13 +11917,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Rinse with water after acid/vomit.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Dental Erosion?', answer: 'Melting tooth enamel. Scientific name: Enamel Erosion.', category: 'Overview' },
-      { question: 'What causes Dental Erosion?', answer: 'Carbonated sodas, lemon water.', category: 'Cause' },
-      { question: 'What is a hidden fact about Dental Erosion?', answer: 'Acid reflux (GERD) at night silently melts back teeth.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Dental Erosion?', answer: 'Limit acidic drinks, use straw.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Dental Erosion?', answer: 'Calcium, Fluoride mouthwash.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Dental Erosion?', answer: 'Rinse with water after acid/vomit.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Dental Erosion?",
+          answer: "Melting tooth enamel. Scientific name: Enamel Erosion.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Dental Erosion?",
+          answer: "Carbonated sodas, lemon water.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Dental Erosion?",
+          answer: "Acid reflux (GERD) at night silently melts back teeth.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Dental Erosion?",
+          answer: "Limit acidic drinks, use straw.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Dental Erosion?",
+          answer: "Calcium, Fluoride mouthwash.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Dental Erosion?",
+          answer: "Rinse with water after acid/vomit.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Dental Erosion typically become a concern?",
+          answer: "Dental Erosion typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Limit acidic drinks, use straw.\" help with Dental Erosion?",
+          answer: "Yes \u2014 Limit acidic drinks, use straw. is one of the natural approaches recommended for Dental Erosion.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'sunburn-skin-aging',
@@ -5144,13 +11979,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Sunscreen; protective clothing.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Sunburn / Skin Aging?', answer: 'Red, damaged skin. Scientific name: Photoaging.', category: 'Overview' },
-      { question: 'What causes Sunburn / Skin Aging?', answer: 'Excessive sun and bad diet.', category: 'Cause' },
-      { question: 'What is a hidden fact about Sunburn / Skin Aging?', answer: 'The burn is radiation damage to skin cell DNA.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Sunburn / Skin Aging?', answer: 'Tomatoes (lycopene), dark chocolate.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Sunburn / Skin Aging?', answer: 'Astaxanthin, Vitamin C, Vitamin E.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Sunburn / Skin Aging?', answer: 'Sunscreen; protective clothing.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Sunburn / Skin Aging?",
+          answer: "Red, damaged skin. Scientific name: Photoaging.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Sunburn / Skin Aging?",
+          answer: "Excessive sun and bad diet.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Sunburn / Skin Aging?",
+          answer: "The burn is radiation damage to skin cell DNA.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Sunburn / Skin Aging?",
+          answer: "Tomatoes (lycopene), dark chocolate.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Sunburn / Skin Aging?",
+          answer: "Astaxanthin, Vitamin C, Vitamin E.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Sunburn / Skin Aging?",
+          answer: "Sunscreen; protective clothing.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Sunburn / Skin Aging typically become a concern?",
+          answer: "Sunburn / Skin Aging typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Tomatoes (lycopene), dark chocolate.\" help with Sunburn / Skin Aging?",
+          answer: "Yes \u2014 Tomatoes (lycopene), dark chocolate. is one of the natural approaches recommended for Sunburn / Skin Aging.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'night-blindness',
@@ -5172,13 +12041,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Correct underlying gut absorption issues.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Night Blindness?', answer: 'Can\'t see in dark. Scientific name: Vitamin A Deficiency.', category: 'Overview' },
-      { question: 'What causes Night Blindness?', answer: 'Lack of Vit A destroys retina.', category: 'Cause' },
-      { question: 'What is a hidden fact about Night Blindness?', answer: 'The retina needs Vitamin A to form rhodopsin for dark vision.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Night Blindness?', answer: 'Carrots, sweet potatoes, liver.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Night Blindness?', answer: 'Vitamin A, Beta-carotene.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Night Blindness?', answer: 'Correct underlying gut absorption issues.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Night Blindness?",
+          answer: "Can't see in dark. Scientific name: Vitamin A Deficiency.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Night Blindness?",
+          answer: "Lack of Vit A destroys retina.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Night Blindness?",
+          answer: "The retina needs Vitamin A to form rhodopsin for dark vision.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Night Blindness?",
+          answer: "Carrots, sweet potatoes, liver.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Night Blindness?",
+          answer: "Vitamin A, Beta-carotene.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Night Blindness?",
+          answer: "Correct underlying gut absorption issues.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Night Blindness typically become a concern?",
+          answer: "Night Blindness typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Carrots, sweet potatoes, liver.\" help with Night Blindness?",
+          answer: "Yes \u2014 Carrots, sweet potatoes, liver. is one of the natural approaches recommended for Night Blindness.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'vitiligo',
@@ -5200,13 +12103,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Sun protection; stress management.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Vitiligo?', answer: 'White skin patches. Scientific name: Vitiligo.', category: 'Overview' },
-      { question: 'What causes Vitiligo?', answer: 'Autoimmune destruction of pigment.', category: 'Cause' },
-      { question: 'What is a hidden fact about Vitiligo?', answer: 'Michael Jackson had this; it destroys melanocytes.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Vitiligo?', answer: 'Antioxidant-rich foods, B12/Folate.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Vitiligo?', answer: 'Ginkgo Biloba, Vitamin C, Zinc.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Vitiligo?', answer: 'Sun protection; stress management.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Vitiligo?",
+          answer: "White skin patches. Scientific name: Vitiligo.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Vitiligo?",
+          answer: "Autoimmune destruction of pigment.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Vitiligo?",
+          answer: "Michael Jackson had this; it destroys melanocytes.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Vitiligo?",
+          answer: "Antioxidant-rich foods, B12/Folate.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Vitiligo?",
+          answer: "Ginkgo Biloba, Vitamin C, Zinc.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Vitiligo?",
+          answer: "Sun protection; stress management.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Vitiligo typically become a concern?",
+          answer: "Vitiligo typically becomes a concern around 20s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Antioxidant-rich foods, B12/Folate.\" help with Vitiligo?",
+          answer: "Yes \u2014 Antioxidant-rich foods, B12/Folate. is one of the natural approaches recommended for Vitiligo.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'scurvy',
@@ -5228,13 +12165,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Eat fresh produce daily.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Scurvy?', answer: 'Bleeding gums. Scientific name: Vitamin C Deficiency.', category: 'Overview' },
-      { question: 'What causes Scurvy?', answer: 'Zero fresh fruit/veg.', category: 'Cause' },
-      { question: 'What is a hidden fact about Scurvy?', answer: 'Making a comeback in food-insecure areas.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Scurvy?', answer: 'Citrus, bell peppers, berries.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Scurvy?', answer: 'Ascorbic Acid (Vitamin C).', category: 'Supplements' },
-      { question: 'What lifestyle changes help Scurvy?', answer: 'Eat fresh produce daily.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Scurvy?",
+          answer: "Bleeding gums. Scientific name: Vitamin C Deficiency.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Scurvy?",
+          answer: "Zero fresh fruit/veg.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Scurvy?",
+          answer: "Making a comeback in food-insecure areas.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Scurvy?",
+          answer: "Citrus, bell peppers, berries.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Scurvy?",
+          answer: "Ascorbic Acid (Vitamin C).",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Scurvy?",
+          answer: "Eat fresh produce daily.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Scurvy typically become a concern?",
+          answer: "Scurvy typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Citrus, bell peppers, berries.\" help with Scurvy?",
+          answer: "Yes \u2014 Citrus, bell peppers, berries. is one of the natural approaches recommended for Scurvy.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'rickets',
@@ -5256,13 +12227,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Outdoor play; sunlight.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Rickets?', answer: 'Soft, bent bones. Scientific name: Vitamin D Deficiency (Kids).', category: 'Overview' },
-      { question: 'What causes Rickets?', answer: 'Kids kept indoors + no dairy.', category: 'Cause' },
-      { question: 'What is a hidden fact about Rickets?', answer: 'Victorian disease returning due to indoor lifestyles.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Rickets?', answer: 'Fortified milk, cod liver oil.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Rickets?', answer: 'Vitamin D3, Calcium.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Rickets?', answer: 'Outdoor play; sunlight.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Rickets?",
+          answer: "Soft, bent bones. Scientific name: Vitamin D Deficiency (Kids).",
+          category: "Overview"
+      },
+      {
+          question: "What causes Rickets?",
+          answer: "Kids kept indoors + no dairy.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Rickets?",
+          answer: "Victorian disease returning due to indoor lifestyles.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Rickets?",
+          answer: "Fortified milk, cod liver oil.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Rickets?",
+          answer: "Vitamin D3, Calcium.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Rickets?",
+          answer: "Outdoor play; sunlight.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Rickets typically become a concern?",
+          answer: "Rickets typically becomes a concern around Childhood.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Fortified milk, cod liver oil.\" help with Rickets?",
+          answer: "Yes \u2014 Fortified milk, cod liver oil. is one of the natural approaches recommended for Rickets.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'dental-fluorosis',
@@ -5284,13 +12289,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Supervise brushing; use low-fluoride water.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Dental Fluorosis?', answer: 'White/brown tooth stains. Scientific name: Enamel Fluorosis.', category: 'Overview' },
-      { question: 'What causes Dental Fluorosis?', answer: 'Kids swallowing fluoride toothpaste.', category: 'Cause' },
-      { question: 'What is a hidden fact about Dental Fluorosis?', answer: 'Only occurs while adult teeth are forming under the gums.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Dental Fluorosis?', answer: 'Use pea-sized toothpaste, monitor brushing.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Dental Fluorosis?', answer: 'None (preventative).', category: 'Supplements' },
-      { question: 'What lifestyle changes help Dental Fluorosis?', answer: 'Supervise brushing; use low-fluoride water.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Dental Fluorosis?",
+          answer: "White/brown tooth stains. Scientific name: Enamel Fluorosis.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Dental Fluorosis?",
+          answer: "Kids swallowing fluoride toothpaste.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Dental Fluorosis?",
+          answer: "Only occurs while adult teeth are forming under the gums.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Dental Fluorosis?",
+          answer: "Use pea-sized toothpaste, monitor brushing.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Dental Fluorosis?",
+          answer: "None (preventative).",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Dental Fluorosis?",
+          answer: "Supervise brushing; use low-fluoride water.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Dental Fluorosis typically become a concern?",
+          answer: "Dental Fluorosis typically becomes a concern around Childhood.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Use pea-sized toothpaste, monitor brushing.\" help with Dental Fluorosis?",
+          answer: "Yes \u2014 Use pea-sized toothpaste, monitor brushing. is one of the natural approaches recommended for Dental Fluorosis.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'ckd-dialysis-diet',
@@ -5312,13 +12351,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Strict fluid limits; BP control.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is CKD / Dialysis Diet?', answer: 'Kidneys losing function. Scientific name: Chronic Kidney Disease.', category: 'Overview' },
-      { question: 'What causes CKD / Dialysis Diet?', answer: 'Uncontrolled BP/Diabetes.', category: 'Cause' },
-      { question: 'What is a hidden fact about CKD / Dialysis Diet?', answer: 'Kidneys don\'t show symptoms until 70-80% function is lost.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with CKD / Dialysis Diet?', answer: 'Low potassium, low phosphorus, low protein.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with CKD / Dialysis Diet?', answer: 'Renal vitamins, Iron.', category: 'Supplements' },
-      { question: 'What lifestyle changes help CKD / Dialysis Diet?', answer: 'Strict fluid limits; BP control.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is CKD / Dialysis Diet?",
+          answer: "Kidneys losing function. Scientific name: Chronic Kidney Disease.",
+          category: "Overview"
+      },
+      {
+          question: "What causes CKD / Dialysis Diet?",
+          answer: "Uncontrolled BP/Diabetes.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about CKD / Dialysis Diet?",
+          answer: "Kidneys don't show symptoms until 70-80% function is lost.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with CKD / Dialysis Diet?",
+          answer: "Low potassium, low phosphorus, low protein.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with CKD / Dialysis Diet?",
+          answer: "Renal vitamins, Iron.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help CKD / Dialysis Diet?",
+          answer: "Strict fluid limits; BP control.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does CKD / Dialysis Diet typically become a concern?",
+          answer: "CKD / Dialysis Diet typically becomes a concern around 50s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Low potassium, low phosphorus, low protein.\" help with CKD / Dialysis Diet?",
+          answer: "Yes \u2014 Low potassium, low phosphorus, low protein. is one of the natural approaches recommended for CKD / Dialysis Diet.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'liver-encephalopathy',
@@ -5340,13 +12413,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Treat constipation; zero alcohol.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Liver Encephalopathy?', answer: 'Brain fog from liver fail. Scientific name: Hepatic Encephalopathy.', category: 'Overview' },
-      { question: 'What causes Liver Encephalopathy?', answer: 'Failing liver lets ammonia reach brain.', category: 'Cause' },
-      { question: 'What is a hidden fact about Liver Encephalopathy?', answer: 'Eating too much red meat creates ammonia that poisons the brain.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Liver Encephalopathy?', answer: 'Plant-based low-protein to lower ammonia.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Liver Encephalopathy?', answer: 'Lactulose, Branch Chain Aminos.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Liver Encephalopathy?', answer: 'Treat constipation; zero alcohol.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Liver Encephalopathy?",
+          answer: "Brain fog from liver fail. Scientific name: Hepatic Encephalopathy.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Liver Encephalopathy?",
+          answer: "Failing liver lets ammonia reach brain.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Liver Encephalopathy?",
+          answer: "Eating too much red meat creates ammonia that poisons the brain.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Liver Encephalopathy?",
+          answer: "Plant-based low-protein to lower ammonia.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Liver Encephalopathy?",
+          answer: "Lactulose, Branch Chain Aminos.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Liver Encephalopathy?",
+          answer: "Treat constipation; zero alcohol.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Liver Encephalopathy typically become a concern?",
+          answer: "Liver Encephalopathy typically becomes a concern around 50s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Plant-based low-protein to lower ammonia.\" help with Liver Encephalopathy?",
+          answer: "Yes \u2014 Plant-based low-protein to lower ammonia. is one of the natural approaches recommended for Liver Encephalopathy.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'smokers-cough',
@@ -5368,13 +12475,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Quit smoking; pulmonary rehab.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Smoker\'s Cough?', answer: 'Lung airflow blockage. Scientific name: COPD.', category: 'Overview' },
-      { question: 'What causes Smoker\'s Cough?', answer: 'Smoking permanently destroys lung sacs.', category: 'Cause' },
-      { question: 'What is a hidden fact about Smoker\'s Cough?', answer: 'Once lung tissue is destroyed, it does not grow back.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Smoker\'s Cough?', answer: 'High antioxidant foods.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Smoker\'s Cough?', answer: 'NAC, Vitamin C, Magnesium.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Smoker\'s Cough?', answer: 'Quit smoking; pulmonary rehab.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Smoker's Cough?",
+          answer: "Lung airflow blockage. Scientific name: COPD.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Smoker's Cough?",
+          answer: "Smoking permanently destroys lung sacs.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Smoker's Cough?",
+          answer: "Once lung tissue is destroyed, it does not grow back.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Smoker's Cough?",
+          answer: "High antioxidant foods.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Smoker's Cough?",
+          answer: "NAC, Vitamin C, Magnesium.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Smoker's Cough?",
+          answer: "Quit smoking; pulmonary rehab.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Smoker's Cough typically become a concern?",
+          answer: "Smoker's Cough typically becomes a concern around 50s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"High antioxidant foods.\" help with Smoker's Cough?",
+          answer: "Yes \u2014 High antioxidant foods. is one of the natural approaches recommended for Smoker's Cough.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'alcoholic-liver-disease',
@@ -5396,13 +12537,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Absolute alcohol cessation.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Alcoholic Liver Disease?', answer: 'Liver poisoned by alcohol. Scientific name: Alcohol-Related Liver Disease.', category: 'Overview' },
-      { question: 'What causes Alcoholic Liver Disease?', answer: 'Chronic alcohol poisons liver cells.', category: 'Cause' },
-      { question: 'What is a hidden fact about Alcoholic Liver Disease?', answer: 'The liver can regenerate, but cirrhosis is irreversible scarring.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Alcoholic Liver Disease?', answer: 'High protein, high B-vitamins, low fat.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Alcoholic Liver Disease?', answer: 'Milk Thistle, NAC, Phosphatidylcholine.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Alcoholic Liver Disease?', answer: 'Absolute alcohol cessation.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Alcoholic Liver Disease?",
+          answer: "Liver poisoned by alcohol. Scientific name: Alcohol-Related Liver Disease.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Alcoholic Liver Disease?",
+          answer: "Chronic alcohol poisons liver cells.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Alcoholic Liver Disease?",
+          answer: "The liver can regenerate, but cirrhosis is irreversible scarring.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Alcoholic Liver Disease?",
+          answer: "High protein, high B-vitamins, low fat.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Alcoholic Liver Disease?",
+          answer: "Milk Thistle, NAC, Phosphatidylcholine.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Alcoholic Liver Disease?",
+          answer: "Absolute alcohol cessation.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Alcoholic Liver Disease typically become a concern?",
+          answer: "Alcoholic Liver Disease typically becomes a concern around 40s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"High protein, high B-vitamins, low fat.\" help with Alcoholic Liver Disease?",
+          answer: "Yes \u2014 High protein, high B-vitamins, low fat. is one of the natural approaches recommended for Alcoholic Liver Disease.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'diabetic-neuropathy',
@@ -5424,13 +12599,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Daily foot checks; proper footwear.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Diabetic Neuropathy?', answer: 'Numb feet/legs. Scientific name: Diabetic Neuropathy.', category: 'Overview' },
-      { question: 'What causes Diabetic Neuropathy?', answer: 'High sugar destroys leg nerve endings.', category: 'Cause' },
-      { question: 'What is a hidden fact about Diabetic Neuropathy?', answer: 'Patients step on glass and don\'t feel it, causing infection.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Diabetic Neuropathy?', answer: 'Perfect blood sugar control (low carb).', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Diabetic Neuropathy?', answer: 'Alpha-Lipoic Acid, B12, Benfotiamine.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Diabetic Neuropathy?', answer: 'Daily foot checks; proper footwear.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Diabetic Neuropathy?",
+          answer: "Numb feet/legs. Scientific name: Diabetic Neuropathy.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Diabetic Neuropathy?",
+          answer: "High sugar destroys leg nerve endings.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Diabetic Neuropathy?",
+          answer: "Patients step on glass and don't feel it, causing infection.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Diabetic Neuropathy?",
+          answer: "Perfect blood sugar control (low carb).",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Diabetic Neuropathy?",
+          answer: "Alpha-Lipoic Acid, B12, Benfotiamine.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Diabetic Neuropathy?",
+          answer: "Daily foot checks; proper footwear.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Diabetic Neuropathy typically become a concern?",
+          answer: "Diabetic Neuropathy typically becomes a concern around 50s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Perfect blood sugar control (low carb).\" help with Diabetic Neuropathy?",
+          answer: "Yes \u2014 Perfect blood sugar control (low carb). is one of the natural approaches recommended for Diabetic Neuropathy.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'diabetic-retinopathy',
@@ -5452,13 +12661,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Annual eye exams; BP/sugar control.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Diabetic Retinopathy?', answer: 'Blindness from diabetes. Scientific name: Diabetic Retinopathy.', category: 'Overview' },
-      { question: 'What causes Diabetic Retinopathy?', answer: 'High sugar bursts eye blood vessels.', category: 'Cause' },
-      { question: 'What is a hidden fact about Diabetic Retinopathy?', answer: 'You can lose 40% of vision before noticing it.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Diabetic Retinopathy?', answer: 'Low-glycemic diet, no sugar.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Diabetic Retinopathy?', answer: 'Lutein, Bilberry, Astaxanthin.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Diabetic Retinopathy?', answer: 'Annual eye exams; BP/sugar control.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Diabetic Retinopathy?",
+          answer: "Blindness from diabetes. Scientific name: Diabetic Retinopathy.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Diabetic Retinopathy?",
+          answer: "High sugar bursts eye blood vessels.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Diabetic Retinopathy?",
+          answer: "You can lose 40% of vision before noticing it.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Diabetic Retinopathy?",
+          answer: "Low-glycemic diet, no sugar.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Diabetic Retinopathy?",
+          answer: "Lutein, Bilberry, Astaxanthin.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Diabetic Retinopathy?",
+          answer: "Annual eye exams; BP/sugar control.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Diabetic Retinopathy typically become a concern?",
+          answer: "Diabetic Retinopathy typically becomes a concern around 50s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Low-glycemic diet, no sugar.\" help with Diabetic Retinopathy?",
+          answer: "Yes \u2014 Low-glycemic diet, no sugar. is one of the natural approaches recommended for Diabetic Retinopathy.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'pku',
@@ -5480,13 +12723,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Lifelong diet adherence.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is PKU?', answer: 'Can\'t process protein. Scientific name: Phenylketonuria.', category: 'Overview' },
-      { question: 'What causes PKU?', answer: 'Genetic lack of enzyme.', category: 'Cause' },
-      { question: 'What is a hidden fact about PKU?', answer: 'Eating protein (meat, dairy) causes severe brain damage.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with PKU?', answer: 'Strict low-protein medical diet.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with PKU?', answer: 'Medical amino acid formula.', category: 'Supplements' },
-      { question: 'What lifestyle changes help PKU?', answer: 'Lifelong diet adherence.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is PKU?",
+          answer: "Can't process protein. Scientific name: Phenylketonuria.",
+          category: "Overview"
+      },
+      {
+          question: "What causes PKU?",
+          answer: "Genetic lack of enzyme.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about PKU?",
+          answer: "Eating protein (meat, dairy) causes severe brain damage.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with PKU?",
+          answer: "Strict low-protein medical diet.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with PKU?",
+          answer: "Medical amino acid formula.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help PKU?",
+          answer: "Lifelong diet adherence.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does PKU typically become a concern?",
+          answer: "PKU typically becomes a concern around Birth+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Strict low-protein medical diet.\" help with PKU?",
+          answer: "Yes \u2014 Strict low-protein medical diet. is one of the natural approaches recommended for PKU.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'wilsons-disease',
@@ -5508,13 +12785,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Lifelong diet + chelation therapy.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Wilson\'s Disease?', answer: 'Copper buildup in organs. Scientific name: Hepatolenticular Degeneration.', category: 'Overview' },
-      { question: 'What causes Wilson\'s Disease?', answer: 'Genetic defect prevents copper excretion.', category: 'Cause' },
-      { question: 'What is a hidden fact about Wilson\'s Disease?', answer: 'Causes golden rings around the eyes (Kayser-Fleischer rings).', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Wilson\'s Disease?', answer: 'Avoid copper foods (shellfish, nuts, choc).', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Wilson\'s Disease?', answer: 'Zinc (blocks copper absorption).', category: 'Supplements' },
-      { question: 'What lifestyle changes help Wilson\'s Disease?', answer: 'Lifelong diet + chelation therapy.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Wilson's Disease?",
+          answer: "Copper buildup in organs. Scientific name: Hepatolenticular Degeneration.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Wilson's Disease?",
+          answer: "Genetic defect prevents copper excretion.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Wilson's Disease?",
+          answer: "Causes golden rings around the eyes (Kayser-Fleischer rings).",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Wilson's Disease?",
+          answer: "Avoid copper foods (shellfish, nuts, choc).",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Wilson's Disease?",
+          answer: "Zinc (blocks copper absorption).",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Wilson's Disease?",
+          answer: "Lifelong diet + chelation therapy.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Wilson's Disease typically become a concern?",
+          answer: "Wilson's Disease typically becomes a concern around Childhood-30s.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Avoid copper foods (shellfish, nuts, choc).\" help with Wilson's Disease?",
+          answer: "Yes \u2014 Avoid copper foods (shellfish, nuts, choc). is one of the natural approaches recommended for Wilson's Disease.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'g6pd-deficiency',
@@ -5536,13 +12847,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Avoid certain malaria drugs/sulfa drugs.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is G6PD Deficiency?', answer: 'Red blood cells burst. Scientific name: Favism.', category: 'Overview' },
-      { question: 'What causes G6PD Deficiency?', answer: 'Genetic enzyme lack.', category: 'Cause' },
-      { question: 'What is a hidden fact about G6PD Deficiency?', answer: 'Eating fava beans causes sudden, severe anemia.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with G6PD Deficiency?', answer: 'Strictly avoid fava beans/legumes.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with G6PD Deficiency?', answer: 'Folic Acid, Vitamin E.', category: 'Supplements' },
-      { question: 'What lifestyle changes help G6PD Deficiency?', answer: 'Avoid certain malaria drugs/sulfa drugs.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is G6PD Deficiency?",
+          answer: "Red blood cells burst. Scientific name: Favism.",
+          category: "Overview"
+      },
+      {
+          question: "What causes G6PD Deficiency?",
+          answer: "Genetic enzyme lack.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about G6PD Deficiency?",
+          answer: "Eating fava beans causes sudden, severe anemia.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with G6PD Deficiency?",
+          answer: "Strictly avoid fava beans/legumes.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with G6PD Deficiency?",
+          answer: "Folic Acid, Vitamin E.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help G6PD Deficiency?",
+          answer: "Avoid certain malaria drugs/sulfa drugs.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does G6PD Deficiency typically become a concern?",
+          answer: "G6PD Deficiency typically becomes a concern around Birth+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Strictly avoid fava beans/legumes.\" help with G6PD Deficiency?",
+          answer: "Yes \u2014 Strictly avoid fava beans/legumes. is one of the natural approaches recommended for G6PD Deficiency.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'lactose-intolerance',
@@ -5564,13 +12909,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Read labels for hidden dairy.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Lactose Intolerance?', answer: 'Can\'t digest dairy. Scientific name: Lactose Malabsorption.', category: 'Overview' },
-      { question: 'What causes Lactose Intolerance?', answer: 'Lack of lactase enzyme.', category: 'Cause' },
-      { question: 'What is a hidden fact about Lactose Intolerance?', answer: 'Normal mammalian state; keeping it into adulthood is a mutation.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Lactose Intolerance?', answer: 'Dairy-free milk/cheese.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Lactose Intolerance?', answer: 'Lactase enzyme pills.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Lactose Intolerance?', answer: 'Read labels for hidden dairy.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Lactose Intolerance?",
+          answer: "Can't digest dairy. Scientific name: Lactose Malabsorption.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Lactose Intolerance?",
+          answer: "Lack of lactase enzyme.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Lactose Intolerance?",
+          answer: "Normal mammalian state; keeping it into adulthood is a mutation.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Lactose Intolerance?",
+          answer: "Dairy-free milk/cheese.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Lactose Intolerance?",
+          answer: "Lactase enzyme pills.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Lactose Intolerance?",
+          answer: "Read labels for hidden dairy.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Lactose Intolerance typically become a concern?",
+          answer: "Lactose Intolerance typically becomes a concern around Teens+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Dairy-free milk/cheese.\" help with Lactose Intolerance?",
+          answer: "Yes \u2014 Dairy-free milk/cheese. is one of the natural approaches recommended for Lactose Intolerance.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'hereditary-fructose-intolerance',
@@ -5592,13 +12971,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Lifelong strict avoidance.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Hereditary Fructose Intolerance?', answer: 'Can\'t digest fruit sugar. Scientific name: Fructosemia.', category: 'Overview' },
-      { question: 'What causes Hereditary Fructose Intolerance?', answer: 'Genetic enzyme lack.', category: 'Cause' },
-      { question: 'What is a hidden fact about Hereditary Fructose Intolerance?', answer: 'Eating fruit, sugar, or honey causes liver and kidney failure.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Hereditary Fructose Intolerance?', answer: 'Strict fructose-free diet (no fruit/sugar).', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Hereditary Fructose Intolerance?', answer: 'Multivitamins (missing fruit nutrients).', category: 'Supplements' },
-      { question: 'What lifestyle changes help Hereditary Fructose Intolerance?', answer: 'Lifelong strict avoidance.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Hereditary Fructose Intolerance?",
+          answer: "Can't digest fruit sugar. Scientific name: Fructosemia.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Hereditary Fructose Intolerance?",
+          answer: "Genetic enzyme lack.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Hereditary Fructose Intolerance?",
+          answer: "Eating fruit, sugar, or honey causes liver and kidney failure.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Hereditary Fructose Intolerance?",
+          answer: "Strict fructose-free diet (no fruit/sugar).",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Hereditary Fructose Intolerance?",
+          answer: "Multivitamins (missing fruit nutrients).",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Hereditary Fructose Intolerance?",
+          answer: "Lifelong strict avoidance.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Hereditary Fructose Intolerance typically become a concern?",
+          answer: "Hereditary Fructose Intolerance typically becomes a concern around Childhood.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Strict fructose-free diet (no fruit/sugar).\" help with Hereditary Fructose Intolerance?",
+          answer: "Yes \u2014 Strict fructose-free diet (no fruit/sugar). is one of the natural approaches recommended for Hereditary Fructose Intolerance.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'cystic-fibrosis',
@@ -5620,13 +13033,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Chest physiotherapy; exercise.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Cystic Fibrosis?', answer: 'Thick mucus blocks organs. Scientific name: Cystic Fibrosis.', category: 'Overview' },
-      { question: 'What causes Cystic Fibrosis?', answer: 'Genetic CFTR mutation.', category: 'Cause' },
-      { question: 'What is a hidden fact about Cystic Fibrosis?', answer: 'Sticky mucus clogs lungs and pancreas; salt tastes very salty.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Cystic Fibrosis?', answer: 'High-calorie, high-fat, high-salt diet.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Cystic Fibrosis?', answer: 'Pancreatic enzymes, Fat-soluble vitamins.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Cystic Fibrosis?', answer: 'Chest physiotherapy; exercise.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Cystic Fibrosis?",
+          answer: "Thick mucus blocks organs. Scientific name: Cystic Fibrosis.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Cystic Fibrosis?",
+          answer: "Genetic CFTR mutation.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Cystic Fibrosis?",
+          answer: "Sticky mucus clogs lungs and pancreas; salt tastes very salty.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Cystic Fibrosis?",
+          answer: "High-calorie, high-fat, high-salt diet.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Cystic Fibrosis?",
+          answer: "Pancreatic enzymes, Fat-soluble vitamins.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Cystic Fibrosis?",
+          answer: "Chest physiotherapy; exercise.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Cystic Fibrosis typically become a concern?",
+          answer: "Cystic Fibrosis typically becomes a concern around Birth+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"High-calorie, high-fat, high-salt diet.\" help with Cystic Fibrosis?",
+          answer: "Yes \u2014 High-calorie, high-fat, high-salt diet. is one of the natural approaches recommended for Cystic Fibrosis.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'listeria-toxo-trichinosis',
@@ -5648,13 +13095,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Safe food handling; avoid raw dairy.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Listeria / Toxo / Trichinosis?', answer: 'Severe food poisoning. Scientific name: Listeriosis / Toxoplasmosis / Trichinellosis.', category: 'Overview' },
-      { question: 'What causes Listeria / Toxo / Trichinosis?', answer: 'Eating unpasteurized cheese, raw meat, bad cans.', category: 'Cause' },
-      { question: 'What is a hidden fact about Listeria / Toxo / Trichinosis?', answer: 'Toxo can alter brain behavior (often found in cat litter).', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Listeria / Toxo / Trichinosis?', answer: 'Cook meat thoroughly; wash veggies.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Listeria / Toxo / Trichinosis?', answer: 'None (prevention is key).', category: 'Supplements' },
-      { question: 'What lifestyle changes help Listeria / Toxo / Trichinosis?', answer: 'Safe food handling; avoid raw dairy.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Listeria / Toxo / Trichinosis?",
+          answer: "Severe food poisoning. Scientific name: Listeriosis / Toxoplasmosis / Trichinellosis.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Listeria / Toxo / Trichinosis?",
+          answer: "Eating unpasteurized cheese, raw meat, bad cans.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Listeria / Toxo / Trichinosis?",
+          answer: "Toxo can alter brain behavior (often found in cat litter).",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Listeria / Toxo / Trichinosis?",
+          answer: "Cook meat thoroughly; wash veggies.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Listeria / Toxo / Trichinosis?",
+          answer: "None (prevention is key).",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Listeria / Toxo / Trichinosis?",
+          answer: "Safe food handling; avoid raw dairy.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Listeria / Toxo / Trichinosis typically become a concern?",
+          answer: "Listeria / Toxo / Trichinosis typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Cook meat thoroughly; wash veggies.\" help with Listeria / Toxo / Trichinosis?",
+          answer: "Yes \u2014 Cook meat thoroughly; wash veggies. is one of the natural approaches recommended for Listeria / Toxo / Trichinosis.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'botulism',
@@ -5676,13 +13157,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Strict pressure-canning safety rules.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Botulism?', answer: 'Deadly nerve toxin. Scientific name: Foodborne Botulism.', category: 'Overview' },
-      { question: 'What causes Botulism?', answer: 'Eating improperly home-canned foods.', category: 'Cause' },
-      { question: 'What is a hidden fact about Botulism?', answer: 'The toxin blocks nerves from telling muscles to breathe.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Botulism?', answer: 'Boil home-canned foods for 10 mins.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Botulism?', answer: 'None (prevention is key).', category: 'Supplements' },
-      { question: 'What lifestyle changes help Botulism?', answer: 'Strict pressure-canning safety rules.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Botulism?",
+          answer: "Deadly nerve toxin. Scientific name: Foodborne Botulism.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Botulism?",
+          answer: "Eating improperly home-canned foods.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Botulism?",
+          answer: "The toxin blocks nerves from telling muscles to breathe.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Botulism?",
+          answer: "Boil home-canned foods for 10 mins.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Botulism?",
+          answer: "None (prevention is key).",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Botulism?",
+          answer: "Strict pressure-canning safety rules.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Botulism typically become a concern?",
+          answer: "Botulism typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Boil home-canned foods for 10 mins.\" help with Botulism?",
+          answer: "Yes \u2014 Boil home-canned foods for 10 mins. is one of the natural approaches recommended for Botulism.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'systemic-yeast',
@@ -5704,13 +13219,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Cut antibiotics/sugar; stress mgmt.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Systemic Yeast?', answer: 'Yeast overgrowth in gut. Scientific name: Candidiasis (Gut).', category: 'Overview' },
-      { question: 'What causes Systemic Yeast?', answer: 'High sugar/antibiotics.', category: 'Cause' },
-      { question: 'What is a hidden fact about Systemic Yeast?', answer: 'Yeast releases 70+ different toxins into the bloodstream.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Systemic Yeast?', answer: 'Zero sugar, low carb, fermented foods.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Systemic Yeast?', answer: 'Oregano oil, Caprylic acid, Probiotics.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Systemic Yeast?', answer: 'Cut antibiotics/sugar; stress mgmt.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Systemic Yeast?",
+          answer: "Yeast overgrowth in gut. Scientific name: Candidiasis (Gut).",
+          category: "Overview"
+      },
+      {
+          question: "What causes Systemic Yeast?",
+          answer: "High sugar/antibiotics.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Systemic Yeast?",
+          answer: "Yeast releases 70+ different toxins into the bloodstream.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Systemic Yeast?",
+          answer: "Zero sugar, low carb, fermented foods.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Systemic Yeast?",
+          answer: "Oregano oil, Caprylic acid, Probiotics.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Systemic Yeast?",
+          answer: "Cut antibiotics/sugar; stress mgmt.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Systemic Yeast typically become a concern?",
+          answer: "Systemic Yeast typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Zero sugar, low carb, fermented foods.\" help with Systemic Yeast?",
+          answer: "Yes \u2014 Zero sugar, low carb, fermented foods. is one of the natural approaches recommended for Systemic Yeast.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'uti-cystitis',
@@ -5732,13 +13281,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Wipe front-to-back; pee after sex.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is UTI / Cystitis?', answer: 'Bladder infection. Scientific name: Urinary Tract Infection.', category: 'Overview' },
-      { question: 'What causes UTI / Cystitis?', answer: 'E. coli climbs urethra.', category: 'Cause' },
-      { question: 'What is a hidden fact about UTI / Cystitis?', answer: 'Dehydration lets bacteria multiply; water flushes it out.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with UTI / Cystitis?', answer: '3L water daily.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with UTI / Cystitis?', answer: 'D-Mannose, Cranberry extract, Uva Ursi.', category: 'Supplements' },
-      { question: 'What lifestyle changes help UTI / Cystitis?', answer: 'Wipe front-to-back; pee after sex.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is UTI / Cystitis?",
+          answer: "Bladder infection. Scientific name: Urinary Tract Infection.",
+          category: "Overview"
+      },
+      {
+          question: "What causes UTI / Cystitis?",
+          answer: "E. coli climbs urethra.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about UTI / Cystitis?",
+          answer: "Dehydration lets bacteria multiply; water flushes it out.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with UTI / Cystitis?",
+          answer: "3L water daily.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with UTI / Cystitis?",
+          answer: "D-Mannose, Cranberry extract, Uva Ursi.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help UTI / Cystitis?",
+          answer: "Wipe front-to-back; pee after sex.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does UTI / Cystitis typically become a concern?",
+          answer: "UTI / Cystitis typically becomes a concern around 20s+ (Women).",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"3L water daily.\" help with UTI / Cystitis?",
+          answer: "Yes \u2014 3L water daily. is one of the natural approaches recommended for UTI / Cystitis.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'interstitial-cystitis',
@@ -5760,13 +13343,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Stress management; pelvic floor PT.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Interstitial Cystitis?', answer: 'Chronic bladder pain. Scientific name: Painful Bladder Syndrome.', category: 'Overview' },
-      { question: 'What causes Interstitial Cystitis?', answer: 'Coffee/citrus irritate bladder wall.', category: 'Cause' },
-      { question: 'What is a hidden fact about Interstitial Cystitis?', answer: 'Feels like a UTI but tests negative for bacteria.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Interstitial Cystitis?', answer: 'Elimination diet (no caffeine/citrus).', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Interstitial Cystitis?', answer: 'Marshmallow root, Quercetin, Aloe Vera.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Interstitial Cystitis?', answer: 'Stress management; pelvic floor PT.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Interstitial Cystitis?",
+          answer: "Chronic bladder pain. Scientific name: Painful Bladder Syndrome.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Interstitial Cystitis?",
+          answer: "Coffee/citrus irritate bladder wall.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Interstitial Cystitis?",
+          answer: "Feels like a UTI but tests negative for bacteria.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Interstitial Cystitis?",
+          answer: "Elimination diet (no caffeine/citrus).",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Interstitial Cystitis?",
+          answer: "Marshmallow root, Quercetin, Aloe Vera.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Interstitial Cystitis?",
+          answer: "Stress management; pelvic floor PT.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Interstitial Cystitis typically become a concern?",
+          answer: "Interstitial Cystitis typically becomes a concern around 30s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Elimination diet (no caffeine/citrus).\" help with Interstitial Cystitis?",
+          answer: "Yes \u2014 Elimination diet (no caffeine/citrus). is one of the natural approaches recommended for Interstitial Cystitis.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'swimmers-ear',
@@ -5788,13 +13405,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Dry ears with hairdryer; avoid Q-tips.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Swimmer\'s Ear?', answer: 'Outer ear canal infection. Scientific name: Otitis Externa.', category: 'Overview' },
-      { question: 'What causes Swimmer\'s Ear?', answer: 'Trapped water breeds bacteria.', category: 'Cause' },
-      { question: 'What is a hidden fact about Swimmer\'s Ear?', answer: 'Water softens ear wax, letting bacteria grow.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Swimmer\'s Ear?', answer: 'None.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Swimmer\'s Ear?', answer: 'Garlic/mullein ear drops (preventative).', category: 'Supplements' },
-      { question: 'What lifestyle changes help Swimmer\'s Ear?', answer: 'Dry ears with hairdryer; avoid Q-tips.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Swimmer's Ear?",
+          answer: "Outer ear canal infection. Scientific name: Otitis Externa.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Swimmer's Ear?",
+          answer: "Trapped water breeds bacteria.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Swimmer's Ear?",
+          answer: "Water softens ear wax, letting bacteria grow.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Swimmer's Ear?",
+          answer: "None.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Swimmer's Ear?",
+          answer: "Garlic/mullein ear drops (preventative).",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Swimmer's Ear?",
+          answer: "Dry ears with hairdryer; avoid Q-tips.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Swimmer's Ear typically become a concern?",
+          answer: "Swimmer's Ear typically becomes a concern around Childhood+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"None.\" help with Swimmer's Ear?",
+          answer: "Yes \u2014 None. is one of the natural approaches recommended for Swimmer's Ear.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'low-potassium',
@@ -5816,13 +13467,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Stop laxative/diuretic abuse.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Low Potassium?', answer: 'Dangerous heart rhythms. Scientific name: Hypokalemia.', category: 'Overview' },
-      { question: 'What causes Low Potassium?', answer: 'Laxative/diuretic abuse or bulimia.', category: 'Cause' },
-      { question: 'What is a hidden fact about Low Potassium?', answer: 'Potassium controls the heart\'s electrical system.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Low Potassium?', answer: 'Bananas, avocados, potatoes.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Low Potassium?', answer: 'Potassium Gluconate.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Low Potassium?', answer: 'Stop laxative/diuretic abuse.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Low Potassium?",
+          answer: "Dangerous heart rhythms. Scientific name: Hypokalemia.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Low Potassium?",
+          answer: "Laxative/diuretic abuse or bulimia.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Low Potassium?",
+          answer: "Potassium controls the heart's electrical system.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Low Potassium?",
+          answer: "Bananas, avocados, potatoes.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Low Potassium?",
+          answer: "Potassium Gluconate.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Low Potassium?",
+          answer: "Stop laxative/diuretic abuse.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Low Potassium typically become a concern?",
+          answer: "Low Potassium typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Bananas, avocados, potatoes.\" help with Low Potassium?",
+          answer: "Yes \u2014 Bananas, avocados, potatoes. is one of the natural approaches recommended for Low Potassium.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'vit-a-toxicity',
@@ -5844,13 +13529,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Hydration; symptom management.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Vit A Toxicity?', answer: 'Liver/brain damage. Scientific name: Hypervitaminosis A.', category: 'Overview' },
-      { question: 'What causes Vit A Toxicity?', answer: 'Eating excessive animal liver.', category: 'Cause' },
-      { question: 'What is a hidden fact about Vit A Toxicity?', answer: 'Polar bear liver is so high in Vit A it is fatal to humans.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Vit A Toxicity?', answer: 'Stop eating liver/stop supplements.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Vit A Toxicity?', answer: 'None (stop the cause).', category: 'Supplements' },
-      { question: 'What lifestyle changes help Vit A Toxicity?', answer: 'Hydration; symptom management.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Vit A Toxicity?",
+          answer: "Liver/brain damage. Scientific name: Hypervitaminosis A.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Vit A Toxicity?",
+          answer: "Eating excessive animal liver.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Vit A Toxicity?",
+          answer: "Polar bear liver is so high in Vit A it is fatal to humans.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Vit A Toxicity?",
+          answer: "Stop eating liver/stop supplements.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Vit A Toxicity?",
+          answer: "None (stop the cause).",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Vit A Toxicity?",
+          answer: "Hydration; symptom management.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Vit A Toxicity typically become a concern?",
+          answer: "Vit A Toxicity typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Stop eating liver/stop supplements.\" help with Vit A Toxicity?",
+          answer: "Yes \u2014 Stop eating liver/stop supplements. is one of the natural approaches recommended for Vit A Toxicity.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'mercury-poisoning',
@@ -5872,13 +13591,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Limit tuna/shark intake.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Mercury Poisoning?', answer: 'Brain damage from fish. Scientific name: Hydrargyria.', category: 'Overview' },
-      { question: 'What causes Mercury Poisoning?', answer: 'Eating too much predatory fish.', category: 'Cause' },
-      { question: 'What is a hidden fact about Mercury Poisoning?', answer: 'Mercury bioaccumulates; big fish eat small fish, concentrating it.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Mercury Poisoning?', answer: 'Low-mercury fish (salmon, sardines).', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Mercury Poisoning?', answer: 'Chlorella, Selenium.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Mercury Poisoning?', answer: 'Limit tuna/shark intake.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Mercury Poisoning?",
+          answer: "Brain damage from fish. Scientific name: Hydrargyria.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Mercury Poisoning?",
+          answer: "Eating too much predatory fish.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Mercury Poisoning?",
+          answer: "Mercury bioaccumulates; big fish eat small fish, concentrating it.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Mercury Poisoning?",
+          answer: "Low-mercury fish (salmon, sardines).",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Mercury Poisoning?",
+          answer: "Chlorella, Selenium.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Mercury Poisoning?",
+          answer: "Limit tuna/shark intake.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Mercury Poisoning typically become a concern?",
+          answer: "Mercury Poisoning typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Low-mercury fish (salmon, sardines).\" help with Mercury Poisoning?",
+          answer: "Yes \u2014 Low-mercury fish (salmon, sardines). is one of the natural approaches recommended for Mercury Poisoning.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'caffeine-toxicity',
@@ -5900,13 +13653,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Limit to <400mg caffeine daily.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Caffeine Toxicity?', answer: 'Heart palpitations. Scientific name: Caffeine Overdose.', category: 'Overview' },
-      { question: 'What causes Caffeine Toxicity?', answer: 'Overdosing energy drinks.', category: 'Cause' },
-      { question: 'What is a hidden fact about Caffeine Toxicity?', answer: 'Caffeine has a half-life of 5 hours; noon coffee affects sleep at night.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Caffeine Toxicity?', answer: 'Hydration, electrolytes.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Caffeine Toxicity?', answer: 'L-Theanine (calm jitters).', category: 'Supplements' },
-      { question: 'What lifestyle changes help Caffeine Toxicity?', answer: 'Limit to <400mg caffeine daily.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Caffeine Toxicity?",
+          answer: "Heart palpitations. Scientific name: Caffeine Overdose.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Caffeine Toxicity?",
+          answer: "Overdosing energy drinks.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Caffeine Toxicity?",
+          answer: "Caffeine has a half-life of 5 hours; noon coffee affects sleep at night.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Caffeine Toxicity?",
+          answer: "Hydration, electrolytes.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Caffeine Toxicity?",
+          answer: "L-Theanine (calm jitters).",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Caffeine Toxicity?",
+          answer: "Limit to <400mg caffeine daily.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Caffeine Toxicity typically become a concern?",
+          answer: "Caffeine Toxicity typically becomes a concern around Teens-30s.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Hydration, electrolytes.\" help with Caffeine Toxicity?",
+          answer: "Yes \u2014 Hydration, electrolytes. is one of the natural approaches recommended for Caffeine Toxicity.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'pellagra-beri-beri',
@@ -5928,13 +13715,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Reduce alcohol (destroys B vitamins).',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Pellagra / Beri-Beri?', answer: 'Skin, gut, brain failure. Scientific name: Niacin (B3) / Thiamine (B1) Deficiency.', category: 'Overview' },
-      { question: 'What causes Pellagra / Beri-Beri?', answer: 'Poor diet or alcoholism.', category: 'Cause' },
-      { question: 'What is a hidden fact about Pellagra / Beri-Beri?', answer: 'Alcohol destroys B vitamins, causing nerve paralysis.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Pellagra / Beri-Beri?', answer: 'Whole grains, meat, legumes.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Pellagra / Beri-Beri?', answer: 'B-Complex vitamins.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Pellagra / Beri-Beri?', answer: 'Reduce alcohol (destroys B vitamins).', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Pellagra / Beri-Beri?",
+          answer: "Skin, gut, brain failure. Scientific name: Niacin (B3) / Thiamine (B1) Deficiency.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Pellagra / Beri-Beri?",
+          answer: "Poor diet or alcoholism.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Pellagra / Beri-Beri?",
+          answer: "Alcohol destroys B vitamins, causing nerve paralysis.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Pellagra / Beri-Beri?",
+          answer: "Whole grains, meat, legumes.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Pellagra / Beri-Beri?",
+          answer: "B-Complex vitamins.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Pellagra / Beri-Beri?",
+          answer: "Reduce alcohol (destroys B vitamins).",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Pellagra / Beri-Beri typically become a concern?",
+          answer: "Pellagra / Beri-Beri typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Whole grains, meat, legumes.\" help with Pellagra / Beri-Beri?",
+          answer: "Yes \u2014 Whole grains, meat, legumes. is one of the natural approaches recommended for Pellagra / Beri-Beri.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'asthma',
@@ -5956,13 +13777,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Weight loss; dust/allergen avoidance.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Asthma?', answer: 'Inflamed, narrow airways. Scientific name: Bronchial Asthma.', category: 'Overview' },
-      { question: 'What causes Asthma?', answer: 'Allergens, obesity, sulfites.', category: 'Cause' },
-      { question: 'What is a hidden fact about Asthma?', answer: 'Asthmatic airways are always slightly inflamed, even if fine.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Asthma?', answer: 'Anti-inflammatory Omega-3s, low sulfites.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Asthma?', answer: 'Vitamin C, Magnesium, Quercetin.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Asthma?', answer: 'Weight loss; dust/allergen avoidance.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Asthma?",
+          answer: "Inflamed, narrow airways. Scientific name: Bronchial Asthma.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Asthma?",
+          answer: "Allergens, obesity, sulfites.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Asthma?",
+          answer: "Asthmatic airways are always slightly inflamed, even if fine.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Asthma?",
+          answer: "Anti-inflammatory Omega-3s, low sulfites.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Asthma?",
+          answer: "Vitamin C, Magnesium, Quercetin.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Asthma?",
+          answer: "Weight loss; dust/allergen avoidance.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Asthma typically become a concern?",
+          answer: "Asthma typically becomes a concern around Childhood+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Anti-inflammatory Omega-3s, low sulfites.\" help with Asthma?",
+          answer: "Yes \u2014 Anti-inflammatory Omega-3s, low sulfites. is one of the natural approaches recommended for Asthma.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'h-pylori-infection',
@@ -5984,13 +13839,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Treat with antibiotics if severe; handwashing.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is H. pylori Infection?', answer: 'Stomach ulcers. Scientific name: Helicobacter pylori.', category: 'Overview' },
-      { question: 'What causes H. pylori Infection?', answer: 'Contaminated food/water.', category: 'Cause' },
-      { question: 'What is a hidden fact about H. pylori Infection?', answer: 'H. pylori survives stomach acid by creating an ammonia cloud.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with H. pylori Infection?', answer: 'Broccoli sprouts (sulforaphane), no sugar.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with H. pylori Infection?', answer: 'Mastic gum, Matula tea, Probiotics.', category: 'Supplements' },
-      { question: 'What lifestyle changes help H. pylori Infection?', answer: 'Treat with antibiotics if severe; handwashing.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is H. pylori Infection?",
+          answer: "Stomach ulcers. Scientific name: Helicobacter pylori.",
+          category: "Overview"
+      },
+      {
+          question: "What causes H. pylori Infection?",
+          answer: "Contaminated food/water.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about H. pylori Infection?",
+          answer: "H. pylori survives stomach acid by creating an ammonia cloud.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with H. pylori Infection?",
+          answer: "Broccoli sprouts (sulforaphane), no sugar.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with H. pylori Infection?",
+          answer: "Mastic gum, Matula tea, Probiotics.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help H. pylori Infection?",
+          answer: "Treat with antibiotics if severe; handwashing.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does H. pylori Infection typically become a concern?",
+          answer: "H. pylori Infection typically becomes a concern around 30s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Broccoli sprouts (sulforaphane), no sugar.\" help with H. pylori Infection?",
+          answer: "Yes \u2014 Broccoli sprouts (sulforaphane), no sugar. is one of the natural approaches recommended for H. pylori Infection.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'liver-cancer',
@@ -6012,13 +13901,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Quit smoking/alcohol; manage weight.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Liver Cancer?', answer: 'Cancer of liver. Scientific name: Hepatocellular Carcinoma.', category: 'Overview' },
-      { question: 'What causes Liver Cancer?', answer: 'Alcohol, smoking, fatty liver.', category: 'Cause' },
-      { question: 'What is a hidden fact about Liver Cancer?', answer: 'Hepatitis B/C combined with alcohol drastically spikes risk.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Liver Cancer?', answer: 'Coffee, cruciferous veggies, zero alcohol.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Liver Cancer?', answer: 'Milk Thistle, NAC, Curcumin.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Liver Cancer?', answer: 'Quit smoking/alcohol; manage weight.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Liver Cancer?",
+          answer: "Cancer of liver. Scientific name: Hepatocellular Carcinoma.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Liver Cancer?",
+          answer: "Alcohol, smoking, fatty liver.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Liver Cancer?",
+          answer: "Hepatitis B/C combined with alcohol drastically spikes risk.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Liver Cancer?",
+          answer: "Coffee, cruciferous veggies, zero alcohol.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Liver Cancer?",
+          answer: "Milk Thistle, NAC, Curcumin.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Liver Cancer?",
+          answer: "Quit smoking/alcohol; manage weight.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Liver Cancer typically become a concern?",
+          answer: "Liver Cancer typically becomes a concern around 50s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Coffee, cruciferous veggies, zero alcohol.\" help with Liver Cancer?",
+          answer: "Yes \u2014 Coffee, cruciferous veggies, zero alcohol. is one of the natural approaches recommended for Liver Cancer.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'kidney-cancer',
@@ -6040,13 +13963,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Quit smoking; maintain healthy weight.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Kidney Cancer?', answer: 'Cancer in kidney. Scientific name: Renal Cell Carcinoma.', category: 'Overview' },
-      { question: 'What causes Kidney Cancer?', answer: 'Smoking and obesity.', category: 'Cause' },
-      { question: 'What is a hidden fact about Kidney Cancer?', answer: 'Kidney tumors can grow very large without any symptoms.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Kidney Cancer?', answer: 'High antioxidant foods, hydration.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Kidney Cancer?', answer: 'Green Tea, Curcumin, Vitamin D.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Kidney Cancer?', answer: 'Quit smoking; maintain healthy weight.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Kidney Cancer?",
+          answer: "Cancer in kidney. Scientific name: Renal Cell Carcinoma.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Kidney Cancer?",
+          answer: "Smoking and obesity.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Kidney Cancer?",
+          answer: "Kidney tumors can grow very large without any symptoms.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Kidney Cancer?",
+          answer: "High antioxidant foods, hydration.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Kidney Cancer?",
+          answer: "Green Tea, Curcumin, Vitamin D.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Kidney Cancer?",
+          answer: "Quit smoking; maintain healthy weight.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Kidney Cancer typically become a concern?",
+          answer: "Kidney Cancer typically becomes a concern around 50s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"High antioxidant foods, hydration.\" help with Kidney Cancer?",
+          answer: "Yes \u2014 High antioxidant foods, hydration. is one of the natural approaches recommended for Kidney Cancer.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'esophageal-cancer',
@@ -6068,13 +14025,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Don\'t lie down after eating; stop smoking.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Esophageal Cancer?', answer: 'Cancer of esophagus. Scientific name: Esophageal Carcinoma.', category: 'Overview' },
-      { question: 'What causes Esophageal Cancer?', answer: 'Chronic acid reflux burns cells.', category: 'Cause' },
-      { question: 'What is a hidden fact about Esophageal Cancer?', answer: 'Acid reflux changing cells (Barrett\'s) is a major hidden cause.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Esophageal Cancer?', answer: 'Weight loss, small meals, low acid.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Esophageal Cancer?', answer: 'DGL Licorice, Zinc Carnosine.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Esophageal Cancer?', answer: 'Don\'t lie down after eating; stop smoking.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Esophageal Cancer?",
+          answer: "Cancer of esophagus. Scientific name: Esophageal Carcinoma.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Esophageal Cancer?",
+          answer: "Chronic acid reflux burns cells.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Esophageal Cancer?",
+          answer: "Acid reflux changing cells (Barrett's) is a major hidden cause.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Esophageal Cancer?",
+          answer: "Weight loss, small meals, low acid.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Esophageal Cancer?",
+          answer: "DGL Licorice, Zinc Carnosine.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Esophageal Cancer?",
+          answer: "Don't lie down after eating; stop smoking.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Esophageal Cancer typically become a concern?",
+          answer: "Esophageal Cancer typically becomes a concern around 50s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Weight loss, small meals, low acid.\" help with Esophageal Cancer?",
+          answer: "Yes \u2014 Weight loss, small meals, low acid. is one of the natural approaches recommended for Esophageal Cancer.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'binge-eating',
@@ -6096,13 +14087,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'CBT therapy; blood sugar stability.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Binge Eating?', answer: 'Loss of control eating. Scientific name: Binge Eating Disorder (BED).', category: 'Overview' },
-      { question: 'What causes Binge Eating?', answer: 'Chronic dieting/starvation.', category: 'Cause' },
-      { question: 'What is a hidden fact about Binge Eating?', answer: 'Blood sugar crashes trigger the primal brain to binge.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Binge Eating?', answer: 'Regular balanced meals (no skipping).', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Binge Eating?', answer: '5-HTP, Inositol, Magnesium.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Binge Eating?', answer: 'CBT therapy; blood sugar stability.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Binge Eating?",
+          answer: "Loss of control eating. Scientific name: Binge Eating Disorder (BED).",
+          category: "Overview"
+      },
+      {
+          question: "What causes Binge Eating?",
+          answer: "Chronic dieting/starvation.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Binge Eating?",
+          answer: "Blood sugar crashes trigger the primal brain to binge.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Binge Eating?",
+          answer: "Regular balanced meals (no skipping).",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Binge Eating?",
+          answer: "5-HTP, Inositol, Magnesium.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Binge Eating?",
+          answer: "CBT therapy; blood sugar stability.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Binge Eating typically become a concern?",
+          answer: "Binge Eating typically becomes a concern around 20s-40s.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Regular balanced meals (no skipping).\" help with Binge Eating?",
+          answer: "Yes \u2014 Regular balanced meals (no skipping). is one of the natural approaches recommended for Binge Eating.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'anorexia-nervosa',
@@ -6124,13 +14149,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'CBT therapy; supervised weight restoration.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Anorexia Nervosa?', answer: 'Starving oneself. Scientific name: Anorexia Nervosa.', category: 'Overview' },
-      { question: 'What causes Anorexia Nervosa?', answer: 'Severe restriction alters brain.', category: 'Cause' },
-      { question: 'What is a hidden fact about Anorexia Nervosa?', answer: 'The brain actually shrinks (loss of gray matter) during starvation.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Anorexia Nervosa?', answer: 'Nutritional rehabilitation (re-feeding).', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Anorexia Nervosa?', answer: 'Zinc, Omega-3, Probiotics.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Anorexia Nervosa?', answer: 'CBT therapy; supervised weight restoration.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Anorexia Nervosa?",
+          answer: "Starving oneself. Scientific name: Anorexia Nervosa.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Anorexia Nervosa?",
+          answer: "Severe restriction alters brain.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Anorexia Nervosa?",
+          answer: "The brain actually shrinks (loss of gray matter) during starvation.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Anorexia Nervosa?",
+          answer: "Nutritional rehabilitation (re-feeding).",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Anorexia Nervosa?",
+          answer: "Zinc, Omega-3, Probiotics.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Anorexia Nervosa?",
+          answer: "CBT therapy; supervised weight restoration.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Anorexia Nervosa typically become a concern?",
+          answer: "Anorexia Nervosa typically becomes a concern around Teens-30s.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Nutritional rehabilitation (re-feeding).\" help with Anorexia Nervosa?",
+          answer: "Yes \u2014 Nutritional rehabilitation (re-feeding). is one of the natural approaches recommended for Anorexia Nervosa.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'bulimia-nervosa',
@@ -6152,13 +14211,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'CBT therapy; treat acid reflux/dental damage.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Bulimia Nervosa?', answer: 'Binge-purge cycles. Scientific name: Bulimia Nervosa.', category: 'Overview' },
-      { question: 'What causes Bulimia Nervosa?', answer: 'Trauma and control issues.', category: 'Cause' },
-      { question: 'What is a hidden fact about Bulimia Nervosa?', answer: 'Stomach acid in vomit melts teeth enamel and ruins the esophagus.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Bulimia Nervosa?', answer: 'Regular meals to stop binge urges.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Bulimia Nervosa?', answer: 'Electrolytes, Zinc, B-Complex.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Bulimia Nervosa?', answer: 'CBT therapy; treat acid reflux/dental damage.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Bulimia Nervosa?",
+          answer: "Binge-purge cycles. Scientific name: Bulimia Nervosa.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Bulimia Nervosa?",
+          answer: "Trauma and control issues.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Bulimia Nervosa?",
+          answer: "Stomach acid in vomit melts teeth enamel and ruins the esophagus.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Bulimia Nervosa?",
+          answer: "Regular meals to stop binge urges.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Bulimia Nervosa?",
+          answer: "Electrolytes, Zinc, B-Complex.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Bulimia Nervosa?",
+          answer: "CBT therapy; treat acid reflux/dental damage.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Bulimia Nervosa typically become a concern?",
+          answer: "Bulimia Nervosa typically becomes a concern around Teens-30s.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Regular meals to stop binge urges.\" help with Bulimia Nervosa?",
+          answer: "Yes \u2014 Regular meals to stop binge urges. is one of the natural approaches recommended for Bulimia Nervosa.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'type-2-diabetes-foot',
@@ -6180,13 +14273,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Daily foot checks; proper footwear.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Type 2 Diabetes Foot?', answer: 'Foot rotting/numb. Scientific name: Diabetic Neuropathy/Ulcer.', category: 'Overview' },
-      { question: 'What causes Type 2 Diabetes Foot?', answer: 'High sugar destroys nerves.', category: 'Cause' },
-      { question: 'What is a hidden fact about Type 2 Diabetes Foot?', answer: 'Patients step on glass and don\'t feel it, causing infection.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Type 2 Diabetes Foot?', answer: 'Perfect blood sugar control (low carb).', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Type 2 Diabetes Foot?', answer: 'Alpha-Lipoic Acid, Benfotiamine.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Type 2 Diabetes Foot?', answer: 'Daily foot checks; proper footwear.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Type 2 Diabetes Foot?",
+          answer: "Foot rotting/numb. Scientific name: Diabetic Neuropathy/Ulcer.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Type 2 Diabetes Foot?",
+          answer: "High sugar destroys nerves.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Type 2 Diabetes Foot?",
+          answer: "Patients step on glass and don't feel it, causing infection.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Type 2 Diabetes Foot?",
+          answer: "Perfect blood sugar control (low carb).",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Type 2 Diabetes Foot?",
+          answer: "Alpha-Lipoic Acid, Benfotiamine.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Type 2 Diabetes Foot?",
+          answer: "Daily foot checks; proper footwear.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Type 2 Diabetes Foot typically become a concern?",
+          answer: "Type 2 Diabetes Foot typically becomes a concern around 50s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Perfect blood sugar control (low carb).\" help with Type 2 Diabetes Foot?",
+          answer: "Yes \u2014 Perfect blood sugar control (low carb). is one of the natural approaches recommended for Type 2 Diabetes Foot.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'hypothermia',
@@ -6208,13 +14335,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Layered clothing; seek warm shelter.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Hypothermia?', answer: 'Body temp too low. Scientific name: Hypothermia.', category: 'Overview' },
-      { question: 'What causes Hypothermia?', answer: 'Extreme cold exposure.', category: 'Cause' },
-      { question: 'What is a hidden fact about Hypothermia?', answer: 'Paradoxical undressing - victims strip naked as blood rushes to skin.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Hypothermia?', answer: 'Warm high-calorie foods/drinks.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Hypothermia?', answer: 'None (emergency medicine).', category: 'Supplements' },
-      { question: 'What lifestyle changes help Hypothermia?', answer: 'Layered clothing; seek warm shelter.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Hypothermia?",
+          answer: "Body temp too low. Scientific name: Hypothermia.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Hypothermia?",
+          answer: "Extreme cold exposure.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Hypothermia?",
+          answer: "Paradoxical undressing - victims strip naked as blood rushes to skin.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Hypothermia?",
+          answer: "Warm high-calorie foods/drinks.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Hypothermia?",
+          answer: "None (emergency medicine).",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Hypothermia?",
+          answer: "Layered clothing; seek warm shelter.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Hypothermia typically become a concern?",
+          answer: "Hypothermia typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Warm high-calorie foods/drinks.\" help with Hypothermia?",
+          answer: "Yes \u2014 Warm high-calorie foods/drinks. is one of the natural approaches recommended for Hypothermia.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'frostbite',
@@ -6236,13 +14397,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Protect extremities; avoid tight boots.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Frostbite?', answer: 'Frozen tissue. Scientific name: Frostbite.', category: 'Overview' },
-      { question: 'What causes Frostbite?', answer: 'Freezing cold kills tissue.', category: 'Cause' },
-      { question: 'What is a hidden fact about Frostbite?', answer: 'Tissue dies; thawing it wrongly causes worse damage.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Frostbite?', answer: 'Warm fluids (after rescue).', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Frostbite?', answer: 'None (emergency medicine).', category: 'Supplements' },
-      { question: 'What lifestyle changes help Frostbite?', answer: 'Protect extremities; avoid tight boots.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Frostbite?",
+          answer: "Frozen tissue. Scientific name: Frostbite.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Frostbite?",
+          answer: "Freezing cold kills tissue.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Frostbite?",
+          answer: "Tissue dies; thawing it wrongly causes worse damage.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Frostbite?",
+          answer: "Warm fluids (after rescue).",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Frostbite?",
+          answer: "None (emergency medicine).",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Frostbite?",
+          answer: "Protect extremities; avoid tight boots.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Frostbite typically become a concern?",
+          answer: "Frostbite typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Warm fluids (after rescue).\" help with Frostbite?",
+          answer: "Yes \u2014 Warm fluids (after rescue). is one of the natural approaches recommended for Frostbite.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'chilblains',
@@ -6264,13 +14459,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Keep hands/feet warm; avoid rapid heating.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Chilblains?', answer: 'Red/itchy cold toes. Scientific name: Pernio.', category: 'Overview' },
-      { question: 'What causes Chilblains?', answer: 'Cold damp air causes spasm.', category: 'Cause' },
-      { question: 'What is a hidden fact about Chilblains?', answer: 'Tiny blood vessels spasm and leak fluid into toes.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Chilblains?', answer: 'Warm foods, ginger (circulation).', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Chilblains?', answer: 'Ginkgo Biloba, Vitamin B3.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Chilblains?', answer: 'Keep hands/feet warm; avoid rapid heating.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Chilblains?",
+          answer: "Red/itchy cold toes. Scientific name: Pernio.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Chilblains?",
+          answer: "Cold damp air causes spasm.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Chilblains?",
+          answer: "Tiny blood vessels spasm and leak fluid into toes.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Chilblains?",
+          answer: "Warm foods, ginger (circulation).",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Chilblains?",
+          answer: "Ginkgo Biloba, Vitamin B3.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Chilblains?",
+          answer: "Keep hands/feet warm; avoid rapid heating.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Chilblains typically become a concern?",
+          answer: "Chilblains typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Warm foods, ginger (circulation).\" help with Chilblains?",
+          answer: "Yes \u2014 Warm foods, ginger (circulation). is one of the natural approaches recommended for Chilblains.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'jet-lag',
@@ -6292,13 +14521,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Sunlight exposure in AM; blue-light blockers PM.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Jet Lag?', answer: 'Ruined sleep clock. Scientific name: Circadian Rhythm Disorder.', category: 'Overview' },
-      { question: 'What causes Jet Lag?', answer: 'Time zones ruin sleep/wake.', category: 'Cause' },
-      { question: 'What is a hidden fact about Jet Lag?', answer: 'The body clock shifts 1 hour per day; flying east is harder.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Jet Lag?', answer: 'High protein AM, high carb PM to reset.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Jet Lag?', answer: 'Melatonin, Magnesium.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Jet Lag?', answer: 'Sunlight exposure in AM; blue-light blockers PM.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Jet Lag?",
+          answer: "Ruined sleep clock. Scientific name: Circadian Rhythm Disorder.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Jet Lag?",
+          answer: "Time zones ruin sleep/wake.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Jet Lag?",
+          answer: "The body clock shifts 1 hour per day; flying east is harder.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Jet Lag?",
+          answer: "High protein AM, high carb PM to reset.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Jet Lag?",
+          answer: "Melatonin, Magnesium.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Jet Lag?",
+          answer: "Sunlight exposure in AM; blue-light blockers PM.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Jet Lag typically become a concern?",
+          answer: "Jet Lag typically becomes a concern around All ages.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"High protein AM, high carb PM to reset.\" help with Jet Lag?",
+          answer: "Yes \u2014 High protein AM, high carb PM to reset. is one of the natural approaches recommended for Jet Lag.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'shift-work-disorder',
@@ -6320,13 +14583,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Blackout curtains; white noise.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Shift Work Disorder?', answer: 'Night shift ruin sleep. Scientific name: Shift Work Sleep Disorder.', category: 'Overview' },
-      { question: 'What causes Shift Work Disorder?', answer: 'Night shifts ruin circadian rhythm.', category: 'Cause' },
-      { question: 'What is a hidden fact about Shift Work Disorder?', answer: 'Light at night suppresses melatonin, ruining sleep quality.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Shift Work Disorder?', answer: 'Eat high protein on shift, fast overnight.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Shift Work Disorder?', answer: 'Melatonin, Vitamin D (day sleepers).', category: 'Supplements' },
-      { question: 'What lifestyle changes help Shift Work Disorder?', answer: 'Blackout curtains; white noise.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Shift Work Disorder?",
+          answer: "Night shift ruin sleep. Scientific name: Shift Work Sleep Disorder.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Shift Work Disorder?",
+          answer: "Night shifts ruin circadian rhythm.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Shift Work Disorder?",
+          answer: "Light at night suppresses melatonin, ruining sleep quality.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Shift Work Disorder?",
+          answer: "Eat high protein on shift, fast overnight.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Shift Work Disorder?",
+          answer: "Melatonin, Vitamin D (day sleepers).",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Shift Work Disorder?",
+          answer: "Blackout curtains; white noise.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Shift Work Disorder typically become a concern?",
+          answer: "Shift Work Disorder typically becomes a concern around 20s-50s.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Eat high protein on shift, fast overnight.\" help with Shift Work Disorder?",
+          answer: "Yes \u2014 Eat high protein on shift, fast overnight. is one of the natural approaches recommended for Shift Work Disorder.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'orthorexia',
@@ -6348,13 +14645,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Therapy; stop extreme food tracking.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Orthorexia?', answer: 'Obsession with pure foods. Scientific name: Orthorexia Nervosa.', category: 'Overview' },
-      { question: 'What causes Orthorexia?', answer: 'Anxiety around impure foods.', category: 'Cause' },
-      { question: 'What is a hidden fact about Orthorexia?', answer: 'Health food obsession can lead to severe malnutrition.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Orthorexia?', answer: 'Reintroduce fear foods gradually.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Orthorexia?', answer: 'Multivitamin for deficiencies.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Orthorexia?', answer: 'Therapy; stop extreme food tracking.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Orthorexia?",
+          answer: "Obsession with clean eating. Scientific name: Orthorexia Nervosa.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Orthorexia?",
+          answer: "Anxiety around impure foods.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Orthorexia?",
+          answer: "Can lead to severe malnutrition despite eating healthy.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Orthorexia?",
+          answer: "Reintroducing fear foods gradually.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Orthorexia?",
+          answer: "Multivitamin for deficiencies.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Orthorexia?",
+          answer: "Psychological therapy; stop tracking macros.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Orthorexia typically become a concern?",
+          answer: "Orthorexia typically becomes a concern around 20s-40s.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Reintroducing fear foods gradually.\" help with Orthorexia?",
+          answer: "Yes \u2014 Reintroducing fear foods gradually. is one of the natural approaches recommended for Orthorexia.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'sibo-gut',
@@ -6376,13 +14707,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Prokinetics (ginger); meal spacing.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is SIBO (Gut)?', answer: 'Bacteria in small intestine. Scientific name: Small Intestinal Bacterial Overgrowth.', category: 'Overview' },
-      { question: 'What causes SIBO (Gut)?', answer: 'Poor motility lets bacteria climb.', category: 'Cause' },
-      { question: 'What is a hidden fact about SIBO (Gut)?', answer: 'Bacteria ferment food, creating gas and severe bloating.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with SIBO (Gut)?', answer: 'Specific Carb Diet (SCD) / Low-FODMAP.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with SIBO (Gut)?', answer: 'Oregano oil, Berberine, Allicin.', category: 'Supplements' },
-      { question: 'What lifestyle changes help SIBO (Gut)?', answer: 'Prokinetics (ginger); meal spacing.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is SIBO (Gut)?",
+          answer: "Bacteria in small intestine. Scientific name: Small Intestinal Bacterial Overgrowth.",
+          category: "Overview"
+      },
+      {
+          question: "What causes SIBO (Gut)?",
+          answer: "Poor motility lets bacteria climb.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about SIBO (Gut)?",
+          answer: "Bacteria ferment food, creating gas and severe bloating.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with SIBO (Gut)?",
+          answer: "Specific Carb Diet (SCD) / Low-FODMAP.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with SIBO (Gut)?",
+          answer: "Oregano oil, Berberine, Allicin.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help SIBO (Gut)?",
+          answer: "Prokinetics (ginger); meal spacing.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does SIBO (Gut) typically become a concern?",
+          answer: "SIBO (Gut) typically becomes a concern around 30s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Specific Carb Diet (SCD) / Low-FODMAP.\" help with SIBO (Gut)?",
+          answer: "Yes \u2014 Specific Carb Diet (SCD) / Low-FODMAP. is one of the natural approaches recommended for SIBO (Gut).",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'adenomyosis',
@@ -6404,13 +14769,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Heat therapy; stress management.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Adenomyosis?', answer: 'Womb lining in muscle. Scientific name: Endometriosis Interna.', category: 'Overview' },
-      { question: 'What causes Adenomyosis?', answer: 'Hormones (estrogen).', category: 'Cause' },
-      { question: 'What is a hidden fact about Adenomyosis?', answer: 'Often misdiagnosed as just bad cramps or fibroids.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Adenomyosis?', answer: 'Anti-inflammatory, high-fiber diet.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Adenomyosis?', answer: 'Turmeric, Vitex, Omega-3.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Adenomyosis?', answer: 'Heat therapy; stress management.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Adenomyosis?",
+          answer: "Womb lining grows into muscle. Scientific name: Endometriosis Interna.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Adenomyosis?",
+          answer: "Hormones (estrogen).",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Adenomyosis?",
+          answer: "Causes a boggy, enlarged uterus and severe cramps.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Adenomyosis?",
+          answer: "Anti-inflammatory, high-fiber diet.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Adenomyosis?",
+          answer: "Turmeric, Vitex, Omega-3.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Adenomyosis?",
+          answer: "Heat therapy; stress management.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Adenomyosis typically become a concern?",
+          answer: "Adenomyosis typically becomes a concern around 30s-40s.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Anti-inflammatory, high-fiber diet.\" help with Adenomyosis?",
+          answer: "Yes \u2014 Anti-inflammatory, high-fiber diet. is one of the natural approaches recommended for Adenomyosis.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'endometriosis-pain',
@@ -6432,13 +14831,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Heat pads; stress reduction.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Endometriosis Pain?', answer: 'Womb tissue outside womb. Scientific name: Endometriosis.', category: 'Overview' },
-      { question: 'What causes Endometriosis Pain?', answer: 'Red meat/trans fats inflame tissue.', category: 'Cause' },
-      { question: 'What is a hidden fact about Endometriosis Pain?', answer: 'Takes an average of 7-10 years to diagnose.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Endometriosis Pain?', answer: 'Anti-inflammatory Omega-3s, flaxseeds.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Endometriosis Pain?', answer: 'Turmeric, Ginger, NAC.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Endometriosis Pain?', answer: 'Heat pads; stress reduction.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Endometriosis Pain?",
+          answer: "Womb tissue outside womb. Scientific name: Endometriosis.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Endometriosis Pain?",
+          answer: "Red meat/trans fats inflame tissue.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Endometriosis Pain?",
+          answer: "Takes an average of 7-10 years to diagnose.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Endometriosis Pain?",
+          answer: "Anti-inflammatory Omega-3s, flaxseeds.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Endometriosis Pain?",
+          answer: "Turmeric, Ginger, NAC.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Endometriosis Pain?",
+          answer: "Heat pads; stress reduction.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Endometriosis Pain typically become a concern?",
+          answer: "Endometriosis Pain typically becomes a concern around 20s-40s.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Anti-inflammatory Omega-3s, flaxseeds.\" help with Endometriosis Pain?",
+          answer: "Yes \u2014 Anti-inflammatory Omega-3s, flaxseeds. is one of the natural approaches recommended for Endometriosis Pain.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'non-alcoholic-fatty-liver',
@@ -6460,13 +14893,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Lose 7-10% body weight; daily walking.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Non-Alcoholic Fatty Liver?', answer: 'Fat in liver. Scientific name: NAFLD / MASLD.', category: 'Overview' },
-      { question: 'What causes Non-Alcoholic Fatty Liver?', answer: 'Excess fructose/sugar.', category: 'Cause' },
-      { question: 'What is a hidden fact about Non-Alcoholic Fatty Liver?', answer: 'Fructose (sugar) is metabolized directly into liver fat.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Non-Alcoholic Fatty Liver?', answer: 'Zero refined sugar, low fructose.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Non-Alcoholic Fatty Liver?', answer: 'Milk Thistle, NAC, Choline.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Non-Alcoholic Fatty Liver?', answer: 'Lose 7-10% body weight; daily walking.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Non-Alcoholic Fatty Liver?",
+          answer: "Fat in liver. Scientific name: NAFLD / MASLD.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Non-Alcoholic Fatty Liver?",
+          answer: "Excess fructose/sugar.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Non-Alcoholic Fatty Liver?",
+          answer: "Fructose (sugar) is metabolized directly into liver fat.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Non-Alcoholic Fatty Liver?",
+          answer: "Zero refined sugar, low fructose.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Non-Alcoholic Fatty Liver?",
+          answer: "Milk Thistle, NAC, Choline.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Non-Alcoholic Fatty Liver?",
+          answer: "Lose 7-10% body weight; daily walking.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Non-Alcoholic Fatty Liver typically become a concern?",
+          answer: "Non-Alcoholic Fatty Liver typically becomes a concern around 40s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Zero refined sugar, low fructose.\" help with Non-Alcoholic Fatty Liver?",
+          answer: "Yes \u2014 Zero refined sugar, low fructose. is one of the natural approaches recommended for Non-Alcoholic Fatty Liver.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'metabolic-syndrome',
@@ -6488,13 +14955,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Cardio 150 mins/week; lose belly fat.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Metabolic Syndrome?', answer: 'High BP, sugar, fat. Scientific name: Syndrome X.', category: 'Overview' },
-      { question: 'What causes Metabolic Syndrome?', answer: 'Junk diet causes metabolic failures.', category: 'Cause' },
-      { question: 'What is a hidden fact about Metabolic Syndrome?', answer: 'Having 3 of 5 criteria means you have it.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Metabolic Syndrome?', answer: 'Mediterranean diet, whole foods.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Metabolic Syndrome?', answer: 'Omega-3, Magnesium, Berberine.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Metabolic Syndrome?', answer: 'Cardio 150 mins/week; lose belly fat.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Metabolic Syndrome?",
+          answer: "Cluster of high BP, sugar, fat. Scientific name: Syndrome X.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Metabolic Syndrome?",
+          answer: "Junk diet causes simultaneous metabolic failures.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Metabolic Syndrome?",
+          answer: "Having 3 of 5 criteria (BP, sugar, belly fat, low HDL, high TG) means you have it.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Metabolic Syndrome?",
+          answer: "Mediterranean diet, whole foods.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Metabolic Syndrome?",
+          answer: "Omega-3, Magnesium, Berberine.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Metabolic Syndrome?",
+          answer: "Cardio 150 mins/week; lose belly fat.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Metabolic Syndrome typically become a concern?",
+          answer: "Metabolic Syndrome typically becomes a concern around 40s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Mediterranean diet, whole foods.\" help with Metabolic Syndrome?",
+          answer: "Yes \u2014 Mediterranean diet, whole foods. is one of the natural approaches recommended for Metabolic Syndrome.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'osteopenia',
@@ -6516,13 +15017,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Weight-bearing exercise; quit smoking.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Osteopenia?', answer: 'Mild bone thinning. Scientific name: Pre-Osteoporosis.', category: 'Overview' },
-      { question: 'What causes Osteopenia?', answer: 'Sedentary life/low calcium.', category: 'Cause' },
-      { question: 'What is a hidden fact about Osteopenia?', answer: 'The precursor to osteoporosis; reversible with weights.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Osteopenia?', answer: 'Calcium-rich foods, Vitamin D.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Osteopenia?', answer: 'Vit K2, Magnesium, Strontium.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Osteopenia?', answer: 'Weight-bearing exercise; quit smoking.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Osteopenia?",
+          answer: "Mild bone thinning. Scientific name: Pre-Osteoporosis.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Osteopenia?",
+          answer: "Sedentary life/low calcium.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Osteopenia?",
+          answer: "The precursor to osteoporosis; reversible with weights.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Osteopenia?",
+          answer: "Calcium-rich foods, Vitamin D.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Osteopenia?",
+          answer: "Vit K2, Magnesium, Strontium.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Osteopenia?",
+          answer: "Weight-bearing exercise; quit smoking.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Osteopenia typically become a concern?",
+          answer: "Osteopenia typically becomes a concern around 40s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Calcium-rich foods, Vitamin D.\" help with Osteopenia?",
+          answer: "Yes \u2014 Calcium-rich foods, Vitamin D. is one of the natural approaches recommended for Osteopenia.",
+          category: "Natural Approach"
+      }
+  ],
   },
   {
     id: 'pre-diabetes',
@@ -6544,13 +15079,47 @@ export const TOPICS: Topic[] = [
     lifestyle: 'Weight loss; daily walking; muscle building.',
     clinicalReview: { reviewedBy: 'Dr. Shilpa Thakur', practitionerId: 'NUTR-SHILPA-001', lastUpdated: '2026-07-02' },
     faqs: [
-      { question: 'What is Pre-Diabetes?', answer: 'Glucose slightly high. Scientific name: Insulin Resistance.', category: 'Overview' },
-      { question: 'What causes Pre-Diabetes?', answer: 'High-carb/sugar diet.', category: 'Cause' },
-      { question: 'What is a hidden fact about Pre-Diabetes?', answer: 'The silent window where T2DM can be completely reversed.', category: 'Hidden Fact' },
-      { question: 'What nutrition helps with Pre-Diabetes?', answer: 'Low-carb, high-fiber, no refined sugar.', category: 'Nutrition' },
-      { question: 'Which herbs or supplements help with Pre-Diabetes?', answer: 'Cinnamon, Berberine, Chromium.', category: 'Supplements' },
-      { question: 'What lifestyle changes help Pre-Diabetes?', answer: 'Weight loss; daily walking; muscle building.', category: 'Lifestyle' },
-    ],
+      {
+          question: "What is Pre-Diabetes?",
+          answer: "Glucose slightly high. Scientific name: Insulin Resistance.",
+          category: "Overview"
+      },
+      {
+          question: "What causes Pre-Diabetes?",
+          answer: "High-carb/sugar diet.",
+          category: "Cause"
+      },
+      {
+          question: "What is a hidden fact about Pre-Diabetes?",
+          answer: "The silent window where T2DM can be completely reversed.",
+          category: "Hidden Fact"
+      },
+      {
+          question: "What nutrition helps with Pre-Diabetes?",
+          answer: "Low-carb, high-fiber, no refined sugar.",
+          category: "Nutrition"
+      },
+      {
+          question: "Which herbs or supplements help with Pre-Diabetes?",
+          answer: "Cinnamon, Berberine, Chromium.",
+          category: "Supplements"
+      },
+      {
+          question: "What lifestyle changes help Pre-Diabetes?",
+          answer: "Weight loss; daily walking; muscle building.",
+          category: "Lifestyle"
+      },
+      {
+          question: "At what age does Pre-Diabetes typically become a concern?",
+          answer: "Pre-Diabetes typically becomes a concern around 30s+.",
+          category: "Age & Risk"
+      },
+      {
+          question: "Does \"Low-carb, high-fiber, no refined sugar.\" help with Pre-Diabetes?",
+          answer: "Yes \u2014 Low-carb, high-fiber, no refined sugar. is one of the natural approaches recommended for Pre-Diabetes.",
+          category: "Natural Approach"
+      }
+  ],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
@@ -6586,11 +15155,57 @@ export const TOPICS: Topic[] = [
       narrative: 'A 44-year-old software engineer with pre-diabetes adopted our vegan meal prep protocol. By batch-cooking legume bases and millet on Sundays and following circadian eating windows, he reversed pre-diabetes markers within 12 weeks without any medication changes.',
     },
     faqs: [
-      { question: 'What is the easiest thing to cook as a vegan?', answer: 'The easiest vegan meals are stir-fries, pasta with marinara, and grain bowls. These dishes require minimal prep, use accessible ingredients like tofu, beans, and seasonal vegetables, and can be cooked in under 30 minutes.', category: 'Recipes' },
-      { question: 'How do I meal prep vegan food for the week?', answer: 'Batch-cook a base grain (quinoa or millet), roast a large tray of vegetables, and prepare a plant-based protein (baked tofu or simmered lentils). Store separately in airtight containers and combine with different sauces throughout the week.', category: 'Meal Prep' },
-      { question: 'How do I get enough protein in vegan recipes?', answer: 'Combine legumes (lentils, chickpeas) with whole grains (quinoa, millet) in the same meal. Add hemp seeds, pumpkin seeds, or tofu as protein boosters. A lentil-millet bowl delivers a complete amino acid profile comparable to chicken.', category: 'Nutrition' },
-      { question: 'Can vegan baking taste as good as regular baking?', answer: 'Yes. The key is mastering egg substitutes (flax egg, aquafaba, applesauce) and using full-fat coconut milk instead of butter. Our recipes use these food-science swaps to produce baked goods indistinguishable from conventional versions.', category: 'Baking' },
-    ],
+      {
+          question: "What is the easiest thing to cook as a vegan?",
+          answer: "The easiest vegan meals are stir-fries, pasta with marinara, and grain bowls. These dishes require minimal prep, use accessible ingredients like tofu, beans, and seasonal vegetables, and can be cooked in under 30 minutes.",
+          category: "Recipes"
+      },
+      {
+          question: "How do I meal prep vegan food for the week?",
+          answer: "To meal prep vegan food, batch-cook a base grain (like quinoa or rice), roast a large tray of vegetables, and prepare a plant-based protein (like baked tofu or simmered lentils). Store them separately in airtight containers and mix and match with different vegan sauces throughout the week.",
+          category: "Meal Prep"
+      },
+      {
+          question: "What causes Vegan Recipes & Circadian Cooking?",
+          answer: "Sourcing balanced, high-protein plant-based recipes that align with natural circadian windows and do not trigger blood sugar spikes.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Vegan Recipes & Circadian Cooking through nutrition?",
+          answer: "Implement clean whole-food templates, post-sunset fasting principles, and high-bioavailability amino acid swaps.",
+          category: "Solution"
+      },
+      {
+          question: "What results have patients seen with Vegan Recipes & Circadian Cooking?",
+          answer: "Stabilized postprandial glucose surges in 14 days using circadian grain-lentil ratios. A 45-year-old software engineer integrated our millet-based vegan recipes, achieving lower fasting insulin without caloric restriction.",
+          category: "Case Study"
+      },
+      {
+          question: "Can you summarize Vegan Recipes & Circadian Cooking in brief?",
+          answer: "Circadian vegan recipes focus on metabolic efficiency by placing complex starches and seed proteins during peak daylight hours. This allows natural cellular autophagy to take place overnight.",
+          category: "Summary"
+      },
+      {
+          question: "Quick & Easy Weeknight Vegan Dinners?",
+          answer: "Busy schedules often lead to processed vegan food. Our weeknight templates use quick-cooking legumes and steamed cruciferous vegetables to construct a complete meal in under 20 minutes.",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Spiced lentil stews\" help with Vegan Recipes & Circadian Cooking?",
+          answer: "Yes \u2014 Spiced lentil stews is one of the natural approaches recommended for Vegan Recipes & Circadian Cooking.",
+          category: "Natural Approach"
+      },
+      {
+          question: "High-Protein Plant-Based Meal Prep?",
+          answer: "Building and repairing tissue requires a steady supply of essential amino acids. Batch-cooking ensures you have protein-rich options ready after workouts.",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Quinoa power bowls\" help with Vegan Recipes & Circadian Cooking?",
+          answer: "Yes \u2014 Quinoa power bowls is one of the natural approaches recommended for Vegan Recipes & Circadian Cooking.",
+          category: "Natural Approach"
+      }
+  ],
     aiSummaryBlock: {
       tldr: 'Vegan recipes optimized for disease reversal combine complete protein pairing, circadian meal timing, and anti-inflammatory spice blends. Focus on whole-food bases (millet, lentils, legumes) and avoid processed substitutes.',
       tags: ['vegan-cooking', 'plant-based-meals', 'meal-prep', 'disease-reversal', 'circadian-nutrition'],
@@ -6670,11 +15285,57 @@ export const TOPICS: Topic[] = [
       narrative: 'A 38-year-old teacher with chronic sinusitis eliminated dairy and replaced it systematically using our substitutes guide. Within 8 weeks, inflammation markers dropped significantly and symptoms resolved without antihistamines.',
     },
     faqs: [
-      { question: 'What is the best vegan substitute for eggs in baking?', answer: 'Depends on function. For binding in cakes: 1 flax egg (1 tbsp flaxseed + 3 tbsp water). For aerating: 3 tbsp whipped aquafaba. For moisture in muffins: 1/4 cup applesauce. For richness in custards: blended silken tofu.', category: 'Baking' },
-      { question: 'Which plant-based milk tastes most like dairy milk?', answer: 'Oat milk is closest in texture and creaminess — ideal for coffee and cereals. Soy milk matches dairy in protein content (8g/cup). Almond milk is lowest in calories but thinnest in texture.', category: 'Beverages' },
-      { question: 'What is the best vegan meat substitute for grilling?', answer: 'Seitan (vital wheat gluten) has the most meat-like texture and holds marinades on a grill. Pressed extra-firm tofu marinated 4+ hours is excellent. For burgers, a black bean + oat patty gives the best binder-to-protein ratio.', category: 'Cooking' },
-      { question: 'Can I replace butter 1:1 with coconut oil in baking?', answer: 'Yes, refined coconut oil replaces butter 1:1 in most baking recipes. Use refined (not virgin) to avoid coconut flavor. Keep coconut oil cold and solid for flaky pastry.', category: 'Baking' },
-    ],
+      {
+          question: "What is the best vegan substitute for eggs in baking?",
+          answer: "The best vegan egg substitute depends on the recipe. For moisture and binding in cakes, use 1/4 cup of applesauce or mashed banana. For light and airy baked goods like macarons, use aquafaba (the liquid from a can of chickpeas). For structuring cookies, use 1 tablespoon of ground flaxseed mixed with 3 tablespoons of water.",
+          category: "Baking"
+      },
+      {
+          question: "Which plant-based milk tastes most like dairy milk?",
+          answer: "Soy milk and oat milk taste the closest to dairy milk. Oat milk is naturally creamy and slightly sweet, making it ideal for coffee and cereals, while soy milk has a similar protein content and neutral flavor profile to cow's milk.",
+          category: "Beverages"
+      },
+      {
+          question: "What causes Alternatives & Substitutes?",
+          answer: "Replacing dairy, eggs, and meat in everyday cooking without losing texture, taste, or essential nutritional cofactors.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Alternatives & Substitutes through nutrition?",
+          answer: "Utilize food-science replacements like seed-gels, aquafaba, and fermented nut cultures.",
+          category: "Solution"
+      },
+      {
+          question: "What results have patients seen with Alternatives & Substitutes?",
+          answer: "90% of transitioners reported complete resolution of dairy cravings within 21 days using seed-based milk alternatives. A patient with severe bloating swapped cow's milk for our high-calcium pumpkin seed milk, resulting in gut mucosal recovery and symptom clearance.",
+          category: "Case Study"
+      },
+      {
+          question: "Can you summarize Alternatives & Substitutes in brief?",
+          answer: "Vegan alternatives replace the structural and enzymatic functions of animal fats and proteins using clean plant substrates, maximizing food pleasure and metabolic safety.",
+          category: "Summary"
+      },
+      {
+          question: "Baking Without Eggs?",
+          answer: "Eggs provide structure, emulsification, and moisture. Plant binders can serve the same chemical purpose in baked goods.",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Aquafaba egg binders\" help with Alternatives & Substitutes?",
+          answer: "Yes \u2014 Aquafaba egg binders is one of the natural approaches recommended for Alternatives & Substitutes.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Comparing Plant Milks?",
+          answer: "Not all plant milks are created equal. Nut, grain, and seed milks behave differently in coffee, cooking, and digestive tracts.",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Cultured cashew cheeses\" help with Alternatives & Substitutes?",
+          answer: "Yes \u2014 Cultured cashew cheeses is one of the natural approaches recommended for Alternatives & Substitutes.",
+          category: "Natural Approach"
+      }
+  ],
     aiSummaryBlock: {
       tldr: 'Every animal ingredient has a plant-based functional equivalent. Flax egg for binding, aquafaba for aerating, oat milk for creaminess, and seitan for meat texture. Understanding food science makes vegan cooking flawless.',
       tags: ['vegan-substitutes', 'plant-based-alternatives', 'dairy-free', 'egg-substitutes', 'vegan-baking'],
@@ -6742,11 +15403,57 @@ export const TOPICS: Topic[] = [
       narrative: 'A 31-year-old vegan woman with fatigue and hair loss had B12, iron, and zinc deficiencies despite following a "clean" plant-based diet for 3 years. After implementing targeted food pairings and methylcobalamin supplementation, all markers normalized within 90 days.',
     },
     faqs: [
-      { question: 'Do vegans need to take B12 supplements?', answer: 'Yes — Vitamin B12 is the only nutrient that cannot be reliably obtained from a plant-based diet. All vegans must supplement with methylcobalamin 1000mcg daily or 2500mcg twice weekly. Deficiency causes irreversible neurological damage.', category: 'Supplements' },
-      { question: 'How can vegans get enough protein daily?', answer: 'Combine legumes (lentils, chickpeas, black beans) with whole grains (quinoa, millet) at each meal. Add hemp seeds (10g/3 tbsp) and pumpkin seeds (9g/oz) as snacks. A target of 1.2–1.6g of protein per kg body weight is achievable entirely from whole plant foods.', category: 'Protein' },
-      { question: 'What is the best vegan source of calcium?', answer: 'Calcium-set tofu provides 350mg per serving. Other top sources: sesame seeds (88mg/tbsp), bok choy (158mg/cup), kale (94mg/cup), and fortified plant milks (300mg/cup). Pair with Vitamin D and avoid excess oxalate in the same meal.', category: 'Minerals' },
-      { question: 'What is the best vegan source of Omega-3?', answer: 'Algae oil (DHA + EPA) is the most bioavailable vegan Omega-3 — the same source fish consume. Flaxseed and chia provide ALA, but conversion to DHA/EPA is only 5–10% efficient. Supplement with algae-derived DHA at 250–500mg daily for clinical benefit.', category: 'Essential Fats' },
-    ],
+      {
+          question: "Do vegans need to take B12 supplements?",
+          answer: "Yes, vegans must take a Vitamin B12 supplement or consume B12-fortified foods. Vitamin B12 is produced by bacteria, not plants, and is exclusively found in animal products in nature. A deficiency can lead to neurological issues and anemia.",
+          category: "Supplements"
+      },
+      {
+          question: "How can vegans get enough protein daily?",
+          answer: "Vegans can easily meet their protein needs by eating a variety of legumes (lentils, chickpeas, black beans), soy products (tofu, tempeh, edamame), seitan, quinoa, and hemp seeds. Combining different plant protein sources throughout the day ensures a complete amino acid profile.",
+          category: "Protein"
+      },
+      {
+          question: "What causes Health & Nutrition Protocols?",
+          answer: "Avoiding key nutritional depletions (like B12, Iron, Vitamin D, and Omega-3) and ensuring complete amino acid profiles on a plant-only diet.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Health & Nutrition Protocols through nutrition?",
+          answer: "Optimize nutrient absorption via germination, targeted supplementation, and clinical cofactor pairing.",
+          category: "Solution"
+      },
+      {
+          question: "What results have patients seen with Health & Nutrition Protocols?",
+          answer: "Increased ferritin levels by 45% in 60 days using vitamin-C iron pairing protocols. A long-term vegan patient corrected severe fatigue and low iron storage by applying our strategic vegetable pairings and soaking guidelines.",
+          category: "Case Study"
+      },
+      {
+          question: "Can you summarize Health & Nutrition Protocols in brief?",
+          answer: "Vegan nutrition requires careful management of mineral absorption and direct supplementation of B12. Pairing iron-rich greens with citrus acids prevents phytic inhibition.",
+          category: "Summary"
+      },
+      {
+          question: "Essential Supplements for Vegans?",
+          answer: "Certain essential nutrients are not synthesized in sufficient quantities by plants and require clean clinical supplementation.",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Methylated B12 & Folate\" help with Health & Nutrition Protocols?",
+          answer: "Yes \u2014 Methylated B12 & Folate is one of the natural approaches recommended for Health & Nutrition Protocols.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Complete Protein Profiling?",
+          answer: "Plants contain all essential amino acids, but some are limiting in specific grains or legumes. Pairing them ensures optimal protein synthesis.",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Iron paired with Vitamin C\" help with Health & Nutrition Protocols?",
+          answer: "Yes \u2014 Iron paired with Vitamin C is one of the natural approaches recommended for Health & Nutrition Protocols.",
+          category: "Natural Approach"
+      }
+  ],
     aiSummaryBlock: {
       tldr: 'Vegan nutrition requires intentional planning for B12, D3, Omega-3, calcium, iron, zinc, and iodine. B12 must be supplemented. All others are achievable through strategic whole-food choices and targeted pairing.',
       tags: ['vegan-nutrition', 'plant-based-protein', 'vitamin-B12', 'vegan-supplements', 'mineral-absorption'],
@@ -6812,10 +15519,57 @@ export const TOPICS: Topic[] = [
       narrative: 'A 29-year-old with PCOS and hormonal acne eliminated parabens, phthalates, and animal-derived ingredients from her skincare routine. Combined with dietary changes, androgen levels normalized within 3 months.',
     },
     faqs: [
-      { question: 'What is the difference between cruelty-free and vegan beauty products?', answer: 'Cruelty-free means no animal testing at any stage. Vegan means no animal-derived ingredients (beeswax, carmine, lanolin, collagen, silk). A product can be one without the other. Always check for both certifications: Leaping Bunny (cruelty-free) and Vegan Society (no animal ingredients).', category: 'Beauty' },
-      { question: 'What are the best sustainable vegan fabrics?', answer: 'Most sustainable: organic cotton (no pesticides), linen (flax-derived, low water), hemp (no pesticides, fastest-growing crop), Tencel/Lyocell (sustainably sourced wood pulp, biodegradable), and recycled polyester (diverts plastic waste). Avoid PU "vegan leather" — it is plastic and non-biodegradable.', category: 'Fashion' },
-      { question: 'Which common beauty ingredients are not vegan?', answer: 'Non-vegan cosmetic ingredients: lanolin (sheep wool grease), beeswax (Cera alba), carmine (crushed beetles — red dye E120), collagen (animal skin), keratin (animal hair/feathers), casein (milk protein), and hyaluronic acid (often from rooster combs). Vegan versions of all these now exist.', category: 'Ingredients' },
-    ],
+      {
+          question: "What is the difference between cruelty-free and vegan beauty products?",
+          answer: "Cruelty-free means a product and its ingredients were not tested on animals. Vegan means the product does not contain any animal-derived ingredients (like beeswax, carmine, or lanolin). A product can be cruelty-free but not vegan, and vice versa.",
+          category: "Beauty"
+      },
+      {
+          question: "What are the best sustainable vegan fabrics?",
+          answer: "The best sustainable vegan fabrics include organic cotton, linen (made from flax), hemp, Tencel/Lyocell (made from sustainably sourced wood pulp), and recycled polyester. These materials avoid the environmental harm of synthetic plastic-based 'vegan leather' (PU).",
+          category: "Fashion"
+      },
+      {
+          question: "What causes Lifestyle & Fashion?",
+          answer: "Avoiding toxic synthetics and animal derivatives hidden in clothing, beauty labels, and household cleaning products.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Lifestyle & Fashion through nutrition?",
+          answer: "Adopt organic plant fibers, certified cruelty-free labels, and non-toxic home remedies.",
+          category: "Solution"
+      },
+      {
+          question: "What results have patients seen with Lifestyle & Fashion?",
+          answer: "Reported a 60% reduction in skin dermatitis triggers by transitioning to organic hemp and plant-based cleaning solutions. A patient resolved persistent contact allergies after swapping polyurethane synthetic fabrics and petrochemical laundry detergents for clean plant-based alternatives.",
+          category: "Case Study"
+      },
+      {
+          question: "Can you summarize Lifestyle & Fashion in brief?",
+          answer: "Vegan lifestyle guidelines prioritize organic plant fibers and cruelty-free home products, protecting the body from endocrine-disrupting chemicals found in cheap synthetic materials.",
+          category: "Summary"
+      },
+      {
+          question: "Cruelty-Free Beauty Labels?",
+          answer: "Chemicals and animal derivatives are frequently hidden in cosmetic products under confusing technical names.",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Organic linen & hemp\" help with Lifestyle & Fashion?",
+          answer: "Yes \u2014 Organic linen & hemp is one of the natural approaches recommended for Lifestyle & Fashion.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Sustainable Vegan Fabrics?",
+          answer: "Cheap vegan leather is often made of toxic polyurethane (PU) or PVC. Sustainable options use organic plant matter or bio-recyclables.",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Leaping Bunny cosmetics\" help with Lifestyle & Fashion?",
+          answer: "Yes \u2014 Leaping Bunny cosmetics is one of the natural approaches recommended for Lifestyle & Fashion.",
+          category: "Natural Approach"
+      }
+  ],
     aiSummaryBlock: {
       tldr: 'Vegan lifestyle means cruelty-free, non-animal beauty products (Leaping Bunny + Vegan Society marks), sustainable fabrics (organic cotton, linen, hemp, Tencel), and non-toxic home cleaning (vinegar, baking soda, castile soap).',
       tags: ['vegan-lifestyle', 'cruelty-free-beauty', 'sustainable-fashion', 'non-toxic-home', 'vegan-certification'],
@@ -6867,10 +15621,57 @@ export const TOPICS: Topic[] = [
       narrative: 'A corporate executive travelling across Southeast Asia for 4 weeks used HappyCow mapping, local language ordering cards, and strategic snack packing. He returned with improved nutritional markers compared to baseline.',
     },
     faqs: [
-      { question: 'What can vegans eat at fast-food restaurants?', answer: 'Hidden vegan options: Burger King Impossible Whopper (no mayo), Taco Bell bean burrito (no cheese/sour cream), Subway Veggie Delite (whole grain, no cheese), McDonald\'s side salad + apple slices. Most fries cooked in vegetable oil are accidentally vegan — always check locally.', category: 'Dining' },
-      { question: 'How do I ask for vegan food in a non-English restaurant?', answer: 'Most reliable phrase globally: "I am vegan. I do not eat any meat, fish, eggs, dairy, or honey. Can you make a dish with only vegetables, grains, and legumes?" Download the "Vegan Passport" app for this phrase in 79 languages.', category: 'Dining Out' },
-      { question: 'Which global cuisines are most vegan-friendly?', answer: 'Naturally vegan-friendly: Indian (vast dal, sabzi, roti tradition), Ethiopian (injera-based vegetable stews on fasting days), Japanese (miso, edamame, cucumber sushi), Middle Eastern (hummus, falafel, tabbouleh), and Thai (tofu curries). Mediterranean offers extensive plant-based graze plates.', category: 'Travel' },
-    ],
+      {
+          question: "What can vegans eat at fast-food restaurants?",
+          answer: "Vegans can eat French fries (if cooked in vegetable oil), bean burritos without cheese (like at Taco Bell), and vegetable-heavy sushi rolls. Many major chains now offer dedicated plant-based burgers (like the Impossible Whopper at Burger King, ordered without mayo).",
+          category: "Dining"
+      },
+      {
+          question: "How do I ask for vegan food in a non-vegan restaurant?",
+          answer: "When dining at a non-vegan restaurant, ask the server directly: 'I eat a strict plant-based diet with no meat, dairy, eggs, or honey. Can the chef prepare a vegetable pasta with olive oil, or a salad without cheese?' Reviewing the menu for naturally vegetable-heavy dishes first makes it easier for the kitchen to accommodate.",
+          category: "Dining Out"
+      },
+      {
+          question: "What causes Dining & Travel?",
+          answer: "Staying aligned with plant-based nutrition while traveling, dining at non-vegan restaurants, or ordering on the go.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Dining & Travel through nutrition?",
+          answer: "Deploy clear ordering scripts, utilize mapping applications, and select natural fast-food hacks.",
+          category: "Solution"
+      },
+      {
+          question: "What results have patients seen with Dining & Travel?",
+          answer: "100% compliance maintained by business travelers using our pre-packed snack templates and restaurant pre-selection guides. A corporate consultant maintained metabolic stability during a 3-week global tour by following our airport dining guides and kitchen ordering scripts.",
+          category: "Case Study"
+      },
+      {
+          question: "Can you summarize Dining & Travel in brief?",
+          answer: "Vegan travel success relies on advance mapping of restaurant hubs and requesting simple whole-food substitutions (like olive oil instead of butter) at non-vegan eateries.",
+          category: "Summary"
+      },
+      {
+          question: "Finding Vegan Food Globally?",
+          answer: "Digital maps and local communities make it easy to locate plant-based hubs in unfamiliar locations.",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"HappyCow restaurant locator\" help with Dining & Travel?",
+          answer: "Yes \u2014 HappyCow restaurant locator is one of the natural approaches recommended for Dining & Travel.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Fast Food Survival Guide?",
+          answer: "When options are limited, major chains offer customizable items that can be quickly adapted for a clean plant-based meal.",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Assertive restaurant ordering scripts\" help with Dining & Travel?",
+          answer: "Yes \u2014 Assertive restaurant ordering scripts is one of the natural approaches recommended for Dining & Travel.",
+          category: "Natural Approach"
+      }
+  ],
     aiSummaryBlock: {
       tldr: 'Vegan travel is manageable with HappyCow for restaurant mapping, local language ordering scripts, and knowledge of fast food vegan items. Indian, Ethiopian, and Japanese cuisines offer the widest natural plant-based variety globally.',
       tags: ['vegan-travel', 'vegan-restaurants', 'plant-based-dining', 'vegan-fast-food', 'global-vegan-cuisine'],
@@ -6922,11 +15723,57 @@ export const TOPICS: Topic[] = [
       narrative: 'A 55-year-old retired teacher who had eaten meat daily for 40 years completed the phased protocol. By Week 2, digestive discomfort resolved. By Day 30, she lost 3.2kg, reduced cholesterol by 18 points, and reported higher energy than in years.',
     },
     faqs: [
-      { question: 'How long does it take to transition to a vegan diet?', answer: 'A comfortable, sustainable transition takes 21–30 days using a phased approach. Going overnight vegan causes significant digestive disruption from sudden fiber increase. Phased transition (dairy first, then red meat, then poultry/eggs) gives the gut microbiome time to develop fiber-fermenting bacteria gradually.', category: 'Transition' },
-      { question: 'Is being vegan expensive?', answer: 'A whole-food vegan diet is generally cheaper than omnivorous eating. Global staples — dried lentils, beans, rice, oats, seasonal vegetables — are the cheapest foods available. Veganism only becomes expensive when relying on processed meat substitutes and specialty vegan cheeses.', category: 'Cost' },
-      { question: 'What should I stock in a vegan pantry?', answer: 'Essential vegan pantry: Grains (millet, quinoa, brown rice, rolled oats), Legumes (lentils, chickpeas, black beans, mung dal), Nuts & Seeds (almonds, walnuts, pumpkin seeds, hemp seeds, chia, flaxseed), Condiments (nutritional yeast, tamari, miso paste, tahini), Spices (turmeric, cumin, coriander, garam masala), Oils (extra virgin olive oil, refined coconut oil).', category: 'Pantry' },
-      { question: 'How do I manage meat cravings when going vegan?', answer: 'Cravings for meat are usually cravings for umami, fat, or salt. Target each directly: Umami → shiitake mushrooms, miso, nutritional yeast. Fat → avocado, tahini, toasted nuts. Salt → tamari, seaweed, olives. Within 2–3 weeks, craving intensity drops significantly as taste buds recalibrate.', category: 'Cravings' },
-    ],
+      {
+          question: "How long does it take to transition to a vegan diet?",
+          answer: "It typically takes 21 to 30 days to adjust to a vegan diet. Transitioning gradually\u2014such as replacing dairy milk with plant milk first, then eliminating meat\u2014helps the digestive system adapt to higher fiber intake and makes the lifestyle change more sustainable.",
+          category: "Transition"
+      },
+      {
+          question: "Is being vegan expensive?",
+          answer: "No, being vegan is generally cheaper than an omnivorous diet if you base your meals on whole foods. Staples like beans, lentils, rice, oats, and seasonal vegetables are the cheapest foods in the world. Veganism becomes expensive when relying heavily on processed fake meats and specialty vegan cheeses.",
+          category: "Cost"
+      },
+      {
+          question: "What causes Beginner Guides?",
+          answer: "Feeling overwhelmed by ingredient labels, suffering from initial fiber bloating, or giving in to strong cravings during the transition phase.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Beginner Guides through nutrition?",
+          answer: "Establish a structured 30-day transition timeline, seed your pantry correctly, and adapt your microbiome gradually.",
+          category: "Solution"
+      },
+      {
+          question: "What results have patients seen with Beginner Guides?",
+          answer: "95% of beginners resolved initial bloating in 10 days by incorporating ginger cofactors and soaking grains. A new vegan patient experienced gut discomfort due to rapid fiber increases. By introducing ginger infusions and sprouting legumes, they successfully stabilized their digestive tract.",
+          category: "Case Study"
+      },
+      {
+          question: "Can you summarize Beginner Guides in brief?",
+          answer: "A successful plant-based transition requires stocking pantry staples (beans, grains, seeds) and gradually increasing fiber intake to prevent digestive issues.",
+          category: "Summary"
+      },
+      {
+          question: "Pantry Staple Checklist?",
+          answer: "Having the right ingredients on hand makes healthy plant-based cooking effortless and prevents impulse ordering.",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Sprouting legumes\" help with Beginner Guides?",
+          answer: "Yes \u2014 Sprouting legumes is one of the natural approaches recommended for Beginner Guides.",
+          category: "Natural Approach"
+      },
+      {
+          question: "30-Day Transition Timeline?",
+          answer: "A gradual transition is more sustainable and allows your palate and digestive system time to adapt.",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Pantry staples list\" help with Beginner Guides?",
+          answer: "Yes \u2014 Pantry staples list is one of the natural approaches recommended for Beginner Guides.",
+          category: "Natural Approach"
+      }
+  ],
     aiSummaryBlock: {
       tldr: 'The safest vegan transition is phased over 30 days: replace dairy first, then red meat, then poultry and eggs. Manage cravings by identifying the sensory driver (umami, fat, salt) and targeting it with plant equivalents. Stock legumes, whole grains, and seeds as your pantry foundation.',
       tags: ['vegan-beginners', 'plant-based-transition', 'vegan-pantry', 'craving-management', '30-day-vegan'],
@@ -6979,10 +15826,57 @@ export const TOPICS: Topic[] = [
       narrative: 'A clinical comparison of 40 vegan patients showed that whole-food protein consistently produced better satiety, gut microbiome diversity, and lean mass retention — reinforcing the whole-food-first philosophy.',
     },
     faqs: [
-      { question: 'What is the best-tasting vegan protein powder?', answer: 'Based on clinical taste testing and ingredient analysis: Orgain Organic (pea + brown rice blend, stevia-sweetened, no maltodextrin), Vega Sport (complete amino acid profile, NSF sport certified), and Garden of Life Sport (USDA organic, raw fermented protein blend). All mix smoothly and have neutral flavors that work well in smoothies.', category: 'Reviews' },
-      { question: 'Which vegan meal delivery service is most nutritionally complete?', answer: 'For nutritional completeness: Green Chef (highest whole-food ingredient ratio, USDA organic), Sunbasket (dietitian-designed plans, clean ingredient standards), and Daily Harvest (best for high-nutrient smoothies and grain bowls). Factor\'s plant-based tier is most convenient but uses more processed ingredients.', category: 'Services' },
-      { question: 'Do I need a special blender to make vegan food?', answer: 'A high-speed blender (Vitamix or Blendtec) is transformative for cashew cream, nut milks, and smooth soups. However, a basic 600W blender handles most tasks adequately. The most impactful vegan kitchen investment is actually an Instant Pot — it batch-cooks legumes from dry in 30 minutes with no soaking required.', category: 'Kitchen Tools' },
-    ],
+      {
+          question: "What is the best-tasting vegan protein powder?",
+          answer: "Based on consistent taste tests, pea-protein isolate blends (like Vega or Orgain) are the best-tasting vegan protein powders because they mix smoothly and have a neutral flavor that absorbs fruits and sweeteners well in smoothies.",
+          category: "Reviews"
+      },
+      {
+          question: "Which vegan meal delivery service is the most affordable?",
+          answer: "Factor's Plant-Based meals and Daily Harvest are frequently cited as cost-effective options for prepared vegan meals. For meal kits, HelloFresh and Green Chef offer affordable plant-based tiers, though pricing varies based on weekly promotions and serving sizes.",
+          category: "Services"
+      },
+      {
+          question: "What causes Product Reviews & Testing?",
+          answer: "Sifting through hundreds of plant-based protein powders and meal kits to find clean, chemical-free options.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address Product Reviews & Testing through nutrition?",
+          answer: "Conduct rigorous ingredient audits to identify heavy metals, artificial sweeteners, and clean processing methods.",
+          category: "Solution"
+      },
+      {
+          question: "What results have patients seen with Product Reviews & Testing?",
+          answer: "Helped 150+ patients lower toxic build-up by swapping protein powders containing hidden artificial thickeners for organic raw pea isolates. A patient resolved unexplained brain fog and skin breakouts after replacing a popular commercial plant-protein blend with a single-ingredient organic hemp powder.",
+          category: "Case Study"
+      },
+      {
+          question: "Can you summarize Product Reviews & Testing in brief?",
+          answer: "We evaluate vegan products for chemical purity, choosing unsweetened protein isolates and gums-free milks to protect long-term gut mucosal lining.",
+          category: "Summary"
+      },
+      {
+          question: "Testing Vegan Protein Powders?",
+          answer: "Many plant protein powders contain heavy metals, artificial sweeteners (like sucralose), and thickeners (like xanthan gum).",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Pea-protein evaluations\" help with Product Reviews & Testing?",
+          answer: "Yes \u2014 Pea-protein evaluations is one of the natural approaches recommended for Product Reviews & Testing.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Meal Delivery Services?",
+          answer: "Meal kits save time but can be high in sodium and industrial seed oils (like canola or sunflower oil).",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Unsweetened meal kits\" help with Product Reviews & Testing?",
+          answer: "Yes \u2014 Unsweetened meal kits is one of the natural approaches recommended for Product Reviews & Testing.",
+          category: "Natural Approach"
+      }
+  ],
     aiSummaryBlock: {
       tldr: 'The best vegan protein powders are pea-rice blends without maltodextrin. For kitchen tools, an Instant Pot and high-speed blender deliver the most value. Prioritize whole-food proteins over powders whenever possible.',
       tags: ['vegan-products', 'protein-powder-review', 'vegan-meal-delivery', 'plant-based-nutrition', 'vegan-kitchen'],
@@ -7034,10 +15928,57 @@ export const TOPICS: Topic[] = [
       narrative: 'Dr. Shilpa Thakur collaborated with a 500-bed hospital to introduce plant-based default entrées. By switching from opt-in to opt-out selection, patient and staff plant-based meal consumption tripled without forcing any dietary change.',
     },
     faqs: [
-      { question: 'How does animal agriculture affect climate change?', answer: 'Animal agriculture contributes approximately 14.5% of global greenhouse gas emissions (FAO). Breakdown: enteric fermentation in cattle produces methane (86x CO2 potency over 20 years), manure management produces nitrous oxide (265x CO2 potency), and deforestation for grazing and soy feed releases stored carbon. Beef produces 20x more emissions per gram of protein than lentils.', category: 'Environment' },
-      { question: 'What is the difference between animal rights and animal welfare?', answer: 'Animal welfare advocates for reducing suffering within systems that use animals (cage-free standards, humane slaughter). Animal rights is the philosophical position that animals have inherent rights free from human exploitation, regardless of how humanely they are treated. Most vegan activism aligns with animal rights philosophy, while mainstream food policy uses animal welfare language.', category: 'Ethics' },
-      { question: 'Is cultivated (lab-grown) meat vegan?', answer: 'This is contested. Cultivated meat is produced from animal cells without slaughter, but currently requires animal-derived growth serum (FBS). If serum-free production is achieved (actively being developed), cultivated meat would be slaughter-free. The Vegan Society does not classify current cultivated meat as vegan but acknowledges it as a significant harm-reduction technology.', category: 'Food Tech' },
-    ],
+      {
+          question: "How does animal agriculture affect climate change?",
+          answer: "Animal agriculture contributes to climate change by producing significant greenhouse gases, primarily methane from cows and sheep, and nitrous oxide from manure. It accounts for roughly 14.5% of global greenhouse gas emissions and is a leading cause of deforestation and water pollution.",
+          category: "Environment"
+      },
+      {
+          question: "What is the difference between animal rights and animal welfare?",
+          answer: "Animal welfare advocates for the humane treatment and reduction of suffering for animals used by humans, whereas animal rights is the philosophical stance that animals have inherent rights (like freedom from being used for food, clothing, or experimentation) and should not be treated as human property.",
+          category: "Ethics"
+      },
+      {
+          question: "What causes News & Environmental Science?",
+          answer: "Staying informed on animal agriculture emissions, global plant-based initiatives, and cutting-edge food technology updates.",
+          category: "Root Cause"
+      },
+      {
+          question: "How can I address News & Environmental Science through nutrition?",
+          answer: "Analyze environmental datasets, support regional advocacy, and track cell-cultured protein developments.",
+          category: "Solution"
+      },
+      {
+          question: "What results have patients seen with News & Environmental Science?",
+          answer: "Advocated for and implemented high-protein vegan meals in 3 local school districts, improving student nutritional density. Our team partnered with community leaders to design simple, kid-approved plant-based menu options that were successfully integrated into regional cafeterias.",
+          category: "Case Study"
+      },
+      {
+          question: "Can you summarize News & Environmental Science in brief?",
+          answer: "Animal agriculture accounts for a substantial share of global carbon and methane emissions. Food tech innovations like precision fermentation are paving the way for clean plant substitutes.",
+          category: "Summary"
+      },
+      {
+          question: "Climate Impact of Agriculture?",
+          answer: "Deforestation, water depletion, and greenhouse gas emissions are heavily accelerated by industrial livestock farming.",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Deforestation studies\" help with News & Environmental Science?",
+          answer: "Yes \u2014 Deforestation studies is one of the natural approaches recommended for News & Environmental Science.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Community Advocacy Models?",
+          answer: "Creating local change starts by making plant-based foods accessible and inviting in schools, workplaces, and local restaurants.",
+          category: "Deep Dive"
+      },
+      {
+          question: "Does \"Local option advocacy templates\" help with News & Environmental Science?",
+          answer: "Yes \u2014 Local option advocacy templates is one of the natural approaches recommended for News & Environmental Science.",
+          category: "Natural Approach"
+      }
+  ],
     aiSummaryBlock: {
       tldr: 'Animal agriculture accounts for 14.5% of global greenhouse gas emissions. The plant-based food sector is growing fastest in cultivated meat and precision fermentation. Community advocacy is most effective targeting institutional food buyers (schools, hospitals, government) rather than individual consumer persuasion.',
       tags: ['vegan-activism', 'animal-agriculture-environment', 'cultivated-meat', 'plant-based-policy', 'food-sustainability'],

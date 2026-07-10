@@ -8,6 +8,7 @@ import { TOPICS } from '../../data/topics';
 import { TOPIC_SPECIFIC_FAQS, CATEGORY_FAQS } from '../../data/constants';
 import { getInternalLinks } from '../../lib/seo/internalLinkEngine';
 import { getDynamicCategoryFaqs } from '../../lib/faqHelper';
+import { getFaqPageSchema } from '../../lib/seo/entityGraph';
 
 export async function getStaticPaths() {
   return TOPICS.map((topic) => ({
@@ -52,6 +53,10 @@ const CLINICAL_CONSENSUS_DATA: Record<string, ConsensusStudy[]> = {
 // Derive FAQs for this topic
 const topicFaqs = topic.faqs || TOPIC_SPECIFIC_FAQS[topic.id] || CATEGORY_FAQS[topic.category] || [];
 const studies = CLINICAL_CONSENSUS_DATA[topic.id] || CLINICAL_CONSENSUS_DATA['default'];
+// The Accordion below already renders these FAQs as real server-rendered HTML, so this
+// schema isn't fixing a visibility gap like it is on condition/herb pages — it's the
+// standard extra step for FAQ rich-result eligibility in search.
+const faqPageSchema = getFaqPageSchema(`/topic/${topic.id}`, topicFaqs);
 
 // Silo link governance resolved during static build
 const linkGovernance = await getInternalLinks(`/condition/${topic.id}`).catch(() => null) 
@@ -92,6 +97,7 @@ const topicSchema = {
 >
   {/* Dynamic JSON-LD Schema */}
   <script type="application/ld+json" set:html={JSON.stringify(topicSchema)} />
+  {faqPageSchema && <script type="application/ld+json" set:html={faqPageSchema} />}
 
 <div class="space-y-20 pb-20 bg-white">
   {/* Scientific Dossier Hero */}
