@@ -9101,7 +9101,7 @@ export const TOPICS: Topic[] = [
           category: "Age & Risk"
       },
       {
-          question: "Does \"Tart cherry juice, kiwi, no late caffeine.\" help with Insomnia?",
+          question: "What dietary or lifestyle approach helps with Insomnia?",
           answer: "Yes \u2014 Tart cherry juice, kiwi, no late caffeine. is one of the natural approaches recommended for Insomnia.",
           category: "Natural Approach"
       }
@@ -9287,7 +9287,7 @@ export const TOPICS: Topic[] = [
           category: "Age & Risk"
       },
       {
-          question: "Does \"Omega-3s, tryptophan-rich foods (turkey).\" help with Depression?",
+          question: "What dietary or lifestyle approach helps with Depression?",
           answer: "Yes \u2014 Omega-3s, tryptophan-rich foods (turkey). is one of the natural approaches recommended for Depression.",
           category: "Natural Approach"
       }
@@ -9659,7 +9659,7 @@ export const TOPICS: Topic[] = [
           category: "Age & Risk"
       },
       {
-          question: "Does \"Thiamine-rich foods (pork, sunflower seeds).\" help with Wernicke-Korsakoff?",
+          question: "What dietary or lifestyle approach helps with Wernicke-Korsakoff?",
           answer: "Yes \u2014 Thiamine-rich foods (pork, sunflower seeds). is one of the natural approaches recommended for Wernicke-Korsakoff.",
           category: "Natural Approach"
       }
@@ -9969,7 +9969,7 @@ export const TOPICS: Topic[] = [
           category: "Age & Risk"
       },
       {
-          question: "Does \"Regular, high-protein meals throughout day.\" help with Night Eating?",
+          question: "What dietary or lifestyle approach helps with Night Eating?",
           answer: "Yes \u2014 Regular, high-protein meals throughout day. is one of the natural approaches recommended for Night Eating.",
           category: "Natural Approach"
       }
@@ -11085,7 +11085,7 @@ export const TOPICS: Topic[] = [
           category: "Age & Risk"
       },
       {
-          question: "Does \"Gluten-free, selenium-rich (brazil nuts).\" help with Hashimoto's?",
+          question: "What dietary or lifestyle approach helps with Hashimoto's?",
           answer: "Yes \u2014 Gluten-free, selenium-rich (brazil nuts). is one of the natural approaches recommended for Hashimoto's.",
           category: "Natural Approach"
       }
@@ -11271,7 +11271,7 @@ export const TOPICS: Topic[] = [
           category: "Age & Risk"
       },
       {
-          question: "Does \"Anti-inflammatory, gluten-free (for some).\" help with Psoriasis?",
+          question: "What dietary or lifestyle approach helps with Psoriasis?",
           answer: "Yes \u2014 Anti-inflammatory, gluten-free (for some). is one of the natural approaches recommended for Psoriasis.",
           category: "Natural Approach"
       }
@@ -12325,7 +12325,7 @@ export const TOPICS: Topic[] = [
           category: "Age & Risk"
       },
       {
-          question: "Does \"Use pea-sized toothpaste, monitor brushing.\" help with Dental Fluorosis?",
+          question: "What dietary or lifestyle approach helps with Dental Fluorosis?",
           answer: "Yes \u2014 Use pea-sized toothpaste, monitor brushing. is one of the natural approaches recommended for Dental Fluorosis.",
           category: "Natural Approach"
       }
@@ -12387,7 +12387,7 @@ export const TOPICS: Topic[] = [
           category: "Age & Risk"
       },
       {
-          question: "Does \"Low potassium, low phosphorus, low protein.\" help with CKD / Dialysis Diet?",
+          question: "What dietary or lifestyle approach helps with CKD / Dialysis Diet?",
           answer: "Yes \u2014 Low potassium, low phosphorus, low protein. is one of the natural approaches recommended for CKD / Dialysis Diet.",
           category: "Natural Approach"
       }
@@ -12449,7 +12449,7 @@ export const TOPICS: Topic[] = [
           category: "Age & Risk"
       },
       {
-          question: "Does \"Plant-based low-protein to lower ammonia.\" help with Liver Encephalopathy?",
+          question: "What dietary or lifestyle approach helps with Liver Encephalopathy?",
           answer: "Yes \u2014 Plant-based low-protein to lower ammonia. is one of the natural approaches recommended for Liver Encephalopathy.",
           category: "Natural Approach"
       }
@@ -12821,7 +12821,7 @@ export const TOPICS: Topic[] = [
           category: "Age & Risk"
       },
       {
-          question: "Does \"Avoid copper foods (shellfish, nuts, choc).\" help with Wilson's Disease?",
+          question: "What dietary or lifestyle approach helps with Wilson's Disease?",
           answer: "Yes \u2014 Avoid copper foods (shellfish, nuts, choc). is one of the natural approaches recommended for Wilson's Disease.",
           category: "Natural Approach"
       }
@@ -13007,7 +13007,7 @@ export const TOPICS: Topic[] = [
           category: "Age & Risk"
       },
       {
-          question: "Does \"Strict fructose-free diet (no fruit/sugar).\" help with Hereditary Fructose Intolerance?",
+          question: "What dietary or lifestyle approach helps with Hereditary Fructose Intolerance?",
           answer: "Yes \u2014 Strict fructose-free diet (no fruit/sugar). is one of the natural approaches recommended for Hereditary Fructose Intolerance.",
           category: "Natural Approach"
       }
@@ -13813,7 +13813,7 @@ export const TOPICS: Topic[] = [
           category: "Age & Risk"
       },
       {
-          question: "Does \"Anti-inflammatory Omega-3s, low sulfites.\" help with Asthma?",
+          question: "What dietary or lifestyle approach helps with Asthma?",
           answer: "Yes \u2014 Anti-inflammatory Omega-3s, low sulfites. is one of the natural approaches recommended for Asthma.",
           category: "Natural Approach"
       }
@@ -13875,7 +13875,7 @@ export const TOPICS: Topic[] = [
           category: "Age & Risk"
       },
       {
-          question: "Does \"Broccoli sprouts (sulforaphane), no sugar.\" help with H. pylori Infection?",
+          question: "What dietary or lifestyle approach helps with H. pylori Infection?",
           answer: "Yes \u2014 Broccoli sprouts (sulforaphane), no sugar. is one of the natural approaches recommended for H. pylori Infection.",
           category: "Natural Approach"
       }
@@ -13937,7 +13937,7 @@ export const TOPICS: Topic[] = [
           category: "Age & Risk"
       },
       {
-          question: "Does \"Coffee, cruciferous veggies, zero alcohol.\" help with Liver Cancer?",
+          question: "What dietary or lifestyle approach helps with Liver Cancer?",
           answer: "Yes \u2014 Coffee, cruciferous veggies, zero alcohol. is one of the natural approaches recommended for Liver Cancer.",
           category: "Natural Approach"
       }
@@ -14619,7 +14619,7 @@ export const TOPICS: Topic[] = [
           category: "Age & Risk"
       },
       {
-          question: "Does \"Eat high protein on shift, fast overnight.\" help with Shift Work Disorder?",
+          question: "What dietary or lifestyle approach helps with Shift Work Disorder?",
           answer: "Yes \u2014 Eat high protein on shift, fast overnight. is one of the natural approaches recommended for Shift Work Disorder.",
           category: "Natural Approach"
       }
