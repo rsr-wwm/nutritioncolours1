@@ -152,6 +152,54 @@ function buildHerbEntity(herbId: string, herbData?: any) {
   };
 }
 
+type ConfidenceEntry = {
+  confidenceScore?: number;
+  evidenceLevel?: string;
+  lastVerified?: string;
+};
+
+/**
+ * Build a Claim schema for a condition/herb page's central clinical assertion.
+ * Citations come from the entity's own real citation list (already rendered elsewhere
+ * on the page as MedicalCondition/Thing `citation`) — never invented. The evidence-level/
+ * confidence-score `additionalProperty` block is only added when a real matching entry
+ * exists in confidence-scores.json; most herbs and a few conditions have no match today,
+ * and the claim is still emitted (with citations alone) rather than skipped entirely.
+ */
+function buildClaimEntity(
+  entityType: 'condition' | 'herb',
+  entityId: string,
+  entityData?: any,
+  confidenceData?: ConfidenceEntry,
+) {
+  const claimText = entityType === 'condition' ? entityData?.rootCause : entityData?.primaryMechanism;
+  const citations = (entityData?.citations || []).map((c: { text: string; url: string }) => ({
+    '@type': 'CreativeWork',
+    'name': c.text,
+    'url': c.url,
+  }));
+
+  if (!claimText && citations.length === 0) return null;
+
+  const confidenceProps = [
+    confidenceData?.evidenceLevel && { '@type': 'PropertyValue', 'name': 'evidenceLevel', 'value': confidenceData.evidenceLevel },
+    confidenceData?.confidenceScore != null && { '@type': 'PropertyValue', 'name': 'confidenceScore', 'value': confidenceData.confidenceScore },
+    confidenceData?.lastVerified && { '@type': 'PropertyValue', 'name': 'lastVerified', 'value': confidenceData.lastVerified },
+  ].filter(Boolean);
+
+  return {
+    '@type': 'Claim',
+    '@id': `${BASE}/${entityType}/${entityId}#claim`,
+    'name': `Clinical claim: ${entityData?.name || entityId}`,
+    ...(claimText && { 'description': claimText }),
+    'claimInterpreter': { '@id': `${BASE}/#organization` },
+    'appearance': { '@id': `${BASE}/${entityType}/${entityId}#page` },
+    'firstAppearance': { '@id': `${BASE}/${entityType}/${entityId}#page` },
+    ...(citations.length > 0 && { citation: citations }),
+    ...(confidenceProps.length > 0 && { additionalProperty: confidenceProps }),
+  };
+}
+
 /**
  * Build a speakable schema for a page section.
  */
@@ -204,8 +252,10 @@ export function useEntityGraph(
   context?: {
     conditionId?: string;
     conditionData?: any;
+    conditionConfidence?: ConfidenceEntry;
     herbId?: string;
     herbData?: any;
+    herbConfidence?: ConfidenceEntry;
     recipeId?: string;
     recipeData?: any;
     pageTitle?: string;
@@ -230,6 +280,9 @@ export function useEntityGraph(
   if (context?.conditionId) {
     graphs.push(buildConditionEntity(context.conditionId, context.conditionData));
 
+    const conditionClaim = buildClaimEntity('condition', context.conditionId, context.conditionData, context.conditionConfidence);
+    if (conditionClaim) graphs.push(conditionClaim);
+
     // Link related herbs
     if (context.relatedHerbs) {
       context.relatedHerbs.forEach(herbId => {
@@ -247,6 +300,9 @@ export function useEntityGraph(
   // Herb page
   if (context?.herbId) {
     graphs.push(buildHerbEntity(context.herbId, context.herbData));
+
+    const herbClaim = buildClaimEntity('herb', context.herbId, context.herbData, context.herbConfidence);
+    if (herbClaim) graphs.push(herbClaim);
 
     if (context.relatedConditions) {
       context.relatedConditions.forEach(condId => {
@@ -280,10 +336,11 @@ export function getPageEntityGraph(route: string, title?: string, description?: 
 /**
  * Generate condition-specific entity graph.
  */
-export function getConditionEntityGraph(conditionId: string, conditionData?: any, relatedHerbs?: string[], relatedRecipes?: string[]): string {
+export function getConditionEntityGraph(conditionId: string, conditionData?: any, relatedHerbs?: string[], relatedRecipes?: string[], conditionConfidence?: ConfidenceEntry): string {
   return useEntityGraph(`/condition/${conditionId}`, {
     conditionId,
     conditionData,
+    conditionConfidence,
     pageTitle: conditionData?.pageTitle,
     pageDescription: conditionData?.metaDescription,
     lastReviewed: conditionData?.clinicalReview?.lastUpdated,
@@ -295,10 +352,11 @@ export function getConditionEntityGraph(conditionId: string, conditionData?: any
 /**
  * Generate herb-specific entity graph.
  */
-export function getHerbEntityGraph(herbId: string, herbData?: any, relatedConditions?: string[]): string {
+export function getHerbEntityGraph(herbId: string, herbData?: any, relatedConditions?: string[], herbConfidence?: ConfidenceEntry): string {
   return useEntityGraph(`/herb/${herbId}`, {
     herbId,
     herbData,
+    herbConfidence,
     pageTitle: herbData?.pageTitle,
     pageDescription: herbData?.metaDescription,
     lastReviewed: herbData?.clinicalReview?.lastUpdated,

@@ -4,6 +4,7 @@ import { ClinicalHerbDetail } from '../../components/ClinicalDetails';
 import { HERBS_SPICES_DATA, MEDICAL_CONDITIONS_DATA } from '../../lib/clinical_databases';
 import { getHerbEntityGraph } from '../../lib/seo/entityGraph';
 import { getBreadcrumbSchema } from '../../lib/seo/structuredData';
+import confidenceScores from '../../../public/data/confidence-scores.json';
 
 export async function getStaticPaths() {
   return HERBS_SPICES_DATA.map((herb) => ({
@@ -20,7 +21,10 @@ const relatedConditionIds = MEDICAL_CONDITIONS_DATA
   .filter((c) => (c.therapeuticSpices || []).some((s: string) => s.toLowerCase().includes(herb.name.toLowerCase().split(' ')[0])))
   .map((c) => c.id);
 
-const herbSchema = getHerbEntityGraph(herb.id, herb, relatedConditionIds);
+// Only a subset of herbs have a real confidence-scores.json entry — undefined here
+// is correct and expected for the rest (buildClaimEntity handles it).
+const herbConfidence = (confidenceScores.herbs as Record<string, any>)[herb.id];
+const herbSchema = getHerbEntityGraph(herb.id, herb, relatedConditionIds, herbConfidence);
 const breadcrumbSchema = getBreadcrumbSchema(`herb/${herb.id}`, [
   { label: 'Home', path: 'home' },
   { label: 'Herbs & Spices', path: 'knowledge/herbs-spices' },

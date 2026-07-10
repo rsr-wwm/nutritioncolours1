@@ -4,6 +4,7 @@ import { ClinicalConditionDetail } from '../../components/ClinicalDetails';
 import { MEDICAL_CONDITIONS_DATA, HERBS_SPICES_DATA } from '../../lib/clinical_databases';
 import { getConditionEntityGraph } from '../../lib/seo/entityGraph';
 import { getBreadcrumbSchema } from '../../lib/seo/structuredData';
+import confidenceScores from '../../../public/data/confidence-scores.json';
 
 export async function getStaticPaths() {
   return MEDICAL_CONDITIONS_DATA.map((cond) => ({
@@ -20,7 +21,10 @@ const relatedHerbIds = (cond.therapeuticSpices || [])
   .map((spiceName: string) => HERBS_SPICES_DATA.find((h) => spiceName.toLowerCase().includes(h.name.toLowerCase().split(' ')[0]))?.id)
   .filter(Boolean) as string[];
 
-const conditionSchema = getConditionEntityGraph(cond.id, cond, relatedHerbIds);
+// Only a subset of conditions have a real confidence-scores.json entry — undefined
+// here is correct and expected for the rest, not a bug (buildClaimEntity handles it).
+const conditionConfidence = (confidenceScores.conditions as Record<string, any>)[cond.id];
+const conditionSchema = getConditionEntityGraph(cond.id, cond, relatedHerbIds, undefined, conditionConfidence);
 const breadcrumbSchema = getBreadcrumbSchema(`condition/${cond.id}`, [
   { label: 'Home', path: 'home' },
   { label: 'Health Conditions', path: 'knowledge/health-conditions' },
