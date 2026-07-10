@@ -12,9 +12,57 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
     contraindications: ['Active bile duct obstruction', 'Gallstones', 'Concomitant use of antiplatelet or anticoagulant medications (acts as a natural blood thinner)', 'Pregnancy (in therapeutic high-dose supplement form)'],
     synergies: ['Black Pepper (Piperine)', 'Ginger', 'Healthy Fats (lipophilic activation)'],
     faqs: [
-      { question: "How do I absorb turmeric better?", answer: "Always pair turmeric with a pinch of black pepper (piperine) and healthy fats like virgin coconut oil or grass-fed ghee to boost absorption by up to 2,000%.", category: "Bioavailability" },
-      { question: "Should I take turmeric raw or cooked?", answer: "Light cooking with healthy fats activates its key polyphenol, curcumin, enhancing solubility and cellular uptake.", category: "Preparation" }
-    ],
+      {
+          question: "How do I absorb turmeric better?",
+          answer: "Always pair turmeric with a pinch of black pepper (piperine) and healthy fats like virgin coconut oil or grass-fed ghee to boost absorption by up to 2,000%.",
+          category: "Bioavailability"
+      },
+      {
+          question: "Should I take turmeric raw or cooked?",
+          answer: "Light cooking with healthy fats activates its key polyphenol, curcumin, enhancing solubility and cellular uptake.",
+          category: "Preparation"
+      },
+      {
+          question: "What is Turmeric and how does it work?",
+          answer: "Downregulates inflammatory transcription factors (NF-kB) and suppresses pro-inflammatory enzymes (COX-2, 5-LOX).",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Turmeric?",
+          answer: "Turmeric's scientific name is Curcuma longa.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Turmeric?",
+          answer: "500 mg - 2,000 mg daily Must be consumed alongside black pepper (piperine) and healthy fats (e.g., cold-pressed coconut oil, A2 ghee) to increase absorption by up to 2,000%.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Turmeric?",
+          answer: "The key active compounds in Turmeric include Curcuminoids (Curcumin), Ar-turmerone, Zingiberene.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Turmeric?",
+          answer: "Active bile duct obstruction Gallstones Concomitant use of antiplatelet or anticoagulant medications (acts as a natural blood thinner) Pregnancy (in therapeutic high-dose supplement form)",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Turmeric?",
+          answer: "Curcumin: A Review of Its Effects on Human Health (PMID: 29065496) Curcuminoids Clinical Review & Efficacy (PMC5664031)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Turmeric combine well with Black Pepper?",
+          answer: "Yes \u2014 Turmeric pairs well with Black Pepper (Piperine).",
+          category: "Synergies"
+      },
+      {
+          question: "Does Turmeric combine well with Ginger?",
+          answer: "Yes \u2014 Turmeric pairs well with Ginger.",
+          category: "Synergies"
+      }
+  ],
     citations: [
       { text: "Curcumin: A Review of Its Effects on Human Health (PMID: 29065496)", url: "https://pubmed.ncbi.nlm.nih.gov/29065496/" },
       { text: "Curcuminoids Clinical Review & Efficacy (PMC5664031)", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5664031/" }
@@ -112,9 +160,57 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
     contraindications: ['Autoimmune disorders (lupus, MS, RA) as it stimulates immune response', 'Thyroid hyperfunction (hyperthyroidism)', 'Upcoming major surgery (interacts with anesthesia)'],
     synergies: ['Warm A2 milk / Almond milk', 'Nutmeg (for enhanced sleep induction)', 'Ghee'],
     faqs: [
-      { question: "When is the best time to take Ashwagandha?", answer: "Take it in the evening or 1 hour before bed to support natural cortisol decline and sleep cycles.", category: "Timing" },
-      { question: "Does Ashwagandha affect thyroid levels?", answer: "Yes, it can increase thyroid hormone output (T4/T3), making it ideal for hypothyroid but contraindicated for hyperthyroid patients.", category: "Thyroid" }
-    ],
+      {
+          question: "When is the best time to take Ashwagandha?",
+          answer: "Take it in the evening or 1 hour before bed to support natural cortisol decline and sleep cycles.",
+          category: "Timing"
+      },
+      {
+          question: "Does Ashwagandha affect thyroid levels?",
+          answer: "Yes, it can increase thyroid hormone output (T4/T3), making it ideal for hypothyroid but contraindicated for hyperthyroid patients.",
+          category: "Thyroid"
+      },
+      {
+          question: "What is Ashwagandha and how does it work?",
+          answer: "Modulates the Hypothalamic-Pituitary-Adrenal (HPA) axis, lowering serum cortisol levels and stabilizing the nervous system response to chronic stress.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Ashwagandha?",
+          answer: "Ashwagandha's scientific name is Withania somnifera.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Ashwagandha?",
+          answer: "300 mg - 600 mg daily Preferably taken in the evening or 1 hour before sleep. Standardized root extract with at least 5% withanolides.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Ashwagandha?",
+          answer: "The key active compounds in Ashwagandha include Withanolides (Withaferin A), Sitoindosides, Alkaloids.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Ashwagandha?",
+          answer: "Autoimmune disorders (lupus, MS, RA) as it stimulates immune response Thyroid hyperfunction (hyperthyroidism) Upcoming major surgery (interacts with anesthesia)",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Ashwagandha?",
+          answer: "A randomized double-blind placebo-controlled study of Ashwagandha root extract (PMID: 31517876)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Ashwagandha combine well with Warm A2 milk / Almond milk?",
+          answer: "Yes \u2014 Ashwagandha pairs well with Warm A2 milk / Almond milk.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Ashwagandha combine well with Nutmeg?",
+          answer: "Yes \u2014 Ashwagandha pairs well with Nutmeg (for enhanced sleep induction).",
+          category: "Synergies"
+      }
+  ],
     citations: [
       { text: "A randomized double-blind placebo-controlled study of Ashwagandha root extract (PMID: 31517876)", url: "https://pubmed.ncbi.nlm.nih.gov/31517876/" }
     ],
@@ -205,9 +301,57 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
     contraindications: ['Severe hepatic insufficiency (always choose true Ceylon cinnamon over Cassia to avoid coumarin-induced hepatotoxicity)'],
     synergies: ['Fenugreek seeds', 'Apple Cider Vinegar (ACV)', 'Chromium'],
     faqs: [
-      { question: "Why is Ceylon Cinnamon preferred over Cassia?", answer: "Ceylon cinnamon contains negligible coumarin (a liver-toxic compound), making it safe for daily therapeutic use compared to Cassia.", category: "Safety" },
-      { question: "How does cinnamon affect blood sugar?", answer: "It improves insulin sensitivity and stimulates GLUT-4 transporters, aiding glucose clearance from the bloodstream.", category: "Blood Sugar" }
-    ],
+      {
+          question: "Why is Ceylon Cinnamon preferred over Cassia?",
+          answer: "Ceylon cinnamon contains negligible coumarin (a liver-toxic compound), making it safe for daily therapeutic use compared to Cassia.",
+          category: "Safety"
+      },
+      {
+          question: "How does cinnamon affect blood sugar?",
+          answer: "It improves insulin sensitivity and stimulates GLUT-4 transporters, aiding glucose clearance from the bloodstream.",
+          category: "Blood Sugar"
+      },
+      {
+          question: "What is Ceylon Cinnamon and how does it work?",
+          answer: "Acts as an insulin mimetic, activating insulin receptor autophosphorylation and mobilizing glucose transporters (GLUT-4) to cell membranes.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Ceylon Cinnamon?",
+          answer: "Ceylon Cinnamon's scientific name is Cinnamomum verum.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Ceylon Cinnamon?",
+          answer: "1,000 mg - 3,000 mg daily Consume raw ground bark powder mixed with warm water, apple cider vinegar, or sprinkled over morning oats/chia puddings.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Ceylon Cinnamon?",
+          answer: "The key active compounds in Ceylon Cinnamon include Cinnamaldehyde, Proanthocyanidins, Eugenol.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Ceylon Cinnamon?",
+          answer: "Severe hepatic insufficiency (always choose true Ceylon cinnamon over Cassia to avoid coumarin-induced hepatotoxicity)",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Ceylon Cinnamon?",
+          answer: "Cinnamon Use in Type 2 Diabetes: An Updated Systematic Review (PMID: 24019277)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Ceylon Cinnamon combine well with Fenugreek seeds?",
+          answer: "Yes \u2014 Ceylon Cinnamon pairs well with Fenugreek seeds.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Ceylon Cinnamon combine well with Apple Cider Vinegar?",
+          answer: "Yes \u2014 Ceylon Cinnamon pairs well with Apple Cider Vinegar (ACV).",
+          category: "Synergies"
+      }
+  ],
     citations: [
       { text: "Cinnamon Use in Type 2 Diabetes: An Updated Systematic Review (PMID: 24019277)", url: "https://pubmed.ncbi.nlm.nih.gov/24019277/" }
     ],
@@ -298,9 +442,57 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
     contraindications: ['Active gallstone disease (ginger stimulates bile secretion)', 'Concomitant high-dose anticoagulant therapy'],
     synergies: ['Lemon juice', 'Raw Honey (adds enzymatic support)', 'Turmeric'],
     faqs: [
-      { question: "How does ginger help with nausea and digestion?", answer: "Yes, ginger accelerates gastric emptying and blocks 5-HT3 receptors in the gut, making it highly effective for nausea and bloating.", category: "Digestion" },
-      { question: "Is ginger safe for pregnant women?", answer: "Yes, in standard dietary amounts (under 1g daily) it is safe and widely used for morning sickness.", category: "Safety" }
-    ],
+      {
+          question: "How does ginger help with nausea and digestion?",
+          answer: "Yes, ginger accelerates gastric emptying and blocks 5-HT3 receptors in the gut, making it highly effective for nausea and bloating.",
+          category: "Digestion"
+      },
+      {
+          question: "Is ginger safe for pregnant women?",
+          answer: "Yes, in standard dietary amounts (under 1g daily) it is safe and widely used for morning sickness.",
+          category: "Safety"
+      },
+      {
+          question: "What is Ginger and how does it work?",
+          answer: "Antagonizes serotonin 5-HT3 receptors in the gut to prevent nausea; inhibits inflammatory cytokines (TNF-alpha, IL-6) and prostaglandin synthesis.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Ginger?",
+          answer: "Ginger's scientific name is Zingiber officinale.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Ginger?",
+          answer: "1,000 mg - 2,000 mg daily Consume fresh ginger juice or grated raw ginger root infused in hot water (ginger tea) after meals.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Ginger?",
+          answer: "The key active compounds in Ginger include Gingerols, Shogaols, Zingerone.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Ginger?",
+          answer: "Active gallstone disease (ginger stimulates bile secretion) Concomitant high-dose anticoagulant therapy",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Ginger?",
+          answer: "Effects of Ginger on Gastrointestinal Disorders (PMID: 32675085)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Ginger combine well with Lemon juice?",
+          answer: "Yes \u2014 Ginger pairs well with Lemon juice.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Ginger combine well with Raw Honey?",
+          answer: "Yes \u2014 Ginger pairs well with Raw Honey (adds enzymatic support).",
+          category: "Synergies"
+      }
+  ],
     citations: [
       { text: "Effects of Ginger on Gastrointestinal Disorders (PMID: 32675085)", url: "https://pubmed.ncbi.nlm.nih.gov/32675085/" }
     ],
@@ -390,9 +582,57 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
     contraindications: ['Severe kidney stones (high in calcium/oxalates, restrict intake)'],
     synergies: ['Buttermilk (improves probiotic fermentation)', 'Curry leaves (improves iron absorption)'],
     faqs: [
-      { question: "Why is Ragi beneficial for bone health?", answer: "Ragi is exceptionally high in calcium (about 344mg per 100g, which is higher than milk), making it vital for bone density and joint repair.", category: "Bones" },
-      { question: "Is Ragi gluten-free?", answer: "Yes, Ragi is a 100% gluten-free grain, making it ideal for patients with celiac disease or gluten sensitivity.", category: "Gluten" }
-    ],
+      {
+          question: "Why is Ragi beneficial for bone health?",
+          answer: "Ragi is exceptionally high in calcium (about 344mg per 100g, which is higher than milk), making it vital for bone density and joint repair.",
+          category: "Bones"
+      },
+      {
+          question: "Is Ragi gluten-free?",
+          answer: "Yes, Ragi is a 100% gluten-free grain, making it ideal for patients with celiac disease or gluten sensitivity.",
+          category: "Gluten"
+      },
+      {
+          question: "What is Ragi (Finger Millet) and how does it work?",
+          answer: "Slows down digestion rates due to high dietary fiber and polyphenol content, yielding a low glycemic response that prevents rapid postprandial glucose spikes.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Ragi (Finger Millet)?",
+          answer: "Ragi (Finger Millet)'s scientific name is Eleusine coracana.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Ragi (Finger Millet)?",
+          answer: "50g - 100g raw weight Consume as a sourdough flatbread, porridge, or steamed dumplings during daylight breakfast or lunch hours.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Ragi (Finger Millet)?",
+          answer: "The key active compounds in Ragi (Finger Millet) include Polyphenols, Dietary Fiber, Calcium, L-Lysine.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Ragi (Finger Millet)?",
+          answer: "Severe kidney stones (high in calcium/oxalates, restrict intake)",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Ragi (Finger Millet)?",
+          answer: "Nutritional and Health Benefits of Finger Millet (PMID: 29876543)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Ragi (Finger Millet) combine well with Buttermilk?",
+          answer: "Yes \u2014 Ragi (Finger Millet) pairs well with Buttermilk (improves probiotic fermentation).",
+          category: "Synergies"
+      },
+      {
+          question: "Does Ragi (Finger Millet) combine well with Curry leaves?",
+          answer: "Yes \u2014 Ragi (Finger Millet) pairs well with Curry leaves (improves iron absorption).",
+          category: "Synergies"
+      }
+  ],
     citations: [
       { text: "Nutritional and Health Benefits of Finger Millet (PMID: 29876543)", url: "https://pubmed.ncbi.nlm.nih.gov/29876543/" }
     ],
@@ -431,9 +671,57 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
     contraindications: ['Phenylketonuria (contains phenylalanine)', 'Autoimmune conditions (increases immune markers, use caution)', 'Gout (high purine content)'],
     synergies: ['Vitamin C rich foods (increases iron absorption from spirulina)', 'Chlorella'],
     faqs: [
-      { question: "Is spirulina a complete protein source?", answer: "Yes, spirulina contains about 60-70% protein by weight and contains all essential amino acids, making it a perfect plant source.", category: "Protein" },
-      { question: "Can spirulina help with heavy metal detox?", answer: "Yes, studies indicate that spirulina binds to heavy metals in the gut, supporting their excretion from the body.", category: "Detox" }
-    ],
+      {
+          question: "Is spirulina a complete protein source?",
+          answer: "Yes, spirulina contains about 60-70% protein by weight and contains all essential amino acids, making it a perfect plant source.",
+          category: "Protein"
+      },
+      {
+          question: "Can spirulina help with heavy metal detox?",
+          answer: "Yes, studies indicate that spirulina binds to heavy metals in the gut, supporting their excretion from the body.",
+          category: "Detox"
+      },
+      {
+          question: "What is Spirulina and how does it work?",
+          answer: "Acts as a potent antioxidant (via phycocyanin scavengers) and immune-modulator; helps lower LDL cholesterol and increase HDL.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Spirulina?",
+          answer: "Spirulina's scientific name is Arthrospira platensis.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Spirulina?",
+          answer: "2,000 mg - 5,000 mg daily Consume as powder mixed in water or smoothies, preferably in the morning to support daytime cellular energy.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Spirulina?",
+          answer: "The key active compounds in Spirulina include Phycocyanin, Gamma-Linolenic Acid (GLA), Chlorophyll, Complete Protein.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Spirulina?",
+          answer: "Phenylketonuria (contains phenylalanine) Autoimmune conditions (increases immune markers, use caution) Gout (high purine content)",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Spirulina?",
+          answer: "Spirulina in Clinical Practice: Efficacy and Safety (PMID: 21234253)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Spirulina combine well with Vitamin C rich foods?",
+          answer: "Yes \u2014 Spirulina pairs well with Vitamin C rich foods (increases iron absorption from spirulina).",
+          category: "Synergies"
+      },
+      {
+          question: "Does Spirulina combine well with Chlorella?",
+          answer: "Yes \u2014 Spirulina pairs well with Chlorella.",
+          category: "Synergies"
+      }
+  ],
     citations: [
       { text: "Spirulina in Clinical Practice: Efficacy and Safety (PMID: 21234253)", url: "https://pubmed.ncbi.nlm.nih.gov/21234253/" }
     ],
@@ -472,9 +760,57 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
     contraindications: ['Pregnancy (potential uterine stimulant)', 'Severe peanut/legume allergies (potential cross-reactivity)'],
     synergies: ['Ceylon Cinnamon', 'Ginger'],
     faqs: [
-      { question: "How does Fenugreek help with diabetes?", answer: "The active compound 4-hydroxyisoleucine directly stimulates insulin release when glucose levels are elevated, helping lower blood sugar naturally.", category: "Glucose Control" },
-      { question: "Should I consume the seeds raw or soaked?", answer: "Soaking the seeds overnight softens the mucilaginous fiber galactomannan, making it much easier on the digestive tract and maximizing active extraction.", category: "Usage" }
-    ],
+      {
+          question: "How does Fenugreek help with diabetes?",
+          answer: "The active compound 4-hydroxyisoleucine directly stimulates insulin release when glucose levels are elevated, helping lower blood sugar naturally.",
+          category: "Glucose Control"
+      },
+      {
+          question: "Should I consume the seeds raw or soaked?",
+          answer: "Soaking the seeds overnight softens the mucilaginous fiber galactomannan, making it much easier on the digestive tract and maximizing active extraction.",
+          category: "Usage"
+      },
+      {
+          question: "What is Fenugreek and how does it work?",
+          answer: "Stimulates glucose-dependent insulin secretion from pancreatic beta cells, delays gastric emptying, and inhibits glucose absorption in the small intestine.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Fenugreek?",
+          answer: "Fenugreek's scientific name is Trigonella foenum-graecum.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Fenugreek?",
+          answer: "5g - 10g daily Soak seeds overnight in warm water. Consume seeds and water first thing in the morning before meals.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Fenugreek?",
+          answer: "The key active compounds in Fenugreek include 4-hydroxyisoleucine, Trigonelline, Galactomannan.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Fenugreek?",
+          answer: "Pregnancy (potential uterine stimulant) Severe peanut/legume allergies (potential cross-reactivity)",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Fenugreek?",
+          answer: "Antidiabetic and Hypocholesterolemic Effects of Fenugreek (PMID: 28291884)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Fenugreek combine well with Ceylon Cinnamon?",
+          answer: "Yes \u2014 Fenugreek pairs well with Ceylon Cinnamon.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Fenugreek combine well with Ginger?",
+          answer: "Yes \u2014 Fenugreek pairs well with Ginger.",
+          category: "Synergies"
+      }
+  ],
     citations: [
       { text: "Antidiabetic and Hypocholesterolemic Effects of Fenugreek (PMID: 28291884)", url: "https://pubmed.ncbi.nlm.nih.gov/28191884/" }
     ],
@@ -564,9 +900,57 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
     contraindications: ['Concomitant blood-thinning therapies', 'Couples actively trying to conceive (traditional anti-fertility effects in animal models)'],
     synergies: ['Ashwagandha', 'Ginger'],
     faqs: [
-      { question: "How does Tulsi reduce stress and anxiety?", answer: "As an adaptogenic herb, Holy Basil helps optimize cortisol levels and support adrenal function, neutralizing metabolic stress.", category: "Adaptogen" },
-      { question: "Can Holy Basil lower blood sugar?", answer: "Yes, studies show it supports pancreatic beta-cell function and enhances peripheral glucose utilization.", category: "Metabolism" }
-    ],
+      {
+          question: "How does Tulsi reduce stress and anxiety?",
+          answer: "As an adaptogenic herb, Holy Basil helps optimize cortisol levels and support adrenal function, neutralizing metabolic stress.",
+          category: "Adaptogen"
+      },
+      {
+          question: "Can Holy Basil lower blood sugar?",
+          answer: "Yes, studies show it supports pancreatic beta-cell function and enhances peripheral glucose utilization.",
+          category: "Metabolism"
+      },
+      {
+          question: "What is Holy Basil (Tulsi) and how does it work?",
+          answer: "Modulates the hypothalamic-pituitary-adrenal (HPA) axis to reduce cortisol excretion, reducing stress-induced hepatic gluconeogenesis.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Holy Basil (Tulsi)?",
+          answer: "Holy Basil (Tulsi)'s scientific name is Ocimum tenuiflorum.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Holy Basil (Tulsi)?",
+          answer: "500 mg - 1,000 mg daily Brew fresh leaves as tea, or take standardized extract capsules in the early morning.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Holy Basil (Tulsi)?",
+          answer: "The key active compounds in Holy Basil (Tulsi) include Eugenol, Ursolic Acid, Caryophyllene.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Holy Basil (Tulsi)?",
+          answer: "Concomitant blood-thinning therapies Couples actively trying to conceive (traditional anti-fertility effects in animal models)",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Holy Basil (Tulsi)?",
+          answer: "Tulsi - Ocimum sanctum: A Herb for All Reasons (PMID: 25624701)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Holy Basil (Tulsi) combine well with Ashwagandha?",
+          answer: "Yes \u2014 Holy Basil (Tulsi) pairs well with Ashwagandha.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Holy Basil (Tulsi) combine well with Ginger?",
+          answer: "Yes \u2014 Holy Basil (Tulsi) pairs well with Ginger.",
+          category: "Synergies"
+      }
+  ],
     citations: [
       { text: "Tulsi - Ocimum sanctum: A Herb for All Reasons (PMID: 25624701)", url: "https://pubmed.ncbi.nlm.nih.gov/25624701/" }
     ],
@@ -656,9 +1040,57 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
     contraindications: ['Active bleeding disorders', '14 days prior to scheduled major surgery (antiplatelet action)'],
     synergies: ['Lemon juice', 'Turmeric'],
     faqs: [
-      { question: "Why must garlic be crushed before eating?", answer: "Allicin is not present in intact garlic. Crushing breaks cell walls, releasing alliinase to synthesize active allicin. Let crushed garlic sit for 10 minutes before heating.", category: "Chemistry" },
-      { question: "Does garlic reduce blood pressure?", answer: "Yes, by increasing nitric oxide production, garlic promotes blood vessel relaxation, reducing vascular resistance.", category: "Cardiovascular" }
-    ],
+      {
+          question: "Why must garlic be crushed before eating?",
+          answer: "Allicin is not present in intact garlic. Crushing breaks cell walls, releasing alliinase to synthesize active allicin. Let crushed garlic sit for 10 minutes before heating.",
+          category: "Chemistry"
+      },
+      {
+          question: "Does garlic reduce blood pressure?",
+          answer: "Yes, by increasing nitric oxide production, garlic promotes blood vessel relaxation, reducing vascular resistance.",
+          category: "Cardiovascular"
+      },
+      {
+          question: "What is Garlic and how does it work?",
+          answer: "Inhibits HMG-CoA reductase (reducing lipid synthesis) and activates endothelial nitric oxide synthase, stimulating arterial vasodilation.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Garlic?",
+          answer: "Garlic's scientific name is Allium sativum.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Garlic?",
+          answer: "1,000 mg - 3,000 mg daily Consume 1-2 raw crushed cloves daily. Crushing activates the enzyme alliinase to convert alliin to therapeutic allicin.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Garlic?",
+          answer: "The key active compounds in Garlic include Allicin, S-Allylcysteine (SAC), Diallyl Disulfide.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Garlic?",
+          answer: "Active bleeding disorders 14 days prior to scheduled major surgery (antiplatelet action)",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Garlic?",
+          answer: "Effect of garlic on blood pressure: a meta-analysis (PMID: 25557383)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Garlic combine well with Lemon juice?",
+          answer: "Yes \u2014 Garlic pairs well with Lemon juice.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Garlic combine well with Turmeric?",
+          answer: "Yes \u2014 Garlic pairs well with Turmeric.",
+          category: "Synergies"
+      }
+  ],
     citations: [
       { text: "Effect of garlic on blood pressure: a meta-analysis (PMID: 25557383)", url: "https://pubmed.ncbi.nlm.nih.gov/25557383/" }
     ],
@@ -769,6 +1201,48 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           url: 'https://pubmed.ncbi.nlm.nih.gov/29876543/'
         }
       ],
+    faqs: [
+      {
+          question: "What is Mint and how does it work?",
+          answer: "Relaxes gastrointestinal smooth muscle tissue via calcium channel blockade.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Mint?",
+          answer: "Mint's scientific name is Mentha.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Mint?",
+          answer: "1 - 2 cups of tea daily Steep 1 tablespoon of fresh leaves in boiling water for 10 minutes.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Mint?",
+          answer: "The key active compounds in Mint include Menthol, Menthone, Limonene.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Mint?",
+          answer: "Gastroesophageal Reflux Disease (GERD) as it relaxes the lower esophageal sphincter",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Mint?",
+          answer: "Peppermint Oil for IBS Treatment (PMID: 29876543)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Mint combine well with Ginger?",
+          answer: "Yes \u2014 Mint pairs well with Ginger (for nausea relief).",
+          category: "Synergies"
+      },
+      {
+          question: "Does Mint combine well with Fennel?",
+          answer: "Yes \u2014 Mint pairs well with Fennel.",
+          category: "Synergies"
+      }
+  ],
     image: 'https://images.unsplash.com/photo-1596040033229-a9821ebd058d?q=80&w=800',
     pageTitle: 'Mint (Mentha) Clinical Guide – Benefits, Uses, & Cultivation',
     metaDescription: 'Discover the therapeutic benefits of Mint. Learn the clinical dosages, bio-active compounds, safety contraindications, and growing guides.',
@@ -880,6 +1354,48 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           url: 'https://pubmed.ncbi.nlm.nih.gov/28191884/'
         }
       ],
+    faqs: [
+      {
+          question: "What is Coriander (Cilantro) and how does it work?",
+          answer: "Exhibits heavy metal chelating capabilities and stimulates insulin secretion.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Coriander (Cilantro)?",
+          answer: "Coriander (Cilantro)'s scientific name is Coriandrum sativum.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Coriander (Cilantro)?",
+          answer: "10g - 20g fresh daily Add raw fresh leaves to meals at the end of cooking to preserve volatile oils.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Coriander (Cilantro)?",
+          answer: "The key active compounds in Coriander (Cilantro) include Linalool, Decenal, Antioxidants.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Coriander (Cilantro)?",
+          answer: "None major established under standard dietary levels",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Coriander (Cilantro)?",
+          answer: "Antioxidant and hypoglycemic activity of Coriandrum sativum (PMID: 28191884)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Coriander (Cilantro) combine well with Garlic?",
+          answer: "Yes \u2014 Coriander (Cilantro) pairs well with Garlic.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Coriander (Cilantro) combine well with Lemon juice?",
+          answer: "Yes \u2014 Coriander (Cilantro) pairs well with Lemon juice.",
+          category: "Synergies"
+      }
+  ],
     image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=800',
     pageTitle: 'Coriander (Cilantro): Benefits, Uses, and Growing Guide',
     metaDescription: 'Learn the clinical profile of cilantro/coriander seeds. Study blood sugar regulation, growing tips, and Heavy Metal detoxification.',
@@ -991,6 +1507,53 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           url: 'https://pubmed.ncbi.nlm.nih.gov/25624701/'
         }
       ],
+    faqs: [
+      {
+          question: "What is Basil and how does it work?",
+          answer: "Reduces oxidative stress and acts as a natural antimicrobial agent.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Basil?",
+          answer: "Basil's scientific name is Ocimum basilicum.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Basil?",
+          answer: "5g - 15g fresh leaves daily Tear leaves by hand rather than cutting with steel to minimize oxidation of active compounds.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Basil?",
+          answer: "The key active compounds in Basil include Eugenol, Linalool, Estrogole.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Basil?",
+          answer: "None major established under standard culinary dosing",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Basil?",
+          answer: "Antimicrobial properties of Ocimum basilicum (PMID: 25624701)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Basil combine well with Garlic?",
+          answer: "Yes \u2014 Basil pairs well with Garlic.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Basil combine well with Olive Oil?",
+          answer: "Yes \u2014 Basil pairs well with Olive Oil.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Basil combine well with Tomatoes?",
+          answer: "Yes \u2014 Basil pairs well with Tomatoes.",
+          category: "Synergies"
+      }
+  ],
     image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=800',
     pageTitle: 'Basil: Culinary Masterclass, Adaptogenic Qualities & Science',
     metaDescription: 'Study the active profiles of sweet basil and holy basil (Tulsi). Explore growing conditions, eugenol mechanisms, and anti-inflammatory properties.',
@@ -1097,6 +1660,48 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           url: 'https://pubmed.ncbi.nlm.nih.gov/25842469/'
         }
       ],
+    faqs: [
+      {
+          question: "What is Rosemary and how does it work?",
+          answer: "Suppresses inflammatory pathways, stimulates scalp microcirculation, and prevents acetylcholine breakdown in the brain.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Rosemary?",
+          answer: "Rosemary's scientific name is Salvia rosmarinus.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Rosemary?",
+          answer: "2g - 5g dried daily or topical oil Topical application for hair growth, or steeped in hot water for memory support.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Rosemary?",
+          answer: "The key active compounds in Rosemary include Carnosic Acid, Rosmarinic Acid, Cineole.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Rosemary?",
+          answer: "Pregnancy (in therapeutic essential oil doses) Known epilepsy (cineole high doses can trigger seizure susceptibility)",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Rosemary?",
+          answer: "Rosemary oil vs minoxidil for androgenetic alopecia (PMID: 25842469)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Rosemary combine well with Thyme?",
+          answer: "Yes \u2014 Rosemary pairs well with Thyme.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Rosemary combine well with Sage?",
+          answer: "Yes \u2014 Rosemary pairs well with Sage.",
+          category: "Synergies"
+      }
+  ],
     image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=800',
     pageTitle: 'Rosemary (Salvia rosmarinus) Guide – Hair, Memory & Circulation',
     metaDescription: 'Explore rosemary\'s active polyphenols including carnosic acid. Learn about hair growth clinical comparisons and memory enhancement benefits.',
@@ -1203,6 +1808,48 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           url: 'https://pubmed.ncbi.nlm.nih.gov/29065496/'
         }
       ],
+    faqs: [
+      {
+          question: "What is Lavender and how does it work?",
+          answer: "Interacts with the neurotransmitter GABA to quiet nervous system hyperactivity and reduce heart rate.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Lavender?",
+          answer: "Lavender's scientific name is Lavandula angustifolia.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Lavender?",
+          answer: "80 mg - 160 mg (Silexan extract) or aromatherapy Use as essential oil inhalation or organic food-grade culinary flowers for teas.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Lavender?",
+          answer: "The key active compounds in Lavender include Linalool, Linalyl Acetate, Cineole.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Lavender?",
+          answer: "Pre-pubertal boys (due to potential weak estrogenic activity in pure oils)",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Lavender?",
+          answer: "Linalool inhalation effects on anxiety (PMID: 29065496)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Lavender combine well with Chamomile?",
+          answer: "Yes \u2014 Lavender pairs well with Chamomile (for sleep).",
+          category: "Synergies"
+      },
+      {
+          question: "Does Lavender combine well with Lemon Balm?",
+          answer: "Yes \u2014 Lavender pairs well with Lemon Balm.",
+          category: "Synergies"
+      }
+  ],
     image: 'https://images.unsplash.com/photo-1610970881699-44a5587caa9a?q=80&w=800',
     pageTitle: 'Lavender (Lavandula) Clinical Guide – Anxiety & Sleep Science',
     metaDescription: 'Understand the neuro-protective actions of linalool in lavender. Learn standard therapeutic uses, sleep enhancement, and safety concerns.',
@@ -1310,6 +1957,48 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           url: 'https://pubmed.ncbi.nlm.nih.gov/25842469/'
         }
       ],
+    faqs: [
+      {
+          question: "What is Oregano and how does it work?",
+          answer: "Disrupts outer cell membranes of pathogenic bacteria and fungi, acting as a natural antimicrobial.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Oregano?",
+          answer: "Oregano's scientific name is Origanum vulgare.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Oregano?",
+          answer: "150 mg - 300 mg (Oil of Oregano) or culinary use Dilute essential oil in carrier oil, or brew dried leaves as tea for gut dysbiosis.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Oregano?",
+          answer: "The key active compounds in Oregano include Carvacrol, Thymol, Rosmarinic Acid.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Oregano?",
+          answer: "Active bleeding disorders Iron deficiency anemia (large supplement quantities block iron absorption)",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Oregano?",
+          answer: "Antimicrobial activity of carvacrol in Oregano (PMID: 25842469)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Oregano combine well with Thyme?",
+          answer: "Yes \u2014 Oregano pairs well with Thyme.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Oregano combine well with Garlic?",
+          answer: "Yes \u2014 Oregano pairs well with Garlic.",
+          category: "Synergies"
+      }
+  ],
     image: 'https://images.unsplash.com/photo-1541832676-9b763b0239ab?q=80&w=800',
     pageTitle: 'Oregano (Origanum vulgare): Antimicrobial Properties & Cooking Guide',
     metaDescription: 'Study the active properties of carvacrol in oregano. Learn clinical gut benefits, dosage protocols, and optimal growing conditions.',
@@ -1419,6 +2108,48 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           url: 'https://pubmed.ncbi.nlm.nih.gov/29065496/'
         }
       ],
+    faqs: [
+      {
+          question: "What is Thyme and how does it work?",
+          answer: "Relaxes respiratory bronchial muscles and displays strong local antiseptic properties.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Thyme?",
+          answer: "Thyme's scientific name is Thymus vulgaris.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Thyme?",
+          answer: "1 - 2g dried herb in tea daily Steep dried thyme leaves in warm water to create a soothing cough throat gargle.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Thyme?",
+          answer: "The key active compounds in Thyme include Thymol, Carvacrol, Apigenin.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Thyme?",
+          answer: "None major noted in dietary amounts; avoid pure essential oil ingestion",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Thyme?",
+          answer: "Thymol efficacy in respiratory tract infections (PMID: 29065496)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Thyme combine well with Licorice root?",
+          answer: "Yes \u2014 Thyme pairs well with Licorice root.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Thyme combine well with Honey?",
+          answer: "Yes \u2014 Thyme pairs well with Honey (for cough relief).",
+          category: "Synergies"
+      }
+  ],
     image: 'https://images.unsplash.com/photo-1541832676-9b763b0239ab?q=80&w=800',
     pageTitle: 'Thyme: Benefits, Uses, and Growing Guide | Dr. Shilpa Thakur',
     metaDescription: 'Discover the health benefits of thyme. Explore thymol\'s action for respiratory health, culinary uses, and growing tips.',
@@ -1524,6 +2255,48 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           url: 'https://pubmed.ncbi.nlm.nih.gov/28191884/'
         }
       ],
+    faqs: [
+      {
+          question: "What is Parsley and how does it work?",
+          answer: "Acts as a mild natural diuretic, flushing sodium and water while protecting kidney tissues.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Parsley?",
+          answer: "Parsley's scientific name is Petroselinum crispum.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Parsley?",
+          answer: "10g - 30g fresh daily Consume fresh raw leaves or blend into raw green juices for maximum enzyme activity.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Parsley?",
+          answer: "The key active compounds in Parsley include Apigenin, Myristicin, Apiol.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Parsley?",
+          answer: "First trimester pregnancy (large doses of apiol oil stimulate uterine muscle contractions)",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Parsley?",
+          answer: "Diuretic and renal effects of Petroselinum microvasculature (PMID: 28191884)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Parsley combine well with Lemon juice?",
+          answer: "Yes \u2014 Parsley pairs well with Lemon juice.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Parsley combine well with Celery?",
+          answer: "Yes \u2014 Parsley pairs well with Celery.",
+          category: "Synergies"
+      }
+  ],
     image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=800',
     pageTitle: 'Parsley (Petroselinum crispum) Clinical Guide – Kidneys & Nitric Oxide',
     metaDescription: 'Explore the health benefits of parsley. Learn about curly vs flat leaf, diuretic mechanisms, vitamin density, and safety guidelines.',
@@ -1639,6 +2412,53 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           url: 'https://pubmed.ncbi.nlm.nih.gov/29065496/'
         }
       ],
+    faqs: [
+      {
+          question: "What is Echinacea and how does it work?",
+          answer: "Stimulates alveolar macrophage activity and increases natural killer cell counts in response to cold pathogens.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Echinacea?",
+          answer: "Echinacea's scientific name is Echinacea purpurea.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Echinacea?",
+          answer: "300 mg - 500 mg daily of standardized extract Consume at the first sign of a respiratory cold. Use cyclically (10 days on, 10 days off).",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Echinacea?",
+          answer: "The key active compounds in Echinacea include Alkylamides, Polysaccharides, Cichoric Acid.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Echinacea?",
+          answer: "Progressive systemic autoimmune disorders (MS, tuberculosis, HIV/AIDS)",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Echinacea?",
+          answer: "Echinacea for preventing and treating the common cold (PMID: 29065496)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Echinacea combine well with Elderberry?",
+          answer: "Yes \u2014 Echinacea pairs well with Elderberry.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Echinacea combine well with Zinc?",
+          answer: "Yes \u2014 Echinacea pairs well with Zinc.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Echinacea combine well with Vitamin C?",
+          answer: "Yes \u2014 Echinacea pairs well with Vitamin C.",
+          category: "Synergies"
+      }
+  ],
     image: 'https://images.unsplash.com/photo-1628559253457-3bf71239c0dc?q=80&w=800',
     pageTitle: 'Echinacea (Coneflower) Clinical Guide – Immunomodulation & Colds',
     metaDescription: 'Explore the clinical immune properties of Echinacea root extract. Read dosage recommendations, macrophage mechanisms, and contraindications.',
@@ -1744,6 +2564,48 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           url: 'https://pubmed.ncbi.nlm.nih.gov/25842469/'
         }
       ],
+    faqs: [
+      {
+          question: "What is Lemon Balm and how does it work?",
+          answer: "Inhibits GABA transaminase, increasing availability of GABA neurotransmitters in the brain.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Lemon Balm?",
+          answer: "Lemon Balm's scientific name is Melissa officinalis.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Lemon Balm?",
+          answer: "300 mg - 600 mg daily or tea Brew fresh leaves as a calming afternoon or evening tea. Avoid drinking directly before driving if drowsy.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Lemon Balm?",
+          answer: "The key active compounds in Lemon Balm include Rosmarinic Acid, Citral, Flavonoids.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Lemon Balm?",
+          answer: "Clinical hypothyroidism (can inhibit thyroid stimulating hormone receptor binding in high doses)",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Lemon Balm?",
+          answer: "Anti-anxiety and cognitive effects of Lemon Balm (PMID: 25842469)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Lemon Balm combine well with Valerian Root?",
+          answer: "Yes \u2014 Lemon Balm pairs well with Valerian Root.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Lemon Balm combine well with Chamomile?",
+          answer: "Yes \u2014 Lemon Balm pairs well with Chamomile.",
+          category: "Synergies"
+      }
+  ],
     image: 'https://images.unsplash.com/photo-1610970881699-44a5587caa9a?q=80&w=800',
     pageTitle: 'Lemon Balm (Melissa officinalis) Guide – GABA & Thyroid Health',
     metaDescription: 'Study how lemon balm interacts with GABA pathways. Read about thyroid contraindications, anxiety reductions, and cultivation tips.',
@@ -1850,6 +2712,48 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           url: 'https://pubmed.ncbi.nlm.nih.gov/25624701/'
         }
       ],
+    faqs: [
+      {
+          question: "What is Shiso (Perilla) and how does it work?",
+          answer: "Suppresses IgE-mediated allergic responses and acts as an anti-inflammatory agent in respiratory pathways.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Shiso (Perilla)?",
+          answer: "Shiso (Perilla)'s scientific name is Perilla frutescens.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Shiso (Perilla)?",
+          answer: "5g - 10g fresh leaves daily Incorporate fresh raw leaves into wraps, sushi, or steep dried leaves as an allergy rescue tea.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Shiso (Perilla)?",
+          answer: "The key active compounds in Shiso (Perilla) include Rosmarinic Acid, Perillaldehyde, Luteolin.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Shiso (Perilla)?",
+          answer: "None major established under standard culinary dosing",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Shiso (Perilla)?",
+          answer: "Anti-allergic effects of Perilla frutescens (PMID: 25624701)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Shiso (Perilla) combine well with Ginger?",
+          answer: "Yes \u2014 Shiso (Perilla) pairs well with Ginger.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Shiso (Perilla) combine well with Green Tea?",
+          answer: "Yes \u2014 Shiso (Perilla) pairs well with Green Tea.",
+          category: "Synergies"
+      }
+  ],
     image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=800',
     pageTitle: 'Shiso (Perilla frutescens) Guide – Allergy Relief & Sushi Herb',
     metaDescription: 'Discover the medicinal values of shiso/perilla. Study perillaldehyde mechanisms, allergy relief, and Asian culinary uses.',
@@ -1956,6 +2860,48 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           url: 'https://pubmed.ncbi.nlm.nih.gov/29065496/'
         }
       ],
+    faqs: [
+      {
+          question: "What is Hibiscus and how does it work?",
+          answer: "Inhibits Angiotensin-Converting Enzyme (ACE) and acts as a natural mild diuretic to lower blood pressure.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Hibiscus?",
+          answer: "Hibiscus's scientific name is Hibiscus sabdariffa.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Hibiscus?",
+          answer: "2 - 3 cups of tea daily Steep 1 tablespoon of dried calyces in boiling water for 10-15 minutes. Consume warm or iced.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Hibiscus?",
+          answer: "The key active compounds in Hibiscus include Anthocyanins, Protocatechuic Acid, Hibiscus Acid.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Hibiscus?",
+          answer: "Low blood pressure (hypotension) Pregnancy (contains compounds that can stimulate menstruation)",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Hibiscus?",
+          answer: "Clinical trial of Hibiscus sabdariffa for hypertension (PMID: 29065496)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Hibiscus combine well with Lemon?",
+          answer: "Yes \u2014 Hibiscus pairs well with Lemon.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Hibiscus combine well with Ceylon Cinnamon?",
+          answer: "Yes \u2014 Hibiscus pairs well with Ceylon Cinnamon.",
+          category: "Synergies"
+      }
+  ],
     image: 'https://images.unsplash.com/photo-1610970881699-44a5587caa9a?q=80&w=800',
     pageTitle: 'Hibiscus (Roselle) Clinical Guide – Hypertension & Heart Health',
     metaDescription: 'Study how hibiscus calyces lower blood pressure. Explore clinical studies on ACE inhibition, dosage ranges, and safety limitations.',
@@ -2064,6 +3010,53 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           url: 'https://pubmed.ncbi.nlm.nih.gov/25842469/'
         }
       ],
+    faqs: [
+      {
+          question: "What is Valerian Root and how does it work?",
+          answer: "Inhibits the breakdown of GABA in brain synapses, inducing sedation and muscle relaxation.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Valerian Root?",
+          answer: "Valerian Root's scientific name is Valeriana officinalis.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Valerian Root?",
+          answer: "300 mg - 600 mg root extract daily Consume 30-60 minutes before bedtime. Take with water. Do not combine with alcohol.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Valerian Root?",
+          answer: "The key active compounds in Valerian Root include Valerenic Acid, Valepotriates, GABA precursors.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Valerian Root?",
+          answer: "Severe liver failure Prior to driving or operating machinery",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Valerian Root?",
+          answer: "Valerian root extract for sleep quality (PMID: 25842469)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Valerian Root combine well with Lemon Balm?",
+          answer: "Yes \u2014 Valerian Root pairs well with Lemon Balm.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Valerian Root combine well with Hops?",
+          answer: "Yes \u2014 Valerian Root pairs well with Hops.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Valerian Root combine well with Passionflower?",
+          answer: "Yes \u2014 Valerian Root pairs well with Passionflower.",
+          category: "Synergies"
+      }
+  ],
     image: 'https://images.unsplash.com/photo-1628559253457-3bf71239c0dc?q=80&w=800',
     pageTitle: 'Valerian Root (Valeriana) Guide – Sleep, GABA, and Side Effects',
     metaDescription: 'Explore valerenic acid\'s properties in valerian root. Find clinical sleep trials, dosage timelines, and safety interactions.',
@@ -2172,6 +3165,53 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           url: 'https://pubmed.ncbi.nlm.nih.gov/28191884/'
         }
       ],
+    faqs: [
+      {
+          question: "What is Dill and how does it work?",
+          answer: "Relaxes smooth muscles in the stomach, alleviating gas and supporting overall digestion.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Dill?",
+          answer: "Dill's scientific name is Anethum graveolens.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Dill?",
+          answer: "5g - 15g fresh daily Add fresh dill weed at the very end of cooking to maintain delicate aromatics.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Dill?",
+          answer: "The key active compounds in Dill include Carvone, Limonene, Flavonoids.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Dill?",
+          answer: "None major established under standard culinary dosing",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Dill?",
+          answer: "Gastroprotective effects of Anethum graveolens (PMID: 28191884)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Dill combine well with Lemon?",
+          answer: "Yes \u2014 Dill pairs well with Lemon.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Dill combine well with Garlic?",
+          answer: "Yes \u2014 Dill pairs well with Garlic.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Dill combine well with Cucumber?",
+          answer: "Yes \u2014 Dill pairs well with Cucumber.",
+          category: "Synergies"
+      }
+  ],
     image: 'https://images.unsplash.com/photo-1541832676-9b763b0239ab?q=80&w=800',
     pageTitle: 'Dill: Feathery Herb, Digestive Support, & Pickling Care',
     metaDescription: 'Learn how dill weed and dill seed optimize digestion. Explore growing guides, culinary uses, and scientific compounds.',
@@ -2282,6 +3322,48 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           url: 'https://pubmed.ncbi.nlm.nih.gov/29065496/'
         }
       ],
+    faqs: [
+      {
+          question: "What is Ginseng and how does it work?",
+          answer: "Regulates cellular ATP production and targets systemic oxidative stress to boost energy.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Ginseng?",
+          answer: "Ginseng's scientific name is Panax ginseng.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Ginseng?",
+          answer: "100 mg - 200 mg extract daily Consume in the morning to prevent night sleep disruption. Take cyclically (2 weeks on, 1 week off).",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Ginseng?",
+          answer: "The key active compounds in Ginseng include Ginsenosides, Panaxans, Polysaccharides.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Ginseng?",
+          answer: "Severe hypertension Concomitant use of monoamine omission inhibitors (MAOIs)",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Ginseng?",
+          answer: "Adaptogenic effects of Panax ginseng on fatigue (PMID: 29065496)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Ginseng combine well with Ginkgo Biloba?",
+          answer: "Yes \u2014 Ginseng pairs well with Ginkgo Biloba.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Ginseng combine well with Ginger?",
+          answer: "Yes \u2014 Ginseng pairs well with Ginger.",
+          category: "Synergies"
+      }
+  ],
     image: 'https://images.unsplash.com/photo-1628559253457-3bf71239c0dc?q=80&w=800',
     pageTitle: 'Ginseng (Panax): Clinical Adaptogen & Energy Pathways',
     metaDescription: 'Explore Panax ginseng\'s active ginsenosides. Read about energy metabolism, glucose management, dosage guidelines, and safety alerts.',
@@ -2388,6 +3470,48 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           url: 'https://pubmed.ncbi.nlm.nih.gov/25624701/'
         }
       ],
+    faqs: [
+      {
+          question: "What is Marjoram and how does it work?",
+          answer: "Stimulates saliva and gastric secretions to optimize enzyme-driven food breakdown.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Marjoram?",
+          answer: "Marjoram's scientific name is Origanum majorana.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Marjoram?",
+          answer: "2g - 4g dried herb daily in meals Add towards the middle or end of cooking to protect its delicate citrus-sweet flavor notes.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Marjoram?",
+          answer: "The key active compounds in Marjoram include Terpinene, Sabinene, Linalool.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Marjoram?",
+          answer: "None major established under standard culinary dosing",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Marjoram?",
+          answer: "Antioxidant and anti-inflammatory activity of Marjoram (PMID: 25624701)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Marjoram combine well with Thyme?",
+          answer: "Yes \u2014 Marjoram pairs well with Thyme.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Marjoram combine well with Oregano?",
+          answer: "Yes \u2014 Marjoram pairs well with Oregano.",
+          category: "Synergies"
+      }
+  ],
     image: 'https://images.unsplash.com/photo-1541832676-9b763b0239ab?q=80&w=800',
     pageTitle: 'Marjoram: Culinary Profiles, Digestion, & Herb Growing',
     metaDescription: 'Explore how sweet marjoram differs from oregano. Read health guidelines, optimal soil conditions, and digestive benefits.',
@@ -2497,6 +3621,48 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           url: 'https://pubmed.ncbi.nlm.nih.gov/28191884/'
         }
       ],
+    faqs: [
+      {
+          question: "What is Tarragon and how does it work?",
+          answer: "Stimulates appetite and digestive enzyme production.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Tarragon?",
+          answer: "Tarragon's scientific name is Artemisia dracunculus.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Tarragon?",
+          answer: "2g - 5g fresh leaves daily Incorporate fresh French tarragon into dressings, vinegar infusions, or chicken marinades.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Tarragon?",
+          answer: "The key active compounds in Tarragon include Estragole, Methyleugenol, Coumarins.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Tarragon?",
+          answer: "Active pregnancy (high-dose estragole can act as a uterine stimulant)",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Tarragon?",
+          answer: "Evaluation of Artemisia dracunculus active components (PMID: 28191884)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Tarragon combine well with Parsley?",
+          answer: "Yes \u2014 Tarragon pairs well with Parsley.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Tarragon combine well with Chives?",
+          answer: "Yes \u2014 Tarragon pairs well with Chives.",
+          category: "Synergies"
+      }
+  ],
     image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=800',
     pageTitle: 'Tarragon: French Culinary Artistry & Gastric Health',
     metaDescription: 'Study the anise flavor compounds in French tarragon. Find growing guidelines, substitutions, and digestive health benefits.',
@@ -2606,6 +3772,43 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           url: 'https://pubmed.ncbi.nlm.nih.gov/29065496/'
         }
       ],
+    faqs: [
+      {
+          question: "What is St. John's Wort and how does it work?",
+          answer: "Inhibits reuptake of serotonin, dopamine, and norepinephrine in brain synapses.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of St. John's Wort?",
+          answer: "St. John's Wort's scientific name is Hypericum perforatum.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of St. John's Wort?",
+          answer: "300 mg - 900 mg daily of standardized extract Consume capsules with meals. Note: This herb is notorious for interacting with liver enzymes (CYP3A4) and medication clearance.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in St. John's Wort?",
+          answer: "The key active compounds in St. John's Wort include Hypericin, Hyperforin, Flavonoids.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid St. John's Wort?",
+          answer: "Concomitant use of SSRIs, SNRIs, birth control pills, or blood thinners (induces CYP3A4 enzymes)",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of St. John's Wort?",
+          answer: "St. John's Wort for depression: systematic review (PMID: 29065496)",
+          category: "Evidence"
+      },
+      {
+          question: "Does St. John's Wort combine well with None recommended?",
+          answer: "Yes \u2014 St. John's Wort pairs well with None recommended (high risk of interactions).",
+          category: "Synergies"
+      }
+  ],
     image: 'https://images.unsplash.com/photo-1628559253457-3bf71239c0dc?q=80&w=800',
     pageTitle: 'St. John\'s Wort: Clinical Guide to Neuro-Pathway Efficacy & Drug Safety',
     metaDescription: 'Analyze St. John\'s Wort\'s mechanism as a reuptake inhibitor. Study crucial warnings on drug-herb interactions and dosage guides.',
@@ -2713,6 +3916,48 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           url: 'https://pubmed.ncbi.nlm.nih.gov/25842469/'
         }
       ],
+    faqs: [
+      {
+          question: "What is Ginkgo Biloba and how does it work?",
+          answer: "Enhances microcirculation by reducing blood viscosity and promoting nitric oxide production.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Ginkgo Biloba?",
+          answer: "Ginkgo Biloba's scientific name is Ginkgo biloba.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Ginkgo Biloba?",
+          answer: "120 mg - 240 mg daily in divided doses Use standardized extract (EGb 761) capsules. Consume with breakfast or lunch. Not dinner.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Ginkgo Biloba?",
+          answer: "The key active compounds in Ginkgo Biloba include Ginkgoflavonglycosides, Terpene Lactones, Bilobalide.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Ginkgo Biloba?",
+          answer: "Concomitant use of antiplatelet or anticoagulant medications (increases bleeding risk)",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Ginkgo Biloba?",
+          answer: "Ginkgo biloba for cognitive impairment: systematic review (PMID: 25842469)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Ginkgo Biloba combine well with Panax Ginseng?",
+          answer: "Yes \u2014 Ginkgo Biloba pairs well with Panax Ginseng.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Ginkgo Biloba combine well with Gotu Kola?",
+          answer: "Yes \u2014 Ginkgo Biloba pairs well with Gotu Kola.",
+          category: "Synergies"
+      }
+  ],
     image: 'https://images.unsplash.com/photo-1628559253457-3bf71239c0dc?q=80&w=800',
     pageTitle: 'Ginkgo Biloba Guide – Microcirculation & Cognitive Pathways',
     metaDescription: 'Study Ginkgo biloba\'s living fossil compounds. Learn about blood viscosity adjustments, dosage parameters, and bleeding risk warnings.',
@@ -2823,6 +4068,48 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           url: 'https://pubmed.ncbi.nlm.nih.gov/28191884/'
         }
       ],
+    faqs: [
+      {
+          question: "What is Curry Leaves and how does it work?",
+          answer: "Reduces lipid peroxidation, protects pancreatic beta cells, and supports hair follicle pigmentation.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Curry Leaves?",
+          answer: "Curry Leaves's scientific name is Murraya koenigii.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Curry Leaves?",
+          answer: "10 - 15 raw leaves daily Consume fresh in cooked dishes (tempering), or chew raw leaves in the morning to support hair health.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Curry Leaves?",
+          answer: "The key active compounds in Curry Leaves include Mahanimbine, Carbazole Alkaloids, Beta-Carotene.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Curry Leaves?",
+          answer: "None major established under standard culinary dosing",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Curry Leaves?",
+          answer: "Antidiabetic potential of Murraya koenigii leaves (PMID: 28191884)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Curry Leaves combine well with Buttermilk?",
+          answer: "Yes \u2014 Curry Leaves pairs well with Buttermilk.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Curry Leaves combine well with Fenugreek seeds?",
+          answer: "Yes \u2014 Curry Leaves pairs well with Fenugreek seeds.",
+          category: "Synergies"
+      }
+  ],
     image: 'https://images.unsplash.com/photo-1541832676-9b763b0239ab?q=80&w=800',
     pageTitle: 'Curry Leaves: South Asian Culinary Essential & Hair Restoration',
     metaDescription: 'Explore the therapeutic power of curry leaves. Learn about blood sugar modulation, mahanimbine extracts, and hair health benefits.',
@@ -2905,6 +4192,48 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           url: 'https://pubmed.ncbi.nlm.nih.gov/29065496/'
         }
       ],
+    faqs: [
+      {
+          question: "What is Cumin (Jeera) and how does it work?",
+          answer: "Upregulates secretion of pancreatic digestive enzymes (amylase, lipase, protease) and acts as an iron bio-enhancer.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Cumin (Jeera)?",
+          answer: "Cumin (Jeera)'s scientific name is Cuminum cyminum.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Cumin (Jeera)?",
+          answer: "1 - 2 teaspoons seeds daily Boil seeds in water to make Jeera water, or splutter whole seeds in hot oil at the beginning of cooking.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Cumin (Jeera)?",
+          answer: "The key active compounds in Cumin (Jeera) include Cuminaldehyde, Cymene, Terpenoids.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Cumin (Jeera)?",
+          answer: "None major established at standard dietary intakes",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Cumin (Jeera)?",
+          answer: "Cumin seeds clinical effect on digestive enzymes (PMID: 29065496)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Cumin (Jeera) combine well with Coriander seeds?",
+          answer: "Yes \u2014 Cumin (Jeera) pairs well with Coriander seeds.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Cumin (Jeera) combine well with Black Pepper?",
+          answer: "Yes \u2014 Cumin (Jeera) pairs well with Black Pepper.",
+          category: "Synergies"
+      }
+  ],
     image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=800',
     pageTitle: 'Cumin (Jeera) Clinical Guide – Enzyme Activation & Weight Loss',
     metaDescription: 'Discover how cumin seeds activate pancreatic enzymes. Learn about jeera water benefits, iron content, and traditional ayurvedic use.',
@@ -2986,6 +4315,48 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           url: 'https://pubmed.ncbi.nlm.nih.gov/25842469/'
         }
       ],
+    faqs: [
+      {
+          question: "What is Cardamom (Elaichi) and how does it work?",
+          answer: "Relaxes gastric sphincter muscles and displays powerful anti-microbial action against mouth pathogens.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Cardamom (Elaichi)?",
+          answer: "Cardamom (Elaichi)'s scientific name is Elettaria cardamomum.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Cardamom (Elaichi)?",
+          answer: "2 - 3 crushed pods daily Incorporate whole crushed pods into boiling tea or dessert milk, or chew raw seeds for oral hygiene.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Cardamom (Elaichi)?",
+          answer: "The key active compounds in Cardamom (Elaichi) include Terpinyl Acetate, Cineole, Limonene.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Cardamom (Elaichi)?",
+          answer: "None major noted in dietary amounts",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Cardamom (Elaichi)?",
+          answer: "Gastroprotective effect of cardamom seed oil (PMID: 25842469)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Cardamom (Elaichi) combine well with Fennel?",
+          answer: "Yes \u2014 Cardamom (Elaichi) pairs well with Fennel.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Cardamom (Elaichi) combine well with Ginger?",
+          answer: "Yes \u2014 Cardamom (Elaichi) pairs well with Ginger.",
+          category: "Synergies"
+      }
+  ],
     image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=800',
     pageTitle: 'Cardamom (Elaichi) Clinical Guide – Oral Hygiene & Digestion',
     metaDescription: 'Explore green and black cardamom. Learn about oral microbiome balancing, digestive benefits, and chai tea synergies.',
@@ -3063,6 +4434,48 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           url: 'https://pubmed.ncbi.nlm.nih.gov/29065496/'
         }
       ],
+    faqs: [
+      {
+          question: "What is Clove (Laung) and how does it work?",
+          answer: "Blocks sodium channels in sensory nerves to provide localized anesthetic pain relief.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Clove (Laung)?",
+          answer: "Clove (Laung)'s scientific name is Syzygium aromaticum.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Clove (Laung)?",
+          answer: "1 - 2 whole buds daily or topical oil Simmer in boiling water for tea, or place a whole clove bud directly against a sore gum for pain relief.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Clove (Laung)?",
+          answer: "The key active compounds in Clove (Laung) include Eugenol, Acetyl Eugenol, Beta-Caryophyllene.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Clove (Laung)?",
+          answer: "Pre-surgery (due to anti-clotting effects of eugenol) Do not apply undiluted oil directly to mucosal surfaces without dilution",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Clove (Laung)?",
+          answer: "Analgesic and anesthetic effects of clove eugenol (PMID: 29065496)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Clove (Laung) combine well with Ceylon Cinnamon?",
+          answer: "Yes \u2014 Clove (Laung) pairs well with Ceylon Cinnamon.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Clove (Laung) combine well with Cardamom?",
+          answer: "Yes \u2014 Clove (Laung) pairs well with Cardamom.",
+          category: "Synergies"
+      }
+  ],
     image: 'https://images.unsplash.com/photo-1596040033229-a9821ebd058d?q=80&w=800',
     pageTitle: 'Clove (Laung) Clinical Guide – Eugenol Dental Anesthetic',
     metaDescription: 'Discover how cloves provide fast dental pain relief. Study eugenol concentration, anti-inflammatory mechanisms, and dosage safety.',
@@ -3140,6 +4553,48 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           url: 'https://pubmed.ncbi.nlm.nih.gov/9619120/'
         }
       ],
+    faqs: [
+      {
+          question: "What is Black Pepper (Kali Mirch) and how does it work?",
+          answer: "Inhibits hepatic glucuronidation (blocking liver clearance pathways) to amplify the bioavailability of co-ingested nutrients.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Black Pepper (Kali Mirch)?",
+          answer: "Black Pepper (Kali Mirch)'s scientific name is Piper nigrum.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Black Pepper (Kali Mirch)?",
+          answer: "500 mg - 1,500 mg ground seeds daily Always grind whole black peppercorns fresh. Consume alongside turmeric and dietary lipids for synergy.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Black Pepper (Kali Mirch)?",
+          answer: "The key active compounds in Black Pepper (Kali Mirch) include Piperine, Chavicine, Caryophyllene.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Black Pepper (Kali Mirch)?",
+          answer: "Severe active acid reflux Gastric ulcers",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Black Pepper (Kali Mirch)?",
+          answer: "Bioavailability enhancement of curcumin by piperine (PMID: 9619120)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Black Pepper (Kali Mirch) combine well with Turmeric?",
+          answer: "Yes \u2014 Black Pepper (Kali Mirch) pairs well with Turmeric (Curcumin).",
+          category: "Synergies"
+      },
+      {
+          question: "Does Black Pepper (Kali Mirch) combine well with Ginger?",
+          answer: "Yes \u2014 Black Pepper (Kali Mirch) pairs well with Ginger.",
+          category: "Synergies"
+      }
+  ],
     image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=800',
     pageTitle: 'Black Pepper (Kali Mirch) Clinical Guide – Bioavailability & Piperine',
     metaDescription: 'Study how black pepper increases nutrient absorption by up to 2000%. Explore clinical pairings with turmeric, dosage guides, and HPA effects.',
@@ -3215,6 +4670,48 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           url: 'https://pubmed.ncbi.nlm.nih.gov/25624701/'
         }
       ],
+    faqs: [
+      {
+          question: "What is Asafoetida (Hing) and how does it work?",
+          answer: "Reduces gas-producing colonic bacteria and acts as a powerful anti-flatulent.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Asafoetida (Hing)?",
+          answer: "Asafoetida (Hing)'s scientific name is Ferula assa-foetida.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Asafoetida (Hing)?",
+          answer: "50 mg - 250 mg resin daily Always saut\u00E9 in hot fat (oil or ghee) before adding other ingredients to soften its intense sulfur compounds.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Asafoetida (Hing)?",
+          answer: "The key active compounds in Asafoetida (Hing) include Ferulic Acid, Sulfur compounds, Umbelliferone.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Asafoetida (Hing)?",
+          answer: "None major established at standard culinary dosing",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Asafoetida (Hing)?",
+          answer: "Digestive benefits and pharmacology of Ferula assa-foetida (PMID: 25624701)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Asafoetida (Hing) combine well with Cumin seeds?",
+          answer: "Yes \u2014 Asafoetida (Hing) pairs well with Cumin seeds.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Asafoetida (Hing) combine well with Ginger?",
+          answer: "Yes \u2014 Asafoetida (Hing) pairs well with Ginger.",
+          category: "Synergies"
+      }
+  ],
     image: 'https://images.unsplash.com/photo-1541832676-9b763b0239ab?q=80&w=800',
     pageTitle: 'Asafoetida (Hing) Clinical Guide – Anti-Flatulence & Digestion',
     metaDescription: 'Discover how asafoetida resin prevents flatulence. Learn about sulfur compounds, how to bloom hing in ghee, and culinary substitutes.',
@@ -3296,6 +4793,48 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           url: 'https://pubmed.ncbi.nlm.nih.gov/25842469/'
         }
       ],
+    faqs: [
+      {
+          question: "What is Saffron (Kesar) and how does it work?",
+          answer: "Protects neural cells from oxidative damage and supports healthy neurotransmitter balances.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Saffron (Kesar)?",
+          answer: "Saffron (Kesar)'s scientific name is Crocus sativus.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Saffron (Kesar)?",
+          answer: "15 mg - 30 mg daily (threads) Steep saffron threads in warm milk or water for 20 minutes before adding to dishes to extract water-soluble crocin.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Saffron (Kesar)?",
+          answer: "The key active compounds in Saffron (Kesar) include Crocin, Crocetin, Safranal.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Saffron (Kesar)?",
+          answer: "Extremely high doses (>5g) can cause uterine contraction and toxicity; avoid massive quantities in pregnancy",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Saffron (Kesar)?",
+          answer: "Clinical efficacy of Crocus sativus for depression and anxiety (PMID: 25842469)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Saffron (Kesar) combine well with Almond Milk?",
+          answer: "Yes \u2014 Saffron (Kesar) pairs well with Almond Milk.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Saffron (Kesar) combine well with Cardamom?",
+          answer: "Yes \u2014 Saffron (Kesar) pairs well with Cardamom.",
+          category: "Synergies"
+      }
+  ],
     image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=800',
     pageTitle: 'Saffron (Kesar) Clinical Guide – Neuroprotection & Antioxidants',
     metaDescription: 'Explore saffron\'s active compounds: crocin and safranal. Read about mood elevation trials, dosage structures, and traditional kulfi use.',
@@ -3373,6 +4912,48 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           url: 'https://pubmed.ncbi.nlm.nih.gov/28191884/'
         }
       ],
+    faqs: [
+      {
+          question: "What is Carom Seeds (Ajwain) and how does it work?",
+          answer: "Exhibits highly effective antispasmodic action on the gut wall, immediately relieving colic cramping.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Carom Seeds (Ajwain)?",
+          answer: "Carom Seeds (Ajwain)'s scientific name is Trachyspermum ammi.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Carom Seeds (Ajwain)?",
+          answer: "1/2 - 1 teaspoon seeds daily Boil in water for Ajwain water, or dry roast seeds before chewing for quick stomach ache relief.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Carom Seeds (Ajwain)?",
+          answer: "The key active compounds in Carom Seeds (Ajwain) include Thymol, Gamma-Terpinene, Beta-Pinene.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Carom Seeds (Ajwain)?",
+          answer: "Avoid high doses in active liver disease",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Carom Seeds (Ajwain)?",
+          answer: "Antispasmodic and digestive properties of Trachyspermum ammi (PMID: 28191884)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Carom Seeds (Ajwain) combine well with Fennel seeds?",
+          answer: "Yes \u2014 Carom Seeds (Ajwain) pairs well with Fennel seeds.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Carom Seeds (Ajwain) combine well with Ginger?",
+          answer: "Yes \u2014 Carom Seeds (Ajwain) pairs well with Ginger.",
+          category: "Synergies"
+      }
+  ],
     image: 'https://images.unsplash.com/photo-1541832676-9b763b0239ab?q=80&w=800',
     pageTitle: 'Carom Seeds (Ajwain) Clinical Guide – Colic & Gut Antispasmodic',
     metaDescription: 'Discover how Ajwain seeds relieve stomach aches. Read about thymol compounds, ajwain water preparations, and flatulence solutions.',
@@ -3454,6 +5035,48 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           url: 'https://pubmed.ncbi.nlm.nih.gov/29065496/'
         }
       ],
+    faqs: [
+      {
+          question: "What is Mustard Seeds (Sarson) and how does it work?",
+          answer: "Activates local thermoreceptors to promote blood circulation and acts as a respiratory expectorant.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Mustard Seeds (Sarson)?",
+          answer: "Mustard Seeds (Sarson)'s scientific name is Brassica juncea.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Mustard Seeds (Sarson)?",
+          answer: "1 - 2 teaspoons seeds daily Always splutter whole black/brown mustard seeds in hot oil at the start of tempering to deactivate raw bitter compounds.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Mustard Seeds (Sarson)?",
+          answer: "The key active compounds in Mustard Seeds (Sarson) include Glucosinolates (Sinigrin), Myrosinase, Allyl Isothiocyanate.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Mustard Seeds (Sarson)?",
+          answer: "None major established at standard culinary levels",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Mustard Seeds (Sarson)?",
+          answer: "Isothiocyanates from mustard seeds and health (PMID: 29065496)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Mustard Seeds (Sarson) combine well with Curry leaves?",
+          answer: "Yes \u2014 Mustard Seeds (Sarson) pairs well with Curry leaves.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Mustard Seeds (Sarson) combine well with Asafoetida?",
+          answer: "Yes \u2014 Mustard Seeds (Sarson) pairs well with Asafoetida.",
+          category: "Synergies"
+      }
+  ],
     image: 'https://images.unsplash.com/photo-1596040033229-a9821ebd058d?q=80&w=800',
     pageTitle: 'Mustard Seeds (Sarson) Clinical Guide – Circulatory Thermics',
     metaDescription: 'Learn how spluttering mustard seeds activates aromatic compounds. Study glucosinolates, culinary Tadka, and lung benefits.',
@@ -3535,6 +5158,48 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           url: 'https://pubmed.ncbi.nlm.nih.gov/25842469/'
         }
       ],
+    faqs: [
+      {
+          question: "What is Star Anise (Chakra Phool) and how does it work?",
+          answer: "Suppresses viral replication pathways (via shikimic acid, a primary precursor for Tamiflu) and relaxes gut muscle linings.",
+          category: "Mechanism"
+      },
+      {
+          question: "What is the scientific name of Star Anise (Chakra Phool)?",
+          answer: "Star Anise (Chakra Phool)'s scientific name is Illicium verum.",
+          category: "Identification"
+      },
+      {
+          question: "What is the recommended dosage of Star Anise (Chakra Phool)?",
+          answer: "1 - 2 pods simmered in tea/broth Simmer whole star anise pods in liquids to extract water-soluble shikimic acid. Do not consume raw.",
+          category: "Dosage"
+      },
+      {
+          question: "What are the active compounds in Star Anise (Chakra Phool)?",
+          answer: "The key active compounds in Star Anise (Chakra Phool) include Anethole, Shikimic Acid, Linalool.",
+          category: "Active Compounds"
+      },
+      {
+          question: "Who should avoid Star Anise (Chakra Phool)?",
+          answer: "Ensure absolute species purity (avoid toxic Japanese Star Anise contamination)",
+          category: "Contraindications"
+      },
+      {
+          question: "What clinical research supports the use of Star Anise (Chakra Phool)?",
+          answer: "Shikimic acid extraction and antiviral potential of Star Anise (PMID: 25842469)",
+          category: "Evidence"
+      },
+      {
+          question: "Does Star Anise (Chakra Phool) combine well with Ceylon Cinnamon?",
+          answer: "Yes \u2014 Star Anise (Chakra Phool) pairs well with Ceylon Cinnamon.",
+          category: "Synergies"
+      },
+      {
+          question: "Does Star Anise (Chakra Phool) combine well with Ginger?",
+          answer: "Yes \u2014 Star Anise (Chakra Phool) pairs well with Ginger.",
+          category: "Synergies"
+      }
+  ],
     image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=800',
     pageTitle: 'Star Anise (Chakra Phool) Clinical Guide – Shikimic Acid Antivirals',
     metaDescription: 'Explore star anise\'s shikimic acid content. Learn how it targets respiratory viral replication, dosage guidelines, and garam masala integrations.',
@@ -3594,9 +5259,57 @@ export const MEDICAL_CONDITIONS_DATA: MedicalConditionEntity[] = [
     prohibitedFoods: ['High-Fructose Corn Syrup (HFCS)', 'Processed Seed Oils (Canola, Soybean)', 'Alcohol', 'Refined Wheat Flour'],
     circadianAdvice: 'Consume 70% of daily calories by 2:00 PM. Maintain a strict 14-hour overnight fast starting at 6:00 PM to initiate hepatic autophagy and fat clearance.',
     faqs: [
-      { question: "Can fatty liver be reversed with diet alone?", answer: "Yes. MASLD is primarily a dietary disease. Eliminating processed fructose and setting clear eating windows allows the liver to exhaust and burn stored hepatic fat.", category: "Reversal" },
-      { question: "Why is late-night eating bad for the liver?", answer: "The liver's metabolic capacity drops at night. Foods consumed late are prioritized for storage as liver fat (lipogenesis) rather than energy conversion.", category: "Circadian" }
-    ],
+      {
+          question: "Can fatty liver be reversed with diet alone?",
+          answer: "Yes. MASLD is primarily a dietary disease. Eliminating processed fructose and setting clear eating windows allows the liver to exhaust and burn stored hepatic fat.",
+          category: "Reversal"
+      },
+      {
+          question: "Why is late-night eating bad for the liver?",
+          answer: "The liver's metabolic capacity drops at night. Foods consumed late are prioritized for storage as liver fat (lipogenesis) rather than energy conversion.",
+          category: "Circadian"
+      },
+      {
+          question: "What causes MASLD (Fatty Liver)?",
+          answer: "Hepatic de novo lipogenesis driven by excessive fructose intake, industrial seed oils, and circadian eating rhythm misalignment.",
+          category: "Root Cause"
+      },
+      {
+          question: "What meal-timing or circadian approach helps manage MASLD (Fatty Liver)?",
+          answer: "Consume 70% of daily calories by 2:00 PM. Maintain a strict 14-hour overnight fast starting at 6:00 PM to initiate hepatic autophagy and fat clearance.",
+          category: "Circadian"
+      },
+      {
+          question: "What clinical research supports this MASLD (Fatty Liver) protocol?",
+          answer: "Dietary Management of Metabolic Dysfunction-Associated Steatotic Liver Disease (PMID: 34567890)",
+          category: "Evidence"
+      },
+      {
+          question: "Why is ALT tracked for MASLD (Fatty Liver)?",
+          answer: "ALT (Alanine Aminotransferase) is one of the key biomarkers used to monitor MASLD (Fatty Liver) and track whether the current protocol is working.",
+          category: "Biomarkers"
+      },
+      {
+          question: "Does Turmeric help with MASLD (Fatty Liver)?",
+          answer: "Turmeric (Curcumin) is one of the therapeutic spices used as part of the MASLD (Fatty Liver) protocol.",
+          category: "Therapeutic Spices"
+      },
+      {
+          question: "Why should I avoid High-Fructose Corn Syrup with MASLD (Fatty Liver)?",
+          answer: "High-Fructose Corn Syrup (HFCS) is one of the foods to avoid or limit while managing MASLD (Fatty Liver).",
+          category: "Foods to Avoid"
+      },
+      {
+          question: "Why is AST tracked for MASLD (Fatty Liver)?",
+          answer: "AST (Aspartate Aminotransferase) is one of the key biomarkers used to monitor MASLD (Fatty Liver) and track whether the current protocol is working.",
+          category: "Biomarkers"
+      },
+      {
+          question: "Does Ginger help with MASLD (Fatty Liver)?",
+          answer: "Ginger is one of the therapeutic spices used as part of the MASLD (Fatty Liver) protocol.",
+          category: "Therapeutic Spices"
+      }
+  ],
     citations: [
       { text: "Dietary Management of Metabolic Dysfunction-Associated Steatotic Liver Disease (PMID: 34567890)", url: "https://pubmed.ncbi.nlm.nih.gov/34567890/" }
     ],
@@ -3623,9 +5336,57 @@ export const MEDICAL_CONDITIONS_DATA: MedicalConditionEntity[] = [
     prohibitedFoods: ['Refined White Sugar', 'Refined Seed Oils', 'Late-night snacks', 'Ultra-processed packaged foods'],
     circadianAdvice: 'Maintain a 10-hour daytime eating window (8:00 AM to 6:00 PM). Eat complex fiber and quality protein first during meals to establish a digestive gel that flattens post-meal glucose spikes.',
     faqs: [
-      { question: "What is the main root cause of insulin resistance?", answer: "Ectopic fat buildup inside liver and muscle cells, which blocks the chemical pathway insulin uses to move glucose from the blood into cells.", category: "Root Cause" },
-      { question: "How does meal sequencing reduce glucose spikes?", answer: "Eating vegetables (fiber) and protein first slows down stomach emptying and glucose absorption, requiring less insulin release.", category: "Sequencing" }
-    ],
+      {
+          question: "What is the main root cause of insulin resistance?",
+          answer: "Ectopic fat buildup inside liver and muscle cells, which blocks the chemical pathway insulin uses to move glucose from the blood into cells.",
+          category: "Root Cause"
+      },
+      {
+          question: "How does meal sequencing reduce glucose spikes?",
+          answer: "Eating vegetables (fiber) and protein first slows down stomach emptying and glucose absorption, requiring less insulin release.",
+          category: "Sequencing"
+      },
+      {
+          question: "What causes Insulin Resistance?",
+          answer: "Ectopic intracellular lipid accumulation (diacylglycerols) that physically interferes with the insulin receptor substrate (IRS-1) signaling pathway.",
+          category: "Root Cause"
+      },
+      {
+          question: "What meal-timing or circadian approach helps manage Insulin Resistance?",
+          answer: "Maintain a 10-hour daytime eating window (8:00 AM to 6:00 PM). Eat complex fiber and quality protein first during meals to establish a digestive gel that flattens post-meal glucose spikes.",
+          category: "Circadian"
+      },
+      {
+          question: "What clinical research supports this Insulin Resistance protocol?",
+          answer: "Circadian clocks and insulin resistance (PMID: 30765876)",
+          category: "Evidence"
+      },
+      {
+          question: "Why is HOMA-IR tracked for Insulin Resistance?",
+          answer: "HOMA-IR (Homeostasis Model Assessment) is one of the key biomarkers used to monitor Insulin Resistance and track whether the current protocol is working.",
+          category: "Biomarkers"
+      },
+      {
+          question: "Does Ceylon Cinnamon help with Insulin Resistance?",
+          answer: "Ceylon Cinnamon is one of the therapeutic spices used as part of the Insulin Resistance protocol.",
+          category: "Therapeutic Spices"
+      },
+      {
+          question: "Why should I avoid Refined White Sugar with Insulin Resistance?",
+          answer: "Refined White Sugar is one of the foods to avoid or limit while managing Insulin Resistance.",
+          category: "Foods to Avoid"
+      },
+      {
+          question: "Why is Fasting Serum Insulin tracked for Insulin Resistance?",
+          answer: "Fasting Serum Insulin is one of the key biomarkers used to monitor Insulin Resistance and track whether the current protocol is working.",
+          category: "Biomarkers"
+      },
+      {
+          question: "Does Turmeric help with Insulin Resistance?",
+          answer: "Turmeric is one of the therapeutic spices used as part of the Insulin Resistance protocol.",
+          category: "Therapeutic Spices"
+      }
+  ],
     citations: [
       { text: "Circadian clocks and insulin resistance (PMID: 30765876)", url: "https://pubmed.ncbi.nlm.nih.gov/30765876/" }
     ],
@@ -3652,9 +5413,57 @@ export const MEDICAL_CONDITIONS_DATA: MedicalConditionEntity[] = [
     prohibitedFoods: ['Caffeine after 12:00 PM', 'Late-night high-glycemic carbohydrates', 'Processed energy drinks', 'Alcohol'],
     circadianAdvice: 'Expose eyes to natural sunlight within 30 minutes of waking to reset the SCN. Restrict all caloric intake to a consistent 10-hour daytime window (e.g., 8:00 AM to 6:00 PM) to align peripheral metabolic clocks.',
     faqs: [
-      { question: "How does circadian meal timing affect fat loss?", answer: "Eating in alignment with the sun cycle optimizes insulin sensitivity during the day and increases lipid oxidation (fat burning) during the overnight fasting window.", category: "Metabolism" },
-      { question: "Can light exposure change digestive speed?", answer: "Yes, blue light exposure at night suppresses melatonin and disrupts vagal nerve stimulation, leading to delayed stomach emptying and morning bloating.", category: "Digestion" }
-    ],
+      {
+          question: "How does circadian meal timing affect fat loss?",
+          answer: "Eating in alignment with the sun cycle optimizes insulin sensitivity during the day and increases lipid oxidation (fat burning) during the overnight fasting window.",
+          category: "Metabolism"
+      },
+      {
+          question: "Can light exposure change digestive speed?",
+          answer: "Yes, blue light exposure at night suppresses melatonin and disrupts vagal nerve stimulation, leading to delayed stomach emptying and morning bloating.",
+          category: "Digestion"
+      },
+      {
+          question: "What causes Circadian Rhythm Dysregulation?",
+          answer: "Chronic misalignment between the master suprachiasmatic nucleus (SCN) clock and peripheral tissue clocks, driven by late-night feeding, artificial blue light exposure, and erratic sleep schedules.",
+          category: "Root Cause"
+      },
+      {
+          question: "What meal-timing or circadian approach helps manage Circadian Rhythm Dysregulation?",
+          answer: "Expose eyes to natural sunlight within 30 minutes of waking to reset the SCN. Restrict all caloric intake to a consistent 10-hour daytime window (e.g., 8:00 AM to 6:00 PM) to align peripheral metabolic clocks.",
+          category: "Circadian"
+      },
+      {
+          question: "What clinical research supports this Circadian Rhythm Dysregulation protocol?",
+          answer: "Circadian Clocks and Metabolic Homeostasis (PMID: 30206124) Ten-Hour Time-Restricted Eating Reduces Weight, Blood Pressure, and Atherogenic Lipids in Patients with Metabolic Syndrome (PMID: 31812495)",
+          category: "Evidence"
+      },
+      {
+          question: "Why is Salivary Cortisol Awakening Response tracked for Circadian Rhythm Dysregulation?",
+          answer: "Salivary Cortisol Awakening Response (CAR) is one of the key biomarkers used to monitor Circadian Rhythm Dysregulation and track whether the current protocol is working.",
+          category: "Biomarkers"
+      },
+      {
+          question: "Does Ashwagandha help with Circadian Rhythm Dysregulation?",
+          answer: "Ashwagandha is one of the therapeutic spices used as part of the Circadian Rhythm Dysregulation protocol.",
+          category: "Therapeutic Spices"
+      },
+      {
+          question: "Why should I avoid Caffeine after 12:00 PM with Circadian Rhythm Dysregulation?",
+          answer: "Caffeine after 12:00 PM is one of the foods to avoid or limit while managing Circadian Rhythm Dysregulation.",
+          category: "Foods to Avoid"
+      },
+      {
+          question: "Why is Melatonin-Sulfate tracked for Circadian Rhythm Dysregulation?",
+          answer: "Melatonin-Sulfate (Urine) is one of the key biomarkers used to monitor Circadian Rhythm Dysregulation and track whether the current protocol is working.",
+          category: "Biomarkers"
+      },
+      {
+          question: "Does Garlic help with Circadian Rhythm Dysregulation?",
+          answer: "Garlic is one of the therapeutic spices used as part of the Circadian Rhythm Dysregulation protocol.",
+          category: "Therapeutic Spices"
+      }
+  ],
     citations: [
       { text: "Circadian Clocks and Metabolic Homeostasis (PMID: 30206124)", url: "https://pubmed.ncbi.nlm.nih.gov/30206124/" },
       { text: "Ten-Hour Time-Restricted Eating Reduces Weight, Blood Pressure, and Atherogenic Lipids in Patients with Metabolic Syndrome (PMID: 31812495)", url: "https://pubmed.ncbi.nlm.nih.gov/31812495/" }
@@ -3682,9 +5491,57 @@ export const MEDICAL_CONDITIONS_DATA: MedicalConditionEntity[] = [
     prohibitedFoods: ['Refined Sugars & Sweeteners', 'Fruit Juices (fiber-depleted)', 'White Rice & Refined Flour', 'Trans-Fats & Seed Oils'],
     circadianAdvice: 'Consume the largest meal of the day (highest carbohydrate load) for lunch when insulin sensitivity peaks. Keep dinner light and finish by 6:30 PM to prevent nocturnal blood sugar spikes.',
     faqs: [
-      { question: "Is Type 2 Diabetes truly reversible?", answer: "Yes, through targeted clinical nutrition that reduces visceral fat surrounding the pancreas and liver, beta-cells can recover and restore natural insulin production.", category: "Reversal" },
-      { question: "Why are whole fruits allowed but not juices?", answer: "Whole fruits contain structural fiber that slows fructose absorption, whereas juices cause rapid glucose absorption and liver fat accumulation.", category: "Nutrition" }
-    ],
+      {
+          question: "Is Type 2 Diabetes truly reversible?",
+          answer: "Yes, through targeted clinical nutrition that reduces visceral fat surrounding the pancreas and liver, beta-cells can recover and restore natural insulin production.",
+          category: "Reversal"
+      },
+      {
+          question: "Why are whole fruits allowed but not juices?",
+          answer: "Whole fruits contain structural fiber that slows fructose absorption, whereas juices cause rapid glucose absorption and liver fat accumulation.",
+          category: "Nutrition"
+      },
+      {
+          question: "What causes Type 2 Diabetes Reversal?",
+          answer: "Progressive pancreatic beta-cell dysfunction and severe peripheral insulin resistance secondary to chronic visceral fat accumulation and hepatic lipid overload.",
+          category: "Root Cause"
+      },
+      {
+          question: "What meal-timing or circadian approach helps manage Type 2 Diabetes Reversal?",
+          answer: "Consume the largest meal of the day (highest carbohydrate load) for lunch when insulin sensitivity peaks. Keep dinner light and finish by 6:30 PM to prevent nocturnal blood sugar spikes.",
+          category: "Circadian"
+      },
+      {
+          question: "What clinical research supports this Type 2 Diabetes Reversal protocol?",
+          answer: "Behavioral and Dietary Reversal of Type 2 Diabetes (PMID: 29289258) Clinical Guidelines for Glycemic Remission (PMID: 34185074)",
+          category: "Evidence"
+      },
+      {
+          question: "Why is HbA1c tracked for Type 2 Diabetes Reversal?",
+          answer: "HbA1c (%) is one of the key biomarkers used to monitor Type 2 Diabetes Reversal and track whether the current protocol is working.",
+          category: "Biomarkers"
+      },
+      {
+          question: "Does Ceylon Cinnamon help with Type 2 Diabetes Reversal?",
+          answer: "Ceylon Cinnamon is one of the therapeutic spices used as part of the Type 2 Diabetes Reversal protocol.",
+          category: "Therapeutic Spices"
+      },
+      {
+          question: "Why should I avoid Refined Sugars & Sweeteners with Type 2 Diabetes Reversal?",
+          answer: "Refined Sugars & Sweeteners is one of the foods to avoid or limit while managing Type 2 Diabetes Reversal.",
+          category: "Foods to Avoid"
+      },
+      {
+          question: "Why is Fasting Plasma Glucose tracked for Type 2 Diabetes Reversal?",
+          answer: "Fasting Plasma Glucose (FPG) is one of the key biomarkers used to monitor Type 2 Diabetes Reversal and track whether the current protocol is working.",
+          category: "Biomarkers"
+      },
+      {
+          question: "Does Fenugreek Seeds help with Type 2 Diabetes Reversal?",
+          answer: "Fenugreek Seeds is one of the therapeutic spices used as part of the Type 2 Diabetes Reversal protocol.",
+          category: "Therapeutic Spices"
+      }
+  ],
     citations: [
       { text: "Behavioral and Dietary Reversal of Type 2 Diabetes (PMID: 29289258)", url: "https://pubmed.ncbi.nlm.nih.gov/29289258/" },
       { text: "Clinical Guidelines for Glycemic Remission (PMID: 34185074)", url: "https://pubmed.ncbi.nlm.nih.gov/34185074/" }
@@ -3712,9 +5569,57 @@ export const MEDICAL_CONDITIONS_DATA: MedicalConditionEntity[] = [
     prohibitedFoods: ['Commercial A1 Dairy (contains growth factors)', 'Refined Sugar', 'Soy Isolates', 'Ultra-processed seed oils'],
     circadianAdvice: 'Implement a protein-rich breakfast within 1 hour of waking to stabilize cortisol and prevent mid-day insulin spikes. Avoid skipping breakfast as it worsens luteinizing hormone (LH) dysregulation.',
     faqs: [
-      { question: "How does insulin resistance trigger PCOS hair loss and acne?", answer: "High insulin reduces SHBG levels, leaving more free testosterone to interact with hair follicles and sebaceous glands, triggering acne and hair thinning.", category: "Symptoms" },
-      { question: "Why is spearmint tea recommended for PCOS?", answer: "Spearmint tea has documented clinical anti-androgenic properties, helping reduce hirsutism and restore natural ovulation cycles.", category: "Herbal Care" }
-    ],
+      {
+          question: "How does insulin resistance trigger PCOS hair loss and acne?",
+          answer: "High insulin reduces SHBG levels, leaving more free testosterone to interact with hair follicles and sebaceous glands, triggering acne and hair thinning.",
+          category: "Symptoms"
+      },
+      {
+          question: "Why is spearmint tea recommended for PCOS?",
+          answer: "Spearmint tea has documented clinical anti-androgenic properties, helping reduce hirsutism and restore natural ovulation cycles.",
+          category: "Herbal Care"
+      },
+      {
+          question: "What causes PCOD / PCOS (Metabolic & Hormonal Reversal)?",
+          answer: "Hyperinsulinemia driving ovarian theca cells to overproduce androgens (testosterone), resulting in follicular arrest, anovulation, and metabolic cyst formation.",
+          category: "Root Cause"
+      },
+      {
+          question: "What meal-timing or circadian approach helps manage PCOD / PCOS (Metabolic & Hormonal Reversal)?",
+          answer: "Implement a protein-rich breakfast within 1 hour of waking to stabilize cortisol and prevent mid-day insulin spikes. Avoid skipping breakfast as it worsens luteinizing hormone (LH) dysregulation.",
+          category: "Circadian"
+      },
+      {
+          question: "What clinical research supports this PCOD / PCOS (Metabolic & Hormonal Reversal) protocol?",
+          answer: "Effects of different insulin sensitisers in the management of PCOS (PMID: 37933831) Dietary Modifications in Polycystic Ovary Syndrome (PMID: 33024519)",
+          category: "Evidence"
+      },
+      {
+          question: "Why is LH to FSH Ratio tracked for PCOD / PCOS (Metabolic & Hormonal Reversal)?",
+          answer: "LH to FSH Ratio is one of the key biomarkers used to monitor PCOD / PCOS (Metabolic & Hormonal Reversal) and track whether the current protocol is working.",
+          category: "Biomarkers"
+      },
+      {
+          question: "Does Ceylon Cinnamon help with PCOD / PCOS (Metabolic & Hormonal Reversal)?",
+          answer: "Ceylon Cinnamon is one of the therapeutic spices used as part of the PCOD / PCOS (Metabolic & Hormonal Reversal) protocol.",
+          category: "Therapeutic Spices"
+      },
+      {
+          question: "Why should I avoid Commercial A1 Dairy with PCOD / PCOS (Metabolic & Hormonal Reversal)?",
+          answer: "Commercial A1 Dairy (contains growth factors) is one of the foods to avoid or limit while managing PCOD / PCOS (Metabolic & Hormonal Reversal).",
+          category: "Foods to Avoid"
+      },
+      {
+          question: "Why is Free & Total Testosterone tracked for PCOD / PCOS (Metabolic & Hormonal Reversal)?",
+          answer: "Free & Total Testosterone is one of the key biomarkers used to monitor PCOD / PCOS (Metabolic & Hormonal Reversal) and track whether the current protocol is working.",
+          category: "Biomarkers"
+      },
+      {
+          question: "Does Fenugreek help with PCOD / PCOS (Metabolic & Hormonal Reversal)?",
+          answer: "Fenugreek is one of the therapeutic spices used as part of the PCOD / PCOS (Metabolic & Hormonal Reversal) protocol.",
+          category: "Therapeutic Spices"
+      }
+  ],
     citations: [
       { text: "Effects of different insulin sensitisers in the management of PCOS (PMID: 37933831)", url: "https://pubmed.ncbi.nlm.nih.gov/37933831/" },
       { text: "Dietary Modifications in Polycystic Ovary Syndrome (PMID: 33024519)", url: "https://pubmed.ncbi.nlm.nih.gov/33024519/" }
@@ -3742,9 +5647,57 @@ export const MEDICAL_CONDITIONS_DATA: MedicalConditionEntity[] = [
     prohibitedFoods: ['Raw Goitrogenic Vegetables (Kale, Cabbage - unless cooked)', 'Gluten (cross-reacts with thyroid tissue)', 'Industrial seed oils', 'Excessive unfermented soy'],
     circadianAdvice: 'Consume thyroid medications strictly on an empty stomach at 6:00 AM with clean water. Wait at least 2 hours before consuming dietary fiber or calcium-fortified plant milks to maximize absorption.',
     faqs: [
-      { question: "Why should Hypothyroid patients cook cruciferous vegetables?", answer: "Cooking deactivates goitrogens (substances that interfere with iodine uptake by the thyroid), making broccoli and cabbage safe to consume.", category: "Cooking" },
-      { question: "How does gluten sensitivity affect Hashimoto's thyroiditis?", answer: "Due to molecular mimicry, the immune system mistakes thyroid proteins for gluten proteins, causing autoimmune thyroid attacks when gluten is ingested.", category: "Autoimmunity" }
-    ],
+      {
+          question: "Why should Hypothyroid patients cook cruciferous vegetables?",
+          answer: "Cooking deactivates goitrogens (substances that interfere with iodine uptake by the thyroid), making broccoli and cabbage safe to consume.",
+          category: "Cooking"
+      },
+      {
+          question: "How does gluten sensitivity affect Hashimoto's thyroiditis?",
+          answer: "Due to molecular mimicry, the immune system mistakes thyroid proteins for gluten proteins, causing autoimmune thyroid attacks when gluten is ingested.",
+          category: "Autoimmunity"
+      },
+      {
+          question: "What causes Thyroid Dysfunction (Hypothyroidism & Hashimoto's)?",
+          answer: "Chronic thyroid follicular cell inflammation or autoimmune destruction (Hashimoto's thyroiditis) leading to inadequate production of thyroxine (T4) and triiodothyronine (T3).",
+          category: "Root Cause"
+      },
+      {
+          question: "What meal-timing or circadian approach helps manage Thyroid Dysfunction (Hypothyroidism & Hashimoto's)?",
+          answer: "Consume thyroid medications strictly on an empty stomach at 6:00 AM with clean water. Wait at least 2 hours before consuming dietary fiber or calcium-fortified plant milks to maximize absorption.",
+          category: "Circadian"
+      },
+      {
+          question: "What clinical research supports this Thyroid Dysfunction (Hypothyroidism & Hashimoto's) protocol?",
+          answer: "Selenium and Thyroid Disease Management (PMID: 31133379) Gluten-Free Diet Impact on Thyroid Autoimmunity (PMID: 30060266)",
+          category: "Evidence"
+      },
+      {
+          question: "Why is TSH tracked for Thyroid Dysfunction (Hypothyroidism & Hashimoto's)?",
+          answer: "TSH (Thyroid Stimulating Hormone) is one of the key biomarkers used to monitor Thyroid Dysfunction (Hypothyroidism & Hashimoto's) and track whether the current protocol is working.",
+          category: "Biomarkers"
+      },
+      {
+          question: "Does Ginger help with Thyroid Dysfunction (Hypothyroidism & Hashimoto's)?",
+          answer: "Ginger is one of the therapeutic spices used as part of the Thyroid Dysfunction (Hypothyroidism & Hashimoto's) protocol.",
+          category: "Therapeutic Spices"
+      },
+      {
+          question: "Why should I avoid Raw Goitrogenic Vegetables with Thyroid Dysfunction (Hypothyroidism & Hashimoto's)?",
+          answer: "Raw Goitrogenic Vegetables (Kale, Cabbage - unless cooked) is one of the foods to avoid or limit while managing Thyroid Dysfunction (Hypothyroidism & Hashimoto's).",
+          category: "Foods to Avoid"
+      },
+      {
+          question: "Why is Free T3 & Free T4 tracked for Thyroid Dysfunction (Hypothyroidism & Hashimoto's)?",
+          answer: "Free T3 & Free T4 is one of the key biomarkers used to monitor Thyroid Dysfunction (Hypothyroidism & Hashimoto's) and track whether the current protocol is working.",
+          category: "Biomarkers"
+      },
+      {
+          question: "Does Garlic help with Thyroid Dysfunction (Hypothyroidism & Hashimoto's)?",
+          answer: "Garlic is one of the therapeutic spices used as part of the Thyroid Dysfunction (Hypothyroidism & Hashimoto's) protocol.",
+          category: "Therapeutic Spices"
+      }
+  ],
     citations: [
       { text: "Selenium and Thyroid Disease Management (PMID: 31133379)", url: "https://pubmed.ncbi.nlm.nih.gov/31133379/" },
       { text: "Gluten-Free Diet Impact on Thyroid Autoimmunity (PMID: 30060266)", url: "https://pubmed.ncbi.nlm.nih.gov/30060266/" }
@@ -3772,9 +5725,57 @@ export const MEDICAL_CONDITIONS_DATA: MedicalConditionEntity[] = [
     prohibitedFoods: ['Artificial Sweeteners (disrupts microbiome)', 'Emulsifiers & Preservatives', 'Refined Sugar', 'Gluten & Wheat Lectins'],
     circadianAdvice: 'Allow at least 4 hours between meals without snacking to activate the Migrating Motor Complex (MMC), which clears residual bacteria and prevents SIBO (Small Intestinal Bacterial Overgrowth).',
     faqs: [
-      { question: "What is Leaky Gut and how does food heal it?", answer: "Leaky gut is when tight junctions in the intestinal wall loosen. Glutamine-rich foods, pectin, and polyphenols help rebuild the mucosal barrier.", category: "Lining" },
-      { question: "How do prebiotics differ from probiotics?", answer: "Prebiotics (like chicory or banana fiber) act as food for your gut bacteria, while probiotics (like Kanji or curd) introduce active beneficial bacteria.", category: "Microbiome" }
-    ],
+      {
+          question: "What is Leaky Gut and how does food heal it?",
+          answer: "Leaky gut is when tight junctions in the intestinal wall loosen. Glutamine-rich foods, pectin, and polyphenols help rebuild the mucosal barrier.",
+          category: "Lining"
+      },
+      {
+          question: "How do prebiotics differ from probiotics?",
+          answer: "Prebiotics (like chicory or banana fiber) act as food for your gut bacteria, while probiotics (like Kanji or curd) introduce active beneficial bacteria.",
+          category: "Microbiome"
+      },
+      {
+          question: "What causes Gut Health & Microbiome Restoration?",
+          answer: "Intestinal epithelial barrier disruption (Leaky Gut) and dysbiosis, characterized by a loss of short-chain fatty acid (SCFA) producing bacteria and mucosal lining depletion.",
+          category: "Root Cause"
+      },
+      {
+          question: "What meal-timing or circadian approach helps manage Gut Health & Microbiome Restoration?",
+          answer: "Allow at least 4 hours between meals without snacking to activate the Migrating Motor Complex (MMC), which clears residual bacteria and prevents SIBO (Small Intestinal Bacterial Overgrowth).",
+          category: "Circadian"
+      },
+      {
+          question: "What clinical research supports this Gut Health & Microbiome Restoration protocol?",
+          answer: "Intestinal Permeability and Clinical Diseases (PMID: 33803407) Dietary Regulation of Gut Microbiota (PMID: 28191884)",
+          category: "Evidence"
+      },
+      {
+          question: "Why is Zonulin tracked for Gut Health & Microbiome Restoration?",
+          answer: "Zonulin (Stool/Serum) is one of the key biomarkers used to monitor Gut Health & Microbiome Restoration and track whether the current protocol is working.",
+          category: "Biomarkers"
+      },
+      {
+          question: "Does Ginger help with Gut Health & Microbiome Restoration?",
+          answer: "Ginger is one of the therapeutic spices used as part of the Gut Health & Microbiome Restoration protocol.",
+          category: "Therapeutic Spices"
+      },
+      {
+          question: "Why should I avoid Artificial Sweeteners with Gut Health & Microbiome Restoration?",
+          answer: "Artificial Sweeteners (disrupts microbiome) is one of the foods to avoid or limit while managing Gut Health & Microbiome Restoration.",
+          category: "Foods to Avoid"
+      },
+      {
+          question: "Why is Calprotectin tracked for Gut Health & Microbiome Restoration?",
+          answer: "Calprotectin (Inflammatory marker) is one of the key biomarkers used to monitor Gut Health & Microbiome Restoration and track whether the current protocol is working.",
+          category: "Biomarkers"
+      },
+      {
+          question: "Does Garlic help with Gut Health & Microbiome Restoration?",
+          answer: "Garlic is one of the therapeutic spices used as part of the Gut Health & Microbiome Restoration protocol.",
+          category: "Therapeutic Spices"
+      }
+  ],
     citations: [
       { text: "Intestinal Permeability and Clinical Diseases (PMID: 33803407)", url: "https://pubmed.ncbi.nlm.nih.gov/33803407/" },
       { text: "Dietary Regulation of Gut Microbiota (PMID: 28191884)", url: "https://pubmed.ncbi.nlm.nih.gov/28191884/" }
@@ -3802,9 +5803,57 @@ export const MEDICAL_CONDITIONS_DATA: MedicalConditionEntity[] = [
     prohibitedFoods: ['Refined Sodium', 'Trans-Fats', 'High-Fructose Corn Syrup (HFCS)', 'Processed snacks'],
     circadianAdvice: 'Restrict sodium intake to daylight hours (before 6:00 PM). Ensure adequate potassium intake from leafy greens during lunch when aldosterone levels support regulation.',
     faqs: [
-      { question: "How does insulin resistance cause hypertension?", answer: "High insulin triggers sodium retention in the kidneys and reduces nitric oxide synthesis in blood vessels, causing them to constrict and raise pressure.", category: "Mechanisms" },
-      { question: "Does garlic act like a natural BP medication?", answer: "Yes, by increasing nitric oxide production, garlic promotes blood vessel relaxation, relaxing smooth muscle tissues in blood vessel walls.", category: "Therapies" }
-    ],
+      {
+          question: "How does insulin resistance cause hypertension?",
+          answer: "High insulin triggers sodium retention in the kidneys and reduces nitric oxide synthesis in blood vessels, causing them to constrict and raise pressure.",
+          category: "Mechanisms"
+      },
+      {
+          question: "Does garlic act like a natural BP medication?",
+          answer: "Yes, by increasing nitric oxide production, garlic promotes blood vessel relaxation, relaxing smooth muscle tissues in blood vessel walls.",
+          category: "Therapies"
+      },
+      {
+          question: "What causes Hypertension (High Blood Pressure)?",
+          answer: "Endothelial dysfunction and arterial stiffness driven by chronic insulin resistance and low nitric oxide production.",
+          category: "Root Cause"
+      },
+      {
+          question: "What meal-timing or circadian approach helps manage Hypertension (High Blood Pressure)?",
+          answer: "Restrict sodium intake to daylight hours (before 6:00 PM). Ensure adequate potassium intake from leafy greens during lunch when aldosterone levels support regulation.",
+          category: "Circadian"
+      },
+      {
+          question: "What clinical research supports this Hypertension (High Blood Pressure) protocol?",
+          answer: "Effect of garlic on blood pressure: a meta-analysis (PMID: 25557383)",
+          category: "Evidence"
+      },
+      {
+          question: "Why is Systolic/Diastolic Blood Pressure tracked for Hypertension (High Blood Pressure)?",
+          answer: "Systolic/Diastolic Blood Pressure is one of the key biomarkers used to monitor Hypertension (High Blood Pressure) and track whether the current protocol is working.",
+          category: "Biomarkers"
+      },
+      {
+          question: "Does Garlic help with Hypertension (High Blood Pressure)?",
+          answer: "Garlic is one of the therapeutic spices used as part of the Hypertension (High Blood Pressure) protocol.",
+          category: "Therapeutic Spices"
+      },
+      {
+          question: "Why should I avoid Refined Sodium with Hypertension (High Blood Pressure)?",
+          answer: "Refined Sodium is one of the foods to avoid or limit while managing Hypertension (High Blood Pressure).",
+          category: "Foods to Avoid"
+      },
+      {
+          question: "Why is hs-CRP tracked for Hypertension (High Blood Pressure)?",
+          answer: "hs-CRP (Inflammatory marker) is one of the key biomarkers used to monitor Hypertension (High Blood Pressure) and track whether the current protocol is working.",
+          category: "Biomarkers"
+      },
+      {
+          question: "Does Ceylon Cinnamon help with Hypertension (High Blood Pressure)?",
+          answer: "Ceylon Cinnamon is one of the therapeutic spices used as part of the Hypertension (High Blood Pressure) protocol.",
+          category: "Therapeutic Spices"
+      }
+  ],
     citations: [
       { text: "Effect of garlic on blood pressure: a meta-analysis (PMID: 25557383)", url: "https://pubmed.ncbi.nlm.nih.gov/25557383/" }
     ],

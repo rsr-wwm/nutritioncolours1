@@ -201,11 +201,31 @@ function buildClaimEntity(
 }
 
 /**
+ * Build a real FAQPage schema from an entity's own `faqs` array. Condition/herb
+ * pages render their FAQ content inside a client-side tab that isn't the default
+ * active tab — meaning the (real, data-derived) FAQ text isn't in the static HTML
+ * a non-JS-executing crawler sees. This schema is the fix: the same questions and
+ * answers already on the page, made crawlable independent of tab-click state.
+ */
+function buildFaqPageEntity(url: string, faqs?: { question: string; answer: string }[]) {
+  if (!faqs || faqs.length === 0) return null;
+  return {
+    '@type': 'FAQPage',
+    '@id': `${BASE}${url}#faq`,
+    'mainEntity': faqs.map((f) => ({
+      '@type': 'Question',
+      'name': f.question,
+      'acceptedAnswer': { '@type': 'Answer', 'text': f.answer },
+    })),
+  };
+}
+
+/**
  * Build a speakable schema for a page section.
  */
 function buildSpeakable(cssSelector: string) {
   return {
-    '@type': 'speakable',
+    '@type': 'SpeakableSpecification',
     'cssSelector': [cssSelector],
   };
 }
@@ -240,6 +260,7 @@ function buildMedicalWebPage(route: string, pageData?: {
         'description': `Ask a clinical nutrition question about ${pageData.reviewType}`,
       },
     }),
+    'speakable': buildSpeakable('main article'),
   };
 }
 
@@ -269,12 +290,13 @@ export function useEntityGraph(
   const graphs: any[] = [ORG_SCHEMA, PERSON_SCHEMA];
 
   // Always add the MedicalWebPage schema
-  graphs.push(buildMedicalWebPage(route, {
+  const medicalWebPage = buildMedicalWebPage(route, {
     title: context?.pageTitle,
     description: context?.pageDescription,
     lastReviewed: context?.lastReviewed,
     reviewType: context?.conditionId || context?.herbId || route,
-  }));
+  });
+  graphs.push(medicalWebPage);
 
   // Condition page
   if (context?.conditionId) {
@@ -282,6 +304,9 @@ export function useEntityGraph(
 
     const conditionClaim = buildClaimEntity('condition', context.conditionId, context.conditionData, context.conditionConfidence);
     if (conditionClaim) graphs.push(conditionClaim);
+
+    const conditionFaqPage = buildFaqPageEntity(`/condition/${context.conditionId}`, context.conditionData?.faqs);
+    if (conditionFaqPage) graphs.push(conditionFaqPage);
 
     // Link related herbs
     if (context.relatedHerbs) {
@@ -304,6 +329,9 @@ export function useEntityGraph(
     const herbClaim = buildClaimEntity('herb', context.herbId, context.herbData, context.herbConfidence);
     if (herbClaim) graphs.push(herbClaim);
 
+    const herbFaqPage = buildFaqPageEntity(`/herb/${context.herbId}`, context.herbData?.faqs);
+    if (herbFaqPage) graphs.push(herbFaqPage);
+
     if (context.relatedConditions) {
       context.relatedConditions.forEach(condId => {
         graphs.push(buildConditionEntity(condId));
@@ -316,14 +344,7 @@ export function useEntityGraph(
     graphs.push(buildRecipeEntity(context.recipeId, context.recipeData));
   }
 
-  // Add speakable for main content area
-  graphs.push({
-    '@context': 'https://schema.org',
-    '@graph': graphs.filter(g => g['@type'] !== 'speakable'),
-    'speakable': buildSpeakable('main article'),
-  });
-
-  return JSON.stringify(graphs);
+  return JSON.stringify({ '@context': 'https://schema.org', '@graph': graphs });
 }
 
 /**
