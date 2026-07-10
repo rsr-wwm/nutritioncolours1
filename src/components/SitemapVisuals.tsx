@@ -163,11 +163,10 @@ export const MindMapVisualizer = ({ data, onNodeClick }: { data: SitemapNode, on
 interface SitemapNodeItemProps {
   node: SitemapNode;
   depth?: number;
-  onNavigate?: (path: string) => void;
 }
 
 // Extracted Component to follow React Rules of Hooks
-const SitemapNodeItem: React.FC<SitemapNodeItemProps> = ({ node, depth = 0, onNavigate }) => {
+const SitemapNodeItem: React.FC<SitemapNodeItemProps> = ({ node, depth = 0 }) => {
   const [isOpen, setIsOpen] = useState(depth < 1); // Auto open root
 
   return (
@@ -194,12 +193,13 @@ const SitemapNodeItem: React.FC<SitemapNodeItemProps> = ({ node, depth = 0, onNa
         
         <div className="flex items-center gap-4">
             {node.path !== 'home' && (
-              <button 
-                onClick={(e) => { e.stopPropagation(); if (onNavigate) onNavigate(node.path); }}
+              <a
+                href={`/${node.path}`}
+                onClick={(e) => e.stopPropagation()}
                 className={`text-[10px] font-mono opacity-60 hover:opacity-100 hover:underline transition-all ${depth === 0 ? 'text-emerald-300 hover:text-white' : 'text-stone-400 hover:text-emerald-600'}`}
               >
                   Go to /{node.path}
-              </button>
+              </a>
             )}
             <IconChevronDown className={`transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`} size={16} />
         </div>
@@ -240,7 +240,7 @@ const SitemapNodeItem: React.FC<SitemapNodeItemProps> = ({ node, depth = 0, onNa
       {isOpen && node.children && (
         <div className="mt-2 border-l-2 border-stone-100 ml-4 pl-0">
           {node.children.map(child => (
-            <SitemapNodeItem key={child.id} node={child} depth={depth + 1} onNavigate={onNavigate} />
+            <SitemapNodeItem key={child.id} node={child} depth={depth + 1} />
           ))}
         </div>
       )}
@@ -248,12 +248,12 @@ const SitemapNodeItem: React.FC<SitemapNodeItemProps> = ({ node, depth = 0, onNa
   );
 };
 
-export const DetailedListView = ({ data, onNavigate }: { data: SitemapNode, onNavigate?: (path: string) => void }) => {
-  return <div className="max-w-4xl mx-auto pb-12"><SitemapNodeItem node={data} depth={0} onNavigate={onNavigate} /></div>;
+export const DetailedListView = ({ data }: { data: SitemapNode }) => {
+  return <div className="max-w-4xl mx-auto pb-12"><SitemapNodeItem node={data} depth={0} /></div>;
 };
 
 // --- Grid View (New) ---
-export const GridMapView = ({ data, onNavigate }: { data: SitemapNode, onNavigate?: (path: string) => void }) => {
+export const GridMapView = ({ data }: { data: SitemapNode }) => {
   // We want to show top-level categories as cards
   // Root node is skipped in grid view usually, we show its children
   const sections = data.children || [];
@@ -272,12 +272,12 @@ export const GridMapView = ({ data, onNavigate }: { data: SitemapNode, onNavigat
                         </span>
                         <div className={`w-2 h-2 rounded-full ${section.status === 'optimized' ? 'bg-green-400' : 'bg-amber-400'}`}></div>
                     </div>
-                    <button 
-                      onClick={() => onNavigate && onNavigate(section.path)}
-                      className="text-left text-2xl font-black text-emerald-950 brand-font group-hover:text-emerald-700 transition-colors hover:underline"
+                    <a
+                      href={`/${section.path}`}
+                      className="block text-left text-2xl font-black text-emerald-950 brand-font group-hover:text-emerald-700 transition-colors hover:underline"
                     >
                       {section.label}
-                    </button>
+                    </a>
                     {section.meta?.description && (
                         <p className="text-xs text-stone-500 mt-2 line-clamp-2 leading-relaxed">{section.meta.description}</p>
                     )}
@@ -288,15 +288,15 @@ export const GridMapView = ({ data, onNavigate }: { data: SitemapNode, onNavigat
                         <div className="space-y-2">
                             <span className="text-[10px] font-bold text-stone-400 uppercase tracking-widest block mb-2">Pages in Section</span>
                             {section.children.slice(0, 5).map(child => (
-                                <button 
-                                  key={child.id} 
-                                  onClick={() => onNavigate && onNavigate(child.path)}
+                                <a
+                                  key={child.id}
+                                  href={`/${child.path}`}
                                   className="w-full text-left flex items-center gap-2 text-sm text-stone-600 hover:text-emerald-600 transition-colors p-2 rounded-lg hover:bg-stone-50 group/btn"
                                 >
                                     <IconLeaf size={12} className="text-emerald-400" />
                                     <span className="truncate">{child.label}</span>
                                     {(child.type === 'page' || child.type === 'resource' || child.type === 'category') && <IconArrowRight size={10} className="ml-auto opacity-0 group-hover/btn:opacity-100 transition-opacity"/>}
-                                </button>
+                                </a>
                             ))}
                             {section.children.length > 5 && (
                                 <div className="text-[10px] font-bold text-emerald-600 pl-2 pt-1">
@@ -492,7 +492,7 @@ export const AdminAuditList = ({ data }: { data: SitemapNode }) => {
 };
 
 // --- Node Detail Modal ---
-export const NodeDetailModal = ({ node, onClose, onNavigate }: { node: SitemapNode | null, onClose: () => void, onNavigate?: (path: string) => void }) => {
+export const NodeDetailModal = ({ node, onClose }: { node: SitemapNode | null, onClose: () => void }) => {
   if (!node) return null;
 
   return (
@@ -564,13 +564,13 @@ export const NodeDetailModal = ({ node, onClose, onNavigate }: { node: SitemapNo
           </div>
                     <div className="p-4 bg-white border-t border-stone-100 flex justify-end gap-3">
               <button onClick={onClose} className="px-6 py-3 rounded-xl text-xs font-bold uppercase tracking-widest text-stone-500 hover:bg-stone-100 transition-colors">Close</button>
-              {onNavigate && (
-                 <button 
-                     onClick={() => onNavigate(node.path)} 
+              {node && (
+                 <a
+                     href={`/${node.path}`}
                      className="px-6 py-3 rounded-xl text-xs font-bold uppercase tracking-widest bg-emerald-600 text-white hover:bg-emerald-700 transition-colors shadow-lg hover:shadow-emerald-200 hover:-translate-y-0.5"
                  >
                      Go to Page
-                 </button>
+                 </a>
               )}
            </div>
         </div>
@@ -598,12 +598,12 @@ export const SitemapPage = ({ siteStructure }: { siteStructure: SitemapNode }) =
           ))}
         </div>
         <div className="bg-white rounded-[40px] p-8 md:p-12 border border-stone-100 shadow-sm">
-          {view === 'list' && <DetailedListView data={siteStructure} onNavigate={(path: string) => window.location.href = '/' + path} />}
-          {view === 'grid' && <GridMapView data={siteStructure} onNavigate={(path: string) => window.location.href = '/' + path} />}
+          {view === 'list' && <DetailedListView data={siteStructure} />}
+          {view === 'grid' && <GridMapView data={siteStructure} />}
           {view === 'mindmap' && <MindMapVisualizer data={siteStructure} onNodeClick={(node: SitemapNode) => setSelectedNode(node)} />}
         </div>
         <AdminAuditList data={siteStructure} />
-        {selectedNode && <NodeDetailModal node={selectedNode} onClose={() => setSelectedNode(null)} onNavigate={(path: string) => { setSelectedNode(null); window.location.href = '/' + path; }} />}
+        {selectedNode && <NodeDetailModal node={selectedNode} onClose={() => setSelectedNode(null)} />}
       </div>
     </div>
   );
