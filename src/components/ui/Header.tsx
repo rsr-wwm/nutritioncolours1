@@ -9,7 +9,6 @@ const usePathname = () => {
 };
 import { Logo } from './Logo';
 import CompatLink from '@/components/CompatLink';
-import { LocalizationHub } from '../LocalizationHub';
 import { useIntentAwareNavigation } from '@/lib/intentNavigation';
 import {
   IconPhone, IconMail, IconMapPin,
