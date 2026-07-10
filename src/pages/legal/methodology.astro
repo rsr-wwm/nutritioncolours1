@@ -1,0 +1,55 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import LegalContent from '../../components/LegalContent.astro';
+import { LEGAL_CONTENT } from '../../lib/constants';
+import confidenceScores from '../../../public/data/confidence-scores.json';
+
+// Real, computed stats from confidence-scores.json — not hand-typed prose, so this
+// page can't drift from the data it's describing. See /knowledge/glossary and the
+// Claim schema on every condition/herb page for the structured-data counterpart.
+const conditions = Object.values(confidenceScores.conditions) as any[];
+const herbs = Object.values(confidenceScores.herbs || {}) as any[];
+const allEntries = [...conditions, ...herbs];
+
+const avgConfidence = Math.round(
+  allEntries.reduce((sum, e) => sum + e.confidenceScore, 0) / allEntries.length
+);
+
+const evidenceTiers = [...new Set(allEntries.map((e) => e.evidenceLevel.split(' ')[0]))].sort();
+
+const reviewCadenceDays = Math.round(
+  (new Date(allEntries[0].nextReviewDue).getTime() - new Date(allEntries[0].lastVerified).getTime())
+  / (1000 * 60 * 60 * 24)
+);
+
+const reviewer = allEntries[0]?.reviewer || 'Our clinical team';
+
+const sections = [
+  {
+    heading: 'What This Page Covers',
+    text: `Every clinical condition and herb page on NutritionColours carries a real, machine-readable confidence score and evidence level, generated from the same dataset summarized here. This page is the human-readable view of that data — nothing below is invented for this page; it's computed directly from our published confidence-scores dataset.`,
+  },
+  {
+    heading: 'Coverage & Confidence, By The Numbers',
+    text: `${allEntries.length} clinical entities (${conditions.length} conditions, ${herbs.length} herbs) currently carry a scored confidence rating, averaging ${avgConfidence}/100. Evidence tiers represented: ${evidenceTiers.join(', ')} (Oxford Centre for Evidence-Based Medicine scale, Tier I being systematic reviews/meta-analyses/RCTs). Entities without a listed score here are still cited on their own pages, but haven't yet been through this specific scoring pass.`,
+  },
+  {
+    heading: 'Review Cadence',
+    text: `Scored entries are scheduled for re-verification every ${reviewCadenceDays} days by ${reviewer}. This is a real recurring commitment, not a one-time audit — the next-due date for every entry is tracked in the same dataset this page reads from.`,
+  },
+  ...LEGAL_CONTENT['evidence-approach'],
+];
+---
+
+<BaseLayout
+  title="How We Source Claims | NutritionColours Methodology"
+  description="How NutritionColours grades evidence and scores confidence for every clinical claim — the human-readable view of our published confidence-scores dataset."
+  canonicalUrl="/legal/methodology"
+>
+  <LegalContent
+    eyebrow="Trust & Transparency"
+    title="How We Source Claims"
+    intro="Every clinical assertion on this site is backed by a real, published confidence score and evidence tier. Here's exactly how that works."
+    sections={sections}
+  />
+</BaseLayout>

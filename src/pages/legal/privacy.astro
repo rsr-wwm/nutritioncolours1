@@ -1,11 +1,17 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import EditorialPolicy from '../../components/EditorialPolicy';
+import LegalContent from '../../components/LegalContent.astro';
+import { LEGAL_CONTENT } from '../../lib/constants';
 ---
 
 <BaseLayout
   title="Privacy Policy | NutritionColours Clinic"
   description="Clinical data protection regulations, patient privacy directives, and privacy policies of our clinic."
 >
-  <EditorialPolicy client:load navigate={(path: string) => { window.location.href = '/' + path; }} />
+  <LegalContent
+    eyebrow="Legal"
+    title="Privacy Policy"
+    intro="How NutritionColours collects, uses, and protects your personal and health information."
+    sections={LEGAL_CONTENT.privacy}
+  />
 </BaseLayout>
