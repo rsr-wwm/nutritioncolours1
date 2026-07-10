@@ -25,6 +25,7 @@ const NAV_CONFIG = [
       { id: 'knowledge/health-topics', label: 'Health Topics' },
       { id: 'knowledge/herbs-spices', label: 'Herbs & Spices' },
       { id: 'knowledge/health-conditions', label: 'Health Conditions' },
+      { id: 'knowledge/glossary', label: 'Glossary' },
       { id: 'knowledge/nutrigenomics', label: 'Nutrigenomics (SNPs)' },
       { id: 'knowledge/drug-interactions', label: 'Drug-Nutrient Interactions' },
       { id: 'knowledge/blogs', label: 'Latest Articles' },
