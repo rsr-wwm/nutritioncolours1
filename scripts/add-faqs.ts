@@ -24,7 +24,7 @@ import { MEDICAL_CONDITIONS_DATA, HERBS_SPICES_DATA } from '../src/lib/clinical_
 
 const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const FILE_PATH = path.join(REPO_ROOT, 'src', 'lib', 'clinical_databases.ts');
-const TARGET_FAQ_COUNT = 10;
+const TARGET_FAQ_COUNT = 15;
 
 type FAQ = { question: string; answer: string; category: string };
 
@@ -233,6 +233,31 @@ function herbCandidates(herb: any): FAQ[] {
       question: `How do I harvest ${herb.name}?`,
       answer: herb.howToHarvest.join(' '),
       category: 'Harvesting',
+    });
+  }
+  if (herb.aeoQuickAnswer) {
+    anchors.push({
+      question: `Can you give a quick summary of ${herb.name}?`,
+      answer: herb.aeoQuickAnswer,
+      category: 'Summary',
+    });
+  }
+  if (herb.comparisonTable?.rows?.length) {
+    const ct = herb.comparisonTable;
+    const rowSummaries = ct.rows.map((row: string[]) =>
+      row.map((cell, i) => `${ct.headers[i]}: ${cell}`).join(', '),
+    );
+    anchors.push({
+      question: `What are the different varieties of ${herb.name} and how do they compare?`,
+      answer: rowSummaries.join(' | '),
+      category: 'Varieties',
+    });
+  }
+  if (herb.tadkaInstructions?.length) {
+    anchors.push({
+      question: `How do I prepare a tadka (tempering) with ${herb.name}?`,
+      answer: herb.tadkaInstructions.join(' '),
+      category: 'Preparation',
     });
   }
 

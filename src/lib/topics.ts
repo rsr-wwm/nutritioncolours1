@@ -70,6 +70,31 @@ export const TOPICS: Topic[] = [
           question: "Circadian Nutrition: Sychronizing Meal Schedules?",
           answer: "Your body processes food differently depending on the time of day. Insulin sensitivity naturally drops as sunset approaches. Eating heavy meals late overrides your circadian clock, leading directly to fat accumulation.",
           category: "Deep Dive"
+      },
+      {
+          question: "What is Blood Sugar & Insulin Optimization?",
+          answer: "Control Blood Sugar Naturally",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain Blood Sugar & Insulin Optimization in more depth?",
+          answer: "Optimizing blood sugar and insulin sensitivity focuses on restoring the body's sensitivity to insulin.",
+          category: "In-Depth"
+      },
+      {
+          question: "What's a pro tip for: The Real Cause of Blood Sugar Spikes?",
+          answer: "Swap out morning wheat bread for steamed ragi porridge. It keeps your post-meal insulin curve flat and delivers steady, long-lasting energy.",
+          category: "Pro Tip"
+      },
+      {
+          question: "What's a pro tip for: Circadian Nutrition: Sychronizing Meal Schedules?",
+          answer: "Finish your evening meal early. Going to bed with an empty stomach optimizes natural melatonin release and cortisol regulation.",
+          category: "Pro Tip"
+      },
+      {
+          question: "Does \"Lean protein\" help with Blood Sugar & Insulin Optimization?",
+          answer: "Yes \u2014 Lean protein is one of the natural approaches recommended for Blood Sugar & Insulin Optimization.",
+          category: "Natural Approach"
       }
   ],
     aiSummaryBlock: {
@@ -172,6 +197,31 @@ export const TOPICS: Topic[] = [
           question: "Does \"High fiber\" help with Endocrine & Hormonal Balance?",
           answer: "Yes \u2014 High fiber is one of the natural approaches recommended for Endocrine & Hormonal Balance.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Endocrine & Hormonal Balance?",
+          answer: "Hormone & Fertility Support",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain Endocrine & Hormonal Balance in more depth?",
+          answer: "This protocol supports natural ovarian regulation, which is often insulin resistance.",
+          category: "In-Depth"
+      },
+      {
+          question: "What's a pro tip for: The Link Between PCOS and Insulin?",
+          answer: "Eliminate industrial seed oils (like canola or sunflower oil). They induce gut inflammation, which directly spikes cellular insulin resistance.",
+          category: "Pro Tip"
+      },
+      {
+          question: "Does \"Myo-Inositol\" help with Endocrine & Hormonal Balance?",
+          answer: "Yes \u2014 Myo-Inositol is one of the natural approaches recommended for Endocrine & Hormonal Balance.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Reduced dairy\" help with Endocrine & Hormonal Balance?",
+          answer: "Yes \u2014 Reduced dairy is one of the natural approaches recommended for Endocrine & Hormonal Balance.",
+          category: "Natural Approach"
       }
   ],
     aiSummaryBlock: {
@@ -261,6 +311,31 @@ export const TOPICS: Topic[] = [
       {
           question: "Does \"Choline-rich foods\" help with Liver Health & Metabolic Detoxification?",
           answer: "Yes \u2014 Choline-rich foods is one of the natural approaches recommended for Liver Health & Metabolic Detoxification.",
+          category: "Natural Approach"
+      },
+      {
+          question: "What is Liver Health & Metabolic Detoxification?",
+          answer: "Restore Liver Health",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain Liver Health & Metabolic Detoxification in more depth?",
+          answer: "Focuses on supporting liver health and lipid clearance (NAFLD), primarily caused by excessive sugar and processed food intake.",
+          category: "In-Depth"
+      },
+      {
+          question: "What's a pro tip for: How Fructose Overloads the Liver?",
+          answer: "Substitute fruit juices with infused cucumber-mint water. Removing liquid fructose is the fastest way to relieve liver processing strain.",
+          category: "Pro Tip"
+      },
+      {
+          question: "Does \"Garlic\" help with Liver Health & Metabolic Detoxification?",
+          answer: "Yes \u2014 Garlic is one of the natural approaches recommended for Liver Health & Metabolic Detoxification.",
+          category: "Natural Approach"
+      },
+      {
+          question: "Does \"Onions\" help with Liver Health & Metabolic Detoxification?",
+          answer: "Yes \u2014 Onions is one of the natural approaches recommended for Liver Health & Metabolic Detoxification.",
           category: "Natural Approach"
       }
   ],
@@ -352,6 +427,16 @@ export const TOPICS: Topic[] = [
           question: "Does \"Gut Health support\" help with Thyroid & Metabolic Optimization?",
           answer: "Yes \u2014 Gut Health support is one of the natural approaches recommended for Thyroid & Metabolic Optimization.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Thyroid & Metabolic Optimization?",
+          answer: "Boost Metabolism & Energy",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain Thyroid & Metabolic Optimization in more depth?",
+          answer: "Targets Hypothyroidism (low thyroid function).",
+          category: "In-Depth"
       }
   ]
   },
@@ -420,6 +505,11 @@ export const TOPICS: Topic[] = [
           question: "What is Hypertension Management?",
           answer: "Lower High Blood Pressure Naturally",
           category: "Overview"
+      },
+      {
+          question: "Can you explain Hypertension Management in more depth?",
+          answer: "Aims to support blood pressure within normal ranges naturally to protect the heart and reduce stroke risk.",
+          category: "In-Depth"
       }
   ]
   },
@@ -488,6 +578,11 @@ export const TOPICS: Topic[] = [
           question: "What is Gut Health & Acidity?",
           answer: "Improve Digestion Naturally",
           category: "Overview"
+      },
+      {
+          question: "Can you explain Gut Health & Acidity in more depth?",
+          answer: "Focuses on balancing the gut microbiome and healing the gut lining.",
+          category: "In-Depth"
       }
   ]
   },
@@ -556,6 +651,11 @@ export const TOPICS: Topic[] = [
           question: "What is Weight Loss for Women?",
           answer: "Safe & Effective Plans",
           category: "Overview"
+      },
+      {
+          question: "Can you explain Weight Loss for Women in more depth?",
+          answer: "Acknowledges hormonal influences on female metabolism.",
+          category: "In-Depth"
       }
   ]
   },
@@ -624,6 +724,11 @@ export const TOPICS: Topic[] = [
           question: "What is Weight Loss for Men?",
           answer: "Fat Reduction & Muscle Gain",
           category: "Overview"
+      },
+      {
+          question: "Can you explain Weight Loss for Men in more depth?",
+          answer: "Leverages men's higher baseline metabolism.",
+          category: "In-Depth"
       }
   ]
   },
@@ -692,6 +797,11 @@ export const TOPICS: Topic[] = [
           question: "What is Belly Fat Reduction?",
           answer: "Lose Stubborn Fat Naturally",
           category: "Overview"
+      },
+      {
+          question: "Can you explain Belly Fat Reduction in more depth?",
+          answer: "Targets dangerous visceral fat around organs.",
+          category: "In-Depth"
       }
   ]
   },
@@ -760,6 +870,11 @@ export const TOPICS: Topic[] = [
           question: "What is Insulin Resistance Management?",
           answer: "Prevent Diabetes Naturally",
           category: "Overview"
+      },
+      {
+          question: "Can you explain Insulin Resistance Management in more depth?",
+          answer: "Prevents pre-diabetes and diabetes by improving how cells respond to insulin.",
+          category: "In-Depth"
       }
   ]
   },
@@ -828,6 +943,11 @@ export const TOPICS: Topic[] = [
           question: "What is Pre-Diabetes Care?",
           answer: "Act Now to Reduce Risk",
           category: "Overview"
+      },
+      {
+          question: "Can you explain Pre-Diabetes Care in more depth?",
+          answer: "Identifies the critical window for prevention before Type 2 Diabetes develops.",
+          category: "In-Depth"
       }
   ]
   },
@@ -896,6 +1016,11 @@ export const TOPICS: Topic[] = [
           question: "What is Menopause Hormone Support?",
           answer: "Manage Hot Flashes Naturally",
           category: "Overview"
+      },
+      {
+          question: "Can you explain Menopause Hormone Support in more depth?",
+          answer: "Addresses the transition beyond reproductive years.",
+          category: "In-Depth"
       }
   ]
   },
@@ -964,6 +1089,11 @@ export const TOPICS: Topic[] = [
           question: "What is Hormonal Imbalance Correction?",
           answer: "Restore Vitality & Mood",
           category: "Overview"
+      },
+      {
+          question: "Can you explain Hormonal Imbalance Correction in more depth?",
+          answer: "Universal hormonal support for both genders.",
+          category: "In-Depth"
       }
   ]
   },
@@ -1032,6 +1162,11 @@ export const TOPICS: Topic[] = [
           question: "What is Testosterone Boost?",
           answer: "Improve Energy & Vitality",
           category: "Overview"
+      },
+      {
+          question: "Can you explain Testosterone Boost in more depth?",
+          answer: "Specific to male hormonal health.",
+          category: "In-Depth"
       }
   ]
   },
@@ -1100,6 +1235,11 @@ export const TOPICS: Topic[] = [
           question: "What is Cortisol & Stress Balance?",
           answer: "Calm the Stress Hormone",
           category: "Overview"
+      },
+      {
+          question: "Can you explain Cortisol & Stress Balance in more depth?",
+          answer: "Managing the body's 'fight or flight' hormone.",
+          category: "In-Depth"
       }
   ]
   },
@@ -1168,6 +1308,11 @@ export const TOPICS: Topic[] = [
           question: "What is Cholesterol Management?",
           answer: "Keep Your Arteries Clear",
           category: "Overview"
+      },
+      {
+          question: "Can you explain Cholesterol Management in more depth?",
+          answer: "Promoting a healthy heart lipid profile.",
+          category: "In-Depth"
       }
   ]
   },
@@ -1236,6 +1381,11 @@ export const TOPICS: Topic[] = [
           question: "What is Heart Health Optimization?",
           answer: "Strengthen Your Cardio System",
           category: "Overview"
+      },
+      {
+          question: "Can you explain Heart Health Optimization in more depth?",
+          answer: "The foundation for long-term cardiovascular health.",
+          category: "In-Depth"
       }
   ]
   },
@@ -1304,6 +1454,11 @@ export const TOPICS: Topic[] = [
           question: "What is Blood Circulation Support?",
           answer: "Improve Nutrient & Oxygen Delivery",
           category: "Overview"
+      },
+      {
+          question: "Can you explain Blood Circulation Support in more depth?",
+          answer: "Ensures efficient delivery of oxygen and nutrients.",
+          category: "In-Depth"
       }
   ]
   },
@@ -1372,6 +1527,11 @@ export const TOPICS: Topic[] = [
           question: "What is Joint Pain Relief?",
           answer: "Reduce Inflammation & Stiffness",
           category: "Overview"
+      },
+      {
+          question: "Can you explain Joint Pain Relief in more depth?",
+          answer: "Alleviating discomfort and improving mobility.",
+          category: "In-Depth"
       }
   ]
   },
@@ -1440,6 +1600,11 @@ export const TOPICS: Topic[] = [
           question: "What is Arthritis Support?",
           answer: "Manage Osteo & Rheumatoid Issues",
           category: "Overview"
+      },
+      {
+          question: "Can you explain Arthritis Support in more depth?",
+          answer: "Managing both Osteoarthritis and Rheumatoid Arthritis.",
+          category: "In-Depth"
       }
   ]
   },
@@ -1508,6 +1673,11 @@ export const TOPICS: Topic[] = [
           question: "What is Osteoporosis Prevention?",
           answer: "Build Strong Bones",
           category: "Overview"
+      },
+      {
+          question: "Can you explain Osteoporosis Prevention in more depth?",
+          answer: "Maintaining bone mineral density as we age.",
+          category: "In-Depth"
       }
   ]
   },
@@ -1576,6 +1746,11 @@ export const TOPICS: Topic[] = [
           question: "What is Hyperthyroid Protocol?",
           answer: "Calm the Overactive Thyroid",
           category: "Overview"
+      },
+      {
+          question: "Can you explain Hyperthyroid Protocol in more depth?",
+          answer: "Addresses an overactive thyroid.",
+          category: "In-Depth"
       }
   ]
   },
@@ -1644,6 +1819,11 @@ export const TOPICS: Topic[] = [
           question: "What is Muscle Recovery & Strength?",
           answer: "Rebuild & Repair Naturally",
           category: "Overview"
+      },
+      {
+          question: "Can you explain Muscle Recovery & Strength in more depth?",
+          answer: "Focuses on maintaining lean muscle mass and preventing age-related decline.",
+          category: "In-Depth"
       }
   ]
   },
@@ -1712,6 +1892,11 @@ export const TOPICS: Topic[] = [
           question: "What is Back & Spine Health?",
           answer: "Support Your Structural Core",
           category: "Overview"
+      },
+      {
+          question: "Can you explain Back & Spine Health in more depth?",
+          answer: "Targets the health of the vertebrae and ligaments.",
+          category: "In-Depth"
       }
   ]
   },
@@ -1780,6 +1965,11 @@ export const TOPICS: Topic[] = [
           question: "What is Hair Growth & Strength?",
           answer: "Prevent Fall & Build Shine",
           category: "Overview"
+      },
+      {
+          question: "Can you explain Hair Growth & Strength in more depth?",
+          answer: "Promoting thick, healthy hair from the inside out.",
+          category: "In-Depth"
       }
   ]
   },
@@ -1848,6 +2038,11 @@ export const TOPICS: Topic[] = [
           question: "What is Skin Glow & Detox?",
           answer: "Brighten Your Complexion Naturally",
           category: "Overview"
+      },
+      {
+          question: "Can you explain Skin Glow & Detox in more depth?",
+          answer: "Rejuvenates skin radiance by cleansing from within.",
+          category: "In-Depth"
       }
   ]
   },
@@ -1916,6 +2111,11 @@ export const TOPICS: Topic[] = [
           question: "What is Anti-Aging Support?",
           answer: "Longevity Through Nutrition",
           category: "Overview"
+      },
+      {
+          question: "Can you explain Anti-Aging Support in more depth?",
+          answer: "Promotes longevity and cellular energy.",
+          category: "In-Depth"
       }
   ]
   },
@@ -1984,6 +2184,11 @@ export const TOPICS: Topic[] = [
           question: "What is Acne & Skin Clarity?",
           answer: "Support Clear Skin with Diet",
           category: "Overview"
+      },
+      {
+          question: "Can you explain Acne & Skin Clarity in more depth?",
+          answer: "Addresses hormonal and inflammatory acne.",
+          category: "In-Depth"
       }
   ]
   },
@@ -2052,6 +2257,11 @@ export const TOPICS: Topic[] = [
           question: "What is Nail Health & Strength?",
           answer: "Prevent Brittle & Weak Nails",
           category: "Overview"
+      },
+      {
+          question: "Can you explain Nail Health & Strength in more depth?",
+          answer: "Resolves brittle, splitting nails.",
+          category: "In-Depth"
       }
   ]
   },
@@ -2120,6 +2330,11 @@ export const TOPICS: Topic[] = [
           question: "What is Immunity Boost?",
           answer: "Strengthen Your Body's Defenses Naturally",
           category: "Overview"
+      },
+      {
+          question: "Can you explain Immunity Boost in more depth?",
+          answer: "Builds a resilient immune system.",
+          category: "In-Depth"
       }
   ]
   },
@@ -2188,6 +2403,11 @@ export const TOPICS: Topic[] = [
           question: "What is Detox & Rejuvenation?",
           answer: "Cleanse Your System for Energy",
           category: "Overview"
+      },
+      {
+          question: "Can you explain Detox & Rejuvenation in more depth?",
+          answer: "Purifies and restores energy.",
+          category: "In-Depth"
       }
   ]
   },
@@ -2256,6 +2476,11 @@ export const TOPICS: Topic[] = [
           question: "What is Anti-Inflammatory Support?",
           answer: "Reduce Chronic Systemic Inflammation",
           category: "Overview"
+      },
+      {
+          question: "Can you explain Anti-Inflammatory Support in more depth?",
+          answer: "Calms systemic inflammation, the root of chronic disease.",
+          category: "In-Depth"
       }
   ]
   },
@@ -2324,6 +2549,11 @@ export const TOPICS: Topic[] = [
           question: "What is Healthy Aging Solutions?",
           answer: "Stay Fit & Sharp into Senior Years",
           category: "Overview"
+      },
+      {
+          question: "Can you explain Healthy Aging Solutions in more depth?",
+          answer: "Supports vitality as we age.",
+          category: "In-Depth"
       }
   ]
   },
@@ -2392,6 +2622,11 @@ export const TOPICS: Topic[] = [
           question: "What is Wellness & Longevity?",
           answer: "Eat for a Longer Life",
           category: "Overview"
+      },
+      {
+          question: "Can you explain Wellness & Longevity in more depth?",
+          answer: "A comprehensive track for long-term health.",
+          category: "In-Depth"
       }
   ]
   },
@@ -2460,6 +2695,11 @@ export const TOPICS: Topic[] = [
           question: "What is Fertility & Hormone Support?",
           answer: "Optimize Conception Health Naturally",
           category: "Overview"
+      },
+      {
+          question: "Can you explain Fertility & Hormone Support in more depth?",
+          answer: "Prepares the body for healthy conception.",
+          category: "In-Depth"
       }
   ]
   },
@@ -2528,6 +2768,11 @@ export const TOPICS: Topic[] = [
           question: "What is PCOS Weight & Diet?",
           answer: "Manage PCOS Weight Gain",
           category: "Overview"
+      },
+      {
+          question: "Can you explain PCOS Weight & Diet in more depth?",
+          answer: "A specialized track for the metabolic component of PCOS.",
+          category: "In-Depth"
       }
   ]
   },
@@ -2596,6 +2841,11 @@ export const TOPICS: Topic[] = [
           question: "What is Menopause Weight Management?",
           answer: "Lose Middle-Age Weight Naturally",
           category: "Overview"
+      },
+      {
+          question: "Can you explain Menopause Weight Management in more depth?",
+          answer: "Addresses the metabolic shift during menopause.",
+          category: "In-Depth"
       }
   ]
   },
@@ -2663,6 +2913,16 @@ export const TOPICS: Topic[] = [
           question: "Does \"Limit purine foods\" help with Uric Acid & Gout Support?",
           answer: "Yes \u2014 Limit purine foods is one of the natural approaches recommended for Uric Acid & Gout Support.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Uric Acid & Gout Support?",
+          answer: "Flush Purines & Manage Joint Pain Naturally",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain Uric Acid & Gout Support in more depth?",
+          answer: "Supporting optimal uric acid clearance requires addressing kidney filtration and systemic balance.",
+          category: "In-Depth"
       }
   ]
   },
@@ -2730,6 +2990,16 @@ export const TOPICS: Topic[] = [
           question: "Does \"Oxidative stress reduction\" help with Chronic Fatigue & Energy Support?",
           answer: "Yes \u2014 Oxidative stress reduction is one of the natural approaches recommended for Chronic Fatigue & Energy Support.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Chronic Fatigue & Energy Support?",
+          answer: "Restore Mitochondrial Energy Production",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain Chronic Fatigue & Energy Support in more depth?",
+          answer: "Chronic fatigue indicates a cellular energy crisis.",
+          category: "In-Depth"
       }
   ]
   },
@@ -2797,6 +3067,16 @@ export const TOPICS: Topic[] = [
           question: "Does \"Microbiome balancing\" help with IBS & IBD Gut Repair?",
           answer: "Yes \u2014 Microbiome balancing is one of the natural approaches recommended for IBS & IBD Gut Repair.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is IBS & IBD Gut Repair?",
+          answer: "Calm Inflammation & Restore Gut Barrier",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain IBS & IBD Gut Repair in more depth?",
+          answer: "Irritable Bowel Syndrome (IBS) and Inflammatory Bowel Disease (IBD) demand a soothing, phase-based approach.",
+          category: "In-Depth"
       }
   ]
   },
@@ -2864,6 +3144,16 @@ export const TOPICS: Topic[] = [
           question: "Does \"Anti-inflammatory fats\" help with Post-Viral Recovery?",
           answer: "Yes \u2014 Anti-inflammatory fats is one of the natural approaches recommended for Post-Viral Recovery.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Post-Viral Recovery?",
+          answer: "Clear Inflammation & Reset Immunity",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain Post-Viral Recovery in more depth?",
+          answer: "Lingering post-viral symptoms are often caused by persistent low-grade immune activation.",
+          category: "In-Depth"
       }
   ]
   },
@@ -2931,6 +3221,16 @@ export const TOPICS: Topic[] = [
           question: "Does \"Dandelion root tea\" help with Kidney Health Support?",
           answer: "Yes \u2014 Dandelion root tea is one of the natural approaches recommended for Kidney Health Support.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Kidney Health Support?",
+          answer: "Optimize Renal Filtration & Lower Load",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain Kidney Health Support in more depth?",
+          answer: "Supporting the kidneys requires managing blood pressure and metabolic toxins.",
+          category: "In-Depth"
       }
   ]
   },
@@ -2998,6 +3298,16 @@ export const TOPICS: Topic[] = [
           question: "Does \"Hydration stability\" help with Migraine Relief?",
           answer: "Yes \u2014 Hydration stability is one of the natural approaches recommended for Migraine Relief.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Migraine Relief?",
+          answer: "Identify Triggers & Calm Neuro-Inflammation",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain Migraine Relief in more depth?",
+          answer: "Migraines are often triggered by neuro-vascular inflammation and energy deficits in brain cells.",
+          category: "In-Depth"
       }
   ]
   },
@@ -3065,6 +3375,16 @@ export const TOPICS: Topic[] = [
           question: "Does \"Gut health balance\" help with Pediatric ADHD Focus?",
           answer: "Yes \u2014 Gut health balance is one of the natural approaches recommended for Pediatric ADHD Focus.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Pediatric ADHD Focus?",
+          answer: "Calm Nervous System & Support Learning",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain Pediatric ADHD Focus in more depth?",
+          answer: "Supporting focus in children requires optimizing the gut-brain axis.",
+          category: "In-Depth"
       }
   ]
   },
@@ -3132,6 +3452,16 @@ export const TOPICS: Topic[] = [
           question: "Does \"Gentle mobility exercises\" help with Geriatric Strength Nutrition?",
           answer: "Yes \u2014 Gentle mobility exercises is one of the natural approaches recommended for Geriatric Strength Nutrition.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Geriatric Strength Nutrition?",
+          answer: "Prevent Muscle Loss & Support Mobility",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain Geriatric Strength Nutrition in more depth?",
+          answer: "Maintaining mobility in golden years requires preventing muscle wasting.",
+          category: "In-Depth"
       }
   ]
   },
@@ -3199,6 +3529,16 @@ export const TOPICS: Topic[] = [
           question: "Does \"Iron-rich plants\" help with Pregnancy Nutrition Support?",
           answer: "Yes \u2014 Iron-rich plants is one of the natural approaches recommended for Pregnancy Nutrition Support.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Pregnancy Nutrition Support?",
+          answer: "Support Fetal Growth & Maternal Vitality",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain Pregnancy Nutrition Support in more depth?",
+          answer: "A healthy pregnancy requires premium building blocks for the growing baby.",
+          category: "In-Depth"
       }
   ]
   },
@@ -3266,6 +3606,16 @@ export const TOPICS: Topic[] = [
           question: "Does \"Morning sunlight\" help with Sleep & Circadian Reset?",
           answer: "Yes \u2014 Morning sunlight is one of the natural approaches recommended for Sleep & Circadian Reset.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Sleep & Circadian Reset?",
+          answer: "Align Melatonin & Reset Cellular Rhythm",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain Sleep & Circadian Reset in more depth?",
+          answer: "Sleep is the master repair cycle of our cells.",
+          category: "In-Depth"
       }
   ]
   },
@@ -3333,6 +3683,16 @@ export const TOPICS: Topic[] = [
           question: "Does \"Low-inflammatory diet\" help with Fibromyalgia Management?",
           answer: "Yes \u2014 Low-inflammatory diet is one of the natural approaches recommended for Fibromyalgia Management.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Fibromyalgia Management?",
+          answer: "Reduce Chronic Pain & Nerve Hypersensitivity",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain Fibromyalgia Management in more depth?",
+          answer: "Managing fibromyalgia requires calming an overstimulated central nervous system.",
+          category: "In-Depth"
       }
   ]
   },
@@ -3400,6 +3760,16 @@ export const TOPICS: Topic[] = [
           question: "Does \"Fresh food sourcing\" help with Histamine Intolerance Care?",
           answer: "Yes \u2014 Fresh food sourcing is one of the natural approaches recommended for Histamine Intolerance Care.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Histamine Intolerance Care?",
+          answer: "Lower Histamine Load & Support DAO Enzyme",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain Histamine Intolerance Care in more depth?",
+          answer: "Histamine intolerance occurs when the body's capacity to break down histamine is overloaded.",
+          category: "In-Depth"
       }
   ]
   },
@@ -3467,6 +3837,16 @@ export const TOPICS: Topic[] = [
           question: "Does \"Systemic anti-inflammatory diet\" help with Hashimoto's Thyroid Care?",
           answer: "Yes \u2014 Systemic anti-inflammatory diet is one of the natural approaches recommended for Hashimoto's Thyroid Care.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Hashimoto's Thyroid Care?",
+          answer: "Reduce Antibodies & Protect Thyroid Cells",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain Hashimoto's Thyroid Care in more depth?",
+          answer: "Calming thyroid autoimmunity requires reducing systemic antibodies.",
+          category: "In-Depth"
       }
   ]
   },
@@ -3534,6 +3914,16 @@ export const TOPICS: Topic[] = [
           question: "Does \"Mineral-rich local grains\" help with Pediatric Immunity & Growth?",
           answer: "Yes \u2014 Mineral-rich local grains is one of the natural approaches recommended for Pediatric Immunity & Growth.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Pediatric Immunity & Growth?",
+          answer: "Build Resilient Children Naturally",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain Pediatric Immunity & Growth in more depth?",
+          answer: "Building a strong foundation for kids requires clean cellular fuel.",
+          category: "In-Depth"
       }
   ]
   },
@@ -3601,6 +3991,16 @@ export const TOPICS: Topic[] = [
           question: "Does \"Soluble binders\" help with Liver Detox Pathways?",
           answer: "Yes \u2014 Soluble binders is one of the natural approaches recommended for Liver Detox Pathways.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Liver Detox Pathways?",
+          answer: "Optimize Phase 1 & Phase 2 Detoxification",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain Liver Detox Pathways in more depth?",
+          answer: "The liver detoxifies chemicals through a two-phase enzymatic process.",
+          category: "In-Depth"
       }
   ]
   },
@@ -3712,6 +4112,31 @@ export const TOPICS: Topic[] = [
           question: "Does \"Quinoa power bowls\" help with Vegan Recipes & Circadian Cooking?",
           answer: "Yes \u2014 Quinoa power bowls is one of the natural approaches recommended for Vegan Recipes & Circadian Cooking.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Vegan Recipes & Circadian Cooking?",
+          answer: "Nutrient-Dense, Circadian-Aligned Vegan Meals",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain Vegan Recipes & Circadian Cooking in more depth?",
+          answer: "Circadian vegan cooking optimizes cellular vitality by aligning whole-food plant ingredients with daylight metabolic cycles.",
+          category: "In-Depth"
+      },
+      {
+          question: "What's a pro tip for: Quick & Easy Weeknight Vegan Dinners?",
+          answer: "Prep your sauces and grain bases on Sunday to minimize prep time during high-stress weekdays.",
+          category: "Pro Tip"
+      },
+      {
+          question: "What's a pro tip for: High-Protein Plant-Based Meal Prep?",
+          answer: "Always sprout your seeds and legumes to reduce phytic acid and double their mineral availability.",
+          category: "Pro Tip"
+      },
+      {
+          question: "Dairy-Free Desserts and Vegan Baking?",
+          answer: "Baking without butter or eggs requires food-science hacks to achieve structural bind and rise without compromising insulin markers. Low-glycemic baking substitutes: Aquafaba for egg-white whipping action.; Chia seeds or flax meal gel for moisture and structural binding.; Almond meal and green banana flour for gut-healthy prebiotic fiber..",
+          category: "Deep Dive"
       }
   ]
   },
@@ -3823,6 +4248,31 @@ export const TOPICS: Topic[] = [
           question: "Does \"Cultured cashew cheeses\" help with Alternatives & Substitutes?",
           answer: "Yes \u2014 Cultured cashew cheeses is one of the natural approaches recommended for Alternatives & Substitutes.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Alternatives & Substitutes?",
+          answer: "Navigate Plant-Based Swaps with Precision",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain Alternatives & Substitutes in more depth?",
+          answer: "Transitioning to a vegan lifestyle is made simple through scientific substitutions.",
+          category: "In-Depth"
+      },
+      {
+          question: "What's a pro tip for: Baking Without Eggs?",
+          answer: "For recipes needing leavening, combine apple cider vinegar and baking soda to create a quick, fluffy rise.",
+          category: "Pro Tip"
+      },
+      {
+          question: "What's a pro tip for: Comparing Plant Milks?",
+          answer: "Look for unsweetened, gums-free varieties to prevent gut wall irritation and glucose spikes.",
+          category: "Pro Tip"
+      },
+      {
+          question: "Grilling & Savory Swaps?",
+          answer: "Umami flavors and fibrous textures can be achieved naturally without relying on heavily processed mock meats. Whole-food savory replacements: Jackfruit: Shredded texture replicates pulled meat in slow-cooked stews.; Tempeh: Firm, fermented soybean block ideal for grilling and stir-fries.; Portobello mushrooms: Fleshy cap rich in natural glutamates for depth of flavor..",
+          category: "Deep Dive"
       }
   ]
   },
@@ -3934,6 +4384,31 @@ export const TOPICS: Topic[] = [
           question: "Does \"Iron paired with Vitamin C\" help with Health & Nutrition Protocols?",
           answer: "Yes \u2014 Iron paired with Vitamin C is one of the natural approaches recommended for Health & Nutrition Protocols.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Health & Nutrition Protocols?",
+          answer: "Maximize Bioavailability & Cellular Recovery",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain Health & Nutrition Protocols in more depth?",
+          answer: "Our clinical vegan nutrition protocol addresses cellular uptake and bioavailability.",
+          category: "In-Depth"
+      },
+      {
+          question: "What's a pro tip for: Essential Supplements for Vegans?",
+          answer: "Take your Vitamin B12 as methylcobalamin for superior sublingual absorption and biochemical utilization.",
+          category: "Pro Tip"
+      },
+      {
+          question: "What's a pro tip for: Complete Protein Profiling?",
+          answer: "You do not need to eat complete proteins at every meal; consuming a variety of plant foods over 24 hours is sufficient.",
+          category: "Pro Tip"
+      },
+      {
+          question: "Calcium & Iron Absorption?",
+          answer: "Phytic acid and oxalates in raw spinach and unsprouted grains can bind minerals, preventing their gut absorption. Bioavailability accelerators: Iron absorption: Pair iron-rich lentils with lemon juice or bell peppers.; Calcium source: Choose low-oxalate greens like kale and bok choy over spinach.; Phytate reduction: Soak grains and legumes for 12 hours prior to boiling..",
+          category: "Deep Dive"
       }
   ]
   },
@@ -4045,6 +4520,31 @@ export const TOPICS: Topic[] = [
           question: "Does \"Leaping Bunny cosmetics\" help with Lifestyle & Fashion?",
           answer: "Yes \u2014 Leaping Bunny cosmetics is one of the natural approaches recommended for Lifestyle & Fashion.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Lifestyle & Fashion?",
+          answer: "Cruelty-Free Living & Sustainable Fabric Systems",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain Lifestyle & Fashion in more depth?",
+          answer: "A holistic vegan lifestyle extends beyond nutrition into your daily surroundings.",
+          category: "In-Depth"
+      },
+      {
+          question: "What's a pro tip for: Cruelty-Free Beauty Labels?",
+          answer: "Look for USDA Organic stamps on cosmetics to ensure you are not absorbing synthetic pesticides through your skin.",
+          category: "Pro Tip"
+      },
+      {
+          question: "What's a pro tip for: Sustainable Vegan Fabrics?",
+          answer: "Wash synthetic fabrics in filtering bags to capture microplastics and protect our waterways.",
+          category: "Pro Tip"
+      },
+      {
+          question: "Non-Toxic Home Cleaning?",
+          answer: "Traditional cleaning agents release volatile organic compounds (VOCs) that irritate the lungs and disrupt gut microflora. Natural home ingredients: White vinegar: Excellent for dissolving mineral deposits and cleaning windows.; Baking soda: Mild abrasive ideal for scrubbing sinks and ovens.; Citrus peels: Infused in vinegar to create a refreshing antimicrobial spray..",
+          category: "Deep Dive"
       }
   ]
   },
@@ -4156,6 +4656,31 @@ export const TOPICS: Topic[] = [
           question: "Does \"Assertive restaurant ordering scripts\" help with Dining & Travel?",
           answer: "Yes \u2014 Assertive restaurant ordering scripts is one of the natural approaches recommended for Dining & Travel.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Dining & Travel?",
+          answer: "Master Vegan Travel & Dining Scripts",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain Dining & Travel in more depth?",
+          answer: "Dining out and traveling should not compromise your metabolic health.",
+          category: "In-Depth"
+      },
+      {
+          question: "What's a pro tip for: Finding Vegan Food Globally?",
+          answer: "Download offline maps of your destination so you can locate food options even without cellular service.",
+          category: "Pro Tip"
+      },
+      {
+          question: "What's a pro tip for: Fast Food Survival Guide?",
+          answer: "Always check if French fries are fried in shared animal fat or beef flavoring before ordering.",
+          category: "Pro Tip"
+      },
+      {
+          question: "Ordering in Non-Vegan Restaurants?",
+          answer: "Polite, clear, and specific requests help kitchen staff understand your dietary boundaries without confusion. Effective communication tips: State boundaries clearly: \"I eat a strict plant-based diet containing no meat, fish, dairy, eggs, or butter.\"; Suggest simple swaps: Ask to replace butter with extra virgin olive oil on vegetables.; Look for naturally vegan cuisines: Indian, Ethiopian, and Thai menus are naturally rich in plant-based options..",
+          category: "Deep Dive"
       }
   ]
   },
@@ -4268,6 +4793,31 @@ export const TOPICS: Topic[] = [
           question: "Does \"Pantry staples list\" help with Beginner Guides?",
           answer: "Yes \u2014 Pantry staples list is one of the natural approaches recommended for Beginner Guides.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Beginner Guides?",
+          answer: "Construct Your Clean Plant-Based Foundation",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain Beginner Guides in more depth?",
+          answer: "Starting your vegan journey is a powerful choice for long-term health.",
+          category: "In-Depth"
+      },
+      {
+          question: "What's a pro tip for: Pantry Staple Checklist?",
+          answer: "Store ground flaxseeds and chia seeds in the refrigerator to prevent their delicate Omega-3 oils from oxidizing.",
+          category: "Pro Tip"
+      },
+      {
+          question: "What's a pro tip for: 30-Day Transition Timeline?",
+          answer: "Focus on what you are adding to your plate (fiber, color, nutrients) rather than what you are removing.",
+          category: "Pro Tip"
+      },
+      {
+          question: "Overcoming Cravings?",
+          answer: "Cravings for dairy and meat are often caused by natural sodium deficiencies or gut bacteria signaling for familiar processed foods. Metabolic hacks to stop cravings: Cheese cravings: Use nutritional yeast for a cheesy, vitamin-B-rich flavor.; Meat cravings: Eat smoked paprika, tamari, and mushrooms for savory depth.; Sweet cravings: Choose whole fruits (berries, apples) paired with raw almonds..",
+          category: "Deep Dive"
       }
   ]
   },
@@ -4379,6 +4929,31 @@ export const TOPICS: Topic[] = [
           question: "Does \"Unsweetened meal kits\" help with Product Reviews & Testing?",
           answer: "Yes \u2014 Unsweetened meal kits is one of the natural approaches recommended for Product Reviews & Testing.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Product Reviews & Testing?",
+          answer: "Unbiased Clinical Evaluations of Vegan Products",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain Product Reviews & Testing in more depth?",
+          answer: "We provide objective evaluations of popular plant-based products.",
+          category: "In-Depth"
+      },
+      {
+          question: "What's a pro tip for: Testing Vegan Protein Powders?",
+          answer: "Opt for unflavored pea or hemp protein isolates and sweeten them naturally with half a ripe banana.",
+          category: "Pro Tip"
+      },
+      {
+          question: "What's a pro tip for: Meal Delivery Services?",
+          answer: "If your meal kit comes with a processed sauce packet, replace it with fresh lemon juice and cold-pressed olive oil.",
+          category: "Pro Tip"
+      },
+      {
+          question: "Essential Kitchen Tools?",
+          answer: "Investing in key kitchen appliances simplifies plant-based cooking and helps you prepare textures you love. Must-have vegan kitchen tools: High-Speed Blender: Essential for creating creamy nut sauces and green smoothies.; Food Processor: Perfect for making home-made hummus, veggie burgers, and nut butter.; Instant Pot: Drastically cuts down cooking time for dried beans and lentils..",
+          category: "Deep Dive"
       }
   ]
   },
@@ -4490,6 +5065,31 @@ export const TOPICS: Topic[] = [
           question: "Does \"Local option advocacy templates\" help with News & Environmental Science?",
           answer: "Yes \u2014 Local option advocacy templates is one of the natural approaches recommended for News & Environmental Science.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is News & Environmental Science?",
+          answer: "Track Climate Impact & Food Technology Advances",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain News & Environmental Science in more depth?",
+          answer: "The plant-based transition is shaping the future of global food systems.",
+          category: "In-Depth"
+      },
+      {
+          question: "What's a pro tip for: Climate Impact of Agriculture?",
+          answer: "Transitioning to a plant-based diet is the single most effective action an individual can take to lower their personal carbon footprint.",
+          category: "Pro Tip"
+      },
+      {
+          question: "What's a pro tip for: Community Advocacy Models?",
+          answer: "Focus your advocacy on positive health benefits and food pleasure to attract a wider, curious audience.",
+          category: "Pro Tip"
+      },
+      {
+          question: "Next-Gen Food Technology?",
+          answer: "Scientific breakthroughs in molecular biology are allowing companies to brew milk proteins and grow meat cells without animals. Innovative food-tech sectors: Precision Fermentation: Using micro-flora to brew real whey and casein proteins.; Cellular Agriculture: Growing meat directly from animal cells in clean bioreactors.; Plant-Based Structuring: Using high-moisture extrusion to mimic meat muscle fibers..",
+          category: "Deep Dive"
       }
   ]
   },
@@ -16239,6 +16839,31 @@ export const TOPICS: Topic[] = [
           question: "Does \"Quinoa power bowls\" help with Vegan Recipes & Circadian Cooking?",
           answer: "Yes \u2014 Quinoa power bowls is one of the natural approaches recommended for Vegan Recipes & Circadian Cooking.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Vegan Recipes & Circadian Cooking?",
+          answer: "Nutrient-Dense, Circadian-Aligned Vegan Meals",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain Vegan Recipes & Circadian Cooking in more depth?",
+          answer: "Circadian vegan cooking optimizes cellular vitality by aligning whole-food plant ingredients with daylight metabolic cycles.",
+          category: "In-Depth"
+      },
+      {
+          question: "What's a pro tip for: Quick & Easy Weeknight Vegan Dinners?",
+          answer: "Prep your sauces and grain bases on Sunday to minimize prep time during high-stress weekdays.",
+          category: "Pro Tip"
+      },
+      {
+          question: "What's a pro tip for: High-Protein Plant-Based Meal Prep?",
+          answer: "Always sprout your seeds and legumes to reduce phytic acid and double their mineral availability.",
+          category: "Pro Tip"
+      },
+      {
+          question: "Dairy-Free Desserts and Vegan Baking?",
+          answer: "Baking without butter or eggs requires food-science hacks to achieve structural bind and rise without compromising insulin markers. Low-glycemic baking substitutes: Aquafaba for egg-white whipping action.; Chia seeds or flax meal gel for moisture and structural binding.; Almond meal and green banana flour for gut-healthy prebiotic fiber..",
+          category: "Deep Dive"
       }
   ],
     aiSummaryBlock: {
@@ -16369,6 +16994,31 @@ export const TOPICS: Topic[] = [
           question: "Does \"Cultured cashew cheeses\" help with Alternatives & Substitutes?",
           answer: "Yes \u2014 Cultured cashew cheeses is one of the natural approaches recommended for Alternatives & Substitutes.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Alternatives & Substitutes?",
+          answer: "Navigate Plant-Based Swaps with Precision",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain Alternatives & Substitutes in more depth?",
+          answer: "Transitioning to a vegan lifestyle is made simple through scientific substitutions.",
+          category: "In-Depth"
+      },
+      {
+          question: "What's a pro tip for: Baking Without Eggs?",
+          answer: "For recipes needing leavening, combine apple cider vinegar and baking soda to create a quick, fluffy rise.",
+          category: "Pro Tip"
+      },
+      {
+          question: "What's a pro tip for: Comparing Plant Milks?",
+          answer: "Look for unsweetened, gums-free varieties to prevent gut wall irritation and glucose spikes.",
+          category: "Pro Tip"
+      },
+      {
+          question: "Grilling & Savory Swaps?",
+          answer: "Umami flavors and fibrous textures can be achieved naturally without relying on heavily processed mock meats. Whole-food savory replacements: Jackfruit: Shredded texture replicates pulled meat in slow-cooked stews.; Tempeh: Firm, fermented soybean block ideal for grilling and stir-fries.; Portobello mushrooms: Fleshy cap rich in natural glutamates for depth of flavor..",
+          category: "Deep Dive"
       }
   ],
     aiSummaryBlock: {
@@ -16487,6 +17137,31 @@ export const TOPICS: Topic[] = [
           question: "Does \"Iron paired with Vitamin C\" help with Health & Nutrition Protocols?",
           answer: "Yes \u2014 Iron paired with Vitamin C is one of the natural approaches recommended for Health & Nutrition Protocols.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Health & Nutrition Protocols?",
+          answer: "Maximize Bioavailability & Cellular Recovery",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain Health & Nutrition Protocols in more depth?",
+          answer: "Our clinical vegan nutrition protocol addresses cellular uptake and bioavailability.",
+          category: "In-Depth"
+      },
+      {
+          question: "What's a pro tip for: Essential Supplements for Vegans?",
+          answer: "Take your Vitamin B12 as methylcobalamin for superior sublingual absorption and biochemical utilization.",
+          category: "Pro Tip"
+      },
+      {
+          question: "What's a pro tip for: Complete Protein Profiling?",
+          answer: "You do not need to eat complete proteins at every meal; consuming a variety of plant foods over 24 hours is sufficient.",
+          category: "Pro Tip"
+      },
+      {
+          question: "Calcium & Iron Absorption?",
+          answer: "Phytic acid and oxalates in raw spinach and unsprouted grains can bind minerals, preventing their gut absorption. Bioavailability accelerators: Iron absorption: Pair iron-rich lentils with lemon juice or bell peppers.; Calcium source: Choose low-oxalate greens like kale and bok choy over spinach.; Phytate reduction: Soak grains and legumes for 12 hours prior to boiling..",
+          category: "Deep Dive"
       }
   ],
     aiSummaryBlock: {
@@ -16603,6 +17278,31 @@ export const TOPICS: Topic[] = [
           question: "Does \"Leaping Bunny cosmetics\" help with Lifestyle & Fashion?",
           answer: "Yes \u2014 Leaping Bunny cosmetics is one of the natural approaches recommended for Lifestyle & Fashion.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Lifestyle & Fashion?",
+          answer: "Cruelty-Free Living & Sustainable Fabric Systems",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain Lifestyle & Fashion in more depth?",
+          answer: "A holistic vegan lifestyle extends beyond nutrition into your daily surroundings.",
+          category: "In-Depth"
+      },
+      {
+          question: "What's a pro tip for: Cruelty-Free Beauty Labels?",
+          answer: "Look for USDA Organic stamps on cosmetics to ensure you are not absorbing synthetic pesticides through your skin.",
+          category: "Pro Tip"
+      },
+      {
+          question: "What's a pro tip for: Sustainable Vegan Fabrics?",
+          answer: "Wash synthetic fabrics in filtering bags to capture microplastics and protect our waterways.",
+          category: "Pro Tip"
+      },
+      {
+          question: "Non-Toxic Home Cleaning?",
+          answer: "Traditional cleaning agents release volatile organic compounds (VOCs) that irritate the lungs and disrupt gut microflora. Natural home ingredients: White vinegar: Excellent for dissolving mineral deposits and cleaning windows.; Baking soda: Mild abrasive ideal for scrubbing sinks and ovens.; Citrus peels: Infused in vinegar to create a refreshing antimicrobial spray..",
+          category: "Deep Dive"
       }
   ],
     aiSummaryBlock: {
@@ -16705,6 +17405,31 @@ export const TOPICS: Topic[] = [
           question: "Does \"Assertive restaurant ordering scripts\" help with Dining & Travel?",
           answer: "Yes \u2014 Assertive restaurant ordering scripts is one of the natural approaches recommended for Dining & Travel.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Dining & Travel?",
+          answer: "Master Vegan Travel & Dining Scripts",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain Dining & Travel in more depth?",
+          answer: "Dining out and traveling should not compromise your metabolic health.",
+          category: "In-Depth"
+      },
+      {
+          question: "What's a pro tip for: Finding Vegan Food Globally?",
+          answer: "Download offline maps of your destination so you can locate food options even without cellular service.",
+          category: "Pro Tip"
+      },
+      {
+          question: "What's a pro tip for: Fast Food Survival Guide?",
+          answer: "Always check if French fries are fried in shared animal fat or beef flavoring before ordering.",
+          category: "Pro Tip"
+      },
+      {
+          question: "Ordering in Non-Vegan Restaurants?",
+          answer: "Polite, clear, and specific requests help kitchen staff understand your dietary boundaries without confusion. Effective communication tips: State boundaries clearly: \"I eat a strict plant-based diet containing no meat, fish, dairy, eggs, or butter.\"; Suggest simple swaps: Ask to replace butter with extra virgin olive oil on vegetables.; Look for naturally vegan cuisines: Indian, Ethiopian, and Thai menus are naturally rich in plant-based options..",
+          category: "Deep Dive"
       }
   ],
     aiSummaryBlock: {
@@ -16807,6 +17532,31 @@ export const TOPICS: Topic[] = [
           question: "Does \"Pantry staples list\" help with Beginner Guides?",
           answer: "Yes \u2014 Pantry staples list is one of the natural approaches recommended for Beginner Guides.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Beginner Guides?",
+          answer: "Construct Your Clean Plant-Based Foundation",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain Beginner Guides in more depth?",
+          answer: "Starting your vegan journey is a powerful choice for long-term health.",
+          category: "In-Depth"
+      },
+      {
+          question: "What's a pro tip for: Pantry Staple Checklist?",
+          answer: "Store ground flaxseeds and chia seeds in the refrigerator to prevent their delicate Omega-3 oils from oxidizing.",
+          category: "Pro Tip"
+      },
+      {
+          question: "What's a pro tip for: 30-Day Transition Timeline?",
+          answer: "Focus on what you are adding to your plate (fiber, color, nutrients) rather than what you are removing.",
+          category: "Pro Tip"
+      },
+      {
+          question: "Overcoming Cravings?",
+          answer: "Cravings for dairy and meat are often caused by natural sodium deficiencies or gut bacteria signaling for familiar processed foods. Metabolic hacks to stop cravings: Cheese cravings: Use nutritional yeast for a cheesy, vitamin-B-rich flavor.; Meat cravings: Eat smoked paprika, tamari, and mushrooms for savory depth.; Sweet cravings: Choose whole fruits (berries, apples) paired with raw almonds..",
+          category: "Deep Dive"
       }
   ],
     aiSummaryBlock: {
@@ -16910,6 +17660,31 @@ export const TOPICS: Topic[] = [
           question: "Does \"Unsweetened meal kits\" help with Product Reviews & Testing?",
           answer: "Yes \u2014 Unsweetened meal kits is one of the natural approaches recommended for Product Reviews & Testing.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Product Reviews & Testing?",
+          answer: "Unbiased Clinical Evaluations of Vegan Products",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain Product Reviews & Testing in more depth?",
+          answer: "We provide objective evaluations of popular plant-based products.",
+          category: "In-Depth"
+      },
+      {
+          question: "What's a pro tip for: Testing Vegan Protein Powders?",
+          answer: "Opt for unflavored pea or hemp protein isolates and sweeten them naturally with half a ripe banana.",
+          category: "Pro Tip"
+      },
+      {
+          question: "What's a pro tip for: Meal Delivery Services?",
+          answer: "If your meal kit comes with a processed sauce packet, replace it with fresh lemon juice and cold-pressed olive oil.",
+          category: "Pro Tip"
+      },
+      {
+          question: "Essential Kitchen Tools?",
+          answer: "Investing in key kitchen appliances simplifies plant-based cooking and helps you prepare textures you love. Must-have vegan kitchen tools: High-Speed Blender: Essential for creating creamy nut sauces and green smoothies.; Food Processor: Perfect for making home-made hummus, veggie burgers, and nut butter.; Instant Pot: Drastically cuts down cooking time for dried beans and lentils..",
+          category: "Deep Dive"
       }
   ],
     aiSummaryBlock: {
@@ -17012,6 +17787,31 @@ export const TOPICS: Topic[] = [
           question: "Does \"Local option advocacy templates\" help with News & Environmental Science?",
           answer: "Yes \u2014 Local option advocacy templates is one of the natural approaches recommended for News & Environmental Science.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is News & Environmental Science?",
+          answer: "Track Climate Impact & Food Technology Advances",
+          category: "Overview"
+      },
+      {
+          question: "Can you explain News & Environmental Science in more depth?",
+          answer: "The plant-based transition is shaping the future of global food systems.",
+          category: "In-Depth"
+      },
+      {
+          question: "What's a pro tip for: Climate Impact of Agriculture?",
+          answer: "Transitioning to a plant-based diet is the single most effective action an individual can take to lower their personal carbon footprint.",
+          category: "Pro Tip"
+      },
+      {
+          question: "What's a pro tip for: Community Advocacy Models?",
+          answer: "Focus your advocacy on positive health benefits and food pleasure to attract a wider, curious audience.",
+          category: "Pro Tip"
+      },
+      {
+          question: "Next-Gen Food Technology?",
+          answer: "Scientific breakthroughs in molecular biology are allowing companies to brew milk proteins and grow meat cells without animals. Innovative food-tech sectors: Precision Fermentation: Using micro-flora to brew real whey and casein proteins.; Cellular Agriculture: Growing meat directly from animal cells in clean bioreactors.; Plant-Based Structuring: Using high-moisture extrusion to mimic meat muscle fibers..",
+          category: "Deep Dive"
       }
   ],
     aiSummaryBlock: {

@@ -61,6 +61,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Turmeric combine well with Ginger?",
           answer: "Yes \u2014 Turmeric pairs well with Ginger.",
           category: "Synergies"
+      },
+      {
+          question: "How is Turmeric used in cooking?",
+          answer: "Turmeric is commonly used in: Curries, golden milk, spice blends.",
+          category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Turmeric?",
+          answer: "Turmeric is traditionally used for: Joint pain relief, systemic anti-inflammatory, immunity boost.",
+          category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Turmeric known by?",
+          answer: "Turmeric is also known as Haldi, Haridra, Yellow Root.",
+          category: "Identification"
+      },
+      {
+          question: "Where does Turmeric originate from?",
+          answer: "Turmeric originates from Tropical India.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Turmeric belong to?",
+          answer: "Turmeric belongs to the Zingiberaceae family.",
+          category: "Identification"
       }
   ],
     citations: [
@@ -209,6 +234,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Ashwagandha combine well with Nutmeg?",
           answer: "Yes \u2014 Ashwagandha pairs well with Nutmeg (for enhanced sleep induction).",
           category: "Synergies"
+      },
+      {
+          question: "How is Ashwagandha used in cooking?",
+          answer: "Ashwagandha is commonly used in: Minimal due to bitter taste; mixed in moon milks or warm tonic drinks.",
+          category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Ashwagandha?",
+          answer: "Ashwagandha is traditionally used for: Stress relief, testosterone support, sleep aid, adrenal modulation.",
+          category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Ashwagandha known by?",
+          answer: "Ashwagandha is also known as Indian Ginseng, Winter Cherry.",
+          category: "Identification"
+      },
+      {
+          question: "Where does Ashwagandha originate from?",
+          answer: "Ashwagandha originates from India.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Ashwagandha belong to?",
+          answer: "Ashwagandha belongs to the Solanaceae family.",
+          category: "Identification"
       }
   ],
     citations: [
@@ -350,6 +400,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Ceylon Cinnamon combine well with Apple Cider Vinegar?",
           answer: "Yes \u2014 Ceylon Cinnamon pairs well with Apple Cider Vinegar (ACV).",
           category: "Synergies"
+      },
+      {
+          question: "How is Ceylon Cinnamon used in cooking?",
+          answer: "Ceylon Cinnamon is commonly used in: Baking, curries, masala chai, garam masala.",
+          category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Ceylon Cinnamon?",
+          answer: "Ceylon Cinnamon is traditionally used for: Insulin sensitivity, antioxidant support, circulation promoter.",
+          category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Ceylon Cinnamon known by?",
+          answer: "Ceylon Cinnamon is also known as True Cinnamon, Dalchini.",
+          category: "Identification"
+      },
+      {
+          question: "Where does Ceylon Cinnamon originate from?",
+          answer: "Ceylon Cinnamon originates from Sri Lanka / Southern India.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Ceylon Cinnamon belong to?",
+          answer: "Ceylon Cinnamon belongs to the Lauraceae family.",
+          category: "Identification"
       }
   ],
     citations: [
@@ -491,6 +566,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Ginger combine well with Raw Honey?",
           answer: "Yes \u2014 Ginger pairs well with Raw Honey (adds enzymatic support).",
           category: "Synergies"
+      },
+      {
+          question: "How is Ginger used in cooking?",
+          answer: "Ginger is commonly used in: Stir-fries, baking, ginger tea, curries.",
+          category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Ginger?",
+          answer: "Ginger is traditionally used for: Anti-nausea, digestive stimulation, joint pain relief.",
+          category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Ginger known by?",
+          answer: "Ginger is also known as Adrak, Sunthi (dried ginger).",
+          category: "Identification"
+      },
+      {
+          question: "Where does Ginger originate from?",
+          answer: "Ginger originates from Southeast Asia / India.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Ginger belong to?",
+          answer: "Ginger belongs to the Zingiberaceae family.",
+          category: "Identification"
       }
   ],
     citations: [
@@ -809,6 +909,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Fenugreek combine well with Ginger?",
           answer: "Yes \u2014 Fenugreek pairs well with Ginger.",
           category: "Synergies"
+      },
+      {
+          question: "How is Fenugreek used in cooking?",
+          answer: "Fenugreek is commonly used in: Methi thepla, curries, tadka, sprouted seed salads.",
+          category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Fenugreek?",
+          answer: "Fenugreek is traditionally used for: Blood sugar regulation, lactation support, digestive relief.",
+          category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Fenugreek known by?",
+          answer: "Fenugreek is also known as Methi, Dana Methi.",
+          category: "Identification"
+      },
+      {
+          question: "Where does Fenugreek originate from?",
+          answer: "Fenugreek originates from India / Mediterranean.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Fenugreek belong to?",
+          answer: "Fenugreek belongs to the Fabaceae family.",
+          category: "Identification"
       }
   ],
     citations: [
@@ -949,6 +1074,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Holy Basil (Tulsi) combine well with Ginger?",
           answer: "Yes \u2014 Holy Basil (Tulsi) pairs well with Ginger.",
           category: "Synergies"
+      },
+      {
+          question: "How is Holy Basil (Tulsi) used in cooking?",
+          answer: "Holy Basil (Tulsi) is commonly used in: Herbal teas (Kadha), therapeutic infusions.",
+          category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Holy Basil (Tulsi)?",
+          answer: "Holy Basil (Tulsi) is traditionally used for: Immune support, stress reduction, respiratory health.",
+          category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Holy Basil (Tulsi) known by?",
+          answer: "Holy Basil (Tulsi) is also known as Tulsi, Sacred Basil.",
+          category: "Identification"
+      },
+      {
+          question: "Where does Holy Basil (Tulsi) originate from?",
+          answer: "Holy Basil (Tulsi) originates from Indian Subcontinent.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Holy Basil (Tulsi) belong to?",
+          answer: "Holy Basil (Tulsi) belongs to the Lamiaceae family.",
+          category: "Identification"
       }
   ],
     citations: [
@@ -1089,6 +1239,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Garlic combine well with Turmeric?",
           answer: "Yes \u2014 Garlic pairs well with Turmeric.",
           category: "Synergies"
+      },
+      {
+          question: "How is Garlic used in cooking?",
+          answer: "Garlic is commonly used in: Universal aromatic base for curries, tadkas, stews, and roasted dishes.",
+          category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Garlic?",
+          answer: "Garlic is traditionally used for: Hypertension support, natural prebiotic, antimicrobial.",
+          category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Garlic known by?",
+          answer: "Garlic is also known as Lahsun, Lashuna.",
+          category: "Identification"
+      },
+      {
+          question: "Where does Garlic originate from?",
+          answer: "Garlic originates from Central Asia / India.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Garlic belong to?",
+          answer: "Garlic belongs to the Amaryllidaceae family.",
+          category: "Identification"
       }
   ],
     citations: [
@@ -1251,6 +1426,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "What are the medicinal uses of Mint?",
           answer: "Mint is traditionally used for: Digestion aid, breath freshener, cooling effect, irritable bowel support.",
           category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Mint known by?",
+          answer: "Mint is also known as Peppermint, Spearmint, Pudina.",
+          category: "Identification"
+      },
+      {
+          question: "Where does Mint originate from?",
+          answer: "Mint originates from Mediterranean.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Mint belong to?",
+          answer: "Mint belongs to the Lamiaceae family.",
+          category: "Identification"
+      },
+      {
+          question: "What growing conditions does Mint need?",
+          answer: "Mint needs Partial/Full sun, High water, and Moist, well-draining soil. Harvest window: Anytime.",
+          category: "Growing Conditions"
+      },
+      {
+          question: "What is the nutritional profile of Mint?",
+          answer: "Per 1 tbsp fresh mint (approx. 1.6g), Mint provides Vitamin A (2% of DV), Iron (1% of DV), per USDA FoodData Central.",
+          category: "Nutrition"
       }
   ],
     image: 'https://images.unsplash.com/photo-1596040033229-a9821ebd058d?q=80&w=800',
@@ -1414,6 +1614,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "What are the medicinal uses of Coriander (Cilantro)?",
           answer: "Coriander (Cilantro) is traditionally used for: Blood sugar regulation, digestion support, heavy metal chelation.",
           category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Coriander (Cilantro) known by?",
+          answer: "Coriander (Cilantro) is also known as Cilantro, Chinese Parsley, Dhania.",
+          category: "Identification"
+      },
+      {
+          question: "Where does Coriander (Cilantro) originate from?",
+          answer: "Coriander (Cilantro) originates from Southern Europe/North Africa.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Coriander (Cilantro) belong to?",
+          answer: "Coriander (Cilantro) belongs to the Apiaceae family.",
+          category: "Identification"
+      },
+      {
+          question: "What growing conditions does Coriander (Cilantro) need?",
+          answer: "Coriander (Cilantro) needs Full/Sun sun, Moderate water, and Well-draining soil. Harvest window: 45-60 days.",
+          category: "Growing Conditions"
+      },
+      {
+          question: "What is the nutritional profile of Coriander (Cilantro)?",
+          answer: "Per 1/4 cup fresh cilantro (approx. 4g), Coriander (Cilantro) provides Vitamin K (16% of DV), Vitamin A (2% of DV), per USDA FoodData Central.",
+          category: "Nutrition"
       }
   ],
     image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=800',
@@ -1577,6 +1802,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "How is Basil used in cooking?",
           answer: "Basil is commonly used in: Pesto, pasta sauces, pizzas, Thai curries.",
           category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Basil?",
+          answer: "Basil is traditionally used for: Anti-inflammatory, adaptogenic (Tulsi), antimicrobial.",
+          category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Basil known by?",
+          answer: "Basil is also known as Sweet Basil, Genovese Basil.",
+          category: "Identification"
+      },
+      {
+          question: "Where does Basil originate from?",
+          answer: "Basil originates from Tropical Asia.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Basil belong to?",
+          answer: "Basil belongs to the Lamiaceae family.",
+          category: "Identification"
+      },
+      {
+          question: "What growing conditions does Basil need?",
+          answer: "Basil needs Full sun, Regular water, and Rich, moist soil. Harvest window: Top leaves first.",
+          category: "Growing Conditions"
       }
   ],
     image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=800',
@@ -1735,6 +1985,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "What are the medicinal uses of Rosemary?",
           answer: "Rosemary is traditionally used for: Memory enhancement, hair growth, scalp circulation, antioxidant.",
           category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Rosemary known by?",
+          answer: "Rosemary is also known as Salvia rosmarinus, Compass Plant.",
+          category: "Identification"
+      },
+      {
+          question: "Where does Rosemary originate from?",
+          answer: "Rosemary originates from Mediterranean.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Rosemary belong to?",
+          answer: "Rosemary belongs to the Lamiaceae family.",
+          category: "Identification"
+      },
+      {
+          question: "What growing conditions does Rosemary need?",
+          answer: "Rosemary needs Full sun, Low (drought tolerant) water, and Sandy, well-draining soil. Harvest window: Year-round.",
+          category: "Growing Conditions"
+      },
+      {
+          question: "What is the nutritional profile of Rosemary?",
+          answer: "Per 1 tsp fresh needle leaves (approx. 0.7g), Rosemary provides Fiber (0.1g), per USDA FoodData Central.",
+          category: "Nutrition"
       }
   ],
     image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=800',
@@ -1893,6 +2168,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "What are the medicinal uses of Lavender?",
           answer: "Lavender is traditionally used for: Anxiety relief, sleep aid, wound healing properties.",
           category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Lavender known by?",
+          answer: "Lavender is also known as English Lavender, True Lavender.",
+          category: "Identification"
+      },
+      {
+          question: "Where does Lavender originate from?",
+          answer: "Lavender originates from Mediterranean.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Lavender belong to?",
+          answer: "Lavender belongs to the Lamiaceae family.",
+          category: "Identification"
+      },
+      {
+          question: "What growing conditions does Lavender need?",
+          answer: "Lavender needs Full sun, Low water, and Gritty, well-draining soil. Harvest window: When buds open.",
+          category: "Growing Conditions"
+      },
+      {
+          question: "What is the nutritional profile of Lavender?",
+          answer: "Per 1 tsp dried culinary buds (approx. 1g), Lavender provides Iron (1% of DV), per USDA FoodData Central.",
+          category: "Nutrition"
       }
   ],
     image: 'https://images.unsplash.com/photo-1610970881699-44a5587caa9a?q=80&w=800',
@@ -2052,6 +2352,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "What are the medicinal uses of Oregano?",
           answer: "Oregano is traditionally used for: Antifungal, immune support, gut health, respiratory aid.",
           category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Oregano known by?",
+          answer: "Oregano is also known as Wild Marjoram.",
+          category: "Identification"
+      },
+      {
+          question: "Where does Oregano originate from?",
+          answer: "Oregano originates from Mediterranean.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Oregano belong to?",
+          answer: "Oregano belongs to the Lamiaceae family.",
+          category: "Identification"
+      },
+      {
+          question: "What growing conditions does Oregano need?",
+          answer: "Oregano needs Full sun, Low water, and Well-draining, rocky soil. Harvest window: Before flowering.",
+          category: "Growing Conditions"
+      },
+      {
+          question: "What is the nutritional profile of Oregano?",
+          answer: "Per 1 tsp dried oregano (approx. 1g), Oregano provides Calcium (1.5% of DV), Iron (2% of DV), per USDA FoodData Central.",
+          category: "Nutrition"
       }
   ],
     image: 'https://images.unsplash.com/photo-1541832676-9b763b0239ab?q=80&w=800',
@@ -2213,6 +2538,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "What are the medicinal uses of Thyme?",
           answer: "Thyme is traditionally used for: Cough suppressant, throat antiseptic, digestive relief.",
           category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Thyme known by?",
+          answer: "Thyme is also known as Common Thyme, Garden Thyme.",
+          category: "Identification"
+      },
+      {
+          question: "Where does Thyme originate from?",
+          answer: "Thyme originates from Mediterranean.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Thyme belong to?",
+          answer: "Thyme belongs to the Lamiaceae family.",
+          category: "Identification"
+      },
+      {
+          question: "What growing conditions does Thyme need?",
+          answer: "Thyme needs Full sun, Low water, and Sandy, well-draining soil. Harvest window: Spring/Summer.",
+          category: "Growing Conditions"
+      },
+      {
+          question: "What is the nutritional profile of Thyme?",
+          answer: "Per 1 tsp fresh thyme (approx. 0.8g), Thyme provides Vitamin C (1.5% of DV), per USDA FoodData Central.",
+          category: "Nutrition"
       }
   ],
     image: 'https://images.unsplash.com/photo-1541832676-9b763b0239ab?q=80&w=800',
@@ -2370,6 +2720,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "What are the medicinal uses of Parsley?",
           answer: "Parsley is traditionally used for: Kidney health, detoxification support, fresh breath.",
           category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Parsley known by?",
+          answer: "Parsley is also known as Flat-leaf Parsley, Curly Parsley.",
+          category: "Identification"
+      },
+      {
+          question: "Where does Parsley originate from?",
+          answer: "Parsley originates from Mediterranean.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Parsley belong to?",
+          answer: "Parsley belongs to the Apiaceae family.",
+          category: "Identification"
+      },
+      {
+          question: "What growing conditions does Parsley need?",
+          answer: "Parsley needs Full/Partial sun, Moderate water, and Rich, moist soil. Harvest window: 70-90 days.",
+          category: "Growing Conditions"
+      },
+      {
+          question: "What is the nutritional profile of Parsley?",
+          answer: "Per 1 tbsp fresh parsley (approx. 3.8g), Parsley provides Vitamin K (108% of DV), Vitamin C (9% of DV), Vitamin A (6% of DV), per USDA FoodData Central.",
+          category: "Nutrition"
       }
   ],
     image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=800',
@@ -2537,6 +2912,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "How is Echinacea used in cooking?",
           answer: "Echinacea is commonly used in: Herbal tea, tinctures.",
           category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Echinacea?",
+          answer: "Echinacea is traditionally used for: Immune support, shorter duration of cold symptoms.",
+          category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Echinacea known by?",
+          answer: "Echinacea is also known as Purple Coneflower.",
+          category: "Identification"
+      },
+      {
+          question: "Where does Echinacea originate from?",
+          answer: "Echinacea originates from North America.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Echinacea belong to?",
+          answer: "Echinacea belongs to the Asteraceae family.",
+          category: "Identification"
+      },
+      {
+          question: "What growing conditions does Echinacea need?",
+          answer: "Echinacea needs Full sun, Low/Medium water, and Well-draining soil. Harvest window: Roots/Flowers in fall.",
+          category: "Growing Conditions"
       }
   ],
     image: 'https://images.unsplash.com/photo-1628559253457-3bf71239c0dc?q=80&w=800',
@@ -2694,6 +3094,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "What are the medicinal uses of Lemon Balm?",
           answer: "Lemon Balm is traditionally used for: Anxiety relief, cognitive support, sleep enhancement.",
           category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Lemon Balm known by?",
+          answer: "Lemon Balm is also known as Sweet Balm, Melissa.",
+          category: "Identification"
+      },
+      {
+          question: "Where does Lemon Balm originate from?",
+          answer: "Lemon Balm originates from Mediterranean/Europe.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Lemon Balm belong to?",
+          answer: "Lemon Balm belongs to the Lamiaceae family.",
+          category: "Identification"
+      },
+      {
+          question: "What growing conditions does Lemon Balm need?",
+          answer: "Lemon Balm needs Partial shade sun, Moderate water, and Moist, well-draining soil. Harvest window: Anytime.",
+          category: "Growing Conditions"
+      },
+      {
+          question: "What is the nutritional profile of Lemon Balm?",
+          answer: "Per 2 tbsp chopped leaves (approx. 4g), Lemon Balm provides Vitamin C (1% of DV), per USDA FoodData Central.",
+          category: "Nutrition"
       }
   ],
     image: 'https://images.unsplash.com/photo-1610970881699-44a5587caa9a?q=80&w=800',
@@ -2852,6 +3277,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "What are the medicinal uses of Shiso (Perilla)?",
           answer: "Shiso (Perilla) is traditionally used for: Allergy relief, anti-inflammatory, digestive aid.",
           category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Shiso (Perilla) known by?",
+          answer: "Shiso (Perilla) is also known as Perilla, Sesame Leaf (common misnomer).",
+          category: "Identification"
+      },
+      {
+          question: "Where does Shiso (Perilla) originate from?",
+          answer: "Shiso (Perilla) originates from Southeast Asia.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Shiso (Perilla) belong to?",
+          answer: "Shiso (Perilla) belongs to the Lamiaceae family.",
+          category: "Identification"
+      },
+      {
+          question: "What growing conditions does Shiso (Perilla) need?",
+          answer: "Shiso (Perilla) needs Full/Partial sun, Moderate water, and Rich, well-draining soil. Harvest window: 60-80 days.",
+          category: "Growing Conditions"
+      },
+      {
+          question: "What is the nutritional profile of Shiso (Perilla)?",
+          answer: "Per 3 leaves shiso (approx. 3g), Shiso (Perilla) provides Calcium (1% of DV), per USDA FoodData Central.",
+          category: "Nutrition"
       }
   ],
     image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=800',
@@ -3010,6 +3460,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "What are the medicinal uses of Hibiscus?",
           answer: "Hibiscus is traditionally used for: Lowering blood pressure (hypertension), liver protection, kidney flush.",
           category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Hibiscus known by?",
+          answer: "Hibiscus is also known as Roselle, Sorrel (in Caribbean).",
+          category: "Identification"
+      },
+      {
+          question: "Where does Hibiscus originate from?",
+          answer: "Hibiscus originates from West Africa / Tropical Regions.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Hibiscus belong to?",
+          answer: "Hibiscus belongs to the Malvaceae family.",
+          category: "Identification"
+      },
+      {
+          question: "What growing conditions does Hibiscus need?",
+          answer: "Hibiscus needs Full sun, Moderate/High water, and Rich, well-draining soil. Harvest window: Calyces after flowering.",
+          category: "Growing Conditions"
+      },
+      {
+          question: "What is the nutritional profile of Hibiscus?",
+          answer: "Per 1 cup brewed unsweetened tea (approx. 240g), Hibiscus provides Vitamin C (1% of DV), per USDA FoodData Central.",
+          category: "Nutrition"
       }
   ],
     image: 'https://images.unsplash.com/photo-1610970881699-44a5587caa9a?q=80&w=800',
@@ -3170,6 +3645,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "How is Valerian Root used in cooking?",
           answer: "Valerian Root is commonly used in: None (used exclusively as supplement due to strong pungent odor).",
           category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Valerian Root?",
+          answer: "Valerian Root is traditionally used for: Insomnia relief, mild anxiety reduction, muscle relaxation.",
+          category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Valerian Root known by?",
+          answer: "Valerian Root is also known as Valerian, All-Heal.",
+          category: "Identification"
+      },
+      {
+          question: "Where does Valerian Root originate from?",
+          answer: "Valerian Root originates from Europe / Asia.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Valerian Root belong to?",
+          answer: "Valerian Root belongs to the Caprifoliaceae family.",
+          category: "Identification"
+      },
+      {
+          question: "What growing conditions does Valerian Root need?",
+          answer: "Valerian Root needs Full/Partial sun, Moderate water, and Loamy, moist soil. Harvest window: Roots in fall.",
+          category: "Growing Conditions"
       }
   ],
     image: 'https://images.unsplash.com/photo-1628559253457-3bf71239c0dc?q=80&w=800',
@@ -3330,6 +3830,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "How is Dill used in cooking?",
           answer: "Dill is commonly used in: Pickling cucumbers, salmon seasoning, tzatziki, potato salads.",
           category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Dill?",
+          answer: "Dill is traditionally used for: Gas reduction, indigestion, calming baby colic (as dill water).",
+          category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Dill known by?",
+          answer: "Dill is also known as Dill Weed, Dill Seed.",
+          category: "Identification"
+      },
+      {
+          question: "Where does Dill originate from?",
+          answer: "Dill originates from Mediterranean / Southern Russia.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Dill belong to?",
+          answer: "Dill belongs to the Apiaceae family.",
+          category: "Identification"
+      },
+      {
+          question: "What growing conditions does Dill need?",
+          answer: "Dill needs Full sun, Moderate water, and Well-draining, loose soil. Harvest window: 40-60 days.",
+          category: "Growing Conditions"
       }
   ],
     image: 'https://images.unsplash.com/photo-1541832676-9b763b0239ab?q=80&w=800',
@@ -3492,6 +4017,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "What are the medicinal uses of Ginseng?",
           answer: "Ginseng is traditionally used for: Chronic fatigue support, blood sugar stabilization, cognitive focus.",
           category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Ginseng known by?",
+          answer: "Ginseng is also known as Korean Ginseng, Asian Ginseng.",
+          category: "Identification"
+      },
+      {
+          question: "Where does Ginseng originate from?",
+          answer: "Ginseng originates from Eastern Asia / North America.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Ginseng belong to?",
+          answer: "Ginseng belongs to the Araliaceae family.",
+          category: "Identification"
+      },
+      {
+          question: "What growing conditions does Ginseng need?",
+          answer: "Ginseng needs Deep shade sun, Moderate water, and Loamy, rich in organic matter soil. Harvest window: 4-6 years (roots).",
+          category: "Growing Conditions"
+      },
+      {
+          question: "What is the nutritional profile of Ginseng?",
+          answer: "Per 1 cup ginseng tea (derived from 1g root), Ginseng provides Ginsenosides (approx. 15mg), per Scientific Studies.",
+          category: "Nutrition"
       }
   ],
     image: 'https://images.unsplash.com/photo-1628559253457-3bf71239c0dc?q=80&w=800',
@@ -3650,6 +4200,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "What are the medicinal uses of Marjoram?",
           answer: "Marjoram is traditionally used for: Gas relief, respiratory congestion, digestion optimization.",
           category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Marjoram known by?",
+          answer: "Marjoram is also known as Sweet Marjoram, Knotted Marjoram.",
+          category: "Identification"
+      },
+      {
+          question: "Where does Marjoram originate from?",
+          answer: "Marjoram originates from Mediterranean.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Marjoram belong to?",
+          answer: "Marjoram belongs to the Lamiaceae family.",
+          category: "Identification"
+      },
+      {
+          question: "What growing conditions does Marjoram need?",
+          answer: "Marjoram needs Full sun, Low/Moderate water, and Well-draining soil. Harvest window: 60-90 days.",
+          category: "Growing Conditions"
+      },
+      {
+          question: "What is the nutritional profile of Marjoram?",
+          answer: "Per 1 tsp dried marjoram (approx. 0.6g), Marjoram provides Iron (2% of DV), Calcium (1% of DV), per USDA FoodData Central.",
+          category: "Nutrition"
       }
   ],
     image: 'https://images.unsplash.com/photo-1541832676-9b763b0239ab?q=80&w=800',
@@ -3811,6 +4386,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "What are the medicinal uses of Tarragon?",
           answer: "Tarragon is traditionally used for: Appetite stimulation, mild digestive relief, toothache relief (due to mild numbing).",
           category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Tarragon known by?",
+          answer: "Tarragon is also known as French Tarragon, Dragon Herb.",
+          category: "Identification"
+      },
+      {
+          question: "Where does Tarragon originate from?",
+          answer: "Tarragon originates from Europe / Asia.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Tarragon belong to?",
+          answer: "Tarragon belongs to the Asteraceae family.",
+          category: "Identification"
+      },
+      {
+          question: "What growing conditions does Tarragon need?",
+          answer: "Tarragon needs Full/Partial sun, Moderate water, and Light, well-draining soil. Harvest window: Summer.",
+          category: "Growing Conditions"
+      },
+      {
+          question: "What is the nutritional profile of Tarragon?",
+          answer: "Per 1 tsp dried tarragon (approx. 0.6g), Tarragon provides Manganese (2% of DV), Iron (1% of DV), per USDA FoodData Central.",
+          category: "Nutrition"
       }
   ],
     image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=800',
@@ -3972,6 +4572,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "What other names is St. John's Wort known by?",
           answer: "St. John's Wort is also known as Klamath Weed, Goatweed.",
           category: "Identification"
+      },
+      {
+          question: "Where does St. John's Wort originate from?",
+          answer: "St. John's Wort originates from Europe / Asia.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does St. John's Wort belong to?",
+          answer: "St. John's Wort belongs to the Hypericaceae family.",
+          category: "Identification"
+      },
+      {
+          question: "What growing conditions does St. John's Wort need?",
+          answer: "St. John's Wort needs Full sun, Low water, and Sandy, well-draining soil. Harvest window: Peak flowering.",
+          category: "Growing Conditions"
+      },
+      {
+          question: "What is the nutritional profile of St. John's Wort?",
+          answer: "Per 300mg standardized root extract capsule, St. John's Wort provides Hypericin (0.3%), per Clinical Standardization Standards.",
+          category: "Nutrition"
+      },
+      {
+          question: "What are the safety precautions for taking St. John's Wort?",
+          answer: "St. John's Wort should be used cautiously by: Women on oral contraceptives; Anyone taking prescription drugs; Bipolar patients.",
+          category: "Safety"
       }
   ],
     image: 'https://images.unsplash.com/photo-1628559253457-3bf71239c0dc?q=80&w=800',
@@ -4131,6 +4756,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "What are the medicinal uses of Ginkgo Biloba?",
           answer: "Ginkgo Biloba is traditionally used for: Enhancing memory/focus, arterial circulation, reducing tinnitus symptoms.",
           category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Ginkgo Biloba known by?",
+          answer: "Ginkgo Biloba is also known as Maidenhair Tree.",
+          category: "Identification"
+      },
+      {
+          question: "Where does Ginkgo Biloba originate from?",
+          answer: "Ginkgo Biloba originates from China.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Ginkgo Biloba belong to?",
+          answer: "Ginkgo Biloba belongs to the Ginkgoaceae family.",
+          category: "Identification"
+      },
+      {
+          question: "What growing conditions does Ginkgo Biloba need?",
+          answer: "Ginkgo Biloba needs Full sun, Moderate water, and Adaptable soil. Harvest window: Leaves in fall.",
+          category: "Growing Conditions"
+      },
+      {
+          question: "What is the nutritional profile of Ginkgo Biloba?",
+          answer: "Per 120mg standardized leaf extract capsule, Ginkgo Biloba provides Ginkgoflavonglycosides (24%), Terpene Lactones (6%), per Standardized Clinical Specification.",
+          category: "Nutrition"
       }
   ],
     image: 'https://images.unsplash.com/photo-1628559253457-3bf71239c0dc?q=80&w=800',
@@ -4293,6 +4943,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "What are the medicinal uses of Curry Leaves?",
           answer: "Curry Leaves is traditionally used for: Hair follicle health, glycemic control, liver support.",
           category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Curry Leaves known by?",
+          answer: "Curry Leaves is also known as Kadi Patta, Sweet Neem, Kariveppilai.",
+          category: "Identification"
+      },
+      {
+          question: "Where does Curry Leaves originate from?",
+          answer: "Curry Leaves originates from India / Sri Lanka.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Curry Leaves belong to?",
+          answer: "Curry Leaves belongs to the Rutaceae family.",
+          category: "Identification"
+      },
+      {
+          question: "What growing conditions does Curry Leaves need?",
+          answer: "Curry Leaves needs Full/Partial sun, Moderate water, and Slightly acidic, well-draining soil. Harvest window: Year-round (leaves).",
+          category: "Growing Conditions"
+      },
+      {
+          question: "Can you give a quick summary of Curry Leaves?",
+          answer: "Curry leaves come from a small tropical tree in the citrus family. Essential to South Indian cuisine, they are saut\u00E9ed in oil to release their nutty, citrusy flavor and are highly valued for promoting hair growth.",
+          category: "Summary"
       }
   ],
     image: 'https://images.unsplash.com/photo-1541832676-9b763b0239ab?q=80&w=800',
@@ -4427,6 +5102,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "What are the medicinal uses of Cumin (Jeera)?",
           answer: "Cumin (Jeera) is traditionally used for: Amylase secretion booster, gas flatulence relief, iron deficiency supplement.",
           category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Cumin (Jeera) known by?",
+          answer: "Cumin (Jeera) is also known as Jeera, Jiraka.",
+          category: "Identification"
+      },
+      {
+          question: "Where does Cumin (Jeera) originate from?",
+          answer: "Cumin (Jeera) originates from Middle East / India.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Cumin (Jeera) belong to?",
+          answer: "Cumin (Jeera) belongs to the Apiaceae family.",
+          category: "Identification"
+      },
+      {
+          question: "What growing conditions does Cumin (Jeera) need?",
+          answer: "Cumin (Jeera) needs Full sun, Low/Moderate water, and Sandy, well-draining soil. Harvest window: 100-120 days (seeds).",
+          category: "Growing Conditions"
+      },
+      {
+          question: "Can you give a quick summary of Cumin (Jeera)?",
+          answer: "Cumin is a flowering plant in the Apiaceae family whose dried seeds are a staple in Indian curries and spice blends. It aids digestion and is rich in iron. Jeera water is a popular weight-loss remedy.",
+          category: "Summary"
       }
   ],
     image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=800',
@@ -4560,6 +5260,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "What are the medicinal uses of Cardamom (Elaichi)?",
           answer: "Cardamom (Elaichi) is traditionally used for: Gas reduction, mouth freshener, digestive tonic.",
           category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Cardamom (Elaichi) known by?",
+          answer: "Cardamom (Elaichi) is also known as Elaichi, Elachi, Sukshma Ela.",
+          category: "Identification"
+      },
+      {
+          question: "Where does Cardamom (Elaichi) originate from?",
+          answer: "Cardamom (Elaichi) originates from Southern India.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Cardamom (Elaichi) belong to?",
+          answer: "Cardamom (Elaichi) belongs to the Zingiberaceae family.",
+          category: "Identification"
+      },
+      {
+          question: "What growing conditions does Cardamom (Elaichi) need?",
+          answer: "Cardamom (Elaichi) needs Partial shade sun, High water, and Loamy, rich in organic matter soil. Harvest window: 2-3 years (pods).",
+          category: "Growing Conditions"
+      },
+      {
+          question: "Can you give a quick summary of Cardamom (Elaichi)?",
+          answer: "Cardamom is a spice made from the seed pods of a plant in the ginger family. Green cardamom offers a sweet, floral flavor used in Chai and desserts, while black cardamom is smoky and savory.",
+          category: "Summary"
       }
   ],
     image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=800',
@@ -4689,6 +5414,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "What are the medicinal uses of Clove (Laung)?",
           answer: "Clove (Laung) is traditionally used for: Dental pain relief, antiseptic gargle, digestive gas prevention.",
           category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Clove (Laung) known by?",
+          answer: "Clove (Laung) is also known as Laung, Lavanga.",
+          category: "Identification"
+      },
+      {
+          question: "Where does Clove (Laung) originate from?",
+          answer: "Clove (Laung) originates from Maluku Islands (cultivated in India).",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Clove (Laung) belong to?",
+          answer: "Clove (Laung) belongs to the Myrtaceae family.",
+          category: "Identification"
+      },
+      {
+          question: "What growing conditions does Clove (Laung) need?",
+          answer: "Clove (Laung) needs Full sun, Moderate water, and Loamy, well-draining soil. Harvest window: 4-8 years (buds).",
+          category: "Growing Conditions"
+      },
+      {
+          question: "Can you give a quick summary of Clove (Laung)?",
+          answer: "Cloves are the aromatic dried flower buds of an evergreen tree in the Myrtaceae family. They offer a pungent, sweet flavor and contain eugenol, a powerful anesthetic used historically for toothache relief.",
+          category: "Summary"
       }
   ],
     image: 'https://images.unsplash.com/photo-1596040033229-a9821ebd058d?q=80&w=800',
@@ -4818,6 +5568,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "What are the medicinal uses of Black Pepper (Kali Mirch)?",
           answer: "Black Pepper (Kali Mirch) is traditionally used for: Nutrient bioavailability enhancer, fat metabolism support, throat clearing.",
           category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Black Pepper (Kali Mirch) known by?",
+          answer: "Black Pepper (Kali Mirch) is also known as Kali Mirch, Maricha.",
+          category: "Identification"
+      },
+      {
+          question: "Where does Black Pepper (Kali Mirch) originate from?",
+          answer: "Black Pepper (Kali Mirch) originates from Southern India.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Black Pepper (Kali Mirch) belong to?",
+          answer: "Black Pepper (Kali Mirch) belongs to the Piperaceae family.",
+          category: "Identification"
+      },
+      {
+          question: "What growing conditions does Black Pepper (Kali Mirch) need?",
+          answer: "Black Pepper (Kali Mirch) needs Partial shade sun, High water, and Rich, well-draining soil. Harvest window: 3-4 years (berries).",
+          category: "Growing Conditions"
+      },
+      {
+          question: "Can you give a quick summary of Black Pepper (Kali Mirch)?",
+          answer: "Black pepper is a flowering vine cultivated for its fruit, which is dried and used as a seasoning. Known as the 'king of spices,' it contains piperine, which dramatically enhances the absorption of curcumin in turmeric.",
+          category: "Summary"
       }
   ],
     image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=800',
@@ -4945,6 +5720,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "What are the medicinal uses of Asafoetida (Hing)?",
           answer: "Asafoetida (Hing) is traditionally used for: Gas reduction, colic relief, digestive stimulant.",
           category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Asafoetida (Hing) known by?",
+          answer: "Asafoetida (Hing) is also known as Hing, Devil's Dung, Perungayam.",
+          category: "Identification"
+      },
+      {
+          question: "Where does Asafoetida (Hing) originate from?",
+          answer: "Asafoetida (Hing) originates from Iran / Afghanistan.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Asafoetida (Hing) belong to?",
+          answer: "Asafoetida (Hing) belongs to the Apiaceae family.",
+          category: "Identification"
+      },
+      {
+          question: "What growing conditions does Asafoetida (Hing) need?",
+          answer: "Asafoetida (Hing) needs Full sun, Low water, and Dry, rocky soil. Harvest window: 4-5 years (roots/tap).",
+          category: "Growing Conditions"
+      },
+      {
+          question: "Can you give a quick summary of Asafoetida (Hing)?",
+          answer: "Asafoetida is a pungent gum resin extracted from the roots of a perennial herb. Used in tiny amounts in Indian tadka, it imparts a savory umami flavor similar to onions and garlic and prevents flatulence.",
+          category: "Summary"
       }
   ],
     image: 'https://images.unsplash.com/photo-1541832676-9b763b0239ab?q=80&w=800',
@@ -5078,6 +5878,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "What are the medicinal uses of Saffron (Kesar)?",
           answer: "Saffron (Kesar) is traditionally used for: Mood balance, antioxidant protection, macular health support.",
           category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Saffron (Kesar) known by?",
+          answer: "Saffron (Kesar) is also known as Kesar, Kumkuma.",
+          category: "Identification"
+      },
+      {
+          question: "Where does Saffron (Kesar) originate from?",
+          answer: "Saffron (Kesar) originates from Southwest Asia.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Saffron (Kesar) belong to?",
+          answer: "Saffron (Kesar) belongs to the Iridaceae family.",
+          category: "Identification"
+      },
+      {
+          question: "What growing conditions does Saffron (Kesar) need?",
+          answer: "Saffron (Kesar) needs Full sun, Low water, and Loamy, well-draining soil. Harvest window: 1 year (autumn flowers).",
+          category: "Growing Conditions"
+      },
+      {
+          question: "Can you give a quick summary of Saffron (Kesar)?",
+          answer: "Saffron is a spice derived from the dried stigmas of the saffron crocus flower. Known as the world's most expensive spice by weight, it imparts a golden hue and floral flavor to Indian sweets and biryanis.",
+          category: "Summary"
       }
   ],
     image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=800',
@@ -5207,6 +6032,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "What are the medicinal uses of Carom Seeds (Ajwain)?",
           answer: "Carom Seeds (Ajwain) is traditionally used for: Cramping/spasm relief, gas reduction, throat clearing.",
           category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Carom Seeds (Ajwain) known by?",
+          answer: "Carom Seeds (Ajwain) is also known as Ajwain, Yavani.",
+          category: "Identification"
+      },
+      {
+          question: "Where does Carom Seeds (Ajwain) originate from?",
+          answer: "Carom Seeds (Ajwain) originates from India / Egypt.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Carom Seeds (Ajwain) belong to?",
+          answer: "Carom Seeds (Ajwain) belongs to the Apiaceae family.",
+          category: "Identification"
+      },
+      {
+          question: "What growing conditions does Carom Seeds (Ajwain) need?",
+          answer: "Carom Seeds (Ajwain) needs Full sun, Low/Moderate water, and Well-draining soil. Harvest window: 120-160 days (seeds).",
+          category: "Growing Conditions"
+      },
+      {
+          question: "Can you give a quick summary of Carom Seeds (Ajwain)?",
+          answer: "Carom seeds are small, oval-shaped seeds from an annual herb in the Apiaceae family. They have a harsh, thyme-like flavor and are famously used in Indian parathas and as a rapid remedy for stomach aches.",
+          category: "Summary"
       }
   ],
     image: 'https://images.unsplash.com/photo-1541832676-9b763b0239ab?q=80&w=800',
@@ -5340,6 +6190,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "What are the medicinal uses of Mustard Seeds (Sarson)?",
           answer: "Mustard Seeds (Sarson) is traditionally used for: Local thermogenic support, clearing lung mucus.",
           category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Mustard Seeds (Sarson) known by?",
+          answer: "Mustard Seeds (Sarson) is also known as Sarson, Rai, Siddhartha.",
+          category: "Identification"
+      },
+      {
+          question: "Where does Mustard Seeds (Sarson) originate from?",
+          answer: "Mustard Seeds (Sarson) originates from South Asia.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Mustard Seeds (Sarson) belong to?",
+          answer: "Mustard Seeds (Sarson) belongs to the Brassicaceae family.",
+          category: "Identification"
+      },
+      {
+          question: "What growing conditions does Mustard Seeds (Sarson) need?",
+          answer: "Mustard Seeds (Sarson) needs Full sun, Moderate water, and Loamy, well-draining soil. Harvest window: 80-95 days (seeds).",
+          category: "Growing Conditions"
+      },
+      {
+          question: "Can you give a quick summary of Mustard Seeds (Sarson)?",
+          answer: "Mustard seeds are the small round seeds of various mustard plants. In Indian cooking, black mustard seeds are spluttered in hot oil (tadka) to release a nutty, savory flavor, forming the base of many curries and pickles.",
+          category: "Summary"
       }
   ],
     image: 'https://images.unsplash.com/photo-1596040033229-a9821ebd058d?q=80&w=800',
@@ -5473,6 +6348,31 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "What are the medicinal uses of Star Anise (Chakra Phool)?",
           answer: "Star Anise (Chakra Phool) is traditionally used for: Respiratory antiviral support, gut gas relief.",
           category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is Star Anise (Chakra Phool) known by?",
+          answer: "Star Anise (Chakra Phool) is also known as Chakra Phool, Badian.",
+          category: "Identification"
+      },
+      {
+          question: "Where does Star Anise (Chakra Phool) originate from?",
+          answer: "Star Anise (Chakra Phool) originates from Northeast India / Vietnam.",
+          category: "Origin"
+      },
+      {
+          question: "What plant family does Star Anise (Chakra Phool) belong to?",
+          answer: "Star Anise (Chakra Phool) belongs to the Schisandraceae family.",
+          category: "Identification"
+      },
+      {
+          question: "What growing conditions does Star Anise (Chakra Phool) need?",
+          answer: "Star Anise (Chakra Phool) needs Partial shade sun, Moderate water, and Loamy, acidic soil. Harvest window: 6 years (fruit).",
+          category: "Growing Conditions"
+      },
+      {
+          question: "Can you give a quick summary of Star Anise (Chakra Phool)?",
+          answer: "Star anise is a star-shaped spice obtained from the fruit of an evergreen tree. It offers a potent, sweet licorice flavor and is a key component of the Chinese five-spice powder and Indian Garam Masala.",
+          category: "Summary"
       }
   ],
     image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=800',
@@ -5583,6 +6483,31 @@ export const MEDICAL_CONDITIONS_DATA: MedicalConditionEntity[] = [
           question: "Does Ginger help with MASLD (Fatty Liver)?",
           answer: "Ginger is one of the therapeutic spices used as part of the MASLD (Fatty Liver) protocol.",
           category: "Therapeutic Spices"
+      },
+      {
+          question: "Why should I avoid Processed Seed Oils with MASLD (Fatty Liver)?",
+          answer: "Processed Seed Oils (Canola, Soybean) is one of the foods to avoid or limit while managing MASLD (Fatty Liver).",
+          category: "Foods to Avoid"
+      },
+      {
+          question: "Why is GGT tracked for MASLD (Fatty Liver)?",
+          answer: "GGT (Gamma-Glutamyl Transferase) is one of the key biomarkers used to monitor MASLD (Fatty Liver) and track whether the current protocol is working.",
+          category: "Biomarkers"
+      },
+      {
+          question: "Does Ceylon Cinnamon help with MASLD (Fatty Liver)?",
+          answer: "Ceylon Cinnamon is one of the therapeutic spices used as part of the MASLD (Fatty Liver) protocol.",
+          category: "Therapeutic Spices"
+      },
+      {
+          question: "Why should I avoid Alcohol with MASLD (Fatty Liver)?",
+          answer: "Alcohol is one of the foods to avoid or limit while managing MASLD (Fatty Liver).",
+          category: "Foods to Avoid"
+      },
+      {
+          question: "Why is Fasting Insulin tracked for MASLD (Fatty Liver)?",
+          answer: "Fasting Insulin is one of the key biomarkers used to monitor MASLD (Fatty Liver) and track whether the current protocol is working.",
+          category: "Biomarkers"
       }
   ],
     citations: [
@@ -5660,6 +6585,31 @@ export const MEDICAL_CONDITIONS_DATA: MedicalConditionEntity[] = [
           question: "Does Turmeric help with Insulin Resistance?",
           answer: "Turmeric is one of the therapeutic spices used as part of the Insulin Resistance protocol.",
           category: "Therapeutic Spices"
+      },
+      {
+          question: "Why should I avoid Refined Seed Oils with Insulin Resistance?",
+          answer: "Refined Seed Oils is one of the foods to avoid or limit while managing Insulin Resistance.",
+          category: "Foods to Avoid"
+      },
+      {
+          question: "Why is HbA1c tracked for Insulin Resistance?",
+          answer: "HbA1c is one of the key biomarkers used to monitor Insulin Resistance and track whether the current protocol is working.",
+          category: "Biomarkers"
+      },
+      {
+          question: "Does Fenugreek Seeds help with Insulin Resistance?",
+          answer: "Fenugreek Seeds (Methi) is one of the therapeutic spices used as part of the Insulin Resistance protocol.",
+          category: "Therapeutic Spices"
+      },
+      {
+          question: "Why should I avoid Late-night snacks with Insulin Resistance?",
+          answer: "Late-night snacks is one of the foods to avoid or limit while managing Insulin Resistance.",
+          category: "Foods to Avoid"
+      },
+      {
+          question: "Why is Triglyceride-to-HDL Ratio tracked for Insulin Resistance?",
+          answer: "Triglyceride-to-HDL Ratio is one of the key biomarkers used to monitor Insulin Resistance and track whether the current protocol is working.",
+          category: "Biomarkers"
       }
   ],
     citations: [
@@ -5737,6 +6687,31 @@ export const MEDICAL_CONDITIONS_DATA: MedicalConditionEntity[] = [
           question: "Does Garlic help with Circadian Rhythm Dysregulation?",
           answer: "Garlic is one of the therapeutic spices used as part of the Circadian Rhythm Dysregulation protocol.",
           category: "Therapeutic Spices"
+      },
+      {
+          question: "Why should I avoid Late-night high-glycemic carbohydrates with Circadian Rhythm Dysregulation?",
+          answer: "Late-night high-glycemic carbohydrates is one of the foods to avoid or limit while managing Circadian Rhythm Dysregulation.",
+          category: "Foods to Avoid"
+      },
+      {
+          question: "Why is Fasting Glucose Stability tracked for Circadian Rhythm Dysregulation?",
+          answer: "Fasting Glucose Stability is one of the key biomarkers used to monitor Circadian Rhythm Dysregulation and track whether the current protocol is working.",
+          category: "Biomarkers"
+      },
+      {
+          question: "Does Holy Basil help with Circadian Rhythm Dysregulation?",
+          answer: "Holy Basil is one of the therapeutic spices used as part of the Circadian Rhythm Dysregulation protocol.",
+          category: "Therapeutic Spices"
+      },
+      {
+          question: "Why should I avoid Processed energy drinks with Circadian Rhythm Dysregulation?",
+          answer: "Processed energy drinks is one of the foods to avoid or limit while managing Circadian Rhythm Dysregulation.",
+          category: "Foods to Avoid"
+      },
+      {
+          question: "Why is Heart Rate Variability tracked for Circadian Rhythm Dysregulation?",
+          answer: "Heart Rate Variability (HRV) is one of the key biomarkers used to monitor Circadian Rhythm Dysregulation and track whether the current protocol is working.",
+          category: "Biomarkers"
       }
   ],
     citations: [
@@ -5815,6 +6790,31 @@ export const MEDICAL_CONDITIONS_DATA: MedicalConditionEntity[] = [
           question: "Does Fenugreek Seeds help with Type 2 Diabetes Reversal?",
           answer: "Fenugreek Seeds is one of the therapeutic spices used as part of the Type 2 Diabetes Reversal protocol.",
           category: "Therapeutic Spices"
+      },
+      {
+          question: "Why should I avoid Fruit Juices with Type 2 Diabetes Reversal?",
+          answer: "Fruit Juices (fiber-depleted) is one of the foods to avoid or limit while managing Type 2 Diabetes Reversal.",
+          category: "Foods to Avoid"
+      },
+      {
+          question: "Why is Fasting C-Peptide tracked for Type 2 Diabetes Reversal?",
+          answer: "Fasting C-Peptide is one of the key biomarkers used to monitor Type 2 Diabetes Reversal and track whether the current protocol is working.",
+          category: "Biomarkers"
+      },
+      {
+          question: "Does Turmeric help with Type 2 Diabetes Reversal?",
+          answer: "Turmeric is one of the therapeutic spices used as part of the Type 2 Diabetes Reversal protocol.",
+          category: "Therapeutic Spices"
+      },
+      {
+          question: "Why should I avoid White Rice & Refined Flour with Type 2 Diabetes Reversal?",
+          answer: "White Rice & Refined Flour is one of the foods to avoid or limit while managing Type 2 Diabetes Reversal.",
+          category: "Foods to Avoid"
+      },
+      {
+          question: "Why is HOMA-IR Score tracked for Type 2 Diabetes Reversal?",
+          answer: "HOMA-IR Score is one of the key biomarkers used to monitor Type 2 Diabetes Reversal and track whether the current protocol is working.",
+          category: "Biomarkers"
       }
   ],
     citations: [
@@ -5893,6 +6893,31 @@ export const MEDICAL_CONDITIONS_DATA: MedicalConditionEntity[] = [
           question: "Does Fenugreek help with PCOD / PCOS (Metabolic & Hormonal Reversal)?",
           answer: "Fenugreek is one of the therapeutic spices used as part of the PCOD / PCOS (Metabolic & Hormonal Reversal) protocol.",
           category: "Therapeutic Spices"
+      },
+      {
+          question: "Why should I avoid Refined Sugar with PCOD / PCOS (Metabolic & Hormonal Reversal)?",
+          answer: "Refined Sugar is one of the foods to avoid or limit while managing PCOD / PCOS (Metabolic & Hormonal Reversal).",
+          category: "Foods to Avoid"
+      },
+      {
+          question: "Why is Fasting Insulin tracked for PCOD / PCOS (Metabolic & Hormonal Reversal)?",
+          answer: "Fasting Insulin (HOMA-IR) is one of the key biomarkers used to monitor PCOD / PCOS (Metabolic & Hormonal Reversal) and track whether the current protocol is working.",
+          category: "Biomarkers"
+      },
+      {
+          question: "Does Holy Basil help with PCOD / PCOS (Metabolic & Hormonal Reversal)?",
+          answer: "Holy Basil is one of the therapeutic spices used as part of the PCOD / PCOS (Metabolic & Hormonal Reversal) protocol.",
+          category: "Therapeutic Spices"
+      },
+      {
+          question: "Why should I avoid Soy Isolates with PCOD / PCOS (Metabolic & Hormonal Reversal)?",
+          answer: "Soy Isolates is one of the foods to avoid or limit while managing PCOD / PCOS (Metabolic & Hormonal Reversal).",
+          category: "Foods to Avoid"
+      },
+      {
+          question: "Why is DHEAS tracked for PCOD / PCOS (Metabolic & Hormonal Reversal)?",
+          answer: "DHEAS is one of the key biomarkers used to monitor PCOD / PCOS (Metabolic & Hormonal Reversal) and track whether the current protocol is working.",
+          category: "Biomarkers"
       }
   ],
     citations: [
@@ -5971,6 +6996,31 @@ export const MEDICAL_CONDITIONS_DATA: MedicalConditionEntity[] = [
           question: "Does Garlic help with Thyroid Dysfunction (Hypothyroidism & Hashimoto's)?",
           answer: "Garlic is one of the therapeutic spices used as part of the Thyroid Dysfunction (Hypothyroidism & Hashimoto's) protocol.",
           category: "Therapeutic Spices"
+      },
+      {
+          question: "Why should I avoid Gluten with Thyroid Dysfunction (Hypothyroidism & Hashimoto's)?",
+          answer: "Gluten (cross-reacts with thyroid tissue) is one of the foods to avoid or limit while managing Thyroid Dysfunction (Hypothyroidism & Hashimoto's).",
+          category: "Foods to Avoid"
+      },
+      {
+          question: "Why is Anti-TPO Antibodies tracked for Thyroid Dysfunction (Hypothyroidism & Hashimoto's)?",
+          answer: "Anti-TPO Antibodies is one of the key biomarkers used to monitor Thyroid Dysfunction (Hypothyroidism & Hashimoto's) and track whether the current protocol is working.",
+          category: "Biomarkers"
+      },
+      {
+          question: "Does Ashwagandha help with Thyroid Dysfunction (Hypothyroidism & Hashimoto's)?",
+          answer: "Ashwagandha is one of the therapeutic spices used as part of the Thyroid Dysfunction (Hypothyroidism & Hashimoto's) protocol.",
+          category: "Therapeutic Spices"
+      },
+      {
+          question: "Why should I avoid Industrial seed oils with Thyroid Dysfunction (Hypothyroidism & Hashimoto's)?",
+          answer: "Industrial seed oils is one of the foods to avoid or limit while managing Thyroid Dysfunction (Hypothyroidism & Hashimoto's).",
+          category: "Foods to Avoid"
+      },
+      {
+          question: "Why is Anti-TG Antibodies tracked for Thyroid Dysfunction (Hypothyroidism & Hashimoto's)?",
+          answer: "Anti-TG Antibodies is one of the key biomarkers used to monitor Thyroid Dysfunction (Hypothyroidism & Hashimoto's) and track whether the current protocol is working.",
+          category: "Biomarkers"
       }
   ],
     citations: [
@@ -6049,6 +7099,31 @@ export const MEDICAL_CONDITIONS_DATA: MedicalConditionEntity[] = [
           question: "Does Garlic help with Gut Health & Microbiome Restoration?",
           answer: "Garlic is one of the therapeutic spices used as part of the Gut Health & Microbiome Restoration protocol.",
           category: "Therapeutic Spices"
+      },
+      {
+          question: "Why should I avoid Emulsifiers & Preservatives with Gut Health & Microbiome Restoration?",
+          answer: "Emulsifiers & Preservatives is one of the foods to avoid or limit while managing Gut Health & Microbiome Restoration.",
+          category: "Foods to Avoid"
+      },
+      {
+          question: "Why is SCFA profile tracked for Gut Health & Microbiome Restoration?",
+          answer: "SCFA profile (Acetate, Butyrate) is one of the key biomarkers used to monitor Gut Health & Microbiome Restoration and track whether the current protocol is working.",
+          category: "Biomarkers"
+      },
+      {
+          question: "Does Holy Basil help with Gut Health & Microbiome Restoration?",
+          answer: "Holy Basil is one of the therapeutic spices used as part of the Gut Health & Microbiome Restoration protocol.",
+          category: "Therapeutic Spices"
+      },
+      {
+          question: "Why should I avoid Refined Sugar with Gut Health & Microbiome Restoration?",
+          answer: "Refined Sugar is one of the foods to avoid or limit while managing Gut Health & Microbiome Restoration.",
+          category: "Foods to Avoid"
+      },
+      {
+          question: "Why is Gut Microbiome Sequencing Ratio tracked for Gut Health & Microbiome Restoration?",
+          answer: "Gut Microbiome Sequencing Ratio (Bacteroidetes/Firmicutes) is one of the key biomarkers used to monitor Gut Health & Microbiome Restoration and track whether the current protocol is working.",
+          category: "Biomarkers"
       }
   ],
     citations: [
@@ -6127,6 +7202,31 @@ export const MEDICAL_CONDITIONS_DATA: MedicalConditionEntity[] = [
           question: "Does Ceylon Cinnamon help with Hypertension (High Blood Pressure)?",
           answer: "Ceylon Cinnamon is one of the therapeutic spices used as part of the Hypertension (High Blood Pressure) protocol.",
           category: "Therapeutic Spices"
+      },
+      {
+          question: "Why should I avoid Trans-Fats with Hypertension (High Blood Pressure)?",
+          answer: "Trans-Fats is one of the foods to avoid or limit while managing Hypertension (High Blood Pressure).",
+          category: "Foods to Avoid"
+      },
+      {
+          question: "Why is Uric Acid tracked for Hypertension (High Blood Pressure)?",
+          answer: "Uric Acid is one of the key biomarkers used to monitor Hypertension (High Blood Pressure) and track whether the current protocol is working.",
+          category: "Biomarkers"
+      },
+      {
+          question: "Does Ginger help with Hypertension (High Blood Pressure)?",
+          answer: "Ginger is one of the therapeutic spices used as part of the Hypertension (High Blood Pressure) protocol.",
+          category: "Therapeutic Spices"
+      },
+      {
+          question: "Why should I avoid High-Fructose Corn Syrup with Hypertension (High Blood Pressure)?",
+          answer: "High-Fructose Corn Syrup (HFCS) is one of the foods to avoid or limit while managing Hypertension (High Blood Pressure).",
+          category: "Foods to Avoid"
+      },
+      {
+          question: "Why is Fasting Serum Insulin tracked for Hypertension (High Blood Pressure)?",
+          answer: "Fasting Serum Insulin (BP) is one of the key biomarkers used to monitor Hypertension (High Blood Pressure) and track whether the current protocol is working.",
+          category: "Biomarkers"
       }
   ],
     citations: [

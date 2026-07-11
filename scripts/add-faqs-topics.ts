@@ -21,7 +21,7 @@ const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..
 // a symlink to src/lib). Editing the real path keeps this consistent with how
 // scripts/generate-content-freshness.ts already had to work around the same symlinks.
 const FILE_PATH = path.join(REPO_ROOT, 'src', 'lib', 'topics.ts');
-const TARGET_FAQ_COUNT = 10;
+const TARGET_FAQ_COUNT = 15;
 
 type FAQ = { question: string; answer: string; category: string };
 
@@ -166,13 +166,32 @@ function topicCandidates(topic: any): FAQ[] {
   }));
   const sectionFaqs = (topic.expandedSections || [])
     .filter((s: any) => s.heading && s.body)
+    .map((s: any) => {
+      // Fold the section's own list (if present) into the answer — real content
+      // already on the page, not a separate synthesized fact.
+      const listPart = s.listItems?.length
+        ? ` ${s.listTitle ? s.listTitle + ' ' : ''}${s.listItems.join('; ')}.`
+        : '';
+      return {
+        question: headingToQuestion(s.heading),
+        answer: s.body + listPart,
+        category: 'Deep Dive',
+      };
+    });
+  const proTipFaqs = (topic.expandedSections || [])
+    .filter((s: any) => s.proTip)
     .map((s: any) => ({
-      question: headingToQuestion(s.heading),
-      answer: s.body,
-      category: 'Deep Dive',
+      // Uses the section's own heading verbatim (real text already on the page) as
+      // the distinguishing subject, rather than the shared topic title — a topic
+      // can have multiple sections each with their own proTip, and reusing the
+      // topic title for all of them would create identical questions that
+      // dedupeAppend would collapse to just the first one.
+      question: `What's a pro tip for: ${s.heading.replace(/[.:]+$/, '')}?`,
+      answer: s.proTip,
+      category: 'Pro Tip',
     }));
 
-  return [...anchors, ...interleave<FAQ>([sectionFaqs, approachFaqs])];
+  return [...anchors, ...interleave<FAQ>([sectionFaqs, proTipFaqs, approachFaqs])];
 }
 
 function main() {
