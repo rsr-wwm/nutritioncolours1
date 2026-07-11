@@ -5,6 +5,7 @@ import SharedSections from '../../components/SharedSections.astro';
 import Accordion from '../../components/Accordion.astro';
 import { RECIPES } from '../../data/recipes';
 import { RECIPE_SPECIFIC_FAQS } from '../../data/constants';
+import { getFaqPageSchema } from '../../lib/seo/entityGraph';
 
 export async function getStaticPaths() {
   return RECIPES.map((recipe) => ({
@@ -43,6 +44,11 @@ const recipeSchema = {
   "recipeIngredient": recipe.ingredients || [],
   "recipeInstructions": recipe.instructions || []
 };
+
+// The FAQ section below is already real, server-rendered HTML (Accordion) — this
+// schema is the standard extra step for FAQ rich-result eligibility, not fixing a
+// visibility gap.
+const recipeFaqPageSchema = getFaqPageSchema(`/recipe/${recipe.id}`, RECIPE_SPECIFIC_FAQS[recipe.id]);
 ---
 
 <BaseLayout 
@@ -52,6 +58,7 @@ const recipeSchema = {
 >
   {/* Dynamic JSON-LD Schema */}
   <script type="application/ld+json" set:html={JSON.stringify(recipeSchema)} />
+  {recipeFaqPageSchema && <script type="application/ld+json" set:html={recipeFaqPageSchema} />}
 
   <div class="min-h-screen bg-stone-50/30 pb-24 pt-24">
   <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-12 gap-12">
