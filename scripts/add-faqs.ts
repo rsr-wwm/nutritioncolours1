@@ -163,6 +163,78 @@ function herbCandidates(herb: any): FAQ[] {
       category: 'Evidence',
     });
   }
+  if (herb.culinaryUses) {
+    anchors.push({
+      question: `How is ${herb.name} used in cooking?`,
+      answer: `${herb.name} is commonly used in: ${herb.culinaryUses}`,
+      category: 'Culinary Uses',
+    });
+  }
+  if (herb.medicinalUses) {
+    anchors.push({
+      question: `What are the medicinal uses of ${herb.name}?`,
+      answer: `${herb.name} is traditionally used for: ${herb.medicinalUses}`,
+      category: 'Medicinal Uses',
+    });
+  }
+  if (herb.alsoKnownAs?.length) {
+    anchors.push({
+      question: `What other names is ${herb.name} known by?`,
+      answer: `${herb.name} is also known as ${herb.alsoKnownAs.join(', ')}.`,
+      category: 'Identification',
+    });
+  }
+  if (herb.origin) {
+    anchors.push({
+      question: `Where does ${herb.name} originate from?`,
+      answer: `${herb.name} originates from ${herb.origin}.`,
+      category: 'Origin',
+    });
+  }
+  if (herb.plantFamily) {
+    anchors.push({
+      question: `What plant family does ${herb.name} belong to?`,
+      answer: `${herb.name} belongs to the ${herb.plantFamily} family.`,
+      category: 'Identification',
+    });
+  }
+  if (herb.growingConditions) {
+    const gc = herb.growingConditions;
+    anchors.push({
+      question: `What growing conditions does ${herb.name} need?`,
+      answer: `${herb.name} needs ${gc.sun} sun, ${gc.water} water, and ${gc.soil} soil. Harvest window: ${gc.harvest}.`,
+      category: 'Growing Conditions',
+    });
+  }
+  if (herb.nutritionData?.nutrients?.length) {
+    const nd = herb.nutritionData;
+    anchors.push({
+      question: `What is the nutritional profile of ${herb.name}?`,
+      answer: `Per ${nd.servingSize}, ${herb.name} provides ${nd.nutrients.map((n: any) => `${n.name} (${n.value})`).join(', ')}, per ${nd.source}.`,
+      category: 'Nutrition',
+    });
+  }
+  if (herb.safetyDosage?.whoShouldAvoid?.length) {
+    anchors.push({
+      question: `What are the safety precautions for taking ${herb.name}?`,
+      answer: `${herb.name} should be used cautiously by: ${herb.safetyDosage.whoShouldAvoid.join('; ')}.`,
+      category: 'Safety',
+    });
+  }
+  if (herb.safetyDosage?.drugInteractions?.length) {
+    anchors.push({
+      question: `Does ${herb.name} interact with any medications?`,
+      answer: herb.safetyDosage.drugInteractions.join(' '),
+      category: 'Drug Interactions',
+    });
+  }
+  if (herb.howToHarvest?.length) {
+    anchors.push({
+      question: `How do I harvest ${herb.name}?`,
+      answer: herb.howToHarvest.join(' '),
+      category: 'Harvesting',
+    });
+  }
 
   const synergyFaqs = (herb.synergies || []).map((s: string) => ({
     question: `Does ${herb.name} combine well with ${shortLabel(s)}?`,

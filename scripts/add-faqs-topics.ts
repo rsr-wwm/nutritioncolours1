@@ -132,6 +132,32 @@ function topicCandidates(topic: any): FAQ[] {
       category: 'Summary',
     });
   }
+  if (topic.shortDesc) {
+    anchors.push({
+      question: `What is ${topic.title}?`,
+      answer: topic.shortDesc,
+      category: 'Overview',
+    });
+  }
+  if (topic.scientificName) {
+    anchors.push({
+      question: `What is the medical/scientific term for ${topic.title}?`,
+      answer: `${topic.title} is also referred to as ${topic.scientificName}.`,
+      category: 'Identification',
+    });
+  }
+  if (topic.fullContent) {
+    // First sentence only — a safe, mechanical extraction (real text already on
+    // the page), not a synthesized summary of the rest of the article body.
+    const firstSentence = topic.fullContent.split(/(?<=[.!?])\s+/)[0];
+    if (firstSentence && firstSentence.length > 20) {
+      anchors.push({
+        question: `Can you explain ${topic.title} in more depth?`,
+        answer: firstSentence,
+        category: 'In-Depth',
+      });
+    }
+  }
 
   const approachFaqs = (topic.naturalApproach || []).map((a: string) => ({
     question: `Does "${a}" help with ${topic.title}?`,

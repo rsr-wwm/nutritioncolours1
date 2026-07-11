@@ -1241,6 +1241,16 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Mint combine well with Fennel?",
           answer: "Yes \u2014 Mint pairs well with Fennel.",
           category: "Synergies"
+      },
+      {
+          question: "How is Mint used in cooking?",
+          answer: "Mint is commonly used in: Teas, mojitos, lamb dishes, garnishes.",
+          category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Mint?",
+          answer: "Mint is traditionally used for: Digestion aid, breath freshener, cooling effect, irritable bowel support.",
+          category: "Medicinal Uses"
       }
   ],
     image: 'https://images.unsplash.com/photo-1596040033229-a9821ebd058d?q=80&w=800',
@@ -1394,6 +1404,16 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Coriander (Cilantro) combine well with Lemon juice?",
           answer: "Yes \u2014 Coriander (Cilantro) pairs well with Lemon juice.",
           category: "Synergies"
+      },
+      {
+          question: "How is Coriander (Cilantro) used in cooking?",
+          answer: "Coriander (Cilantro) is commonly used in: Salsas, curries, garnishes, soups.",
+          category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Coriander (Cilantro)?",
+          answer: "Coriander (Cilantro) is traditionally used for: Blood sugar regulation, digestion support, heavy metal chelation.",
+          category: "Medicinal Uses"
       }
   ],
     image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=800',
@@ -1552,6 +1572,11 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Basil combine well with Tomatoes?",
           answer: "Yes \u2014 Basil pairs well with Tomatoes.",
           category: "Synergies"
+      },
+      {
+          question: "How is Basil used in cooking?",
+          answer: "Basil is commonly used in: Pesto, pasta sauces, pizzas, Thai curries.",
+          category: "Culinary Uses"
       }
   ],
     image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=800',
@@ -1700,6 +1725,16 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Rosemary combine well with Sage?",
           answer: "Yes \u2014 Rosemary pairs well with Sage.",
           category: "Synergies"
+      },
+      {
+          question: "How is Rosemary used in cooking?",
+          answer: "Rosemary is commonly used in: Roasted meats, breads, roasted vegetables, marinades.",
+          category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Rosemary?",
+          answer: "Rosemary is traditionally used for: Memory enhancement, hair growth, scalp circulation, antioxidant.",
+          category: "Medicinal Uses"
       }
   ],
     image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=800',
@@ -1848,6 +1883,16 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Lavender combine well with Lemon Balm?",
           answer: "Yes \u2014 Lavender pairs well with Lemon Balm.",
           category: "Synergies"
+      },
+      {
+          question: "How is Lavender used in cooking?",
+          answer: "Lavender is commonly used in: Baking, lavender sugar, herbal teas.",
+          category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Lavender?",
+          answer: "Lavender is traditionally used for: Anxiety relief, sleep aid, wound healing properties.",
+          category: "Medicinal Uses"
       }
   ],
     image: 'https://images.unsplash.com/photo-1610970881699-44a5587caa9a?q=80&w=800',
@@ -1997,6 +2042,16 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Oregano combine well with Garlic?",
           answer: "Yes \u2014 Oregano pairs well with Garlic.",
           category: "Synergies"
+      },
+      {
+          question: "How is Oregano used in cooking?",
+          answer: "Oregano is commonly used in: Pizza, pasta sauces, meat rubs, Greek salads.",
+          category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Oregano?",
+          answer: "Oregano is traditionally used for: Antifungal, immune support, gut health, respiratory aid.",
+          category: "Medicinal Uses"
       }
   ],
     image: 'https://images.unsplash.com/photo-1541832676-9b763b0239ab?q=80&w=800',
@@ -2148,6 +2203,16 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Thyme combine well with Honey?",
           answer: "Yes \u2014 Thyme pairs well with Honey (for cough relief).",
           category: "Synergies"
+      },
+      {
+          question: "How is Thyme used in cooking?",
+          answer: "Thyme is commonly used in: Roasted meats, poultry stuffing, stews, soups.",
+          category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Thyme?",
+          answer: "Thyme is traditionally used for: Cough suppressant, throat antiseptic, digestive relief.",
+          category: "Medicinal Uses"
       }
   ],
     image: 'https://images.unsplash.com/photo-1541832676-9b763b0239ab?q=80&w=800',
@@ -2295,6 +2360,16 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Parsley combine well with Celery?",
           answer: "Yes \u2014 Parsley pairs well with Celery.",
           category: "Synergies"
+      },
+      {
+          question: "How is Parsley used in cooking?",
+          answer: "Parsley is commonly used in: Tabbouleh, chimichurri, garnishes, bouquet garni.",
+          category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Parsley?",
+          answer: "Parsley is traditionally used for: Kidney health, detoxification support, fresh breath.",
+          category: "Medicinal Uses"
       }
   ],
     image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=800',
@@ -2457,6 +2532,11 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Echinacea combine well with Vitamin C?",
           answer: "Yes \u2014 Echinacea pairs well with Vitamin C.",
           category: "Synergies"
+      },
+      {
+          question: "How is Echinacea used in cooking?",
+          answer: "Echinacea is commonly used in: Herbal tea, tinctures.",
+          category: "Culinary Uses"
       }
   ],
     image: 'https://images.unsplash.com/photo-1628559253457-3bf71239c0dc?q=80&w=800',
@@ -2604,6 +2684,16 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Lemon Balm combine well with Chamomile?",
           answer: "Yes \u2014 Lemon Balm pairs well with Chamomile.",
           category: "Synergies"
+      },
+      {
+          question: "How is Lemon Balm used in cooking?",
+          answer: "Lemon Balm is commonly used in: Calming herbal teas, salad additions, summer fruit syrups.",
+          category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Lemon Balm?",
+          answer: "Lemon Balm is traditionally used for: Anxiety relief, cognitive support, sleep enhancement.",
+          category: "Medicinal Uses"
       }
   ],
     image: 'https://images.unsplash.com/photo-1610970881699-44a5587caa9a?q=80&w=800',
@@ -2752,6 +2842,16 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Shiso (Perilla) combine well with Green Tea?",
           answer: "Yes \u2014 Shiso (Perilla) pairs well with Green Tea.",
           category: "Synergies"
+      },
+      {
+          question: "How is Shiso (Perilla) used in cooking?",
+          answer: "Shiso (Perilla) is commonly used in: Sushi wraps, tempura, kimchi ingredient, salads.",
+          category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Shiso (Perilla)?",
+          answer: "Shiso (Perilla) is traditionally used for: Allergy relief, anti-inflammatory, digestive aid.",
+          category: "Medicinal Uses"
       }
   ],
     image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=800',
@@ -2900,6 +3000,16 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Hibiscus combine well with Ceylon Cinnamon?",
           answer: "Yes \u2014 Hibiscus pairs well with Ceylon Cinnamon.",
           category: "Synergies"
+      },
+      {
+          question: "How is Hibiscus used in cooking?",
+          answer: "Hibiscus is commonly used in: Tart herbal teas, jams, sauces, syrups.",
+          category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Hibiscus?",
+          answer: "Hibiscus is traditionally used for: Lowering blood pressure (hypertension), liver protection, kidney flush.",
+          category: "Medicinal Uses"
       }
   ],
     image: 'https://images.unsplash.com/photo-1610970881699-44a5587caa9a?q=80&w=800',
@@ -3055,6 +3165,11 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Valerian Root combine well with Passionflower?",
           answer: "Yes \u2014 Valerian Root pairs well with Passionflower.",
           category: "Synergies"
+      },
+      {
+          question: "How is Valerian Root used in cooking?",
+          answer: "Valerian Root is commonly used in: None (used exclusively as supplement due to strong pungent odor).",
+          category: "Culinary Uses"
       }
   ],
     image: 'https://images.unsplash.com/photo-1628559253457-3bf71239c0dc?q=80&w=800',
@@ -3210,6 +3325,11 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Dill combine well with Cucumber?",
           answer: "Yes \u2014 Dill pairs well with Cucumber.",
           category: "Synergies"
+      },
+      {
+          question: "How is Dill used in cooking?",
+          answer: "Dill is commonly used in: Pickling cucumbers, salmon seasoning, tzatziki, potato salads.",
+          category: "Culinary Uses"
       }
   ],
     image: 'https://images.unsplash.com/photo-1541832676-9b763b0239ab?q=80&w=800',
@@ -3362,6 +3482,16 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Ginseng combine well with Ginger?",
           answer: "Yes \u2014 Ginseng pairs well with Ginger.",
           category: "Synergies"
+      },
+      {
+          question: "How is Ginseng used in cooking?",
+          answer: "Ginseng is commonly used in: Ginseng chicken soup (Samgyeotang), hot energy teas.",
+          category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Ginseng?",
+          answer: "Ginseng is traditionally used for: Chronic fatigue support, blood sugar stabilization, cognitive focus.",
+          category: "Medicinal Uses"
       }
   ],
     image: 'https://images.unsplash.com/photo-1628559253457-3bf71239c0dc?q=80&w=800',
@@ -3510,6 +3640,16 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Marjoram combine well with Oregano?",
           answer: "Yes \u2014 Marjoram pairs well with Oregano.",
           category: "Synergies"
+      },
+      {
+          question: "How is Marjoram used in cooking?",
+          answer: "Marjoram is commonly used in: Herb butter, roasted poultry, vegetable sauces, dry rubs.",
+          category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Marjoram?",
+          answer: "Marjoram is traditionally used for: Gas relief, respiratory congestion, digestion optimization.",
+          category: "Medicinal Uses"
       }
   ],
     image: 'https://images.unsplash.com/photo-1541832676-9b763b0239ab?q=80&w=800',
@@ -3661,6 +3801,16 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Tarragon combine well with Chives?",
           answer: "Yes \u2014 Tarragon pairs well with Chives.",
           category: "Synergies"
+      },
+      {
+          question: "How is Tarragon used in cooking?",
+          answer: "Tarragon is commonly used in: B\u00E9arnaise sauce, French vinaigrettes, chicken seasoning, tarragon vinegar.",
+          category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Tarragon?",
+          answer: "Tarragon is traditionally used for: Appetite stimulation, mild digestive relief, toothache relief (due to mild numbing).",
+          category: "Medicinal Uses"
       }
   ],
     image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=800',
@@ -3807,6 +3957,21 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does St. John's Wort combine well with None recommended?",
           answer: "Yes \u2014 St. John's Wort pairs well with None recommended (high risk of interactions).",
           category: "Synergies"
+      },
+      {
+          question: "How is St. John's Wort used in cooking?",
+          answer: "St. John's Wort is commonly used in: None (used exclusively as a medicinal supplement; toxic to livestock).",
+          category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of St. John's Wort?",
+          answer: "St. John's Wort is traditionally used for: Mild-to-moderate depression support, nerve pain, wound healing (topical oil).",
+          category: "Medicinal Uses"
+      },
+      {
+          question: "What other names is St. John's Wort known by?",
+          answer: "St. John's Wort is also known as Klamath Weed, Goatweed.",
+          category: "Identification"
       }
   ],
     image: 'https://images.unsplash.com/photo-1628559253457-3bf71239c0dc?q=80&w=800',
@@ -3956,6 +4121,16 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Ginkgo Biloba combine well with Gotu Kola?",
           answer: "Yes \u2014 Ginkgo Biloba pairs well with Gotu Kola.",
           category: "Synergies"
+      },
+      {
+          question: "How is Ginkgo Biloba used in cooking?",
+          answer: "Ginkgo Biloba is commonly used in: Roasted seeds (in Asian cuisine, eaten in small amounts; raw seeds are toxic).",
+          category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Ginkgo Biloba?",
+          answer: "Ginkgo Biloba is traditionally used for: Enhancing memory/focus, arterial circulation, reducing tinnitus symptoms.",
+          category: "Medicinal Uses"
       }
   ],
     image: 'https://images.unsplash.com/photo-1628559253457-3bf71239c0dc?q=80&w=800',
@@ -4108,6 +4283,16 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Curry Leaves combine well with Fenugreek seeds?",
           answer: "Yes \u2014 Curry Leaves pairs well with Fenugreek seeds.",
           category: "Synergies"
+      },
+      {
+          question: "How is Curry Leaves used in cooking?",
+          answer: "Curry Leaves is commonly used in: Tadka for sambar, rasam, dry vegetable curries, coconut chutneys.",
+          category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Curry Leaves?",
+          answer: "Curry Leaves is traditionally used for: Hair follicle health, glycemic control, liver support.",
+          category: "Medicinal Uses"
       }
   ],
     image: 'https://images.unsplash.com/photo-1541832676-9b763b0239ab?q=80&w=800',
@@ -4232,6 +4417,16 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Cumin (Jeera) combine well with Black Pepper?",
           answer: "Yes \u2014 Cumin (Jeera) pairs well with Black Pepper.",
           category: "Synergies"
+      },
+      {
+          question: "How is Cumin (Jeera) used in cooking?",
+          answer: "Cumin (Jeera) is commonly used in: Tempering (tadka), garam masala base, dry roasted powders for yogurt and curries.",
+          category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Cumin (Jeera)?",
+          answer: "Cumin (Jeera) is traditionally used for: Amylase secretion booster, gas flatulence relief, iron deficiency supplement.",
+          category: "Medicinal Uses"
       }
   ],
     image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=800',
@@ -4355,6 +4550,16 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Cardamom (Elaichi) combine well with Ginger?",
           answer: "Yes \u2014 Cardamom (Elaichi) pairs well with Ginger.",
           category: "Synergies"
+      },
+      {
+          question: "How is Cardamom (Elaichi) used in cooking?",
+          answer: "Cardamom (Elaichi) is commonly used in: Masala chai, biryanis, desserts (kheer, halwa).",
+          category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Cardamom (Elaichi)?",
+          answer: "Cardamom (Elaichi) is traditionally used for: Gas reduction, mouth freshener, digestive tonic.",
+          category: "Medicinal Uses"
       }
   ],
     image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=800',
@@ -4474,6 +4679,16 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Clove (Laung) combine well with Cardamom?",
           answer: "Yes \u2014 Clove (Laung) pairs well with Cardamom.",
           category: "Synergies"
+      },
+      {
+          question: "How is Clove (Laung) used in cooking?",
+          answer: "Clove (Laung) is commonly used in: Garam masala, biryani, mulled cider, masala chai.",
+          category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Clove (Laung)?",
+          answer: "Clove (Laung) is traditionally used for: Dental pain relief, antiseptic gargle, digestive gas prevention.",
+          category: "Medicinal Uses"
       }
   ],
     image: 'https://images.unsplash.com/photo-1596040033229-a9821ebd058d?q=80&w=800',
@@ -4593,6 +4808,16 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Black Pepper (Kali Mirch) combine well with Ginger?",
           answer: "Yes \u2014 Black Pepper (Kali Mirch) pairs well with Ginger.",
           category: "Synergies"
+      },
+      {
+          question: "How is Black Pepper (Kali Mirch) used in cooking?",
+          answer: "Black Pepper (Kali Mirch) is commonly used in: General cooking seasoning, garam masala component, soup flavoring.",
+          category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Black Pepper (Kali Mirch)?",
+          answer: "Black Pepper (Kali Mirch) is traditionally used for: Nutrient bioavailability enhancer, fat metabolism support, throat clearing.",
+          category: "Medicinal Uses"
       }
   ],
     image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=800',
@@ -4710,6 +4935,16 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Asafoetida (Hing) combine well with Ginger?",
           answer: "Yes \u2014 Asafoetida (Hing) pairs well with Ginger.",
           category: "Synergies"
+      },
+      {
+          question: "How is Asafoetida (Hing) used in cooking?",
+          answer: "Asafoetida (Hing) is commonly used in: Tadka for lentils (dals), bean stews, pickles.",
+          category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Asafoetida (Hing)?",
+          answer: "Asafoetida (Hing) is traditionally used for: Gas reduction, colic relief, digestive stimulant.",
+          category: "Medicinal Uses"
       }
   ],
     image: 'https://images.unsplash.com/photo-1541832676-9b763b0239ab?q=80&w=800',
@@ -4833,6 +5068,16 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Saffron (Kesar) combine well with Cardamom?",
           answer: "Yes \u2014 Saffron (Kesar) pairs well with Cardamom.",
           category: "Synergies"
+      },
+      {
+          question: "How is Saffron (Kesar) used in cooking?",
+          answer: "Saffron (Kesar) is commonly used in: Kheer, biryanis, saffron milk, kulfi desserts.",
+          category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Saffron (Kesar)?",
+          answer: "Saffron (Kesar) is traditionally used for: Mood balance, antioxidant protection, macular health support.",
+          category: "Medicinal Uses"
       }
   ],
     image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=800',
@@ -4952,6 +5197,16 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Carom Seeds (Ajwain) combine well with Ginger?",
           answer: "Yes \u2014 Carom Seeds (Ajwain) pairs well with Ginger.",
           category: "Synergies"
+      },
+      {
+          question: "How is Carom Seeds (Ajwain) used in cooking?",
+          answer: "Carom Seeds (Ajwain) is commonly used in: Fried snacks (pakoras), flatbreads (parathas), tadkas.",
+          category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Carom Seeds (Ajwain)?",
+          answer: "Carom Seeds (Ajwain) is traditionally used for: Cramping/spasm relief, gas reduction, throat clearing.",
+          category: "Medicinal Uses"
       }
   ],
     image: 'https://images.unsplash.com/photo-1541832676-9b763b0239ab?q=80&w=800',
@@ -5075,6 +5330,16 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Mustard Seeds (Sarson) combine well with Asafoetida?",
           answer: "Yes \u2014 Mustard Seeds (Sarson) pairs well with Asafoetida.",
           category: "Synergies"
+      },
+      {
+          question: "How is Mustard Seeds (Sarson) used in cooking?",
+          answer: "Mustard Seeds (Sarson) is commonly used in: Tadka base, pickling pickles, Sarson ka Saag.",
+          category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Mustard Seeds (Sarson)?",
+          answer: "Mustard Seeds (Sarson) is traditionally used for: Local thermogenic support, clearing lung mucus.",
+          category: "Medicinal Uses"
       }
   ],
     image: 'https://images.unsplash.com/photo-1596040033229-a9821ebd058d?q=80&w=800',
@@ -5198,6 +5463,16 @@ export const HERBS_SPICES_DATA: HerbalEntity[] = [
           question: "Does Star Anise (Chakra Phool) combine well with Ginger?",
           answer: "Yes \u2014 Star Anise (Chakra Phool) pairs well with Ginger.",
           category: "Synergies"
+      },
+      {
+          question: "How is Star Anise (Chakra Phool) used in cooking?",
+          answer: "Star Anise (Chakra Phool) is commonly used in: Biryani flavor base, Garam Masala spice blends, soup broths.",
+          category: "Culinary Uses"
+      },
+      {
+          question: "What are the medicinal uses of Star Anise (Chakra Phool)?",
+          answer: "Star Anise (Chakra Phool) is traditionally used for: Respiratory antiviral support, gut gas relief.",
+          category: "Medicinal Uses"
       }
   ],
     image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=800',

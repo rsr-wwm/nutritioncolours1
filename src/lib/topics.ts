@@ -415,6 +415,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"DASH Diet\" help with Hypertension Management?",
           answer: "Yes \u2014 DASH Diet is one of the natural approaches recommended for Hypertension Management.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Hypertension Management?",
+          answer: "Lower High Blood Pressure Naturally",
+          category: "Overview"
       }
   ]
   },
@@ -478,6 +483,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Mindful eating\" help with Gut Health & Acidity?",
           answer: "Yes \u2014 Mindful eating is one of the natural approaches recommended for Gut Health & Acidity.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Gut Health & Acidity?",
+          answer: "Improve Digestion Naturally",
+          category: "Overview"
       }
   ]
   },
@@ -541,6 +551,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Resistance training\" help with Weight Loss for Women?",
           answer: "Yes \u2014 Resistance training is one of the natural approaches recommended for Weight Loss for Women.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Weight Loss for Women?",
+          answer: "Safe & Effective Plans",
+          category: "Overview"
       }
   ]
   },
@@ -604,6 +619,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Zinc-rich foods\" help with Weight Loss for Men?",
           answer: "Yes \u2014 Zinc-rich foods is one of the natural approaches recommended for Weight Loss for Men.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Weight Loss for Men?",
+          answer: "Fat Reduction & Muscle Gain",
+          category: "Overview"
       }
   ]
   },
@@ -667,6 +687,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Stress Management\" help with Belly Fat Reduction?",
           answer: "Yes \u2014 Stress Management is one of the natural approaches recommended for Belly Fat Reduction.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Belly Fat Reduction?",
+          answer: "Lose Stubborn Fat Naturally",
+          category: "Overview"
       }
   ]
   },
@@ -730,6 +755,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Magnesium\" help with Insulin Resistance Management?",
           answer: "Yes \u2014 Magnesium is one of the natural approaches recommended for Insulin Resistance Management.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Insulin Resistance Management?",
+          answer: "Prevent Diabetes Naturally",
+          category: "Overview"
       }
   ]
   },
@@ -793,6 +823,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Early Intervention\" help with Pre-Diabetes Care?",
           answer: "Yes \u2014 Early Intervention is one of the natural approaches recommended for Pre-Diabetes Care.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Pre-Diabetes Care?",
+          answer: "Act Now to Reduce Risk",
+          category: "Overview"
       }
   ]
   },
@@ -856,6 +891,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Black Cohosh (consultation needed)\" help with Menopause Hormone Support?",
           answer: "Yes \u2014 Black Cohosh (consultation needed) is one of the natural approaches recommended for Menopause Hormone Support.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Menopause Hormone Support?",
+          answer: "Manage Hot Flashes Naturally",
+          category: "Overview"
       }
   ]
   },
@@ -919,6 +959,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Liver support\" help with Hormonal Imbalance Correction?",
           answer: "Yes \u2014 Liver support is one of the natural approaches recommended for Hormonal Imbalance Correction.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Hormonal Imbalance Correction?",
+          answer: "Restore Vitality & Mood",
+          category: "Overview"
       }
   ]
   },
@@ -982,6 +1027,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Quality Sleep\" help with Testosterone Boost?",
           answer: "Yes \u2014 Quality Sleep is one of the natural approaches recommended for Testosterone Boost.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Testosterone Boost?",
+          answer: "Improve Energy & Vitality",
+          category: "Overview"
       }
   ]
   },
@@ -1045,6 +1095,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Meditation\" help with Cortisol & Stress Balance?",
           answer: "Yes \u2014 Meditation is one of the natural approaches recommended for Cortisol & Stress Balance.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Cortisol & Stress Balance?",
+          answer: "Calm the Stress Hormone",
+          category: "Overview"
       }
   ]
   },
@@ -1108,6 +1163,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Avoid Trans Fats\" help with Cholesterol Management?",
           answer: "Yes \u2014 Avoid Trans Fats is one of the natural approaches recommended for Cholesterol Management.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Cholesterol Management?",
+          answer: "Keep Your Arteries Clear",
+          category: "Overview"
       }
   ]
   },
@@ -1171,6 +1231,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Cardio exercise\" help with Heart Health Optimization?",
           answer: "Yes \u2014 Cardio exercise is one of the natural approaches recommended for Heart Health Optimization.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Heart Health Optimization?",
+          answer: "Strengthen Your Cardio System",
+          category: "Overview"
       }
   ]
   },
@@ -1234,6 +1299,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Leg movement\" help with Blood Circulation Support?",
           answer: "Yes \u2014 Leg movement is one of the natural approaches recommended for Blood Circulation Support.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Blood Circulation Support?",
+          answer: "Improve Nutrient & Oxygen Delivery",
+          category: "Overview"
       }
   ]
   },
@@ -1297,6 +1367,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Gentle Yoga\" help with Joint Pain Relief?",
           answer: "Yes \u2014 Gentle Yoga is one of the natural approaches recommended for Joint Pain Relief.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Joint Pain Relief?",
+          answer: "Reduce Inflammation & Stiffness",
+          category: "Overview"
       }
   ]
   },
@@ -1360,6 +1435,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Weight Management\" help with Arthritis Support?",
           answer: "Yes \u2014 Weight Management is one of the natural approaches recommended for Arthritis Support.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Arthritis Support?",
+          answer: "Manage Osteo & Rheumatoid Issues",
+          category: "Overview"
       }
   ]
   },
@@ -1423,6 +1503,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Avoid excessive caffeine\" help with Osteoporosis Prevention?",
           answer: "Yes \u2014 Avoid excessive caffeine is one of the natural approaches recommended for Osteoporosis Prevention.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Osteoporosis Prevention?",
+          answer: "Build Strong Bones",
+          category: "Overview"
       }
   ]
   },
@@ -1486,6 +1571,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Bugleweed\" help with Hyperthyroid Protocol?",
           answer: "Yes \u2014 Bugleweed is one of the natural approaches recommended for Hyperthyroid Protocol.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Hyperthyroid Protocol?",
+          answer: "Calm the Overactive Thyroid",
+          category: "Overview"
       }
   ]
   },
@@ -1549,6 +1639,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Sufficient Calories\" help with Muscle Recovery & Strength?",
           answer: "Yes \u2014 Sufficient Calories is one of the natural approaches recommended for Muscle Recovery & Strength.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Muscle Recovery & Strength?",
+          answer: "Rebuild & Repair Naturally",
+          category: "Overview"
       }
   ]
   },
@@ -1612,6 +1707,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Stretching\" help with Back & Spine Health?",
           answer: "Yes \u2014 Stretching is one of the natural approaches recommended for Back & Spine Health.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Back & Spine Health?",
+          answer: "Support Your Structural Core",
+          category: "Overview"
       }
   ]
   },
@@ -1675,6 +1775,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Scalp Care\" help with Hair Growth & Strength?",
           answer: "Yes \u2014 Scalp Care is one of the natural approaches recommended for Hair Growth & Strength.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Hair Growth & Strength?",
+          answer: "Prevent Fall & Build Shine",
+          category: "Overview"
       }
   ]
   },
@@ -1738,6 +1843,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Liver support\" help with Skin Glow & Detox?",
           answer: "Yes \u2014 Liver support is one of the natural approaches recommended for Skin Glow & Detox.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Skin Glow & Detox?",
+          answer: "Brighten Your Complexion Naturally",
+          category: "Overview"
       }
   ]
   },
@@ -1801,6 +1911,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Limit Sun Damage\" help with Anti-Aging Support?",
           answer: "Yes \u2014 Limit Sun Damage is one of the natural approaches recommended for Anti-Aging Support.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Anti-Aging Support?",
+          answer: "Longevity Through Nutrition",
+          category: "Overview"
       }
   ]
   },
@@ -1864,6 +1979,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Low sugar\" help with Acne & Skin Clarity?",
           answer: "Yes \u2014 Low sugar is one of the natural approaches recommended for Acne & Skin Clarity.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Acne & Skin Clarity?",
+          answer: "Support Clear Skin with Diet",
+          category: "Overview"
       }
   ]
   },
@@ -1927,6 +2047,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Avoid harsh chemicals\" help with Nail Health & Strength?",
           answer: "Yes \u2014 Avoid harsh chemicals is one of the natural approaches recommended for Nail Health & Strength.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Nail Health & Strength?",
+          answer: "Prevent Brittle & Weak Nails",
+          category: "Overview"
       }
   ]
   },
@@ -1990,6 +2115,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Adequate Sleep\" help with Immunity Boost?",
           answer: "Yes \u2014 Adequate Sleep is one of the natural approaches recommended for Immunity Boost.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Immunity Boost?",
+          answer: "Strengthen Your Body's Defenses Naturally",
+          category: "Overview"
       }
   ]
   },
@@ -2053,6 +2183,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Infrared Sauna equivalent\" help with Detox & Rejuvenation?",
           answer: "Yes \u2014 Infrared Sauna equivalent is one of the natural approaches recommended for Detox & Rejuvenation.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Detox & Rejuvenation?",
+          answer: "Cleanse Your System for Energy",
+          category: "Overview"
       }
   ]
   },
@@ -2116,6 +2251,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Ginger\" help with Anti-Inflammatory Support?",
           answer: "Yes \u2014 Ginger is one of the natural approaches recommended for Anti-Inflammatory Support.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Anti-Inflammatory Support?",
+          answer: "Reduce Chronic Systemic Inflammation",
+          category: "Overview"
       }
   ]
   },
@@ -2179,6 +2319,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Movement\" help with Healthy Aging Solutions?",
           answer: "Yes \u2014 Movement is one of the natural approaches recommended for Healthy Aging Solutions.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Healthy Aging Solutions?",
+          answer: "Stay Fit & Sharp into Senior Years",
+          category: "Overview"
       }
   ]
   },
@@ -2242,6 +2387,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Social connection\" help with Wellness & Longevity?",
           answer: "Yes \u2014 Social connection is one of the natural approaches recommended for Wellness & Longevity.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Wellness & Longevity?",
+          answer: "Eat for a Longer Life",
+          category: "Overview"
       }
   ]
   },
@@ -2305,6 +2455,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Blood sugar stability\" help with Fertility & Hormone Support?",
           answer: "Yes \u2014 Blood sugar stability is one of the natural approaches recommended for Fertility & Hormone Support.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Fertility & Hormone Support?",
+          answer: "Optimize Conception Health Naturally",
+          category: "Overview"
       }
   ]
   },
@@ -2368,6 +2523,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Inositol\" help with PCOS Weight & Diet?",
           answer: "Yes \u2014 Inositol is one of the natural approaches recommended for PCOS Weight & Diet.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is PCOS Weight & Diet?",
+          answer: "Manage PCOS Weight Gain",
+          category: "Overview"
       }
   ]
   },
@@ -2431,6 +2591,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Resistance training\" help with Menopause Weight Management?",
           answer: "Yes \u2014 Resistance training is one of the natural approaches recommended for Menopause Weight Management.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is Menopause Weight Management?",
+          answer: "Lose Middle-Age Weight Naturally",
+          category: "Overview"
       }
   ]
   },
@@ -4387,6 +4552,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Low-carb, high-fiber, no refined sugar.\" help with Type 2 Diabetes?",
           answer: "Yes \u2014 Low-carb, high-fiber, no refined sugar. is one of the natural approaches recommended for Type 2 Diabetes.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Type 2 Diabetes?",
+          answer: "Type 2 Diabetes is also referred to as T2DM.",
+          category: "Identification"
       }
   ],
   },
@@ -4449,6 +4619,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Zero refined sugar, low fructose.\" help with Fatty Liver?",
           answer: "Yes \u2014 Zero refined sugar, low fructose. is one of the natural approaches recommended for Fatty Liver.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Fatty Liver?",
+          answer: "Fatty Liver is also referred to as NAFLD/MASLD.",
+          category: "Identification"
       }
   ],
   },
@@ -4511,6 +4686,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Low-glycemic diet, high protein.\" help with PCOD / PCOS?",
           answer: "Yes \u2014 Low-glycemic diet, high protein. is one of the natural approaches recommended for PCOD / PCOS.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for PCOD / PCOS?",
+          answer: "PCOD / PCOS is also referred to as Polycystic Ovary Syndrome.",
+          category: "Identification"
       }
   ],
   },
@@ -4573,6 +4753,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Calorie deficit, high protein.\" help with Obesity?",
           answer: "Yes \u2014 Calorie deficit, high protein. is one of the natural approaches recommended for Obesity.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Obesity?",
+          answer: "Obesity is also referred to as Adiposity.",
+          category: "Identification"
       }
   ],
   },
@@ -4635,6 +4820,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Fiber-rich veggies, complex carbs.\" help with High Blood Sugar?",
           answer: "Yes \u2014 Fiber-rich veggies, complex carbs. is one of the natural approaches recommended for High Blood Sugar.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for High Blood Sugar?",
+          answer: "High Blood Sugar is also referred to as Hyperglycemia.",
+          category: "Identification"
       }
   ],
   },
@@ -4697,6 +4887,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Mediterranean diet, whole foods.\" help with Metabolic Syndrome?",
           answer: "Yes \u2014 Mediterranean diet, whole foods. is one of the natural approaches recommended for Metabolic Syndrome.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Metabolic Syndrome?",
+          answer: "Metabolic Syndrome is also referred to as Syndrome X.",
+          category: "Identification"
       }
   ],
   },
@@ -4759,6 +4954,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Low-carb pregnancy diet, small meals.\" help with Gestational Diabetes?",
           answer: "Yes \u2014 Low-carb pregnancy diet, small meals. is one of the natural approaches recommended for Gestational Diabetes.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Gestational Diabetes?",
+          answer: "Gestational Diabetes is also referred to as GDM.",
+          category: "Identification"
       }
   ],
   },
@@ -4821,6 +5021,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Complex carbs + protein every 3 hrs.\" help with Low Blood Sugar?",
           answer: "Yes \u2014 Complex carbs + protein every 3 hrs. is one of the natural approaches recommended for Low Blood Sugar.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Low Blood Sugar?",
+          answer: "Low Blood Sugar is also referred to as Hypoglycemia.",
+          category: "Identification"
       }
   ],
   },
@@ -4883,6 +5088,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Strict carb-counting, hydration.\" help with DKA Prevention?",
           answer: "Yes \u2014 Strict carb-counting, hydration. is one of the natural approaches recommended for DKA Prevention.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for DKA Prevention?",
+          answer: "DKA Prevention is also referred to as Diabetic Ketoacidosis.",
+          category: "Identification"
       }
   ],
   },
@@ -4945,6 +5155,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Strict carb-counting to match insulin.\" help with Type 1 Diabetes?",
           answer: "Yes \u2014 Strict carb-counting to match insulin. is one of the natural approaches recommended for Type 1 Diabetes.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Type 1 Diabetes?",
+          answer: "Type 1 Diabetes is also referred to as T1DM.",
+          category: "Identification"
       }
   ],
   },
@@ -5007,6 +5222,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Very low fat, zero alcohol.\" help with Type 3c Diabetes?",
           answer: "Yes \u2014 Very low fat, zero alcohol. is one of the natural approaches recommended for Type 3c Diabetes.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Type 3c Diabetes?",
+          answer: "Type 3c Diabetes is also referred to as Pancreatogenic Diabetes.",
+          category: "Identification"
       }
   ],
   },
@@ -5069,6 +5289,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Oats, beans, olive oil, nuts.\" help with High Cholesterol?",
           answer: "Yes \u2014 Oats, beans, olive oil, nuts. is one of the natural approaches recommended for High Cholesterol.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for High Cholesterol?",
+          answer: "High Cholesterol is also referred to as Hypercholesterolemia.",
+          category: "Identification"
       }
   ],
   },
@@ -5131,6 +5356,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Low purine, low fructose, low alcohol.\" help with Gout?",
           answer: "Yes \u2014 Low purine, low fructose, low alcohol. is one of the natural approaches recommended for Gout.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Gout?",
+          answer: "Gout is also referred to as Gouty Arthritis.",
+          category: "Identification"
       }
   ],
   },
@@ -5193,6 +5423,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Low-carb, zero sugar diet.\" help with Dark Neck/Skin Tags?",
           answer: "Yes \u2014 Low-carb, zero sugar diet. is one of the natural approaches recommended for Dark Neck/Skin Tags.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Dark Neck/Skin Tags?",
+          answer: "Dark Neck/Skin Tags is also referred to as Acanthosis Nigricans.",
+          category: "Identification"
       }
   ],
   },
@@ -5255,6 +5490,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Strict low-saturated fat, high fiber.\" help with Cholesterol Deposits?",
           answer: "Yes \u2014 Strict low-saturated fat, high fiber. is one of the natural approaches recommended for Cholesterol Deposits.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Cholesterol Deposits?",
+          answer: "Cholesterol Deposits is also referred to as Xanthelasma.",
+          category: "Identification"
       }
   ],
   },
@@ -5317,6 +5557,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"DASH diet (high potassium, low sodium).\" help with High BP?",
           answer: "Yes \u2014 DASH diet (high potassium, low sodium). is one of the natural approaches recommended for High BP.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for High BP?",
+          answer: "High BP is also referred to as Hypertension.",
+          category: "Identification"
       }
   ],
   },
@@ -5379,6 +5624,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Mediterranean diet, Omega-3s.\" help with Heart Disease?",
           answer: "Yes \u2014 Mediterranean diet, Omega-3s. is one of the natural approaches recommended for Heart Disease.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Heart Disease?",
+          answer: "Heart Disease is also referred to as Coronary Heart Disease.",
+          category: "Identification"
       }
   ],
   },
@@ -5441,6 +5691,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Heart-healthy diet post-attack.\" help with Heart Attack?",
           answer: "Yes \u2014 Heart-healthy diet post-attack. is one of the natural approaches recommended for Heart Attack.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Heart Attack?",
+          answer: "Heart Attack is also referred to as Myocardial Infarction.",
+          category: "Identification"
       }
   ],
   },
@@ -5503,6 +5758,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Low sodium, high antioxidant foods.\" help with Stroke?",
           answer: "Yes \u2014 Low sodium, high antioxidant foods. is one of the natural approaches recommended for Stroke.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Stroke?",
+          answer: "Stroke is also referred to as Cerebrovascular Accident.",
+          category: "Identification"
       }
   ],
   },
@@ -5565,6 +5825,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Heart-healthy, low-fat diet.\" help with Angina?",
           answer: "Yes \u2014 Heart-healthy, low-fat diet. is one of the natural approaches recommended for Angina.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Angina?",
+          answer: "Angina is also referred to as Angina Pectoris.",
+          category: "Identification"
       }
   ],
   },
@@ -5627,6 +5892,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Limit caffeine/alcohol; magnesium-rich.\" help with A-Fib?",
           answer: "Yes \u2014 Limit caffeine/alcohol; magnesium-rich. is one of the natural approaches recommended for A-Fib.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for A-Fib?",
+          answer: "A-Fib is also referred to as Atrial Fibrillation.",
+          category: "Identification"
       }
   ],
   },
@@ -5689,6 +5959,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Low saturated fat, high fiber.\" help with Peripheral Artery?",
           answer: "Yes \u2014 Low saturated fat, high fiber. is one of the natural approaches recommended for Peripheral Artery.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Peripheral Artery?",
+          answer: "Peripheral Artery is also referred to as PAD.",
+          category: "Identification"
       }
   ],
   },
@@ -5751,6 +6026,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"High fiber (prevents straining).\" help with Varicose Veins?",
           answer: "Yes \u2014 High fiber (prevents straining). is one of the natural approaches recommended for Varicose Veins.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Varicose Veins?",
+          answer: "Varicose Veins is also referred to as Varicosities.",
+          category: "Identification"
       }
   ],
   },
@@ -5813,6 +6093,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"High protein/zinc for wound healing.\" help with Leg Ulcers?",
           answer: "Yes \u2014 High protein/zinc for wound healing. is one of the natural approaches recommended for Leg Ulcers.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Leg Ulcers?",
+          answer: "Leg Ulcers is also referred to as Venous Stasis Ulcer.",
+          category: "Identification"
       }
   ],
   },
@@ -5875,6 +6160,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Increase salt intake, hydrate well.\" help with Low BP?",
           answer: "Yes \u2014 Increase salt intake, hydrate well. is one of the natural approaches recommended for Low BP.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Low BP?",
+          answer: "Low BP is also referred to as Hypotension.",
+          category: "Identification"
       }
   ],
   },
@@ -5937,6 +6227,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"High fiber, lots of water.\" help with Varicocele?",
           answer: "Yes \u2014 High fiber, lots of water. is one of the natural approaches recommended for Varicocele.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Varicocele?",
+          answer: "Varicocele is also referred to as Varicocele.",
+          category: "Identification"
       }
   ],
   },
@@ -5999,6 +6294,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Hydration, blood-thinning foods.\" help with DVT?",
           answer: "Yes \u2014 Hydration, blood-thinning foods. is one of the natural approaches recommended for DVT.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for DVT?",
+          answer: "DVT is also referred to as Deep Vein Thrombosis.",
+          category: "Identification"
       }
   ],
   },
@@ -6061,6 +6361,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Avoid iron supplements/red meat.\" help with Iron Overload?",
           answer: "Yes \u2014 Avoid iron supplements/red meat. is one of the natural approaches recommended for Iron Overload.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Iron Overload?",
+          answer: "Iron Overload is also referred to as Hemochromatosis.",
+          category: "Identification"
       }
   ],
   },
@@ -6123,6 +6428,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Red meat, spinach + Vitamin C.\" help with Iron Deficiency?",
           answer: "Yes \u2014 Red meat, spinach + Vitamin C. is one of the natural approaches recommended for Iron Deficiency.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Iron Deficiency?",
+          answer: "Iron Deficiency is also referred to as Iron Def. Anemia.",
+          category: "Identification"
       }
   ],
   },
@@ -6185,6 +6495,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Fatty fish, egg yolks.\" help with Vitamin D Deficiency?",
           answer: "Yes \u2014 Fatty fish, egg yolks. is one of the natural approaches recommended for Vitamin D Deficiency.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Vitamin D Deficiency?",
+          answer: "Vitamin D Deficiency is also referred to as Hypovitaminosis D.",
+          category: "Identification"
       }
   ],
   },
@@ -6247,6 +6562,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Meat, dairy, fortified foods.\" help with B12 Deficiency?",
           answer: "Yes \u2014 Meat, dairy, fortified foods. is one of the natural approaches recommended for B12 Deficiency.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for B12 Deficiency?",
+          answer: "B12 Deficiency is also referred to as Vit B12 Deficiency.",
+          category: "Identification"
       }
   ],
   },
@@ -6309,6 +6629,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Spinach, lentils, avocados.\" help with Folate Deficiency?",
           answer: "Yes \u2014 Spinach, lentils, avocados. is one of the natural approaches recommended for Folate Deficiency.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Folate Deficiency?",
+          answer: "Folate Deficiency is also referred to as Vit B9 Deficiency.",
+          category: "Identification"
       }
   ],
   },
@@ -6371,6 +6696,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Smaller meals; avoid spicy/fatty.\" help with Acid Reflux?",
           answer: "Yes \u2014 Smaller meals; avoid spicy/fatty. is one of the natural approaches recommended for Acid Reflux.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Acid Reflux?",
+          answer: "Acid Reflux is also referred to as GERD / GORD.",
+          category: "Identification"
       }
   ],
   },
@@ -6433,6 +6763,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Low-FODMAP diet; probiotics.\" help with IBS?",
           answer: "Yes \u2014 Low-FODMAP diet; probiotics. is one of the natural approaches recommended for IBS.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for IBS?",
+          answer: "IBS is also referred to as Irritable Bowel Syndrome.",
+          category: "Identification"
       }
   ],
   },
@@ -6495,6 +6830,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Psyllium husk, prunes, greens.\" help with Constipation?",
           answer: "Yes \u2014 Psyllium husk, prunes, greens. is one of the natural approaches recommended for Constipation.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Constipation?",
+          answer: "Constipation is also referred to as Obstipation.",
+          category: "Identification"
       }
   ],
   },
@@ -6557,6 +6897,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"High-fiber diet (once healed).\" help with Diverticulitis?",
           answer: "Yes \u2014 High-fiber diet (once healed). is one of the natural approaches recommended for Diverticulitis.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Diverticulitis?",
+          answer: "Diverticulitis is also referred to as Diverticular Disease.",
+          category: "Identification"
       }
   ],
   },
@@ -6619,6 +6964,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"High fiber, plant-based.\" help with Bowel Polyps?",
           answer: "Yes \u2014 High fiber, plant-based. is one of the natural approaches recommended for Bowel Polyps.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Bowel Polyps?",
+          answer: "Bowel Polyps is also referred to as Colorectal Polyps.",
+          category: "Identification"
       }
   ],
   },
@@ -6681,6 +7031,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"High fiber, plant-heavy diet.\" help with Bowel Cancer?",
           answer: "Yes \u2014 High fiber, plant-heavy diet. is one of the natural approaches recommended for Bowel Cancer.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Bowel Cancer?",
+          answer: "Bowel Cancer is also referred to as Colorectal Carcinoma.",
+          category: "Identification"
       }
   ],
   },
@@ -6743,6 +7098,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Bone broth, cabbage juice.\" help with Stomach Ulcer?",
           answer: "Yes \u2014 Bone broth, cabbage juice. is one of the natural approaches recommended for Stomach Ulcer.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Stomach Ulcer?",
+          answer: "Stomach Ulcer is also referred to as Peptic Ulcer / H. pylori.",
+          category: "Identification"
       }
   ],
   },
@@ -6805,6 +7165,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Healthy fats gradually.\" help with Gallstones?",
           answer: "Yes \u2014 Healthy fats gradually. is one of the natural approaches recommended for Gallstones.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Gallstones?",
+          answer: "Gallstones is also referred to as Cholelithiasis.",
+          category: "Identification"
       }
   ],
   },
@@ -6867,6 +7232,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"High fiber, lots of water.\" help with Hemorrhoids?",
           answer: "Yes \u2014 High fiber, lots of water. is one of the natural approaches recommended for Hemorrhoids.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Hemorrhoids?",
+          answer: "Hemorrhoids is also referred to as Haemorrhoids / Fissures.",
+          category: "Identification"
       }
   ],
   },
@@ -6929,6 +7299,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Extreme low-fat, zero alcohol/sugar.\" help with NAFLD Cirrhosis?",
           answer: "Yes \u2014 Extreme low-fat, zero alcohol/sugar. is one of the natural approaches recommended for NAFLD Cirrhosis.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for NAFLD Cirrhosis?",
+          answer: "NAFLD Cirrhosis is also referred to as Liver Fibrosis.",
+          category: "Identification"
       }
   ],
   },
@@ -6991,6 +7366,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Diet-induced weight loss, low fat.\" help with Fatty Pancreas?",
           answer: "Yes \u2014 Diet-induced weight loss, low fat. is one of the natural approaches recommended for Fatty Pancreas.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Fatty Pancreas?",
+          answer: "Fatty Pancreas is also referred to as NAFP.",
+          category: "Identification"
       }
   ],
   },
@@ -7053,6 +7433,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"100% strict gluten-free diet.\" help with Celiac Disease?",
           answer: "Yes \u2014 100% strict gluten-free diet. is one of the natural approaches recommended for Celiac Disease.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Celiac Disease?",
+          answer: "Celiac Disease is also referred to as Coeliac Disease.",
+          category: "Identification"
       }
   ],
   },
@@ -7115,6 +7500,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Exclusive Enteral Nutrition; low-fiber.\" help with Crohn's / UC?",
           answer: "Yes \u2014 Exclusive Enteral Nutrition; low-fiber. is one of the natural approaches recommended for Crohn's / UC.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Crohn's / UC?",
+          answer: "Crohn's / UC is also referred to as IBD.",
+          category: "Identification"
       }
   ],
   },
@@ -7177,6 +7567,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Specific Carb Diet (SCD) / Low-FODMAP.\" help with SIBO?",
           answer: "Yes \u2014 Specific Carb Diet (SCD) / Low-FODMAP. is one of the natural approaches recommended for SIBO.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for SIBO?",
+          answer: "SIBO is also referred to as Small Intestine Bacterial Overgrowth.",
+          category: "Identification"
       }
   ],
   },
@@ -7239,6 +7634,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Avoid aged cheese, wine, leftovers.\" help with Histamine Intolerance?",
           answer: "Yes \u2014 Avoid aged cheese, wine, leftovers. is one of the natural approaches recommended for Histamine Intolerance.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Histamine Intolerance?",
+          answer: "Histamine Intolerance is also referred to as Histamine Intolerance.",
+          category: "Identification"
       }
   ],
   },
@@ -7301,6 +7701,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Bone broth, fermented foods.\" help with Leaky Gut?",
           answer: "Yes \u2014 Bone broth, fermented foods. is one of the natural approaches recommended for Leaky Gut.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Leaky Gut?",
+          answer: "Leaky Gut is also referred to as Intestinal Permeability.",
+          category: "Identification"
       }
   ],
   },
@@ -7363,6 +7768,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Strict low-fat, zero alcohol.\" help with Pancreatitis?",
           answer: "Yes \u2014 Strict low-fat, zero alcohol. is one of the natural approaches recommended for Pancreatitis.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Pancreatitis?",
+          answer: "Pancreatitis is also referred to as Acute / Chronic Pancreatitis.",
+          category: "Identification"
       }
   ],
   },
@@ -7425,6 +7835,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Fresh foods, high antioxidants.\" help with Stomach Cancer?",
           answer: "Yes \u2014 Fresh foods, high antioxidants. is one of the natural approaches recommended for Stomach Cancer.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Stomach Cancer?",
+          answer: "Stomach Cancer is also referred to as Gastric Carcinoma.",
+          category: "Identification"
       }
   ],
   },
@@ -7487,6 +7902,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Weight loss, small meals, low acid.\" help with Esophagitis?",
           answer: "Yes \u2014 Weight loss, small meals, low acid. is one of the natural approaches recommended for Esophagitis.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Esophagitis?",
+          answer: "Esophagitis is also referred to as Barrett's Esophagus / Cancer.",
+          category: "Identification"
       }
   ],
   },
@@ -7549,6 +7969,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Bland diet, cabbage juice.\" help with Gastritis?",
           answer: "Yes \u2014 Bland diet, cabbage juice. is one of the natural approaches recommended for Gastritis.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Gastritis?",
+          answer: "Gastritis is also referred to as Erosive Gastritis.",
+          category: "Identification"
       }
   ],
   },
@@ -7611,6 +8036,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"High fiber, lots of water.\" help with Anal Fissure?",
           answer: "Yes \u2014 High fiber, lots of water. is one of the natural approaches recommended for Anal Fissure.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Anal Fissure?",
+          answer: "Anal Fissure is also referred to as Fissure in Ano.",
+          category: "Identification"
       }
   ],
   },
@@ -7673,6 +8103,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Six-food Elimination Diet.\" help with EoE?",
           answer: "Yes \u2014 Six-food Elimination Diet. is one of the natural approaches recommended for EoE.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for EoE?",
+          answer: "EoE is also referred to as Eosinophilic Esophagitis.",
+          category: "Identification"
       }
   ],
   },
@@ -7735,6 +8170,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Remove gluten/wheat completely.\" help with Gluten Sensitivity?",
           answer: "Yes \u2014 Remove gluten/wheat completely. is one of the natural approaches recommended for Gluten Sensitivity.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Gluten Sensitivity?",
+          answer: "Gluten Sensitivity is also referred to as Non-Celiac Gluten Sensitivity.",
+          category: "Identification"
       }
   ],
   },
@@ -7797,6 +8237,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Dark leafy greens (kale, spinach).\" help with Vitamin K Deficiency?",
           answer: "Yes \u2014 Dark leafy greens (kale, spinach). is one of the natural approaches recommended for Vitamin K Deficiency.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Vitamin K Deficiency?",
+          answer: "Vitamin K Deficiency is also referred to as Hypovitaminosis K.",
+          category: "Identification"
       }
   ],
   },
@@ -7859,6 +8304,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Nutrient-dense whole foods.\" help with Malnutrition?",
           answer: "Yes \u2014 Nutrient-dense whole foods. is one of the natural approaches recommended for Malnutrition.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Malnutrition?",
+          answer: "Malnutrition is also referred to as Nutritional Deficiency.",
+          category: "Identification"
       }
   ],
   },
@@ -7921,6 +8371,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"3L water daily, electrolytes.\" help with Dehydration?",
           answer: "Yes \u2014 3L water daily, electrolytes. is one of the natural approaches recommended for Dehydration.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Dehydration?",
+          answer: "Dehydration is also referred to as Hypohydration.",
+          category: "Identification"
       }
   ],
   },
@@ -7983,6 +8438,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Hydrate with electrolytes.\" help with Heatstroke?",
           answer: "Yes \u2014 Hydrate with electrolytes. is one of the natural approaches recommended for Heatstroke.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Heatstroke?",
+          answer: "Heatstroke is also referred to as Hyperthermia.",
+          category: "Identification"
       }
   ],
   },
@@ -8045,6 +8505,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Broccoli sprouts, no sugar.\" help with Bad Breath (Gut)?",
           answer: "Yes \u2014 Broccoli sprouts, no sugar. is one of the natural approaches recommended for Bad Breath (Gut).",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Bad Breath (Gut)?",
+          answer: "Bad Breath (Gut) is also referred to as Helicobacter pylori Infection.",
+          category: "Identification"
       }
   ],
   },
@@ -8107,6 +8572,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Re-introduce protein slowly.\" help with Kwashiorkor?",
           answer: "Yes \u2014 Re-introduce protein slowly. is one of the natural approaches recommended for Kwashiorkor.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Kwashiorkor?",
+          answer: "Kwashiorkor is also referred to as Severe Protein Malnutrition.",
+          category: "Identification"
       }
   ],
   },
@@ -8169,6 +8639,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Electrolyte-rich fluids, salty foods.\" help with Water Intoxication?",
           answer: "Yes \u2014 Electrolyte-rich fluids, salty foods. is one of the natural approaches recommended for Water Intoxication.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Water Intoxication?",
+          answer: "Water Intoxication is also referred to as Hyponatremia.",
+          category: "Identification"
       }
   ],
   },
@@ -8231,6 +8706,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Mediterranean diet; high antioxidants.\" help with Infertility?",
           answer: "Yes \u2014 Mediterranean diet; high antioxidants. is one of the natural approaches recommended for Infertility.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Infertility?",
+          answer: "Infertility is also referred to as Subfertility.",
+          category: "Identification"
       }
   ],
   },
@@ -8293,6 +8773,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Dark chocolate, watermelon, pistachios.\" help with Erectile Dysfunction?",
           answer: "Yes \u2014 Dark chocolate, watermelon, pistachios. is one of the natural approaches recommended for Erectile Dysfunction.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Erectile Dysfunction?",
+          answer: "Erectile Dysfunction is also referred to as Impotence (ED).",
+          category: "Identification"
       }
   ],
   },
@@ -8355,6 +8840,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Oysters, pumpkin seeds, healthy fats.\" help with Low Libido?",
           answer: "Yes \u2014 Oysters, pumpkin seeds, healthy fats. is one of the natural approaches recommended for Low Libido.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Low Libido?",
+          answer: "Low Libido is also referred to as Hypoactive Sexual Desire.",
+          category: "Identification"
       }
   ],
   },
@@ -8417,6 +8907,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Phytoestrogens (soy, flax); no caffeine.\" help with Menopause Symptoms?",
           answer: "Yes \u2014 Phytoestrogens (soy, flax); no caffeine. is one of the natural approaches recommended for Menopause Symptoms.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Menopause Symptoms?",
+          answer: "Menopause Symptoms is also referred to as Menopause Transition.",
+          category: "Identification"
       }
   ],
   },
@@ -8479,6 +8974,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Magnesium-rich foods, low sugar/salt.\" help with PMS / PMDD?",
           answer: "Yes \u2014 Magnesium-rich foods, low sugar/salt. is one of the natural approaches recommended for PMS / PMDD.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for PMS / PMDD?",
+          answer: "PMS / PMDD is also referred to as Premenstrual Dysphoric Disorder.",
+          category: "Identification"
       }
   ],
   },
@@ -8541,6 +9041,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Anti-inflammatory Omega-3s, flaxseeds.\" help with Endometriosis Pain?",
           answer: "Yes \u2014 Anti-inflammatory Omega-3s, flaxseeds. is one of the natural approaches recommended for Endometriosis Pain.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Endometriosis Pain?",
+          answer: "Endometriosis Pain is also referred to as Endometriosis.",
+          category: "Identification"
       }
   ],
   },
@@ -8608,6 +9113,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"High calcium, magnesium-rich foods.\" help with Pre-Eclampsia?",
           answer: "Yes \u2014 High calcium, magnesium-rich foods. is one of the natural approaches recommended for Pre-Eclampsia.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Pre-Eclampsia?",
+          answer: "Pre-Eclampsia is also referred to as Toxemia of Pregnancy.",
+          category: "Identification"
       }
   ],
   },
@@ -8670,6 +9180,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Nutrient-dense maternal diet.\" help with Fetal Alcohol Syndrome?",
           answer: "Yes \u2014 Nutrient-dense maternal diet. is one of the natural approaches recommended for Fetal Alcohol Syndrome.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Fetal Alcohol Syndrome?",
+          answer: "Fetal Alcohol Syndrome is also referred to as FASD.",
+          category: "Identification"
       }
   ],
   },
@@ -8732,6 +9247,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Folate-rich greens, fortified foods.\" help with Spina Bifida?",
           answer: "Yes \u2014 Folate-rich greens, fortified foods. is one of the natural approaches recommended for Spina Bifida.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Spina Bifida?",
+          answer: "Spina Bifida is also referred to as Neural Tube Defects.",
+          category: "Identification"
       }
   ],
   },
@@ -8794,6 +9314,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Anti-inflammatory, high-fiber diet.\" help with Adenomyosis?",
           answer: "Yes \u2014 Anti-inflammatory, high-fiber diet. is one of the natural approaches recommended for Adenomyosis.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Adenomyosis?",
+          answer: "Adenomyosis is also referred to as Endometriosis Interna.",
+          category: "Identification"
       }
   ],
   },
@@ -8856,6 +9381,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"High fiber (clears estrogen), low sugar.\" help with Endometrial Cancer?",
           answer: "Yes \u2014 High fiber (clears estrogen), low sugar. is one of the natural approaches recommended for Endometrial Cancer.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Endometrial Cancer?",
+          answer: "Endometrial Cancer is also referred to as Uterine Cancer.",
+          category: "Identification"
       }
   ],
   },
@@ -8918,6 +9448,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"High fiber, flaxseeds, low alcohol.\" help with Breast Cancer?",
           answer: "Yes \u2014 High fiber, flaxseeds, low alcohol. is one of the natural approaches recommended for Breast Cancer.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Breast Cancer?",
+          answer: "Breast Cancer is also referred to as Mammary Carcinoma.",
+          category: "Identification"
       }
   ],
   },
@@ -8980,6 +9515,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Low-carb pregnancy diet, small meals.\" help with Gestational Diabetes?",
           answer: "Yes \u2014 Low-carb pregnancy diet, small meals. is one of the natural approaches recommended for Gestational Diabetes.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Gestational Diabetes?",
+          answer: "Gestational Diabetes is also referred to as GDM.",
+          category: "Identification"
       }
   ],
   },
@@ -9042,6 +9582,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Water only at bedtime.\" help with Baby Tooth Decay?",
           answer: "Yes \u2014 Water only at bedtime. is one of the natural approaches recommended for Baby Tooth Decay.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Baby Tooth Decay?",
+          answer: "Baby Tooth Decay is also referred to as Early Childhood Caries.",
+          category: "Identification"
       }
   ],
   },
@@ -9104,6 +9649,11 @@ export const TOPICS: Topic[] = [
           question: "What dietary or lifestyle approach helps with Insomnia?",
           answer: "Yes \u2014 Tart cherry juice, kiwi, no late caffeine. is one of the natural approaches recommended for Insomnia.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Insomnia?",
+          answer: "Insomnia is also referred to as Sleep-onset/maintenance Insomnia.",
+          category: "Identification"
       }
   ],
   },
@@ -9166,6 +9716,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Anti-inflammatory diet for weight loss.\" help with Sleep Apnea?",
           answer: "Yes \u2014 Anti-inflammatory diet for weight loss. is one of the natural approaches recommended for Sleep Apnea.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Sleep Apnea?",
+          answer: "Sleep Apnea is also referred to as Obstructive Sleep Apnoea.",
+          category: "Identification"
       }
   ],
   },
@@ -9228,6 +9783,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Regular meals; avoid aged cheese/wine.\" help with Migraines?",
           answer: "Yes \u2014 Regular meals; avoid aged cheese/wine. is one of the natural approaches recommended for Migraines.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Migraines?",
+          answer: "Migraines is also referred to as Migraine Headache.",
+          category: "Identification"
       }
   ],
   },
@@ -9290,6 +9850,11 @@ export const TOPICS: Topic[] = [
           question: "What dietary or lifestyle approach helps with Depression?",
           answer: "Yes \u2014 Omega-3s, tryptophan-rich foods (turkey). is one of the natural approaches recommended for Depression.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Depression?",
+          answer: "Depression is also referred to as Major Depressive Disorder.",
+          category: "Identification"
       }
   ],
   },
@@ -9352,6 +9917,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Complex carbs, no skipping meals.\" help with Anxiety?",
           answer: "Yes \u2014 Complex carbs, no skipping meals. is one of the natural approaches recommended for Anxiety.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Anxiety?",
+          answer: "Anxiety is also referred to as Generalized Anxiety Disorder.",
+          category: "Identification"
       }
   ],
   },
@@ -9414,6 +9984,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"MIND diet (berries, leafy greens, nuts).\" help with Cognitive Decline?",
           answer: "Yes \u2014 MIND diet (berries, leafy greens, nuts). is one of the natural approaches recommended for Cognitive Decline.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Cognitive Decline?",
+          answer: "Cognitive Decline is also referred to as Dementia / Alzheimer's.",
+          category: "Identification"
       }
   ],
   },
@@ -9476,6 +10051,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"High protein, low sugar, no food dyes.\" help with ADHD?",
           answer: "Yes \u2014 High protein, low sugar, no food dyes. is one of the natural approaches recommended for ADHD.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for ADHD?",
+          answer: "ADHD is also referred to as Attention Deficit Hyperactivity Disorder.",
+          category: "Identification"
       }
   ],
   },
@@ -9538,6 +10118,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Ketogenic Diet (high fat, zero carb).\" help with Epilepsy (Diet-Cured)?",
           answer: "Yes \u2014 Ketogenic Diet (high fat, zero carb). is one of the natural approaches recommended for Epilepsy (Diet-Cured).",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Epilepsy (Diet-Cured)?",
+          answer: "Epilepsy (Diet-Cured) is also referred to as Refractory Epilepsy.",
+          category: "Identification"
       }
   ],
   },
@@ -9600,6 +10185,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Iron-rich foods (red meat, spinach).\" help with Restless Legs?",
           answer: "Yes \u2014 Iron-rich foods (red meat, spinach). is one of the natural approaches recommended for Restless Legs.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Restless Legs?",
+          answer: "Restless Legs is also referred to as Restless Legs Syndrome (RLS).",
+          category: "Identification"
       }
   ],
   },
@@ -9662,6 +10252,11 @@ export const TOPICS: Topic[] = [
           question: "What dietary or lifestyle approach helps with Wernicke-Korsakoff?",
           answer: "Yes \u2014 Thiamine-rich foods (pork, sunflower seeds). is one of the natural approaches recommended for Wernicke-Korsakoff.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Wernicke-Korsakoff?",
+          answer: "Wernicke-Korsakoff is also referred to as Alcohol-Induced Brain Damage.",
+          category: "Identification"
       }
   ],
   },
@@ -9724,6 +10319,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Water, regular balanced meals.\" help with Tension Headache?",
           answer: "Yes \u2014 Water, regular balanced meals. is one of the natural approaches recommended for Tension Headache.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Tension Headache?",
+          answer: "Tension Headache is also referred to as Tension-Type Headache.",
+          category: "Identification"
       }
   ],
   },
@@ -9786,6 +10386,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Anti-inflammatory, nutrient-dense diet.\" help with Chronic Fatigue?",
           answer: "Yes \u2014 Anti-inflammatory, nutrient-dense diet. is one of the natural approaches recommended for Chronic Fatigue.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Chronic Fatigue?",
+          answer: "Chronic Fatigue is also referred to as ME/CFS.",
+          category: "Identification"
       }
   ],
   },
@@ -9848,6 +10453,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Low sodium, low caffeine diet.\" help with Tinnitus?",
           answer: "Yes \u2014 Low sodium, low caffeine diet. is one of the natural approaches recommended for Tinnitus.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Tinnitus?",
+          answer: "Tinnitus is also referred to as Ringing in Ears.",
+          category: "Identification"
       }
   ],
   },
@@ -9910,6 +10520,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Magnesium-rich foods (spinach, almonds).\" help with Eye Twitches?",
           answer: "Yes \u2014 Magnesium-rich foods (spinach, almonds). is one of the natural approaches recommended for Eye Twitches.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Eye Twitches?",
+          answer: "Eye Twitches is also referred to as Myokymia.",
+          category: "Identification"
       }
   ],
   },
@@ -9972,6 +10587,11 @@ export const TOPICS: Topic[] = [
           question: "What dietary or lifestyle approach helps with Night Eating?",
           answer: "Yes \u2014 Regular, high-protein meals throughout day. is one of the natural approaches recommended for Night Eating.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Night Eating?",
+          answer: "Night Eating is also referred to as Night Eating Syndrome.",
+          category: "Identification"
       }
   ],
   },
@@ -10034,6 +10654,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Reintroducing fear foods gradually.\" help with Orthorexia?",
           answer: "Yes \u2014 Reintroducing fear foods gradually. is one of the natural approaches recommended for Orthorexia.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Orthorexia?",
+          answer: "Orthorexia is also referred to as Orthorexia Nervosa.",
+          category: "Identification"
       }
   ],
   },
@@ -10096,6 +10721,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Timed meals; high protein AM, carbs PM.\" help with Jet Lag / Shift Work?",
           answer: "Yes \u2014 Timed meals; high protein AM, carbs PM. is one of the natural approaches recommended for Jet Lag / Shift Work.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Jet Lag / Shift Work?",
+          answer: "Jet Lag / Shift Work is also referred to as Circadian Rhythm Disorder.",
+          category: "Identification"
       }
   ],
   },
@@ -10158,6 +10788,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Ginger root before travel.\" help with Motion Sickness?",
           answer: "Yes \u2014 Ginger root before travel. is one of the natural approaches recommended for Motion Sickness.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Motion Sickness?",
+          answer: "Motion Sickness is also referred to as Kinetosis.",
+          category: "Identification"
       }
   ],
   },
@@ -10220,6 +10855,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Regular balanced meals, re-feeding.\" help with Anorexia / Bulimia / BED?",
           answer: "Yes \u2014 Regular balanced meals, re-feeding. is one of the natural approaches recommended for Anorexia / Bulimia / BED.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Anorexia / Bulimia / BED?",
+          answer: "Anorexia / Bulimia / BED is also referred to as Eating Disorders.",
+          category: "Identification"
       }
   ],
   },
@@ -10282,6 +10922,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Dairy, sardines, leafy greens.\" help with Osteoporosis?",
           answer: "Yes \u2014 Dairy, sardines, leafy greens. is one of the natural approaches recommended for Osteoporosis.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Osteoporosis?",
+          answer: "Osteoporosis is also referred to as Bone Thinning.",
+          category: "Identification"
       }
   ],
   },
@@ -10344,6 +10989,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Anti-inflammatory diet, weight loss.\" help with Osteoarthritis?",
           answer: "Yes \u2014 Anti-inflammatory diet, weight loss. is one of the natural approaches recommended for Osteoarthritis.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Osteoarthritis?",
+          answer: "Osteoarthritis is also referred to as Degenerative Joint Disease.",
+          category: "Identification"
       }
   ],
   },
@@ -10406,6 +11056,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"3L water/day, low salt, low oxalate.\" help with Kidney Stones?",
           answer: "Yes \u2014 3L water/day, low salt, low oxalate. is one of the natural approaches recommended for Kidney Stones.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Kidney Stones?",
+          answer: "Kidney Stones is also referred to as Nephrolithiasis.",
+          category: "Identification"
       }
   ],
   },
@@ -10468,6 +11123,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"High protein (leucine) at every meal.\" help with Sarcopenia?",
           answer: "Yes \u2014 High protein (leucine) at every meal. is one of the natural approaches recommended for Sarcopenia.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Sarcopenia?",
+          answer: "Sarcopenia is also referred to as Muscle Loss.",
+          category: "Identification"
       }
   ],
   },
@@ -10530,6 +11190,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Anti-inflammatory Omega-3s.\" help with Back Pain?",
           answer: "Yes \u2014 Anti-inflammatory Omega-3s. is one of the natural approaches recommended for Back Pain.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Back Pain?",
+          answer: "Back Pain is also referred to as Lumbago / Dorsalgia.",
+          category: "Identification"
       }
   ],
   },
@@ -10592,6 +11257,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Bananas, potatoes, leafy greens.\" help with Muscle Cramps?",
           answer: "Yes \u2014 Bananas, potatoes, leafy greens. is one of the natural approaches recommended for Muscle Cramps.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Muscle Cramps?",
+          answer: "Muscle Cramps is also referred to as Charley Horse.",
+          category: "Identification"
       }
   ],
   },
@@ -10654,6 +11324,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Weight loss diet.\" help with Plantar Fasciitis?",
           answer: "Yes \u2014 Weight loss diet. is one of the natural approaches recommended for Plantar Fasciitis.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Plantar Fasciitis?",
+          answer: "Plantar Fasciitis is also referred to as Plantar Heel Pain.",
+          category: "Identification"
       }
   ],
   },
@@ -10716,6 +11391,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Anti-inflammatory diet.\" help with Heel/Arch Pain?",
           answer: "Yes \u2014 Anti-inflammatory diet. is one of the natural approaches recommended for Heel/Arch Pain.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Heel/Arch Pain?",
+          answer: "Heel/Arch Pain is also referred to as Plantar Fasciitis (broad).",
+          category: "Identification"
       }
   ],
   },
@@ -10778,6 +11458,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Calcium-rich foods, Vitamin D.\" help with Pre-Osteoporosis?",
           answer: "Yes \u2014 Calcium-rich foods, Vitamin D. is one of the natural approaches recommended for Pre-Osteoporosis.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Pre-Osteoporosis?",
+          answer: "Pre-Osteoporosis is also referred to as Osteopenia.",
+          category: "Identification"
       }
   ],
   },
@@ -10840,6 +11525,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Hydration, throat-coating foods (honey).\" help with Singer's Nodules?",
           answer: "Yes \u2014 Hydration, throat-coating foods (honey). is one of the natural approaches recommended for Singer's Nodules.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Singer's Nodules?",
+          answer: "Singer's Nodules is also referred to as Vocal Cord Nodules.",
+          category: "Identification"
       }
   ],
   },
@@ -10902,6 +11592,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Anti-inflammatory Omega-3s.\" help with Tarsal Tunnel?",
           answer: "Yes \u2014 Anti-inflammatory Omega-3s. is one of the natural approaches recommended for Tarsal Tunnel.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Tarsal Tunnel?",
+          answer: "Tarsal Tunnel is also referred to as Tarsal Tunnel Syndrome.",
+          category: "Identification"
       }
   ],
   },
@@ -10964,6 +11659,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Mediterranean diet, Omega-3s.\" help with Rheumatoid Arthritis?",
           answer: "Yes \u2014 Mediterranean diet, Omega-3s. is one of the natural approaches recommended for Rheumatoid Arthritis.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Rheumatoid Arthritis?",
+          answer: "Rheumatoid Arthritis is also referred to as RA.",
+          category: "Identification"
       }
   ],
   },
@@ -11026,6 +11726,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Anti-inflammatory diet, Omega-3s.\" help with Lupus?",
           answer: "Yes \u2014 Anti-inflammatory diet, Omega-3s. is one of the natural approaches recommended for Lupus.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Lupus?",
+          answer: "Lupus is also referred to as SLE.",
+          category: "Identification"
       }
   ],
   },
@@ -11088,6 +11793,11 @@ export const TOPICS: Topic[] = [
           question: "What dietary or lifestyle approach helps with Hashimoto's?",
           answer: "Yes \u2014 Gluten-free, selenium-rich (brazil nuts). is one of the natural approaches recommended for Hashimoto's.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Hashimoto's?",
+          answer: "Hashimoto's is also referred to as Autoimmune Thyroiditis.",
+          category: "Identification"
       }
   ],
   },
@@ -11150,6 +11860,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"No dairy, low sugar, high zinc.\" help with Acne?",
           answer: "Yes \u2014 No dairy, low sugar, high zinc. is one of the natural approaches recommended for Acne.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Acne?",
+          answer: "Acne is also referred to as Acne Vulgaris.",
+          category: "Identification"
       }
   ],
   },
@@ -11212,6 +11927,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Probiotics, bone broth, no triggers.\" help with Eczema?",
           answer: "Yes \u2014 Probiotics, bone broth, no triggers. is one of the natural approaches recommended for Eczema.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Eczema?",
+          answer: "Eczema is also referred to as Atopic Dermatitis.",
+          category: "Identification"
       }
   ],
   },
@@ -11274,6 +11994,11 @@ export const TOPICS: Topic[] = [
           question: "What dietary or lifestyle approach helps with Psoriasis?",
           answer: "Yes \u2014 Anti-inflammatory, gluten-free (for some). is one of the natural approaches recommended for Psoriasis.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Psoriasis?",
+          answer: "Psoriasis is also referred to as Psoriasis Vulgaris.",
+          category: "Identification"
       }
   ],
   },
@@ -11336,6 +12061,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Eggs, berries, leafy greens.\" help with Hair Loss?",
           answer: "Yes \u2014 Eggs, berries, leafy greens. is one of the natural approaches recommended for Hair Loss.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Hair Loss?",
+          answer: "Hair Loss is also referred to as Alopecia.",
+          category: "Identification"
       }
   ],
   },
@@ -11398,6 +12128,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Trigger-free diet (no spicy/hot foods).\" help with Rosacea?",
           answer: "Yes \u2014 Trigger-free diet (no spicy/hot foods). is one of the natural approaches recommended for Rosacea.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Rosacea?",
+          answer: "Rosacea is also referred to as Rosacea.",
+          category: "Identification"
       }
   ],
   },
@@ -11460,6 +12195,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Low-sugar diet, probiotics.\" help with Dandruff?",
           answer: "Yes \u2014 Low-sugar diet, probiotics. is one of the natural approaches recommended for Dandruff.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Dandruff?",
+          answer: "Dandruff is also referred to as Seborrheic Dermatitis.",
+          category: "Identification"
       }
   ],
   },
@@ -11522,6 +12262,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"No sugar; xylitol gum; crunchy veggies.\" help with Tooth Decay?",
           answer: "Yes \u2014 No sugar; xylitol gum; crunchy veggies. is one of the natural approaches recommended for Tooth Decay.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Tooth Decay?",
+          answer: "Tooth Decay is also referred to as Dental Caries.",
+          category: "Identification"
       }
   ],
   },
@@ -11584,6 +12329,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Low sugar, high Vit C.\" help with Gum Disease?",
           answer: "Yes \u2014 Low sugar, high Vit C. is one of the natural approaches recommended for Gum Disease.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Gum Disease?",
+          answer: "Gum Disease is also referred to as Periodontitis.",
+          category: "Identification"
       }
   ],
   },
@@ -11646,6 +12396,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Soft foods, avoid acidic/spicy.\" help with Mouth Ulcers?",
           answer: "Yes \u2014 Soft foods, avoid acidic/spicy. is one of the natural approaches recommended for Mouth Ulcers.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Mouth Ulcers?",
+          answer: "Mouth Ulcers is also referred to as Aphthous Ulcers.",
+          category: "Identification"
       }
   ],
   },
@@ -11708,6 +12463,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Dark leafy greens, orange veggies.\" help with Cataracts / Macular Degeneration?",
           answer: "Yes \u2014 Dark leafy greens, orange veggies. is one of the natural approaches recommended for Cataracts / Macular Degeneration.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Cataracts / Macular Degeneration?",
+          answer: "Cataracts / Macular Degeneration is also referred to as Cataract / AMD.",
+          category: "Identification"
       }
   ],
   },
@@ -11770,6 +12530,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Omega-3 rich fish, chia seeds.\" help with Dry Eye?",
           answer: "Yes \u2014 Omega-3 rich fish, chia seeds. is one of the natural approaches recommended for Dry Eye.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Dry Eye?",
+          answer: "Dry Eye is also referred to as Keratoconjunctivitis.",
+          category: "Identification"
       }
   ],
   },
@@ -11832,6 +12597,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Anti-inflammatory, no brewer's yeast.\" help with Boils (Hidradenitis)?",
           answer: "Yes \u2014 Anti-inflammatory, no brewer's yeast. is one of the natural approaches recommended for Boils (Hidradenitis).",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Boils (Hidradenitis)?",
+          answer: "Boils (Hidradenitis) is also referred to as Hidradenitis Suppurativa.",
+          category: "Identification"
       }
   ],
   },
@@ -11894,6 +12664,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Lysine-rich foods (fish, dairy).\" help with Cold Sores?",
           answer: "Yes \u2014 Lysine-rich foods (fish, dairy). is one of the natural approaches recommended for Cold Sores.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Cold Sores?",
+          answer: "Cold Sores is also referred to as Herpes Labialis.",
+          category: "Identification"
       }
   ],
   },
@@ -11956,6 +12731,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Limit acidic drinks, use straw.\" help with Dental Erosion?",
           answer: "Yes \u2014 Limit acidic drinks, use straw. is one of the natural approaches recommended for Dental Erosion.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Dental Erosion?",
+          answer: "Dental Erosion is also referred to as Enamel Erosion.",
+          category: "Identification"
       }
   ],
   },
@@ -12018,6 +12798,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Tomatoes (lycopene), dark chocolate.\" help with Sunburn / Skin Aging?",
           answer: "Yes \u2014 Tomatoes (lycopene), dark chocolate. is one of the natural approaches recommended for Sunburn / Skin Aging.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Sunburn / Skin Aging?",
+          answer: "Sunburn / Skin Aging is also referred to as Photoaging.",
+          category: "Identification"
       }
   ],
   },
@@ -12080,6 +12865,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Carrots, sweet potatoes, liver.\" help with Night Blindness?",
           answer: "Yes \u2014 Carrots, sweet potatoes, liver. is one of the natural approaches recommended for Night Blindness.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Night Blindness?",
+          answer: "Night Blindness is also referred to as Vitamin A Deficiency.",
+          category: "Identification"
       }
   ],
   },
@@ -12142,6 +12932,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Antioxidant-rich foods, B12/Folate.\" help with Vitiligo?",
           answer: "Yes \u2014 Antioxidant-rich foods, B12/Folate. is one of the natural approaches recommended for Vitiligo.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Vitiligo?",
+          answer: "Vitiligo is also referred to as Vitiligo.",
+          category: "Identification"
       }
   ],
   },
@@ -12204,6 +12999,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Citrus, bell peppers, berries.\" help with Scurvy?",
           answer: "Yes \u2014 Citrus, bell peppers, berries. is one of the natural approaches recommended for Scurvy.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Scurvy?",
+          answer: "Scurvy is also referred to as Vitamin C Deficiency.",
+          category: "Identification"
       }
   ],
   },
@@ -12266,6 +13066,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Fortified milk, cod liver oil.\" help with Rickets?",
           answer: "Yes \u2014 Fortified milk, cod liver oil. is one of the natural approaches recommended for Rickets.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Rickets?",
+          answer: "Rickets is also referred to as Vitamin D Deficiency (Kids).",
+          category: "Identification"
       }
   ],
   },
@@ -12328,6 +13133,11 @@ export const TOPICS: Topic[] = [
           question: "What dietary or lifestyle approach helps with Dental Fluorosis?",
           answer: "Yes \u2014 Use pea-sized toothpaste, monitor brushing. is one of the natural approaches recommended for Dental Fluorosis.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Dental Fluorosis?",
+          answer: "Dental Fluorosis is also referred to as Enamel Fluorosis.",
+          category: "Identification"
       }
   ],
   },
@@ -12390,6 +13200,11 @@ export const TOPICS: Topic[] = [
           question: "What dietary or lifestyle approach helps with CKD / Dialysis Diet?",
           answer: "Yes \u2014 Low potassium, low phosphorus, low protein. is one of the natural approaches recommended for CKD / Dialysis Diet.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for CKD / Dialysis Diet?",
+          answer: "CKD / Dialysis Diet is also referred to as Chronic Kidney Disease.",
+          category: "Identification"
       }
   ],
   },
@@ -12452,6 +13267,11 @@ export const TOPICS: Topic[] = [
           question: "What dietary or lifestyle approach helps with Liver Encephalopathy?",
           answer: "Yes \u2014 Plant-based low-protein to lower ammonia. is one of the natural approaches recommended for Liver Encephalopathy.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Liver Encephalopathy?",
+          answer: "Liver Encephalopathy is also referred to as Hepatic Encephalopathy.",
+          category: "Identification"
       }
   ],
   },
@@ -12514,6 +13334,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"High antioxidant foods.\" help with Smoker's Cough?",
           answer: "Yes \u2014 High antioxidant foods. is one of the natural approaches recommended for Smoker's Cough.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Smoker's Cough?",
+          answer: "Smoker's Cough is also referred to as COPD.",
+          category: "Identification"
       }
   ],
   },
@@ -12576,6 +13401,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"High protein, high B-vitamins, low fat.\" help with Alcoholic Liver Disease?",
           answer: "Yes \u2014 High protein, high B-vitamins, low fat. is one of the natural approaches recommended for Alcoholic Liver Disease.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Alcoholic Liver Disease?",
+          answer: "Alcoholic Liver Disease is also referred to as Alcohol-Related Liver Disease.",
+          category: "Identification"
       }
   ],
   },
@@ -12638,6 +13468,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Perfect blood sugar control (low carb).\" help with Diabetic Neuropathy?",
           answer: "Yes \u2014 Perfect blood sugar control (low carb). is one of the natural approaches recommended for Diabetic Neuropathy.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Diabetic Neuropathy?",
+          answer: "Diabetic Neuropathy is also referred to as Diabetic Neuropathy.",
+          category: "Identification"
       }
   ],
   },
@@ -12700,6 +13535,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Low-glycemic diet, no sugar.\" help with Diabetic Retinopathy?",
           answer: "Yes \u2014 Low-glycemic diet, no sugar. is one of the natural approaches recommended for Diabetic Retinopathy.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Diabetic Retinopathy?",
+          answer: "Diabetic Retinopathy is also referred to as Diabetic Retinopathy.",
+          category: "Identification"
       }
   ],
   },
@@ -12762,6 +13602,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Strict low-protein medical diet.\" help with PKU?",
           answer: "Yes \u2014 Strict low-protein medical diet. is one of the natural approaches recommended for PKU.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for PKU?",
+          answer: "PKU is also referred to as Phenylketonuria.",
+          category: "Identification"
       }
   ],
   },
@@ -12824,6 +13669,11 @@ export const TOPICS: Topic[] = [
           question: "What dietary or lifestyle approach helps with Wilson's Disease?",
           answer: "Yes \u2014 Avoid copper foods (shellfish, nuts, choc). is one of the natural approaches recommended for Wilson's Disease.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Wilson's Disease?",
+          answer: "Wilson's Disease is also referred to as Hepatolenticular Degeneration.",
+          category: "Identification"
       }
   ],
   },
@@ -12886,6 +13736,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Strictly avoid fava beans/legumes.\" help with G6PD Deficiency?",
           answer: "Yes \u2014 Strictly avoid fava beans/legumes. is one of the natural approaches recommended for G6PD Deficiency.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for G6PD Deficiency?",
+          answer: "G6PD Deficiency is also referred to as Favism.",
+          category: "Identification"
       }
   ],
   },
@@ -12948,6 +13803,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Dairy-free milk/cheese.\" help with Lactose Intolerance?",
           answer: "Yes \u2014 Dairy-free milk/cheese. is one of the natural approaches recommended for Lactose Intolerance.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Lactose Intolerance?",
+          answer: "Lactose Intolerance is also referred to as Lactose Malabsorption.",
+          category: "Identification"
       }
   ],
   },
@@ -13010,6 +13870,11 @@ export const TOPICS: Topic[] = [
           question: "What dietary or lifestyle approach helps with Hereditary Fructose Intolerance?",
           answer: "Yes \u2014 Strict fructose-free diet (no fruit/sugar). is one of the natural approaches recommended for Hereditary Fructose Intolerance.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Hereditary Fructose Intolerance?",
+          answer: "Hereditary Fructose Intolerance is also referred to as Fructosemia.",
+          category: "Identification"
       }
   ],
   },
@@ -13072,6 +13937,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"High-calorie, high-fat, high-salt diet.\" help with Cystic Fibrosis?",
           answer: "Yes \u2014 High-calorie, high-fat, high-salt diet. is one of the natural approaches recommended for Cystic Fibrosis.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Cystic Fibrosis?",
+          answer: "Cystic Fibrosis is also referred to as Cystic Fibrosis.",
+          category: "Identification"
       }
   ],
   },
@@ -13134,6 +14004,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Cook meat thoroughly; wash veggies.\" help with Listeria / Toxo / Trichinosis?",
           answer: "Yes \u2014 Cook meat thoroughly; wash veggies. is one of the natural approaches recommended for Listeria / Toxo / Trichinosis.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Listeria / Toxo / Trichinosis?",
+          answer: "Listeria / Toxo / Trichinosis is also referred to as Listeriosis / Toxoplasmosis / Trichinellosis.",
+          category: "Identification"
       }
   ],
   },
@@ -13196,6 +14071,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Boil home-canned foods for 10 mins.\" help with Botulism?",
           answer: "Yes \u2014 Boil home-canned foods for 10 mins. is one of the natural approaches recommended for Botulism.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Botulism?",
+          answer: "Botulism is also referred to as Foodborne Botulism.",
+          category: "Identification"
       }
   ],
   },
@@ -13258,6 +14138,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Zero sugar, low carb, fermented foods.\" help with Systemic Yeast?",
           answer: "Yes \u2014 Zero sugar, low carb, fermented foods. is one of the natural approaches recommended for Systemic Yeast.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Systemic Yeast?",
+          answer: "Systemic Yeast is also referred to as Candidiasis (Gut).",
+          category: "Identification"
       }
   ],
   },
@@ -13320,6 +14205,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"3L water daily.\" help with UTI / Cystitis?",
           answer: "Yes \u2014 3L water daily. is one of the natural approaches recommended for UTI / Cystitis.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for UTI / Cystitis?",
+          answer: "UTI / Cystitis is also referred to as Urinary Tract Infection.",
+          category: "Identification"
       }
   ],
   },
@@ -13382,6 +14272,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Elimination diet (no caffeine/citrus).\" help with Interstitial Cystitis?",
           answer: "Yes \u2014 Elimination diet (no caffeine/citrus). is one of the natural approaches recommended for Interstitial Cystitis.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Interstitial Cystitis?",
+          answer: "Interstitial Cystitis is also referred to as Painful Bladder Syndrome.",
+          category: "Identification"
       }
   ],
   },
@@ -13444,6 +14339,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"None.\" help with Swimmer's Ear?",
           answer: "Yes \u2014 None. is one of the natural approaches recommended for Swimmer's Ear.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Swimmer's Ear?",
+          answer: "Swimmer's Ear is also referred to as Otitis Externa.",
+          category: "Identification"
       }
   ],
   },
@@ -13506,6 +14406,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Bananas, avocados, potatoes.\" help with Low Potassium?",
           answer: "Yes \u2014 Bananas, avocados, potatoes. is one of the natural approaches recommended for Low Potassium.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Low Potassium?",
+          answer: "Low Potassium is also referred to as Hypokalemia.",
+          category: "Identification"
       }
   ],
   },
@@ -13568,6 +14473,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Stop eating liver/stop supplements.\" help with Vit A Toxicity?",
           answer: "Yes \u2014 Stop eating liver/stop supplements. is one of the natural approaches recommended for Vit A Toxicity.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Vit A Toxicity?",
+          answer: "Vit A Toxicity is also referred to as Hypervitaminosis A.",
+          category: "Identification"
       }
   ],
   },
@@ -13630,6 +14540,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Low-mercury fish (salmon, sardines).\" help with Mercury Poisoning?",
           answer: "Yes \u2014 Low-mercury fish (salmon, sardines). is one of the natural approaches recommended for Mercury Poisoning.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Mercury Poisoning?",
+          answer: "Mercury Poisoning is also referred to as Hydrargyria.",
+          category: "Identification"
       }
   ],
   },
@@ -13692,6 +14607,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Hydration, electrolytes.\" help with Caffeine Toxicity?",
           answer: "Yes \u2014 Hydration, electrolytes. is one of the natural approaches recommended for Caffeine Toxicity.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Caffeine Toxicity?",
+          answer: "Caffeine Toxicity is also referred to as Caffeine Overdose.",
+          category: "Identification"
       }
   ],
   },
@@ -13754,6 +14674,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Whole grains, meat, legumes.\" help with Pellagra / Beri-Beri?",
           answer: "Yes \u2014 Whole grains, meat, legumes. is one of the natural approaches recommended for Pellagra / Beri-Beri.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Pellagra / Beri-Beri?",
+          answer: "Pellagra / Beri-Beri is also referred to as Niacin (B3) / Thiamine (B1) Deficiency.",
+          category: "Identification"
       }
   ],
   },
@@ -13816,6 +14741,11 @@ export const TOPICS: Topic[] = [
           question: "What dietary or lifestyle approach helps with Asthma?",
           answer: "Yes \u2014 Anti-inflammatory Omega-3s, low sulfites. is one of the natural approaches recommended for Asthma.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Asthma?",
+          answer: "Asthma is also referred to as Bronchial Asthma.",
+          category: "Identification"
       }
   ],
   },
@@ -13878,6 +14808,11 @@ export const TOPICS: Topic[] = [
           question: "What dietary or lifestyle approach helps with H. pylori Infection?",
           answer: "Yes \u2014 Broccoli sprouts (sulforaphane), no sugar. is one of the natural approaches recommended for H. pylori Infection.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for H. pylori Infection?",
+          answer: "H. pylori Infection is also referred to as Helicobacter pylori.",
+          category: "Identification"
       }
   ],
   },
@@ -13940,6 +14875,11 @@ export const TOPICS: Topic[] = [
           question: "What dietary or lifestyle approach helps with Liver Cancer?",
           answer: "Yes \u2014 Coffee, cruciferous veggies, zero alcohol. is one of the natural approaches recommended for Liver Cancer.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Liver Cancer?",
+          answer: "Liver Cancer is also referred to as Hepatocellular Carcinoma.",
+          category: "Identification"
       }
   ],
   },
@@ -14002,6 +14942,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"High antioxidant foods, hydration.\" help with Kidney Cancer?",
           answer: "Yes \u2014 High antioxidant foods, hydration. is one of the natural approaches recommended for Kidney Cancer.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Kidney Cancer?",
+          answer: "Kidney Cancer is also referred to as Renal Cell Carcinoma.",
+          category: "Identification"
       }
   ],
   },
@@ -14064,6 +15009,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Weight loss, small meals, low acid.\" help with Esophageal Cancer?",
           answer: "Yes \u2014 Weight loss, small meals, low acid. is one of the natural approaches recommended for Esophageal Cancer.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Esophageal Cancer?",
+          answer: "Esophageal Cancer is also referred to as Esophageal Carcinoma.",
+          category: "Identification"
       }
   ],
   },
@@ -14126,6 +15076,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Regular balanced meals (no skipping).\" help with Binge Eating?",
           answer: "Yes \u2014 Regular balanced meals (no skipping). is one of the natural approaches recommended for Binge Eating.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Binge Eating?",
+          answer: "Binge Eating is also referred to as Binge Eating Disorder (BED).",
+          category: "Identification"
       }
   ],
   },
@@ -14188,6 +15143,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Nutritional rehabilitation (re-feeding).\" help with Anorexia Nervosa?",
           answer: "Yes \u2014 Nutritional rehabilitation (re-feeding). is one of the natural approaches recommended for Anorexia Nervosa.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Anorexia Nervosa?",
+          answer: "Anorexia Nervosa is also referred to as Anorexia Nervosa.",
+          category: "Identification"
       }
   ],
   },
@@ -14250,6 +15210,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Regular meals to stop binge urges.\" help with Bulimia Nervosa?",
           answer: "Yes \u2014 Regular meals to stop binge urges. is one of the natural approaches recommended for Bulimia Nervosa.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Bulimia Nervosa?",
+          answer: "Bulimia Nervosa is also referred to as Bulimia Nervosa.",
+          category: "Identification"
       }
   ],
   },
@@ -14312,6 +15277,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Perfect blood sugar control (low carb).\" help with Type 2 Diabetes Foot?",
           answer: "Yes \u2014 Perfect blood sugar control (low carb). is one of the natural approaches recommended for Type 2 Diabetes Foot.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Type 2 Diabetes Foot?",
+          answer: "Type 2 Diabetes Foot is also referred to as Diabetic Neuropathy/Ulcer.",
+          category: "Identification"
       }
   ],
   },
@@ -14374,6 +15344,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Warm high-calorie foods/drinks.\" help with Hypothermia?",
           answer: "Yes \u2014 Warm high-calorie foods/drinks. is one of the natural approaches recommended for Hypothermia.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Hypothermia?",
+          answer: "Hypothermia is also referred to as Hypothermia.",
+          category: "Identification"
       }
   ],
   },
@@ -14436,6 +15411,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Warm fluids (after rescue).\" help with Frostbite?",
           answer: "Yes \u2014 Warm fluids (after rescue). is one of the natural approaches recommended for Frostbite.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Frostbite?",
+          answer: "Frostbite is also referred to as Frostbite.",
+          category: "Identification"
       }
   ],
   },
@@ -14498,6 +15478,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Warm foods, ginger (circulation).\" help with Chilblains?",
           answer: "Yes \u2014 Warm foods, ginger (circulation). is one of the natural approaches recommended for Chilblains.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Chilblains?",
+          answer: "Chilblains is also referred to as Pernio.",
+          category: "Identification"
       }
   ],
   },
@@ -14560,6 +15545,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"High protein AM, high carb PM to reset.\" help with Jet Lag?",
           answer: "Yes \u2014 High protein AM, high carb PM to reset. is one of the natural approaches recommended for Jet Lag.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Jet Lag?",
+          answer: "Jet Lag is also referred to as Circadian Rhythm Disorder.",
+          category: "Identification"
       }
   ],
   },
@@ -14622,6 +15612,11 @@ export const TOPICS: Topic[] = [
           question: "What dietary or lifestyle approach helps with Shift Work Disorder?",
           answer: "Yes \u2014 Eat high protein on shift, fast overnight. is one of the natural approaches recommended for Shift Work Disorder.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Shift Work Disorder?",
+          answer: "Shift Work Disorder is also referred to as Shift Work Sleep Disorder.",
+          category: "Identification"
       }
   ],
   },
@@ -14684,6 +15679,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Reintroducing fear foods gradually.\" help with Orthorexia?",
           answer: "Yes \u2014 Reintroducing fear foods gradually. is one of the natural approaches recommended for Orthorexia.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Orthorexia?",
+          answer: "Orthorexia is also referred to as Orthorexia Nervosa.",
+          category: "Identification"
       }
   ],
   },
@@ -14746,6 +15746,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Specific Carb Diet (SCD) / Low-FODMAP.\" help with SIBO (Gut)?",
           answer: "Yes \u2014 Specific Carb Diet (SCD) / Low-FODMAP. is one of the natural approaches recommended for SIBO (Gut).",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for SIBO (Gut)?",
+          answer: "SIBO (Gut) is also referred to as Small Intestinal Bacterial Overgrowth.",
+          category: "Identification"
       }
   ],
   },
@@ -14808,6 +15813,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Anti-inflammatory, high-fiber diet.\" help with Adenomyosis?",
           answer: "Yes \u2014 Anti-inflammatory, high-fiber diet. is one of the natural approaches recommended for Adenomyosis.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Adenomyosis?",
+          answer: "Adenomyosis is also referred to as Endometriosis Interna.",
+          category: "Identification"
       }
   ],
   },
@@ -14870,6 +15880,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Anti-inflammatory Omega-3s, flaxseeds.\" help with Endometriosis Pain?",
           answer: "Yes \u2014 Anti-inflammatory Omega-3s, flaxseeds. is one of the natural approaches recommended for Endometriosis Pain.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Endometriosis Pain?",
+          answer: "Endometriosis Pain is also referred to as Endometriosis.",
+          category: "Identification"
       }
   ],
   },
@@ -14932,6 +15947,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Zero refined sugar, low fructose.\" help with Non-Alcoholic Fatty Liver?",
           answer: "Yes \u2014 Zero refined sugar, low fructose. is one of the natural approaches recommended for Non-Alcoholic Fatty Liver.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Non-Alcoholic Fatty Liver?",
+          answer: "Non-Alcoholic Fatty Liver is also referred to as NAFLD / MASLD.",
+          category: "Identification"
       }
   ],
   },
@@ -14994,6 +16014,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Mediterranean diet, whole foods.\" help with Metabolic Syndrome?",
           answer: "Yes \u2014 Mediterranean diet, whole foods. is one of the natural approaches recommended for Metabolic Syndrome.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Metabolic Syndrome?",
+          answer: "Metabolic Syndrome is also referred to as Syndrome X.",
+          category: "Identification"
       }
   ],
   },
@@ -15056,6 +16081,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Calcium-rich foods, Vitamin D.\" help with Osteopenia?",
           answer: "Yes \u2014 Calcium-rich foods, Vitamin D. is one of the natural approaches recommended for Osteopenia.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Osteopenia?",
+          answer: "Osteopenia is also referred to as Pre-Osteoporosis.",
+          category: "Identification"
       }
   ],
   },
@@ -15118,6 +16148,11 @@ export const TOPICS: Topic[] = [
           question: "Does \"Low-carb, high-fiber, no refined sugar.\" help with Pre-Diabetes?",
           answer: "Yes \u2014 Low-carb, high-fiber, no refined sugar. is one of the natural approaches recommended for Pre-Diabetes.",
           category: "Natural Approach"
+      },
+      {
+          question: "What is the medical/scientific term for Pre-Diabetes?",
+          answer: "Pre-Diabetes is also referred to as Insulin Resistance.",
+          category: "Identification"
       }
   ],
   },
