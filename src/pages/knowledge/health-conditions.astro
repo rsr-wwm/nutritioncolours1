@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { MEDICAL_CONDITIONS_DATA } from '../../lib/clinical_databases';
+
+const SITE_URL = (Astro.site || 'https://nutritioncolours.com').toString().replace(/\/$/, '');
+const conditionsSchema = {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "url": `${SITE_URL}/knowledge/health-conditions`,
+  "name": "Therapeutic Health Conditions Reversal Protocols",
+  "description": "Clinical pathways, root-cause resolutions, and circadian nutritional systems to reverse metabolic diseases naturally."
+};
+---
+<div data-ai-answer="true">
+<BaseLayout
+  title="Therapeutic Health Conditions Reversal Protocols"
+  description="Clinical pathways, root-cause resolutions, and circadian nutritional systems to reverse metabolic diseases naturally."
+>
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(conditionsSchema)} />
+  <div class="max-w-7xl mx-auto px-6 py-16 space-y-12">
+    <div class="text-center max-w-3xl mx-auto space-y-4">
+      <h1 class="text-4xl md:text-5xl font-black text-emerald-950 brand-font">Health Conditions</h1>
+      <p class="text-stone-600 leading-relaxed">
+        Root-cause clinical protocols for chronic metabolic conditions, each reviewed by
+        Dr. Shilpa Thakur against current clinical evidence.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {MEDICAL_CONDITIONS_DATA.map((cond) => (
+        <a href={`/condition/${cond.id}`} class="bg-white border border-stone-100 p-8 rounded-3xl hover:border-emerald-200 hover:shadow-xl transition-all group block">
+          <h2 class="text-lg font-black text-emerald-950 brand-font uppercase tracking-tight mb-3 group-hover:text-emerald-700 transition-colors">{cond.name}</h2>
+          <p class="text-stone-500 text-sm leading-relaxed line-clamp-3">{cond.rootCause}</p>
+        </a>
+      ))}
+    </div>
+
+    <section class="mt-20 pt-16 border-t border-stone-200 dark:border-stone-850">
+      <div class="prose prose-emerald max-w-none text-stone-700 dark:text-stone-300 bg-white dark:bg-stone-900 p-8 md:p-12 rounded-[40px] border border-stone-150/40 dark:border-stone-850/60 shadow-sm space-y-6">
+        <h2 class="text-2xl font-black text-emerald-950 dark:text-white brand-font">Clinical Methodology & Root-Cause Medicine</h2>
+        <p class="leading-relaxed">
+          Chronic metabolic illnesses—ranging from insulin resistance and type 2 diabetes to thyroid dysfunction and metabolic dysfunction-associated steatotic liver disease (MASLD)—share common underlying pathways of systemic cellular stress, mitochondrial dysfunction, and circadian dysregulation. Traditional medical interventions often focus on symptom control, such as prescribing glucose-lowering drugs or hormone replacements, without addressing the underlying environmental and dietary root causes. Our clinical protocols emphasize precision lifestyle medicine to help restore metabolic flexibility and cellular energy.
+        </p>
+        <p class="leading-relaxed">
+          Each protocol is designed around a multi-staged clinical framework. First, we identify and eliminate primary metabolic stressors, such as refined carbohydrates, hydrogenated trans fats, and chemical additives. Second, we integrate high-density, bioavailable nutrients and functional plant compounds to support cellular repair and reduce chronic inflammation. Third, we emphasize meal timing aligned with natural circadian rhythms to optimize hepatic glycogen storage and metabolic efficiency. This systematic approach supports the body's native healing capacity and promotes long-term health preservation.
+        </p>
+        <p class="leading-relaxed">
+          Furthermore, our editorial board, led by clinical nutritionists and specialists, scores every claim against a standard evidence hierarchy. This process ensures that all recommendations are clinically safe and supported by peer-reviewed research, avoiding speculative or unverified wellness claims. Patients are encouraged to work closely with their medical care teams to perform regular biomarker tracking, including HbA1c, fasting insulin, hs-CRP, and liver panels, ensuring that all dietary changes are safely aligned with standard-of-care treatments.
+        </p>
+        <p class="leading-relaxed">
+          Through the <strong>Nutritional Color Code system (NutritionColours)</strong>, we map specific dietary pigments to metabolic support targets. Consuming a diverse spectrum of organic plant pigments provides the broad range of polyphenols, carotenoids, and sulfur compounds required to support methylation, downregulate cellular stress, and optimize individual gene expression.
+        </p>
+      </div>
+    </section>
+  </div>
+</BaseLayout>
+</div>

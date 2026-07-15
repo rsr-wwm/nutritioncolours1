@@ -1,0 +1,171 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Icons from '../../components/Icons.astro';
+import { LocalDirectory as ClinicClientPage } from '../../components/LocalDirectory';
+import { LOCATIONS_DATA } from '../../lib/locationsData';
+import { INTERNATIONAL_COUNTRIES } from '../../lib/internationalData';
+import { getNearestLocations } from '../../lib/geoUtils';
+import { findEntityUrl, getRecipesForLocation } from '../../lib/seo/autoLinker';
+
+export async function getStaticPaths() {
+  const indianCities = LOCATIONS_DATA.map(l => l.city.toLowerCase().replace(/\s+/g, '-'));
+  const intlCities = INTERNATIONAL_COUNTRIES.map(l => l.city.toLowerCase().replace(/\s+/g, '-'));
+  const cities = [...new Set([...indianCities, ...intlCities])];
+  return cities.map((id) => ({
+    params: { id },
+  }));
+}
+
+const { id } = Astro.params;
+
+// NOTE: ClinicClientPage below renders with client:only, meaning Astro emits no HTML for it
+// at build time — search/AI crawlers that don't execute JS previously saw a blank page here.
+// The block below is a real, server-rendered summary from the same location data, so every
+// one of these ~1,690 pages has genuine crawlable content independent of the client island.
+const cityLocations = [
+  ...LOCATIONS_DATA.filter(l => l.city.toLowerCase().replace(/\s+/g, '-') === id),
+  ...INTERNATIONAL_COUNTRIES.filter(l => l.city.toLowerCase().replace(/\s+/g, '-') === id)
+];
+const loc = cityLocations[0];
+const cityLabel = id?.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase()) || '';
+
+const isInternational = loc ? 'country' in loc : false;
+const regionLabel = loc ? (isInternational ? (loc as any).country : (loc as any).state) : '';
+
+const nearestHubs = loc ? getNearestLocations(loc.city, regionLabel, isInternational) : [];
+// "Wise-versa" interlinking: recipes built around this location's local produce, grounded
+// strictly in real ingredient matches against RECIPES (no invented "famous dish" claims).
+const localRecipes = loc ? getRecipesForLocation(loc as any) : [];
+
+const SITE_URL = (Astro.site || 'https://nutritioncolours.com').toString().replace(/\/$/, '');
+
+// Set Edge-Level Caching headers
+Astro.response.headers.set('Cache-Control', 'public, max-age=86400, s-maxage=604800, stale-while-revalidate=3600');
+
+// Honest schema for a remote/telehealth practice: this is service-area targeting, not a
+// physical branch office, so we deliberately avoid LocalBusiness/MedicalClinic + invented
+// street addresses (which would violate Google's guidelines for non-physical locations).
+const clinicSchema = loc ? {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "@id": `${SITE_URL}/clinic/${id}#page`,
+  "url": `${SITE_URL}/clinic/${id}`,
+  "name": `Remote Clinical Nutrition Outreach — ${cityLabel}, ${regionLabel}`,
+  "about": {
+    "@type": "Service",
+    "name": "Remote Clinical Nutrition Consultation",
+    "provider": { "@id": `${SITE_URL}/#organization` },
+    "areaServed": {
+      "@type": "City",
+      "name": cityLabel,
+      "containedInPlace": { "@type": isInternational ? "Country" : "State", "name": regionLabel },
+      "geo": ((loc as any).latitude && (loc as any).longitude) ? {
+        "@type": "GeoCoordinates",
+        "latitude": (loc as any).latitude,
+        "longitude": (loc as any).longitude
+      } : undefined
+    }
+  },
+  "publisher": { "@id": `${SITE_URL}/#organization` }
+} : null;
+---
+<div data-ai-answer="true">
+<BaseLayout
+  title={`Metabolic Clinic in ${cityLabel} | NutritionColours`}
+  description={`Find metabolic health services, diagnostic labs, and consulting hours in ${cityLabel}.`}
+  ogImage={`/og/clinic/${id}.png`}
+>
+  {clinicSchema && <script type="application/ld+json" is:inline set:html={JSON.stringify(clinicSchema)} />}
+
+  {loc && (
+    <div class="max-w-5xl mx-auto px-6 pt-8 pb-4">
+      <div class="rounded-3xl border border-stone-100 bg-stone-50/50 p-8 space-y-4">
+        <h2 class="text-2xl font-black text-emerald-950 brand-font">
+          Metabolic Nutrition Outreach — {cityLabel}, {regionLabel}
+        </h2>
+        
+        <div class="text-stone-700 text-sm leading-relaxed max-w-3xl space-y-4">
+          <p>
+            NutritionColours provides remote clinical nutrition consultations serving <strong>{cityLabel}</strong> and the surrounding <strong>{regionLabel}</strong> region. Our specialized, evidence-based systems are customized for local parameters including timezone ({loc.timezone}), local currency ({loc.currency}), and regional dialing code ({loc.dialingCode}). Common metabolic concerns in this area include {(loc.healthIssues || []).slice(0, 3).join(', ') || 'metabolic and lifestyle disorders'}, which are best addressed using circadian-aligned dietary interventions.
+          </p>
+          <p>
+            Our remote metabolic consultations align food intake with your body's circadian clock to optimize insulin sensitivity, address visceral fat buildup, and manage chronic conditions. We provide clinical guidance for integrating locally available produce such as {(loc.localFruits || []).slice(0, 2).join(' and ')} and {(loc.localVegetables || []).slice(0, 2).join(' and ')} to customize meal plans matching local food supply and dietary preferences.
+          </p>
+
+          {((loc.localFruits?.length || 0) + (loc.localVegetables?.length || 0)) > 0 && (
+            <div class="flex flex-wrap items-center gap-2 not-prose pt-1">
+              <span class="text-[10px] uppercase font-black tracking-widest text-emerald-700 mr-1">Local Produce:</span>
+              {[...(loc.localFruits || []), ...(loc.localVegetables || [])].map((item: string) => {
+                const url = findEntityUrl(item);
+                return url ? (
+                  <a href={url} class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-100 px-3 py-1 rounded-full hover:bg-emerald-100 transition-colors">{item}</a>
+                ) : (
+                  <span class="text-xs font-bold text-stone-500 bg-stone-100 px-3 py-1 rounded-full">{item}</span>
+                );
+              })}
+            </div>
+          )}
+
+          {localRecipes.length > 0 && (
+            <div class="flex flex-wrap items-center gap-2 not-prose pt-1">
+              <span class="text-[10px] uppercase font-black tracking-widest text-emerald-700 mr-1">Local Recipes &amp; Favourite Dishes:</span>
+              {localRecipes.map((r) => (
+                <a href={r.url} class="text-xs font-bold text-lime-800 bg-lime-50 border border-lime-100 px-3 py-1 rounded-full hover:bg-lime-100 transition-colors">{r.title}</a>
+              ))}
+            </div>
+          )}
+          <p>
+            By leveraging remote metabolic coaching, clinical assessment, and personalized diet guidelines, clients from {cityLabel} can work toward reclaiming energy levels, stabilizing blood sugar fluctuations, and reducing dependence on medication under senior clinical supervision. Dr. Shilpa Thakur's circadian nutrition protocols are tailored for local ingredients, ensuring you can build a sustainable lifestyle change right from your home region.
+          </p>
+          <p>
+            <strong>Remote Telehealth Operations:</strong> As a modern, fully digital practice, our outreach to {cityLabel} functions entirely through remote telehealth consulting. Video sessions and secure messaging allow our multidisciplinary clinical team to review diet logs, answer metabolic questions, and adjust timelines in real-time. This digital structure ensures that distance is never a barrier to receiving top-tier clinical nutrition coaching, and all sessions are scheduled to seamlessly fit into your local time zone. Our onboarding support desk is available to assist you with scheduling, document submission, and coordinator matching.
+          </p>
+          <p>
+            <strong>Precision Biomarker Diagnostics:</strong> Before initiating any dietary changes or chrononutritional swaps, clients are directed to visit certified local diagnostic laboratories in {cityLabel} to obtain baseline blood chemistry profiles. Key biomarkers—such as fasting blood glucose, HbA1c, fasting insulin, full lipid profiles, thyroid hormones, and kidney filtration rates (eGFR)—provide the objective data needed to customize your protocol. We perform periodic follow-up tests to measure progress, adjusting protein restrictions and mineral targets based on your latest lab work.
+          </p>
+          <p>
+            <strong>Clinical Safety & Telehealth Guidelines:</strong> Our remote practice strictly adheres to security protocols for patient confidentiality and data integrity. Every nutritional protocol and botanical swap in our database is graded from Level A (supported by multiple randomized controlled trials) to Level D (expert clinical consensus) in our evidence ledger. By excluding unverified health assertions or speculative claims, we guarantee that all recommended swaps are safe, effective, and fully coordinated with your prescribing local physician's standard-of-care treatments. This remote framework enables us to offer personalized wellness support to clients in {cityLabel} without requiring a physical clinic presence, prioritizing health optimization above all.
+          </p>
+        </div>
+
+        <p class="text-xs text-stone-400 uppercase tracking-widest font-bold pt-2">
+          {cityLocations.length > 1 ? `${cityLocations.length} outreach records for this city` : 'Outreach region profile'} · Climate: {loc.weather}
+        </p>
+        <a
+          href={`https://wa.me/917696160133?text=${encodeURIComponent(`Hi, I'm from ${cityLabel} and I'd like to know more about NutritionColours' clinical nutrition programs.`)}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 mt-2 px-6 py-3 rounded-full bg-emerald-600 text-white text-sm font-bold hover:bg-emerald-700 transition-colors shadow-md"
+        >
+          <Icons name="whatsapp" size={18} /> Chat on WhatsApp
+        </a>
+
+        {/* Nearby Proximity Links for Dynamic SEO Crawling */}
+        {nearestHubs && nearestHubs.length > 0 && (
+          <div class="mt-6 pt-6 border-t border-stone-200">
+            <h3 class="text-xs uppercase tracking-widest font-black text-emerald-800 mb-3">
+              Nearby Clinical Outreach Hubs
+            </h3>
+            <div class="flex flex-wrap gap-2">
+              {nearestHubs.map((hub: any) => (
+                <a
+                  href={`/clinic/${hub.slug}`}
+                  class="px-3 py-1.5 bg-white hover:bg-emerald-50 text-stone-700 hover:text-emerald-950 rounded-lg text-[10px] font-semibold border border-stone-200 hover:border-emerald-200 transition-all shadow-sm"
+                >
+                  {hub.city} ({Math.round(hub.distance)} km)
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  )}
+
+  <ClinicClientPage
+    client:only="react"
+    currentPath={`clinic/${id || ''}`}
+    navigate={(path: string) => { window.location.href = '/' + path; }}
+  />
+</BaseLayout>
+</div>

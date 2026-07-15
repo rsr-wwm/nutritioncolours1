@@ -1,0 +1,11 @@
+{
+  "name": "orange",
+  "description": "Placeholder description for orange.",
+  "nutrition": {
+    "calories": 123,
+    "sugar": 13,
+    "fiber": 6
+  },
+  "source": "mock-data",
+  "retrievedAt": "2026-07-14T17:10:53.511Z"
+}

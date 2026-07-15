@@ -1,0 +1,91 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { GenomicMatcher } from '../../components/GenomicMatcher';
+
+const SITE_URL = (Astro.site || 'https://nutritioncolours.com').toString().replace(/\/$/, '');
+const nutrigenomicsSchema = {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "url": `${SITE_URL}/knowledge/nutrigenomics`,
+  "name": "Nutrigenomics & Dietary Polymorphism Targets",
+  "description": "Analyze genetic variants (SNPs) and align dietary protocols with genomic markers like MTHFR, COMT, and FTO."
+};
+---
+<div data-ai-answer="true">
+<BaseLayout
+  title="Nutrigenomics & Dietary Polymorphism Targets"
+  description="Analyze genetic variants (SNPs) and align dietary protocols with genomic markers like MTHFR, COMT, and FTO."
+>
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(nutrigenomicsSchema)} />
+  
+  <div class="max-w-7xl mx-auto px-6 py-20 space-y-16">
+    <div class="text-center max-w-3xl mx-auto space-y-4">
+      <span class="text-lime-600 dark:text-lime-400 font-black uppercase tracking-[0.3em] text-[10px]">Genomic Medicine</span>
+      <h1 class="text-4xl md:text-5xl font-black text-emerald-950 dark:text-white brand-font leading-tight">
+        Clinical Nutrigenomics
+      </h1>
+      <p class="text-stone-600 dark:text-stone-400 leading-relaxed text-sm md:text-base font-medium">
+        Explore how genetic polymorphisms (SNPs) influence individual nutrient absorption, metabolic pathways, and detoxification capacity.
+      </p>
+    </div>
+
+    {/* Client-side Interactive Genomic Matcher Tool */}
+    <div class="bg-stone-50 dark:bg-stone-900/50 rounded-3xl p-6 border border-stone-150/40 dark:border-stone-850">
+      <GenomicMatcher client:load />
+    </div>
+
+    {/* Rich Server-Rendered Educational & Clinical Guide (SEO/AEO/AIO) */}
+    <section class="mt-20 pt-16 border-t border-stone-200 dark:border-stone-850 space-y-12">
+      <div class="prose prose-emerald max-w-none text-stone-700 dark:text-stone-300 bg-white dark:bg-stone-900 p-8 md:p-12 rounded-[40px] border border-stone-150/40 dark:border-stone-850/60 shadow-sm space-y-6">
+        <h2 class="text-2xl font-black text-emerald-950 dark:text-white brand-font">Introduction to Genomic Polymorphisms & Diet</h2>
+        <p class="leading-relaxed">
+          Clinical nutrigenomics is the scientific study of how individual genetic variations, specifically Single Nucleotide Polymorphisms (SNPs), impact human metabolic responses to dietary intake. While standard nutritional guidelines offer generalized recommendations for the population, genomic variations dictate how individual biochemistry processes macronutrients, vitamins, minerals, and bioactive compounds. By understanding these genetic differences, clinical practitioners can construct personalized nutritional plans that target specific metabolic pathways, reduce systemic inflammation, and prevent chronic disease.
+        </p>
+        <p class="leading-relaxed">
+          Genetic variants can alter enzyme activity, receptor sensitivity, and carrier protein efficiency, changing how nutrients are absorbed, utilized, and cleared from the body. These biological variations explain why individuals on identical diets can experience vastly different outcomes in cholesterol levels, inflammatory markers, and systemic energy levels.
+        </p>
+
+        <h3 class="text-xl font-bold text-emerald-900 dark:text-lime-400">Key Genomic Markers & Dietary Targets</h3>
+        
+        <div class="grid md:grid-cols-2 gap-8 mt-6">
+          <div class="space-y-3">
+            <h4 class="font-extrabold text-stone-900 dark:text-white">MTHFR (Methylenetetrahydrofolate Reductase)</h4>
+            <p class="text-sm leading-relaxed">
+              The MTHFR gene encodes the enzyme responsible for converting folate into its active, methylated form (5-MTHF), which is essential for cellular methylation and homocysteine clearance. Common variants (such as C677T and A1298C) reduce enzyme efficiency, potentially leading to elevated homocysteine and cardiovascular risks. Clinical protocols recommend avoiding synthetic folic acid and prioritizing dietary folate (found in leafy greens) alongside methylated vitamins (methyl-folate and methylcobalamin) to support optimal methylation.
+            </p>
+          </div>
+
+          <div class="space-y-3">
+            <h4 class="font-extrabold text-stone-900 dark:text-white">COMT (Catechol-O-Methyltransferase)</h4>
+            <p class="text-sm leading-relaxed">
+              The COMT gene encodes the enzyme that metabolizes catecholamines (such as dopamine, epinephrine, and norepinephrine) and specific estrogens. Variants that result in slower enzyme activity require careful clinical management, as catecholamines can accumulate, increasing sensitivity to stress. Supporting COMT function involves maintaining adequate magnesium levels (a key cofactor) and consuming cruciferous vegetables containing diindolylmethane (DIM) to promote healthy estrogen clearance.
+            </p>
+          </div>
+
+          <div class="space-y-3">
+            <h4 class="font-extrabold text-stone-900 dark:text-white">FTO (Fat Mass and Obesity-Associated)</h4>
+            <p class="text-sm leading-relaxed">
+              The FTO gene is strongly associated with appetite regulation, satiety signaling, and lipid metabolism. Individuals carrying risk alleles of the FTO gene often exhibit higher levels of ghrelin (the hunger hormone) and increased sensitivity to saturated fats. Precision dietary interventions focus on restricting saturated fats and simple sugars while emphasizing a high-fiber, plant-based diet rich in monounsaturated fats and structured physical activity to optimize metabolic output.
+            </p>
+          </div>
+
+          <div class="space-y-3">
+            <h4 class="font-extrabold text-stone-900 dark:text-white">GSTM1 & GSTT1 (Glutathione S-Transferases)</h4>
+            <p class="text-sm leading-relaxed">
+              These genes encode phase II detoxification enzymes responsible for conjugating glutathione with xenobiotics, environmental toxins, and heavy metals. A genetic deletion (null genotype) in GSTM1 or GSTT1 impairs cellular detoxification capacity, increasing susceptibility to environmental stressors. Support strategies focus on high intakes of brassica vegetables (rich in glucosinolates) and sulfur-containing compounds (found in alliums) to upregulate alternative cellular detoxification pathways.
+            </p>
+          </div>
+        </div>
+
+        <h3 class="text-xl font-bold text-emerald-900 dark:text-lime-400 mt-8">Clinical Implementation & Safety Guidelines</h3>
+        <p class="leading-relaxed">
+          While analyzing genetic variants offers valuable insight, clinical nutrigenomics must always be integrated with active biomarker tracking. A genetic predisposition is not a definitive diagnosis; it represents a physiological susceptibility that must be confirmed by regular laboratory analysis (such as fasting homocysteine, lipid panels, and liver enzyme testing). All dietary modifications and supplemental protocols must be coordinated under the direct supervision of registered dietitians and clinical genetics coaches to ensure clinical safety and prevent nutritional imbalances.
+        </p>
+        <p class="leading-relaxed">
+          Through the <strong>Nutritional Color Code system (NutritionColours)</strong>, we match visual dietary pigments to genomic support needs. Consuming a diverse spectrum of organic plant pigments provides the broad range of polyphenols, carotenoids, and sulfur compounds required to support methylation, downregulate cellular stress, and optimize individual gene expression.
+        </p>
+      </div>
+    </section>
+  </div>
+</BaseLayout>
+</div>

@@ -1,0 +1,79 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { ConnectPage } from '../components/ConnectPage';
+
+const SITE_URL = (Astro.site || 'https://nutritioncolours.com').toString().replace(/\/$/, '');
+const contactSchema = {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "url": `${SITE_URL}/contact`,
+  "name": "Contact & Clinical Intake Portal | NutritionColours",
+  "description": "Schedule a remote clinical nutrition consultation, coordinate diagnostic lab testing, and connect with our metabolic care team.",
+  "publisher": { "@id": `${SITE_URL}/#organization` }
+};
+---
+<div data-ai-answer="true">
+<BaseLayout
+  title="Contact Us & Clinical Consultation Booking | NutritionColours"
+  description="Book a remote circadian nutrition consultation. Contact our metabolic support team, schedule intake reviews, and coordinate local diagnostic testing."
+  keywords={["contact clinical nutritionist", "book metabolic consultation", "nutritionist customer support"]}
+>
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(contactSchema)} />
+
+  <ConnectPage client:load />
+
+  {/* Rich Server-Rendered Contact Registry (SEO / AEO / AIO / View-Source Law) */}
+  <div class="max-w-7xl mx-auto px-6 pb-24 -mt-12">
+    <section class="prose prose-emerald max-w-none text-stone-700 bg-white p-8 md:p-12 rounded-[40px] border border-stone-150/40 shadow-sm space-y-8">
+      
+      <div>
+        <span class="text-emerald-700 font-black uppercase tracking-[0.2em] text-[10px] block mb-2">Clinical Support Registry</span>
+        <h2 class="text-3xl font-black text-emerald-950 brand-font leading-tight m-0">
+          Intake Coordination & Practice Guidelines
+        </h2>
+        <p class="text-sm text-stone-500 leading-relaxed m-0 pt-2">
+          Contact our support team to register for clinical metabolic programs, coordinate digital intake records, or query existing wellness plans.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8 pt-4">
+        <div class="space-y-4">
+          <h3 class="text-lg font-extrabold text-emerald-900 m-0">New Patient Intake Protocol</h3>
+          <p class="text-xs leading-relaxed text-stone-600">
+            To maintain clinical safety and precision, all prospective clients must complete our initial intake review. During this process, you will submit a detailed medical history, current medication list, and recent blood diagnostic panels. This data allows our clinical nutritionists to design a personalized circadian feeding window and select specific botanical swaps tailored to your unique metabolic profile.
+          </p>
+          <p class="text-xs leading-relaxed text-stone-605">
+            Initial reviews are scheduled within 48 business hours of intake form submission. We coordinate with you via secure email and WhatsApp to finalize onboarding details.
+          </p>
+        </div>
+
+        <div class="space-y-4">
+          <h3 class="text-lg font-extrabold text-emerald-900 m-0">Telehealth Consultation Guidelines</h3>
+          <p class="text-xs leading-relaxed text-stone-600">
+            All coaching sessions and consulting reviews are conducted entirely online. Secure video consultations are scheduled to fit your local time zone. Our practitioners review daily digital food logs, answer chrononutrition queries, and adjust swap strategies in real-time.
+          </p>
+          <p class="text-xs leading-relaxed text-stone-605">
+            For urgent dietary adjustments, enrolled clients have direct access to our messaging support desk, ensuring continuous guidance throughout your metabolic program.
+          </p>
+        </div>
+      </div>
+
+      <hr class="border-stone-100 my-8" />
+
+      <div class="pt-4 space-y-4">
+        <h3 class="text-xl font-bold text-emerald-900 m-0">Diagnostic Lab Coordination & Safety</h3>
+        <p class="text-sm leading-relaxed text-stone-650">
+          Our remote practice operates under strict safety protocols. We do not prescribe pharmaceuticals or alter medical plans. Clients are directed to obtain baseline and follow-up biomarker panels (HbA1c, fasting insulin, full lipid profiles, thyroid panels, and organ clearance markers) from certified local laboratories in their home cities.
+        </p>
+        <p class="text-sm leading-relaxed text-stone-650">
+          Our team reviews these external lab reports to monitor metabolic trends and optimize dietary strategies, working in full alignment with your primary care physician's standard treatments to prioritize your health.
+        </p>
+        <p class="text-sm leading-relaxed text-stone-650">
+          All client files, progress logs, and communication data are protected under strict security guidelines to ensure patient confidentiality and data privacy.
+        </p>
+      </div>
+
+    </section>
+  </div>
+</BaseLayout>
+</div>

@@ -1,0 +1,11 @@
+{
+  "name": "apricot",
+  "description": "Placeholder description for apricot.",
+  "nutrition": {
+    "calories": 10,
+    "sugar": 17,
+    "fiber": 10
+  },
+  "source": "mock-data",
+  "retrievedAt": "2026-07-14T17:10:53.513Z"
+}

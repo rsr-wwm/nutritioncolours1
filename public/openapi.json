@@ -1,0 +1,259 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "NutritionColours Clinical Nutrition API",
+    "description": "Machine-readable clinical nutrition data API for AI agents, researchers, and developers. All data is evidence-based, reviewed by Dr. Shilpa Thakur (Ph.D. Clinical Nutrition), and cross-referenced with PubMed, Wikidata, and MeSH.",
+    "version": "1.0.0",
+    "contact": {
+      "name": "NutritionColours Clinical Team",
+      "url": "https://nutritioncolours.com/connect",
+      "email": "info@nutritioncolours.com"
+    },
+    "license": {
+      "name": "CC BY-NC-ND 4.0",
+      "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://nutritioncolours.com",
+      "description": "Production server"
+    }
+  ],
+  "paths": {
+    "/data/conditions.json": {
+      "get": {
+        "summary": "Clinical Conditions Database",
+        "description": "Returns all clinical nutrition conditions with root causes, biomarkers, therapeutic spices, prohibited foods, circadian advice, FAQs, and PubMed citations.",
+        "operationId": "getConditions",
+        "tags": ["Clinical Data"],
+        "responses": {
+          "200": {
+            "description": "Array of condition objects",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { "$ref": "#/components/schemas/Condition" }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/herbs.json": {
+      "get": {
+        "summary": "Therapeutic Herbs & Spices Database",
+        "description": "Returns all herbal entities with scientific names, active compounds, mechanisms, dosages, contraindications, synergies, FAQs, and PubMed citations.",
+        "operationId": "getHerbs",
+        "tags": ["Clinical Data"],
+        "responses": {
+          "200": {
+            "description": "Array of herb objects",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { "$ref": "#/components/schemas/Herb" }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/recipes.json": {
+      "get": {
+        "summary": "Therapeutic Recipe Database",
+        "description": "Returns therapeutic recipes with ingredients, nutritional analysis, tags, and circadian timing recommendations.",
+        "operationId": "getRecipes",
+        "tags": ["Clinical Data"],
+        "responses": {
+          "200": {
+            "description": "Array of recipe objects",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { "$ref": "#/components/schemas/Recipe" }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/evidence-summaries.json": {
+      "get": {
+        "summary": "PubMed-Style Evidence Summaries",
+        "description": "Returns structured evidence summaries following MedicalScholarlyArticle schema. Each includes mechanism, evidence level, sample size, outcome, and clinical takeaway.",
+        "operationId": "getEvidenceSummaries",
+        "tags": ["Evidence"],
+        "responses": {
+          "200": {
+            "description": "Evidence summaries object",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/EvidenceSummaries" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/comparison-matrix.json": {
+      "get": {
+        "summary": "Clinical Comparison Matrices",
+        "description": "Returns structured comparison data between herbs and protocols for each condition. Includes efficacy ratings, evidence levels, and verdicts.",
+        "operationId": "getComparisonMatrix",
+        "tags": ["Comparisons"],
+        "responses": {
+          "200": {
+            "description": "Comparison matrices object",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/ComparisonMatrix" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/confidence-scores.json": {
+      "get": {
+        "summary": "Clinical Confidence Scores",
+        "description": "Returns evidence-based confidence scores for every condition and herb. Includes evidence level, last verified date, and reviewer information.",
+        "operationId": "getConfidenceScores",
+        "tags": ["Trust Signals"],
+        "responses": {
+          "200": {
+            "description": "Confidence scores object",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/ConfidenceScores" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/conversation-trees.json": {
+      "get": {
+        "summary": "Voice Search Conversation Trees",
+        "description": "Returns natural-language conversation trees for voice search optimization. Maps root questions to follow-up chains with answers and page links.",
+        "operationId": "getConversationTrees",
+        "tags": ["AI/Voice"],
+        "responses": {
+          "200": {
+            "description": "Conversation trees object"
+          }
+        }
+      }
+    },
+    "/data/topical-authority-map.json": {
+      "get": {
+        "summary": "Topical Authority Cluster Map",
+        "description": "Returns the complete topic cluster hierarchy showing how all content relates. Used by search engines to assess topical authority.",
+        "operationId": "getTopicalAuthorityMap",
+        "tags": ["SEO"],
+        "responses": {
+          "200": {
+            "description": "Topical authority map object"
+          }
+        }
+      }
+    },
+    "/data/ai-overview-bait.json": {
+      "get": {
+        "summary": "AI Overview Extraction Blocks",
+        "description": "Returns pre-structured HTML blocks optimized for AI Overview extraction. Includes definitions, facts tables, steps, and FAQ blocks for every page.",
+        "operationId": "getAiOverviewBait",
+        "tags": ["AI/Voice"],
+        "responses": {
+          "200": {
+            "description": "AI overview bait blocks object"
+          }
+        }
+      }
+    },
+    "/knowledge-graph.jsonld": {
+      "get": {
+        "summary": "Clinical Knowledge Graph (JSON-LD)",
+        "description": "Returns the complete clinical knowledge graph as Schema.org JSON-LD. Maps conditions, herbs, recipes, and topics as interlinked entities with Wikidata sameAs references.",
+        "operationId": "getKnowledgeGraph",
+        "tags": ["Knowledge Graph"],
+        "responses": {
+          "200": {
+            "description": "Knowledge graph JSON-LD",
+            "content": {
+              "application/ld+json": {}
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Condition": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "rootCause": { "type": "string" },
+          "biomarkers": { "type": "array", "items": { "type": "string" } },
+          "therapeuticSpices": { "type": "array", "items": { "type": "string" } },
+          "prohibitedFoods": { "type": "array", "items": { "type": "string" } },
+          "circadianAdvice": { "type": "string" },
+          "faqs": { "type": "array" },
+          "citations": { "type": "array" }
+        }
+      },
+      "Herb": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "scientificName": { "type": "string" },
+          "activeCompounds": { "type": "array", "items": { "type": "string" } },
+          "primaryMechanism": { "type": "string" },
+          "dosage": { "type": "object" },
+          "contraindications": { "type": "array", "items": { "type": "string" } },
+          "synergies": { "type": "array", "items": { "type": "string" } },
+          "citations": { "type": "array" }
+        }
+      },
+      "Recipe": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "category": { "type": "string" },
+          "tags": { "type": "array", "items": { "type": "string" } },
+          "ingredients": { "type": "array" },
+          "description": { "type": "string" }
+        }
+      },
+      "EvidenceSummaries": {
+        "type": "object",
+        "properties": {
+          "evidenceSummaries": { "type": "array" }
+        }
+      },
+      "ComparisonMatrix": {
+        "type": "object",
+        "properties": {
+          "comparisons": { "type": "array" }
+        }
+      },
+      "ConfidenceScores": {
+        "type": "object",
+        "properties": {
+          "conditions": { "type": "object" },
+          "herbs": { "type": "object" }
+        }
+      }
+    }
+  }
+}

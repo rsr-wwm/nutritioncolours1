@@ -1,0 +1,149 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { ClinicalHerbDetail } from '../../components/ClinicalDetails';
+import { HERBS_SPICES_DATA, MEDICAL_CONDITIONS_DATA } from '../../lib/clinical_databases';
+
+export async function getStaticPaths() {
+  return HERBS_SPICES_DATA.map((herb) => ({
+    params: { id: herb.id },
+    props: { herb },
+  }));
+}
+
+const { herb } = Astro.props;
+
+// Construct rich keywords
+const allKeywords = [
+  herb.name,
+  herb.scientificName,
+  `${herb.name} dosage`,
+  `${herb.name} benefit`,
+  `${herb.name} side effects`,
+  "botanical monograph",
+  "precision nutrition",
+  ...(herb.seoKeywords || [])
+];
+
+const SITE_URL = (Astro.site || 'https://nutritioncolours.com').toString().replace(/\/$/, '');
+const herbSchema = {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "url": `${SITE_URL}/herb/${herb.id}`,
+  "name": herb.name,
+  "alternateName": herb.scientificName,
+  "description": herb.primaryMechanism,
+  "lastReviewed": herb.clinicalReview?.lastUpdated || new Date().toISOString().split('T')[0],
+  "reviewedBy": {
+    "@type": "Physician",
+    "name": "Dr. Shilpa Thakur",
+    "identifier": "NUTR-SHILPA-001"
+  }
+};
+---
+<div data-ai-answer="true">
+
+<BaseLayout
+  title={herb.pageTitle || `${herb.name} | Clinical Monograph | NutritionColours`}
+  description={herb.metaDescription || herb.primaryMechanism}
+  keywords={allKeywords}
+>
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(herbSchema)} />
+  
+  <ClinicalHerbDetail client:load herb={herb} herbsData={HERBS_SPICES_DATA} conditionsData={MEDICAL_CONDITIONS_DATA} />
+
+  {/* Rich Server-Rendered Clinical Monograph (SEO / AEO / AIO / View-Source Law) */}
+  <div class="max-w-7xl mx-auto px-6 pb-24 -mt-12">
+    <section class="prose prose-emerald max-w-none text-stone-700 bg-white p-8 md:p-12 rounded-[40px] border border-stone-150/40 shadow-sm space-y-8">
+      
+      <div>
+        <span class="text-lime-600 font-black uppercase tracking-[0.2em] text-[10px] block mb-2">Botanical Monograph & Pharmacology</span>
+        <h2 class="text-3xl font-black text-emerald-950 brand-font leading-tight m-0">
+          Pharmacological Profile: {herb.name}
+        </h2>
+        {herb.scientificName && (
+          <p class="text-sm italic text-stone-400 mt-1">{herb.scientificName}</p>
+        )}
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8 pt-4">
+        <div class="space-y-4">
+          <h3 class="text-lg font-extrabold text-emerald-900 m-0">Primary Mechanism of Action</h3>
+          <p class="text-sm leading-relaxed text-stone-600" data-ai-answer="true">
+            {herb.primaryMechanism}
+          </p>
+          <p class="text-sm leading-relaxed text-stone-655" data-ai-answer="true">
+            From a biochemical standpoint, the therapeutic properties of <strong>{herb.name}</strong> are attributed to its complex matrix of active botanical compounds. These phytochemicals interact with specific cellular receptor systems, helping to regulate physiological pathways, downregulate markers of chronic systemic inflammation, and support tissue recovery. By incorporating these compounds into circadian-aligned dietary patterns, patients can enhance functional enzyme pathways and promote metabolic recovery.
+          </p>
+        </div>
+
+        <div class="space-y-4">
+          <h3 class="text-lg font-extrabold text-emerald-900 m-0">Active Phytochemical Compounds</h3>
+          <div class="flex flex-wrap gap-2 pt-2">
+            {herb.activeCompounds.map((comp) => (
+              <span class="bg-stone-50 border border-stone-100 text-stone-700 text-xs font-semibold px-3 py-1.5 rounded-xl">
+                🧬 {comp}
+              </span>
+            ))}
+          </div>
+          <p class="text-xs leading-relaxed text-stone-500 pt-2">
+            Phytochemical analysis indicates that these primary active compounds operate synergistically to modulate cellular stress responses and promote healthy enzyme function. Supporting evidence shows that maintaining the integrity of these volatile molecules during preparation maximizes their bioavailability.
+          </p>
+        </div>
+      </div>
+
+      <hr class="border-stone-100 my-8" />
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="p-6 bg-stone-50 rounded-3xl space-y-3">
+          <h4 class="text-xs font-black uppercase tracking-wider text-emerald-800 m-0">Clinical Dosage Guidelines</h4>
+          <p class="text-xs leading-relaxed text-stone-600">
+            {herb.clinicalDosage || 'Consult a clinical specialist for personalized dosage targets based on biomarker analysis.'}
+          </p>
+        </div>
+
+        <div class="p-6 bg-red-50/50 border border-red-100/30 rounded-3xl space-y-3">
+          <h4 class="text-xs font-black uppercase tracking-wider text-red-800 m-0">Toxicology & Precautions</h4>
+          <p class="text-xs leading-relaxed text-stone-600">
+            {herb.toxicology || 'Maintain safety by not exceeding recommended dosing, and verify organ clearance capability (kidney/liver) with a clinician.'}
+          </p>
+        </div>
+
+        <div class="p-6 bg-stone-50 rounded-3xl space-y-3">
+          <h4 class="text-xs font-black uppercase tracking-wider text-emerald-800 m-0">Clinical Contraindications</h4>
+          <ul class="list-disc pl-4 text-xs text-stone-600 space-y-1">
+            {herb.contraindications && herb.contraindications.length > 0 ? (
+              herb.contraindications.map((c) => <li>{c}</li>)
+            ) : (
+              <li>No significant contraindications reported. Consult your physician.</li>
+            )}
+          </ul>
+        </div>
+      </div>
+
+      <div class="pt-6 space-y-4">
+        <h3 class="text-xl font-bold text-emerald-900 m-0">Integrated Wellness & Circadian Biology</h3>
+        <p class="text-sm leading-relaxed text-stone-650">
+          The therapeutic use of <strong>{herb.name}</strong> is optimized when coordinated with your body's circadian rhythms. Integrating botanical support into designated daylight eating windows supports natural diurnal metabolic processes and helps prevent digestive stress. Aligning these choices with a high-density, whole-food diet based on our <strong>Nutritional Color Code system (NutritionColours)</strong> provides a broad range of antioxidants, supporting cellular defense and long-term health preservation.
+        </p>
+      </div>
+
+      {herb.citations && herb.citations.length > 0 && (
+        <div class="pt-8 border-t border-stone-100 space-y-6">
+          <h3 class="text-xl font-black text-emerald-950 m-0">Clinical Evidence & Citations</h3>
+          <div class="grid md:grid-cols-2 gap-4">
+            {herb.citations.map((cite) => (
+              <div class="text-xs space-y-1 border-l-2 border-emerald-250 pl-3">
+                <p class="font-bold text-stone-700 m-0">{cite.text}</p>
+                <a href={cite.url} target="_blank" rel="noopener noreferrer" class="text-emerald-800 hover:underline block truncate">
+                  PubMed Database Link →
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+    </section>
+  </div>
+</BaseLayout>
+</div>

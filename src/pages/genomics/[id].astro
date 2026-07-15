@@ -1,0 +1,141 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { ClinicalGenomicsDetail } from '../../components/ClinicalDetails';
+import { GENOMIC_VARIANTS_DATA } from '../../lib/clinical_databases';
+import { getGenomicsEntityGraph } from '../../lib/seo/entityGraph';
+import { getBreadcrumbSchema } from '../../lib/seo/structuredData';
+
+export async function getStaticPaths() {
+  return GENOMIC_VARIANTS_DATA.map((variant) => ({
+    params: { id: variant.id },
+    props: { variant },
+  }));
+}
+
+const { variant } = Astro.props;
+
+// YMYL structured data: Gene + MedicalWebPage (reviewer) + Claim (real PMID citations).
+const variantSchema = getGenomicsEntityGraph(variant);
+const breadcrumbSchema = getBreadcrumbSchema(`genomics/${variant.id}`, [
+  { label: 'Home', path: 'home' },
+  { label: 'Nutrigenomics', path: 'knowledge/nutrigenomics' },
+  { label: `${variant.geneName} (${variant.rsid})`, path: `genomics/${variant.id}` },
+]);
+
+// Set Edge-Level Caching headers
+Astro.response.headers.set('Cache-Control', 'public, max-age=86400, s-maxage=604800, stale-while-revalidate=3600');
+
+// Construct rich keywords
+const allKeywords = [
+  variant.rsid,
+  variant.geneName,
+  variant.genotype,
+  "Nutrigenomics",
+  "genetic variant",
+  "dietary polymorphism",
+  "precision health"
+];
+---
+<div data-ai-answer="true">
+
+<BaseLayout
+  title={`${variant.rsid} (${variant.genotype}) - Nutrigenomics | NutritionColours`}
+  description={variant.clinicalImpact}
+  keywords={allKeywords}
+>
+  <script type="application/ld+json" is:inline set:html={variantSchema} />
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbSchema)} />
+  
+  <ClinicalGenomicsDetail client:load variant={variant} />
+
+  {/* Rich Server-Rendered Genomic Monograph (SEO / AEO / AIO / View-Source Law) */}
+  <div class="max-w-7xl mx-auto px-6 pb-24 -mt-12">
+    <section class="prose prose-emerald max-w-none text-stone-700 bg-white p-8 md:p-12 rounded-[40px] border border-stone-150/40 shadow-sm space-y-8">
+      
+      <div>
+        <span class="text-lime-655 font-black uppercase tracking-[0.2em] text-[10px] block mb-2">Genomic Medicine Monograph</span>
+        <h2 class="text-3xl font-black text-emerald-950 brand-font leading-tight m-0">
+          Gene Profile: {variant.geneName} Variant ({variant.rsid})
+        </h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8 pt-4">
+        <div class="space-y-4">
+          <h3 class="text-lg font-extrabold text-emerald-900 m-0">Clinical Impact & Pathophysiology</h3>
+          <p class="text-sm leading-relaxed text-stone-600" data-ai-answer="true">
+            {variant.clinicalImpact}
+          </p>
+          <p class="text-sm leading-relaxed text-stone-655" data-ai-answer="true">
+            Single Nucleotide Polymorphisms (SNPs) inside the <strong>{variant.geneName}</strong> gene can influence enzyme kinetics, receptor behavior, or carrier protein dynamics. This changes how your body handles specific macronutrients, synthesizes neurotransmitters, or clears cellular metabolites. Rather than a direct disease diagnosis, carrying the {variant.genotype} variant represents a physiological pattern that can be managed through precision, genetics-informed nutrition.
+          </p>
+        </div>
+
+        <div class="space-y-4">
+          <h3 class="text-lg font-extrabold text-emerald-900 m-0">Genomic Dietary Swap Guidelines</h3>
+          <p class="text-sm leading-relaxed text-stone-600">
+            {variant.dietaryGuideline}
+          </p>
+          <p class="text-sm leading-relaxed text-stone-650">
+            By implementing specific dietary adjustments, clients carrying this variant can support alternative metabolic pathways and compensate for reduced enzyme efficiency. Precision plant-based nutrition helps manage metabolic responses at the cellular level.
+          </p>
+        </div>
+      </div>
+
+      <hr class="border-stone-100 my-8" />
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="p-6 bg-stone-50 rounded-3xl space-y-3">
+          <h4 class="text-xs font-black uppercase tracking-wider text-emerald-800 m-0">Key Nutrients to Emphasize</h4>
+          <ul class="list-disc pl-4 text-xs text-stone-650 space-y-1">
+            {variant.keyNutrients.map((n: any) => (
+              <li>{n}</li>
+            ))}
+          </ul>
+        </div>
+
+        <div class="p-6 bg-red-50/50 border border-red-100/30 rounded-3xl space-y-3">
+          <h4 class="text-xs font-black uppercase tracking-wider text-red-800 m-0">Inputs to Avoid</h4>
+          <ul class="list-disc pl-4 text-xs text-stone-650 space-y-1">
+            {variant.avoidFoods.map((f: any) => (
+              <li>✕ {f}</li>
+            ))}
+          </ul>
+        </div>
+
+        <div class="p-6 bg-stone-50 rounded-3xl space-y-3">
+          <h4 class="text-xs font-black uppercase tracking-wider text-emerald-800 m-0">Target Biomarkers to Monitor</h4>
+          <ul class="list-disc pl-4 text-xs text-stone-650 space-y-1">
+            {variant.targetBiomarkers.map((b: any) => (
+              <li>{b}</li>
+            ))}
+          </ul>
+        </div>
+      </div>
+
+      <div class="pt-6 space-y-4">
+        <h3 class="text-xl font-bold text-emerald-900 m-0">Precision Clinical Framework</h3>
+        <p class="text-sm leading-relaxed text-stone-650">
+          This genomics monography is designed to support the collaborative relationship between patients, clinical nutritionists, and medical specialists. Consuming a diverse spectrum of organic plant pigments—following our <strong>Nutritional Color Code system (NutritionColours)</strong>—provides the essential phytonutrients required to support cellular health and promote long-term vitality. Any dietary modification or supplemental protocol must be coordinated under the direct supervision of registered dietitians and clinical genetics coaches to ensure safety and effectiveness.
+        </p>
+      </div>
+
+      {variant.citations && variant.citations.length > 0 && (
+        <div class="pt-8 border-t border-stone-100 space-y-6">
+          <h3 class="text-xl font-black text-emerald-950 m-0">Clinical Evidence & Citations</h3>
+          <div class="grid md:grid-cols-2 gap-4">
+            {variant.citations.map((cite: any) => (
+              <div class="text-xs space-y-1 border-l-2 border-emerald-250 pl-3">
+                <p class="font-bold text-stone-700 m-0">{cite.text}</p>
+                <a href={cite.url} target="_blank" rel="noopener noreferrer" class="text-emerald-800 hover:underline block truncate">
+                  PubMed Database Link →
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+    </section>
+  </div>
+</BaseLayout>
+</div>

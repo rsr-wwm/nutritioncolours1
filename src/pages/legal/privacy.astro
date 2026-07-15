@@ -1,0 +1,18 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import LegalContent from '../../components/LegalContent.astro';
+import { LEGAL_CONTENT } from '../../lib/constants';
+---
+<div data-ai-answer="true">
+<BaseLayout
+  title="Privacy Policy | NutritionColours Clinic"
+  description="Clinical data protection regulations, patient privacy directives, and privacy policies of our clinic."
+>
+  <LegalContent
+    eyebrow="Legal"
+    title="Privacy Policy"
+    intro="How NutritionColours collects, uses, and protects your personal and health information."
+    sections={LEGAL_CONTENT.privacy}
+  />
+</BaseLayout>
+</div>

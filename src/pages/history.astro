@@ -1,0 +1,74 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Icons from '../components/Icons.astro';
+---
+<div data-ai-answer="true">
+<BaseLayout 
+  title="Our History & Clinical Journey | NutritionColours" 
+  description="Chronology, evolution, and medical legacy of Dr. Shilpa Thakur's research in metabolic reversal."
+>
+  <div class="max-w-5xl mx-auto px-6 py-20 space-y-16">
+    <div class="text-center max-w-3xl mx-auto space-y-4">
+      <span class="text-lime-600 dark:text-lime-400 font-black uppercase tracking-[0.3em] text-[10px]">Medical Chronology</span>
+      <h1 class="text-4xl md:text-5xl font-black text-emerald-950 dark:text-white brand-font leading-tight">
+        Our History & Clinical Journey
+      </h1>
+      <p class="text-stone-600 dark:text-stone-400 leading-relaxed text-sm md:text-base font-medium">
+        From a small local research program in 2015 to a global clinical nutrition platform helping thousands reverse chronic lifestyle conditions.
+      </p>
+    </div>
+
+    {/* Timeline Layout */}
+    <div class="relative border-l-2 border-emerald-100 dark:border-emerald-900/60 ml-4 md:ml-32 py-8 space-y-16">
+      {[
+        {
+          year: '2015',
+          title: 'Foundation & Clinical Research Start',
+          desc: 'Dr. Shilpa Thakur, Ph.D. initiates a clinical nutrition research pilot in Chandigarh to evaluate the effects of kitchen spices and raw enzyme diets on type 2 diabetics, moving away from simple symptom control.',
+          icon: 'leaf'
+        },
+        {
+          year: '2018',
+          title: 'The Circadian Medicine Integration',
+          desc: 'Addition of chrononutrition protocols—aligning patient eating windows with biological sunrise/sunset clock signals. Results show immediate improvement in morning fasting blood sugars and liver fat resolution.',
+          icon: 'check'
+        },
+        {
+          year: '2021',
+          title: 'NutritionColours Telehealth Platform',
+          desc: 'Establishment of the online NutritionColours platform to extend clinical consulting internationally. Custom portal features are launched to track metabolic composition and gut microbiome blueprints.',
+          icon: 'search'
+        },
+        {
+          year: '2023',
+          title: 'Academic & Press Honors',
+          desc: 'Dr. Shilpa Thakur receives the "Holistic Nutritionist of the Year" award for clinical research showing type 2 diabetes remission in patients adhering to the circadian protocol for 90 days.',
+          icon: 'file-text'
+        }
+      ].map((milestone: any) => (
+        <div class="relative pl-8 md:pl-12 group">
+          {/* Timeline Dot Indicator */}
+          <div class="absolute -left-[17px] top-1.5 w-8 h-8 rounded-full bg-white dark:bg-stone-950 border-4 border-emerald-500 flex items-center justify-center transition-all duration-300 group-hover:bg-lime-400 group-hover:border-emerald-800 z-10">
+            <span class="w-1.5 h-1.5 rounded-full bg-emerald-800 dark:bg-white group-hover:scale-0 transition-transform"></span>
+          </div>
+
+          {/* Year Badge (Floating on Left for Desktop) */}
+          <div class="md:absolute md:-left-36 md:top-1 text-2xl font-black text-emerald-900 dark:text-lime-400 brand-font">
+            {milestone.year}
+          </div>
+
+          {/* Content Card */}
+          <div class="bg-white dark:bg-stone-900 p-8 rounded-[36px] border border-stone-100 dark:border-stone-850 shadow-md hover:shadow-xl transition-all duration-300">
+            <h3 class="text-xl font-black text-emerald-950 dark:text-white brand-font mb-3">
+              {milestone.title}
+            </h3>
+            <p class="text-stone-600 dark:text-stone-400 text-xs md:text-sm leading-relaxed font-semibold">
+              {milestone.desc}
+            </p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</BaseLayout>
+</div>

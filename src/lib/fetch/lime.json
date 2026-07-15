@@ -1,0 +1,11 @@
+{
+  "name": "lime",
+  "description": "Placeholder description for lime.",
+  "nutrition": {
+    "calories": 2,
+    "sugar": 14,
+    "fiber": 4
+  },
+  "source": "mock-data",
+  "retrievedAt": "2026-07-14T17:10:53.513Z"
+}

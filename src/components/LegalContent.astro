@@ -1,0 +1,42 @@
+---
+import Icons from './Icons.astro';
+
+interface Section {
+  heading: string;
+  text: string;
+}
+
+interface Props {
+  eyebrow: string;
+  title: string;
+  intro: string;
+  sections: Section[];
+}
+
+const { eyebrow, title, intro, sections } = Astro.props;
+---
+
+<div class="min-h-screen bg-white py-20 px-6">
+  <div class="max-w-4xl mx-auto">
+    <div class="flex items-center gap-3 mb-4">
+      <div class="w-10 h-10 rounded-xl bg-emerald-100 flex items-center justify-center text-emerald-700">
+        <Icons name="shield-check" size={24} />
+      </div>
+      <span class="text-xs font-black uppercase tracking-[0.3em] text-emerald-700">{eyebrow}</span>
+    </div>
+    <h1 class="text-4xl md:text-5xl font-black text-emerald-950 brand-font mb-6">{title}</h1>
+    <p class="text-lg text-stone-600 leading-relaxed mb-12 max-w-2xl">{intro}</p>
+
+    <div class="space-y-8">
+      {sections.map((section, i) => (
+        <section class="bg-stone-50 rounded-3xl border border-stone-100 p-8">
+          <h2 class="text-xl font-black text-emerald-950 mb-4 flex items-center gap-3">
+            <span class="w-8 h-8 rounded-lg bg-emerald-100 flex items-center justify-center text-emerald-700 text-sm font-black shrink-0">{i + 1}</span>
+            {section.heading}
+          </h2>
+          <p class="text-sm text-stone-600 leading-relaxed">{section.text}</p>
+        </section>
+      ))}
+    </div>
+  </div>
+</div>

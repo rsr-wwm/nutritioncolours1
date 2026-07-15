@@ -1,0 +1,11 @@
+{
+  "name": "banana",
+  "description": "Placeholder description for banana.",
+  "nutrition": {
+    "calories": 168,
+    "sugar": 12,
+    "fiber": 10
+  },
+  "source": "mock-data",
+  "retrievedAt": "2026-07-14T17:10:53.511Z"
+}

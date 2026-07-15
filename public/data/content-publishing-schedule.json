@@ -1,0 +1,71 @@
+{
+  "_meta": {
+    "description": "Circadian content freshness signals. Maps content categories to optimal publishing/refresh times aligned with user search behavior patterns.",
+    "purpose": "Exploits Google's Query-Deserves-Freshness (QDF) algorithm signal by aligning content updates with peak search times.",
+    "lastUpdated": "2026-07-04T06:00:00+05:30"
+  },
+  "schedule": [
+    {
+      "category": "sleep-nutrition",
+      "optimalRefreshTime": "20:00",
+      "timezone": "IST",
+      "routes": ["topic/sleep-disorder-circadian-reset", "herb/ashwagandha", "recipe/sleep-smoothie-valerian"],
+      "searchIntent": "Users search for sleep nutrition help in the evening"
+    },
+    {
+      "category": "breakfast-recipes",
+      "optimalRefreshTime": "06:00",
+      "timezone": "IST",
+      "routes": ["recipe/quinoa-sesame-cereal", "recipe/chia-berry-parfait", "recipe/mango-cardamom-lassi"],
+      "searchIntent": "Users search for healthy breakfast ideas in the morning"
+    },
+    {
+      "category": "lunch-recipes",
+      "optimalRefreshTime": "11:00",
+      "timezone": "IST",
+      "routes": ["recipe/golden-turmeric-quinoa", "recipe/avocado-lentil-tartare", "recipe/ayurvedic-millet-stew"],
+      "searchIntent": "Users search for healthy lunch recipes before midday"
+    },
+    {
+      "category": "diabetes-management",
+      "optimalRefreshTime": "08:00",
+      "timezone": "IST",
+      "routes": ["condition/diabetes-reversal", "condition/insulin-resistance", "herb/cinnamon", "herb/fenugreek"],
+      "searchIntent": "Diabetic users check blood sugar management advice in the morning"
+    },
+    {
+      "category": "pcos-hormone-support",
+      "optimalRefreshTime": "09:00",
+      "timezone": "IST",
+      "routes": ["condition/pcod-pcos", "topic/pcos-balance", "topic/fertility-hormone-support"],
+      "searchIntent": "PCOS users search for hormone balance advice mid-morning"
+    },
+    {
+      "category": "weight-loss",
+      "optimalRefreshTime": "07:00",
+      "timezone": "IST",
+      "routes": ["topic/weight-loss-women", "topic/weight-loss-men", "topic/belly-fat-reduction"],
+      "searchIntent": "Weight loss queries peak early morning during motivation window"
+    },
+    {
+      "category": "gut-health",
+      "optimalRefreshTime": "10:00",
+      "timezone": "IST",
+      "routes": ["condition/gut-health", "topic/gut-health-acidity", "recipe/kimchi-rice-bowl"],
+      "searchIntent": "Digestive health queries increase mid-morning after breakfast"
+    },
+    {
+      "category": "thyroid-support",
+      "optimalRefreshTime": "06:30",
+      "timezone": "IST",
+      "routes": ["condition/thyroid-dysfunction", "topic/thyroid-optimization", "topic/autoimmune-hashimotos-protocol"],
+      "searchIntent": "Thyroid medication users search early morning around medication time"
+    }
+  ],
+  "freshnessSignals": {
+    "lastSitemapUpdate": "2026-07-04",
+    "lastContentRefresh": "2026-07-04T06:00:00+05:30",
+    "nextScheduledRefresh": "2026-07-05T06:00:00+05:30",
+    "dataFeedsLastSync": "2026-07-04T06:00:00+05:30"
+  }
+}

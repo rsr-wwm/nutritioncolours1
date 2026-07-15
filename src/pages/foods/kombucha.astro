@@ -1,0 +1,49 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+export const prerender = true;
+const title = "Kombucha – Probiotic Benefits, Dosage & Nutrition";
+const description = "Clinical nutrition details, health benefits, and recommended dosage of kombucha, a fermented tea beverage.";
+const date = "2026-07-14";
+---
+<div data-ai-answer="true">
+<BaseLayout title={title} description={description}>
+  <div class="max-w-4xl mx-auto px-6 py-16 prose prose-emerald dark:prose-invert">
+    <h1>Kombucha</h1>
+    
+    <h3>Clinical Nutrition Details</h3>
+    <ul>
+      <li><strong>Probiotics:</strong> ~10⁹ CFU per 240 ml serving (varies by strain).</li>
+      <li><strong>Organic Acids (acetic, gluconic, glucuronic):</strong> Contribute to detoxification pathways.</li>
+      <li><strong>Polyphenols:</strong> Derived from tea base; 30‑70 mg per serving.</li>
+      <li><strong>Alcohol:</strong> Typically &lt; 0.5% ABV (trace amounts from fermentation).</li>
+      <li><strong>Vitamins & Minerals:</strong> B‑vitamins (B1, B2, B6, B12) and small amounts of vitamin C, potassium.</li>
+    </ul>
+
+    <h3>Health Benefits</h3>
+    <ul>
+      <li><strong>Gut Health:</strong> Probiotic load supports microbiome diversity; may improve bowel regularity.</li>
+      <li><strong>Detoxification:</strong> Glucuronic acid binds toxins for hepatic excretion.</li>
+      <li><strong>Immune Modulation:</strong> Polyphenols and organic acids exhibit anti‑inflammatory activity.</li>
+      <li><strong>Metabolic:</strong> May improve insulin sensitivity in modest trials.</li>
+    </ul>
+
+    <h3>Recommended Dosage</h3>
+    <ul>
+      <li><strong>General consumption:</strong> 120‑240 ml (½‑1 cup) per day.</li>
+      <li><strong>Therapeutic use:</strong> Up to 360 ml daily, split into two doses, ensuring gradual introduction to avoid GI upset.</li>
+      <li><strong>Caution:</strong> Individuals with compromised immune systems, pregnant women, or those sensitive to alcohol should limit intake; avoid raw/unpasteurized varieties.</li>
+    </ul>
+
+    <h3>How to Enjoy</h3>
+    <ol>
+      <li>Shake gently before opening to mix sediment.</li>
+      <li>Pour over ice or enjoy chilled.</li>
+      <li>Pair with a light snack to aid absorption of B‑vitamins.</li>
+    </ol>
+
+    <blockquote>
+      <strong>Note:</strong> Kombucha is modeled as a <em>Service</em> offering with <code>areaServed: "World"</code> in the nutrition catalogue.
+    </blockquote>
+  </div>
+</BaseLayout>
+</div>

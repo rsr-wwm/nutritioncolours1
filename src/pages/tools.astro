@@ -1,0 +1,183 @@
+---
+import SectionHeading from '../components/SectionHeading.astro';
+import SharedSections from '../components/SharedSections.astro';
+import { TOOLS_FAQS } from '../data/constants';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+// React Islands Imports
+import { DynamicCircadianClock } from '../components/DynamicCircadianClock';
+import { HrvTracker } from '../components/HrvTracker';
+import { BiologicalAgeEstimator } from '../components/BiologicalAgeEstimator';
+import { CircadianPlate } from '../components/ui/CircadianPlate';
+import { FarmSwapGuide } from '../components/ui/FarmSwapGuide';
+import { DietaryAuditor } from '../components/DietaryAuditor';
+import { GenomicMatcher } from '../components/GenomicMatcher';
+import { ResearchQueryAgent } from '../components/ResearchQueryAgent';
+import { BmiCalculator } from '../components/HealthCalculators';
+import { PdfBuilder } from '../components/PdfBuilder';
+import { SmartMealGenerator } from '../components/SmartMealGenerator';
+import { SeoAnalyzer } from '../components/SeoAnalyzer';
+import { SystemMonitor } from '../components/SystemMonitor';
+---
+<div data-ai-answer="true">
+<BaseLayout title="Metabolic Diagnostics & Health Tools | NutritionColours" description="Clinical diagnostics portal featuring Circadian Clocks, HRV Trackers, Biological Age Estimators, and Meal Planners.">
+  <div class="p-6 md:p-10 max-w-7xl mx-auto space-y-24">
+    <div>
+      <SectionHeading subtitle="Interactive Diagnostics" title="Circadian & Metabolic Hub" isMain={true} />
+      <div class="grid md:grid-cols-2 gap-8 mt-12">
+        <div class="bg-white dark:bg-emerald-950/25 p-8 rounded-[32px] border border-stone-150 dark:border-emerald-900/30 space-y-6 flex flex-col justify-between">
+          <div class="space-y-2">
+            <h3 class="text-lg font-black text-emerald-950 dark:text-emerald-50 brand-font">Dynamic Circadian Clock</h3>
+            <p class="text-xs text-stone-600 dark:text-emerald-100/60 leading-relaxed font-semibold">
+              Calculate your personalized metabolic feeding windows based on circadian science. Synchronize meal times with natural cortisol rises and melatonin releases to support insulin sensitivity and optimize biliary function under senior clinical guidance.
+            </p>
+          </div>
+          <DynamicCircadianClock client:only="react" />
+        </div>
+
+        <div class="bg-white dark:bg-emerald-950/25 p-8 rounded-[32px] border border-stone-150 dark:border-emerald-900/30 space-y-6 flex flex-col justify-between">
+          <div class="space-y-2">
+            <h3 class="text-lg font-black text-emerald-950 dark:text-emerald-50 brand-font">Heart Rate Variability (HRV) Tracker</h3>
+            <p class="text-xs text-stone-600 dark:text-emerald-100/60 leading-relaxed font-semibold">
+              Monitor your autonomic nervous system balance. Track parasympathetic activity and assess recovery status between circadian meal phases, helping to identify systemic stress and optimize digestive rest intervals.
+            </p>
+          </div>
+          <HrvTracker client:only="react" />
+        </div>
+
+        <div class="bg-white dark:bg-emerald-950/25 p-8 rounded-[32px] border border-stone-150 dark:border-emerald-900/30 space-y-6 flex flex-col justify-between">
+          <div class="space-y-2">
+            <h3 class="text-lg font-black text-emerald-950 dark:text-emerald-50 brand-font">Biological Age Estimator</h3>
+            <p class="text-xs text-stone-600 dark:text-emerald-100/60 leading-relaxed font-semibold">
+              Assess your metabolic vitality and cellular aging markers. By inputting key lifestyle parameters, daylight exposure habits, and dietary discipline, this calculator estimates your systemic biological health index relative to your chronological age.
+            </p>
+          </div>
+          <BiologicalAgeEstimator client:only="react" />
+        </div>
+
+        <div class="bg-white dark:bg-emerald-950/25 p-8 rounded-[32px] border border-stone-150 dark:border-emerald-900/30 space-y-6 flex flex-col justify-between">
+          <div class="space-y-2">
+            <h3 class="text-lg font-black text-emerald-950 dark:text-emerald-50 brand-font">Circadian Plate Planner</h3>
+            <p class="text-xs text-stone-600 dark:text-emerald-100/60 leading-relaxed font-semibold">
+              Visualize the clinical "fiber-first" macronutrient distribution for meal times. Design balanced daylight plates that prioritize high-volume prebiotic fiber, quality protein, and slow-digesting complex carbohydrates to manage postprandial glucose curves.
+            </p>
+          </div>
+          <CircadianPlate client:only="react" />
+        </div>
+
+        <div class="md:col-span-2 bg-white dark:bg-emerald-950/25 p-8 rounded-[32px] border border-stone-150 dark:border-emerald-900/30 space-y-6 flex flex-col justify-between">
+          <div class="space-y-2">
+            <h3 class="text-lg font-black text-emerald-950 dark:text-emerald-50 brand-font">Farm Swap Agriculture & Spice Matcher</h3>
+            <p class="text-xs text-stone-600 dark:text-emerald-100/60 leading-relaxed font-semibold">
+              Match regional crops and seasonal produce with clinical nutritional recipes. Select your local area to find fresh bio-active food integrations, supporting bioavailability and maximizing antioxidant properties in alignment with local clinical outreach programs.
+            </p>
+          </div>
+          <FarmSwapGuide client:only="react" />
+        </div>
+      </div>
+    </div>
+    
+    <div>
+      <SectionHeading subtitle="Advanced Science" title="Metabolic Auditing & Nutrigenomics" />
+      <div class="grid grid-cols-1 gap-8 mt-12">
+        <div class="bg-white dark:bg-emerald-950/25 p-8 rounded-[32px] border border-stone-150 dark:border-emerald-900/30 space-y-6 flex flex-col justify-between">
+          <div class="space-y-2">
+            <h3 class="text-lg font-black text-emerald-950 dark:text-emerald-50 brand-font">Clinical Dietary Auditor</h3>
+            <p class="text-xs text-stone-600 dark:text-emerald-100/60 leading-relaxed font-semibold">
+              Analyze your food logs against evidence-based metabolic parameters. Audits glycemic load distribution, identifies late-night eating risks, and checks fiber-to-carbohydrate ratios to support metabolic stability.
+            </p>
+          </div>
+          <DietaryAuditor client:only="react" />
+        </div>
+
+        <div class="bg-white dark:bg-emerald-950/25 p-8 rounded-[32px] border border-stone-150 dark:border-emerald-900/30 space-y-6 flex flex-col justify-between">
+          <div class="space-y-2">
+            <h3 class="text-lg font-black text-emerald-950 dark:text-emerald-50 brand-font">Genomic Variant Matcher (SNPs)</h3>
+            <p class="text-xs text-stone-600 dark:text-emerald-100/60 leading-relaxed font-semibold">
+              Align common genetic variants (like MTHFR or FTO) with personalized dietary recommendations. Helps translate genetic polymorphism data into actionable, evidence-based circadian nutrition swaps under clinician guidance.
+            </p>
+          </div>
+          <GenomicMatcher client:only="react" />
+        </div>
+
+        <div class="bg-white dark:bg-emerald-950/25 p-8 rounded-[32px] border border-stone-150 dark:border-emerald-900/30 space-y-6 flex flex-col justify-between">
+          <div class="space-y-2">
+            <h3 class="text-lg font-black text-emerald-950 dark:text-emerald-50 brand-font">PubMed Literature Triage Agent</h3>
+            <p class="text-xs text-stone-600 dark:text-emerald-100/60 leading-relaxed font-semibold">
+              Query clinical databases directly for peer-reviewed studies. Access medical evidence regarding food timing, herbal mechanisms, and metabolic biomarkers, ensuring that all dietary changes remain fully aligned with established scientific research.
+            </p>
+          </div>
+          <ResearchQueryAgent client:only="react" />
+        </div>
+      </div>
+    </div>
+    
+    <div>
+      <SectionHeading subtitle="Resources" title="Standard Health Calculators" />
+      <div class="grid md:grid-cols-2 gap-8 mt-12">
+        <div class="bg-white dark:bg-emerald-950/25 p-8 rounded-[32px] border border-stone-150 dark:border-emerald-900/30 space-y-6 flex flex-col justify-between">
+          <div class="space-y-2">
+            <h3 class="text-lg font-black text-emerald-950 dark:text-emerald-50 brand-font">Standard BMI & Metric Calculator</h3>
+            <p class="text-xs text-stone-600 dark:text-emerald-100/60 leading-relaxed font-semibold">
+              Calculate Body Mass Index (BMI) and establish baseline metabolic categories. Serves as a standard anthropometric tracking tool alongside key blood biomarker audits to monitor physical health transitions.
+            </p>
+          </div>
+          <BmiCalculator client:only="react" />
+        </div>
+
+        <div class="bg-white dark:bg-emerald-950/25 p-8 rounded-[32px] border border-stone-150 dark:border-emerald-900/30 space-y-6 flex flex-col justify-between">
+          <div class="space-y-2">
+            <h3 class="text-lg font-black text-emerald-950 dark:text-emerald-50 brand-font">Clinical Monograph PDF Builder</h3>
+            <p class="text-xs text-stone-600 dark:text-emerald-100/60 leading-relaxed font-semibold">
+              Compile and generate printable PDF summaries of your calculated circadian schedules, dietary guidelines, and food swap lists, allowing offline integration of clinical protocols.
+            </p>
+          </div>
+          <PdfBuilder client:only="react" />
+        </div>
+      </div>
+    </div>
+    
+    <div>
+      <SectionHeading subtitle="Planning" title="Therapeutic Circadian Meal Planner" />
+      <div class="bg-white dark:bg-emerald-950/25 p-8 rounded-[32px] border border-stone-150 dark:border-emerald-900/30 space-y-6 flex flex-col justify-between mt-12">
+        <div class="space-y-2">
+          <h3 class="text-lg font-black text-emerald-950 dark:text-emerald-50 brand-font">Smart Meal & Day Planner</h3>
+          <p class="text-xs text-stone-600 dark:text-emerald-100/60 leading-relaxed font-semibold">
+            Generate customized day planners and meal lists aligned with chronobiology. Coordinates breakfast, lunch, and dinner times with your biological clock parameters and local food options to support ongoing metabolic recovery.
+          </p>
+        </div>
+        <SmartMealGenerator client:only="react" />
+      </div>
+    </div>
+    
+    <div>
+      <SectionHeading subtitle="Analysis" title="SEO & System Metrics" />
+      <div class="grid grid-cols-1 gap-8 mt-12">
+        <div class="bg-white dark:bg-emerald-950/25 p-8 rounded-[32px] border border-stone-150 dark:border-emerald-900/30 space-y-6 flex flex-col justify-between">
+          <div class="space-y-2">
+            <h3 class="text-lg font-black text-emerald-950 dark:text-emerald-50 brand-font">Site SEO Metadata Analyzer</h3>
+            <p class="text-xs text-stone-600 dark:text-emerald-100/60 leading-relaxed font-semibold">
+              Audit structured data markup, heading structures, and crawler-visible text depth across localized and clinical pages to support search visibility.
+            </p>
+          </div>
+          <SeoAnalyzer client:only="react" />
+        </div>
+
+        <div class="bg-white dark:bg-emerald-950/25 p-8 rounded-[32px] border border-stone-150 dark:border-emerald-900/30 space-y-6 flex flex-col justify-between">
+          <div class="space-y-2">
+            <h3 class="text-lg font-black text-emerald-950 dark:text-emerald-50 brand-font">System Cache & Resource Monitor</h3>
+            <p class="text-xs text-stone-600 dark:text-emerald-100/60 leading-relaxed font-semibold">
+              Monitor server-rendered page sizes, edge-caching hits, and database query response times, ensuring robust speed and reliable client pre-fetching.
+            </p>
+          </div>
+          <SystemMonitor client:only="react" />
+        </div>
+      </div>
+    </div>
+    
+    <div class="pt-12 border-t border-stone-200/60">
+      <SharedSections type="faq" faqData={TOOLS_FAQS} faqTitle="Tools Usage FAQs" />
+    </div>
+  </div>
+</BaseLayout>
+</div>

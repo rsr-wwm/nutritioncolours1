@@ -1,0 +1,28 @@
+---
+// RETIRED 2026-07-15 (round 5): /knowledge/fruits/... is now canonical (owner decision).
+// This page is kept as a redirect stub (not deleted) so any existing inbound links/bookmarks
+// still land on the right page — defense-in-depth alongside the .htaccess 301s, in case this
+// site is ever served from something other than the Apache host the .htaccess targets.
+import { FRUITS_DATA } from '../../../lib/foods_database';
+import { FRUIT_KNOWLEDGE_URL } from '../../../lib/seo/autoLinker';
+
+export async function getStaticPaths() {
+  return FRUITS_DATA.map((food) => ({ params: { id: food.id }, props: { food } }));
+}
+
+const { food } = Astro.props;
+const target = FRUIT_KNOWLEDGE_URL[food.id] || '/knowledge/fruits';
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>{food.name} has moved</title>
+  <link rel="canonical" href={target} />
+  <meta http-equiv="refresh" content={`0; url=${target}`} />
+  <meta name="robots" content="noindex, follow" />
+</head>
+<body>
+  <p>This page has moved to <a href={target}>{target}</a>.</p>
+</body>
+</html>

@@ -1,0 +1,79 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { ConnectPage } from '../components/ConnectPage';
+
+const SITE_URL = (Astro.site || 'https://nutritioncolours.com').toString().replace(/\/$/, '');
+const connectSchema = {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "url": `${SITE_URL}/connect`,
+  "name": "Metabolic Health Hub & Onboarding | NutritionColours",
+  "description": "Register for clinical metabolic programs, coordinate digital intake records, and join our remote metabolic health community.",
+  "publisher": { "@id": `${SITE_URL}/#organization` }
+};
+---
+<div data-ai-answer="true">
+<BaseLayout
+  title="Metabolic Health Hub & Onboarding Portal | NutritionColours"
+  description="Join our remote metabolic health community. Complete your clinical intake onboarding, submit diagnostic lab reports, and access chrononutrition protocols."
+  keywords={["metabolic health community", "patient onboarding portal", "clinical intake forms", "diet plan registration"]}
+>
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(connectSchema)} />
+
+  <ConnectPage client:load />
+
+  {/* Rich Server-Rendered Connect Registry (SEO / AEO / AIO / View-Source Law) */}
+  <div class="max-w-7xl mx-auto px-6 pb-24 -mt-12">
+    <section class="prose prose-emerald max-w-none text-stone-700 bg-white p-8 md:p-12 rounded-[40px] border border-stone-150/40 shadow-sm space-y-8">
+      
+      <div>
+        <span class="text-emerald-700 font-black uppercase tracking-[0.2em] text-[10px] block mb-2">Onboarding Portal</span>
+        <h2 class="text-3xl font-black text-emerald-950 brand-font leading-tight m-0">
+          Metabolic Onboarding & Diagnostic Submission
+        </h2>
+        <p class="text-sm text-stone-500 leading-relaxed m-0 pt-2">
+          Use this secure portal to complete your clinical intake documents, register for wellness programs, and upload baseline diagnostic reports.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8 pt-4">
+        <div class="space-y-4">
+          <h3 class="text-lg font-extrabold text-emerald-900 m-0">Patient Registration Steps</h3>
+          <p class="text-xs leading-relaxed text-stone-600">
+            Our onboarding process is designed to collect the necessary health information for a personalized metabolic plan. To get started, choose your program (Metabolic Mastery, Therapeutic Reversal, or Cellular Resurrection) and complete the digital intake form. You will provide details on your dietary habits, daily schedule, and metabolic goals.
+          </p>
+          <p class="text-xs leading-relaxed text-stone-605">
+            Once submitted, your intake file is assigned to a clinical specialist who reviews the details to prepare your initial program timeline.
+          </p>
+        </div>
+
+        <div class="space-y-4">
+          <h3 class="text-lg font-extrabold text-emerald-900 m-0">Diagnostic Lab Panel Submission</h3>
+          <p class="text-xs leading-relaxed text-stone-600">
+            For clinical safety, baseline blood chemistry reports must be submitted before beginning your dietary protocol. These reports provide the objective data needed to identify metabolic stressors, track liver lipids, and customize insulin response guidelines.
+          </p>
+          <p class="text-xs leading-relaxed text-stone-605">
+            You can upload diagnostic reports directly through this portal or email them to your clinical coordinator. Follow-up panels are scheduled periodically to measure progress.
+          </p>
+        </div>
+      </div>
+
+      <hr class="border-stone-100 my-8" />
+
+      <div class="pt-4 space-y-4">
+        <h3 class="text-xl font-bold text-emerald-900 m-0">Metabolic Support & Medical Coordination</h3>
+        <p class="text-sm leading-relaxed text-stone-650">
+          The NutritionColours framework is designed to complement standard medical treatments. Our focus is on optimizing metabolic health through circadian-aligned meal timing and evidence-based swaps, such as millets, low-glycemic grains, and therapeutic spices from our Nutritional Color Code database.
+        </p>
+        <p class="text-sm leading-relaxed text-stone-650">
+          We encourage active communication with your primary care physician to ensure all modifications coordinate with your existing treatments. Any adjustments to prescribed medications must be managed directly with your doctor.
+        </p>
+        <p class="text-sm leading-relaxed text-stone-650">
+          All client information is kept secure and confidential, ensuring a private, supportive path toward metabolic wellness.
+        </p>
+      </div>
+
+    </section>
+  </div>
+</BaseLayout>
+</div>

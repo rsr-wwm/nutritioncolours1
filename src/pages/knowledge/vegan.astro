@@ -1,0 +1,74 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { VEGAN_SUB_TOPICS } from '../../lib/constants';
+---
+<div data-ai-answer="true">
+<BaseLayout 
+  title="Clinical Plant Nutrition & Vegan Reversal Guide" 
+  description="Optimize therapeutic vegan regimens to reverse chronic disease, eliminate systemic inflammation, and restore cellular energy."
+>
+  <div class="max-w-7xl mx-auto px-6 py-20 space-y-16">
+    <div class="text-center max-w-3xl mx-auto space-y-4">
+      <span class="text-lime-600 dark:text-lime-400 font-black uppercase tracking-[0.3em] text-[10px]">Plant-Based Therapeutics</span>
+      <h1 class="text-4xl md:text-5xl font-black text-emerald-950 dark:text-white brand-font leading-tight">
+        Clinical Plant Nutrition & Vegan Reversal Guide
+      </h1>
+      <p class="text-stone-600 dark:text-stone-400 leading-relaxed text-sm md:text-base font-medium">
+        Optimize therapeutic vegan regimens to reverse chronic metabolic disease, eliminate systemic inflammation, and restore cellular biological energy.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {VEGAN_SUB_TOPICS.map((topic) => (
+        <div class="bg-white dark:bg-stone-900 p-8 rounded-[40px] border border-stone-100 dark:border-stone-850 shadow-lg hover:shadow-2xl transition-all duration-350 hover:-translate-y-1 flex flex-col justify-between group">
+          <div class="space-y-6">
+            <div class="flex items-center justify-between">
+              <span class="text-4xl">{topic.icon}</span>
+              <span class="text-[10px] text-stone-400 dark:text-stone-500 font-bold uppercase tracking-wider">
+                {topic.subtitle}
+              </span>
+            </div>
+
+            <div class="space-y-2">
+              <h2 class="text-xl font-black text-emerald-950 dark:text-white brand-font group-hover:text-emerald-700 dark:group-hover:text-lime-400 transition-colors">
+                <a href={`/vegan/${topic.id}`}>{topic.title}</a>
+              </h2>
+              <p class="text-stone-600 dark:text-stone-400 text-xs leading-relaxed line-clamp-3 font-semibold">
+                {topic.description}
+              </p>
+            </div>
+          </div>
+
+          <div class="pt-6 mt-6 border-t border-stone-50 dark:border-stone-850/60 flex items-center justify-between">
+            <a 
+              href={`/vegan/${topic.id}`} 
+              class="text-[10px] font-black uppercase tracking-widest text-emerald-900 dark:text-lime-400 hover:text-emerald-700 dark:hover:text-lime-300 transition-colors flex items-center gap-1.5 group/btn"
+            >
+              Read Guide
+              <span class="transform group-hover/btn:translate-x-1 transition-transform">→</span>
+            </a>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <section class="mt-20 pt-16 border-t border-stone-200 dark:border-stone-850">
+      <div class="prose prose-emerald max-w-none text-stone-700 dark:text-stone-300 bg-white dark:bg-stone-900 p-8 md:p-12 rounded-[40px] border border-stone-150/40 dark:border-stone-850/60 shadow-sm space-y-6">
+        <h2 class="text-2xl font-black text-emerald-950 dark:text-white brand-font">Therapeutic Foundations of Precision Plant-Based Nutrition</h2>
+        <p class="leading-relaxed">
+          Transitioning to or optimizing a plant-based (vegan) diet for clinical disease management requires a precise, scientific understanding of nutrient density and metabolic load. While plant-based regimens are widely recognized for their potential to downregulate markers of systemic inflammation (such as hs-CRP and IL-6) and improve cardiovascular markers, a generic vegan diet can often be nutritionally incomplete. Precision plant nutrition focuses on the targeted selection of whole, unprocessed plant foods that address potential deficiency risks while maximizing the intake of therapeutic phytochemicals.
+        </p>
+        <p class="leading-relaxed">
+          A primary clinical concern in plant-based nutrition is preventing key micronutrient gaps. For instance, vitamin B12, vitamin D3, long-chain omega-3 fatty acids (EPA/DHA), iron, zinc, and iodine must be monitored and supplemented when necessary. Our clinical protocols emphasize selecting highly bioavailable plant sources and matching ingredients to optimize absorption. For example, pairing non-heme iron sources with vitamin C-rich foods significantly enhances iron absorption. Similarly, managing the intake of phytates, oxalates, and goitrogens is critical for patients with compromised thyroid function or chronic kidney disease, ensuring that beneficial plant compounds do not inadvertently impair mineral absorption or stress clearance organs.
+        </p>
+        <p class="leading-relaxed">
+          Additionally, precision plant-based protocols are designed to manage macronutrient ratios to address metabolic conditions such as insulin resistance and type 2 diabetes. By prioritizing high-fiber, low-glycemic complex carbohydrates alongside plant-based proteins (such as pulses, legumes, and seeds) and healthy fats, patients can stabilize postprandial glucose levels and improve insulin sensitivity. This structured approach helps prevent glycemic spikes and downregulates hepatic lipid accumulation, supporting conditions like metabolic dysfunction-associated steatotic liver disease (MASLD).
+        </p>
+        <p class="leading-relaxed">
+          Our editorial board reviews peer-reviewed literature and clinical consensus guides to formulate all plant-based recommendations. We utilize the <strong>Nutritional Color Code system (NutritionColours)</strong> to guide patients in building visually diverse, antioxidant-rich meals. Pigment-rich vegetables and fruits contain unique classes of compounds—like anthocyanins in berries or glucosinolates in cruciferous vegetables—that activate cellular survival pathways, support mitochondrial health, and enhance overall systemic vitality.
+        </p>
+      </div>
+    </section>
+  </div>
+</BaseLayout>
+</div>

@@ -1,0 +1,1577 @@
+{
+  "/condition/masld": {
+    "lastmod": "2026-05-28",
+    "freshnessScore": 87,
+    "status": "fresh"
+  },
+  "/condition/insulin-resistance": {
+    "lastmod": "2026-05-28",
+    "freshnessScore": 87,
+    "status": "fresh"
+  },
+  "/condition/circadian-dysregulation": {
+    "lastmod": "2026-05-28",
+    "freshnessScore": 87,
+    "status": "fresh"
+  },
+  "/condition/diabetes-reversal": {
+    "lastmod": "2026-05-28",
+    "freshnessScore": 87,
+    "status": "fresh"
+  },
+  "/condition/pcod-pcos": {
+    "lastmod": "2026-05-28",
+    "freshnessScore": 87,
+    "status": "fresh"
+  },
+  "/condition/thyroid-dysfunction": {
+    "lastmod": "2026-05-28",
+    "freshnessScore": 87,
+    "status": "fresh"
+  },
+  "/condition/gut-health": {
+    "lastmod": "2026-05-28",
+    "freshnessScore": 87,
+    "status": "fresh"
+  },
+  "/condition/hypertension": {
+    "lastmod": "2026-05-28",
+    "freshnessScore": 87,
+    "status": "fresh"
+  },
+  "/herb/turmeric": {
+    "lastmod": "2026-05-28",
+    "freshnessScore": 87,
+    "status": "fresh"
+  },
+  "/herb/ashwagandha": {
+    "lastmod": "2026-05-28",
+    "freshnessScore": 87,
+    "status": "fresh"
+  },
+  "/herb/cinnamon": {
+    "lastmod": "2026-05-28",
+    "freshnessScore": 87,
+    "status": "fresh"
+  },
+  "/herb/ginger": {
+    "lastmod": "2026-05-28",
+    "freshnessScore": 87,
+    "status": "fresh"
+  },
+  "/herb/ragi": {
+    "lastmod": "2026-05-28",
+    "freshnessScore": 87,
+    "status": "fresh"
+  },
+  "/herb/spirulina": {
+    "lastmod": "2026-05-28",
+    "freshnessScore": 87,
+    "status": "fresh"
+  },
+  "/herb/fenugreek": {
+    "lastmod": "2026-05-28",
+    "freshnessScore": 87,
+    "status": "fresh"
+  },
+  "/herb/holy-basil": {
+    "lastmod": "2026-05-28",
+    "freshnessScore": 87,
+    "status": "fresh"
+  },
+  "/herb/garlic": {
+    "lastmod": "2026-05-28",
+    "freshnessScore": 87,
+    "status": "fresh"
+  },
+  "/herb/mint": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/herb/coriander-cilantro": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/herb/basil": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/herb/rosemary": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/herb/lavender": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/herb/oregano": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/herb/thyme": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/herb/parsley": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/herb/echinacea": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/herb/lemon-balm": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/herb/shiso-perilla": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/herb/hibiscus": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/herb/valerian-root": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/herb/dill": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/herb/ginseng": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/herb/marjoram": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/herb/tarragon": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/herb/st-johns-wort": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/herb/ginkgo-biloba": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/herb/curry-leaves": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/herb/cumin": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/herb/cardamom": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/herb/clove": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/herb/black-pepper": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/herb/asafoetida": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/herb/saffron": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/herb/carom-seeds": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/herb/mustard-seeds": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/herb/star-anise": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/diabetes-reversal": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/pcos-balance": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/fatty-liver-reversal": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/thyroid-optimization": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/hypertension-management": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/gut-health-acidity": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/weight-loss-women": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/weight-loss-men": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/belly-fat-reduction": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/insulin-resistance-mgmt": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/pre-diabetes-care": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/menopause-hormone-support": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/hormonal-imbalance": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/testosterone-boost": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/cortisol-balance": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/cholesterol-mgmt": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/heart-health": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/blood-circulation": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/joint-pain-relief": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/arthritis-support": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/osteoporosis-prevention": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/hyperthyroid-protocol": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/muscle-recovery": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/back-spine-health": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/hair-growth-strength": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/skin-glow-detox": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/anti-aging-support": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/acne-skin-clarity": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/nail-health-strength": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/immunity-boost": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/detox-rejuvenation": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/anti-inflammatory-support": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/healthy-aging-solutions": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/wellness-longevity": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/fertility-hormone-support": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/pcos-weight-diet": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/menopause-weight-mgmt": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/gout-uric-acid-reversal": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/chronic-fatigue-syndrome": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/ibs-ibd-gut-repair": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/post-viral-recovery": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/kidney-health-diet": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/migraine-headache-relief": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/adhd-brain-focus-kids": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/geriatric-strength-nutrition": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/pregnancy-nutrition-support": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/sleep-disorder-circadian-reset": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/fibromyalgia-pain-management": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/histamine-intolerance-allergy": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/autoimmune-hashimotos-protocol": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/kid-immunity-growth": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/liver-detoxification-pathways": {
+    "lastmod": "2026-06-03",
+    "freshnessScore": 88,
+    "status": "fresh"
+  },
+  "/topic/vegan-recipes": {
+    "lastmod": "2026-06-30",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/vegan-alternatives": {
+    "lastmod": "2026-06-30",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/vegan-nutrition": {
+    "lastmod": "2026-06-30",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/vegan-lifestyle": {
+    "lastmod": "2026-06-30",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/vegan-travel": {
+    "lastmod": "2026-06-30",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/vegan-beginners": {
+    "lastmod": "2026-06-30",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/vegan-reviews": {
+    "lastmod": "2026-06-30",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/vegan-news": {
+    "lastmod": "2026-06-30",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/type-2-diabetes": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/fatty-liver": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/pcod-pcos": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/obesity": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/high-blood-sugar": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/metabolic-syndrome": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/gestational-diabetes": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/low-blood-sugar": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/dka-prevention": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/type-1-diabetes": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/type-3c-diabetes": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/high-cholesterol": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/gout": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/dark-neckskin-tags": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/cholesterol-deposits": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/high-bp": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/heart-disease": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/heart-attack": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/stroke": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/angina": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/a-fib": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/peripheral-artery": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/varicose-veins": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/leg-ulcers": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/low-bp": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/varicocele": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/dvt": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/iron-overload": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/iron-deficiency": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/vitamin-d-deficiency": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/b12-deficiency": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/folate-deficiency": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/acid-reflux": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/ibs": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/constipation": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/diverticulitis": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/bowel-polyps": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/bowel-cancer": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/stomach-ulcer": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/gallstones": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/hemorrhoids": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/nafld-cirrhosis": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/fatty-pancreas": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/celiac-disease": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/crohns-uc": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/sibo": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/histamine-intolerance": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/leaky-gut": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/pancreatitis": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/stomach-cancer": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/esophagitis": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/gastritis": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/anal-fissure": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/eoe": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/gluten-sensitivity": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/vitamin-k-deficiency": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/malnutrition": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/dehydration": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/heatstroke": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/bad-breath-gut": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/kwashiorkor": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/water-intoxication": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/infertility": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/erectile-dysfunction": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/low-libido": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/menopause-symptoms": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/pms-pmdd": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/endometriosis-pain": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/pre-eclampsia": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/fetal-alcohol-syndrome": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/spina-bifida": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/adenomyosis": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/endometrial-cancer": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/breast-cancer": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/baby-tooth-decay": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/insomnia": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/sleep-apnea": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/migraines": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/depression": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/anxiety": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/cognitive-decline": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/adhd": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/epilepsy-diet-cured": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/restless-legs": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/wernicke-korsakoff": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/tension-headache": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/chronic-fatigue": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/tinnitus": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/eye-twitches": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/night-eating": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/orthorexia": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/jet-lag-shift-work": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/motion-sickness": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/anorexia-bulimia-bed": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/osteoporosis": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/osteoarthritis": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/kidney-stones": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/sarcopenia": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/back-pain": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/muscle-cramps": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/plantar-fasciitis": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/heelarch-pain": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/pre-osteoporosis": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/singers-nodules": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/tarsal-tunnel": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/rheumatoid-arthritis": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/lupus": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/hashimotos": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/acne": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/eczema": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/psoriasis": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/hair-loss": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/rosacea": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/dandruff": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/tooth-decay": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/gum-disease": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/mouth-ulcers": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/cataracts-macular-degeneration": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/dry-eye": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/boils-hidradenitis": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/cold-sores": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/dental-erosion": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/sunburn-skin-aging": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/night-blindness": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/vitiligo": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/scurvy": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/rickets": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/dental-fluorosis": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/ckd-dialysis-diet": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/liver-encephalopathy": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/smokers-cough": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/alcoholic-liver-disease": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/diabetic-neuropathy": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/diabetic-retinopathy": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/pku": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/wilsons-disease": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/g6pd-deficiency": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/lactose-intolerance": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/hereditary-fructose-intolerance": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/cystic-fibrosis": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/listeria-toxo-trichinosis": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/botulism": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/systemic-yeast": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/uti-cystitis": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/interstitial-cystitis": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/swimmers-ear": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/low-potassium": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/vit-a-toxicity": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/mercury-poisoning": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/caffeine-toxicity": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/pellagra-beri-beri": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/asthma": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/h-pylori-infection": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/liver-cancer": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/kidney-cancer": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/esophageal-cancer": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/binge-eating": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/anorexia-nervosa": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/bulimia-nervosa": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/type-2-diabetes-foot": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/hypothermia": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/frostbite": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/chilblains": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/jet-lag": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/shift-work-disorder": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/sibo-gut": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/non-alcoholic-fatty-liver": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/osteopenia": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/topic/pre-diabetes": {
+    "lastmod": "2026-07-02",
+    "freshnessScore": 96,
+    "status": "fresh"
+  },
+  "/recipe/golden-turmeric-quinoa": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/avocado-lentil-tartare": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/green-vitality-soup": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/beetroot-walnut-carpaccio": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/ayurvedic-millet-stew": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/kimchi-rice-bowl": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/ashwagandha-sweet-potato": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/papaya-detox-salad": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/hemp-basil-zoodles": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/mushroom-thyme-broth": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/charred-broccoli-almonds": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/chia-berry-parfait": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/jackfruit-turmeric-wraps": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/matcha-coconut-truffles": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/baked-pears-cinnamon": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/spirulina-lemon-shots": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/grilled-artichoke-rosemary": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/lentil-kale-curry": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/collard-wraps-chili": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/reishi-cocoa-elixir": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/black-bean-mole": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/golden-milk-elixir": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/fennel-citrus-salad": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/buckwheat-seaweed-soup": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/sleep-smoothie-valerian": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/purple-sweet-potato-pudding": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/adzuki-bean-stew": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/pomegranate-beauty-water": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/quinoa-sesame-cereal": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/brussels-sprouts-mustard": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/cauliflower-tabbouleh-hemp": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/black-garlic-drizzle": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/mango-cardamom-lassi": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/watercress-alfalfa-sandwich": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/rooibos-cinnamon-tea": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/chickpea-cauliflower-tagine": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/hemp-saffron-drink": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/cucumber-jicama-salad": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/lentil-walnut-pate": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  },
+  "/recipe/pear-ginger-slaw": {
+    "lastmod": "2026-07-15",
+    "freshnessScore": 100,
+    "status": "fresh"
+  }
+}

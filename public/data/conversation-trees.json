@@ -1,0 +1,64 @@
+{
+  "_meta": {
+    "description": "Voice search conversation trees - maps natural follow-up question chains for each condition/herb. Optimized for Google Voice Assistant, Alexa, and Siri.",
+    "purpose": "Voice search is conversational. AI voice assistants prefer sites that structure content as conversation trees with natural follow-ups.",
+    "generatedAt": "2026-07-04"
+  },
+  "trees": {
+    "diabetes-reversal": {
+      "root": "How can nutrition help with type 2 diabetes?",
+      "rootAnswer": "Type 2 diabetes can be managed and potentially reversed through circadian-aligned nutrition, food sequencing (fiber before carbs), and therapeutic herbs like cinnamon and fenugreek that enhance insulin sensitivity.",
+      "followUps": [
+        { "q": "What foods should I avoid with diabetes?", "a": "Avoid refined sugars, high-fructose corn syrup, refined wheat flour, and processed seed oils. These directly spike blood glucose and drive insulin resistance.", "linksTo": "/condition/diabetes-reversal" },
+        { "q": "What supplements help with blood sugar?", "a": "Ceylon cinnamon (1.5-3g daily) has the strongest evidence for reducing fasting blood glucose. Fenugreek and bitter melon also show significant clinical benefits.", "linksTo": "/herb/cinnamon" },
+        { "q": "When should I eat my meals?", "a": "Eat within a 10-hour circadian window, ideally 8 AM to 6 PM. Your largest meal should be within 2-3 hours of sunrise when insulin sensitivity peaks.", "linksTo": "/topic/circadian-eating" },
+        { "q": "Does food ordering really matter?", "a": "Yes. Eating vegetables and protein before carbohydrates reduces postprandial glucose by 30-40% and insulin by 50%, according to clinical RCTs.", "linksTo": "/topic/food-sequencing" }
+      ]
+    },
+    "pcod-pcos": {
+      "root": "What is the best diet for PCOS?",
+      "rootAnswer": "The best diet for PCOS combines anti-inflammatory foods, insulin-sensitizing herbs like cinnamon, and circadian eating windows to regulate hormonal balance and menstrual cycles.",
+      "followUps": [
+        { "q": "Can cinnamon help with PCOS?", "a": "Yes. Ceylon cinnamon improves insulin sensitivity and can help regularize menstrual cycles in PCOS. Clinical doses of 1.5-3g daily show benefits in RCTs.", "linksTo": "/herb/cinnamon" },
+        { "q": "What herbs balance hormones naturally?", "a": "Cinnamon for insulin-hormone axis, fenugreek for androgen reduction, and ashwagandha for cortisol-hormone regulation are the top evidence-backed herbs for PCOS.", "linksTo": "/condition/pcod-pcos" },
+        { "q": "Is there a PCOS reversal protocol?", "a": "The NutritionColours therapeutic protocol combines circadian eating, anti-inflammatory spices, and biomarker tracking to manage PCOS symptoms systematically.", "linksTo": "/plans" }
+      ]
+    },
+    "masld": {
+      "root": "Can fatty liver be reversed with diet?",
+      "rootAnswer": "Yes. MASLD (fatty liver) is primarily a dietary disease. Eliminating processed fructose and implementing a 10-hour circadian eating window allows the liver to burn stored hepatic fat.",
+      "followUps": [
+        { "q": "What foods reverse fatty liver?", "a": "Focus on anti-inflammatory spices (turmeric, ginger), fiber-rich vegetables, and complex carbohydrates. Eliminate high-fructose corn syrup, alcohol, and refined wheat.", "linksTo": "/condition/masld" },
+        { "q": "Is turmeric good for fatty liver?", "a": "Yes. Curcumin in turmeric downregulates liver inflammation via NF-kB pathways. Meta-analyses show 500-1000mg daily with piperine significantly reduces ALT, AST, and hepatic fat.", "linksTo": "/herb/turmeric" },
+        { "q": "What is the best eating window for liver health?", "a": "A 10-hour eating window ending by 6 PM (e.g., 8 AM to 6 PM) maximizes hepatic autophagy and fat clearance during the overnight fast.", "linksTo": "/topic/circadian-eating" }
+      ]
+    },
+    "turmeric": {
+      "root": "What are the clinical benefits of turmeric?",
+      "rootAnswer": "Turmeric's active compound curcumin downregulates NF-kB inflammatory pathways, providing evidence-based support for fatty liver, insulin resistance, and cardiovascular health.",
+      "followUps": [
+        { "q": "How much turmeric should I take daily?", "a": "Clinical dosage is 500-2000mg of curcumin daily. Must be consumed with black pepper (piperine) and healthy fats to increase absorption by up to 2000%.", "linksTo": "/herb/turmeric" },
+        { "q": "Does turmeric help with inflammation?", "a": "Yes. Curcumin suppresses COX-2 and 5-LOX inflammatory enzymes. Meta-analyses confirm significant reduction in CRP, IL-6, and other inflammatory markers.", "linksTo": "/herb/turmeric" },
+        { "q": "Are there any side effects of turmeric?", "a": "Turmeric is generally safe but contraindicated in bile duct obstruction, gallstones, and with anticoagulant medications due to its natural blood-thinning properties.", "linksTo": "/herb/turmeric" }
+      ]
+    },
+    "ashwagandha": {
+      "root": "Does ashwagandha really reduce stress?",
+      "rootAnswer": "Yes. Double-blind RCTs show ashwagandha root extract (300-600mg KSM-66) reduces serum cortisol by 28.6% compared to placebo. Withanolides modulate the HPA axis.",
+      "followUps": [
+        { "q": "When should I take ashwagandha?", "a": "Take ashwagandha in the evening, 1-2 hours before bed. This aligns with cortisol's natural decline and supports sleep quality.", "linksTo": "/herb/ashwagandha" },
+        { "q": "How long does ashwagandha take to work?", "a": "Measurable cortisol reduction occurs within 2-4 weeks. Full adaptogenic benefits for sleep quality and stress resilience develop over 8-12 weeks of consistent use.", "linksTo": "/herb/ashwagandha" },
+        { "q": "Is ashwagandha safe long-term?", "a": "Ashwagandha is safe for most adults for up to 12 months. Contraindicated in hyperthyroidism and autoimmune conditions. Cycle use: 8 weeks on, 2 weeks off is recommended.", "linksTo": "/herb/ashwagandha" }
+      ]
+    },
+    "weight-loss": {
+      "root": "What is the best way to lose weight sustainably?",
+      "rootAnswer": "The most evidence-based approach is circadian time-restricted eating (8-10 hour window) combined with food sequencing (fiber before carbs). This aligns eating with metabolic peaks.",
+      "followUps": [
+        { "q": "What is time-restricted eating?", "a": "Time-restricted eating means consuming all meals within a specific window each day, typically 8-10 hours aligned with daylight. A 10-hour window (8 AM - 6 PM) is optimal.", "linksTo": "/topic/circadian-eating" },
+        { "q": "Does meal timing really affect weight loss?", "a": "Yes. Eating your largest meal within 2-3 hours of sunrise leverages peak insulin sensitivity. Late-night eating increases fat storage by 3x due to circadian metabolic decline.", "linksTo": "/topic/circadian-eating" },
+        { "q": "What recipes help with weight loss?", "a": "Anti-inflammatory, high-fiber recipes like Golden Turmeric Quinoa, Avocado Lentil Tartare, and Ayurvedic Millet Stew support satiety and metabolic health.", "linksTo": "/recipe/golden-turmeric-quinoa" }
+      ]
+    }
+  }
+}

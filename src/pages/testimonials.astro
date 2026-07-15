@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { TESTIMONIALS } from '../lib/constants';
+import { ReviewCard } from '../components/ReviewCard';
+---
+<div data-ai-answer="true">
+<BaseLayout
+  title="Success Stories & Reversal Testimonials | NutritionColours"
+  description="Real patients sharing their clinical reversal journeys of Type 2 Diabetes, PCOS, Fatty Liver, and metabolic disorders."
+>
+  <div class="max-w-7xl mx-auto px-6 py-20 space-y-16">
+    <div class="text-center max-w-3xl mx-auto space-y-4">
+      <span class="text-lime-600 dark:text-lime-400 font-black uppercase tracking-[0.3em] text-[10px]">Patient Outcomes</span>
+      <h1 class="text-4xl md:text-5xl font-black text-emerald-950 dark:text-white brand-font leading-tight">
+        Clinical Reversal Journeys & Success Stories
+      </h1>
+      <p class="text-stone-600 dark:text-stone-400 leading-relaxed text-sm md:text-base font-medium">
+        Real patients sharing their journeys of metabolic restoration, blood sugar control, and medication adjustments under senior clinical supervision.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {TESTIMONIALS.map((t: any) => (
+        <ReviewCard
+          client:load
+          name={t.name}
+          role={t.role}
+          condition={t.condition}
+          text={t.text}
+          date={t.date}
+        />
+      ))}
+    </div>
+  </div>
+</BaseLayout>
+</div>

@@ -1,0 +1,11 @@
+{
+  "name": "peach",
+  "description": "Placeholder description for peach.",
+  "nutrition": {
+    "calories": 117,
+    "sugar": 21,
+    "fiber": 9
+  },
+  "source": "mock-data",
+  "retrievedAt": "2026-07-14T17:10:53.512Z"
+}

@@ -1,97 +1,87 @@
-<IfModule mod_rewrite.c>
-  RewriteEngine On
-  RewriteBase /
+# NutritionColours — Apache/Hostinger config for the static build.
+# Deployed to /public_html/.htaccess (Astro copies public/ to the site root).
+# Scope is deliberately minimal + additive: it wires the custom 404 and 301s a
+# curated set of plausible/invented paths to real pages. It does NOT rewrite any
+# existing valid route. Test on staging before production.
 
-  # 1. Enforce HTTPS
-  RewriteCond %{HTTPS} off
-  RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+# --- Custom 404 (MRS §7) ----------------------------------------------------
+# Serve the designed recovery page instead of Apache's default on any dead URL.
+ErrorDocument 404 /404.html
 
-  # 2. Normalize trailing slashes (remove trailing slash unless it's a real directory)
-  RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteCond %{REQUEST_URI} (.+)/$
-  RewriteRule ^ %1 [R=301,L]
+# --- Hallucinated-URL capture (MRS §42.6) -----------------------------------
+# LLMs (ChatGPT/Perplexity/Gemini) invent plausible URLs on your domain; users
+# also guess short paths. Each line converts a likely-invented/guessed path into
+# a 301 to the closest real page, turning the model's imagination into traffic.
+#
+# HOW TO EXTEND: weekly, grep server logs for 404s whose user-agent or referrer is
+# an AI bot/engine (GPTBot, ClaudeBot, PerplexityBot, chatgpt.com, perplexity.ai),
+# find the closest real page, and add a `Redirect 301 /invented /real` line below.
+#
+# All targets below were verified to exist in the build.
 
-  # 3. SPA Routing Fallback
-  RewriteRule ^index\.html$ - [L]
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteRule . /index.html [L]
-</IfModule>
+# Section shortcuts people/AI guess (we relabeled "Health Topics" as "Diseases")
+Redirect 301 /diseases            /knowledge/diseases
+Redirect 301 /disease             /knowledge/diseases
+Redirect 301 /conditions          /knowledge/diseases
+Redirect 301 /condition           /knowledge/diseases
+Redirect 301 /herbs               /knowledge/herbs
+Redirect 301 /herbs-and-spices    /knowledge/herbs
+Redirect 301 /spices              /knowledge/spices
+Redirect 301 /glossary            /knowledge
+Redirect 301 /blog                /knowledge
+Redirect 301 /blogs               /knowledge
+Redirect 301 /articles            /knowledge
+Redirect 301 /nutrigenomics       /knowledge
+Redirect 301 /genomics            /knowledge
+Redirect 301 /drug-interactions   /knowledge
+Redirect 301 /interactions        /knowledge
+Redirect 301 /vegan               /knowledge
+Redirect 301 /knowledge-base      /knowledge
+Redirect 301 /knowledge/health-topics      /knowledge/diseases
+Redirect 301 /knowledge/health-conditions    /knowledge/diseases
 
-# Caching & Security Optimizations (June 3 PageSpeed Optimizations)
+# Legacy CamelCase and Spaced Folder Mappings
+Redirect 301 "/knowledge/Kidney Diseases" "/knowledge/diseases/kidney-diseases"
+Redirect 301 "/knowledge/Cardiovascular Disease" "/knowledge/diseases/cardiovascular-disease"
+Redirect 301 "/knowledge/Neurological Disorders" "/knowledge/diseases/neurological-disorders"
+Redirect 301 "/knowledge/Endocrine Disorders" "/knowledge/diseases/endocrine-disorders"
+Redirect 301 "/knowledge/Respiratory Diseases" "/knowledge/diseases/respiratory-diseases"
+Redirect 301 "/knowledge/Malignant Neoplasms" "/knowledge/diseases/malignant-neoplasms"
 
-# 1. EXPIRATION HEADERS (mod_expires)
-<IfModule mod_expires.c>
-  ExpiresActive On
-  ExpiresDefault "access plus 1 month"
-  
-  # CSS and JS (Vite assets are hashed and immutable)
-  ExpiresByType text/css "access plus 1 year"
-  ExpiresByType application/javascript "access plus 1 year"
-  ExpiresByType text/javascript "access plus 1 year"
-  
-  # Fonts
-  ExpiresByType font/woff2 "access plus 1 year"
-  ExpiresByType font/woff "access plus 1 year"
-  ExpiresByType font/otf "access plus 1 year"
-  ExpiresByType font/ttf "access plus 1 year"
-  
-  # Images
-  ExpiresByType image/webp "access plus 1 year"
-  ExpiresByType image/avif "access plus 1 year"
-  ExpiresByType image/png "access plus 1 year"
-  ExpiresByType image/jpeg "access plus 1 year"
-  ExpiresByType image/jpg "access plus 1 year"
-  ExpiresByType image/gif "access plus 1 year"
-  ExpiresByType image/x-icon "access plus 1 year"
-  ExpiresByType image/svg+xml "access plus 1 year"
-  
-  # Manifest & Web Workers
-  ExpiresByType application/manifest+json "access plus 1 week"
-  ExpiresByType application/x-web-app-manifest+json "access plus 1 week"
-  ExpiresByType text/cache-manifest "access plus 0 seconds"
-  
-  # HTML
-  ExpiresByType text/html "access plus 0 seconds"
-</IfModule>
+# Planned classes that don't have their own hub yet — route to the closest live hub.
+# NOTE: /foods now exists as a real hub, so it is intentionally NOT redirected here.
+Redirect 301 /fruit               /knowledge/fruits
+Redirect 301 /fruits              /knowledge/fruits
+Redirect 301 /nutrients           /knowledge/nutrient-database
+Redirect 301 /recipes-list        /recipes
+Redirect 301 /calculators         /tools
+Redirect 301 /calculator          /tools
 
-# 2. EXPLICIT CACHE-CONTROL HEADERS (mod_headers)
-<IfModule mod_headers.c>
-  # Hashed CSS & JS Assets are Immutable
-  <FilesMatch "\.(js|css)$">
-    Header set Cache-Control "max-age=31536000, public, immutable"
-  </FilesMatch>
+# --- /foods/fruits/* retirement (2026-07-15, round 5) -----------------------
+# /knowledge/fruits/... is now canonical (owner decision). These 301s are the
+# production-grade redirect; the old Astro pages also carry a meta-refresh +
+# canonical tag as defense-in-depth. All 12 targets verified to exist in the build.
+Redirect 301 /foods/fruits/mango        /knowledge/fruits/tropical-exotic-fruits/creamy-dense-tropicals/mango
+Redirect 301 /foods/fruits/banana       /knowledge/fruits/tropical-exotic-fruits/creamy-dense-tropicals/banana
+Redirect 301 /foods/fruits/guava        /knowledge/fruits/tropical-exotic-fruits/creamy-dense-tropicals/guava
+Redirect 301 /foods/fruits/papaya       /knowledge/fruits/tropical-exotic-fruits/creamy-dense-tropicals/papaya
+Redirect 301 /foods/fruits/pomegranate  /knowledge/fruits/berries-aggregate-fruits/aggregate-fruits/pomegranate
+Redirect 301 /foods/fruits/amla         /knowledge/fruits/tropical-exotic-fruits/creamy-dense-tropicals/amla
+Redirect 301 /foods/fruits/apple        /knowledge/fruits/pome-stone-fruits/drupes/apple
+Redirect 301 /foods/fruits/watermelon   /knowledge/fruits/melons/watermelons/watermelon
+Redirect 301 /foods/fruits/orange       /knowledge/fruits/citrus-fruits/sweet-citrus/orange
+Redirect 301 /foods/fruits/jackfruit    /knowledge/fruits/tropical-exotic-fruits/creamy-dense-tropicals/jackfruit
+Redirect 301 /foods/fruits/pineapple    /knowledge/fruits/tropical-exotic-fruits/creamy-dense-tropicals/pineapple
+Redirect 301 /foods/fruits/sapota-chikoo /knowledge/fruits/tropical-exotic-fruits/creamy-dense-tropicals/sapota-chikoo
+Redirect 301 /foods/fruits              /knowledge/fruits
 
-  # Static Assets & Fonts
-  <FilesMatch "\.(webp|avif|ico|png|jpg|jpeg|gif|woff2|woff|ttf|svg)$">
-    Header set Cache-Control "max-age=31536000, public"
-  </FilesMatch>
-
-  # HTML & Manifests (Require revalidation to get latest updates)
-  <FilesMatch "\.(html|json)$">
-    Header set Cache-Control "no-cache, no-store, must-revalidate"
-  </FilesMatch>
-</IfModule>
-
-# 3. HTTP SECURITY HEADERS (mod_headers)
-<IfModule mod_headers.c>
-  # Enforce HTTPS with HSTS (1 year duration, include subdomains)
-  Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
-  
-  # Prevent Clickjacking (X-Frame-Options & CSP frame-ancestors)
-  Header set X-Frame-Options "DENY"
-  
-  # Cross-Origin Opener Policy (COOP) to isolate from malicious popups
-  Header set Cross-Origin-Opener-Policy "same-origin"
-  
-  # Prevent MIME-type sniffing
-  Header set X-Content-Type-Options "nosniff"
-  
-  # Referrer Policy
-  Header set Referrer-Policy "strict-origin-when-cross-origin"
-  
-  # Permissions Policy Tightening (Feature #74)
-  Header set Permissions-Policy "geolocation=(), camera=(), microphone=(), payment=(), usb=(), midi=()"
-  
-  Header set Content-Security-Policy "default-src 'self'; script-src 'self' https://esm.sh https://apis.google.com 'sha256-4t9ee5scQdNrhV9e2gHcZd4hGuAfAFsUpE0fqdfriOY='; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data: https://images.unsplash.com https://nutritioncolours.com; connect-src 'self' https://generativelanguage.googleapis.com https://esm.sh; frame-src 'self'; frame-ancestors 'self'; require-trusted-types-for 'script'; trusted-types default;"
-</IfModule>
+# Common high-intent disease shortcuts → the canonical condition page
+Redirect 301 /diabetes            /condition/diabetes-reversal
+Redirect 301 /type-2-diabetes     /condition/diabetes-reversal
+Redirect 301 /pcos                /condition/pcod-pcos
+Redirect 301 /pcod                /condition/pcod-pcos
+Redirect 301 /fatty-liver         /condition/masld
+Redirect 301 /masld               /condition/masld
+Redirect 301 /insulin-resistance  /condition/insulin-resistance
+Redirect 301 /thyroid             /condition/thyroid-dysfunction
+Redirect 301 /hypertension        /condition/hypertension

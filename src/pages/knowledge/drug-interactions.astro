@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { DRUG_INTERACTIONS_DATA } from '../../lib/clinical_databases';
+
+// NOTE: this page previously rendered <ClinicalDetails client:only="react" /> (the
+// ClinicalInteractionDetail component) with no `interaction` prop — that component requires a
+// single specific interaction object, so this index page was broken (would throw at runtime
+// with `interaction` undefined). Replaced with a real listing linking to each interaction's
+// own page (see src/pages/interactions/[id].astro).
+---
+<div data-ai-answer="true">
+<BaseLayout
+  title="Drug-Nutrient Interactions & Depletion Registry"
+  description="Clinical database for monitoring nutrient depletions and clinical contraindications between drugs and functional foods."
+>
+  <div class="max-w-7xl mx-auto px-6 py-16 space-y-12">
+    <div class="text-center max-w-3xl mx-auto space-y-4">
+      <h1 class="text-4xl md:text-5xl font-black text-emerald-950 brand-font">Drug-Nutrient Interactions</h1>
+      <p class="text-stone-600 leading-relaxed">
+        A clinical registry of nutrient depletions and food/herb contraindications for
+        common medications, for use alongside — never in place of — your prescribing physician.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {DRUG_INTERACTIONS_DATA.map((interaction) => (
+        <a href={`/interactions/${interaction.id}`} class="bg-white border border-stone-100 p-8 rounded-3xl hover:border-emerald-200 hover:shadow-xl transition-all group block">
+          <span class="text-[10px] font-black text-emerald-800 uppercase tracking-widest">{interaction.drugClass}</span>
+          <h2 class="text-lg font-black text-emerald-950 brand-font uppercase tracking-tight mt-2 mb-3 group-hover:text-emerald-700 transition-colors">{interaction.drugName}</h2>
+          <p class="text-stone-500 text-sm leading-relaxed line-clamp-3">{interaction.monitoringAdvice}</p>
+        </a>
+      ))}
+    </div>
+
+    <section class="mt-20 pt-16 border-t border-stone-200 dark:border-stone-850">
+      <div class="prose prose-emerald max-w-none text-stone-700 dark:text-stone-300 bg-white dark:bg-stone-900 p-8 md:p-12 rounded-[40px] border border-stone-150/40 dark:border-stone-850/60 shadow-sm space-y-6">
+        <h2 class="text-2xl font-black text-emerald-950 dark:text-white brand-font">Clinical Significance of Drug-Nutrient Interactions</h2>
+        <p class="leading-relaxed">
+          In clinical medicine, understanding the interactions between pharmaceuticals and nutritional solutes is critical to preserving patient safety and preventing unintended nutrient depletion. Many commonly prescribed medications—including blood pressure drugs, statins, metformin, and acid-suppressing proton pump inhibitors (PPIs)—can interfere with the absorption, transport, or metabolic clearance of essential vitamins, minerals, and dietary cofactors. Left unchecked, these depletions can manifest as secondary clinical symptoms, which are sometimes misdiagnosed as new pathological conditions.
+        </p>
+        <p class="leading-relaxed">
+          For example, long-term use of metformin is widely known to deplete circulating vitamin B12 levels, leading to peripheral neuropathy or megaloblastic anemia if not actively monitored and addressed. Similarly, statin medications inhibit the HMG-CoA reductase pathway, which not only lowers cholesterol synthesis but also significantly reduces the endogenous production of Coenzyme Q10 (CoQ10), a critical component of mitochondrial energy production. By proactively identifying these depletions, clinical practitioners can suggest targeted nutritional support and supplement protocols to mitigate side effects and maintain overall physiological function.
+        </p>
+        <p class="leading-relaxed">
+          Additionally, certain foods and botanical herbs contain active bioactives that can alter the pharmacokinetics of prescription drugs. A classic example is the inhibition of cytochrome P450 3A4 (CYP3A4) enzymes by furanocoumarins in grapefruit, which can elevate serum concentrations of statins and calcium channel blockers to toxic levels. Other herbals, such as St. John's Wort, act as enzyme inducers, accelerating the clearance of medications and rendering them therapeutic failures. Consequently, a comprehensive clinical assessment must evaluate both drug-induced depletions and herb-drug contraindications.
+        </p>
+        <p class="leading-relaxed">
+          Our registry compiles verified interactions based on peer-reviewed pharmacology, medical toxicological databases, and clinical consensus guidelines. We stress that this registry is designed to support the collaborative relationship between patients, clinical nutritionists, and prescribing physicians. Any adjustment to pharmaceutical dosing or nutrient supplement plans must be coordinated directly with your medical care team to ensure safe, personalized, and effective clinical care.
+        </p>
+        <p class="leading-relaxed">
+          In conclusion, the clinical protocols, drug-nutrient depletions, and botanical interactions documented across this database provide a comprehensive guide for managing therapeutic pathways. By conducting routine biomarker evaluations under professional clinical oversight, patients can minimize the risk of drug-induced deficiencies and optimize their long-term health recovery and metabolic vitality. Our dedicated intake team stands ready to coordinate with your doctors to ensure that your clinical meal plan is fully aligned with your medical safety constraints.
+        </p>
+      </div>
+    </section>
+  </div>
+</BaseLayout>
+</div>

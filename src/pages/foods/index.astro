@@ -1,0 +1,66 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { FOOD_CLASSES } from '../../lib/foods_database';
+import { getBreadcrumbSchema } from '../../lib/seo/structuredData';
+
+const breadcrumbSchema = getBreadcrumbSchema('foods', [
+  { label: 'Home', path: 'home' },
+  { label: 'Foods', path: 'foods' },
+]);
+
+// The full planned food taxonomy (MRS §13–§25). Live classes link out; the rest are
+// declared as forthcoming so the hub is honest about coverage.
+const liveClasses = new Set(FOOD_CLASSES.map((c) => c.class));
+const taxonomy = [
+  { class: 'fruit', label: 'Fruits', hub: '/knowledge/fruits' },
+  { class: 'vegetable', label: 'Vegetables', hub: '/knowledge/vegetables' },
+  { class: 'herb', label: 'Herbs', hub: '/knowledge/herbs' },
+  { class: 'spice', label: 'Spices', hub: '/knowledge/spices' },
+  { class: 'seed', label: 'Seeds', hub: '/foods/seeds' },
+  { class: 'grain', label: 'Grains & Millets', hub: '/foods/grains' },
+  { class: 'pulse', label: 'Pulses & Legumes', hub: '/foods/pulses' },
+  { class: 'oil', label: 'Oils & Healthy Fats', hub: '/foods/oils' },
+  { class: 'dairy', label: 'Dairy & Alternatives', hub: '/foods/dairy' },
+  { class: 'beverage', label: 'Drinks & Beverages', hub: '/foods/beverages' },
+  { class: 'functional', label: 'Functional Foods', hub: '/foods/functional' },
+  { class: 'fermented', label: 'Fermented Foods', hub: '/foods/fermented' },
+];
+---
+<div data-ai-answer="true">
+<BaseLayout
+  title="Foods — Clinical Nutrition Knowledge Base | NutritionColours"
+  description="A structured, evidence-graded knowledge base of foods — fruits, vegetables, herbs, spices, seeds, grains, pulses, oils, dairy, beverages, functional and fermented foods — with per-100g composition and health notes."
+  keywords={["food nutrition database", "food composition", "clinical nutrition foods", "Indian food nutrition"]}
+>
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <div class="max-w-5xl mx-auto px-6 py-16 space-y-12">
+    <header class="space-y-4 max-w-3xl">
+      <span class="text-emerald-700 font-black uppercase tracking-[0.3em] text-xs">Knowledge Base</span>
+      <h1 class="text-4xl md:text-5xl font-black text-emerald-950 brand-font">Foods</h1>
+      <p class="text-lg text-stone-700 leading-relaxed border-l-2 border-emerald-200 pl-4">
+        Every food on NutritionColours is documented as a structured entity — per-100g composition from USDA FoodData Central
+        and IFCT 2017, glycemic index, key nutrients, preparation intelligence, and evidence-graded health notes, each
+        clinically reviewed. Browse by class below.
+      </p>
+    </header>
+
+    <section class="grid grid-cols-2 md:grid-cols-3 gap-4">
+      {taxonomy.map((t) => {
+        const live = liveClasses.has(t.class as any) || t.class === 'herb';
+        return live ? (
+          <a href={t.hub} class="block bg-white border border-stone-100 p-6 rounded-2xl hover:border-emerald-200 hover:shadow-lg transition-all group">
+            <span class="text-base font-black text-emerald-950 group-hover:text-emerald-700">{t.label}</span>
+            <span class="block text-xs text-emerald-600 mt-1 font-bold uppercase tracking-widest">Available →</span>
+          </a>
+        ) : (
+          <div class="block bg-stone-50 border border-stone-100 p-6 rounded-2xl opacity-70">
+            <span class="text-base font-black text-stone-500">{t.label}</span>
+            <span class="block text-xs text-stone-400 mt-1 font-bold uppercase tracking-widest">In progress</span>
+          </div>
+        );
+      })}
+    </section>
+  </div>
+</BaseLayout>
+</div>

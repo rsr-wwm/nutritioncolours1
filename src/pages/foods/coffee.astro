@@ -1,0 +1,47 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+export const prerender = true;
+const title = "Coffee – Nutrition, Health Benefits & Recommended Dosage";
+const description = "Clinical nutrition details, health benefits, and recommended dosage of coffee, a widely consumed stimulant beverage.";
+---
+<div data-ai-answer="true">
+<BaseLayout title={title} description={description}>
+  <div class="max-w-4xl mx-auto px-6 py-16 prose prose-emerald dark:prose-invert">
+    <h1>Coffee</h1>
+    
+    <h3>Clinical Nutrition Details</h3>
+    <ul>
+      <li><strong>Caffeine:</strong> 95‑200 mg per 8 oz cup (≈ 1.2 mg/g of brewed coffee).</li>
+      <li><strong>Chlorogenic Acids:</strong> 70‑350 mg per cup; antioxidant polyphenols.</li>
+      <li><strong>Diterpenes (cafestol, kahweol):</strong> 0.2‑2 mg per cup (varies with brewing method).</li>
+      <li><strong>Minerals:</strong> Small amounts of magnesium, potassium, and niacin (vitamin B3).</li>
+    </ul>
+
+    <h3>Health Benefits</h3>
+    <ul>
+      <li><strong>Cognitive:</strong> Improves alertness, reaction time, and short‑term memory.</li>
+      <li><strong>Metabolic:</strong> May reduce risk of type 2 diabetes; modest increase in basal metabolic rate.</li>
+      <li><strong>Cardiovascular:</strong> Moderate consumption linked to lower incidence of stroke and heart disease; high intake may raise LDL in some individuals.</li>
+      <li><strong>Neuroprotective:</strong> Chlorogenic acids show neuroprotective activity in pre‑clinical models.</li>
+    </ul>
+
+    <h3>Recommended Dosage</h3>
+    <ul>
+      <li><strong>General consumption:</strong> 1–3 cups (250‑750 ml) per day, providing 95‑600 mg caffeine total.</li>
+      <li><strong>Therapeutic use (e.g., metabolic support):</strong> Up to 4 cups daily, ensuring total caffeine ≤ 400 mg for most adults.</li>
+      <li><strong>Caution:</strong> Sensitive individuals should limit to ≤ 1 cup; pregnant women advised ≤ 2 cups (≤ 200 mg caffeine); avoid excessive intake (&gt; 600 mg) due to potential tachycardia and sleep disturbances.</li>
+    </ul>
+
+    <h3>How to Prepare</h3>
+    <ol>
+      <li>Use fresh, medium‑ground beans (≈ 12 g per 180 ml).</li>
+      <li>Brew with water at 90‑96 °C for 4‑5 minutes (drip or French press).</li>
+      <li>Adjust strength to taste; optional additions: a splash of milk or cinnamon.</li>
+    </ol>
+
+    <blockquote>
+      <strong>Note:</strong> Coffee is represented as a <em>Service</em> in our nutrition catalogue, with <code>areaServed: "World"</code>.
+    </blockquote>
+  </div>
+</BaseLayout>
+</div>

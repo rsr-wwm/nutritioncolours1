@@ -1,0 +1,16 @@
+FILE: /Users/apple/Downloads/nutritioncolours/src/pages/tools.astro
+  Line 22: <div> missing closing tag
+FILE: /Users/apple/Downloads/nutritioncolours/src/pages/plans.astro
+  Line 30: <div> missing closing tag
+FILE: /Users/apple/Downloads/nutritioncolours/src/pages/about.astro
+  Line 19: <div> missing closing tag
+FILE: /Users/apple/Downloads/nutritioncolours/src/pages/team/shilpa.astro
+  Line 5: <div> missing closing tag
+FILE: /Users/apple/Downloads/nutritioncolours/src/pages/foods/kombucha.astro
+  Line 6: <div> missing closing tag
+FILE: /Users/apple/Downloads/nutritioncolours/src/pages/foods/green-tea.astro
+  Line 6: <div> missing closing tag
+FILE: /Users/apple/Downloads/nutritioncolours/src/pages/foods/electrolyte-drinks.astro
+  Line 6: <div> missing closing tag
+FILE: /Users/apple/Downloads/nutritioncolours/src/pages/foods/coffee.astro
+  Line 6: <div> missing closing tag

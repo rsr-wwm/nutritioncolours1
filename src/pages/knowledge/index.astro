@@ -1,0 +1,254 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Icons from '../../components/Icons.astro';
+import { getCollection } from 'astro:content';
+import { PILLARS, getTaxonomyDetails } from '../../lib/seo/taxonomyEngine';
+
+const knowledgeEntries = await getCollection('knowledge');
+
+// Compute counts for each pillar
+const pillarCounts = Object.keys(PILLARS).reduce((acc, pillarId) => {
+  acc[pillarId] = {
+    categories: new Set<string>(),
+    subCategories: new Set<string>(),
+    articlesCount: 0
+  };
+  return acc;
+}, {} as Record<string, { categories: Set<string>; subCategories: Set<string>; articlesCount: number }>);
+
+const allArticles: any[] = [];
+
+knowledgeEntries.forEach(entry => {
+  const tax = getTaxonomyDetails(entry);
+  if (!tax) return;
+
+  const pillarId = tax.mainCategory.slug;
+  if (pillarCounts[pillarId]) {
+    pillarCounts[pillarId].categories.add(tax.category.slug);
+    pillarCounts[pillarId].subCategories.add(tax.subCategory.slug);
+    pillarCounts[pillarId].articlesCount++;
+  }
+
+  allArticles.push({
+    id: entry.id,
+    title: entry.data.title,
+    description: entry.data.description,
+    tax
+  });
+});
+
+// Sort all articles alphabetically by title
+allArticles.sort((a, b) => a.title.localeCompare(b.title));
+
+const pillarsList = Object.entries(PILLARS).map(([id, info]) => {
+  const counts = pillarCounts[id] || { categories: new Set(), subCategories: new Set(), articlesCount: 0 };
+  return {
+    id: info.id,
+    name: info.name,
+    description: info.description,
+    icon: info.icon,
+    categoriesCount: counts.categories.size,
+    subCategoriesCount: counts.subCategories.size,
+    articlesCount: counts.articlesCount
+  };
+});
+
+// Group pillars so food-type pillars (Fruits, Vegetables, Grains, etc.) visibly sit together under
+// "Food & Nutrition" instead of appearing as unrelated top-level tiles. Fruits/Vegetables/etc. remain
+// their own pillar (own URL, own taxonomy) but are shown here as part of the Foods family.
+const FOOD_FAMILY = ['foods', 'fruits', 'vegetables', 'herbs', 'seeds', 'spices', 'grains', 'pulses-legumes',
+  'dairy-alternatives', 'healthy-drinks-beverages', 'functional-foods', 'fermented-foods',
+  'oils-healthy-fats', 'nutrient-database', 'vitamins', 'minerals', 'phytonutrients', 'bioactive-compounds'];
+const BODY_FAMILY = ['organ-wise', 'life-stage'];
+
+const pillarGroups = [
+  { label: 'Food & Nutrition', pillars: pillarsList.filter(p => FOOD_FAMILY.includes(p.id)) },
+  { label: 'Diseases & Conditions', pillars: pillarsList.filter(p => p.id === 'diseases') },
+  { label: 'Body & Life Stage', pillars: pillarsList.filter(p => BODY_FAMILY.includes(p.id)) },
+  { label: 'Other', pillars: pillarsList.filter(p => !FOOD_FAMILY.includes(p.id) && p.id !== 'diseases' && !BODY_FAMILY.includes(p.id)) },
+].filter(g => g.pillars.length > 0);
+---
+<div data-ai-answer="true">
+<BaseLayout
+  title="Clinical Knowledge Directory | NutritionColours"
+  description="Navigate the NutritionColours clinical knowledge database. Browse evidence-graded guidelines and metabolic protocols across 11 core health pillars."
+>
+  <main class="space-y-16 pb-24 bg-stone-50/50">
+    {/* Hero Section */}
+    <div class="bg-emerald-950 text-white pt-24 pb-16 px-6 relative overflow-hidden">
+      <div class="absolute inset-0 opacity-10 pointer-events-none">
+        <div class="absolute top-0 right-0 w-full h-full bg-[radial-gradient(#10b981_1px,transparent_1px)] [background-size:32px_32px] [mask-image:linear-gradient(to_bottom,black,transparent)]"></div>
+      </div>
+
+      <div class="max-w-7xl mx-auto space-y-6 relative z-10 text-center">
+        <div class="flex items-center justify-center gap-3">
+          <div class="h-px w-8 bg-lime-400"></div>
+          <span class="text-xs font-black uppercase tracking-[0.4em] text-lime-400">Clinical Library</span>
+          <div class="h-px w-8 bg-lime-400"></div>
+        </div>
+
+        <h1 class="text-4xl md:text-6xl font-black brand-font tracking-tight leading-[0.9]">
+          Clinical Knowledge Directory
+        </h1>
+
+        <p class="max-w-2xl mx-auto text-emerald-100/80 leading-relaxed font-medium">
+          Browse evidence-graded metabolic protocols, botanical databases, and circadian dietary systems verified against peer-reviewed clinical studies.
+        </p>
+
+        {/* Live Search Bar */}
+        <div class="max-w-xl mx-auto pt-4">
+          <div class="relative group">
+            <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-emerald-400">
+              <Icons name="search" size={18} />
+            </div>
+            <input
+              type="text"
+              id="knowledge-search"
+              placeholder="Search 700+ clinical articles, diseases, foods, herbs..."
+              class="w-full bg-emerald-900/40 backdrop-blur-md text-white placeholder-emerald-300/50 pl-12 pr-4 py-4 rounded-2xl border border-white/10 focus:border-lime-400 focus:ring-1 focus:ring-lime-400 transition-all font-medium text-sm outline-none shadow-xl"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-6 space-y-16">
+      {/* Pillars Grid, grouped so e.g. Fruits/Vegetables visibly sit under Food & Nutrition */}
+      <section class="space-y-12" id="pillars-section">
+        {pillarGroups.map((group) => (
+          <div class="space-y-6">
+            <h2 class="text-xs font-black uppercase tracking-[0.3em] text-emerald-700 border-l-4 border-lime-400 pl-4">
+              {group.label}
+            </h2>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+              {group.pillars.map((pillar) => (
+                <a
+                  href={`/knowledge/${pillar.id}`}
+                  class="pillar-card bg-white border border-stone-150/40 rounded-3xl p-8 hover:border-emerald-300 hover:shadow-xl transition-all duration-300 group flex flex-col justify-between space-y-6"
+                  data-pillar={pillar.id}
+                >
+                  <div class="space-y-4">
+                    <div class="w-12 h-12 rounded-2xl bg-emerald-50 border border-emerald-100 flex items-center justify-center text-emerald-800 group-hover:bg-emerald-900 group-hover:text-white transition-colors duration-300">
+                      <Icons name={pillar.icon} size={20} />
+                    </div>
+                    <h3 class="text-lg font-black text-emerald-950 brand-font group-hover:text-emerald-800 transition-colors duration-200">
+                      {pillar.name}
+                    </h3>
+                    <p class="text-stone-500 text-xs leading-relaxed font-medium">
+                      {pillar.description}
+                    </p>
+                  </div>
+
+                  <div class="pt-4 border-t border-stone-100 flex items-center justify-between text-[10px] font-black uppercase tracking-wider text-stone-400">
+                    <span>{pillar.categoriesCount} Cats</span>
+                    <span class="w-1.5 h-1.5 rounded-full bg-stone-300"></span>
+                    <span>{pillar.articlesCount} Articles</span>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
+        ))}
+      </section>
+
+      {/* Browse & Search Results */}
+      <section id="search-results-section" class="hidden space-y-8">
+        <div class="flex items-center justify-between border-b border-stone-200 pb-4">
+          <h2 class="text-xl font-black text-emerald-950 brand-font">
+            Search Results
+          </h2>
+          <button
+            id="clear-search"
+            class="text-xs font-bold uppercase tracking-widest text-red-600 hover:text-red-800"
+          >
+            Clear Search
+          </button>
+        </div>
+
+        <div id="results-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {allArticles.map((art) => (
+            <a
+              href={art.tax.canonicalUrl}
+              class="result-card bg-white border border-stone-100 p-6 rounded-2xl hover:border-emerald-200 hover:shadow-lg transition-all group block"
+              data-title={art.title.toLowerCase()}
+              data-desc={art.description.toLowerCase()}
+              data-keywords={(art.keywords || []).join(' ').toLowerCase()}
+            >
+              <div class="space-y-2">
+                <span class="text-[9px] font-black uppercase tracking-widest text-lime-600 bg-lime-50 px-2 py-0.5 rounded">
+                  {art.tax.mainCategory.name}
+                </span>
+                <h3 class="text-sm font-black text-emerald-950 group-hover:text-emerald-800 transition-colors line-clamp-1">
+                  {art.title}
+                </h3>
+                <p class="text-stone-500 text-xs leading-relaxed line-clamp-2">
+                  {art.description}
+                </p>
+              </div>
+            </a>
+          ))}
+        </div>
+
+        <div id="no-results" class="hidden text-center py-16 space-y-4">
+          <div class="w-16 h-16 rounded-full bg-stone-100 flex items-center justify-center text-stone-400 mx-auto">
+            <Icons name="flask" size={24} />
+          </div>
+          <p class="text-stone-500 font-bold text-lg">No matching clinical entries found.</p>
+          <p class="text-stone-400 text-sm">Try searching for generic terms like "diabetes", "millet", or "curcumin".</p>
+        </div>
+      </section>
+    </div>
+  </main>
+</BaseLayout>
+</div>
+
+<script>
+  const searchInput = document.getElementById('knowledge-search') as HTMLInputElement | null;
+  const clearBtn = document.getElementById('clear-search');
+  const pillarsSection = document.getElementById('pillars-section');
+  const searchSection = document.getElementById('search-results-section');
+  const resultCards = document.querySelectorAll('.result-card');
+  const noResults = document.getElementById('no-results');
+
+  if (searchInput && pillarsSection && searchSection && noResults) {
+    searchInput.addEventListener('input', () => {
+      const query = searchInput.value.trim().toLowerCase();
+
+      if (query.length < 2) {
+        pillarsSection.classList.remove('hidden');
+        searchSection.classList.add('hidden');
+        return;
+      }
+
+      pillarsSection.classList.add('hidden');
+      searchSection.classList.remove('hidden');
+
+      let matchCount = 0;
+      resultCards.forEach(card => {
+        const title = card.getAttribute('data-title') || '';
+        const desc = card.getAttribute('data-desc') || '';
+        const keywords = card.getAttribute('data-keywords') || '';
+
+        if (title.includes(query) || desc.includes(query) || keywords.includes(query)) {
+          card.classList.remove('hidden');
+          matchCount++;
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+
+      if (matchCount === 0) {
+        noResults.classList.remove('hidden');
+      } else {
+        noResults.classList.add('hidden');
+      }
+    });
+
+    clearBtn?.addEventListener('click', () => {
+      searchInput.value = '';
+      pillarsSection.classList.remove('hidden');
+      searchSection.classList.add('hidden');
+      searchInput.focus();
+    });
+  }
+</script>

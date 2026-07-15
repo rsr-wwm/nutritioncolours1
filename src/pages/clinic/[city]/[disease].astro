@@ -1,0 +1,234 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Icons from '../../../components/Icons.astro';
+import { LocalDirectory as ClinicClientPage } from '../../../components/LocalDirectory';
+import { LOCATIONS_DATA } from '../../../lib/locationsData';
+import { INTERNATIONAL_COUNTRIES } from '../../../lib/internationalData';
+import { TOPICS } from '../../../data/topics';
+import { getNearestLocations } from '../../../lib/geoUtils';
+import { findEntityUrl, getRecipesForLocation } from '../../../lib/seo/autoLinker';
+
+export async function getStaticPaths() {
+  // Pre-render a representative subset of major hubs for static compilation (SSG)
+  const targetCities = ['mumbai', 'delhi', 'bangalore', 'london', 'new-york-city', 'dubai'];
+  const targetDiseases = ['diabetes-reversal', 'pcos-balance', 'fatty-liver-reversal', 'thyroid-optimization', 'hypertension-management'];
+
+  const paths: any[] = [];
+  targetCities.forEach(city => {
+    targetDiseases.forEach(disease => {
+      paths.push({
+        params: { city, disease }
+      });
+    });
+  });
+  return paths;
+}
+
+const { city, disease } = Astro.params;
+
+const cityLabel = city?.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase()) || '';
+
+// Resolve location details from both Indian and International databases
+const cityLocations = [
+  ...LOCATIONS_DATA.filter(l => {
+    const normLoc = l.city.toLowerCase().replace(/[^a-z0-9]/g, '');
+    const normParam = city?.toLowerCase().replace(/[^a-z0-9]/g, '') || '';
+    return normLoc.startsWith(normParam) || normParam.startsWith(normLoc);
+  }),
+  ...INTERNATIONAL_COUNTRIES.filter(l => {
+    const normLoc = l.city.toLowerCase().replace(/[^a-z0-9]/g, '');
+    const normParam = city?.toLowerCase().replace(/[^a-z0-9]/g, '') || '';
+    return normLoc.startsWith(normParam) || normParam.startsWith(normLoc);
+  })
+];
+
+let loc = cityLocations[0];
+let isInternational = false;
+let regionLabel = '';
+
+if (!loc) {
+  const isIntlCity = ['london', 'new-york-city', 'dubai'].includes(city || '');
+  isInternational = isIntlCity;
+  
+  if (city === 'delhi') {
+    regionLabel = 'Delhi NCR';
+  } else if (city === 'london') {
+    regionLabel = 'United Kingdom';
+  } else if (city === 'new-york-city') {
+    regionLabel = 'United States';
+  } else if (city === 'dubai') {
+    regionLabel = 'United Arab Emirates';
+  } else {
+    regionLabel = isIntlCity ? 'International' : 'India';
+  }
+
+  loc = {
+    city: cityLabel,
+    state: regionLabel,
+    timezone: isIntlCity ? 'UTC' : 'Asia/Kolkata (IST, UTC+5:30)',
+    currency: isIntlCity ? (city === 'london' ? 'GBP' : city === 'dubai' ? 'AED' : 'USD') : 'INR (₹, Indian Rupee)',
+    dialingCode: isIntlCity ? (city === 'london' ? '+44' : city === 'dubai' ? '+971' : '+1') : '+91',
+    healthIssues: ['Type 2 Diabetes', 'PCOD/PCOS', 'Fatty Liver (MASLD)', 'Hypertension', 'Thyroid Dysregulation'],
+    localFruits: isIntlCity ? ['Apples', 'Berries'] : ['Pomegranate', 'Papaya'],
+    localVegetables: isIntlCity ? ['Broccoli', 'Kale'] : ['Okra', 'Spinach'],
+    weather: isIntlCity ? 'Temperate climate' : 'Monsoonal climate',
+    regionalDeficiencyRisk: isIntlCity ? 'Vitamin D3' : 'Vitamin D3 & B12',
+    localProduceSynergy: 'Ceylon Cinnamon and seasonal organic vegetables',
+    clinicalTargetBiomarker: 'HbA1c & Fasting Insulin'
+  } as any;
+} else {
+  isInternational = 'country' in loc;
+  regionLabel = isInternational ? (loc as any).country : (loc as any).state;
+}
+
+const nearestHubs = loc ? getNearestLocations(loc.city, regionLabel, isInternational) : [];
+// "Wise-versa" interlinking: recipes built around this location's local produce.
+const localRecipes = loc ? getRecipesForLocation(loc as any) : [];
+
+// Resolve disease details
+const matchedTopic = TOPICS.find(t => t.id === disease);
+const diseaseLabel = matchedTopic ? matchedTopic.title : disease?.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase()) || '';
+
+// Set Edge-Level Caching headers
+Astro.response.headers.set('Cache-Control', 'public, max-age=86400, s-maxage=604800, stale-while-revalidate=3600');
+
+const SITE_URL = (Astro.site || 'https://nutritioncolours.com').toString().replace(/\/$/, '');
+
+// Dynamic MedicalWebPage schema targeting the localized disease consultation service
+const clinicSchema = loc && matchedTopic ? {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "@id": `${SITE_URL}/clinic/${city}/${disease}#page`,
+  "url": `${SITE_URL}/clinic/${city}/${disease}`,
+  "name": `${diseaseLabel} Specialist & Nutrition Program in ${cityLabel} | NutritionColours`,
+  "description": `Get specialized clinical circadian nutrition consultations for ${diseaseLabel} in ${cityLabel}, ${regionLabel}. Direct guidance by Dr. Shilpa Thakur and our metabolic care team.`,
+  "about": {
+    "@type": "MedicalCondition",
+    "name": diseaseLabel,
+    "description": matchedTopic.shortDesc || matchedTopic.solution
+  },
+  "mainEntity": {
+    "@type": "Service",
+    "name": `Circadian Nutrition Optimization for ${diseaseLabel}`,
+    "provider": { "@id": `${SITE_URL}/#organization` },
+    "areaServed": {
+      "@type": "City",
+      "name": cityLabel,
+      "containedInPlace": { "@type": isInternational ? "Country" : "State", "name": regionLabel }
+    }
+  },
+  "publisher": { "@id": `${SITE_URL}/#organization` }
+} : null;
+---
+<div data-ai-answer="true">
+<BaseLayout
+  title={`${diseaseLabel} Specialist in ${cityLabel} | NutritionColours`}
+  description={`Consult our clinical metabolic care team for ${diseaseLabel} in ${cityLabel}, ${regionLabel}. Circadian nutrition programs supervised by Dr. Shilpa Thakur.`}
+  ogImage={`/og/clinic/${city}-${disease}.png`}
+>
+  {clinicSchema && <script type="application/ld+json" is:inline set:html={JSON.stringify(clinicSchema)} />}
+  {loc && matchedTopic && (
+    <div class="max-w-5xl mx-auto px-6 pt-8 pb-4">
+      <div class="rounded-3xl border border-stone-100 bg-stone-50/50 p-8 space-y-4">
+        <span class="px-4 py-1.5 bg-emerald-50 text-emerald-800 text-[10px] font-black uppercase tracking-widest rounded-full inline-flex items-center gap-1.5 shadow-sm border border-emerald-100">
+          📍 Localized Clinical Care Program
+        </span>
+        <h1 class="text-3xl md:text-5xl font-black text-emerald-950 brand-font leading-tight">
+          {diseaseLabel} Specialist in {cityLabel}, {regionLabel}
+        </h1>
+        <div class="text-stone-700 text-sm leading-relaxed max-w-3xl space-y-4">
+          <p>
+            NutritionColours offers personalized remote clinical nutrition programs designed to support individuals managing <strong>{matchedTopic ? <a href={`/topic/${disease}`} class="text-emerald-800 underline hover:text-emerald-600">{diseaseLabel}</a> : diseaseLabel}</strong> in <strong>{cityLabel}</strong> and the surrounding {regionLabel} region. Our metabolic support programs aim to address dietary and lifestyle factors associated with chronic conditions, specifically focusing on: <em>{matchedTopic.problem}</em>. By aligning food timing and nutrient density with our evidence-qualified protocol: <em>{matchedTopic.solution}</em>, we help manage cellular response and metabolic markers under clinical guidance.
+          </p>
+          <p>
+            Our specialized programs prioritize chronobiology—the science of your body's biological clock. For clients in the {cityLabel} area, we incorporate regional dietary habits and local produce availability to design a sustainable nutrition protocol. This involves coordinating meal times with natural daylight cycles, optimizing macronutrient distribution, and utilizing nutrient-dense foods to support healthy hormone and glycemic responses.
+          </p>
+          <p>
+            Clients in {cityLabel} work remotely with our consulting clinical team to access comprehensive dietary coaching, metabolic tracking, and personalized guidelines. We tailor our plans to integrate regional therapeutic spices, seasonal ingredients, and local culinary preferences, supporting long-term health improvements under senior clinician supervision.
+          </p>
+          <p>
+            <strong>Local Lab Testing & Biomarker Tracking:</strong> To ensure clinical precision, clients are encouraged to obtain regular blood biomarker panels from certified diagnostic labs in {cityLabel}. Key markers such as fasting insulin, HbA1c, and lipid panels are utilized to track metabolic progress. Our team reviews these external lab reports to dynamically adjust your circadian swap schedule and nutrient targets.
+          </p>
+          <p>
+            <strong>Evidence-Qualified Chrono-Nutrition:</strong> Our approach is built on peer-reviewed metabolic literature demonstrating that the physiological response to food is highly dependent on meal timing. Confining calorie intake to daylight hours helps align glycemic load with peak diurnal insulin sensitivity, supporting natural metabolic pathways without the need for extreme dietary restriction.
+          </p>
+          <p>
+            <strong>Root-Cause Metabolic Pathophysiology:</strong> Addressing {diseaseLabel} requires a systematic shift from simple symptom management to resolving underlying cellular stressors. In many patients, chronic nutrient imbalances, sleep disruptions, and elevated toxic loads can impair insulin receptor sensitivity, stress the liver, and increase cardiovascular load. Our protocols emphasize targeted dietary swaps (such as whole, visual-pigment plant foods from our Nutritional Color Code system) that provide the specific micronutrients needed for tissue recovery and metabolic pathway clearance.
+          </p>
+          <p>
+            <strong>Remote Care & Practice Coordination:</strong> As a fully remote digital health practice, we serve clients in {cityLabel} via video consultations, secure messaging channels, and remote biomarker monitoring. We work alongside your primary care physician to ensure all nutritional modifications are fully integrated and compatible with your current medications and medical plans, prioritizing safety, efficiency and clinical accuracy. This remote framework enables us to offer personalized wellness support to clients in {cityLabel} without requiring a physical clinic presence, prioritizing health optimization above all.
+          </p>
+        </div>
+        
+        <div class="grid md:grid-cols-2 gap-4 text-xs font-semibold text-stone-700 bg-white p-6 rounded-2xl border border-stone-100">
+          <div>
+            <span class="text-[10px] uppercase font-black tracking-widest text-emerald-700 block mb-1">Prevalent Local Produce Synergies</span>
+            🌱 {loc.localProduceSynergy || 'Local therapeutic spice integrations'}
+          </div>
+          <div>
+            <span class="text-[10px] uppercase font-black tracking-widest text-emerald-700 block mb-1">Clinical Target Biomarker</span>
+            🧪 {loc.clinicalTargetBiomarker || 'Insulin and metabolic markers'}
+          </div>
+        </div>
+
+        {((loc.localFruits?.length || 0) + (loc.localVegetables?.length || 0)) > 0 && (
+          <div class="flex flex-wrap items-center gap-2 bg-white p-6 rounded-2xl border border-stone-100">
+            <span class="text-[10px] uppercase font-black tracking-widest text-emerald-700 mr-1 w-full mb-1">Local Fruits & Vegetables Used In Protocols</span>
+            {[...(loc.localFruits || []), ...(loc.localVegetables || [])].map((item: string) => {
+              const url = findEntityUrl(item);
+              return url ? (
+                <a href={url} class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-100 px-3 py-1 rounded-full hover:bg-emerald-100 transition-colors">{item}</a>
+              ) : (
+                <span class="text-xs font-bold text-stone-500 bg-stone-100 px-3 py-1 rounded-full">{item}</span>
+              );
+            })}
+          </div>
+        )}
+
+        {localRecipes.length > 0 && (
+          <div class="flex flex-wrap items-center gap-2 bg-white p-6 rounded-2xl border border-stone-100">
+            <span class="text-[10px] uppercase font-black tracking-widest text-emerald-700 mr-1 w-full mb-1">Local Recipes &amp; Favourite Dishes</span>
+            {localRecipes.map((r) => (
+              <a href={r.url} class="text-xs font-bold text-lime-800 bg-lime-50 border border-lime-100 px-3 py-1 rounded-full hover:bg-lime-100 transition-colors">{r.title}</a>
+            ))}
+          </div>
+        )}
+
+        <p class="text-xs text-stone-400 uppercase tracking-widest font-bold">
+          Program Focus · Prevalent Concerns: {(loc.healthIssues || []).slice(0, 3).join(', ')} · Regional Deficiency Risk: {loc.regionalDeficiencyRisk}
+        </p>
+        
+        <a href={`https://wa.me/917696160133?text=${encodeURIComponent(`Hi, I'm from ${cityLabel} and I'd like to know more about the ${diseaseLabel} metabolic program.`)}`}
+           target="_blank"
+           rel="noopener noreferrer"
+           class="inline-flex items-center gap-2 mt-2 px-6 py-3 rounded-full bg-emerald-600 text-white text-sm font-bold hover:bg-emerald-700 transition-colors shadow-md">
+          <Icons name="whatsapp" size={18} /> Chat on WhatsApp
+        </a>
+        
+        {nearestHubs && nearestHubs.length > 0 && (
+          <div class="mt-6 pt-6 border-t border-stone-200">
+            <h3 class="text-xs uppercase tracking-widest font-black text-emerald-800 mb-3">
+              Nearby {diseaseLabel} Program Hubs
+            </h3>
+            <div class="flex flex-wrap gap-2">
+              {nearestHubs.map((hub: any) => (
+                <a href={`/clinic/${hub.slug}/${disease}`}
+                   class="px-3 py-1.5 bg-white hover:bg-emerald-50 text-stone-700 hover:text-emerald-950 rounded-lg text-[10px] font-semibold border border-stone-200 hover:border-emerald-200 transition-all shadow-sm">
+                  {hub.city} ({Math.round(hub.distance)} km)
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  )}
+
+  <ClinicClientPage
+    client:only="react"
+    currentPath={`clinic/${city || ''}`}
+    activeClinicProp={loc}
+    navigate={(path: string) => { window.location.href = '/' + path; }}
+  />
+</BaseLayout>
+</div>

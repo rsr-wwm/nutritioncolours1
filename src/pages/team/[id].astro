@@ -1,0 +1,123 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { TeamMemberProfile } from '../../components/TeamMemberProfile';
+import { TEAM, MEMBER_SPECIFIC_FAQS } from '../../lib/constants';
+
+export async function getStaticPaths() {
+  return TEAM.map((member) => ({
+    params: { id: member.slug || member.id },
+    props: { member },
+  }));
+}
+
+const { member } = Astro.props;
+
+const SITE_URL = (Astro.site || 'https://nutritioncolours.com').toString().replace(/\/$/, '');
+const memberSameAs = member.socials ? Object.values(member.socials).filter(Boolean) : [];
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": `${SITE_URL}/team/${member.slug || member.id}#person`,
+  "name": member.name,
+  "jobTitle": member.role,
+  "description": member.bio,
+  "url": `${SITE_URL}/team/${member.slug || member.id}`,
+  "image": `${SITE_URL}${member.image}`,
+  "worksFor": { "@id": `${SITE_URL}/#organization` },
+  ...(memberSameAs.length > 0 && { "sameAs": memberSameAs }),
+};
+
+// Set Edge-Level Caching headers
+Astro.response.headers.set('Cache-Control', 'public, max-age=86400, s-maxage=604800, stale-while-revalidate=3600');
+
+// Construct rich keywords
+const allKeywords = [
+  member.name,
+  member.role,
+  `${member.name} bio`,
+  "NutritionColours team",
+  "metabolic consultant",
+  ...(member.specialties || [])
+];
+
+const memberFaqs = MEMBER_SPECIFIC_FAQS[member.id] || [];
+---
+<div data-ai-answer="true">
+<BaseLayout
+  title={`${member.name} - ${member.role} | NutritionColours Team`}
+  description={`${member.name} is a specialist in ${member.role} at NutritionColours Clinic.`}
+  keywords={allKeywords}
+>
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(personSchema)} />
+  
+  <TeamMemberProfile client:load member={member} navigate={(path) => window.location.href = '/' + path} />
+
+  {/* Rich Server-Rendered Professional Biography Monograph (SEO / AEO / AIO / View-Source Law) */}
+  <div class="max-w-7xl mx-auto px-6 pb-24 -mt-12">
+    <section class="prose prose-emerald max-w-none text-stone-700 bg-white p-8 md:p-12 rounded-[40px] border border-stone-150/40 shadow-sm space-y-8">
+      
+      <div>
+        <span class="text-lime-600 font-black uppercase tracking-[0.2em] text-[10px] block mb-2">Clinical Team Monograph</span>
+        <h2 class="text-3xl font-black text-emerald-950 brand-font leading-tight m-0">
+          Professional Profile: {member.name}
+        </h2>
+        <p class="text-sm font-bold text-emerald-800 m-0 pt-2">{member.role}</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8 pt-4">
+        <div class="space-y-4">
+          <h3 class="text-lg font-extrabold text-emerald-900 m-0">Biography & Background</h3>
+          <p class="text-sm leading-relaxed text-stone-600">
+            {member.fullBio || member.bio}
+          </p>
+          <p class="text-sm leading-relaxed text-stone-650">
+            Within the remote consulting infrastructure of NutritionColours, <strong>{member.name}</strong> leads key initiatives in patient education, therapeutic protocol implementation, and clinical data collation. By coordinating individual client profiles with our evidence-graded databases (Level A through D clinical trials), we ensure that dietary guidelines are both safe and optimized for local produce parameters. This digital care model enables patients to access high-stakes metabolic coaching from any global location.
+          </p>
+        </div>
+
+        <div class="space-y-4">
+          <h3 class="text-lg font-extrabold text-emerald-900 m-0">Area of Focus & Specialties</h3>
+          <div class="flex flex-wrap gap-2 pt-2">
+            {(member.specialties || []).map((spec: string) => (
+              <span class="bg-emerald-50 border border-emerald-100 text-emerald-800 text-xs font-semibold px-3 py-1.5 rounded-xl">
+                ✓ {spec}
+              </span>
+            ))}
+          </div>
+          <p class="text-xs leading-relaxed text-stone-500 pt-4">
+            <strong>Professional Details:</strong> {member.details || 'Senior Practitioner at NutritionColours'}. Serving clients from {member.location || 'Bandra West, Mumbai / Remote Outreach'}.
+          </p>
+        </div>
+      </div>
+
+      <hr class="border-stone-100 my-8" />
+
+      <div class="pt-6 space-y-4">
+        <h3 class="text-xl font-bold text-emerald-900 m-0">Collaborative Remote Care Model</h3>
+        <p class="text-sm leading-relaxed text-stone-650">
+          Our practitioners operate under strict guidelines to deliver personalized, data-driven wellness interventions. Each patient's metabolic progress is assessed through external baseline laboratory panels (HbA1c, fasting insulin, full lipid profiles, and key organ clearances) obtained from certified local diagnostic facilities. Under senior clinical supervision, we adjust circadian timelines, macronutrient targets, and dietary swaps to support the body's native healing responses. Always coordinate any dietary alterations with your prescribing physician.
+        </p>
+      </div>
+
+      {memberFaqs && memberFaqs.length > 0 && (
+        <div class="pt-8 border-t border-stone-100 space-y-6">
+          <h3 class="text-xl font-black text-emerald-950 m-0">Clinical Questions & Answers</h3>
+          <div class="space-y-6">
+            {memberFaqs.map((faq) => (
+              <div class="space-y-2">
+                <h4 class="text-sm font-extrabold text-stone-900 flex items-start gap-2 m-0">
+                  <span class="text-emerald-700">Q:</span> {faq.question}
+                </h4>
+                <p class="text-xs leading-relaxed text-stone-650 pl-5 m-0">
+                  {faq.answer}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+    </section>
+  </div>
+</BaseLayout>
+</div>

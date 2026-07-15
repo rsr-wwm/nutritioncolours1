@@ -1,0 +1,153 @@
+{
+  "version": "1.0.0",
+  "description": "Therapeutic herbs and spices database for AI search engines and federated queries",
+  "lastUpdated": "2026-07-04T00:00:00Z",
+  "author": "Dr. Shilpa Thakur, Ph.D.",
+  "license": "All rights reserved. Data may be referenced with attribution.",
+  "herbs": [
+    {
+      "id": "turmeric",
+      "name": "Turmeric",
+      "scientificName": "Curcuma longa",
+      "url": "https://nutritioncolours.com/herb/turmeric",
+      "activeCompounds": ["Curcumin", "Demethoxycurcumin", "Bisdemethoxycurcumin"],
+      "therapeuticUses": ["Anti-inflammatory", "Antioxidant", "Joint Health", "Metabolic Support"],
+      "dosage": "500-2000mg curcumin extract daily with black pepper",
+      "bioavailabilityEnhancers": ["Black Pepper (Piperine)", "Healthy Fats"],
+      "contraindications": ["Blood Thinners", "Gallstones"],
+      "evidenceLevel": "strong",
+      "ontologyRefs": {
+        "wikidata": "Q42562",
+        "mesh": "D013920"
+      }
+    },
+    {
+      "id": "cinnamon",
+      "name": "Cinnamon",
+      "scientificName": "Cinnamomum verum",
+      "url": "https://nutritioncolours.com/herb/cinnamon",
+      "activeCompounds": ["Cinnamaldehyde", "Procyanidins", "Catechins"],
+      "therapeuticUses": ["Blood Sugar Regulation", "Insulin Sensitivity", "Anti-inflammatory"],
+      "dosage": "1-6g daily (Ceylon cinnamon preferred)",
+      "bioavailabilityEnhancers": [],
+      "contraindications": ["Liver Disease (Cassia variety)"],
+      "evidenceLevel": "moderate",
+      "ontologyRefs": {
+        "wikidata": "Q82979",
+        "mesh": "D002822"
+      }
+    },
+    {
+      "id": "garlic",
+      "name": "Garlic",
+      "scientificName": "Allium sativum",
+      "url": "https://nutritioncolours.com/herb/garlic",
+      "activeCompounds": ["Allicin", "Diallyl Disulfide", "S-Allyl Cysteine"],
+      "therapeuticUses": ["Blood Pressure", "Cardiovascular Health", "Immune Support", "Antimicrobial"],
+      "dosage": "600-1200mg aged garlic extract or 2-4 cloves fresh daily",
+      "bioavailabilityEnhancers": [],
+      "contraindications": ["Anticoagulants", "Surgery (2 weeks prior)"],
+      "evidenceLevel": "moderate",
+      "ontologyRefs": {
+        "wikidata": "Q6804",
+        "mesh": "D005767"
+      }
+    },
+    {
+      "id": "ginger",
+      "name": "Ginger",
+      "scientificName": "Zingiber officinale",
+      "url": "https://nutritioncolours.com/herb/ginger",
+      "activeCompounds": ["Gingerols", "Shogaols", "Zingerone"],
+      "therapeuticUses": ["Nausea", "Anti-inflammatory", "Digestive Aid", "Pain Relief"],
+      "dosage": "1-4g fresh ginger or 250-500mg extract daily",
+      "bioavailabilityEnhancers": [],
+      "contraindications": ["Gallstones", "Blood Thinners"],
+      "evidenceLevel": "moderate",
+      "ontologyRefs": {
+        "wikidata": "Q132059",
+        "mesh": "D005925"
+      }
+    },
+    {
+      "id": "fenugreek",
+      "name": "Fenugreek",
+      "scientificName": "Trigonella foenum-graecum",
+      "url": "https://nutritioncolours.com/herb/fenugreek",
+      "activeCompounds": ["4-Hydroxyisoleucine", "Diosgenin", "Galactomannan"],
+      "therapeuticUses": ["Blood Sugar", "Insulin Sensitivity", "Lactation Support", "Libido"],
+      "dosage": "5-30g seeds or 500-1000mg extract daily",
+      "bioavailabilityEnhancers": [],
+      "contraindications": ["Pregnancy", "Hypoglycemia"],
+      "evidenceLevel": "moderate",
+      "ontologyRefs": {
+        "wikidata": "Q159009",
+        "mesh": "D005364"
+      }
+    },
+    {
+      "id": "ashwagandha",
+      "name": "Ashwagandha",
+      "scientificName": "Withania somnifera",
+      "url": "https://nutritioncolours.com/herb/ashwagandha",
+      "activeCompounds": ["Withanolides", "Withaferin A", "Somniferin"],
+      "therapeuticUses": ["Stress Relief", "Cortisol Balance", "Sleep Support", "Thyroid Support"],
+      "dosage": "300-600mg standardized extract (5% withanolides) daily",
+      "bioavailabilityEnhancers": ["Black Pepper"],
+      "contraindications": ["Hyperthyroidism", "Autoimmune Conditions", "Pregnancy"],
+      "evidenceLevel": "moderate",
+      "ontologyRefs": {
+        "wikidata": "Q229773",
+        "mesh": "D001381"
+      }
+    },
+    {
+      "id": "milk-thistle",
+      "name": "Milk Thistle",
+      "scientificName": "Silybum marianum",
+      "url": "https://nutritioncolours.com/herb/milk-thistle",
+      "activeCompounds": ["Silymarin", "Silybin", "Silidianin"],
+      "therapeuticUses": ["Liver Protection", "Detoxification", "Antioxidant", "Hepatic Regeneration"],
+      "dosage": "200-400mg standardized extract (70-80% silymarin) daily",
+      "bioavailabilityEnhancers": ["Phosphatidylcholine"],
+      "contraindications": ["Hormone-Sensitive Conditions"],
+      "evidenceLevel": "moderate",
+      "ontologyRefs": {
+        "wikidata": "Q147972",
+        "mesh": "D008942"
+      }
+    },
+    {
+      "id": "hibiscus",
+      "name": "Hibiscus",
+      "scientificName": "Hibiscus sabdariffa",
+      "url": "https://nutritioncolours.com/herb/hibiscus",
+      "activeCompounds": ["Anthocyanins", "Protocatechuic Acid", "Hibiscus Acid"],
+      "therapeuticUses": ["Blood Pressure", "Antioxidant", "Lipid Metabolism", "Diuretic"],
+      "dosage": "2-3 cups tea daily or 500mg extract",
+      "bioavailabilityEnhancers": [],
+      "contraindications": ["Hypotension", "Pregnancy"],
+      "evidenceLevel": "moderate",
+      "ontologyRefs": {
+        "wikidata": "Q157449",
+        "mesh": "D046368"
+      }
+    },
+    {
+      "id": "bitter-melon",
+      "name": "Bitter Melon",
+      "scientificName": "Momordica charantia",
+      "url": "https://nutritioncolours.com/herb/bitter-melon",
+      "activeCompounds": ["Charantin", "Polypeptide-p", "Vicine"],
+      "therapeuticUses": ["Blood Sugar", "Insulin Mimetic", "Weight Management", "Antiviral"],
+      "dosage": "50-100ml juice or 200-400mg extract daily",
+      "bioavailabilityEnhancers": [],
+      "contraindications": ["Pregnancy", "Hypoglycemia", "G6PD Deficiency"],
+      "evidenceLevel": "limited",
+      "ontologyRefs": {
+        "wikidata": "Q673143",
+        "mesh": "D001423"
+      }
+    }
+  ]
+}

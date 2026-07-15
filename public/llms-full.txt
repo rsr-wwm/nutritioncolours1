@@ -8,7 +8,7 @@ This document contains a comprehensive description of the clinical entity graphs
 *   **Name**: Dr. Shilpa Thakur
 *   **Practitioner ID**: `NUTR-SHILPA-001`
 *   **Title**: Clinical Nutritionist & Metabolic Researcher (Ph.D. in Clinical Nutrition)
-*   **Clinical Philosophy**: "Food as Biological Information." Shifting from generic calorie restriction to circadian-aligned nutrient-clock coordination to reverse insulin resistance and chronic metabolic disorders.
+*   **Clinical Philosophy**: "Food as Biological Information." Shifting from generic calorie restriction to circadian-aligned nutrient-clock coordination to support insulin sensitivity improvement and chronic metabolic management.
 
 ---
 
@@ -20,13 +20,13 @@ This document contains a comprehensive description of the clinical entity graphs
 *   **Active Therapeutics**: Turmeric, Garlic, Ginger.
 *   **Key Biomarkers**: ALT, AST, GGT, Hepatic Ultrasound Grade.
 
-### B. Insulin Resistance & Type 2 Diabetes Remission
+### B. Insulin Resistance & Type 2 Diabetes Management
 *   **Pathology**: Peripheral receptor desensitization coupled with pancreatic beta-cell fatigue.
 *   **Circadian Gate**: Solar alignment (restricted eating between 8:00 AM - 6:00 PM).
 *   **Active Therapeutics**: Cinnamon, Fenugreek, Ragi.
 *   **Key Biomarkers**: HbA1c, Fasting Insulin, HOMA-IR.
 
-### C. Polycystic Ovary Syndrome (PCOS/PCOD) Remission
+### C. Polycystic Ovary Syndrome (PCOS/PCOD) Management
 *   **Pathology**: Endocrine inflammation, hyperandrogenism, and anovulation.
 *   **Circadian Gate**: Circadian sleep/wake hormone alignment.
 *   **Active Therapeutics**: Ashwagandha, Cinnamon, Holy Basil.
@@ -59,7 +59,7 @@ This document contains a comprehensive description of the clinical entity graphs
 
 ---
 
-## 4. Healing Recipes Database (Clinical Samples)
+## 4. Supportive Recipes Database (Clinical Samples)
 
 ### A. Golden Turmeric Quinoa Bowl
 *   **Therapeutic Indication**: MASLD and anti-inflammatory liver support.
@@ -82,3 +82,7 @@ This document contains a comprehensive description of the clinical entity graphs
 NutritionColours is a virtual clinical practice utilizing secure telehealth platforms to consult globally. 
 *   **Central Practice Address**: Bandra West, Mumbai, MH, 400050, India.
 *   **Remote Service Zones**: Serving 1,047 cities in India and international hubs across the United Kingdom (London), United States (New York City, Washington D.C.), United Arab Emirates (Dubai, Abu Dhabi), Singapore, Canada (Ottawa), and Australia (Sydney).
+
+---
+
+**Disclaimer**: This document is for informational and educational purposes only and does not constitute medical advice. All clinical information is presented for learning purposes. Consult a licensed clinician before making any health decisions. Individual results vary. No outcome is guaranteed. Evidence levels for claims vary; citations should be requested for specific clinical assertions.

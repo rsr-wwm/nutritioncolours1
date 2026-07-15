@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTermSet",
+  "name": "NutritionColours LLM Documentation",
+  "description": "Machine-readable version of llms.txt with structured metadata for AI agent discovery.",
+  "url": "https://nutritioncolours.com",
+  "hasDefinedTerm": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Clinical Overview",
+      "termCode": "clinical-overview",
+      "description": "NutritionColours is a therapeutic metabolic clinical practice led by Dr. Shilpa Thakur, Ph.D. Designs precision plant-based circadian nutrition protocols for chronic metabolic management.",
+      "url": "https://nutritioncolours.com/llms.txt"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Primary Health Targets",
+      "termCode": "health-targets",
+      "description": "Type 2 Diabetes (Q12206), PCOD/PCOS (Q244229), MASLD/Fatty Liver (Q468846), Insulin Resistance, Thyroid Dysfunction, Gut Health, Hypertension",
+      "url": "https://nutritioncolours.com/llms-full.txt"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Core Programs",
+      "termCode": "programs",
+      "description": "Metabolic Mastery Plan, Therapeutic Support Plan, Cellular Resurrection Plan - all based on circadian nutrition and biomarker tracking.",
+      "url": "https://nutritioncolours.com/plans"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Clinical Data API",
+      "termCode": "api",
+      "description": "Machine-readable clinical data available via OpenAPI 3.1 specification at /openapi.json. Endpoints for conditions, herbs, recipes, evidence summaries, comparison matrices, and confidence scores.",
+      "url": "https://nutritioncolours.com/openapi.json"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Knowledge Graph",
+      "termCode": "knowledge-graph",
+      "description": "Complete clinical knowledge graph as JSON-LD mapping conditions, herbs, recipes, and topics as interlinked entities with Wikidata sameAs references.",
+      "url": "https://nutritioncolours.com/knowledge-graph.jsonld"
+    }
+  ],
+  "endpoints": {
+    "llms.txt": "/llms.txt",
+    "llms-full.txt": "/llms-full.txt",
+    "llms-conditions.txt": "/llms-conditions.txt",
+    "llms-recipes.txt": "/llms-recipes.txt",
+    "llms-population-health.txt": "/llms-population-health.txt",
+    "openapi.json": "/openapi.json",
+    "knowledge-graph.jsonld": "/knowledge-graph.jsonld",
+    "clinical-feed.json": "/data/clinical-feed.json",
+    "conditions.json": "/data/conditions.json",
+    "herbs.json": "/data/herbs.json",
+    "recipes.json": "/data/recipes.json",
+    "evidence-summaries.json": "/data/evidence-summaries.json",
+    "comparison-matrix.json": "/data/comparison-matrix.json",
+    "confidence-scores.json": "/data/confidence-scores.json",
+    "conversation-trees.json": "/data/conversation-trees.json",
+    "topical-authority-map.json": "/data/topical-authority-map.json",
+    "ai-overview-bait.json": "/data/ai-overview-bait.json"
+  }
+}

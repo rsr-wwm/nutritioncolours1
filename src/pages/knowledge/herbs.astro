@@ -1,0 +1,94 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { HERBS_SPICES_DATA } from '../../lib/clinical_databases';
+
+const herbs = HERBS_SPICES_DATA.filter(item => item.category === 'herb');
+
+const SITE_URL = (Astro.site || 'https://nutritioncolours.com').toString().replace(/\/$/, '');
+const herbsSchema = {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "url": `${SITE_URL}/knowledge/herbs`,
+  "name": "Clinical Herbs Database | Metabolic Nutrition",
+  "description": "Explore the scientific, biochemical profiles of therapeutic herbs used in metabolic reversal protocols."
+};
+---
+<div data-ai-answer="true">
+<BaseLayout 
+  title="Clinical Herbs Database | Metabolic Nutrition" 
+  description="Explore the scientific, biochemical profiles of therapeutic herbs used in metabolic reversal protocols."
+>
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(herbsSchema)} />
+  <div class="max-w-7xl mx-auto px-6 py-20 space-y-16">
+    <div class="text-center max-w-3xl mx-auto space-y-4">
+      <span class="text-lime-600 dark:text-lime-400 font-black uppercase tracking-[0.3em] text-[10px]">Botanical Pharmacopeia</span>
+      <h1 class="text-4xl md:text-5xl font-black text-emerald-950 dark:text-white brand-font leading-tight">
+        Clinical Herbs Database
+      </h1>
+      <p class="text-stone-600 dark:text-stone-400 leading-relaxed text-sm md:text-base font-medium">
+        Explore the biochemistry, primary mechanism, active compounds, and clinical dosage guidelines of therapeutic botanical herbs.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {herbs.map((herb) => (
+        <div class="bg-white dark:bg-stone-900 p-8 rounded-[40px] border border-stone-100 dark:border-stone-850 shadow-lg hover:shadow-2xl transition-all duration-350 hover:-translate-y-1 flex flex-col justify-between group">
+          <div class="space-y-6">
+            <div class="flex items-center justify-between">
+              <span class="bg-emerald-50 dark:bg-emerald-950/40 text-emerald-800 dark:text-lime-400 text-[10px] font-black uppercase tracking-wider px-3.5 py-1.5 rounded-full border border-emerald-100/40 dark:border-emerald-900/30">
+                🌿 Herb
+              </span>
+              <span class="text-[10px] text-stone-450 italic font-semibold">{herb.scientificName}</span>
+            </div>
+
+            <div class="space-y-2">
+              <h2 class="text-xl font-black text-emerald-950 dark:text-white brand-font group-hover:text-emerald-700 dark:group-hover:text-lime-400 transition-colors">
+                <a href={`/herb/${herb.id}`}>{herb.name}</a>
+              </h2>
+              <p class="text-stone-600 dark:text-stone-405 text-[11px] leading-relaxed line-clamp-3 font-semibold">
+                <span class="font-extrabold text-emerald-900 dark:text-lime-500">Mechanism:</span> {herb.primaryMechanism}
+              </p>
+            </div>
+
+            <div class="flex flex-wrap gap-1.5">
+              {herb.activeCompounds.slice(0, 3).map((comp) => (
+                <span class="bg-stone-50 dark:bg-white/5 text-stone-500 dark:text-stone-400 text-[9px] font-bold uppercase tracking-wider px-2 py-1 rounded-md">
+                  {comp}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          <div class="pt-6 mt-6 border-t border-stone-50 dark:border-stone-850/60 flex items-center justify-between">
+            <a 
+              href={`/herb/${herb.id}`} 
+              class="text-[10px] font-black uppercase tracking-widest text-emerald-900 dark:text-lime-400 hover:text-emerald-700 dark:hover:text-lime-300 transition-colors flex items-center gap-1.5 group/btn"
+            >
+              View Monograph
+              <span class="transform group-hover/btn:translate-x-1 transition-transform">→</span>
+            </a>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <section class="mt-20 pt-16 border-t border-stone-200 dark:border-stone-850">
+      <div class="prose prose-emerald max-w-none text-stone-700 dark:text-stone-300 bg-white dark:bg-stone-900 p-8 md:p-12 rounded-[40px] border border-stone-150/40 dark:border-stone-850/60 shadow-sm space-y-6">
+        <h2 class="text-2xl font-black text-emerald-950 dark:text-white brand-font">Clinical Integration of Botanical Therapeutics</h2>
+        <p class="leading-relaxed">
+          Botanical medicine, or herbal therapeutics, forms a primary axis of supportive care within precision functional nutrition. Unlike isolated synthetic chemicals, therapeutic herbs contain highly complex matrices of active compounds, including alkaloids, flavonoids, terpenes, and saponins. These biochemicals exert multi-targeted physiological effects on the human body, acting as adaptogens to downregulate stress response pathways, modulating hepatic detox enzymes, and strengthening gut barrier integrity. Understanding these complex mechanisms is crucial to formulating safe and effective clinical protocols.
+        </p>
+        <p class="leading-relaxed">
+          In clinical practice, botanical use must be structured and highly personalized. Because active compounds in herbs can affect blood pressure, blood glucose, and liver clearance rates, their integration requires careful clinical monitoring. This is particularly critical for patients undergoing standard medical treatments for chronic diseases like type 2 diabetes or kidney dysfunction, where potential drug-herb interactions and mineral solute loads must be audited. Our editorial team evaluates and documents these safety parameters, cross-referencing pharmacological databases and clinical trials to ensure our guidance remains source-verified.
+        </p>
+        <p class="leading-relaxed">
+          All botanical monographs in our library are evaluated against a standardized clinical hierarchy to score claims. Recommendations are categorized from Level A (multiple double-blind randomized controlled trials) to Level D (consensus based on historical pharmacopeia and clinical panels). This structure helps clinical teams and patients make informed decisions, prioritizing safety and efficiency. We recommend regular blood panel audits (such as liver and kidney function markers) to dynamically monitor individual response and ensure botanical protocols align harmoniously with standard-of-care treatments.
+        </p>
+        <p class="leading-relaxed">
+          Through the <strong>Nutritional Color Code system (NutritionColours)</strong>, we highlight the visual indicators of these bioactives. The deep gold of turmeric or the rich red of cayenne pepper signifies the presence of specific polyphenols and capsaicinoids that correlate with targeted cellular defense mechanisms. Integrating these vibrant colors into the daily diet ensures a wide spectrum of phytonutrient support, helping patients achieve long-term health preservation, tissue recovery, and overall quality of life.
+        </p>
+      </div>
+    </section>
+  </div>
+</BaseLayout>
+</div>

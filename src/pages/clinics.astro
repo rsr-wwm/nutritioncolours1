@@ -1,0 +1,102 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { LocalDirectory } from '../components/LocalDirectory';
+import { LOCATIONS_DATA } from '../lib/locationsData';
+import { INTERNATIONAL_COUNTRIES } from '../lib/internationalData';
+import Icons from '../components/Icons.astro';
+
+// Extract major hubs for indexing
+const popularIndian = LOCATIONS_DATA.filter(l => ['mumbai', 'delhi', 'bangalore', 'chennai', 'kolkata', 'hyderabad', 'pune'].includes(l.city.toLowerCase())).slice(0, 7);
+const popularIntl = INTERNATIONAL_COUNTRIES.filter(l => ['london', 'new-york-city', 'dubai', 'singapore', 'sydney', 'toronto'].includes(l.city.toLowerCase())).slice(0, 6);
+
+const SITE_URL = (Astro.site || 'https://nutritioncolours.com').toString().replace(/\/$/, '');
+const clinicsIndexSchema = {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "url": `${SITE_URL}/clinics`,
+  "name": "Clinical Nutrition Outreach Directory | NutritionColours",
+  "description": "Access remote clinical nutrition consultations, diagnostic coordination, and wellness programs in over 1,700 cities globally.",
+  "publisher": { "@id": `${SITE_URL}/#organization` }
+};
+---
+<div data-ai-answer="true">
+<BaseLayout
+  title="Outreach Locations & Clinical Directories | NutritionColours"
+  description="Locate our remote clinical nutrition consultations, diagnostic coordination hubs, and consulting schedules serving India and international cities."
+  keywords={["clinical nutritionist locator", "metabolic clinic outreach", "telehealth nutritionist directory"]}
+>
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(clinicsIndexSchema)} />
+
+  <LocalDirectory
+    client:only="react"
+    currentPath="clinics"
+    navigate={(path: string) => { window.location.href = '/' + path; }}
+  />
+
+  {/* Rich Server-Rendered Outreach Directory (SEO / AEO / GEO / AIO / View-Source Law) */}
+  <div class="max-w-7xl mx-auto px-6 pb-24 -mt-12">
+    <section class="prose prose-emerald max-w-none text-stone-700 bg-white p-8 md:p-12 rounded-[40px] border border-stone-150/40 shadow-sm space-y-8">
+      
+      <div>
+        <span class="text-emerald-700 font-black uppercase tracking-[0.2em] text-[10px] block mb-2">Global Outreach Registry</span>
+        <h2 class="text-3xl font-black text-emerald-950 brand-font leading-tight m-0">
+          Precision Metabolic Care Service Areas
+        </h2>
+        <p class="text-sm text-stone-500 leading-relaxed m-0 pt-2">
+          NutritionColours is a fully digital, remote clinical nutrition practice. We coordinate patient diagnostic monitoring and customize circadian diet plans across more than 1,000 Indian cities and 600+ international locations.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8 pt-4">
+        <div class="space-y-4">
+          <h3 class="text-lg font-extrabold text-emerald-900 m-0">Indian Regional Outreach Hubs</h3>
+          <p class="text-xs leading-relaxed text-stone-600">
+            We provide remote clinical consultations across major Indian metros and states, aligning meal programs with traditional diets and regional produce:
+          </p>
+          <div class="grid grid-cols-2 gap-2">
+            {popularIndian.map((l: any) => (
+              <a
+                href={`/clinic/${l.city.toLowerCase().replace(/\s+/g, '-')}`}
+                class="px-4 py-2 border border-stone-100 rounded-xl text-xs font-semibold text-stone-700 bg-stone-50 hover:bg-emerald-50 hover:text-emerald-900 transition-colors"
+              >
+                📍 {l.city} ({l.state})
+              </a>
+            ))}
+          </div>
+        </div>
+
+        <div class="space-y-4">
+          <h3 class="text-lg font-extrabold text-emerald-900 m-0">International Outreach Hubs</h3>
+          <p class="text-xs leading-relaxed text-stone-600">
+            Our international program manages client plans in sync with local timezones, local currencies, and native seasonal grocery options:
+          </p>
+          <div class="grid grid-cols-2 gap-2">
+            {popularIntl.map((l: any) => (
+              <a
+                href={`/clinic/${l.city.toLowerCase().replace(/\s+/g, '-')}`}
+                class="px-4 py-2 border border-stone-100 rounded-xl text-xs font-semibold text-stone-700 bg-stone-50 hover:bg-emerald-50 hover:text-emerald-900 transition-colors"
+              >
+                🌍 {l.city} ({(l as any).country})
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      <hr class="border-stone-100 my-8" />
+
+      <div class="pt-4 space-y-4">
+        <h3 class="text-xl font-bold text-emerald-900 m-0">Remote Biomarker Audits & Practitioner Collaboration</h3>
+        <p class="text-sm leading-relaxed text-stone-650">
+          Our practice focuses on delivering measurable metabolic health improvements without claiming a physical presence. Clients in all serving regions are directed to visit local certified diagnostic testing facilities to obtain standard biomarker reports (such as fasting insulin, HbA1c, full lipid profiles, liver enzymes, and renal clearance panels). Our clinical care team audits these reports digitally, updating your custom meal schedule and dietary swaps in collaboration with your local primary prescribing physician's standard treatments.
+        </p>
+        <p class="text-sm leading-relaxed text-stone-650">
+          By utilizing the **Nutritional Color Code system (NutritionColours)**, we teach clients how to use food as biological information, matching the metabolic demands of their bodies to support regulatory recovery, optimize hormones, and sustain vitality over time.
+        </p>
+      </div>
+
+    </section>
+  </div>
+</BaseLayout>
+  <input type="hidden" name="__bot_check" value="{{random}}" style="display:none;" />
+</div>

@@ -1,0 +1,75 @@
+{
+  "auditDate": "2026-07-12",
+  "gitHead": "bc03fcf",
+  "method": "local folder audit + reproduced astro build/check in sandbox",
+  "build": {
+    "status": "green",
+    "pagesBuilt": 2069,
+    "astroCheck": {
+      "errors": 4,
+      "errorsPreexisting": true,
+      "errorLocations": [
+        "src/components/LocalDirectory.tsx:765",
+        "src/components/LocalDirectory.tsx:825",
+        "src/pages/clinic/[city]/[disease].astro:34",
+        "src/pages/clinic/[city]/[disease].astro:43"
+      ],
+      "warnings": 0,
+      "hints": 78,
+      "routeCollisionWarnings": ["gestational-diabetes", "orthorexia", "adenomyosis", "endometriosis-pain", "metabolic-syndrome", "vegan-recipes", "vegan-alternatives", "vegan-nutrition"]
+    }
+  },
+  "routes": { "templates": 39 },
+  "pageDistribution": {
+    "clinic": 1701, "topic": 229, "recipe": 40, "herb": 38, "condition": 8,
+    "team": 8, "vegan": 8, "article": 5, "plans": 4, "genomics": 3, "interactions": 2
+  },
+  "dataArrays": {
+    "MEDICAL_CONDITIONS_DATA": { "entries": 8, "pages": 8, "unrenderedBacklog": 0 },
+    "HERBS_SPICES_DATA": { "entries": 38, "pages": 38, "unrenderedBacklog": 0 },
+    "GENOMIC_VARIANTS_DATA": { "entries": 3, "pages": 3, "unrenderedBacklog": 0 },
+    "DRUG_INTERACTIONS_DATA": { "entries": 2, "pages": 2, "unrenderedBacklog": 0 }
+  },
+  "dataMonolithLines": {
+    "topics.ts": 17839, "clinical_databases.ts": 7332, "recipes_database.ts": 1085,
+    "locationsData.ts": 51662, "internationalData.ts": 32184
+  },
+  "srcDataIsSymlinkToSrcLib": true,
+  "srcLibTrackedInGit": false,
+  "schema": {
+    "condition": { "hasMedicalSchema": true, "types": ["MedicalWebPage", "MedicalCondition", "MedicalCode", "MedicalSignOrSymptom", "Claim", "FAQPage", "Physician", "SpeakableSpecification", "BreadcrumbList"] },
+    "herb": { "hasMedicalSchema": true, "types": ["MedicalWebPage", "Claim", "FAQPage", "Physician", "Thing", "BreadcrumbList"] },
+    "clinic": { "hasMedicalSchema": true },
+    "home": { "types": ["Organization", "WebSite", "WebPage", "Person"] },
+    "genomics": { "hasMedicalSchemaBefore": false, "hasMedicalSchemaAfter": true, "typesAfter": ["Gene", "MedicalWebPage", "Physician", "Claim", "CreativeWork", "BreadcrumbList"], "fixedThisSession": true },
+    "interactions": { "hasMedicalSchemaBefore": false, "hasMedicalSchemaAfter": true, "typesAfter": ["Drug", "DrugClass", "MedicalWebPage", "Physician", "Claim", "CreativeWork", "BreadcrumbList"], "fixedThisSession": true },
+    "siteWideMedicalWebPageCount": 1732,
+    "siteWideMedicalConditionCount": 273,
+    "siteWideMedicalTherapyCount": 252
+  },
+  "liveSeoModules": ["structuredData.ts", "internalLinkEngine.ts", "entityGraph.ts"],
+  "deadSeoModulesNowRemoved": ["canonicalUrls.ts", "imageSchema.ts", "semanticLinker.ts", "phantomRoutes.ts", "antiScrape.ts", "offlineQueue.ts", "motionBudget.ts", "circadianTheme.ts", "intentPrefetch.ts", "localeRedirect.ts"],
+  "unwiredComponents": ["HealthAssistant", "KnowledgeConstellation", "QuestionPathNav", "GeospatialMap", "AIHelper"],
+  "duplicateComponentFiles": ["SemanticCompressionLayer.astro", "SemanticCompressionLayer.tsx"],
+  "clinicThinContentRisk": { "pageSampleBytesA": 49290, "pageSampleBytesB": 49210, "nearIdentical": true, "pageShareOfSite": 0.82 },
+  "headingTree": { "conditionSampleH1": 1, "conditionSampleH2": 1, "conditionSampleH3": 4, "conditionSampleH4": 4, "issue": "single H2 blocks per-section answer-first chunking" },
+  "geoAssets": {
+    "llms.txt": { "present": true, "linkedOnSiteMoneyPagesBefore": false, "fixedThisSession": true },
+    "llms-full.txt": true, "knowledge-graph.jsonld": true, "digital-twin-schema.jsonld": true,
+    "answer-fragments.json": true, "semantic_links.json": true, "openapi.json": true, "manifest-ai.json": true, "honeypot": true, "robots.txt": true
+  },
+  "repoHygiene": { "stagedDeletions": 413, "untracked": 68, "modified": 11, "staleGitIndexLock": true, "docsDescribeNextJs": false, "readmeAgentsAccurate": true },
+  "nativeBindingsMissingForLinux": ["@rolldown/binding-linux-arm64-gnu", "@astrojs/compiler-binding-linux-arm64-gnu", "lightningcss-linux-arm64-gnu", "@tailwindcss/oxide-linux-arm64-gnu", "@esbuild/linux-arm64", "@img/sharp-linux-arm64", "@img/sharp-libvips-linux-arm64"],
+  "changesExecutedThisSession": [
+    "Added getGenomicsEntityGraph() and getInteractionEntityGraph() to src/lib/seo/entityGraph.ts",
+    "Wired schema + breadcrumbs into src/pages/genomics/[id].astro and src/pages/interactions/[id].astro",
+    "Rebuilt public/llms.txt to lead with real on-site money-page URLs",
+    "Established reproducible in-sandbox build (astro.config.sandbox.mjs)",
+    "Fixed all 4 pre-existing tsc errors (LocalDirectory.tsx, clinic/[city]/[disease].astro) -> astro check now 0 errors",
+    "Deduped topic getStaticPaths -> 0 route-collision warnings (229 topic pages intact)",
+    "Owner ruling: relabeled all visible 'Health Topics' -> 'Diseases' (nav, hub H1/title, home + 404 CTAs); URLs kept intact",
+    "Set MRS document Owner/Author to Dr. Shilpa Thakur (PhD)",
+    "Added getTopicEntityGraph() -> all 229 disease (topic) pages now emit MedicalWebPage + Physician reviewer + MedicalCondition + Claim + BreadcrumbList + Speakable (condition parity)"
+  ],
+  "finalVerifiedState": { "astroBuild": "2069 pages green", "astroCheckErrors": 0, "astroCheckWarnings": 0, "routeCollisions": 0, "diseasePagesWithReviewerSchema": "229/229" }
+}

@@ -1,0 +1,86 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { BLOG_ARTICLES } from '../../lib/constants';
+import Icons from '../../components/Icons.astro';
+---
+<div data-ai-answer="true">
+<BaseLayout 
+  title="Metabolic Health Research & Latest Articles" 
+  description="Clinical insights, research breakdowns, and metabolic guidelines published by our multidisciplinary medical team."
+>
+  <div class="max-w-7xl mx-auto px-6 py-20 space-y-16">
+    <div class="text-center max-w-3xl mx-auto space-y-4">
+      <span class="text-lime-600 dark:text-lime-400 font-black uppercase tracking-[0.3em] text-[10px]">Medical Journal</span>
+      <h1 class="text-4xl md:text-5xl font-black text-emerald-950 dark:text-white brand-font leading-tight">
+        Metabolic Health Research & Clinical Articles
+      </h1>
+      <p class="text-stone-600 dark:text-stone-400 leading-relaxed text-sm md:text-base font-medium">
+        Evidence-based insights, nutritional biochemistry research, and clinical guidelines published by Dr. Shilpa Thakur and our medical team.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {BLOG_ARTICLES.map((article) => (
+        <article class="bg-white dark:bg-stone-900 rounded-[32px] border border-stone-100 dark:border-stone-800 shadow-lg hover:shadow-2xl transition-all duration-350 hover:-translate-y-1 group overflow-hidden flex flex-col h-full">
+          <div class="relative aspect-video bg-emerald-50 dark:bg-emerald-950/20 overflow-hidden flex items-center justify-center border-b border-stone-100 dark:border-stone-800">
+            <img 
+              src={article.image || '/images/nutritioncolours-default.svg'} 
+              alt={article.title} 
+              class="w-20 h-20 opacity-40 group-hover:scale-110 transition-transform duration-500"
+            />
+            <span class="absolute top-4 left-4 bg-emerald-900 text-white text-[9px] font-black uppercase tracking-widest px-3 py-1.5 rounded-full shadow-md">
+              {article.category}
+            </span>
+          </div>
+
+          <div class="p-8 flex flex-col flex-grow space-y-4">
+            <div class="flex items-center gap-4 text-[10px] font-black uppercase tracking-wider text-stone-400 dark:text-stone-500">
+              <span class="flex items-center gap-1">
+                <Icons name="check" size={10} class="text-lime-500" /> {article.date}
+              </span>
+              <span>•</span>
+              <span>By {article.author}</span>
+            </div>
+
+            <h2 class="text-xl font-black text-emerald-950 dark:text-white leading-snug brand-font group-hover:text-emerald-700 dark:group-hover:text-lime-400 transition-colors">
+              <a href={`/article/${article.id}`}>{article.title}</a>
+            </h2>
+
+            <p class="text-stone-650 dark:text-stone-400 text-xs leading-relaxed line-clamp-3 flex-grow font-semibold">
+              {article.excerpt}
+            </p>
+
+            <div class="pt-6 border-t border-stone-50 dark:border-stone-850/60 flex items-center justify-between">
+              <a 
+                href={`/article/${article.id}`} 
+                class="text-[10px] font-black uppercase tracking-widest text-emerald-900 dark:text-lime-400 hover:text-emerald-700 dark:hover:text-lime-300 transition-colors flex items-center gap-1.5 group/btn"
+              >
+                Read Full Paper
+                <span class="transform group-hover/btn:translate-x-1 transition-transform">→</span>
+              </a>
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+
+    <section class="mt-20 pt-16 border-t border-stone-200 dark:border-stone-850">
+      <div class="prose prose-emerald max-w-none text-stone-700 dark:text-stone-300 bg-white dark:bg-stone-900 p-8 md:p-12 rounded-[40px] border border-stone-150/40 dark:border-stone-850/60 shadow-sm space-y-6">
+        <h2 class="text-2xl font-black text-emerald-950 dark:text-white brand-font">Our Medical Journal & Editorial Standards</h2>
+        <p class="leading-relaxed">
+          The Metabolic Health Research & Clinical Articles journal is dedicated to providing high-quality, evidence-graded publications that bridge the gap between biochemistry and daily nutrition. With the rise of metabolic disorders like obesity, insulin resistance, type 2 diabetes, and fatty liver disease, there is an urgent need for source-verified, clinical information. Our multidisciplinary medical board, directed by Dr. Shilpa Thakur, reviews current biomedical literature and clinical trial registries to translate complex metabolic research into clear, actionable guidelines.
+        </p>
+        <p class="leading-relaxed">
+          To maintain clinical integrity, all articles in our journal follow a rigorous editorial process. Every health recommendation is graded against standard scientific criteria, ensuring that any dietary protocol or botanical swap is backed by peer-reviewed evidence (ranging from Level A randomized controlled trials to Level D expert consensus). We reject speculative wellness claims and ensure all statements are grounded in biochemical clearance pathways and established human physiology.
+        </p>
+        <p class="leading-relaxed">
+          Additionally, our articles emphasize the coordination of nutritional protocols with standard-of-care medical therapies. Lifestyle medicine works best when synchronized with primary care teams, including cardiologists, endocrinologists, and nephrologists. We encourage patients to monitor their key metabolic markers—such as HbA1c, fasting lipids, and kidney function panels—to track progress and safely adjust dietary dosing thresholds over time.
+        </p>
+        <p class="leading-relaxed">
+          Our journal also highlights the <strong>Nutritional Color Code system (NutritionColours)</strong>, showing how dietary pigments act as visual cues for biochemical cellular defense. By prioritizing visual diversity in plant-based meals, patients can automatically ensure a broad intake of polyphenols, carotenoids, and active enzymes, promoting tissue repair and long-term metabolic health.
+        </p>
+      </div>
+    </section>
+  </div>
+</BaseLayout>
+</div>

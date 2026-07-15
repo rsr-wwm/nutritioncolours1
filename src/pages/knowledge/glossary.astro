@@ -1,0 +1,95 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { MEDICAL_CONDITIONS_DATA, HERBS_SPICES_DATA, GENOMIC_VARIANTS_DATA, DRUG_INTERACTIONS_DATA } from '../../lib/clinical_databases';
+import { TOPICS } from '../../lib/topics';
+
+// Real clinical-nutrition glossary built entirely from existing condition/herb/topic/
+// nutrigenomics/interaction data — no invented terms or definitions. Each entry carries
+// DefinedTerm schema so AI engines and search can cite NutritionColours as the canonical
+// source for these definitions.
+const SITE_URL = (Astro.site || 'https://nutritioncolours.com').toString().replace(/\/$/, '');
+
+type GlossaryEntry = { term: string; definition: string; url: string };
+
+const conditionTerms: GlossaryEntry[] = MEDICAL_CONDITIONS_DATA.map((cond) => ({
+  term: cond.name,
+  definition: cond.rootCause,
+  url: `${SITE_URL}/condition/${cond.id}`,
+}));
+
+const herbTerms: GlossaryEntry[] = HERBS_SPICES_DATA.map((herb) => ({
+  term: herb.name,
+  definition: herb.primaryMechanism,
+  url: `${SITE_URL}/herb/${herb.id}`,
+}));
+
+const topicTerms: GlossaryEntry[] = TOPICS.map((topic) => ({
+  term: topic.title,
+  definition: topic.shortDesc || topic.solution || '',
+  url: `${SITE_URL}/topic/${topic.id}`,
+}));
+
+const genomicTerms: GlossaryEntry[] = GENOMIC_VARIANTS_DATA.map((v) => ({
+  term: `${v.geneName} (${v.rsid})`,
+  definition: v.clinicalImpact,
+  url: `${SITE_URL}/genomics/${v.id}`,
+}));
+
+const interactionTerms: GlossaryEntry[] = DRUG_INTERACTIONS_DATA.map((d) => ({
+  term: `${d.drugName} — nutrient interaction`,
+  definition: d.monitoringAdvice,
+  url: `${SITE_URL}/interactions/${d.id}`,
+}));
+
+// Merge + dedupe by term (first definition wins); drop entries without a real definition.
+const seen = new Set<string>();
+const allTerms: GlossaryEntry[] = [...conditionTerms, ...herbTerms, ...topicTerms, ...genomicTerms, ...interactionTerms]
+  .filter((e) => e.term && e.definition && e.definition.trim().length > 0)
+  .filter((e) => { const k = e.term.toLowerCase(); if (seen.has(k)) return false; seen.add(k); return true; })
+  .sort((a, b) => a.term.localeCompare(b.term));
+
+const glossarySchema = {
+  "@context": "https://schema.org",
+  "@type": "DefinedTermSet",
+  "@id": `${SITE_URL}/knowledge/glossary#glossary`,
+  "name": "NutritionColours Clinical Nutrition Glossary",
+  "url": `${SITE_URL}/knowledge/glossary`,
+  "publisher": { "@id": `${SITE_URL}/#organization` },
+  "hasDefinedTerm": allTerms.map((entry) => ({
+    "@type": "DefinedTerm",
+    "name": entry.term,
+    "description": entry.definition,
+    "url": entry.url,
+    "inDefinedTermSet": `${SITE_URL}/knowledge/glossary#glossary`,
+  })),
+};
+---
+<div data-ai-answer="true">
+<BaseLayout
+  title="Clinical Nutrition Glossary | NutritionColours"
+  description="Plain-language definitions of the clinical conditions, herbs, and mechanisms referenced across NutritionColours' circadian nutrition protocols."
+>
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(glossarySchema)} />
+
+  <div class="max-w-5xl mx-auto px-6 py-16 space-y-12">
+    <div class="text-center max-w-3xl mx-auto space-y-4">
+      <h1 class="text-4xl md:text-5xl font-black text-emerald-950 brand-font">Clinical Nutrition Glossary</h1>
+      <p class="text-stone-600 leading-relaxed">
+        Plain-language definitions of the conditions, herbs, and mechanisms referenced across
+        our clinical protocols — each term links to its full clinical page.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-x-12 gap-y-8">
+      {allTerms.map((entry) => (
+        <div class="border-b border-stone-100 pb-6">
+          <h2 class="text-lg font-black text-emerald-950 brand-font uppercase tracking-tight mb-2">
+            <a href={entry.url} class="hover:text-emerald-700 transition-colors">{entry.term}</a>
+          </h2>
+          <p class="text-stone-600 text-sm leading-relaxed">{entry.definition}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</BaseLayout>
+</div>

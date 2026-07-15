@@ -1,0 +1,141 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { ClinicalInteractionDetail } from '../../components/ClinicalDetails';
+import { DRUG_INTERACTIONS_DATA } from '../../lib/clinical_databases';
+import { getInteractionEntityGraph } from '../../lib/seo/entityGraph';
+import { getBreadcrumbSchema } from '../../lib/seo/structuredData';
+
+export async function getStaticPaths() {
+  return DRUG_INTERACTIONS_DATA.map((interaction) => ({
+    params: { id: interaction.id },
+    props: { interaction },
+  }));
+}
+
+const { interaction } = Astro.props;
+
+// YMYL structured data: Drug + MedicalWebPage (reviewer) + Claim (real PMID citations).
+const interactionSchema = getInteractionEntityGraph(interaction);
+const breadcrumbSchema = getBreadcrumbSchema(`interactions/${interaction.id}`, [
+  { label: 'Home', path: 'home' },
+  { label: 'Drug Interactions', path: 'knowledge/drug-interactions' },
+  { label: interaction.drugName, path: `interactions/${interaction.id}` },
+]);
+
+// Set Edge-Level Caching headers
+Astro.response.headers.set('Cache-Control', 'public, max-age=86400, s-maxage=604800, stale-while-revalidate=3600');
+
+// Construct rich keywords
+const allKeywords = [
+  interaction.drugName,
+  interaction.drugClass,
+  "Drug nutrient interaction",
+  "nutrient depletion",
+  "metabolic nutrition",
+  "safety monitoring"
+];
+---
+<div data-ai-answer="true">
+
+<BaseLayout
+  title={`${interaction.drugName} - Drug-Nutrient Interaction | NutritionColours`}
+  description={interaction.monitoringAdvice}
+  keywords={allKeywords}
+>
+  <script type="application/ld+json" is:inline set:html={interactionSchema} />
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbSchema)} />
+  
+  <ClinicalInteractionDetail client:load interaction={interaction} />
+
+  {/* Rich Server-Rendered Clinical Interaction Profile (SEO / AEO / AIO / View-Source Law) */}
+  <div class="max-w-7xl mx-auto px-6 pb-24 -mt-12">
+    <section class="prose prose-emerald max-w-none text-stone-700 bg-white p-8 md:p-12 rounded-[40px] border border-stone-150/40 shadow-sm space-y-8">
+      
+      <div>
+        <span class="text-red-650 font-black uppercase tracking-[0.2em] text-[10px] block mb-2">Pharmacological Safety Registry</span>
+        <h2 class="text-3xl font-black text-emerald-950 brand-font leading-tight m-0">
+          Interaction Analysis: {interaction.drugName} ({interaction.drugClass})
+        </h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8 pt-4">
+        <div class="space-y-4">
+          <h3 class="text-lg font-extrabold text-emerald-900 m-0">Clinical Monitoring & Guidelines</h3>
+          <p class="text-sm leading-relaxed text-stone-600" data-ai-answer="true">
+            {interaction.monitoringAdvice}
+          </p>
+          <p class="text-sm leading-relaxed text-stone-655" data-ai-answer="true">
+            Pharmaceutical agents are designed to target specific physiological pathways to manage health conditions. However, many medications can also impact nutrient metabolism by altering absorption, inhibiting biochemical pathways, or accelerating the clearance of essential cofactors. Understanding these drug-induced nutrient depletions is critical to preserving long-term cellular energy, maintaining organ clearance capacity, and preventing secondary deficiency-related symptoms.
+          </p>
+        </div>
+
+        <div class="space-y-4">
+          <h3 class="text-lg font-extrabold text-emerald-900 m-0">Depleted Nutrients & Risks</h3>
+          <div class="flex flex-wrap gap-2 pt-2">
+            {interaction.depletedNutrients.map((n: any) => (
+              <span class="bg-red-50 border border-red-100 text-red-800 text-xs font-semibold px-3 py-1.5 rounded-xl">
+                ⚠️ Depletes: {n}
+              </span>
+            ))}
+          </div>
+          <p class="text-xs leading-relaxed text-stone-500 pt-2">
+            Long-term use of {interaction.drugName} can deplete these key nutrients, potentially causing cellular energy deficits or nerve tissue strain. Proactively adjusting your diet to include nutrient-dense alternatives can help offset these depletion risks and support overall metabolic health.
+          </p>
+        </div>
+      </div>
+
+      <hr class="border-stone-100 my-8" />
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="p-6 bg-stone-50 rounded-3xl space-y-3">
+          <h4 class="text-xs font-black uppercase tracking-wider text-amber-800 m-0">Contraindicated Herbs & Foods</h4>
+          <ul class="list-disc pl-4 text-xs text-stone-650 space-y-1">
+            {interaction.contraindicatedHerbs.map((c: any) => (
+              <li><strong>✕ {c}</strong> — Can alter the absorption or clearance of your medication.</li>
+            ))}
+          </ul>
+          <p class="text-[10px] text-stone-500 pt-2 leading-relaxed">
+            Consuming contraindicated botanicals can lead to unpredictable changes in how your body processes your medication, potentially reducing its effectiveness or increasing the risk of adverse side effects.
+          </p>
+        </div>
+
+        <div class="p-6 bg-stone-50 rounded-3xl space-y-3">
+          <h4 class="text-xs font-black uppercase tracking-wider text-emerald-800 m-0">Synergistic Herbal Support</h4>
+          <ul class="list-disc pl-4 text-xs text-stone-650 space-y-1">
+            {interaction.synergisticHerbs.map((s: any) => (
+              <li><strong>✓ {s}</strong> — May help support relevant metabolic pathways under clinical guidance.</li>
+            ))}
+          </ul>
+          <p class="text-[10px] text-stone-500 pt-2 leading-relaxed">
+            These synergistic botanicals can support cellular health and promote overall wellness when safely integrated into your routine under professional clinical supervision.
+          </p>
+        </div>
+      </div>
+
+      <div class="pt-6 space-y-4">
+        <h3 class="text-xl font-bold text-emerald-900 m-0">Collaborative Clinical Management</h3>
+        <p class="text-sm leading-relaxed text-stone-650">
+          This drug-nutrient interaction registry is designed to support the collaborative relationship between patients, clinical nutritionists, and prescribing physicians. Regularly monitoring relevant biomarkers—such as blood nutrient levels, liver clearance enzymes, and kidney function parameters—allows for data-driven adjustments to your care plan. Always coordinate any changes to your medication or supplement routine with your healthcare team to ensure clinical safety and optimal outcomes.
+        </p>
+      </div>
+
+      {interaction.citations && interaction.citations.length > 0 && (
+        <div class="pt-8 border-t border-stone-100 space-y-6">
+          <h3 class="text-xl font-black text-emerald-950 m-0">Clinical Evidence & Citations</h3>
+          <div class="grid md:grid-cols-2 gap-4">
+            {interaction.citations.map((cite: any) => (
+              <div class="text-xs space-y-1 border-l-2 border-emerald-250 pl-3">
+                <p class="font-bold text-stone-700 m-0">{cite.text}</p>
+                <a href={cite.url} target="_blank" rel="noopener noreferrer" class="text-emerald-800 hover:underline block truncate">
+                  PubMed Database Link →
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+    </section>
+  </div>
+</BaseLayout>
+</div>

@@ -1,0 +1,129 @@
+{
+  "version": "1.0.0",
+  "description": "Clinical conditions database for AI search engines and federated queries",
+  "lastUpdated": "2026-07-04T00:00:00Z",
+  "author": "Dr. Shilpa Thakur, Ph.D.",
+  "license": "All rights reserved. Data may be referenced with attribution.",
+  "conditions": [
+    {
+      "id": "insulin-resistance",
+      "name": "Insulin Resistance",
+      "url": "https://nutritioncolours.com/condition/insulin-resistance",
+      "rootCause": "Ectopic fat buildup inside liver and muscle cells blocks the IRS-1 signaling pathway",
+      "keyBiomarkers": ["HOMA-IR", "Fasting Insulin", "HbA1c", "Triglycerides"],
+      "therapeuticSpices": ["Turmeric", "Cinnamon", "Fenugreek", "Bitter Melon"],
+      "prohibitedFoods": ["Processed Fructose", "Refined Grains", "Seed Oils"],
+      "evidenceLevel": "moderate",
+      "ontologyRefs": {
+        "wikidata": "Q2745706",
+        "mesh": "D009102",
+        "snomed": "237645002"
+      }
+    },
+    {
+      "id": "pcod-pcos",
+      "name": "PCOD/PCOS",
+      "url": "https://nutritioncolours.com/condition/pcod-pcos",
+      "rootCause": "Hyperinsulinemia drives ovarian theca cells to overproduce androgens",
+      "keyBiomarkers": ["LH/FSH Ratio", "Free Testosterone", "SHBG", "Fasting Insulin"],
+      "therapeuticSpices": ["Spearmint", "Turmeric", "Cinnamon", "Fenugreek"],
+      "prohibitedFoods": ["Dairy", "Processed Sugar", "Refined Carbohydrates"],
+      "evidenceLevel": "moderate",
+      "ontologyRefs": {
+        "wikidata": "Q11663",
+        "mesh": "D011085",
+        "snomed": "237645003"
+      }
+    },
+    {
+      "id": "masld",
+      "name": "MASLD (Fatty Liver)",
+      "url": "https://nutritioncolours.com/condition/masld",
+      "rootCause": "Chronic caloric excess and fructose overload overwhelm hepatic lipid oxidation capacity",
+      "keyBiomarkers": ["ALT", "AST", "GGT", "Hepatic Fat %"],
+      "therapeuticSpices": ["Turmeric", "Milk Thistle", "Dandelion Root", "Ginger"],
+      "prohibitedFoods": ["Alcohol", "Processed Fructose", "Trans Fats"],
+      "evidenceLevel": "moderate",
+      "ontologyRefs": {
+        "wikidata": "Q1076384",
+        "mesh": "D008113",
+        "snomed": "235858005"
+      }
+    },
+    {
+      "id": "diabetes-reversal",
+      "name": "Type 2 Diabetes",
+      "url": "https://nutritioncolours.com/condition/diabetes-reversal",
+      "rootCause": "Chronic insulin resistance leading to pancreatic beta-cell exhaustion",
+      "keyBiomarkers": ["HbA1c", "Fasting Glucose", "C-Peptide", "HOMA-B"],
+      "therapeuticSpices": ["Turmeric", "Cinnamon", "Fenugreek", "Bitter Melon", "Gymnema"],
+      "prohibitedFoods": ["White Rice", "Processed Sugar", "Refined Flour"],
+      "evidenceLevel": "moderate",
+      "ontologyRefs": {
+        "wikidata": "Q127980",
+        "mesh": "D003924",
+        "snomed": "44054006"
+      }
+    },
+    {
+      "id": "thyroid-dysfunction",
+      "name": "Hypothyroidism",
+      "url": "https://nutritioncolours.com/condition/thyroid-dysfunction",
+      "rootCause": "Nutrient deficiencies and autoimmune attack on thyroid follicular cells",
+      "keyBiomarkers": ["TSH", "Free T3", "Free T4", "TPO Antibodies"],
+      "therapeuticSpices": ["Ashwagandha", "Ginger", "Turmeric", "Black Seed"],
+      "prohibitedFoods": ["Raw Cruciferous Vegetables", "Gluten", "Soy"],
+      "evidenceLevel": "limited",
+      "ontologyRefs": {
+        "wikidata": "Q12223",
+        "mesh": "D008109",
+        "snomed": "40930008"
+      }
+    },
+    {
+      "id": "hypertension",
+      "name": "Hypertension",
+      "url": "https://nutritioncolours.com/condition/hypertension",
+      "rootCause": "Insulin-mediated sodium retention and reduced nitric oxide synthesis",
+      "keyBiomarkers": ["Systolic BP", "Diastolic BP", "Aldosterone", "Renin"],
+      "therapeuticSpices": ["Garlic", "Hibiscus", "Celery Seed", "Cardamom"],
+      "prohibitedFoods": ["Sodium", "Licorice", "Processed Foods"],
+      "evidenceLevel": "moderate",
+      "ontologyRefs": {
+        "wikidata": "Q154426",
+        "mesh": "D006973",
+        "snomed": "38341003"
+      }
+    },
+    {
+      "id": "gut-health",
+      "name": "Gut Health & Leaky Gut",
+      "url": "https://nutritioncolours.com/condition/gut-health",
+      "rootCause": "Intestinal tight junction dysfunction allowing endotoxin translocation",
+      "keyBiomarkers": ["Zonulin", "LPS", "Calprotectin", "Secretory IgA"],
+      "therapeuticSpices": ["Turmeric", "Ginger", "Slippery Elm", "Marshmallow Root"],
+      "prohibitedFoods": ["Gluten", "Alcohol", "NSAIDs"],
+      "evidenceLevel": "moderate",
+      "ontologyRefs": {
+        "wikidata": "Q127995",
+        "mesh": "D004750",
+        "snomed": "397825006"
+      }
+    },
+    {
+      "id": "circadian-dysregulation",
+      "name": "Circadian Dysregulation",
+      "url": "https://nutritioncolours.com/condition/circadian-dysregulation",
+      "rootCause": "Misalignment between peripheral metabolic clocks and the central SCN pacemaker",
+      "keyBiomarkers": ["Melatonin", "Cortisol Rhythm", "Core Body Temp", "Actigraphy"],
+      "therapeuticSpices": ["Ashwagandha", "Saffron", "Chamomile", "Valerian"],
+      "prohibitedFoods": ["Late Night Meals", "Caffeine After 2PM", "Blue Light Exposure"],
+      "evidenceLevel": "moderate",
+      "ontologyRefs": {
+        "wikidata": "Q1069478",
+        "mesh": "D066265",
+        "snomed": "78561005"
+      }
+    }
+  ]
+}

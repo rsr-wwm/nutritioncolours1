@@ -1,0 +1,11 @@
+{
+  "name": "mango",
+  "description": "Placeholder description for mango.",
+  "nutrition": {
+    "calories": 145,
+    "sugar": 12,
+    "fiber": 9
+  },
+  "source": "mock-data",
+  "retrievedAt": "2026-07-14T17:10:53.512Z"
+}

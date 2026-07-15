@@ -1,0 +1,14 @@
+/* src/styles/animations.css */
+.parallax-layer {
+  will-change: transform;
+  /* Default speed factor, can be overridden via data-speed attribute */
+  --speed: 0.3;
+  transform: translate3d(0, 0, 0) scale(1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .parallax-layer {
+    transform: none !important;
+    transition: none !important;
+  }
+}

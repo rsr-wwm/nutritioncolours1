@@ -1,0 +1,86 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SmartMealGenerator } from '../components/SmartMealGenerator';
+import { RECIPES } from '../data/recipes';
+
+const SITE_URL = (Astro.site || 'https://nutritioncolours.com').toString().replace(/\/$/, '');
+const recipesIndexSchema = {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "url": `${SITE_URL}/recipes`,
+  "name": "Clinical Metabolic Recipes Directory | NutritionColours",
+  "description": "Browse circadian-aligned recipes designed to lower glycemic load, support diabetes reversal, and optimize insulin sensitivity.",
+  "publisher": { "@id": `${SITE_URL}/#organization` }
+};
+---
+<div data-ai-answer="true">
+<BaseLayout
+  title="Metabolic Healing Recipes & Circadian Kitchen | NutritionColours"
+  description="Explore our clinical metabolic recipe directory. Access circadian-aligned meal plans, low-glycemic starches, and therapeutic spice guidelines."
+  keywords={["metabolic recipes", "circadian cooking", "diabetes friendly meals", "low glycemic index recipes"]}
+>
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(recipesIndexSchema)} />
+
+  <SmartMealGenerator client:load />
+
+  {/* Rich Server-Rendered Recipes Directory (SEO / AEO / AIO / View-Source Law) */}
+  <div class="max-w-7xl mx-auto px-6 pb-24 -mt-12">
+    <section class="prose prose-emerald max-w-none text-stone-700 bg-white p-8 md:p-12 rounded-[40px] border border-stone-150/40 shadow-sm space-y-8">
+      
+      <div>
+        <span class="text-emerald-700 font-black uppercase tracking-[0.2em] text-[10px] block mb-2">Therapeutic Kitchen Registry</span>
+        <h2 class="text-3xl font-black text-emerald-950 brand-font leading-tight m-0">
+          Circadian-Aligned Recipes & Meal Guidelines
+        </h2>
+        <p class="text-sm text-stone-500 leading-relaxed m-0 pt-2">
+          Food is biological information. Our clinical recipe database contains meal structures designed to align nutrient digestion with the body's daily metabolic clock.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6 pt-4">
+        {RECIPES.map((recipe: any) => (
+          <div class="p-6 bg-stone-50 rounded-3xl border border-stone-100 flex flex-col justify-between space-y-4">
+            <div class="space-y-2">
+              <span class="text-[9px] font-black uppercase tracking-widest text-emerald-700 block">
+                {recipe.category}
+              </span>
+              <h4 class="text-base font-extrabold text-emerald-950 m-0">
+                {recipe.title}
+              </h4>
+              <p class="text-xs text-stone-550 leading-relaxed line-clamp-3 m-0">
+                {recipe.description}
+              </p>
+            </div>
+            
+            <div class="space-y-2 border-t border-stone-200/60 pt-3">
+              <div class="flex justify-between text-[10px] font-bold text-stone-500">
+                <span>Metabolic Load:</span>
+                <span class="text-emerald-950 font-black">{recipe.calories} KCAL</span>
+              </div>
+              <a
+                href={`/recipe/${recipe.id}`}
+                class="w-full text-center block py-2 rounded-xl bg-white hover:bg-emerald-50 text-xs font-black uppercase border border-stone-200 text-stone-700 hover:text-emerald-900 transition-all"
+              >
+                View Protocol ↗
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <hr class="border-stone-100 my-8" />
+
+      <div class="pt-4 space-y-4">
+        <h3 class="text-xl font-bold text-emerald-900 m-0">Pathophysiology of Chrono-Nutrition</h3>
+        <p class="text-sm leading-relaxed text-stone-650">
+          Metabolic restoration requires moving away from calorie restriction toward strict meal timing. Human glycemic tolerance is heavily regulated by circadian clock genes, with insulin sensitivity peaking during early daylight hours and declining after sunset. By scheduling carbohydrate-rich ingredients (such as ancestral millets, jowar, and jaggery alternatives) before 2:00 PM and restricting evening intakes, our protocols help prevent overnight blood glucose spikes, lower fatty liver lipid accumulation, and support healthy cellular repair.
+        </p>
+        <p class="text-sm leading-relaxed text-stone-650">
+          Always consult our clinical team or a registered dietitian to match these recipes with your specific metabolic biomarkers (including HbA1c, fasting insulin, and lipid panels) for safe, personalized health outcomes.
+        </p>
+      </div>
+
+    </section>
+  </div>
+</BaseLayout>
+</div>
