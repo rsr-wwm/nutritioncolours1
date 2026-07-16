@@ -121,3 +121,21 @@ Redirect 301 /hypertension        /condition/hypertension
   ExpiresByType font/woff2 "access plus 1 year"
   ExpiresByType application/font-woff "access plus 1 year"
 </IfModule>
+
+# --- Cache-Control Headers (LiteSpeed/Apache mod_headers) -------------------
+<IfModule mod_headers.c>
+  # 1. Content-hashed static assets (CSS, JS, Fonts) - cache forever, never revalidate
+  <FilesMatch "\.(css|js|woff|woff2|otf|ttf)$">
+    Header set Cache-Control "max-age=31536000, public, immutable"
+  </FilesMatch>
+
+  # 2. Media assets (images, icons) - cache long-term
+  <FilesMatch "\.(jpg|jpeg|png|gif|webp|svg|ico)$">
+    Header set Cache-Control "max-age=31536000, public"
+  </FilesMatch>
+
+  # 3. HTML & API responses - cache briefly, must revalidate
+  <FilesMatch "\.(html|xml|json)$">
+    Header set Cache-Control "max-age=14400, public, must-revalidate"
+  </FilesMatch>
+</IfModule>
