@@ -1,7 +1,7 @@
 ---
 title: "Cholecalciferol"
 description: "Brief overview of cholecalciferol, covering its health benefits, nutritional profile, and typical culinary uses."
-slug: "Cholecalciferol"
+slug: "Cholecalciferol - Database"
 category: "Nutrient Database"
 subCategory: "Calciferols"
 author: "NutritionColours Editorial Team"

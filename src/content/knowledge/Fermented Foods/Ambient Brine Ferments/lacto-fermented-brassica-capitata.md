@@ -1,7 +1,7 @@
 ---
 title: "Lacto Fermented Brassica Capitata"
 description: "Brief overview of lacto fermented brassica capitata, covering its health benefits, nutritional profile, and typical culinary uses."
-slug: "Lacto Fermented Brassica Capitata"
+slug: "Lacto Fermented Brassica Capitata - Brine"
 category: "Fermented Foods"
 subCategory: "Ambient Brine Ferments"
 author: "NutritionColours Editorial Team"

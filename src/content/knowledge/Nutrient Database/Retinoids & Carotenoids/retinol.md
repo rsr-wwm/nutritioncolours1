@@ -1,7 +1,7 @@
 ---
 title: "Retinol"
 description: "Brief overview of retinol, covering its health benefits, nutritional profile, and typical culinary uses."
-slug: "Retinol"
+slug: "Retinol - Database"
 category: "Nutrient Database"
 subCategory: "Retinoids & Carotenoids"
 author: "NutritionColours Editorial Team"

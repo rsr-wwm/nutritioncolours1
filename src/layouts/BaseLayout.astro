@@ -8,13 +8,20 @@ import PredictivePrefetcher from '../components/PredictivePrefetcher';
 import Icons from '../components/Icons.astro';
 import { TEAM } from '../lib/constants';
 import { ClientRouter } from 'astro:transitions';
-import '../styles/globals.css';
+import { renderSeoMeta } from '../lib/seo/injectSeoMeta.ts';
+import { generateMeta } from '../lib/seo/generateMeta.ts';
 import ParallaxWrapper from '../lib/animations/parallax.jsx';
 
 interface Props {
   title?: string;
   description?: string;
-  keywords?: string[];
+  keywords?: string[]; // hybrid support
+  geo?: {
+    region: string;
+    placename: string;
+    position: string;
+  };
+
   canonicalUrl?: string;
   ogImage?: string;
   aiSummary?: string;
@@ -26,7 +33,8 @@ const {
   keywords = ["Diabetes Nutrition Support India", "PCOD Diet Plan", "Clinical Nutritionist Online", "Dr Shilpa Thakur", "Fatty Liver Nutrition"],
   canonicalUrl = Astro.url.pathname,
   ogImage,
-  aiSummary
+  aiSummary,
+  geo
 } = Astro.props;
 
 // Site-wide entity graph — Organization + founder Person, real fields only
@@ -82,7 +90,7 @@ const organizationSchema = {
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
-    <Seo title={title} description={description} keywords={keywords} canonicalUrl={canonicalUrl} ogImage={resolvedOgImage} aiSummary={aiSummary} />
+        <Fragment set:html={renderSeoMeta(generateMeta({ title, description, ogImage: resolvedOgImage, keywords, canonicalUrl, geo }))} />
 
     {/* RSS Feed */}
     <link rel="alternate" type="application/rss+xml" title="NutritionColours Insights Feed" href="/rss.xml" />
@@ -136,18 +144,13 @@ const organizationSchema = {
     </style>
 
     <style is:global>
-      @scroll-timeline scrollAnim {
-    source: auto;
-    orientation: block;
-  }
   @keyframes fadeInUp {
     from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: none; }
   }
   main > section {
     animation: fadeInUp 0.8s ease-out both;
-    scroll-timeline: scrollAnim;
-    animation-timeline: scrollAnim;
+    animation-timeline: scroll();
   }
 </style>
   </head>

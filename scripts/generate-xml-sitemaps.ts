@@ -218,6 +218,46 @@ async function generateSitemaps() {
   fs.writeFileSync(path.join(PUBLIC_DIR, 'sitemap.xml'), indexXml);
 
   console.log(`[Sitemap Generator] SUCCESS! Generated sitemap index + ${sitemapFiles.length} sharded files.`);
+  
+  // Submit all URLs to IndexNow if explicitly enabled
+  if (process.env.INDEXNOW_PING === 'true') {
+    await pingIndexNow(allUrls);
+  } else {
+    console.log('[IndexNow] Skipping search engine ping (requires live deployment. Run with INDEXNOW_PING=true to force).');
+  }
+}
+
+async function pingIndexNow(urls: string[]) {
+  const host = 'nutritioncolours.com';
+  const key = '8d228f4de13a48e78bc9280d0d8beeb7';
+  const keyLocation = `https://${host}/${key}.txt`;
+  
+  console.log(`[IndexNow] Pinging search engines with ${urls.length} URLs...`);
+  
+  const payload = {
+    host,
+    key,
+    keyLocation,
+    urlList: urls
+  };
+  
+  try {
+    const response = await fetch('https://api.indexnow.org/indexnow', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json; charset=utf-8'
+      },
+      body: JSON.stringify(payload)
+    });
+    
+    if (response.ok) {
+      console.log('[IndexNow] Ping succeeded! Search engines notified.');
+    } else {
+      console.error(`[IndexNow] Ping failed: ${response.status} ${response.statusText}`);
+    }
+  } catch (err) {
+    console.error('[IndexNow] Ping network error:', err);
+  }
 }
 
 function buildSitemapXml(urls: string[]): string {

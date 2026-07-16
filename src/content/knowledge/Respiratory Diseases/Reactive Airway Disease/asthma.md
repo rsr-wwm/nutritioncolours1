@@ -1,7 +1,6 @@
 ---
 title: "Asthma"
 description: "Brief overview of asthma, covering its health benefits, nutritional profile, and typical culinary uses."
-slug: "Asthma"
 category: "Respiratory Diseases"
 subCategory: "Reactive Airway Disease"
 author: "NutritionColours Editorial Team"

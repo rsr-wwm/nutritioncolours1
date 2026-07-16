@@ -17,7 +17,9 @@
     "check": "astro check",
     "astro": "astro",
     "freshness": "tsx scripts/generate-content-freshness.ts",
-    "add-frontmatter": "node scripts/add-astro-frontmatter.js"
+    "add-frontmatter": "node scripts/add-astro-frontmatter.js",
+    "ping-indexnow": "tsx scripts/ping-indexnow.ts",
+    "postbuild": "tsx scripts/verify-meta-alt.ts"
   },
   "dependencies": {
     "@astrojs/react": "6.0.1",

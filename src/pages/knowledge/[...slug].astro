@@ -97,18 +97,20 @@ export async function getStaticPaths() {
       };
     });
 
-    paths.push({
-      params: { slug: mc.slug },
-      props: {
-        type: 'mainCategory',
-        mainCategory: {
-          slug: mc.slug,
-          name: mc.name,
-          info: PILLARS[mc.slug],
-          categories: categoriesList
+    if (mc.slug !== 'herbs' && mc.slug !== 'spices') {
+      paths.push({
+        params: { slug: mc.slug },
+        props: {
+          type: 'mainCategory',
+          mainCategory: {
+            slug: mc.slug,
+            name: mc.name,
+            info: PILLARS[mc.slug],
+            categories: categoriesList
+          }
         }
-      }
-    });
+      });
+    }
   });
 
   // 3. Generate Category routes (Level 2)

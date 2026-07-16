@@ -1,7 +1,6 @@
 ---
 title: "Type 2 Diabetes"
 description: "Brief overview of type 2 diabetes, covering its health benefits, nutritional profile, and typical culinary uses."
-slug: "Type 2 Diabetes"
 category: "Endocrine Disorders"
 subCategory: "Diabetes Mellitus"
 author: "NutritionColours Editorial Team"

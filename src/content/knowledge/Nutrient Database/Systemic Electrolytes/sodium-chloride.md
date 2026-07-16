@@ -1,7 +1,7 @@
 ---
 title: "Sodium Chloride"
 description: "Brief overview of sodium chloride, covering its health benefits, nutritional profile, and typical culinary uses."
-slug: "Sodium Chloride"
+slug: "Sodium Chloride - Database"
 category: "Nutrient Database"
 subCategory: "Systemic Electrolytes"
 author: "NutritionColours Editorial Team"

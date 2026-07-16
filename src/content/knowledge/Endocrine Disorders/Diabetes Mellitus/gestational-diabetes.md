@@ -1,7 +1,6 @@
 ---
 title: "Gestational Diabetes"
 description: "Brief overview of gestational diabetes, covering its health benefits, nutritional profile, and typical culinary uses."
-slug: "Gestational Diabetes"
 category: "Endocrine Disorders"
 subCategory: "Diabetes Mellitus"
 author: "NutritionColours Editorial Team"

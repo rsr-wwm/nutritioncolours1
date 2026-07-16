@@ -21,6 +21,9 @@ export default defineConfig({
     },
     ssr: {
       noExternal: ['gsap']
+    },
+    build: {
+      chunkSizeWarningLimit: 2000
     }
   }
 });

@@ -1,7 +1,6 @@
 ---
 title: "Osteoporosis"
 description: "Placeholder description for Osteoporosis."
-slug: "osteoporosis"
 category: "Osteoporosis"
 subCategory: "Osteoporosis"
 author: "NutritionColours Editorial Team"

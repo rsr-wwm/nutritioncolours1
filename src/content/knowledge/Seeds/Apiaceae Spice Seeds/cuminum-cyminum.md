@@ -1,7 +1,7 @@
 ---
 title: "Cuminum Cyminum"
 description: "Brief overview of cuminum cyminum, covering its health benefits, nutritional profile, and typical culinary uses."
-slug: "Cuminum Cyminum"
+slug: "Cuminum Cyminum - Seed"
 category: "Seeds"
 subCategory: "Apiaceae Spice Seeds"
 author: "NutritionColours Editorial Team"

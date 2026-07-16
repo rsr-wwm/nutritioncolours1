@@ -1,7 +1,6 @@
 ---
 title: "Type 1 Diabetes"
 description: "Brief overview of type 1 diabetes, covering its health benefits, nutritional profile, and typical culinary uses."
-slug: "Type 1 Diabetes"
 category: "Endocrine Disorders"
 subCategory: "Diabetes Mellitus"
 author: "NutritionColours Editorial Team"
