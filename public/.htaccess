@@ -85,3 +85,39 @@ Redirect 301 /masld               /condition/masld
 Redirect 301 /insulin-resistance  /condition/insulin-resistance
 Redirect 301 /thyroid             /condition/thyroid-dysfunction
 Redirect 301 /hypertension        /condition/hypertension
+
+# --- Browser & CDN Caching (LiteSpeed/Apache mod_expires) --------------------
+<IfModule mod_expires.c>
+  ExpiresActive On
+  
+  # Default caching rule (2 days)
+  ExpiresDefault "access plus 2 days"
+  
+  # HTML/XML files (cache briefly, revalidate frequently)
+  ExpiresByType text/html "access plus 4 hours"
+  ExpiresByType application/xhtml+xml "access plus 4 hours"
+  ExpiresByType application/xml "access plus 1 hour"
+  ExpiresByType application/rss+xml "access plus 1 hour"
+  ExpiresByType application/json "access plus 1 hour"
+  
+  # Static assets - CSS and JS (content-hashed by Astro, safe to cache long-term)
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType text/javascript "access plus 1 month"
+  
+  # Media assets (images, icons, vectors)
+  ExpiresByType image/jpg "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType image/x-icon "access plus 1 year"
+  
+  # Font files
+  ExpiresByType font/ttf "access plus 1 year"
+  ExpiresByType font/otf "access plus 1 year"
+  ExpiresByType font/woff "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType application/font-woff "access plus 1 year"
+</IfModule>
