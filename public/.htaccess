@@ -93,13 +93,6 @@ Redirect 301 /hypertension        /condition/hypertension
   # Default caching rule (2 days)
   ExpiresDefault "access plus 2 days"
   
-  # HTML/XML files (cache briefly, revalidate frequently)
-  ExpiresByType text/html "access plus 4 hours"
-  ExpiresByType application/xhtml+xml "access plus 4 hours"
-  ExpiresByType application/xml "access plus 1 hour"
-  ExpiresByType application/rss+xml "access plus 1 hour"
-  ExpiresByType application/json "access plus 1 hour"
-  
   # Static assets - CSS and JS (content-hashed by Astro, safe to cache long-term)
   ExpiresByType text/css "access plus 1 month"
   ExpiresByType application/javascript "access plus 1 month"
@@ -134,8 +127,8 @@ Redirect 301 /hypertension        /condition/hypertension
     Header set Cache-Control "max-age=31536000, public"
   </FilesMatch>
 
-  # 3. HTML & API responses - cache briefly, must revalidate
+  # 3. HTML & API responses - must validate before serving (instant updates after deploy)
   <FilesMatch "\.(html|xml|json)$">
-    Header set Cache-Control "max-age=14400, public, must-revalidate"
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
   </FilesMatch>
 </IfModule>
