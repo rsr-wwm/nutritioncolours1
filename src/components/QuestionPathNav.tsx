@@ -50,7 +50,7 @@ export const QuestionPathNav: React.FC<QuestionPathNavProps> = ({ currentId, nav
     <section
       className="question-path-nav bg-gradient-to-br from-emerald-50 to-stone-50 border border-emerald-100 rounded-3xl p-6 space-y-5"
       aria-label="Follow-up Questions"
-      data-ai-answer="true"
+     
       data-snippet-type="conversationTree"
     >
       <div className="flex items-center gap-3">
@@ -64,7 +64,7 @@ export const QuestionPathNav: React.FC<QuestionPathNavProps> = ({ currentId, nav
       <div className="bg-white rounded-2xl p-4 border border-emerald-200/50 shadow-sm">
         <p className="text-xs font-bold text-emerald-700 uppercase tracking-widest mb-2">People Also Ask</p>
         <p className="text-sm font-bold text-emerald-950 leading-snug">{tree.root}</p>
-        <p className="text-xs text-stone-600 mt-2 leading-relaxed" data-ai-answer="true">
+        <p className="text-xs text-stone-600 mt-2 leading-relaxed">
           {tree.rootAnswer}
         </p>
       </div>
@@ -88,7 +88,7 @@ export const QuestionPathNav: React.FC<QuestionPathNavProps> = ({ currentId, nav
                 </p>
                 {expandedQ === idx && (
                   <div className="mt-2 space-y-2">
-                    <p className="text-xs text-stone-600 leading-relaxed" data-ai-answer="true">
+                    <p className="text-xs text-stone-600 leading-relaxed">
                       {fu.a}
                     </p>
                     <a

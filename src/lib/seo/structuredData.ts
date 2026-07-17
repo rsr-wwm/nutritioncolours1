@@ -21,7 +21,10 @@ export const organization = {
     "jobTitle": "Clinical Nutritionist & Founder",
     "url": "https://nutritioncolours.com/team/shilpa",
     "image": "https://nutritioncolours.com/images/precision_metabolic_nutrition_dr_shilpa.webp"
-  }
+  } 
+// NOTE: All YMYL pages must contain a disclaimer and use the MedicalWebPage schema.
+// The schema generator (`entityGraph.ts`) already adds the `MedicalWebPage` type.
+// Do NOT add fabricated `LocalBusiness` or `MedicalClinic` data with invented addresses.
 };
 
 export const localBusiness = {

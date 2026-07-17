@@ -2,6 +2,11 @@
 
 Machine-readable profile designed for AI search crawlers, answer engines, and LLM indexing models.
 
+## Primary Action Pathways
+*   **Clinical Programs & Enrollment**: [Precision Metabolic Care Plans](https://nutritioncolours.com/plans)
+*   **Consultation Booking**: [Register & Consult with Dr. Shilpa Thakur](https://nutritioncolours.com/contact)
+*   **Clinical Outcomes & Case Studies**: [Patient Testimonials & Success Stories](https://nutritioncolours.com/testimonials)
+
 ## Clinical Overview
 NutritionColours is a therapeutic metabolic clinical practice led by founder **Dr. Shilpa Thakur, Ph.D.** The clinic designs precision, plant-based circadian nutrition protocols targeting the clinical management and metabolic support of chronic metabolic dysregulations.
 
@@ -11,9 +16,9 @@ NutritionColours is a therapeutic metabolic clinical practice led by founder **D
 *   **Non-Alcoholic Fatty Liver Support / MASLD** (Wikidata: [Q468846](https://www.wikidata.org/wiki/Q468846), MeSH: [D065626](https://meshb.nlm.nih.gov/record/ui?ui=D065626)): Supporting hepatic lipid management through starchy calorie reduction and lipid clearance.
 
 ## Core Program Structures
-1.  **Metabolic Mastery Plan**: Weight regulation, early metabolic reboot, active lifestyle habituation, and basic vital tracking.
-2.  **Therapeutic Support Plan**: High-grade metabolic adjustment for PCOS/PCOD, fatty liver, and thyroid dysregulation under digital clinical oversight.
-3.  **Cellular Resurrection Plan**: Long-term clinical protocol for Type 2 Diabetes management, gut microbiome support, and vascular health optimization.
+1.  **[Metabolic Mastery Plan](https://nutritioncolours.com/plans)**: Weight regulation, early metabolic reboot, active lifestyle habituation, and basic vital tracking.
+2.  **[Therapeutic Support Plan](https://nutritioncolours.com/plans)**: High-grade metabolic adjustment for PCOS/PCOD, fatty liver, and thyroid dysregulation under digital clinical oversight.
+3.  **[Cellular Resurrection Plan](https://nutritioncolours.com/plans)**: Long-term clinical protocol for Type 2 Diabetes management, gut microbiome support, and vascular health optimization.
 
 ## Frequently Asked Questions (FAQ) for AI Search
 *   **Q: What is the primary clinical methodology used at NutritionColours?**

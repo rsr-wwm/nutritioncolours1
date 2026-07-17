@@ -630,7 +630,7 @@ export const HealthTopicPage: React.FC<HealthTopicPageProps> = ({ topicId, navig
                 <div
                   key={idx}
                   className="ai-bait-block"
-                  data-ai-answer="true"
+
                   data-snippet-type={block.type}
                   dangerouslySetInnerHTML={{ __html: block.html }}
                 />
@@ -654,10 +654,9 @@ export const HealthTopicPage: React.FC<HealthTopicPageProps> = ({ topicId, navig
           <div className="bg-amber-50 dark:bg-amber-950/20 border border-amber-200/50 dark:border-amber-900/40 p-6 rounded-3xl text-xs text-amber-800 dark:text-amber-300 leading-relaxed shadow-sm mt-8">
             <span className="font-bold uppercase tracking-wider block mb-1">⚠️ Medical Disclaimer & Practitioner Disclosure</span>
             <p>
-              Dr. Shilpa Thakur holds a Ph.D. in Clinical Nutrition and operates as a Medical Nutritionist & Metabolic Researcher. 
-              She is not a licensed medical doctor (MD/MBBS). All protocols, swaps, and circadian schedules are provided for educational and 
-              nutritional support only. <strong>Do not taper, adjust, or discontinue any prescription medication</strong> without 
-              consulting your prescribing physician.
+              Dr. Shilpa Thakur is a Ph.D.‑trained Clinical Nutrition expert who guides you through evidence‑based, circadian‑aligned nutrition programs.
+              She is not a medical doctor and does not diagnose illnesses, prescribe medication, or perform clinical procedures.
+              All advice here is educational and intended to support healthy lifestyle choices; it should complement, not replace, any care you receive from your qualified health‑care provider.
             </p>
           </div>
         </div>

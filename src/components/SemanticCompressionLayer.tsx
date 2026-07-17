@@ -49,7 +49,7 @@ export const SemanticCompressionLayer: React.FC<SemanticCompressionLayerProps> =
       className="semantic-compression-layer space-y-3"
       aria-label={`Progressive disclosure: ${topicName}`}
       data-semantic-depth="4"
-      data-ai-answer="true"
+     
     >
       {/* Layer 1: Concise Answer — always visible */}
       <div

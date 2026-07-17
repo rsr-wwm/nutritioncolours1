@@ -31,7 +31,7 @@ files.forEach(file => {
   if (endIdxRel === -1) return;
   const endIdx = startIdx + 1 + endIdxRel;
 
-  const openTag = '<div data-ai-answer="true">';
+  const openTag = '<div>';
   const closeTag = '</div>';
 
   // Remove stray wrapper tags that are not in correct positions
