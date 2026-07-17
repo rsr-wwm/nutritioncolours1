@@ -14,12 +14,15 @@ async function main() {
   }
 
   // Get the main repo's remote URL
-  let remoteUrl = '';
+  let remoteUrl = 'https://github.com/rsr-wwm/nutritioncolours1.git';
   try {
-    remoteUrl = execSync('git config --get remote.origin.url', { encoding: 'utf8' }).trim();
+    const remotes = execSync('git remote -v', { encoding: 'utf8' });
+    const match = remotes.match(/(?:origin-hold|origin)\s+([^\s]+)/);
+    if (match) {
+      remoteUrl = match[1];
+    }
   } catch (err) {
-    console.error('[Error] Could not retrieve Git remote origin URL:', err);
-    process.exit(1);
+    console.log('[Info] Using default remote URL:', remoteUrl);
   }
 
   // Define paths
