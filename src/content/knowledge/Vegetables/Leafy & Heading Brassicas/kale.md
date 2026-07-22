@@ -3,12 +3,11 @@ title: "Kale"
 description: "Brief overview of kale, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Kale"
 category: "Vegetables"
-subCategory: "Leafy & Heading Brassicas"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Leafy & Heading Brassicas"
 seoKeywords: ["kale", "leafy & heading brassicas", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Kale** is a highly valued nutritional agent within the **Leafy & Heading Brassicas** subcategory under the **Vegetables** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Kale** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

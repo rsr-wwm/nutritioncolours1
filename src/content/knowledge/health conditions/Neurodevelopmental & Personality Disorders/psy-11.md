@@ -1,13 +1,13 @@
 ---
 title: "Borderline Personality Disorder: DBT, Emotional Dysregulation & Self-Harm"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Borderline Personality Disorder: DBT, Emotional Dysregulation & Self-Harm."
+slug: "psy-11"
 category: "health conditions"
-subCategory: "Neurodevelopmental & Personality Disorders"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Neurodevelopmental & Personality Disorders"
 seoKeywords: ["psy-11", "neurodevelopmental & personality disorders", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Borderline Personality Disorder: DBT, Emotional Dysregulation & Self-Harm** is a critical clinical pathway within **Neurodevelopmental & Personality Disorders** under the **health conditions** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

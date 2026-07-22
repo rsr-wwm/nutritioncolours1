@@ -1,0 +1,6 @@
+dist/
+node_modules/
+.astro/
+*.min.*
+fix_wrappers.cjs
+public/

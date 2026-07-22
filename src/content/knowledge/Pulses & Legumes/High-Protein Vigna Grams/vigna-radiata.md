@@ -1,15 +1,13 @@
 ---
 title: "Mung Beans — Nutrition, Composition & Health"
 description: "Mung beans (moong dal) — cooked — provide about 105 kcal per 100 g and are considered one of the easiest-to-digest common dals, widely used in Indian khichdi and as sprouts."
+slug: "vigna-radiata"
 category: "Pulses & Legumes"
-subCategory: "High-Protein Vigna Grams"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["mung beans","vigna radiata","folate","plant protein","fiber","magnesium","nutrition","composition"]
-tags: ["gluten-free","easy-to-digest"]
+subCategory: "High-Protein Vigna Grams"
+seoKeywords: ["mung beans", "vigna radiata", "folate", "plant protein", "fiber", "magnesium", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Vigna radiata*

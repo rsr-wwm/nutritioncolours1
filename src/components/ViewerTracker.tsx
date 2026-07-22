@@ -390,7 +390,14 @@ export const ViewerTrackerProvider: React.FC<{ children: React.ReactNode }> = ({
 export const useViewerTracker = () => {
   const context = useContext(ViewerTrackerContext);
   if (context === undefined) {
-    throw new Error('useViewerTracker must be used within a ViewerTrackerProvider');
+    // Return dummy implementation so components outside provider don't crash
+    return {
+      trackInteraction: () => {},
+      sessionsHistory: [],
+      reportsHistory: [],
+      compileDailyReport: () => ({}) as any,
+      clearTrackingData: () => {},
+    };
   }
   return context;
 };

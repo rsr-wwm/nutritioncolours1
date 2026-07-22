@@ -3,12 +3,11 @@ title: "Beta Vulgaris Subsp Vulgaris"
 description: "Brief overview of beta vulgaris subsp vulgaris, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Beta Vulgaris Subsp Vulgaris"
 category: "Vegetables"
-subCategory: "Amaranthaceae Greens"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Amaranthaceae Greens"
 seoKeywords: ["beta vulgaris subsp vulgaris", "amaranthaceae greens", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Beta Vulgaris Subsp Vulgaris** is a highly valued nutritional agent within the **Amaranthaceae Greens** subcategory under the **Vegetables** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Beta Vulgaris Subsp Vulgaris** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

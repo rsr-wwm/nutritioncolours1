@@ -1,13 +1,13 @@
 ---
 title: "Newborn Care: Apgar Score, Reflexes, Jaundice, Feeding & Neonatal Screening"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Newborn Care: Apgar Score, Reflexes, Jaundice, Feeding & Neonatal Screening."
+slug: "life-neonate-1"
 category: "life-stage"
-subCategory: "Newborn Care, Development & Common Conditions"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
-seoKeywords: ["life-neonate-1", "newborn care, development & common conditions", "clinical protocol", "nutrition"]
+subCategory: "Newborn Care, Development & Common Conditions"
+seoKeywords: ["life-neonate-1", "newborn care", "development & common conditions", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Newborn Care: Apgar Score, Reflexes, Jaundice, Feeding & Neonatal Screening** is a critical clinical pathway within **Newborn Care, Development & Common Conditions** under the **life-stage** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

@@ -1,13 +1,13 @@
 ---
 title: "Living with Chronic Illness: Pediatric to Adult Transition Care"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Living with Chronic Illness: Pediatric to Adult Transition Care."
+slug: "spec-3"
 category: "life-stage"
-subCategory: "Chronic Illness Across Life Stages"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Chronic Illness Across Life Stages"
 seoKeywords: ["spec-3", "chronic illness across life stages", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Living with Chronic Illness: Pediatric to Adult Transition Care** is a critical clinical pathway within **Chronic Illness Across Life Stages** under the **life-stage** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

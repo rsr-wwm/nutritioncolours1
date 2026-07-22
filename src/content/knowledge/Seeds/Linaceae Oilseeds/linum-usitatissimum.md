@@ -1,15 +1,13 @@
 ---
 title: "Flaxseed — Nutrition, Composition & Health"
 description: "Flaxseed (alsi) is the richest common plant source of the omega-3 fat ALA, alongside exceptionally high fiber — but its nutrients are only well absorbed when the seed is ground."
+slug: "linum-usitatissimum"
 category: "Seeds"
-subCategory: "Linaceae Oilseeds"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["flaxseed","linum usitatissimum","omega-3 ala","fiber","lignans","magnesium","nutrition","composition"]
-tags: []
+subCategory: "Linaceae Oilseeds"
+seoKeywords: ["flaxseed", "linum usitatissimum", "omega-3 ala", "fiber", "lignans", "magnesium", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Linum usitatissimum*

@@ -165,7 +165,7 @@ const clinicSchema = loc ? {
   <ClinicClientPage
     client:only="react"
     currentPath={`clinic/${id || ''}`}
-    navigate={(path: string) => { window.location.href = '/' + path; }}
+    navigate={(path) => { if (typeof globalThis !== 'undefined' && globalThis.window) globalThis.window.location.href = '/' + path; }}
   />
 </BaseLayout>
 </div>

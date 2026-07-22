@@ -1,6 +1,5 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { GenomicMatcher } from '../../components/GenomicMatcher';
 
 const SITE_URL = (Astro.site || 'https://nutritioncolours.com').toString().replace(/\/$/, '');
 const nutrigenomicsSchema = {
@@ -11,7 +10,6 @@ const nutrigenomicsSchema = {
   "description": "Analyze genetic variants (SNPs) and align dietary protocols with genomic markers like MTHFR, COMT, and FTO."
 };
 ---
-<div data-ai-answer="true">
 <BaseLayout
   title="Nutrigenomics & Dietary Polymorphism Targets"
   description="Analyze genetic variants (SNPs) and align dietary protocols with genomic markers like MTHFR, COMT, and FTO."
@@ -27,11 +25,6 @@ const nutrigenomicsSchema = {
       <p class="text-stone-600 dark:text-stone-400 leading-relaxed text-sm md:text-base font-medium">
         Explore how genetic polymorphisms (SNPs) influence individual nutrient absorption, metabolic pathways, and detoxification capacity.
       </p>
-    </div>
-
-    {/* Client-side Interactive Genomic Matcher Tool */}
-    <div class="bg-stone-50 dark:bg-stone-900/50 rounded-3xl p-6 border border-stone-150/40 dark:border-stone-850">
-      <GenomicMatcher client:load />
     </div>
 
     {/* Rich Server-Rendered Educational & Clinical Guide (SEO/AEO/AIO) */}
@@ -88,4 +81,3 @@ const nutrigenomicsSchema = {
     </section>
   </div>
 </BaseLayout>
-</div>

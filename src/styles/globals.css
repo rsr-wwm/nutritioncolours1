@@ -2,7 +2,30 @@
 
 @import "./designTokens.css";
 
+/* Zero-CLS Fallback Font Metric Overrides */
+@font-face {
+  font-family: "Inter Fallback";
+  src: local("BlinkMacSystemFont"), local("Segoe UI"), local("Roboto"), local("Helvetica Neue"), local("Arial"), local("sans-serif");
+  ascent-override: 90%;
+  descent-override: 22.5%;
+  line-gap-override: 0%;
+  size-adjust: 107.5%;
+}
+
+@font-face {
+  font-family: "Fraunces Fallback";
+  src: local("Georgia"), local("Times New Roman"), local("serif");
+  ascent-override: 104%;
+  descent-override: 30%;
+  line-gap-override: 0%;
+  size-adjust: 100%;
+}
+
 @theme {
+  /* ── Typography ── */
+  --font-sans:    'Inter', 'Inter Fallback', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Fraunces', 'Fraunces Fallback', 'Georgia', serif;
+
   /* Dynamic brand colors mapped to variables */
   --color-brand-primary: var(--brand-primary);
   --color-brand-primary-hover: var(--brand-primary-hover);
@@ -51,6 +74,13 @@
   --shadow-md: 0 4px 10px rgba(0, 0, 0, 0.05);
   --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
+
+/* Brand display font — used for headings and hero text */
+.brand-font {
+  font-family: var(--font-display);
+  font-variation-settings: 'opsz' 40, 'wght' 900;
+}
+
 
 /* Background Intent Utilities */
 @utility bg-canvas {

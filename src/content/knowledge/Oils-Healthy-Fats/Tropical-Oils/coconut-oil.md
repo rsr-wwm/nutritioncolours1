@@ -3,12 +3,11 @@ title: "Coconut Oil"
 description: "Brief overview of coconut oil, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Coconut Oil"
 category: "Oils-Healthy-Fats"
-subCategory: "Tropical-Oils"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Tropical-Oils"
 seoKeywords: ["coconut oil", "tropical-oils", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Coconut Oil** is a highly valued nutritional agent within the **Tropical-Oils** subcategory under the **Oils-Healthy-Fats** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Coconut Oil** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

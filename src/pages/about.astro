@@ -16,7 +16,6 @@ const aboutPageSchema = {
   "mainEntity": { "@id": `${SITE_URL}/#organization` },
 };
 ---
-<div data-ai-answer="true">
   <input type="hidden" name="__bot_check" value="{{random}}" style="display:none;" />
 <BaseLayout title="Our Approach & Philosophy | NutritionColours" description="Learn about our root-cause medical nutrition protocols led by clinical nutritionist Dr. Shilpa Thakur.">
   <script type="application/ld+json" is:inline set:html={JSON.stringify(aboutPageSchema)} />
@@ -74,4 +73,3 @@ const aboutPageSchema = {
     <SharedSections type="faq" faqData={ABOUT_FAQS} faqTitle="Philosophy FAQs" />
   </div>
 </BaseLayout>
-</div>

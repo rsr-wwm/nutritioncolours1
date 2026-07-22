@@ -3,12 +3,11 @@ title: "Pulmonary Embolism & DVT"
 description: "Placeholder description for Pulmonary Embolism & DVT."
 slug: "pulmonary-embolism--dvt"
 category: "Pulmonary Embolism & DVT"
-subCategory: "Pulmonary Embolism & DVT"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Pulmonary Embolism & DVT"
 seoKeywords: ["pulmonary embolism & dvt", "pulmonary embolism & dvt", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Pulmonary Embolism & DVT** is a highly valued nutritional agent within the **Pulmonary Embolism & DVT** subcategory under the **Pulmonary Embolism & DVT** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Pulmonary Embolism & DVT** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

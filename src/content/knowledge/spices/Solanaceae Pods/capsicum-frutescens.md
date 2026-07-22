@@ -3,12 +3,11 @@ title: "Capsicum Frutescens"
 description: "Brief overview of capsicum frutescens, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Capsicum Frutescens"
 category: "spices"
-subCategory: "Solanaceae Pods"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Solanaceae Pods"
 seoKeywords: ["capsicum frutescens", "solanaceae pods", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Capsicum Frutescens** is a highly valued nutritional agent within the **Solanaceae Pods** subcategory under the **spices** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Capsicum Frutescens** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

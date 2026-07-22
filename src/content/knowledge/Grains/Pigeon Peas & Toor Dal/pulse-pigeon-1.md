@@ -1,13 +1,13 @@
 ---
 title: "Pigeon Peas: Toor Dal, Arhar & the Tropical Drought-Resistant Legume"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Pigeon Peas: Toor Dal, Arhar & the Tropical Drought-Resistant Legume."
+slug: "pulse-pigeon-1"
 category: "Grains"
-subCategory: "Pigeon Peas & Toor Dal"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Pigeon Peas & Toor Dal"
 seoKeywords: ["pulse-pigeon-1", "pigeon peas & toor dal", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Pigeon Peas: Toor Dal, Arhar & the Tropical Drought-Resistant Legume** is a critical clinical pathway within **Pigeon Peas & Toor Dal** under the **Grains** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

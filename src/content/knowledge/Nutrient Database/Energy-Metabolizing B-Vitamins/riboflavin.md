@@ -3,12 +3,11 @@ title: "Riboflavin"
 description: "Brief overview of riboflavin, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Riboflavin"
 category: "Nutrient Database"
-subCategory: "Energy-Metabolizing B-Vitamins"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Energy-Metabolizing B-Vitamins"
 seoKeywords: ["riboflavin", "energy-metabolizing b-vitamins", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Riboflavin** is a highly valued nutritional agent within the **Energy-Metabolizing B-Vitamins** subcategory under the **Nutrient Database** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Riboflavin** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

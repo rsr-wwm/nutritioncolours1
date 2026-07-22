@@ -42,7 +42,6 @@ const allKeywords = [
 
 const memberFaqs = MEMBER_SPECIFIC_FAQS[member.id] || [];
 ---
-<div data-ai-answer="true">
 <BaseLayout
   title={`${member.name} - ${member.role} | NutritionColours Team`}
   description={`${member.name} is a specialist in ${member.role} at NutritionColours Clinic.`}
@@ -50,7 +49,7 @@ const memberFaqs = MEMBER_SPECIFIC_FAQS[member.id] || [];
 >
   <script type="application/ld+json" is:inline set:html={JSON.stringify(personSchema)} />
   
-  <TeamMemberProfile client:load member={member} navigate={(path) => window.location.href = '/' + path} />
+  <TeamMemberProfile client:load member={member} navigate={(path) => { if (typeof globalThis !== 'undefined' && globalThis.window) globalThis.window.location.href = '/' + path; }} />
 
   {/* Rich Server-Rendered Professional Biography Monograph (SEO / AEO / AIO / View-Source Law) */}
   <div class="max-w-7xl mx-auto px-6 pb-24 -mt-12">
@@ -120,4 +119,3 @@ const memberFaqs = MEMBER_SPECIFIC_FAQS[member.id] || [];
     </section>
   </div>
 </BaseLayout>
-</div>

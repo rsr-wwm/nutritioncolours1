@@ -1,13 +1,13 @@
 ---
 title: "Peppermint, Spearmint & Mint Teas: Menthol, Digestion & Cooling Relief"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Peppermint, Spearmint & Mint Teas: Menthol, Digestion & Cooling Relief."
+slug: "drink-herb-2"
 category: "Grains"
-subCategory: "Herbal Tisanes"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Herbal Tisanes"
 seoKeywords: ["drink-herb-2", "herbal tisanes", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Peppermint, Spearmint & Mint Teas: Menthol, Digestion & Cooling Relief** is a critical clinical pathway within **Herbal Tisanes** under the **Grains** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

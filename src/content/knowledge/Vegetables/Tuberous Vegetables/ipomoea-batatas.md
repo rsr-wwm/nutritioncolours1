@@ -1,15 +1,13 @@
 ---
 title: "Sweet Potato — Nutrition, Composition & Health"
 description: "Sweet potato (baked in skin) provides about 90 kcal per 100 g and is exceptionally rich in provitamin-A carotenoids; its glycemic index varies sharply by cooking method — much lower boiled than baked."
+slug: "ipomoea-batatas"
 category: "Vegetables"
-subCategory: "Tuberous Vegetables"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["sweet potato","ipomoea batatas","provitamin a (beta-carotene)","potassium","vitamin c","fiber","nutrition","composition"]
-tags: []
+subCategory: "Tuberous Vegetables"
+seoKeywords: ["sweet potato", "ipomoea batatas", "provitamin a (beta-carotene)", "potassium", "vitamin c", "fiber", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Ipomoea batatas*

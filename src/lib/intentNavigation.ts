@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
 export function useIntentAwareNavigation() {
-  const [navContext, setNavContext] = useState<'knowledge' | 'service' | 'tools' | 'general'>('general');
+  const [navContext, setNavContext] = useState<'knowledge' | 'service' | 'tools' | 'recipes' | 'general'>('general');
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
@@ -15,8 +15,8 @@ export function useIntentAwareNavigation() {
     } else if (pathname.startsWith('/plans') || pathname.startsWith('/about') ||
                pathname.startsWith('/team') || pathname.startsWith('/testimonials')) {
       setNavContext('service');
-    } else if (pathname.startsWith('/tools') || pathname.startsWith('/recipes')) {
-      setNavContext('tools');
+    } else if (pathname.startsWith('/recipes')) {
+      setNavContext('recipes');
     } else {
       setNavContext('general');
     }
@@ -31,7 +31,7 @@ export function useIntentAwareNavigation() {
   return navContext;
 }
 
-export function getNavEmphasis(context: 'knowledge' | 'service' | 'tools' | 'general') {
+export function getNavEmphasis(context: 'knowledge' | 'service' | 'tools' | 'recipes' | 'general') {
   switch (context) {
     case 'knowledge':
       return {
@@ -50,6 +50,12 @@ export function getNavEmphasis(context: 'knowledge' | 'service' | 'tools' | 'gen
         primary: 'Health Tools',
         secondary: 'Calculators',
         tertiary: 'Resources',
+      };
+    case 'recipes':
+      return {
+        primary: 'Healthy Recipes',
+        secondary: 'Meal Plans',
+        tertiary: 'Ingredients',
       };
     default:
       return {

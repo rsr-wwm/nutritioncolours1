@@ -3,12 +3,11 @@ title: "Zea Mays Indurata"
 description: "Brief overview of zea mays indurata, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Zea Mays Indurata"
 category: "Grains"
-subCategory: "Zea Species"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Zea Species"
 seoKeywords: ["zea mays indurata", "zea species", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Zea Mays Indurata** is a highly valued nutritional agent within the **Zea Species** subcategory under the **Grains** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Zea Mays Indurata** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

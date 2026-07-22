@@ -3,12 +3,11 @@ title: "Fagopyrum Esculentum"
 description: "Brief overview of fagopyrum esculentum, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Fagopyrum Esculentum"
 category: "Grains"
-subCategory: "Polygonaceae Seeds"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Polygonaceae Seeds"
 seoKeywords: ["fagopyrum esculentum", "polygonaceae seeds", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Fagopyrum Esculentum** is a highly valued nutritional agent within the **Polygonaceae Seeds** subcategory under the **Grains** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Fagopyrum Esculentum** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

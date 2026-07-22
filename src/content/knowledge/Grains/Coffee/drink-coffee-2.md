@@ -1,13 +1,13 @@
 ---
 title: "Espresso, Latte, Cappuccino & Milk Science: Microfoam, Extraction & Barista Craft"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Espresso, Latte, Cappuccino & Milk Science: Microfoam, Extraction & Barista Craft."
+slug: "drink-coffee-2"
 category: "Grains"
-subCategory: "Coffee"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Coffee"
 seoKeywords: ["drink-coffee-2", "coffee", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Espresso, Latte, Cappuccino & Milk Science: Microfoam, Extraction & Barista Craft** is a critical clinical pathway within **Coffee** under the **Grains** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

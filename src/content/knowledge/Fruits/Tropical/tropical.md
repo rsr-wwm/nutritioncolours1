@@ -1,15 +1,13 @@
 ---
 title: "Tropical"
 description: "Explore a variety of tropical fruits, their flavors, nutritional benefits, and culinary uses."
+slug: "tropical"
 category: "Fruits"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
+lastUpdated: 2026-07-14
 subCategory: "Tropical"
 seoKeywords: ["tropical fruits", "pineapple", "mango", "papaya", "nutrition"]
-author: "NutritionColours Editorial Team"
-reviewedBy: ""
-lastUpdated: 2026-07-14
-tags: ["tropical", "fruit", "nutrition"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Tropical** is a highly valued nutritional agent within the **Tropical** subcategory under the **Fruits** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Tropical** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

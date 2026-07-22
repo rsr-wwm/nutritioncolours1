@@ -1,13 +1,13 @@
 ---
 title: "Caffeine, Theobromine, Theophylline & Methylxanthines: Coffee, Tea, Cocoa & the CNS-Stimulating Alkaloids"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Caffeine, Theobromine, Theophylline & Methylxanthines: Coffee, Tea, Cocoa & the CNS-Stimulating Alkaloids."
+slug: "phyto-alk-1"
 category: "organ-wise"
-subCategory: "Purine, Pyridine & Tropane Alkaloids"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
-seoKeywords: ["phyto-alk-1", "purine, pyridine & tropane alkaloids", "clinical protocol", "nutrition"]
+subCategory: "Purine, Pyridine & Tropane Alkaloids"
+seoKeywords: ["phyto-alk-1", "purine", "pyridine & tropane alkaloids", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Caffeine, Theobromine, Theophylline & Methylxanthines: Coffee, Tea, Cocoa & the CNS-Stimulating Alkaloids** is a critical clinical pathway within **Purine, Pyridine & Tropane Alkaloids** under the **organ-wise** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

@@ -1,13 +1,13 @@
 ---
 title: "Plant-Based Meat: Textured Vegetable Protein, Pea Protein & the Science of Meat Analogues"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Plant-Based Meat: Textured Vegetable Protein, Pea Protein & the Science of Meat Analogues."
+slug: "pulse-protein-1"
 category: "Grains"
-subCategory: "Pulse Flours & Proteins"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Pulse Flours & Proteins"
 seoKeywords: ["pulse-protein-1", "pulse flours & proteins", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Plant-Based Meat: Textured Vegetable Protein, Pea Protein & the Science of Meat Analogues** is a critical clinical pathway within **Pulse Flours & Proteins** under the **Grains** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

@@ -1,13 +1,13 @@
 ---
 title: "PKD Symptoms, Complications & Management"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for PKD Symptoms, Complications & Management."
+slug: "pkd-2"
 category: "Kidney Diseases"
-subCategory: "Polycystic Kidney Disease"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Polycystic Kidney Disease"
 seoKeywords: ["pkd-2", "polycystic kidney disease", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **PKD Symptoms, Complications & Management** is a critical clinical pathway within **Polycystic Kidney Disease** under the **Kidney Diseases** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

@@ -1,13 +1,13 @@
 ---
 title: "Delirium in Older Adults: Prevention, Recognition & Management"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Delirium in Older Adults: Prevention, Recognition & Management."
+slug: "ger-5"
 category: "life-stage"
-subCategory: "Cognitive Decline & Dementia"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Cognitive Decline & Dementia"
 seoKeywords: ["ger-5", "cognitive decline & dementia", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Delirium in Older Adults: Prevention, Recognition & Management** is a critical clinical pathway within **Cognitive Decline & Dementia** under the **life-stage** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

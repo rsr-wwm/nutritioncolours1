@@ -1,15 +1,13 @@
 ---
 title: "Poppy Seed — Nutrition, Composition & Health"
 description: "Culinary poppy seed (khus khus) is harvested from the dried seed pod after the plant's opium-bearing latex has been removed, and contains only trace, non-narcotic alkaloid residue; it is among the most calcium-dense common foods."
+slug: "papaver-somniferum"
 category: "Seeds"
-subCategory: "Papaveraceae Spice Seeds"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["poppy seed","papaver somniferum","calcium","iron","magnesium","healthy fat","nutrition","composition"]
-tags: []
+subCategory: "Papaveraceae Spice Seeds"
+seoKeywords: ["poppy seed", "papaver somniferum", "calcium", "iron", "magnesium", "healthy fat", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Papaver somniferum*

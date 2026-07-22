@@ -1,0 +1,38 @@
+src/content/knowledge/Cardiovascular Disease/Blood Vessels & Circulation/org-vasc-1.md
+src/content/knowledge/organ-wise/Blood Vessels & Circulation/org-vasc-1.md
+src/content/knowledge/Cardiovascular Disease/Blood Vessels & Circulation/org-vasc-2.md
+src/content/knowledge/organ-wise/Blood Vessels & Circulation/org-vasc-2.md
+src/content/knowledge/Cardiovascular Disease/Heart/org-heart-1.md
+src/content/knowledge/organ-wise/Heart/org-heart-1.md
+src/content/knowledge/Cardiovascular Disease/Heart/org-heart-2.md
+src/content/knowledge/organ-wise/Heart/org-heart-2.md
+src/content/knowledge/Endocrine Disorders/Diabetes Mellitus/gestational-diabetes.md
+src/content/knowledge/health topics/General/gestational-diabetes.md
+src/content/knowledge/Endocrine Disorders/Diabetes Mellitus/type-1-diabetes.md
+src/content/knowledge/health topics/General/type-1-diabetes.md
+src/content/knowledge/Endocrine Disorders/Diabetes Mellitus/type-2-diabetes.md
+src/content/knowledge/health topics/General/type-2-diabetes.md
+src/content/knowledge/Endocrine Disorders/Major Endocrine Glands/org-endo-1.md
+src/content/knowledge/organ-wise/Major Endocrine Glands/org-endo-1.md
+src/content/knowledge/Endocrine Disorders/Major Endocrine Glands/org-endo-2.md
+src/content/knowledge/organ-wise/Major Endocrine Glands/org-endo-2.md
+src/content/knowledge/Neurological Disorders/Central Nervous System/org-cns-1.md
+src/content/knowledge/organ-wise/Central Nervous System/org-cns-1.md
+src/content/knowledge/Neurological Disorders/Central Nervous System/org-cns-2.md
+src/content/knowledge/organ-wise/Central Nervous System/org-cns-2.md
+src/content/knowledge/Neurological Disorders/Central Nervous System/org-cns-3.md
+src/content/knowledge/organ-wise/Central Nervous System/org-cns-3.md
+src/content/knowledge/Neurological Disorders/Ear, Hearing & Balance/org-ear-1.md
+src/content/knowledge/organ-wise/Ear, Hearing & Balance/org-ear-1.md
+src/content/knowledge/Neurological Disorders/Ear, Hearing & Balance/org-ear-2.md
+src/content/knowledge/organ-wise/Ear, Hearing & Balance/org-ear-2.md
+src/content/knowledge/Neurological Disorders/Eye & Vision/org-eye-1.md
+src/content/knowledge/organ-wise/Eye & Vision/org-eye-1.md
+src/content/knowledge/Neurological Disorders/Eye & Vision/org-eye-2.md
+src/content/knowledge/organ-wise/Eye & Vision/org-eye-2.md
+src/content/knowledge/Neurological Disorders/Higher Brain Functions/org-brain-3.md
+src/content/knowledge/organ-wise/Higher Brain Functions/org-brain-3.md
+src/content/knowledge/Neurological Disorders/Peripheral Nervous System/org-pns-1.md
+src/content/knowledge/organ-wise/Peripheral Nervous System/org-pns-1.md
+src/content/knowledge/Respiratory Diseases/Reactive Airway Disease/asthma.md
+src/content/knowledge/health topics/General/asthma.md

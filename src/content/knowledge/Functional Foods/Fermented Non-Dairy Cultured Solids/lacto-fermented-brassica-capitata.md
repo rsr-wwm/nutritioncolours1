@@ -3,12 +3,11 @@ title: "Lacto Fermented Brassica Capitata"
 description: "Brief overview of lacto fermented brassica capitata, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Lacto Fermented Brassica Capitata"
 category: "Functional Foods"
-subCategory: "Fermented Non-Dairy Cultured Solids"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Fermented Non-Dairy Cultured Solids"
 seoKeywords: ["lacto fermented brassica capitata", "fermented non-dairy cultured solids", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Lacto Fermented Brassica Capitata** is a highly valued nutritional agent within the **Fermented Non-Dairy Cultured Solids** subcategory under the **Functional Foods** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Lacto Fermented Brassica Capitata** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

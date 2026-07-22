@@ -1,13 +1,13 @@
 ---
 title: "Anti-Nutrients in Legumes: Lectins, Phytates, Saponins & How Cooking Destroys Them"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Anti-Nutrients in Legumes: Lectins, Phytates, Saponins & How Cooking Destroys Them."
+slug: "pulse-nutrition-2"
 category: "Pulses & Legumes"
-subCategory: "Nutritional Science of Legumes"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Nutritional Science of Legumes"
 seoKeywords: ["pulse-nutrition-2", "nutritional science of legumes", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Anti-Nutrients in Legumes: Lectins, Phytates, Saponins & How Cooking Destroys Them** is a critical clinical pathway within **Nutritional Science of Legumes** under the **Pulses & Legumes** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

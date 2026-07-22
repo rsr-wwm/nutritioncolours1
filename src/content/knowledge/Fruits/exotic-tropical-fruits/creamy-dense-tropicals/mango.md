@@ -1,15 +1,13 @@
 ---
 title: "Mango — Nutrition, Composition & Health"
 description: "Mango is a tropical stone fruit providing about 60 kcal per 100 g, rich in vitamin C and provitamin-A carotenoids, with a low-to-medium glycemic index — best eaten in controlled portions when managing blood sugar."
+slug: "mango"
 category: "Fruits"
-subCategory: "exotic-tropical-fruits"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["mango","mangifera indica","vitamin c","provitamin a (beta-carotene)","folate","potassium","nutrition","composition"]
-tags: ["high-sugar"]
+subCategory: "exotic-tropical-fruits"
+seoKeywords: ["mango", "mangifera indica", "vitamin c", "provitamin a (beta-carotene)", "folate", "potassium", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Mangifera indica*

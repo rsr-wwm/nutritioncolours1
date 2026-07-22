@@ -3,12 +3,11 @@ title: "Cruciferous"
 description: "Placeholder description for Cruciferous."
 slug: "cruciferous"
 category: "Cruciferous"
-subCategory: "Cruciferous"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Cruciferous"
 seoKeywords: ["cruciferous", "cruciferous", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Cruciferous** is a highly valued nutritional agent within the **Cruciferous** subcategory under the **Cruciferous** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Cruciferous** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

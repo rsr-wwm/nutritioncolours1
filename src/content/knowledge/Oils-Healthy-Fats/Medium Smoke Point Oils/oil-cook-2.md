@@ -1,13 +1,13 @@
 ---
 title: "Medium Smoke Point Oils: Olive Oil, Sesame Oil, Coconut Oil, Palm Oil — Grades, Processing & Health Profiles"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Medium Smoke Point Oils: Olive Oil, Sesame Oil, Coconut Oil, Palm Oil — Grades, Processing & Health Profiles."
+slug: "oil-cook-2"
 category: "oils-healthy-fats"
-subCategory: "Medium Smoke Point Oils"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Medium Smoke Point Oils"
 seoKeywords: ["oil-cook-2", "medium smoke point oils", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Medium Smoke Point Oils: Olive Oil, Sesame Oil, Coconut Oil, Palm Oil — Grades, Processing & Health Profiles** is a critical clinical pathway within **Medium Smoke Point Oils** under the **oils-healthy-fats** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

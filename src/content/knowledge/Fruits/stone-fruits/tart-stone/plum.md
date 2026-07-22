@@ -3,12 +3,11 @@ title: "Plum"
 description: "Brief overview of plum, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Plum"
 category: "Fruits"
-subCategory: "stone-fruits"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "stone-fruits"
 seoKeywords: ["plum", "stone-fruits", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Plum** is a highly valued nutritional agent within the **stone-fruits** subcategory under the **Fruits** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Plum** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

@@ -1,15 +1,13 @@
 ---
 title: "Guava — Nutrition, Composition & Health"
 description: "Guava is an exceptionally vitamin-C-dense tropical fruit (~228 mg per 100 g — several times an orange), also high in fiber and relatively low in sugar."
+slug: "guava"
 category: "Fruits"
-subCategory: "exotic-tropical-fruits"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["guava","psidium guajava","vitamin c","dietary fiber","potassium","folate","nutrition","composition"]
-tags: []
+subCategory: "exotic-tropical-fruits"
+seoKeywords: ["guava", "psidium guajava", "vitamin c", "dietary fiber", "potassium", "folate", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Psidium guajava*

@@ -3,12 +3,11 @@ title: "Lens Culinaris Yellow Split"
 description: "Brief overview of lens culinaris yellow split, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Lens Culinaris Yellow Split"
 category: "Pulses & Legumes"
-subCategory: "Split & Decorticated Lentils"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Split & Decorticated Lentils"
 seoKeywords: ["lens culinaris yellow split", "split & decorticated lentils", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Lens Culinaris Yellow Split** is a highly valued nutritional agent within the **Split & Decorticated Lentils** subcategory under the **Pulses & Legumes** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Lens Culinaris Yellow Split** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

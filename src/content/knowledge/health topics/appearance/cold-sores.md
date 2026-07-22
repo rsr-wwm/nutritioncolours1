@@ -1,13 +1,13 @@
 ---
 title: "Cold Sores: Expert Nutritional Guide"
 description: ""
+slug: "cold-sores"
 category: "Health Topics"
-subCategory: "appearance"
-seoKeywords: ["Cold Sores","nutrition topics","health optimization"]
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "appearance"
+seoKeywords: ["Cold Sores", "nutrition topics", "health optimization"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Cold Sores: Expert Nutritional Guide** is a highly valued nutritional agent within the **appearance** subcategory under the **Health Topics** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Cold Sores: Expert Nutritional Guide** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

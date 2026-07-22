@@ -1,13 +1,13 @@
 ---
 title: "Legume Nutrition: Protein, Fiber, Resistant Starch & the Second Meal Effect"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Legume Nutrition: Protein, Fiber, Resistant Starch & the Second Meal Effect."
+slug: "pulse-nutrition-1"
 category: "Grains"
-subCategory: "Nutritional Science of Legumes"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Nutritional Science of Legumes"
 seoKeywords: ["pulse-nutrition-1", "nutritional science of legumes", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Legume Nutrition: Protein, Fiber, Resistant Starch & the Second Meal Effect** is a critical clinical pathway within **Nutritional Science of Legumes** under the **Grains** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

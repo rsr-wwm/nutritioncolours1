@@ -3,12 +3,11 @@ title: "Allium Ampeloprasum"
 description: "Brief overview of allium ampeloprasum, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Allium Ampeloprasum"
 category: "Vegetables"
-subCategory: "Edible Bulbs"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Edible Bulbs"
 seoKeywords: ["allium ampeloprasum", "edible bulbs", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Allium Ampeloprasum** is a highly valued nutritional agent within the **Edible Bulbs** subcategory under the **Vegetables** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Allium Ampeloprasum** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

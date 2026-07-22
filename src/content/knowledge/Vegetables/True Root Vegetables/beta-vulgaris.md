@@ -1,15 +1,13 @@
 ---
 title: "Beetroot — Nutrition, Composition & Health"
 description: "Beetroot provides about 43 kcal per 100 g raw and is notably rich in dietary nitrates and folate; cooking raises its glycemic index from a low ~32 raw to a moderate ~64."
+slug: "beta-vulgaris"
 category: "Vegetables"
-subCategory: "True Root Vegetables"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["beetroot","beta vulgaris","dietary nitrates","folate","potassium","betalains","nutrition","composition"]
-tags: []
+subCategory: "True Root Vegetables"
+seoKeywords: ["beetroot", "beta vulgaris", "dietary nitrates", "folate", "potassium", "betalains", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Beta vulgaris*

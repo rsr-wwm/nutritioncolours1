@@ -1,15 +1,13 @@
 ---
 title: "White Pepper — Nutrition, Composition & Health"
 description: "White pepper is the same fruit as black pepper (Piper nigrum), processed differently — the outer skin is removed after retting — giving a milder, less pungent flavor without visible dark flecks; per-100g reference values are far higher than a typical serving (0.5–2 g) would provide."
+slug: "piper-nigrum-white"
 category: "Spices"
-subCategory: "Piperaceae Berries"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["white pepper","piper nigrum","manganese","fiber (by dry weight)","nutrition","composition"]
-tags: []
+subCategory: "Piperaceae Berries"
+seoKeywords: ["white pepper", "piper nigrum", "manganese", "fiber (by dry weight)", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Piper nigrum*

@@ -1,15 +1,13 @@
 ---
 title: "Finger Millet (Ragi) — Nutrition, Composition & Health"
 description: "Finger millet (ragi) is a South Indian staple millet exceptional for its calcium content — roughly 10x that of most other grains — alongside a moderate glycemic index."
+slug: "eleusine-coracana"
 category: "Grains"
-subCategory: "Pennisetum & Eleusine Genus"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["finger millet (ragi)","eleusine coracana","calcium","dietary fiber","iron","polyphenols","nutrition","composition"]
-tags: ["gluten-free","high-calcium"]
+subCategory: "Pennisetum & Eleusine Genus"
+seoKeywords: ["finger millet (ragi)", "eleusine coracana", "calcium", "dietary fiber", "iron", "polyphenols", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Eleusine coracana*

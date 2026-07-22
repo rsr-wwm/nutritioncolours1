@@ -3,12 +3,11 @@ title: "Selenium"
 description: "Brief overview of selenium, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Selenium"
 category: "Nutrient Database"
-subCategory: "Immune & Enzymatic Trace Elements"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Immune & Enzymatic Trace Elements"
 seoKeywords: ["selenium", "immune & enzymatic trace elements", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Selenium** is a highly valued nutritional agent within the **Immune & Enzymatic Trace Elements** subcategory under the **Nutrient Database** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Selenium** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

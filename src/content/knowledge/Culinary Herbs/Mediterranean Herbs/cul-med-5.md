@@ -1,13 +1,13 @@
 ---
 title: "Sage: Common, Pineapple, Purple & Clary — Smudging, Cooking & Hormonal Health"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Sage: Common, Pineapple, Purple & Clary — Smudging, Cooking & Hormonal Health."
+slug: "cul-med-5"
 category: "Culinary Herbs"
-subCategory: "Mediterranean Herbs"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Mediterranean Herbs"
 seoKeywords: ["cul-med-5", "mediterranean herbs", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Sage: Common, Pineapple, Purple & Clary — Smudging, Cooking & Hormonal Health** is a critical clinical pathway within **Mediterranean Herbs** under the **Culinary Herbs** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

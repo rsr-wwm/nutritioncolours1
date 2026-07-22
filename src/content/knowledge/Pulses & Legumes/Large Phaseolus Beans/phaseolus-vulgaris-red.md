@@ -1,15 +1,13 @@
 ---
 title: "Kidney Beans — Nutrition, Composition & Health"
 description: "Kidney beans (rajma) — cooked — provide about 127 kcal per 100 g and are a fiber-dense staple of North Indian cuisine (rajma-chawal); raw/undercooked kidney beans contain a natural toxin destroyed by proper boiling."
+slug: "phaseolus-vulgaris-red"
 category: "Pulses & Legumes"
-subCategory: "Large Phaseolus Beans"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["kidney beans","phaseolus vulgaris","fiber","folate","plant protein","iron","nutrition","composition"]
-tags: ["gluten-free","requires-thorough-cooking"]
+subCategory: "Large Phaseolus Beans"
+seoKeywords: ["kidney beans", "phaseolus vulgaris", "fiber", "folate", "plant protein", "iron", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Phaseolus vulgaris*

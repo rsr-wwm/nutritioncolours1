@@ -1,13 +1,13 @@
 ---
 title: "Black-Eyed Peas & Cowpeas: Hoppin’ John, Southern Luck & African Diaspora Cuisine"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Black-Eyed Peas & Cowpeas: Hoppin’ John, Southern Luck & African Diaspora Cuisine."
+slug: "pulse-cowpea-1"
 category: "Pulses & Legumes"
-subCategory: "Black-Eyed Peas & Cowpeas"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Black-Eyed Peas & Cowpeas"
 seoKeywords: ["pulse-cowpea-1", "black-eyed peas & cowpeas", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Black-Eyed Peas & Cowpeas: Hoppin’ John, Southern Luck & African Diaspora Cuisine** is a critical clinical pathway within **Black-Eyed Peas & Cowpeas** under the **Pulses & Legumes** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

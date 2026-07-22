@@ -3,12 +3,11 @@ title: "Mandarin"
 description: "Brief overview of mandarin, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Mandarin"
 category: "Fruits"
-subCategory: "citrus-fruits"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "citrus-fruits"
 seoKeywords: ["mandarin", "citrus-fruits", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Mandarin** is a highly valued nutritional agent within the **citrus-fruits** subcategory under the **Fruits** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Mandarin** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

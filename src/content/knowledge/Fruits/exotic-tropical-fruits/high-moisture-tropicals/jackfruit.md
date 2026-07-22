@@ -1,15 +1,13 @@
 ---
 title: "Jackfruit — Nutrition, Composition & Health"
 description: "Jackfruit is a large tropical fruit (~95 kcal per 100 g ripe) used as a sweet fruit and, when unripe, as a starchy meat substitute in Indian cooking."
+slug: "jackfruit"
 category: "Fruits"
-subCategory: "exotic-tropical-fruits"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["jackfruit","artocarpus heterophyllus","potassium","vitamin c","carbohydrate (energy)","nutrition","composition"]
-tags: ["high-sugar"]
+subCategory: "exotic-tropical-fruits"
+seoKeywords: ["jackfruit", "artocarpus heterophyllus", "potassium", "vitamin c", "carbohydrate (energy)", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Artocarpus heterophyllus*

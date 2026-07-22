@@ -3,12 +3,11 @@ title: "Cocos Nucifera Endosperm"
 description: "Brief overview of cocos nucifera endosperm, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Cocos Nucifera Endosperm"
 category: "Dairy & Alternatives"
-subCategory: "Legume & Nut Drupe Extracts"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Legume & Nut Drupe Extracts"
 seoKeywords: ["cocos nucifera endosperm", "legume & nut drupe extracts", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Cocos Nucifera Endosperm** is a highly valued nutritional agent within the **Legume & Nut Drupe Extracts** subcategory under the **Dairy & Alternatives** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Cocos Nucifera Endosperm** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

@@ -1,15 +1,13 @@
 ---
 title: "Pearl Millet (Bajra) — Nutrition, Composition & Health"
 description: "Pearl millet (bajra) is a drought-hardy staple millet of western and northern India, notably rich in iron and a lower-GI alternative to refined wheat and rice."
+slug: "pennisetum-glaucum"
 category: "Grains"
-subCategory: "Pennisetum & Eleusine Genus"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["pearl millet (bajra)","pennisetum glaucum","iron","dietary fiber","magnesium","phosphorus","nutrition","composition"]
-tags: ["gluten-free"]
+subCategory: "Pennisetum & Eleusine Genus"
+seoKeywords: ["pearl millet (bajra)", "pennisetum glaucum", "iron", "dietary fiber", "magnesium", "phosphorus", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Pennisetum glaucum*

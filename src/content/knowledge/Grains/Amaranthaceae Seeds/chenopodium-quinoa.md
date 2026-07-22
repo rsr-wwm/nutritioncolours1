@@ -1,15 +1,13 @@
 ---
 title: "Quinoa — Nutrition, Composition & Health"
 description: "Quinoa is a gluten-free pseudocereal and complete protein (all nine essential amino acids), providing about 368 kcal per 100 g raw with a low-medium glycemic index."
+slug: "chenopodium-quinoa"
 category: "Grains"
-subCategory: "Amaranthaceae Seeds"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["quinoa","chenopodium quinoa","complete protein","magnesium","iron","dietary fiber","nutrition","composition"]
-tags: ["gluten-free"]
+subCategory: "Amaranthaceae Seeds"
+seoKeywords: ["quinoa", "chenopodium quinoa", "complete protein", "magnesium", "iron", "dietary fiber", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Chenopodium quinoa*

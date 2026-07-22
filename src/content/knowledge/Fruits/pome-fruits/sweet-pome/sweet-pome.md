@@ -3,12 +3,11 @@ title: "Sweet Pome"
 description: "Pages for sweet pome fruits like apple, pear."
 slug: "sweet-pome"
 category: "Fruits"
-subCategory: "pome-fruits"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "pome-fruits"
 seoKeywords: ["sweet pome", "pome-fruits", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Sweet Pome** is a highly valued nutritional agent within the **pome-fruits** subcategory under the **Fruits** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Sweet Pome** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

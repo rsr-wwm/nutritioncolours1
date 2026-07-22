@@ -1,15 +1,13 @@
 ---
 title: "Fava Beans — Nutrition, Composition & Health"
 description: "Fava beans (broad beans) — cooked — provide about 110 kcal per 100 g and are a Mediterranean/Middle Eastern staple; they carry a well-documented, clinically important risk of triggering favism in people with G6PD deficiency."
+slug: "vicia-faba"
 category: "Pulses & Legumes"
-subCategory: "Cool-Season Vine Legumes"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["fava beans","vicia faba","plant protein","fiber","folate","iron","nutrition","composition"]
-tags: ["gluten-free","g6pd-caution"]
+subCategory: "Cool-Season Vine Legumes"
+seoKeywords: ["fava beans", "vicia faba", "plant protein", "fiber", "folate", "iron", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Vicia faba*

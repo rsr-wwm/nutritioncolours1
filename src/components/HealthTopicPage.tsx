@@ -416,7 +416,7 @@ export const HealthTopicPage: React.FC<HealthTopicPageProps> = ({ topicId, navig
                           <div>
                             <span className="block text-[10px] font-black text-stone-400 dark:text-stone-500 uppercase tracking-widest mb-2">Recommended Substitutions</span>
                             <ul className="space-y-2">
-                              {dietInfo.substitutions.map((sub, i) => (
+                              {dietInfo.substitutions.map((sub: string, i: number) => (
                                 <li key={i} className="text-xs font-bold text-emerald-950 dark:text-white flex items-center gap-2">
                                   <div className="w-5 h-5 rounded-full bg-emerald-100 dark:bg-emerald-900 flex items-center justify-center text-emerald-800 dark:text-lime-400 shrink-0">
                                     <IconCheck size={12} />
@@ -430,7 +430,7 @@ export const HealthTopicPage: React.FC<HealthTopicPageProps> = ({ topicId, navig
                           <div>
                             <span className="block text-[10px] font-black text-stone-400 dark:text-stone-500 uppercase tracking-widest mb-2">Therapeutic Spices</span>
                             <div className="flex flex-wrap gap-1.5">
-                              {dietInfo.spices.map((spice, i) => (
+                              {dietInfo.spices.map((spice: string, i: number) => (
                                 <span key={i} className="text-[10px] font-black uppercase tracking-wider bg-lime-100 text-lime-900 dark:bg-lime-950/40 dark:text-lime-400 border border-lime-200/50 dark:border-lime-900/40 px-3 py-1 rounded-lg">
                                   {spice}
                                 </span>

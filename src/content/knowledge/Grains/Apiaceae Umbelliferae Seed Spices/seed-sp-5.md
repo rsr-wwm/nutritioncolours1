@@ -1,13 +1,13 @@
 ---
 title: "Celery Seed, Ajwain/Carom & Nigella/Kalonji: Lesser-Known Apiaceae"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Celery Seed, Ajwain/Carom & Nigella/Kalonji: Lesser-Known Apiaceae."
+slug: "seed-sp-5"
 category: "Grains"
-subCategory: "Apiaceae Umbelliferae Seed Spices"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Apiaceae Umbelliferae Seed Spices"
 seoKeywords: ["seed-sp-5", "apiaceae umbelliferae seed spices", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Celery Seed, Ajwain/Carom & Nigella/Kalonji: Lesser-Known Apiaceae** is a critical clinical pathway within **Apiaceae Umbelliferae Seed Spices** under the **Grains** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

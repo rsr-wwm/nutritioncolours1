@@ -1,9 +1,8 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { LocalDirectory } from '../components/LocalDirectory';
+import { LocationSearch } from '../components/LocationSearch';
 import { LOCATIONS_DATA } from '../lib/locationsData';
 import { INTERNATIONAL_COUNTRIES } from '../lib/internationalData';
-import Icons from '../components/Icons.astro';
 
 // Extract major hubs for indexing
 const popularIndian = LOCATIONS_DATA.filter(l => ['mumbai', 'delhi', 'bangalore', 'chennai', 'kolkata', 'hyderabad', 'pune'].includes(l.city.toLowerCase())).slice(0, 7);
@@ -19,7 +18,6 @@ const clinicsIndexSchema = {
   "publisher": { "@id": `${SITE_URL}/#organization` }
 };
 ---
-<div data-ai-answer="true">
 <BaseLayout
   title="Outreach Locations & Clinical Directories | NutritionColours"
   description="Locate our remote clinical nutrition consultations, diagnostic coordination hubs, and consulting schedules serving India and international cities."
@@ -27,10 +25,9 @@ const clinicsIndexSchema = {
 >
   <script type="application/ld+json" is:inline set:html={JSON.stringify(clinicsIndexSchema)} />
 
-  <LocalDirectory
+  <LocationSearch
     client:only="react"
-    currentPath="clinics"
-    navigate={(path: string) => { window.location.href = '/' + path; }}
+    navigate={(path) => { if (typeof globalThis !== 'undefined' && globalThis.window) globalThis.window.location.href = '/' + path; }}
   />
 
   {/* Rich Server-Rendered Outreach Directory (SEO / AEO / GEO / AIO / View-Source Law) */}
@@ -99,4 +96,4 @@ const clinicsIndexSchema = {
   </div>
 </BaseLayout>
   <input type="hidden" name="__bot_check" value="{{random}}" style="display:none;" />
-</div>
+

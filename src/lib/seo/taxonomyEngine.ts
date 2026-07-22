@@ -207,7 +207,9 @@ export function getTaxonomyDetails(entry: { id: string; data: { category: string
     lowercaseCat.includes("malignant") ||
     lowercaseCat.includes("cancer") ||
     lowercaseCat.includes("diseases") ||
-    lowercaseCat.includes("conditions")
+    lowercaseCat.includes("conditions") ||
+    lowercaseCat.includes("health topic") ||
+    lowercaseCat.includes("health-topic")
   ) {
     mainCatSlug = "diseases";
 
@@ -1248,8 +1250,32 @@ export function getTaxonomyDetails(entry: { id: string; data: { category: string
     subCatSlug = cleanSlug(diskSub);
   }
 
-  // --- 17. NUTRIENT DATABASE PILLAR (dedicated "Nutrient Database" folder) ---
-  else if (lowercaseCat.includes("nutrient database")) {
+  // --- 17. MINERALS PILLAR (dedicated "minerals" folder) ---
+  else if (lowercaseCat === "minerals" || lowercaseCat.includes("minerals") || lowercaseCat.includes("mineral")) {
+    mainCatSlug = "minerals";
+    if (lowercaseSub.includes("essential") || lowercaseSub.includes("major") || lowercaseSub.includes("trace") || lowercaseSub.includes("macro")) {
+      catName = "Essential Minerals";
+      catSlug = "essential-minerals";
+      catTechName = "Macro & Trace Elements";
+    } else if (lowercaseSub.includes("deficiency") || lowercaseSub.includes("toxicity") || lowercaseSub.includes("clinical")) {
+      catName = "Deficiency & Toxicity Reference";
+      catSlug = "deficiency-toxicity-reference";
+      catTechName = "Clinical Mineral Guides";
+    } else if (lowercaseSub.includes("relationship") || lowercaseSub.includes("synerg") || lowercaseSub.includes("compet")) {
+      catName = "Mineral Interactions";
+      catSlug = "mineral-interactions";
+      catTechName = "Synergistic & Competitive Mineral Relationships";
+    } else {
+      catName = "Mineral Reference Data";
+      catSlug = "mineral-reference-data";
+      catTechName = "General Mineral Profiles";
+    }
+    subCatName = diskSub;
+    subCatSlug = cleanSlug(diskSub);
+  }
+
+  // --- 18. NUTRIENT DATABASE PILLAR (dedicated "Nutrient Database" folder) ---
+  else if (lowercaseCat.includes("nutrient database") || lowercaseCat.includes("nutrient-database") || lowercaseCat.includes("nutrient_database")) {
     mainCatSlug = "nutrient-database";
     if (lowercaseSub.includes("vitamin") || lowercaseSub.includes("calciferol") || lowercaseSub.includes("ascorbate") || lowercaseSub.includes("retinoid") || lowercaseSub.includes("tocopherol") || lowercaseSub.includes("b-vitamin")) {
       catName = "Vitamin Reference Data";
@@ -1272,7 +1298,7 @@ export function getTaxonomyDetails(entry: { id: string; data: { category: string
     subCatSlug = cleanSlug(diskSub);
   }
 
-  // --- 18. ORGAN-WISE KNOWLEDGE PILLAR ---
+  // --- 19. ORGAN-WISE KNOWLEDGE PILLAR ---
   else if (lowercaseCat.includes("organ-wise") || lowercaseCat.includes("organ wise")) {
     mainCatSlug = "organ-wise";
     if (lowercaseSub.includes("cardiovascular") || lowercaseSub.includes("heart") || lowercaseSub.includes("blood vessel") || lowercaseSub.includes("blood &") || lowercaseSub.includes("coagulation") || lowercaseSub.includes("lymphatic")) {
@@ -1336,7 +1362,7 @@ export function getTaxonomyDetails(entry: { id: string; data: { category: string
     subCatSlug = cleanSlug(diskSub);
   }
 
-  // --- 19. LIFE-STAGE PILLAR ---
+  // --- 20. LIFE-STAGE PILLAR ---
   else if (lowercaseCat.includes("life-stage") || lowercaseCat.includes("life stage")) {
     mainCatSlug = "life-stage";
     if (lowercaseSub.includes("infant") || lowercaseSub.includes("newborn") || lowercaseSub.includes("neonatal") || lowercaseSub.includes("birth")) {

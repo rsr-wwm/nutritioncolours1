@@ -18,6 +18,7 @@ import {
 
 const NAV_CONFIG = [
   { id: 'home', label: 'Home' },
+  { id: 'search', label: 'Search' },
   { id: 'plans', label: 'Programs' },
   {
     id: 'knowledge-group', label: 'Knowledge',
@@ -40,7 +41,6 @@ const NAV_CONFIG = [
     id: 'lifestyle-group', label: 'Lifestyle',
     children: [
       { id: 'recipes', label: 'Healing Recipes' },
-      { id: 'tools', label: 'Health Tools & Portal' },
       { id: 'connect', label: 'Community' },
       { id: 'clinics', label: 'Outreach Locations' },
     ],

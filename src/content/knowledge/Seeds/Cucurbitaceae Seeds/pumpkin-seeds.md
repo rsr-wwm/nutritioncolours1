@@ -3,12 +3,11 @@ title: "Pumpkin Seeds"
 description: "Brief overview of pumpkin seeds, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Pumpkin Seeds"
 category: "Seeds"
-subCategory: "Cucurbitaceae Seeds"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Cucurbitaceae Seeds"
 seoKeywords: ["pumpkin seeds", "cucurbitaceae seeds", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Pumpkin Seeds** is a highly valued nutritional agent within the **Cucurbitaceae Seeds** subcategory under the **Seeds** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Pumpkin Seeds** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

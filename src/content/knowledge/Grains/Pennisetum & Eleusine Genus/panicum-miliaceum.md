@@ -1,15 +1,13 @@
 ---
 title: "Proso Millet (Common Millet) — Nutrition, Composition & Health"
 description: "Proso millet is a small, gluten-free ancient grain providing about 378 kcal per 100 g raw, with notably high protein and fiber among millets."
+slug: "panicum-miliaceum"
 category: "Grains"
-subCategory: "Pennisetum & Eleusine Genus"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["proso millet (common millet)","panicum miliaceum","protein","dietary fiber","phosphorus","magnesium","nutrition","composition"]
-tags: ["gluten-free"]
+subCategory: "Pennisetum & Eleusine Genus"
+seoKeywords: ["proso millet (common millet)", "panicum miliaceum", "protein", "dietary fiber", "phosphorus", "magnesium", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Panicum miliaceum*

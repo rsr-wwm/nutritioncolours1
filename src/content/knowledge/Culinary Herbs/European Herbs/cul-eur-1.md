@@ -1,13 +1,13 @@
 ---
 title: "Tarragon: French, Russian & Mexican — Béarnaise, Fines Herbes & Vinegar"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Tarragon: French, Russian & Mexican — Béarnaise, Fines Herbes & Vinegar."
+slug: "cul-eur-1"
 category: "Culinary Herbs"
-subCategory: "European Herbs"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "European Herbs"
 seoKeywords: ["cul-eur-1", "european herbs", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Tarragon: French, Russian & Mexican — Béarnaise, Fines Herbes & Vinegar** is a critical clinical pathway within **European Herbs** under the **Culinary Herbs** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

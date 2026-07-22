@@ -3,12 +3,11 @@ title: "Adverse Food Reactions"
 description: "Overview of adverse reactions to food, including allergies, intolerances, and food‑related autoimmune conditions."
 slug: "adverse-food-reactions"
 category: "Adverse Food Reactions"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
 subCategory: "Adverse Food Reactions"
 seoKeywords: ["adverse food reactions", "adverse food reactions", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Adverse Food Reactions** is a highly valued nutritional agent within the **Adverse Food Reactions** subcategory under the **Adverse Food Reactions** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Adverse Food Reactions** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

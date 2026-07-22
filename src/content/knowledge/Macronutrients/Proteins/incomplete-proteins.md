@@ -3,12 +3,11 @@ title: "Incomplete Proteins"
 description: "Brief overview of incomplete proteins, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Incomplete Proteins"
 category: "Macronutrients"
-subCategory: "Proteins"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Proteins"
 seoKeywords: ["incomplete proteins", "proteins", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Incomplete Proteins** is a highly valued nutritional agent within the **Proteins** subcategory under the **Macronutrients** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Incomplete Proteins** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

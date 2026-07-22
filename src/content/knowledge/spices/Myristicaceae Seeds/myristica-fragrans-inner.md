@@ -1,15 +1,13 @@
 ---
 title: "Nutmeg — Nutrition, Composition & Health"
 description: "Nutmeg (jaiphal) is the ground inner seed of the Myristica fragrans fruit, used in small pinches in both sweet and savory dishes; it contains myristicin, a compound with dose-dependent psychoactive and toxic effects at high (non-culinary) doses."
+slug: "myristica-fragrans-inner"
 category: "Spices"
-subCategory: "Myristicaceae Seeds"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["nutmeg","myristica fragrans","manganese","copper","iron","folate","nutrition","composition"]
-tags: ["dose-sensitive"]
+subCategory: "Myristicaceae Seeds"
+seoKeywords: ["nutmeg", "myristica fragrans", "manganese", "copper", "iron", "folate", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Myristica fragrans*

@@ -1,15 +1,13 @@
 ---
 title: "Potato — Nutrition, Composition & Health"
 description: "Potato (boiled in skin) provides about 87 kcal per 100 g and is a genuinely high-glycemic-index food — unlike the carrot myth, potato's high GI is well-supported — meaning portion and preparation matter for blood-sugar-aware eating."
+slug: "solanum-tuberosum"
 category: "Vegetables"
-subCategory: "Tuberous Vegetables"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["potato","solanum tuberosum","potassium","vitamin c","vitamin b6","resistant starch (when cooled)","nutrition","composition"]
-tags: ["high-gi"]
+subCategory: "Tuberous Vegetables"
+seoKeywords: ["potato", "solanum tuberosum", "potassium", "vitamin c", "vitamin b6", "resistant starch (when cooled)", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Solanum tuberosum*

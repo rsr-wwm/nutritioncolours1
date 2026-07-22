@@ -3,12 +3,11 @@ title: "Petroselinum Crispum"
 description: "Brief overview of petroselinum crispum, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Petroselinum Crispum"
 category: "Culinary Herbs"
-subCategory: "Apiaceae Botanicals"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Apiaceae Botanicals"
 seoKeywords: ["petroselinum crispum", "apiaceae botanicals", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Petroselinum Crispum** is a highly valued nutritional agent within the **Apiaceae Botanicals** subcategory under the **Culinary Herbs** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Petroselinum Crispum** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

@@ -1,13 +1,13 @@
 ---
 title: "Risotto Rice: Arborio, Carnaroli, Vialone Nano & the Science of Creaminess"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Risotto Rice: Arborio, Carnaroli, Vialone Nano & the Science of Creaminess."
+slug: "grain-rice-5"
 category: "Grains"
-subCategory: "Rice"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Rice"
 seoKeywords: ["grain-rice-5", "rice", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Risotto Rice: Arborio, Carnaroli, Vialone Nano & the Science of Creaminess** is a critical clinical pathway within **Rice** under the **Grains** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

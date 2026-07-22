@@ -3,12 +3,11 @@ title: "Prunus Avium"
 description: "Brief overview of prunus avium, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Prunus Avium"
 category: "Fruits"
-subCategory: "Drupes"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Drupes"
 seoKeywords: ["prunus avium", "drupes", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Prunus Avium** is a highly valued nutritional agent within the **Drupes** subcategory under the **Fruits** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Prunus Avium** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

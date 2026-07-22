@@ -1,13 +1,13 @@
 ---
 title: "Farro: Emmer, Einkorn & Spelt Confusion — Italian Heritage Wheat"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Farro: Emmer, Einkorn & Spelt Confusion — Italian Heritage Wheat."
+slug: "anc-1"
 category: "Grains"
-subCategory: "Farro, Freekeh, Kamut & Spelt"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
-seoKeywords: ["anc-1", "farro, freekeh, kamut & spelt", "clinical protocol", "nutrition"]
+subCategory: "Farro, Freekeh, Kamut & Spelt"
+seoKeywords: ["anc-1", "farro", "freekeh", "kamut & spelt", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Farro: Emmer, Einkorn & Spelt Confusion — Italian Heritage Wheat** is a critical clinical pathway within **Farro, Freekeh, Kamut & Spelt** under the **Grains** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

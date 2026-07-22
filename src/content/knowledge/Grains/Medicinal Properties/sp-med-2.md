@@ -1,13 +1,13 @@
 ---
 title: "Cloves, Fennel, Cumin & Coriander: Digestive Spice Remedies"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Cloves, Fennel, Cumin & Coriander: Digestive Spice Remedies."
+slug: "sp-med-2"
 category: "Grains"
-subCategory: "Medicinal Properties"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Medicinal Properties"
 seoKeywords: ["sp-med-2", "medicinal properties", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Cloves, Fennel, Cumin & Coriander: Digestive Spice Remedies** is a critical clinical pathway within **Medicinal Properties** under the **Grains** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

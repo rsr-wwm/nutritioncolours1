@@ -3,12 +3,11 @@ title: "Cobalamin"
 description: "Brief overview of cobalamin, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Cobalamin"
 category: "Micronutrients"
-subCategory: "Water-Soluble Vitamins"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Water-Soluble Vitamins"
 seoKeywords: ["cobalamin", "water-soluble vitamins", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Cobalamin** is a highly valued nutritional agent within the **Water-Soluble Vitamins** subcategory under the **Micronutrients** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Cobalamin** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

@@ -1,15 +1,13 @@
 ---
 title: "Kale — Nutrition, Composition & Health"
 description: "Kale is a cruciferous leafy green providing roughly 49 kcal per 100 g raw, carrying among the highest vitamin K and vitamin C densities of any common vegetable."
+slug: "brassica-oleracea-var-sabellica"
 category: "Vegetables"
-subCategory: "Leafy & Heading Brassicas"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["kale","brassica oleracea var. sabellica","vitamin k","vitamin c","vitamin a (carotenoids)","calcium","nutrition","composition"]
-tags: ["cruciferous"]
+subCategory: "Leafy & Heading Brassicas"
+seoKeywords: ["kale", "brassica oleracea var. sabellica", "vitamin k", "vitamin c", "vitamin a (carotenoids)", "calcium", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Brassica oleracea var. sabellica*

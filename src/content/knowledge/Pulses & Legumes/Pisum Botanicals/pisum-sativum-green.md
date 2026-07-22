@@ -1,15 +1,13 @@
 ---
 title: "Green Peas — Nutrition, Composition & Health"
 description: "Green peas (matar) — cooked — provide about 84 kcal per 100 g, and are eaten fresh as a vegetable-like legume rather than dried, notable for vitamin K and plant protein."
+slug: "pisum-sativum-green"
 category: "Pulses & Legumes"
-subCategory: "Pisum Botanicals"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["green peas","pisum sativum","vitamin k","plant protein","fiber","vitamin c","nutrition","composition"]
-tags: []
+subCategory: "Pisum Botanicals"
+seoKeywords: ["green peas", "pisum sativum", "vitamin k", "plant protein", "fiber", "vitamin c", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Pisum sativum*

@@ -1,15 +1,13 @@
 ---
 title: "Papaya — Nutrition, Composition & Health"
 description: "Papaya is a low-calorie tropical fruit (~43 kcal per 100 g) rich in vitamin C, provitamin-A carotenoids, and the enzyme papain."
+slug: "papaya"
 category: "Fruits"
-subCategory: "exotic-tropical-fruits"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["papaya","carica papaya","vitamin c","provitamin a","folate","papain","nutrition","composition"]
-tags: []
+subCategory: "exotic-tropical-fruits"
+seoKeywords: ["papaya", "carica papaya", "vitamin c", "provitamin a", "folate", "papain", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Carica papaya*

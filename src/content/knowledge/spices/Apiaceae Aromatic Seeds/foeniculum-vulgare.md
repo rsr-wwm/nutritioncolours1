@@ -1,15 +1,13 @@
 ---
 title: "Fennel Seed — Nutrition, Composition & Health"
 description: "Fennel seed (saunf) is a sweet, aromatic seed spice traditionally chewed after meals in Indian households; per-100g reference values are far higher than a typical serving (0.5–2 g) would provide."
+slug: "foeniculum-vulgare"
 category: "Spices"
-subCategory: "Apiaceae Aromatic Seeds"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["fennel seed","foeniculum vulgare","calcium","iron","potassium","manganese","nutrition","composition"]
-tags: []
+subCategory: "Apiaceae Aromatic Seeds"
+seoKeywords: ["fennel seed", "foeniculum vulgare", "calcium", "iron", "potassium", "manganese", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Foeniculum vulgare*

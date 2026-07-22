@@ -1,15 +1,13 @@
 ---
 title: "Allspice — Nutrition, Composition & Health"
 description: "Allspice is the dried unripe berry of the Pimenta dioica tree, named for tasting like a blend of cinnamon, clove, and nutmeg; per-100g reference values are far higher than a typical serving (0.5–2 g) would provide."
+slug: "pimenta-dioica"
 category: "Spices"
-subCategory: "Schisandraceae & Myrtaceae Fruits"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["allspice","pimenta dioica","calcium","iron","potassium","fiber (by dry weight)","nutrition","composition"]
-tags: []
+subCategory: "Schisandraceae & Myrtaceae Fruits"
+seoKeywords: ["allspice", "pimenta dioica", "calcium", "iron", "potassium", "fiber (by dry weight)", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Pimenta dioica*

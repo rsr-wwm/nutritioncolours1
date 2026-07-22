@@ -1,13 +1,13 @@
 ---
 title: "Shiso/Perilla: Green, Red & Korean Varieties — Sushi, Kimchi & Pickling"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Shiso/Perilla: Green, Red & Korean Varieties — Sushi, Kimchi & Pickling."
+slug: "cul-asia-4"
 category: "Culinary Herbs"
-subCategory: "Asian Herbs"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Asian Herbs"
 seoKeywords: ["cul-asia-4", "asian herbs", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Shiso/Perilla: Green, Red & Korean Varieties — Sushi, Kimchi & Pickling** is a critical clinical pathway within **Asian Herbs** under the **Culinary Herbs** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

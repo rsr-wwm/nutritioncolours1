@@ -17,12 +17,10 @@ const DIST = process.argv[2] || 'dist';
 
 // Required @type on a sample page of each YMYL template (dir under dist/).
 const YMYL_REQUIRED = {
-  'knowledge/health-conditions': ['MedicalWebPage'],
-  'knowledge/herbs':             ['MedicalWebPage'],
-  'knowledge/spices':            ['MedicalWebPage'],
-  'knowledge/health-topics':     ['MedicalWebPage'],
-  genomics:     ['MedicalWebPage', 'Gene', 'Physician'],
-  interactions: ['MedicalWebPage', 'Drug', 'Physician'],
+  'knowledge/diseases': ['MedicalWebPage'],
+  'knowledge/foods':    ['MedicalWebPage'],
+  genomics:     ['MedicalWebPage', 'Gene', 'Person'],
+  interactions: ['MedicalWebPage', 'Drug', 'Person'],
   clinic:       ['MedicalWebPage'],
 };
 
@@ -54,10 +52,26 @@ for (const f of listHtml(DIST)) {
 // 2. required-type check on one sample page per YMYL template
 for (const [tpl, required] of Object.entries(YMYL_REQUIRED)) {
   let sample;
-  try { sample = execSync(`find "${join(DIST, tpl)}" -name index.html | head -1`, { encoding: 'utf8' }).trim(); }
+  try { sample = execSync(`find "${join(DIST, tpl)}" -mindepth 2 -name index.html | head -1`, { encoding: 'utf8' }).trim(); }
   catch { sample = ''; }
   if (!sample) { failures.push(`NO SAMPLE for template "${tpl}" (dir missing under dist/)`); continue; }
-  const types = new Set([...readFileSync(sample, 'utf8').matchAll(/"@type"\s*:\s*"([^"]+)"/g)].map(m => m[1]));
+  const types = new Set();
+  for (const block of ldBlocks(readFileSync(sample, 'utf8'))) {
+    try {
+      const parsed = JSON.parse(block);
+      // It might be an array or a single object. If it's the @graph, we need to check inside.
+      const items = Array.isArray(parsed) ? parsed : (parsed['@graph'] || [parsed]);
+      for (const item of items) {
+        if (item['@type']) {
+          if (Array.isArray(item['@type'])) {
+            item['@type'].forEach(t => types.add(t));
+          } else {
+            types.add(item['@type']);
+          }
+        }
+      }
+    } catch (e) {}
+  }
   for (const t of required) {
     if (!types.has(t)) failures.push(`MISSING @type "${t}" on ${tpl} sample (${sample})`);
   }

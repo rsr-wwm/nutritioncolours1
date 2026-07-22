@@ -1,13 +1,13 @@
 ---
 title: "Liver Disorders: Hepatitis, Cirrhosis, NAFLD, Liver Cancer & Autoimmune Liver Disease"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Liver Disorders: Hepatitis, Cirrhosis, NAFLD, Liver Cancer & Autoimmune Liver Disease."
+slug: "org-liver-2"
 category: "organ-wise"
-subCategory: "Liver, Gallbladder & Pancreas"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
-seoKeywords: ["org-liver-2", "liver, gallbladder & pancreas", "clinical protocol", "nutrition"]
+subCategory: "Liver, Gallbladder & Pancreas"
+seoKeywords: ["org-liver-2", "liver", "gallbladder & pancreas", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Liver Disorders: Hepatitis, Cirrhosis, NAFLD, Liver Cancer & Autoimmune Liver Disease** is a critical clinical pathway within **Liver, Gallbladder & Pancreas** under the **organ-wise** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

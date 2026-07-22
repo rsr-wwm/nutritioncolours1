@@ -4,6 +4,7 @@ import { ClinicalGenomicsDetail } from '../../components/ClinicalDetails';
 import { GENOMIC_VARIANTS_DATA } from '../../lib/clinical_databases';
 import { getGenomicsEntityGraph } from '../../lib/seo/entityGraph';
 import { getBreadcrumbSchema } from '../../lib/seo/structuredData';
+import { linkifyText } from '../../lib/seo/autoLinker';
 
 export async function getStaticPaths() {
   return GENOMIC_VARIANTS_DATA.map((variant) => ({
@@ -36,7 +37,6 @@ const allKeywords = [
   "precision health"
 ];
 ---
-<div data-ai-answer="true">
 
 <BaseLayout
   title={`${variant.rsid} (${variant.genotype}) - Nutrigenomics | NutritionColours`}
@@ -62,9 +62,7 @@ const allKeywords = [
       <div class="grid md:grid-cols-2 gap-8 pt-4">
         <div class="space-y-4">
           <h3 class="text-lg font-extrabold text-emerald-900 m-0">Clinical Impact & Pathophysiology</h3>
-          <p class="text-sm leading-relaxed text-stone-600" data-ai-answer="true">
-            {variant.clinicalImpact}
-          </p>
+          <p class="text-sm leading-relaxed text-stone-600" data-ai-answer="true" set:html={linkifyText(variant.clinicalImpact)}></p>
           <p class="text-sm leading-relaxed text-stone-655" data-ai-answer="true">
             Single Nucleotide Polymorphisms (SNPs) inside the <strong>{variant.geneName}</strong> gene can influence enzyme kinetics, receptor behavior, or carrier protein dynamics. This changes how your body handles specific macronutrients, synthesizes neurotransmitters, or clears cellular metabolites. Rather than a direct disease diagnosis, carrying the {variant.genotype} variant represents a physiological pattern that can be managed through precision, genetics-informed nutrition.
           </p>
@@ -72,9 +70,7 @@ const allKeywords = [
 
         <div class="space-y-4">
           <h3 class="text-lg font-extrabold text-emerald-900 m-0">Genomic Dietary Swap Guidelines</h3>
-          <p class="text-sm leading-relaxed text-stone-600">
-            {variant.dietaryGuideline}
-          </p>
+          <p class="text-sm leading-relaxed text-stone-600" set:html={linkifyText(variant.dietaryGuideline)}></p>
           <p class="text-sm leading-relaxed text-stone-650">
             By implementing specific dietary adjustments, clients carrying this variant can support alternative metabolic pathways and compensate for reduced enzyme efficiency. Precision plant-based nutrition helps manage metabolic responses at the cellular level.
           </p>
@@ -138,4 +134,3 @@ const allKeywords = [
     </section>
   </div>
 </BaseLayout>
-</div>

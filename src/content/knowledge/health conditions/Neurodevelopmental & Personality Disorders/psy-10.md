@@ -1,13 +1,13 @@
 ---
 title: "Autism Spectrum Disorder (ASD): Diagnosis, Early Intervention & Support"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Autism Spectrum Disorder (ASD): Diagnosis, Early Intervention & Support."
+slug: "psy-10"
 category: "health conditions"
-subCategory: "Neurodevelopmental & Personality Disorders"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Neurodevelopmental & Personality Disorders"
 seoKeywords: ["psy-10", "neurodevelopmental & personality disorders", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Autism Spectrum Disorder (ASD): Diagnosis, Early Intervention & Support** is a critical clinical pathway within **Neurodevelopmental & Personality Disorders** under the **health conditions** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

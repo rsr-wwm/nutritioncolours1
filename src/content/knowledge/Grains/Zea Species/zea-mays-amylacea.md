@@ -3,12 +3,11 @@ title: "Zea Mays Amylacea"
 description: "Brief overview of zea mays amylacea, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Zea Mays Amylacea"
 category: "Grains"
-subCategory: "Zea Species"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Zea Species"
 seoKeywords: ["zea mays amylacea", "zea species", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Zea Mays Amylacea** is a highly valued nutritional agent within the **Zea Species** subcategory under the **Grains** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Zea Mays Amylacea** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

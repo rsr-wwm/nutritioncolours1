@@ -61,12 +61,12 @@ export const { getStaticPaths, GET } = await OGImageRoute({
     border: { color: [163, 230, 53], width: 6, side: 'block-start' },
     padding: 60,
     font: {
-      title: { color: [255, 255, 255], size: 64, families: ['Inter'] },
-      description: { color: [209, 250, 229], size: 34, families: ['Inter'] },
+      title: { color: [255, 255, 255], size: 64, families: ['sans-serif'] },
+      description: { color: [209, 250, 229], size: 34, families: ['sans-serif'] },
     },
     fonts: [
-      'https://api.fontsource.org/v1/fonts/inter/latin-700-normal.ttf',
-      'https://api.fontsource.org/v1/fonts/inter/latin-400-normal.ttf',
+      './public/fonts/inter-latin-700-normal.woff2',
+      './public/fonts/inter-latin-400-normal.woff2',
     ],
   }),
 });

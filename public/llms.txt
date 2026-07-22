@@ -57,7 +57,6 @@ Full index: [Herbs Database](https://nutritioncolours.com/knowledge/herbs) and [
 *   [Core Programs & Onboarding](https://nutritioncolours.com/plans)
 *   [Health Topics & Clinical Dossiers](https://nutritioncolours.com/knowledge)
 *   [Clinical Team Profiles](https://nutritioncolours.com/team)
-*   [Interactive Calculators & Dynamic Plate Generator](https://nutritioncolours.com/tools)
 *   [Structured Clinical Dataset Feed (JSON)](https://nutritioncolours.com/data/clinical-feed.json)
 
 ## Machine-Readable Discovery Endpoints

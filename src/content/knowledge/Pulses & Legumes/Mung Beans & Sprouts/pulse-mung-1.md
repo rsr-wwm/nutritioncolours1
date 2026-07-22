@@ -1,13 +1,13 @@
 ---
 title: "Mung Beans: Sprouts, Dal, Cellophane Noodles & the Asian Staple Legume"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Mung Beans: Sprouts, Dal, Cellophane Noodles & the Asian Staple Legume."
+slug: "pulse-mung-1"
 category: "Pulses & Legumes"
-subCategory: "Mung Beans & Sprouts"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Mung Beans & Sprouts"
 seoKeywords: ["pulse-mung-1", "mung beans & sprouts", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Mung Beans: Sprouts, Dal, Cellophane Noodles & the Asian Staple Legume** is a critical clinical pathway within **Mung Beans & Sprouts** under the **Pulses & Legumes** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

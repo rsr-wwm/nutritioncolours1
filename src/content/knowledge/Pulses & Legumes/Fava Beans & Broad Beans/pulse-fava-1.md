@@ -1,13 +1,13 @@
 ---
 title: "Fava Beans: Broad Beans, Ful Medames & the G6PD Deficiency Warning"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Fava Beans: Broad Beans, Ful Medames & the G6PD Deficiency Warning."
+slug: "pulse-fava-1"
 category: "Pulses & Legumes"
-subCategory: "Fava Beans & Broad Beans"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Fava Beans & Broad Beans"
 seoKeywords: ["pulse-fava-1", "fava beans & broad beans", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Fava Beans: Broad Beans, Ful Medames & the G6PD Deficiency Warning** is a critical clinical pathway within **Fava Beans & Broad Beans** under the **Pulses & Legumes** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

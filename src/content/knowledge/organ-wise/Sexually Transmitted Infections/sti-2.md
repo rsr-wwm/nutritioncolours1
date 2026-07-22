@@ -1,13 +1,13 @@
 ---
 title: "Genital Herpes, HPV, Genital Warts & Hepatitis B Sexual Transmission"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Genital Herpes, HPV, Genital Warts & Hepatitis B Sexual Transmission."
+slug: "sti-2"
 category: "organ-wise"
-subCategory: "Sexually Transmitted Infections"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Sexually Transmitted Infections"
 seoKeywords: ["sti-2", "sexually transmitted infections", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Genital Herpes, HPV, Genital Warts & Hepatitis B Sexual Transmission** is a critical clinical pathway within **Sexually Transmitted Infections** under the **organ-wise** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

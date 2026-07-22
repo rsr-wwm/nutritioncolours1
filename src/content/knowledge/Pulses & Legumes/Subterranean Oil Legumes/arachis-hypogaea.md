@@ -1,15 +1,13 @@
 ---
 title: "Peanuts — Nutrition, Composition & Health"
 description: "Peanuts (moongphali) — dry-roasted — provide about 587 kcal per 100 g; botanically a legume (not a tree nut), and a common allergen requiring careful labeling and clinical caution."
+slug: "arachis-hypogaea"
 category: "Pulses & Legumes"
-subCategory: "Subterranean Oil Legumes"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["peanuts","arachis hypogaea","plant protein","monounsaturated fat","magnesium","folate (raw)","nutrition","composition"]
-tags: ["common-allergen","legume-not-tree-nut"]
+subCategory: "Subterranean Oil Legumes"
+seoKeywords: ["peanuts", "arachis hypogaea", "plant protein", "monounsaturated fat", "magnesium", "folate (raw)", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Arachis hypogaea*

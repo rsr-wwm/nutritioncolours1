@@ -3,12 +3,11 @@ title: "Retinol"
 description: "Brief overview of retinol, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Retinol - Database"
 category: "Nutrient Database"
-subCategory: "Retinoids & Carotenoids"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Retinoids & Carotenoids"
 seoKeywords: ["retinol", "retinoids & carotenoids", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Retinol** is a highly valued nutritional agent within the **Retinoids & Carotenoids** subcategory under the **Nutrient Database** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Retinol** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

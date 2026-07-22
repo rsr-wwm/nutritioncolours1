@@ -1,15 +1,13 @@
 ---
 title: "Urad Dal (Black Gram) — Nutrition, Composition & Health"
 description: "Urad dal (black gram) — cooked — provides about 105 kcal per 100 g and is notably the most calcium-rich common Indian dal, essential to idli/dosa batter fermentation and dal makhani."
+slug: "vigna-mungo"
 category: "Pulses & Legumes"
-subCategory: "High-Protein Vigna Grams"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["urad dal (black gram)","vigna mungo","calcium","plant protein","iron","fiber","nutrition","composition"]
-tags: ["gluten-free"]
+subCategory: "High-Protein Vigna Grams"
+seoKeywords: ["urad dal (black gram)", "vigna mungo", "calcium", "plant protein", "iron", "fiber", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Vigna mungo*

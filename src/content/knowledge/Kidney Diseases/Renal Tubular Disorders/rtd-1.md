@@ -1,13 +1,13 @@
 ---
 title: "Renal Tubular Acidosis (RTA): Types 1, 2, 3 & 4"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Renal Tubular Acidosis (RTA): Types 1, 2, 3 & 4."
+slug: "rtd-1"
 category: "Kidney Diseases"
-subCategory: "Renal Tubular Disorders"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Renal Tubular Disorders"
 seoKeywords: ["rtd-1", "renal tubular disorders", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Renal Tubular Acidosis (RTA): Types 1, 2, 3 & 4** is a critical clinical pathway within **Renal Tubular Disorders** under the **Kidney Diseases** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

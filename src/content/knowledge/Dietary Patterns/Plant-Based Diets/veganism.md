@@ -3,12 +3,11 @@ title: "Veganism"
 description: "Brief overview of veganism, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Veganism"
 category: "Dietary Patterns"
-subCategory: "Plant-Based Diets"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Plant-Based Diets"
 seoKeywords: ["veganism", "plant-based diets", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Veganism** is a highly valued nutritional agent within the **Plant-Based Diets** subcategory under the **Dietary Patterns** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Veganism** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

@@ -3,12 +3,11 @@ title: "Lactuca Sativa Var Capitata"
 description: "Brief overview of lactuca sativa var capitata, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Lactuca Sativa Var Capitata"
 category: "Vegetables"
-subCategory: "Asteraceae Greens"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Asteraceae Greens"
 seoKeywords: ["lactuca sativa var capitata", "asteraceae greens", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Lactuca Sativa Var Capitata** is a highly valued nutritional agent within the **Asteraceae Greens** subcategory under the **Vegetables** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Lactuca Sativa Var Capitata** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

@@ -3,12 +3,11 @@ title: "Star Anise"
 description: "Brief overview of star anise, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Star Anise"
 category: "spices"
-subCategory: "Schisandraceae & Myrtaceae Fruits"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Schisandraceae & Myrtaceae Fruits"
 seoKeywords: ["star anise", "schisandraceae & myrtaceae fruits", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Star Anise** is a highly valued nutritional agent within the **Schisandraceae & Myrtaceae Fruits** subcategory under the **spices** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Star Anise** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

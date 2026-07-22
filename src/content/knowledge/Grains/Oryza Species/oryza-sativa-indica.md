@@ -1,15 +1,13 @@
 ---
 title: "Rice (White, Long-Grain) — Nutrition, Composition & Health"
 description: "White long-grain rice is a staple cereal providing about 365 kcal per 100 g raw, mainly as carbohydrate, with a high glycemic index — portion and pairing matter most for blood-sugar impact."
+slug: "oryza-sativa-indica"
 category: "Grains"
-subCategory: "Oryza Species"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["rice (white, long-grain)","oryza sativa","carbohydrate (energy)","manganese","thiamin (b1)","nutrition","composition"]
-tags: ["high-glycemic"]
+subCategory: "Oryza Species"
+seoKeywords: ["rice (white", "long-grain)", "oryza sativa", "carbohydrate (energy)", "manganese", "thiamin (b1)", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Oryza sativa*

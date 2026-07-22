@@ -3,12 +3,11 @@ title: "Valeriana Officinalis"
 description: "Brief overview of valeriana officinalis, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Valeriana Officinalis"
 category: "Medicinal Herbs"
-subCategory: "Nervines & Sedatives"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Nervines & Sedatives"
 seoKeywords: ["valeriana officinalis", "nervines & sedatives", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Valeriana Officinalis** is a highly valued nutritional agent within the **Nervines & Sedatives** subcategory under the **Medicinal Herbs** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Valeriana Officinalis** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

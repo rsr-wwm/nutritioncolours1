@@ -3,12 +3,11 @@ title: "Lens Culinaris Black"
 description: "Brief overview of lens culinaris black, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Lens Culinaris Black"
 category: "Pulses & Legumes"
-subCategory: "Whole Small-Seed Lentils"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Whole Small-Seed Lentils"
 seoKeywords: ["lens culinaris black", "whole small-seed lentils", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Lens Culinaris Black** is a highly valued nutritional agent within the **Whole Small-Seed Lentils** subcategory under the **Pulses & Legumes** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Lens Culinaris Black** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

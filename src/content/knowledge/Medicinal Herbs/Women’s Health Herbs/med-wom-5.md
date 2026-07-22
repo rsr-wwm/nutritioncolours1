@@ -1,13 +1,13 @@
 ---
 title: "Dong Quai/Angelica sinensis: Female Ginseng, Blood Tonic & Menopause"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Dong Quai/Angelica sinensis: Female Ginseng, Blood Tonic & Menopause."
+slug: "med-wom-5"
 category: "Medicinal Herbs"
-subCategory: "Women’s Health Herbs"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
-seoKeywords: ["med-wom-5", "women’s health herbs", "clinical protocol", "nutrition"]
+subCategory: "Women’s Health Herbs"
+seoKeywords: ["med-wom-5", "women\u2019s health herbs", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Dong Quai/Angelica sinensis: Female Ginseng, Blood Tonic & Menopause** is a critical clinical pathway within **Women’s Health Herbs** under the **Medicinal Herbs** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

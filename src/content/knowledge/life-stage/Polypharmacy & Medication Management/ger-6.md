@@ -1,13 +1,13 @@
 ---
 title: "Polypharmacy: Deprescribing, Beers Criteria & Medication Reconciliation"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Polypharmacy: Deprescribing, Beers Criteria & Medication Reconciliation."
+slug: "ger-6"
 category: "life-stage"
-subCategory: "Polypharmacy & Medication Management"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Polypharmacy & Medication Management"
 seoKeywords: ["ger-6", "polypharmacy & medication management", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Polypharmacy: Deprescribing, Beers Criteria & Medication Reconciliation** is a critical clinical pathway within **Polypharmacy & Medication Management** under the **life-stage** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

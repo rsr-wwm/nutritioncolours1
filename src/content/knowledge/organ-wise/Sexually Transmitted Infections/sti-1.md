@@ -1,13 +1,13 @@
 ---
 title: "Chlamydia, Gonorrhea, Syphilis & Trichomoniasis: Screening & Treatment"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Chlamydia, Gonorrhea, Syphilis & Trichomoniasis: Screening & Treatment."
+slug: "sti-1"
 category: "organ-wise"
-subCategory: "Sexually Transmitted Infections"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Sexually Transmitted Infections"
 seoKeywords: ["sti-1", "sexually transmitted infections", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Chlamydia, Gonorrhea, Syphilis & Trichomoniasis: Screening & Treatment** is a critical clinical pathway within **Sexually Transmitted Infections** under the **organ-wise** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

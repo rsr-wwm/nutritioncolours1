@@ -1,13 +1,13 @@
 ---
 title: "Dining & Travel: Expert Nutritional Guide"
 description: ""
+slug: "vegan-travel"
 category: "Health Topics"
-subCategory: "vegan"
-seoKeywords: ["Dining & Travel","nutrition topics","health optimization"]
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "vegan"
+seoKeywords: ["Dining & Travel", "nutrition topics", "health optimization"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Dining & Travel: Expert Nutritional Guide** is a highly valued nutritional agent within the **vegan** subcategory under the **Health Topics** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Dining & Travel: Expert Nutritional Guide** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

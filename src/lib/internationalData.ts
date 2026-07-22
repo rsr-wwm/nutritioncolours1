@@ -183,7 +183,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "High density seed oil frying in street food cultures disrupting peripheral liver clock",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Cucumber with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Cucumber with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Sprouted ragi parathas, wood-pressed mustard oil, and low-sodium lacto-fermented vegetable pickles.",
     "microclimateMetabolicImpact": "Dry desert heat accelerates daytime dehydration, increasing blood viscosity and elevating fasting glucose levels."
@@ -280,7 +280,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Artificial AC micro-climates suppressing natural temperature drops for sleep",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Cucumber with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Cucumber with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Sprouted ragi parathas, wood-pressed mustard oil, and low-sodium lacto-fermented vegetable pickles.",
     "microclimateMetabolicImpact": "Extreme diurnal temperature drops require careful thyroid support to maintain baseline thermogenesis without metabolic stress."
@@ -534,7 +534,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin B12 (due to vegetarian/vegan staple gaps)",
     "circadianChallenge": "High density seed oil frying in street food cultures disrupting peripheral liver clock",
     "associatedTopicId": "pcos-balance",
-    "localProduceSynergy": "Gently sautu00e9 Apricots with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Apricots with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "LH/FSH Ratio, Free Testosterone & DHEAS",
     "regionalStapleAlternative": "Tempeh or organic chicken breast, almond flour bread, and unsweetened lemon-herb water.",
     "microclimateMetabolicImpact": "Blistering summer heat suppresses daytime appetite, shifting the primary eating window to late evening and delaying liver clock sync."
@@ -585,7 +585,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "High density seed oil frying in street food cultures disrupting peripheral liver clock",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Pomegranate with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Pomegranate with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Black Kavuni rice, wild-caught seafood, cold-pressed sesame oil, and fiber-rich local leafy greens.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -738,7 +738,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin B12 (due to vegetarian/vegan staple gaps)",
     "circadianChallenge": "Artificial AC micro-climates suppressing natural temperature drops for sleep",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Eggplant with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Eggplant with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Khapli (emmer) wheat rotis, cold-pressed mustard oil, and stevia/cardamom organic tea.",
     "microclimateMetabolicImpact": "Extreme diurnal temperature drops require careful thyroid support to maintain baseline thermogenesis without metabolic stress."
@@ -941,7 +941,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Apple with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Apple with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Black Kavuni rice, wild-caught seafood, cold-pressed sesame oil, and fiber-rich local leafy greens.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -1019,7 +1019,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea",
     "timezone": "Europe/London (BST/GMT, UTC+1)",
     "dialingCode": "+44",
-    "currency": "GBP (u00a3, British Pound)",
+    "currency": "GBP (£, British Pound)",
     "weather": "Temperate maritime climate, cool summers, mild wet winters",
     "localFruits": [
       "Pears",
@@ -1188,7 +1188,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "fatty-liver-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Cabbage with Turmeric for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Cabbage with Turmeric for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "ALT, AST, GGT & Liver Ultrasound FibroScan",
     "regionalStapleAlternative": "Khapli (emmer) wheat rotis, cold-pressed mustard oil, and stevia/cardamom organic tea.",
     "microclimateMetabolicImpact": "Mild, humid winters slow down thyroid-driven adaptive thermogenesis, making evening carb-restriction critical for weight control."
@@ -1440,7 +1440,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "cholesterol-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Brussels Sprouts with Turmeric for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Brussels Sprouts with Turmeric for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "ApoB, Lp(a), Triglycerides & LDL-C Particle Size",
     "regionalStapleAlternative": "Sprouted ragi parathas, wood-pressed mustard oil, and low-sodium lacto-fermented vegetable pickles.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -1489,7 +1489,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "pcos-balance",
-    "localProduceSynergy": "Gently sautu00e9 Brussels Sprouts with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Brussels Sprouts with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "LH/FSH Ratio, Free Testosterone & DHEAS",
     "regionalStapleAlternative": "Foxtail millet rice, sprouted emmer wheat flatbreads, and organic A2 cow ghee in moderation.",
     "microclimateMetabolicImpact": "Sub-zero winter temperatures increase metabolic demand for heat production, requiring thyroid-active selenium and iodine support."
@@ -1763,7 +1763,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup",
     "timezone": "Atlantic/Reykjavik (GMT, UTC+0)",
     "dialingCode": "+354",
-    "currency": "ISK (kr, Icelandic Kru00f3na)",
+    "currency": "ISK (kr, Icelandic Króna)",
     "weather": "Subpolar oceanic climate, cool summers, mild windy winters",
     "localFruits": [
       "Pears",
@@ -2038,7 +2038,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Apples with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Apples with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Sourdough spelt bread, extra-virgin olive oil, and raw organic honey or stevia.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -2090,7 +2090,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Artichokes with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Artichokes with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Barnyard millet, brown unpolished rice, cold-pressed extra-virgin coconut oil, and high-protein pulse pairings.",
     "microclimateMetabolicImpact": "Severe daylight compression in winter halts cutaneous Vitamin D3 production, triggering seasonal insulin resistance and fatigue."
@@ -2291,7 +2291,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Spinach with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Spinach with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Tempeh or organic chicken breast, almond flour bread, and unsweetened lemon-herb water.",
     "microclimateMetabolicImpact": "Constant tropical heat increases fluid and electrolyte turnover, requiring trace mineral replenishment to sustain cellular pumps."
@@ -2341,7 +2341,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Cranberries with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Cranberries with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Tempeh or organic chicken breast, almond flour bread, and unsweetened lemon-herb water.",
     "microclimateMetabolicImpact": "Constant tropical heat increases fluid and electrolyte turnover, requiring trace mineral replenishment to sustain cellular pumps."
@@ -2422,7 +2422,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber",
     "timezone": "Asia/Tokyo (JST, UTC+9)",
     "dialingCode": "+81",
-    "currency": "JPY (u00a5, Japanese Yen)",
+    "currency": "JPY (¥, Japanese Yen)",
     "weather": "Temperate seasonal climate, hot summers, snowy winters",
     "localFruits": [
       "Rambutan",
@@ -2492,7 +2492,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Mangosteen with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Mangosteen with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Tempeh or organic chicken breast, almond flour bread, and unsweetened lemon-herb water.",
     "microclimateMetabolicImpact": "Severe daylight compression in winter halts cutaneous Vitamin D3 production, triggering seasonal insulin resistance and fatigue."
@@ -2519,7 +2519,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Durian",
@@ -2789,7 +2789,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin B12 (due to vegetarian/vegan staple gaps)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "pcos-balance",
-    "localProduceSynergy": "Gently sautu00e9 Orange with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Orange with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "LH/FSH Ratio, Free Testosterone & DHEAS",
     "regionalStapleAlternative": "Barnyard millet, brown unpolished rice, cold-pressed extra-virgin coconut oil, and high-protein pulse pairings.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -3034,7 +3034,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Broccoli with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Broccoli with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Sprouted ragi parathas, wood-pressed mustard oil, and low-sodium lacto-fermented vegetable pickles.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -3132,7 +3132,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "pcos-balance",
-    "localProduceSynergy": "Gently sautu00e9 Zucchini with Holy Basil for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Zucchini with Holy Basil for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "LH/FSH Ratio, Free Testosterone & DHEAS",
     "regionalStapleAlternative": "Khapli (emmer) wheat rotis, cold-pressed mustard oil, and stevia/cardamom organic tea.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -3284,7 +3284,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Broccoli with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Broccoli with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Foxtail millet rice, sprouted emmer wheat flatbreads, and organic A2 cow ghee in moderation.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -3483,7 +3483,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "pcos-balance",
-    "localProduceSynergy": "Gently sautu00e9 Lettuce with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Lettuce with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "LH/FSH Ratio, Free Testosterone & DHEAS",
     "regionalStapleAlternative": "Black Kavuni rice, wild-caught seafood, cold-pressed sesame oil, and fiber-rich local leafy greens.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -3584,7 +3584,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Carrot with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Carrot with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Sprouted ragi parathas, wood-pressed mustard oil, and low-sodium lacto-fermented vegetable pickles.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -3682,7 +3682,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin B12 (due to vegetarian/vegan staple gaps)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "thyroid-optimization",
-    "localProduceSynergy": "Gently sautu00e9 Lettuce with Ashwagandha for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Lettuce with Ashwagandha for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "TSH, Free T3, Free T4 & Anti-TPO Antibodies",
     "regionalStapleAlternative": "Black Kavuni rice, wild-caught seafood, cold-pressed sesame oil, and fiber-rich local leafy greens.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -3935,7 +3935,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "pcos-balance",
-    "localProduceSynergy": "Gently sautu00e9 Lettuce with Holy Basil for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Lettuce with Holy Basil for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "LH/FSH Ratio, Free Testosterone & DHEAS",
     "regionalStapleAlternative": "Foxtail millet rice, sprouted emmer wheat flatbreads, and organic A2 cow ghee in moderation.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -4230,7 +4230,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "thyroid-optimization",
-    "localProduceSynergy": "Gently sautu00e9 Broccoli with Ashwagandha for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Broccoli with Ashwagandha for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "TSH, Free T3, Free T4 & Anti-TPO Antibodies",
     "regionalStapleAlternative": "Khapli (emmer) wheat rotis, cold-pressed mustard oil, and stevia/cardamom organic tea.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -4627,7 +4627,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "fatty-liver-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Berry with Turmeric for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Berry with Turmeric for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "ALT, AST, GGT & Liver Ultrasound FibroScan",
     "regionalStapleAlternative": "Tempeh or organic chicken breast, almond flour bread, and unsweetened lemon-herb water.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -4774,7 +4774,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "pcos-balance",
-    "localProduceSynergy": "Gently sautu00e9 Broccoli with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Broccoli with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "LH/FSH Ratio, Free Testosterone & DHEAS",
     "regionalStapleAlternative": "Foxtail millet rice, sprouted emmer wheat flatbreads, and organic A2 cow ghee in moderation.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -4968,7 +4968,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "pcos-balance",
-    "localProduceSynergy": "Gently sautu00e9 Apple with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Apple with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "LH/FSH Ratio, Free Testosterone & DHEAS",
     "regionalStapleAlternative": "Khapli (emmer) wheat rotis, cold-pressed mustard oil, and stevia/cardamom organic tea.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -5018,7 +5018,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Lettuce with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Lettuce with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Barnyard millet, brown unpolished rice, cold-pressed extra-virgin coconut oil, and high-protein pulse pairings.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -5168,7 +5168,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Broccoli with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Broccoli with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Khapli (emmer) wheat rotis, cold-pressed mustard oil, and stevia/cardamom organic tea.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -5718,7 +5718,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Carrot with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Carrot with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Sprouted ragi parathas, wood-pressed mustard oil, and low-sodium lacto-fermented vegetable pickles.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -5820,7 +5820,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Orange with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Orange with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Sourdough spelt bread, extra-virgin olive oil, and raw organic honey or stevia.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -6073,7 +6073,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Lettuce with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Lettuce with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Sprouted ragi parathas, wood-pressed mustard oil, and low-sodium lacto-fermented vegetable pickles.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -6124,7 +6124,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "cholesterol-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Apple with Ginger for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Apple with Ginger for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "ApoB, Lp(a), Triglycerides & LDL-C Particle Size",
     "regionalStapleAlternative": "Tempeh or organic chicken breast, almond flour bread, and unsweetened lemon-herb water.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -6177,7 +6177,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Orange with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Orange with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Black Kavuni rice, wild-caught seafood, cold-pressed sesame oil, and fiber-rich local leafy greens.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -6275,7 +6275,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin B12 (due to vegetarian/vegan staple gaps)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Apple with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Apple with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Barnyard millet, brown unpolished rice, cold-pressed extra-virgin coconut oil, and high-protein pulse pairings.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -6374,7 +6374,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin B12 (due to vegetarian/vegan staple gaps)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Apple with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Apple with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Tempeh or organic chicken breast, almond flour bread, and unsweetened lemon-herb water.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -6474,7 +6474,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Broccoli with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Broccoli with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Sourdough spelt bread, extra-virgin olive oil, and raw organic honey or stevia.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -6672,7 +6672,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Grape with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Grape with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Khapli (emmer) wheat rotis, cold-pressed mustard oil, and stevia/cardamom organic tea.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -6771,7 +6771,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin B12 (due to vegetarian/vegan staple gaps)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Zucchini with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Zucchini with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Foxtail millet rice, sprouted emmer wheat flatbreads, and organic A2 cow ghee in moderation.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -7611,7 +7611,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Orange with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Orange with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Barnyard millet, brown unpolished rice, cold-pressed extra-virgin coconut oil, and high-protein pulse pairings.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -8063,7 +8063,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Orange with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Orange with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Tempeh or organic chicken breast, almond flour bread, and unsweetened lemon-herb water.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -8216,7 +8216,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "fatty-liver-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Berry with Ginger for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Berry with Ginger for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "ALT, AST, GGT & Liver Ultrasound FibroScan",
     "regionalStapleAlternative": "Sourdough spelt bread, extra-virgin olive oil, and raw organic honey or stevia.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -8315,7 +8315,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Zucchini with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Zucchini with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Khapli (emmer) wheat rotis, cold-pressed mustard oil, and stevia/cardamom organic tea.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -8368,7 +8368,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "fatty-liver-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Lettuce with Ginger for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Lettuce with Ginger for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "ALT, AST, GGT & Liver Ultrasound FibroScan",
     "regionalStapleAlternative": "Barnyard millet, brown unpolished rice, cold-pressed extra-virgin coconut oil, and high-protein pulse pairings.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -8469,7 +8469,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Carrot with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Carrot with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Foxtail millet rice, sprouted emmer wheat flatbreads, and organic A2 cow ghee in moderation.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -8669,7 +8669,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Lettuce with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Lettuce with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Black Kavuni rice, wild-caught seafood, cold-pressed sesame oil, and fiber-rich local leafy greens.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -8915,7 +8915,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin B12 (due to vegetarian/vegan staple gaps)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Orange with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Orange with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Tempeh or organic chicken breast, almond flour bread, and unsweetened lemon-herb water.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -9015,7 +9015,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "pcos-balance",
-    "localProduceSynergy": "Gently sautu00e9 Apple with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Apple with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "LH/FSH Ratio, Free Testosterone & DHEAS",
     "regionalStapleAlternative": "Tempeh or organic chicken breast, almond flour bread, and unsweetened lemon-herb water.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -9111,7 +9111,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Carrot with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Carrot with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Tempeh or organic chicken breast, almond flour bread, and unsweetened lemon-herb water.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -9210,7 +9210,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "pcos-balance",
-    "localProduceSynergy": "Gently sautu00e9 Broccoli with Holy Basil for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Broccoli with Holy Basil for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "LH/FSH Ratio, Free Testosterone & DHEAS",
     "regionalStapleAlternative": "Barnyard millet, brown unpolished rice, cold-pressed extra-virgin coconut oil, and high-protein pulse pairings.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -9358,7 +9358,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "pcos-balance",
-    "localProduceSynergy": "Gently sautu00e9 Broccoli with Holy Basil for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Broccoli with Holy Basil for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "LH/FSH Ratio, Free Testosterone & DHEAS",
     "regionalStapleAlternative": "Black Kavuni rice, wild-caught seafood, cold-pressed sesame oil, and fiber-rich local leafy greens.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -9753,7 +9753,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "fatty-liver-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Banana with Ginger for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Banana with Ginger for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "ALT, AST, GGT & Liver Ultrasound FibroScan",
     "regionalStapleAlternative": "Barnyard millet, brown unpolished rice, cold-pressed extra-virgin coconut oil, and high-protein pulse pairings.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -9883,7 +9883,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Durian",
@@ -9906,7 +9906,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "fatty-liver-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Durian with Ginger for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Durian with Ginger for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "ALT, AST, GGT & Liver Ultrasound FibroScan",
     "regionalStapleAlternative": "Khapli (emmer) wheat rotis, cold-pressed mustard oil, and stevia/cardamom organic tea.",
     "microclimateMetabolicImpact": "Constant tropical heat increases fluid and electrolyte turnover, requiring trace mineral replenishment to sustain cellular pumps."
@@ -9955,7 +9955,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Blistering daytime heat shifting active hours and dinners post-midnight",
     "associatedTopicId": "pcos-balance",
-    "localProduceSynergy": "Gently sautu00e9 Figs with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Figs with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "LH/FSH Ratio, Free Testosterone & DHEAS",
     "regionalStapleAlternative": "Tempeh or organic chicken breast, almond flour bread, and unsweetened lemon-herb water.",
     "microclimateMetabolicImpact": "Blistering summer heat suppresses daytime appetite, shifting the primary eating window to late evening and delaying liver clock sync."
@@ -10463,7 +10463,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Broccoli with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Broccoli with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Sprouted ragi parathas, wood-pressed mustard oil, and low-sodium lacto-fermented vegetable pickles.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -10660,7 +10660,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Lettuce with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Lettuce with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Tempeh or organic chicken breast, almond flour bread, and unsweetened lemon-herb water.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -10710,7 +10710,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "cholesterol-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Spinach with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Spinach with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "ApoB, Lp(a), Triglycerides & LDL-C Particle Size",
     "regionalStapleAlternative": "Barnyard millet, brown unpolished rice, cold-pressed extra-virgin coconut oil, and high-protein pulse pairings.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -10785,7 +10785,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Processed meats, refined wheat bread, sugary beverages",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Durian",
@@ -10837,7 +10837,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Millets, white rice, coconut oil, high carbohydrates",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Durian",
@@ -10912,7 +10912,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Asparagus with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Asparagus with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Tempeh or organic chicken breast, almond flour bread, and unsweetened lemon-herb water.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -10962,7 +10962,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "pcos-balance",
-    "localProduceSynergy": "Gently sautu00e9 Spinach with Holy Basil for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Spinach with Holy Basil for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "LH/FSH Ratio, Free Testosterone & DHEAS",
     "regionalStapleAlternative": "Barnyard millet, brown unpolished rice, cold-pressed extra-virgin coconut oil, and high-protein pulse pairings.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -11111,7 +11111,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "hypertension-management",
-    "localProduceSynergy": "Gently sautu00e9 Apple with Garlic for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Apple with Garlic for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "Systolic/Diastolic BP & hs-CRP (High-Sensitivity C-Reactive Protein)",
     "regionalStapleAlternative": "Foxtail millet rice, sprouted emmer wheat flatbreads, and organic A2 cow ghee in moderation.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -11162,7 +11162,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Lettuce with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Lettuce with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Tempeh or organic chicken breast, almond flour bread, and unsweetened lemon-herb water.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -11558,7 +11558,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Raspberries with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Raspberries with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Sprouted ragi parathas, wood-pressed mustard oil, and low-sodium lacto-fermented vegetable pickles.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -11761,7 +11761,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "pcos-balance",
-    "localProduceSynergy": "Gently sautu00e9 Raspberries with Holy Basil for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Raspberries with Holy Basil for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "LH/FSH Ratio, Free Testosterone & DHEAS",
     "regionalStapleAlternative": "Sourdough spelt bread, extra-virgin olive oil, and raw organic honey or stevia.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -11993,7 +11993,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Millets, white rice, coconut oil, high carbohydrates",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Durian",
@@ -12015,7 +12015,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "hypertension-management",
-    "localProduceSynergy": "Gently sautu00e9 Dragon Fruit with Garlic for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Dragon Fruit with Garlic for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "Systolic/Diastolic BP & hs-CRP (High-Sensitivity C-Reactive Protein)",
     "regionalStapleAlternative": "Barnyard millet, brown unpolished rice, cold-pressed extra-virgin coconut oil, and high-protein pulse pairings.",
     "microclimateMetabolicImpact": "High humidity and tropical warmth reduce digestive enzyme secretion speed, requiring warm therapeutic spices to aid transit."
@@ -12041,7 +12041,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Wheat parathas, mustard oil, high sodium pickles",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Durian",
@@ -12063,7 +12063,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "sleep-disorder-circadian-reset",
-    "localProduceSynergy": "Gently sautu00e9 Bok Choy with Garlic for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Bok Choy with Garlic for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "Salivary Cortisol Rhythm (4-Point) & Melatonin Profile",
     "regionalStapleAlternative": "Sprouted ragi parathas, wood-pressed mustard oil, and low-sodium lacto-fermented vegetable pickles.",
     "microclimateMetabolicImpact": "Monsoon weather patterns trigger erratic atmospheric pressure changes, affecting gut motility and joint fluid dynamics."
@@ -12091,7 +12091,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Wheat parathas, mustard oil, high sodium pickles",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Durian",
@@ -12113,7 +12113,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Mangosteen with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Mangosteen with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Sprouted ragi parathas, wood-pressed mustard oil, and low-sodium lacto-fermented vegetable pickles.",
     "microclimateMetabolicImpact": "High humidity and tropical warmth reduce digestive enzyme secretion speed, requiring warm therapeutic spices to aid transit."
@@ -12140,7 +12140,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Rambutan",
@@ -12162,7 +12162,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "pcos-balance",
-    "localProduceSynergy": "Gently sautu00e9 Mangosteen with Holy Basil for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Mangosteen with Holy Basil for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "LH/FSH Ratio, Free Testosterone & DHEAS",
     "regionalStapleAlternative": "Sourdough spelt bread, extra-virgin olive oil, and raw organic honey or stevia.",
     "microclimateMetabolicImpact": "Monsoon weather patterns trigger erratic atmospheric pressure changes, affecting gut motility and joint fluid dynamics."
@@ -12189,7 +12189,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Polished white rice, refined wheat flour, high dairy fat",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Lychee",
@@ -12212,7 +12212,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "hypertension-management",
-    "localProduceSynergy": "Gently sautu00e9 Morning Glory with Garlic for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Morning Glory with Garlic for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "Systolic/Diastolic BP & hs-CRP (High-Sensitivity C-Reactive Protein)",
     "regionalStapleAlternative": "Foxtail millet rice, sprouted emmer wheat flatbreads, and organic A2 cow ghee in moderation.",
     "microclimateMetabolicImpact": "High humidity and tropical warmth reduce digestive enzyme secretion speed, requiring warm therapeutic spices to aid transit."
@@ -12239,7 +12239,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Rambutan",
@@ -12290,7 +12290,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup",
     "timezone": "Asia/Tokyo (JST, UTC+9)",
     "dialingCode": "+81",
-    "currency": "JPY (u00a5, Japanese Yen)",
+    "currency": "JPY (¥, Japanese Yen)",
     "weather": "Temperate seasonal climate, hot summers, snowy winters",
     "localFruits": [
       "Rambutan",
@@ -12339,7 +12339,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Polished white rice, refined wheat flour, high dairy fat",
     "timezone": "Asia/Tokyo (JST, UTC+9)",
     "dialingCode": "+81",
-    "currency": "JPY (u00a5, Japanese Yen)",
+    "currency": "JPY (¥, Japanese Yen)",
     "weather": "Temperate seasonal climate, hot summers, snowy winters",
     "localFruits": [
       "Durian",
@@ -12387,7 +12387,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Polished white rice, refined wheat flour, high dairy fat",
     "timezone": "Asia/Tokyo (JST, UTC+9)",
     "dialingCode": "+81",
-    "currency": "JPY (u00a5, Japanese Yen)",
+    "currency": "JPY (¥, Japanese Yen)",
     "weather": "Temperate seasonal climate, hot summers, snowy winters",
     "localFruits": [
       "Rambutan",
@@ -12511,7 +12511,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Artificial AC micro-climates suppressing natural temperature drops for sleep",
     "associatedTopicId": "pcos-balance",
-    "localProduceSynergy": "Gently sautu00e9 Okra with Holy Basil for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Okra with Holy Basil for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "LH/FSH Ratio, Free Testosterone & DHEAS",
     "regionalStapleAlternative": "Sprouted ragi parathas, wood-pressed mustard oil, and low-sodium lacto-fermented vegetable pickles.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -12563,7 +12563,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Orange with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Orange with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Khapli (emmer) wheat rotis, cold-pressed mustard oil, and stevia/cardamom organic tea.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -12641,7 +12641,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea",
     "timezone": "Europe/London (BST/GMT, UTC+1)",
     "dialingCode": "+44",
-    "currency": "GBP (u00a3, British Pound)",
+    "currency": "GBP (£, British Pound)",
     "weather": "Temperate maritime climate, cool summers, mild wet winters",
     "localFruits": [
       "Pears",
@@ -12666,7 +12666,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "thyroid-optimization",
-    "localProduceSynergy": "Gently sautu00e9 Broccoli with Ashwagandha for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Broccoli with Ashwagandha for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "TSH, Free T3, Free T4 & Anti-TPO Antibodies",
     "regionalStapleAlternative": "Khapli (emmer) wheat rotis, cold-pressed mustard oil, and stevia/cardamom organic tea.",
     "microclimateMetabolicImpact": "Mild, humid winters slow down thyroid-driven adaptive thermogenesis, making evening carb-restriction critical for weight control."
@@ -12693,7 +12693,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Millets, white rice, coconut oil, high carbohydrates",
     "timezone": "Europe/London (BST/GMT, UTC+1)",
     "dialingCode": "+44",
-    "currency": "GBP (u00a3, British Pound)",
+    "currency": "GBP (£, British Pound)",
     "weather": "Temperate maritime climate, cool summers, mild wet winters",
     "localFruits": [
       "Pears",
@@ -12743,7 +12743,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Millets, white rice, coconut oil, high carbohydrates",
     "timezone": "Europe/London (BST/GMT, UTC+1)",
     "dialingCode": "+44",
-    "currency": "GBP (u00a3, British Pound)",
+    "currency": "GBP (£, British Pound)",
     "weather": "Temperate maritime climate, cool summers, mild wet winters",
     "localFruits": [
       "Apples",
@@ -12867,7 +12867,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "cholesterol-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Artichokes with Ginger for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Artichokes with Ginger for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "ApoB, Lp(a), Triglycerides & LDL-C Particle Size",
     "regionalStapleAlternative": "Sprouted ragi parathas, wood-pressed mustard oil, and low-sodium lacto-fermented vegetable pickles.",
     "microclimateMetabolicImpact": "Mild, humid winters slow down thyroid-driven adaptive thermogenesis, making evening carb-restriction critical for weight control."
@@ -13174,7 +13174,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "pcos-balance",
-    "localProduceSynergy": "Gently sautu00e9 Asparagus with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Asparagus with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "LH/FSH Ratio, Free Testosterone & DHEAS",
     "regionalStapleAlternative": "Black Kavuni rice, wild-caught seafood, cold-pressed sesame oil, and fiber-rich local leafy greens.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -13578,7 +13578,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Spinach with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Spinach with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Sprouted ragi parathas, wood-pressed mustard oil, and low-sodium lacto-fermented vegetable pickles.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -13724,7 +13724,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "cholesterol-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Apple with Turmeric for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Apple with Turmeric for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "ApoB, Lp(a), Triglycerides & LDL-C Particle Size",
     "regionalStapleAlternative": "Khapli (emmer) wheat rotis, cold-pressed mustard oil, and stevia/cardamom organic tea.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -13873,7 +13873,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Spinach with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Spinach with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Foxtail millet rice, sprouted emmer wheat flatbreads, and organic A2 cow ghee in moderation.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -13974,7 +13974,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "pcos-balance",
-    "localProduceSynergy": "Gently sautu00e9 Carrot with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Carrot with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "LH/FSH Ratio, Free Testosterone & DHEAS",
     "regionalStapleAlternative": "Black Kavuni rice, wild-caught seafood, cold-pressed sesame oil, and fiber-rich local leafy greens.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -14050,7 +14050,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Polished white rice, refined wheat flour, high dairy fat",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Rambutan",
@@ -14101,7 +14101,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Processed meats, refined wheat bread, sugary beverages",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Rambutan",
@@ -14151,7 +14151,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Durian",
@@ -14176,7 +14176,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin B12 (due to vegetarian/vegan staple gaps)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Papaya with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Papaya with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Sourdough spelt bread, extra-virgin olive oil, and raw organic honey or stevia.",
     "microclimateMetabolicImpact": "High humidity and tropical warmth reduce digestive enzyme secretion speed, requiring warm therapeutic spices to aid transit."
@@ -14203,7 +14203,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Wheat parathas, mustard oil, high sodium pickles",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Durian",
@@ -14226,7 +14226,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin B12 (due to vegetarian/vegan staple gaps)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "fatty-liver-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Durian with Turmeric for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Durian with Turmeric for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "ALT, AST, GGT & Liver Ultrasound FibroScan",
     "regionalStapleAlternative": "Sprouted ragi parathas, wood-pressed mustard oil, and low-sodium lacto-fermented vegetable pickles.",
     "microclimateMetabolicImpact": "Monsoon weather patterns trigger erratic atmospheric pressure changes, affecting gut motility and joint fluid dynamics."
@@ -14253,7 +14253,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Durian",
@@ -14304,7 +14304,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Durian",
@@ -14327,7 +14327,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Chinese Cabbage with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Chinese Cabbage with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Sourdough spelt bread, extra-virgin olive oil, and raw organic honey or stevia.",
     "microclimateMetabolicImpact": "Monsoon weather patterns trigger erratic atmospheric pressure changes, affecting gut motility and joint fluid dynamics."
@@ -14356,7 +14356,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Polished white rice, refined wheat flour, high dairy fat",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Rambutan",
@@ -14380,7 +14380,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Bitter Melon with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Bitter Melon with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Foxtail millet rice, sprouted emmer wheat flatbreads, and organic A2 cow ghee in moderation.",
     "microclimateMetabolicImpact": "Constant tropical heat increases fluid and electrolyte turnover, requiring trace mineral replenishment to sustain cellular pumps."
@@ -14408,7 +14408,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Rambutan",
@@ -14455,7 +14455,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Processed meats, refined wheat bread, sugary beverages",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Mangosteen",
@@ -14502,7 +14502,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Millets, white rice, coconut oil, high carbohydrates",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Durian",
@@ -14553,7 +14553,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Processed meats, refined wheat bread, sugary beverages",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Durian",
@@ -14606,7 +14606,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Wheat parathas, mustard oil, high sodium pickles",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Durian",
@@ -14656,7 +14656,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Processed meats, refined wheat bread, sugary beverages",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Mangosteen",
@@ -14703,7 +14703,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Wheat parathas, mustard oil, high sodium pickles",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Rambutan",
@@ -14753,7 +14753,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Rambutan"
@@ -14773,7 +14773,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Rambutan with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Rambutan with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Black Kavuni rice, wild-caught seafood, cold-pressed sesame oil, and fiber-rich local leafy greens.",
     "microclimateMetabolicImpact": "Monsoon weather patterns trigger erratic atmospheric pressure changes, affecting gut motility and joint fluid dynamics."
@@ -14800,7 +14800,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Durian",
@@ -14850,7 +14850,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Millets, white rice, coconut oil, high carbohydrates",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Durian",
@@ -15049,7 +15049,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea",
     "timezone": "Asia/Tokyo (JST, UTC+9)",
     "dialingCode": "+81",
-    "currency": "JPY (u00a5, Japanese Yen)",
+    "currency": "JPY (¥, Japanese Yen)",
     "weather": "Temperate seasonal climate, hot summers, snowy winters",
     "localFruits": [
       "Rambutan",
@@ -15071,7 +15071,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin B12 (due to vegetarian/vegan staple gaps)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Lychee with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Lychee with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Khapli (emmer) wheat rotis, cold-pressed mustard oil, and stevia/cardamom organic tea.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -15099,7 +15099,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Processed meats, refined wheat bread, sugary beverages",
     "timezone": "Asia/Tokyo (JST, UTC+9)",
     "dialingCode": "+81",
-    "currency": "JPY (u00a5, Japanese Yen)",
+    "currency": "JPY (¥, Japanese Yen)",
     "weather": "Temperate seasonal climate, hot summers, snowy winters",
     "localFruits": [
       "Durian",
@@ -15122,7 +15122,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Durian with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Durian with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Tempeh or organic chicken breast, almond flour bread, and unsweetened lemon-herb water.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -15149,7 +15149,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Processed meats, refined wheat bread, sugary beverages",
     "timezone": "Asia/Tokyo (JST, UTC+9)",
     "dialingCode": "+81",
-    "currency": "JPY (u00a5, Japanese Yen)",
+    "currency": "JPY (¥, Japanese Yen)",
     "weather": "Temperate seasonal climate, hot summers, snowy winters",
     "localFruits": [
       "Lychee",
@@ -15171,7 +15171,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "fatty-liver-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Bamboo Shoots with Ginger for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Bamboo Shoots with Ginger for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "ALT, AST, GGT & Liver Ultrasound FibroScan",
     "regionalStapleAlternative": "Tempeh or organic chicken breast, almond flour bread, and unsweetened lemon-herb water.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -15199,7 +15199,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea",
     "timezone": "Asia/Tokyo (JST, UTC+9)",
     "dialingCode": "+81",
-    "currency": "JPY (u00a5, Japanese Yen)",
+    "currency": "JPY (¥, Japanese Yen)",
     "weather": "Temperate seasonal climate, hot summers, snowy winters",
     "localFruits": [
       "Durian",
@@ -15223,7 +15223,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "thyroid-optimization",
-    "localProduceSynergy": "Gently sautu00e9 Morning Glory with Ashwagandha for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Morning Glory with Ashwagandha for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "TSH, Free T3, Free T4 & Anti-TPO Antibodies",
     "regionalStapleAlternative": "Khapli (emmer) wheat rotis, cold-pressed mustard oil, and stevia/cardamom organic tea.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -15250,7 +15250,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea",
     "timezone": "Asia/Tokyo (JST, UTC+9)",
     "dialingCode": "+81",
-    "currency": "JPY (u00a5, Japanese Yen)",
+    "currency": "JPY (¥, Japanese Yen)",
     "weather": "Temperate seasonal climate, hot summers, snowy winters",
     "localFruits": [
       "Lychee",
@@ -15425,7 +15425,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "fatty-liver-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Broccoli with Turmeric for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Broccoli with Turmeric for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "ALT, AST, GGT & Liver Ultrasound FibroScan",
     "regionalStapleAlternative": "Tempeh or organic chicken breast, almond flour bread, and unsweetened lemon-herb water.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -15575,7 +15575,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Orange with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Orange with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Sourdough spelt bread, extra-virgin olive oil, and raw organic honey or stevia.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -15624,7 +15624,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "cholesterol-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Grape with Turmeric for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Grape with Turmeric for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "ApoB, Lp(a), Triglycerides & LDL-C Particle Size",
     "regionalStapleAlternative": "Tempeh or organic chicken breast, almond flour bread, and unsweetened lemon-herb water.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -15878,7 +15878,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "thyroid-optimization",
-    "localProduceSynergy": "Gently sautu00e9 Zucchini with Ashwagandha for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Zucchini with Ashwagandha for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "TSH, Free T3, Free T4 & Anti-TPO Antibodies",
     "regionalStapleAlternative": "Khapli (emmer) wheat rotis, cold-pressed mustard oil, and stevia/cardamom organic tea.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -15980,7 +15980,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Artificial AC micro-climates suppressing natural temperature drops for sleep",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Okra with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Okra with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Black Kavuni rice, wild-caught seafood, cold-pressed sesame oil, and fiber-rich local leafy greens.",
     "microclimateMetabolicImpact": "Dry desert heat accelerates daytime dehydration, increasing blood viscosity and elevating fasting glucose levels."
@@ -16284,7 +16284,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "fatty-liver-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Spinach with Ginger for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Spinach with Ginger for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "ALT, AST, GGT & Liver Ultrasound FibroScan",
     "regionalStapleAlternative": "Khapli (emmer) wheat rotis, cold-pressed mustard oil, and stevia/cardamom organic tea.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -16606,7 +16606,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup",
     "timezone": "Europe/London (BST/GMT, UTC+1)",
     "dialingCode": "+44",
-    "currency": "GBP (u00a3, British Pound)",
+    "currency": "GBP (£, British Pound)",
     "weather": "Temperate maritime climate, cool summers, mild wet winters",
     "localFruits": [
       "Apples",
@@ -16656,7 +16656,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Millets, white rice, coconut oil, high carbohydrates",
     "timezone": "Europe/London (BST/GMT, UTC+1)",
     "dialingCode": "+44",
-    "currency": "GBP (u00a3, British Pound)",
+    "currency": "GBP (£, British Pound)",
     "weather": "Temperate maritime climate, cool summers, mild wet winters",
     "localFruits": [
       "Apples",
@@ -16707,7 +16707,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Processed meats, refined wheat bread, sugary beverages",
     "timezone": "Europe/London (BST/GMT, UTC+1)",
     "dialingCode": "+44",
-    "currency": "GBP (u00a3, British Pound)",
+    "currency": "GBP (£, British Pound)",
     "weather": "Temperate maritime climate, cool summers, mild wet winters",
     "localFruits": [
       "Plums",
@@ -16756,7 +16756,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Wheat parathas, mustard oil, high sodium pickles",
     "timezone": "Europe/London (BST/GMT, UTC+1)",
     "dialingCode": "+44",
-    "currency": "GBP (u00a3, British Pound)",
+    "currency": "GBP (£, British Pound)",
     "weather": "Temperate maritime climate, cool summers, mild wet winters",
     "localFruits": [
       "Pears",
@@ -16780,7 +16780,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin B12 (due to vegetarian/vegan staple gaps)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Spinach with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Spinach with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Sprouted ragi parathas, wood-pressed mustard oil, and low-sodium lacto-fermented vegetable pickles.",
     "microclimateMetabolicImpact": "Overcast oceanic climates restrict natural Vitamin D synthesis, downregulating calcium absorption and worsening insulin resistance."
@@ -16807,7 +16807,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Wheat parathas, mustard oil, high sodium pickles",
     "timezone": "Europe/London (BST/GMT, UTC+1)",
     "dialingCode": "+44",
-    "currency": "GBP (u00a3, British Pound)",
+    "currency": "GBP (£, British Pound)",
     "weather": "Temperate maritime climate, cool summers, mild wet winters",
     "localFruits": [
       "Pears",
@@ -17128,7 +17128,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "cholesterol-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Leeks with Ashwagandha for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Leeks with Ashwagandha for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "ApoB, Lp(a), Triglycerides & LDL-C Particle Size",
     "regionalStapleAlternative": "Tempeh or organic chicken breast, almond flour bread, and unsweetened lemon-herb water.",
     "microclimateMetabolicImpact": "Mild, humid winters slow down thyroid-driven adaptive thermogenesis, making evening carb-restriction critical for weight control."
@@ -17376,7 +17376,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Cherries with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Cherries with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Black Kavuni rice, wild-caught seafood, cold-pressed sesame oil, and fiber-rich local leafy greens.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -17629,7 +17629,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin B12 (due to vegetarian/vegan staple gaps)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Plums with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Plums with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Tempeh or organic chicken breast, almond flour bread, and unsweetened lemon-herb water.",
     "microclimateMetabolicImpact": "Sub-zero winter temperatures increase metabolic demand for heat production, requiring thyroid-active selenium and iodine support."
@@ -17938,7 +17938,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "pcos-balance",
-    "localProduceSynergy": "Gently sautu00e9 Leeks with Holy Basil for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Leeks with Holy Basil for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "LH/FSH Ratio, Free Testosterone & DHEAS",
     "regionalStapleAlternative": "Barnyard millet, brown unpolished rice, cold-pressed extra-virgin coconut oil, and high-protein pulse pairings.",
     "microclimateMetabolicImpact": "Mild, humid winters slow down thyroid-driven adaptive thermogenesis, making evening carb-restriction critical for weight control."
@@ -18036,7 +18036,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "pcos-balance",
-    "localProduceSynergy": "Gently sautu00e9 Spinach with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Spinach with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "LH/FSH Ratio, Free Testosterone & DHEAS",
     "regionalStapleAlternative": "Sourdough spelt bread, extra-virgin olive oil, and raw organic honey or stevia.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -18087,7 +18087,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Plums with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Plums with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Black Kavuni rice, wild-caught seafood, cold-pressed sesame oil, and fiber-rich local leafy greens.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -18383,7 +18383,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "pcos-balance",
-    "localProduceSynergy": "Gently sautu00e9 Raspberries with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Raspberries with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "LH/FSH Ratio, Free Testosterone & DHEAS",
     "regionalStapleAlternative": "Khapli (emmer) wheat rotis, cold-pressed mustard oil, and stevia/cardamom organic tea.",
     "microclimateMetabolicImpact": "Shorter daylight windows shift the optimal feeding phase earlier, requiring sunset-dining to match natural melatonin onset."
@@ -18481,7 +18481,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin B12 (due to vegetarian/vegan staple gaps)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "thyroid-optimization",
-    "localProduceSynergy": "Gently sautu00e9 Apple with Ashwagandha for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Apple with Ashwagandha for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "TSH, Free T3, Free T4 & Anti-TPO Antibodies",
     "regionalStapleAlternative": "Barnyard millet, brown unpolished rice, cold-pressed extra-virgin coconut oil, and high-protein pulse pairings.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -18780,7 +18780,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin B12 (due to vegetarian/vegan staple gaps)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Cranberries with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Cranberries with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Black Kavuni rice, wild-caught seafood, cold-pressed sesame oil, and fiber-rich local leafy greens.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -18979,7 +18979,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "pcos-balance",
-    "localProduceSynergy": "Gently sautu00e9 Blueberries with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Blueberries with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "LH/FSH Ratio, Free Testosterone & DHEAS",
     "regionalStapleAlternative": "Tempeh or organic chicken breast, almond flour bread, and unsweetened lemon-herb water.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -19079,7 +19079,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Strawberries with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Strawberries with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Sourdough spelt bread, extra-virgin olive oil, and raw organic honey or stevia.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -19485,7 +19485,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "thyroid-optimization",
-    "localProduceSynergy": "Gently sautu00e9 Grape with Ashwagandha for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Grape with Ashwagandha for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "TSH, Free T3, Free T4 & Anti-TPO Antibodies",
     "regionalStapleAlternative": "Tempeh or organic chicken breast, almond flour bread, and unsweetened lemon-herb water.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -20034,7 +20034,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "Blistering daytime heat shifting active hours and dinners post-midnight",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Okra with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Okra with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Tempeh or organic chicken breast, almond flour bread, and unsweetened lemon-herb water.",
     "microclimateMetabolicImpact": "Extreme diurnal temperature drops require careful thyroid support to maintain baseline thermogenesis without metabolic stress."
@@ -20083,7 +20083,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin B12 (due to vegetarian/vegan staple gaps)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "cholesterol-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Broccoli with Ashwagandha for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Broccoli with Ashwagandha for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "ApoB, Lp(a), Triglycerides & LDL-C Particle Size",
     "regionalStapleAlternative": "Sourdough spelt bread, extra-virgin olive oil, and raw organic honey or stevia.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -20283,7 +20283,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Kale with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Kale with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Foxtail millet rice, sprouted emmer wheat flatbreads, and organic A2 cow ghee in moderation.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -20382,7 +20382,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Blackberries with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Blackberries with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Foxtail millet rice, sprouted emmer wheat flatbreads, and organic A2 cow ghee in moderation.",
     "microclimateMetabolicImpact": "Sub-zero winter temperatures increase metabolic demand for heat production, requiring thyroid-active selenium and iodine support."
@@ -20532,7 +20532,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Raspberries with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Raspberries with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Black Kavuni rice, wild-caught seafood, cold-pressed sesame oil, and fiber-rich local leafy greens.",
     "microclimateMetabolicImpact": "Severe daylight compression in winter halts cutaneous Vitamin D3 production, triggering seasonal insulin resistance and fatigue."
@@ -20560,7 +20560,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber",
     "timezone": "Europe/London (BST/GMT, UTC+1)",
     "dialingCode": "+44",
-    "currency": "GBP (u00a3, British Pound)",
+    "currency": "GBP (£, British Pound)",
     "weather": "Temperate maritime climate, cool summers, mild wet winters",
     "localFruits": [
       "Apples",
@@ -20610,7 +20610,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea",
     "timezone": "Europe/London (BST/GMT, UTC+1)",
     "dialingCode": "+44",
-    "currency": "GBP (u00a3, British Pound)",
+    "currency": "GBP (£, British Pound)",
     "weather": "Temperate maritime climate, cool summers, mild wet winters",
     "localFruits": [
       "Pears",
@@ -20660,7 +20660,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Polished white rice, refined wheat flour, high dairy fat",
     "timezone": "Europe/London (BST/GMT, UTC+1)",
     "dialingCode": "+44",
-    "currency": "GBP (u00a3, British Pound)",
+    "currency": "GBP (£, British Pound)",
     "weather": "Temperate maritime climate, cool summers, mild wet winters",
     "localFruits": [
       "Apples",
@@ -20709,7 +20709,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea",
     "timezone": "Europe/London (BST/GMT, UTC+1)",
     "dialingCode": "+44",
-    "currency": "GBP (u00a3, British Pound)",
+    "currency": "GBP (£, British Pound)",
     "weather": "Temperate maritime climate, cool summers, mild wet winters",
     "localFruits": [
       "Apples",
@@ -20762,7 +20762,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Processed meats, refined wheat bread, sugary beverages",
     "timezone": "Europe/London (BST/GMT, UTC+1)",
     "dialingCode": "+44",
-    "currency": "GBP (u00a3, British Pound)",
+    "currency": "GBP (£, British Pound)",
     "weather": "Temperate maritime climate, cool summers, mild wet winters",
     "localFruits": [
       "Pears",
@@ -20815,7 +20815,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber",
     "timezone": "Europe/London (BST/GMT, UTC+1)",
     "dialingCode": "+44",
-    "currency": "GBP (u00a3, British Pound)",
+    "currency": "GBP (£, British Pound)",
     "weather": "Temperate maritime climate, cool summers, mild wet winters",
     "localFruits": [
       "Apples",
@@ -20838,7 +20838,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Plums with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Plums with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Black Kavuni rice, wild-caught seafood, cold-pressed sesame oil, and fiber-rich local leafy greens.",
     "microclimateMetabolicImpact": "Maritime dampness and cool winds can aggravate respiratory pathways, requiring daily warming foods to protect metabolic rate."
@@ -20944,7 +20944,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "fatty-liver-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Blackberries with Turmeric for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Blackberries with Turmeric for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "ALT, AST, GGT & Liver Ultrasound FibroScan",
     "regionalStapleAlternative": "Sourdough spelt bread, extra-virgin olive oil, and raw organic honey or stevia.",
     "microclimateMetabolicImpact": "Maritime dampness and cool winds can aggravate respiratory pathways, requiring daily warming foods to protect metabolic rate."
@@ -21148,7 +21148,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Cherries with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Cherries with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Sourdough spelt bread, extra-virgin olive oil, and raw organic honey or stevia.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -21449,7 +21449,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Broccoli with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Broccoli with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Tempeh or organic chicken breast, almond flour bread, and unsweetened lemon-herb water.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -21546,7 +21546,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Cherries with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Cherries with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Black Kavuni rice, wild-caught seafood, cold-pressed sesame oil, and fiber-rich local leafy greens.",
     "microclimateMetabolicImpact": "Shorter daylight windows shift the optimal feeding phase earlier, requiring sunset-dining to match natural melatonin onset."
@@ -21595,7 +21595,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "pcos-balance",
-    "localProduceSynergy": "Gently sautu00e9 Leeks with Holy Basil for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Leeks with Holy Basil for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "LH/FSH Ratio, Free Testosterone & DHEAS",
     "regionalStapleAlternative": "Foxtail millet rice, sprouted emmer wheat flatbreads, and organic A2 cow ghee in moderation.",
     "microclimateMetabolicImpact": "Severe daylight compression in winter halts cutaneous Vitamin D3 production, triggering seasonal insulin resistance and fatigue."
@@ -21798,7 +21798,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "fatty-liver-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Apples with Ginger for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Apples with Ginger for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "ALT, AST, GGT & Liver Ultrasound FibroScan",
     "regionalStapleAlternative": "Sprouted ragi parathas, wood-pressed mustard oil, and low-sodium lacto-fermented vegetable pickles.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -21896,7 +21896,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Leeks with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Leeks with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Khapli (emmer) wheat rotis, cold-pressed mustard oil, and stevia/cardamom organic tea.",
     "microclimateMetabolicImpact": "Mild, humid winters slow down thyroid-driven adaptive thermogenesis, making evening carb-restriction critical for weight control."
@@ -21948,7 +21948,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Leeks with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Leeks with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Sprouted ragi parathas, wood-pressed mustard oil, and low-sodium lacto-fermented vegetable pickles.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -22593,7 +22593,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin B12 (due to vegetarian/vegan staple gaps)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "pcos-balance",
-    "localProduceSynergy": "Gently sautu00e9 Spinach with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Spinach with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "LH/FSH Ratio, Free Testosterone & DHEAS",
     "regionalStapleAlternative": "Khapli (emmer) wheat rotis, cold-pressed mustard oil, and stevia/cardamom organic tea.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -22691,7 +22691,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin B12 (due to vegetarian/vegan staple gaps)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "cholesterol-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Berry with Turmeric for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Berry with Turmeric for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "ApoB, Lp(a), Triglycerides & LDL-C Particle Size",
     "regionalStapleAlternative": "Sourdough spelt bread, extra-virgin olive oil, and raw organic honey or stevia.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -22815,7 +22815,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Millets, white rice, coconut oil, high carbohydrates",
     "timezone": "Asia/Tokyo (JST, UTC+9)",
     "dialingCode": "+81",
-    "currency": "JPY (u00a5, Japanese Yen)",
+    "currency": "JPY (¥, Japanese Yen)",
     "weather": "Temperate seasonal climate, hot summers, snowy winters",
     "localFruits": [
       "Mangosteen",
@@ -22867,7 +22867,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Millets, white rice, coconut oil, high carbohydrates",
     "timezone": "Asia/Tokyo (JST, UTC+9)",
     "dialingCode": "+81",
-    "currency": "JPY (u00a5, Japanese Yen)",
+    "currency": "JPY (¥, Japanese Yen)",
     "weather": "Temperate seasonal climate, hot summers, snowy winters",
     "localFruits": [
       "Durian",
@@ -22916,7 +22916,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea",
     "timezone": "Asia/Tokyo (JST, UTC+9)",
     "dialingCode": "+81",
-    "currency": "JPY (u00a5, Japanese Yen)",
+    "currency": "JPY (¥, Japanese Yen)",
     "weather": "Temperate seasonal climate, hot summers, snowy winters",
     "localFruits": [
       "Mangosteen",
@@ -22967,7 +22967,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Processed meats, refined wheat bread, sugary beverages",
     "timezone": "Asia/Tokyo (JST, UTC+9)",
     "dialingCode": "+81",
-    "currency": "JPY (u00a5, Japanese Yen)",
+    "currency": "JPY (¥, Japanese Yen)",
     "weather": "Temperate seasonal climate, hot summers, snowy winters",
     "localFruits": [
       "Mangosteen",
@@ -23018,7 +23018,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Millets, white rice, coconut oil, high carbohydrates",
     "timezone": "Asia/Tokyo (JST, UTC+9)",
     "dialingCode": "+81",
-    "currency": "JPY (u00a5, Japanese Yen)",
+    "currency": "JPY (¥, Japanese Yen)",
     "weather": "Temperate seasonal climate, hot summers, snowy winters",
     "localFruits": [
       "Mangosteen",
@@ -23295,7 +23295,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "pcos-balance",
-    "localProduceSynergy": "Gently sautu00e9 Carrot with Holy Basil for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Carrot with Holy Basil for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "LH/FSH Ratio, Free Testosterone & DHEAS",
     "regionalStapleAlternative": "Khapli (emmer) wheat rotis, cold-pressed mustard oil, and stevia/cardamom organic tea.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -23441,7 +23441,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Apple with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Apple with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Tempeh or organic chicken breast, almond flour bread, and unsweetened lemon-herb water.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -23493,7 +23493,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "thyroid-optimization",
-    "localProduceSynergy": "Gently sautu00e9 Apple with Ashwagandha for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Apple with Ashwagandha for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "TSH, Free T3, Free T4 & Anti-TPO Antibodies",
     "regionalStapleAlternative": "Sourdough spelt bread, extra-virgin olive oil, and raw organic honey or stevia.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -23641,7 +23641,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Orange with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Orange with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Tempeh or organic chicken breast, almond flour bread, and unsweetened lemon-herb water.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -23743,7 +23743,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "fatty-liver-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Carrot with Ginger for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Carrot with Ginger for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "ALT, AST, GGT & Liver Ultrasound FibroScan",
     "regionalStapleAlternative": "Sprouted ragi parathas, wood-pressed mustard oil, and low-sodium lacto-fermented vegetable pickles.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -23845,7 +23845,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin B12 (due to vegetarian/vegan staple gaps)",
     "circadianChallenge": "Artificial AC micro-climates suppressing natural temperature drops for sleep",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Banana with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Banana with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Sourdough spelt bread, extra-virgin olive oil, and raw organic honey or stevia.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -23993,7 +23993,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin B12 (due to vegetarian/vegan staple gaps)",
     "circadianChallenge": "High density seed oil frying in street food cultures disrupting peripheral liver clock",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Zucchini with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Zucchini with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Barnyard millet, brown unpolished rice, cold-pressed extra-virgin coconut oil, and high-protein pulse pairings.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -24194,7 +24194,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin B12 (due to vegetarian/vegan staple gaps)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Spinach with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Spinach with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Foxtail millet rice, sprouted emmer wheat flatbreads, and organic A2 cow ghee in moderation.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -24220,7 +24220,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Processed meats, refined wheat bread, sugary beverages",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Durian",
@@ -24272,7 +24272,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Millets, white rice, coconut oil, high carbohydrates",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Mangosteen",
@@ -24321,7 +24321,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Durian",
@@ -24372,7 +24372,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Mangosteen",
@@ -24395,7 +24395,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "thyroid-optimization",
-    "localProduceSynergy": "Gently sautu00e9 Dragon Fruit with Ashwagandha for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Dragon Fruit with Ashwagandha for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "TSH, Free T3, Free T4 & Anti-TPO Antibodies",
     "regionalStapleAlternative": "Khapli (emmer) wheat rotis, cold-pressed mustard oil, and stevia/cardamom organic tea.",
     "microclimateMetabolicImpact": "Monsoon weather patterns trigger erratic atmospheric pressure changes, affecting gut motility and joint fluid dynamics."
@@ -24424,7 +24424,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Processed meats, refined wheat bread, sugary beverages",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Mangosteen",
@@ -24473,7 +24473,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Millets, white rice, coconut oil, high carbohydrates",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Durian",
@@ -24495,7 +24495,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Dragon Fruit with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Dragon Fruit with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Barnyard millet, brown unpolished rice, cold-pressed extra-virgin coconut oil, and high-protein pulse pairings.",
     "microclimateMetabolicImpact": "High humidity and tropical warmth reduce digestive enzyme secretion speed, requiring warm therapeutic spices to aid transit."
@@ -24522,7 +24522,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Durian",
@@ -24574,7 +24574,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Processed meats, refined wheat bread, sugary beverages",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Durian",
@@ -24622,7 +24622,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Wheat parathas, mustard oil, high sodium pickles",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Rambutan",
@@ -24673,7 +24673,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Polished white rice, refined wheat flour, high dairy fat",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Durian",
@@ -24696,7 +24696,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Morning Glory with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Morning Glory with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Foxtail millet rice, sprouted emmer wheat flatbreads, and organic A2 cow ghee in moderation.",
     "microclimateMetabolicImpact": "High humidity and tropical warmth reduce digestive enzyme secretion speed, requiring warm therapeutic spices to aid transit."
@@ -24723,7 +24723,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Durian",
@@ -24774,7 +24774,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Millets, white rice, coconut oil, high carbohydrates",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Rambutan",
@@ -24825,7 +24825,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Processed wheat bread, seed oils, high fructose corn syrup",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Durian",
@@ -24847,7 +24847,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Dragon Fruit with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Dragon Fruit with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Sourdough spelt bread, extra-virgin olive oil, and raw organic honey or stevia.",
     "microclimateMetabolicImpact": "High humidity and tropical warmth reduce digestive enzyme secretion speed, requiring warm therapeutic spices to aid transit."
@@ -24876,7 +24876,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea",
     "timezone": "Asia/Shanghai (CST, UTC+8)",
     "dialingCode": "+86",
-    "currency": "CNY (u00a5, Chinese Yuan)",
+    "currency": "CNY (¥, Chinese Yuan)",
     "weather": "Diverse continental and subtropical climate zones",
     "localFruits": [
       "Durian",
@@ -24898,7 +24898,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Bamboo Shoots with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Bamboo Shoots with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Khapli (emmer) wheat rotis, cold-pressed mustard oil, and stevia/cardamom organic tea.",
     "microclimateMetabolicImpact": "Constant tropical heat increases fluid and electrolyte turnover, requiring trace mineral replenishment to sustain cellular pumps."
@@ -24925,7 +24925,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Polished rice, seafood, refined palm oil, low dietary fiber",
     "timezone": "Asia/Tokyo (JST, UTC+9)",
     "dialingCode": "+81",
-    "currency": "JPY (u00a5, Japanese Yen)",
+    "currency": "JPY (¥, Japanese Yen)",
     "weather": "Temperate seasonal climate, hot summers, snowy winters",
     "localFruits": [
       "Durian",
@@ -24974,7 +24974,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Millets, white rice, coconut oil, high carbohydrates",
     "timezone": "Asia/Tokyo (JST, UTC+9)",
     "dialingCode": "+81",
-    "currency": "JPY (u00a5, Japanese Yen)",
+    "currency": "JPY (¥, Japanese Yen)",
     "weather": "Temperate seasonal climate, hot summers, snowy winters",
     "localFruits": [
       "Durian",
@@ -25026,7 +25026,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Polished white rice, refined wheat flour, high dairy fat",
     "timezone": "Asia/Tokyo (JST, UTC+9)",
     "dialingCode": "+81",
-    "currency": "JPY (u00a5, Japanese Yen)",
+    "currency": "JPY (¥, Japanese Yen)",
     "weather": "Temperate seasonal climate, hot summers, snowy winters",
     "localFruits": [
       "Dragon Fruit",
@@ -25075,7 +25075,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "commonStaples": "Refined wheat rotis, processed vegetable oils, high sugar tea",
     "timezone": "Asia/Tokyo (JST, UTC+9)",
     "dialingCode": "+81",
-    "currency": "JPY (u00a5, Japanese Yen)",
+    "currency": "JPY (¥, Japanese Yen)",
     "weather": "Temperate seasonal climate, hot summers, snowy winters",
     "localFruits": [
       "Durian",
@@ -25100,7 +25100,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin B12 (due to vegetarian/vegan staple gaps)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Durian with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Durian with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Khapli (emmer) wheat rotis, cold-pressed mustard oil, and stevia/cardamom organic tea.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -25248,7 +25248,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Rambutan with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Rambutan with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Sourdough spelt bread, extra-virgin olive oil, and raw organic honey or stevia.",
     "microclimateMetabolicImpact": "Severe daylight compression in winter halts cutaneous Vitamin D3 production, triggering seasonal insulin resistance and fatigue."
@@ -25347,7 +25347,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Orange with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Orange with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Barnyard millet, brown unpolished rice, cold-pressed extra-virgin coconut oil, and high-protein pulse pairings.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -25445,7 +25445,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "pcos-balance",
-    "localProduceSynergy": "Gently sautu00e9 Orange with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Orange with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "LH/FSH Ratio, Free Testosterone & DHEAS",
     "regionalStapleAlternative": "Tempeh or organic chicken breast, almond flour bread, and unsweetened lemon-herb water.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -25699,7 +25699,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Broccoli with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Broccoli with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Barnyard millet, brown unpolished rice, cold-pressed extra-virgin coconut oil, and high-protein pulse pairings.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -25900,7 +25900,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin B12 (due to vegetarian/vegan staple gaps)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Spinach with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Spinach with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Black Kavuni rice, wild-caught seafood, cold-pressed sesame oil, and fiber-rich local leafy greens.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -26001,7 +26001,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Broccoli with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Broccoli with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Barnyard millet, brown unpolished rice, cold-pressed extra-virgin coconut oil, and high-protein pulse pairings.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -26050,7 +26050,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin B12 (due to vegetarian/vegan staple gaps)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Carrot with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Carrot with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Tempeh or organic chicken breast, almond flour bread, and unsweetened lemon-herb water.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -26350,7 +26350,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Carrot with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Carrot with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Tempeh or organic chicken breast, almond flour bread, and unsweetened lemon-herb water.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -26551,7 +26551,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "High density seed oil frying in street food cultures disrupting peripheral liver clock",
     "associatedTopicId": "pcos-balance",
-    "localProduceSynergy": "Gently sautu00e9 Carrot with Holy Basil for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Carrot with Holy Basil for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "LH/FSH Ratio, Free Testosterone & DHEAS",
     "regionalStapleAlternative": "Sourdough spelt bread, extra-virgin olive oil, and raw organic honey or stevia.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -26648,7 +26648,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin B12 (due to vegetarian/vegan staple gaps)",
     "circadianChallenge": "Artificial AC micro-climates suppressing natural temperature drops for sleep",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Zucchini with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Zucchini with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Sprouted ragi parathas, wood-pressed mustard oil, and low-sodium lacto-fermented vegetable pickles.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -26745,7 +26745,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Artificial AC micro-climates suppressing natural temperature drops for sleep",
     "associatedTopicId": "pcos-balance",
-    "localProduceSynergy": "Gently sautu00e9 Spinach with Holy Basil for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Spinach with Holy Basil for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "LH/FSH Ratio, Free Testosterone & DHEAS",
     "regionalStapleAlternative": "Sourdough spelt bread, extra-virgin olive oil, and raw organic honey or stevia.",
     "microclimateMetabolicImpact": "Extreme diurnal temperature drops require careful thyroid support to maintain baseline thermogenesis without metabolic stress."
@@ -26995,7 +26995,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "Artificial AC micro-climates suppressing natural temperature drops for sleep",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Pomegranate with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Pomegranate with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Khapli (emmer) wheat rotis, cold-pressed mustard oil, and stevia/cardamom organic tea.",
     "microclimateMetabolicImpact": "Dry desert heat accelerates daytime dehydration, increasing blood viscosity and elevating fasting glucose levels."
@@ -27196,7 +27196,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "High density seed oil frying in street food cultures disrupting peripheral liver clock",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Apricots with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Apricots with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Foxtail millet rice, sprouted emmer wheat flatbreads, and organic A2 cow ghee in moderation.",
     "microclimateMetabolicImpact": "Blistering summer heat suppresses daytime appetite, shifting the primary eating window to late evening and delaying liver clock sync."
@@ -27496,7 +27496,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin B12 (due to vegetarian/vegan staple gaps)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Grape with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Grape with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Barnyard millet, brown unpolished rice, cold-pressed extra-virgin coconut oil, and high-protein pulse pairings.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -27545,7 +27545,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Lettuce with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Lettuce with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Tempeh or organic chicken breast, almond flour bread, and unsweetened lemon-herb water.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -27884,7 +27884,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "fatty-liver-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Zucchini with Turmeric for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Zucchini with Turmeric for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "ALT, AST, GGT & Liver Ultrasound FibroScan",
     "regionalStapleAlternative": "Barnyard millet, brown unpolished rice, cold-pressed extra-virgin coconut oil, and high-protein pulse pairings.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -27933,7 +27933,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Apple with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Apple with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Sourdough spelt bread, extra-virgin olive oil, and raw organic honey or stevia.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -27980,7 +27980,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "hypertension-management",
-    "localProduceSynergy": "Gently sautu00e9 Apple with Garlic for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Apple with Garlic for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "Systolic/Diastolic BP & hs-CRP (High-Sensitivity C-Reactive Protein)",
     "regionalStapleAlternative": "Barnyard millet, brown unpolished rice, cold-pressed extra-virgin coconut oil, and high-protein pulse pairings.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -28029,7 +28029,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Carrot with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Carrot with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Foxtail millet rice, sprouted emmer wheat flatbreads, and organic A2 cow ghee in moderation.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -28326,7 +28326,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "pcos-balance",
-    "localProduceSynergy": "Gently sautu00e9 Berry with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Berry with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "LH/FSH Ratio, Free Testosterone & DHEAS",
     "regionalStapleAlternative": "Black Kavuni rice, wild-caught seafood, cold-pressed sesame oil, and fiber-rich local leafy greens.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -28525,7 +28525,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "thyroid-optimization",
-    "localProduceSynergy": "Gently sautu00e9 Cherries with Ashwagandha for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Cherries with Ashwagandha for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "TSH, Free T3, Free T4 & Anti-TPO Antibodies",
     "regionalStapleAlternative": "Black Kavuni rice, wild-caught seafood, cold-pressed sesame oil, and fiber-rich local leafy greens.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -28625,7 +28625,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "fatty-liver-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Zucchini with Turmeric for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Zucchini with Turmeric for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "ALT, AST, GGT & Liver Ultrasound FibroScan",
     "regionalStapleAlternative": "Black Kavuni rice, wild-caught seafood, cold-pressed sesame oil, and fiber-rich local leafy greens.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -28874,7 +28874,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "hypertension-management",
-    "localProduceSynergy": "Gently sautu00e9 Apple with Garlic for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Apple with Garlic for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "Systolic/Diastolic BP & hs-CRP (High-Sensitivity C-Reactive Protein)",
     "regionalStapleAlternative": "Black Kavuni rice, wild-caught seafood, cold-pressed sesame oil, and fiber-rich local leafy greens.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -28925,7 +28925,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin B12 (due to vegetarian/vegan staple gaps)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Blackberries with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Blackberries with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Sourdough spelt bread, extra-virgin olive oil, and raw organic honey or stevia.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -29025,7 +29025,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Magnesium (due to soil depletion in leafy green crops)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Asparagus with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Asparagus with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Foxtail millet rice, sprouted emmer wheat flatbreads, and organic A2 cow ghee in moderation.",
     "microclimateMetabolicImpact": "Shorter daylight windows shift the optimal feeding phase earlier, requiring sunset-dining to match natural melatonin onset."
@@ -29175,7 +29175,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Blueberries with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Blueberries with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Black Kavuni rice, wild-caught seafood, cold-pressed sesame oil, and fiber-rich local leafy greens.",
     "microclimateMetabolicImpact": "Shorter daylight windows shift the optimal feeding phase earlier, requiring sunset-dining to match natural melatonin onset."
@@ -29373,7 +29373,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Lettuce with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Lettuce with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Foxtail millet rice, sprouted emmer wheat flatbreads, and organic A2 cow ghee in moderation.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -29473,7 +29473,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin B12 (due to vegetarian/vegan staple gaps)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "fatty-liver-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Zucchini with Ginger for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Zucchini with Ginger for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "ALT, AST, GGT & Liver Ultrasound FibroScan",
     "regionalStapleAlternative": "Sourdough spelt bread, extra-virgin olive oil, and raw organic honey or stevia.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -29573,7 +29573,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin D3 (due to low sunlight synthesis or indoor shift hours)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Apple with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Apple with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Sourdough spelt bread, extra-virgin olive oil, and raw organic honey or stevia.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -29623,7 +29623,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "pcos-balance",
-    "localProduceSynergy": "Gently sautu00e9 Grape with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Grape with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "LH/FSH Ratio, Free Testosterone & DHEAS",
     "regionalStapleAlternative": "Tempeh or organic chicken breast, almond flour bread, and unsweetened lemon-herb water.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -29978,7 +29978,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "diabetes-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Grape with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Grape with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HbA1c, Fasting Blood Glucose & Fasting Insulin",
     "regionalStapleAlternative": "Barnyard millet, brown unpolished rice, cold-pressed extra-virgin coconut oil, and high-protein pulse pairings.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -30126,7 +30126,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin B12 (due to vegetarian/vegan staple gaps)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "thyroid-optimization",
-    "localProduceSynergy": "Gently sautu00e9 Orange with Ashwagandha for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Orange with Ashwagandha for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "TSH, Free T3, Free T4 & Anti-TPO Antibodies",
     "regionalStapleAlternative": "Barnyard millet, brown unpolished rice, cold-pressed extra-virgin coconut oil, and high-protein pulse pairings.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -30225,7 +30225,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Vitamin B12 (due to vegetarian/vegan staple gaps)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Berry with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Berry with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Black Kavuni rice, wild-caught seafood, cold-pressed sesame oil, and fiber-rich local leafy greens.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -30377,7 +30377,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Artificial blue light pollution from prolonged indoor desk shifts blocking sleep drive",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Banana with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Banana with Ceylon Cinnamon for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Khapli (emmer) wheat rotis, cold-pressed mustard oil, and stevia/cardamom organic tea.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -31176,7 +31176,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Lettuce with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Lettuce with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Sprouted ragi parathas, wood-pressed mustard oil, and low-sodium lacto-fermented vegetable pickles.",
     "microclimateMetabolicImpact": "Varying seasonal humidity levels alter hydration needs, impacting blood sugar concentration and cellular metabolic output."
@@ -31379,7 +31379,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Iodine (due to low trace mineral profiles in local water/salt)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Berry with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Berry with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Sourdough spelt bread, extra-virgin olive oil, and raw organic honey or stevia.",
     "microclimateMetabolicImpact": "Moderate seasonal variations demand seasonal diet transitions (Ritucharya) to align digestive fire with environmental temperature."
@@ -31982,7 +31982,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Processed food timing disrupting peripheral liver clocks and circadian metabolism",
     "associatedTopicId": "fatty-liver-reversal",
-    "localProduceSynergy": "Gently sautu00e9 Lettuce with Turmeric for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Lettuce with Turmeric for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "ALT, AST, GGT & Liver Ultrasound FibroScan",
     "regionalStapleAlternative": "Foxtail millet rice, sprouted emmer wheat flatbreads, and organic A2 cow ghee in moderation.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."
@@ -32126,7 +32126,7 @@ export const INTERNATIONAL_COUNTRIES: InternationalCountryNode[] = [
     "regionalDeficiencyRisk": "Selenium (due to dry soil conditions affecting grains)",
     "circadianChallenge": "Extreme winter daylight compression disrupting circadian melatonin cycles",
     "associatedTopicId": "insulin-resistance-mgmt",
-    "localProduceSynergy": "Gently sautu00e9 Berry with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
+    "localProduceSynergy": "Gently sauté Berry with Fenugreek Seeds for dinner to calm the nervous system and prevent late-night cortisol spikes.",
     "clinicalTargetBiomarker": "HOMA-IR Score & Fasting Insulin",
     "regionalStapleAlternative": "Khapli (emmer) wheat rotis, cold-pressed mustard oil, and stevia/cardamom organic tea.",
     "microclimateMetabolicImpact": "Seasonal shifts in daylight duration require adjusting sleep-wake cycles to avoid circadian desynchrony and metabolic lag."

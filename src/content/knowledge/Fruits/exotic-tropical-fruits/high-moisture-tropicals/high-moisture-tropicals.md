@@ -3,12 +3,11 @@ title: "High‑Moisture Tropicals"
 description: "Pages for high‑moisture tropical fruits like banana, pineapple."
 slug: "high-moisture-tropicals"
 category: "Fruits"
-subCategory: "exotic-tropical-fruits"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
-seoKeywords: ["high‑moisture tropicals", "exotic-tropical-fruits", "clinical protocol"]
+subCategory: "exotic-tropical-fruits"
+seoKeywords: ["high\u2011moisture tropicals", "exotic-tropical-fruits", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **High‑Moisture Tropicals** is a highly valued nutritional agent within the **exotic-tropical-fruits** subcategory under the **Fruits** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **High‑Moisture Tropicals** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

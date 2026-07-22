@@ -3,12 +3,11 @@ title: "Asparagus Officinalis"
 description: "Brief overview of asparagus officinalis, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Asparagus Officinalis"
 category: "Vegetables"
-subCategory: "Edible Stems & Shoots"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Edible Stems & Shoots"
 seoKeywords: ["asparagus officinalis", "edible stems & shoots", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Asparagus Officinalis** is a highly valued nutritional agent within the **Edible Stems & Shoots** subcategory under the **Vegetables** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Asparagus Officinalis** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

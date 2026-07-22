@@ -3,12 +3,11 @@ title: "Ferula Foetida"
 description: "Brief overview of ferula foetida, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Ferula Foetida"
 category: "spices"
-subCategory: "Umbellifer Resins"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Umbellifer Resins"
 seoKeywords: ["ferula foetida", "umbellifer resins", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Ferula Foetida** is a highly valued nutritional agent within the **Umbellifer Resins** subcategory under the **spices** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Ferula Foetida** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

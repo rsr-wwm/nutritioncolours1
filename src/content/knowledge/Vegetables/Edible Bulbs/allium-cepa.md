@@ -1,15 +1,13 @@
 ---
 title: "Onion — Nutrition, Composition & Health"
 description: "Onion provides about 40 kcal per 100 g raw and is a major dietary source of the flavonoid quercetin, a compound of ongoing research interest for its antioxidant activity."
+slug: "allium-cepa"
 category: "Vegetables"
-subCategory: "Edible Bulbs"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["onion","allium cepa","quercetin (flavonoid)","prebiotic fructans","vitamin c","nutrition","composition"]
-tags: ["fodmap"]
+subCategory: "Edible Bulbs"
+seoKeywords: ["onion", "allium cepa", "quercetin (flavonoid)", "prebiotic fructans", "vitamin c", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Allium cepa*

@@ -1,15 +1,13 @@
 ---
 title: "Chia Seeds — Nutrition, Composition & Health"
 description: "Chia seeds are a complete-fiber, omega-3-rich seed that forms a gel when soaked in liquid, owing to their mucilaginous outer coating."
+slug: "salvia-hispanica"
 category: "Seeds"
-subCategory: "Mucilaginous Seeds"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["chia seeds","salvia hispanica","fiber","omega-3 ala","phosphorus","magnesium","nutrition","composition"]
-tags: []
+subCategory: "Mucilaginous Seeds"
+seoKeywords: ["chia seeds", "salvia hispanica", "fiber", "omega-3 ala", "phosphorus", "magnesium", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Salvia hispanica*

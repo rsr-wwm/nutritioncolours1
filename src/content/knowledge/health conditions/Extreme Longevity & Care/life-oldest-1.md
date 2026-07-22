@@ -1,13 +1,13 @@
 ---
 title: "Oldest Old: Centenarians, Frailty, Longevity Science, End-of-Life Care & Quality of Life"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Oldest Old: Centenarians, Frailty, Longevity Science, End-of-Life Care & Quality of Life."
+slug: "life-oldest-1"
 category: "health conditions"
-subCategory: "Extreme Longevity & Care"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Extreme Longevity & Care"
 seoKeywords: ["life-oldest-1", "extreme longevity & care", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Oldest Old: Centenarians, Frailty, Longevity Science, End-of-Life Care & Quality of Life** is a critical clinical pathway within **Extreme Longevity & Care** under the **health conditions** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

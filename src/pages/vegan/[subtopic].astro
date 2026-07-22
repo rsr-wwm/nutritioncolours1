@@ -1,6 +1,5 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import Icons from '../../components/Icons.astro';
 import SharedSections from '../../components/SharedSections.astro';
 import { TOPICS } from '../../data/topics';
 import { VEGAN_SUB_TOPICS } from '../../lib/constants';
@@ -59,7 +58,6 @@ const serviceSchema = {
 // Set Edge-Level Caching headers
 Astro.response.headers.set('Cache-Control', 'public, max-age=86400, s-maxage=604800, stale-while-revalidate=3600');
 ---
-<div data-ai-answer="true">
   <input type="hidden" name="__bot_check" value="random-token-12345" style="display:none;" />
 
 <BaseLayout
@@ -197,4 +195,3 @@ Astro.response.headers.set('Cache-Control', 'public, max-age=86400, s-maxage=604
     </div>
   </div>
 </BaseLayout>
-</div>

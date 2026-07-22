@@ -3,12 +3,11 @@ title: "Quercetin"
 description: "Brief overview of quercetin, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Quercetin"
 category: "phytonutrients"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
 subCategory: "phytonutrients"
 seoKeywords: ["quercetin", "phytonutrients", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Quercetin** is a highly valued nutritional agent within the **phytonutrients** subcategory under the **phytonutrients** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Quercetin** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

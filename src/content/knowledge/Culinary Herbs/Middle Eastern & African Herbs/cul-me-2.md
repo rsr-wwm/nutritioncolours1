@@ -1,13 +1,13 @@
 ---
 title: "Fenugreek: Fresh Leaves (Methi), Seeds & Sprouts — Bitter, Maple & Curry"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Fenugreek: Fresh Leaves (Methi), Seeds & Sprouts — Bitter, Maple & Curry."
+slug: "cul-me-2"
 category: "Culinary Herbs"
-subCategory: "Middle Eastern & African Herbs"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Middle Eastern & African Herbs"
 seoKeywords: ["cul-me-2", "middle eastern & african herbs", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Fenugreek: Fresh Leaves (Methi), Seeds & Sprouts — Bitter, Maple & Curry** is a critical clinical pathway within **Middle Eastern & African Herbs** under the **Culinary Herbs** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

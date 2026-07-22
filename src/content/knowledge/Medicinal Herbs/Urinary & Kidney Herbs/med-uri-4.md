@@ -1,13 +1,13 @@
 ---
 title: "Horsetail: Equisetum arvense, Silica, Diuretic & Bone Health"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Horsetail: Equisetum arvense, Silica, Diuretic & Bone Health."
+slug: "med-uri-4"
 category: "Medicinal Herbs"
-subCategory: "Urinary & Kidney Herbs"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Urinary & Kidney Herbs"
 seoKeywords: ["med-uri-4", "urinary & kidney herbs", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Horsetail: Equisetum arvense, Silica, Diuretic & Bone Health** is a critical clinical pathway within **Urinary & Kidney Herbs** under the **Medicinal Herbs** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

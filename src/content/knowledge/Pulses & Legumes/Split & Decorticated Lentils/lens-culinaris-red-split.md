@@ -1,15 +1,13 @@
 ---
 title: "Lentils — Nutrition, Composition & Health"
 description: "Lentils (masoor dal) — cooked — provide about 116 kcal per 100 g and are among the fastest-cooking, most widely eaten pulses in Indian households, notably rich in folate."
+slug: "lens-culinaris-red-split"
 category: "Pulses & Legumes"
-subCategory: "Split & Decorticated Lentils"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["lentils","lens culinaris","folate","plant protein","iron","fiber","nutrition","composition"]
-tags: ["gluten-free"]
+subCategory: "Split & Decorticated Lentils"
+seoKeywords: ["lentils", "lens culinaris", "folate", "plant protein", "iron", "fiber", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Lens culinaris*

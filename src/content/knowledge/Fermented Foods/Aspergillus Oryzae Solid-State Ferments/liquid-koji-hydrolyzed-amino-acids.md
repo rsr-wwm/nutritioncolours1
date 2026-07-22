@@ -3,12 +3,11 @@ title: "Liquid Koji Hydrolyzed Amino Acids"
 description: "Brief overview of liquid koji hydrolyzed amino acids, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Liquid Koji Hydrolyzed Amino Acids"
 category: "Fermented Foods"
-subCategory: "Aspergillus Oryzae Solid-State Ferments"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Aspergillus Oryzae Solid-State Ferments"
 seoKeywords: ["liquid koji hydrolyzed amino acids", "aspergillus oryzae solid-state ferments", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Liquid Koji Hydrolyzed Amino Acids** is a highly valued nutritional agent within the **Aspergillus Oryzae Solid-State Ferments** subcategory under the **Fermented Foods** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Liquid Koji Hydrolyzed Amino Acids** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

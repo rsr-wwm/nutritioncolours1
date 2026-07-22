@@ -1,15 +1,13 @@
 ---
 title: "Buckwheat — Nutrition, Composition & Health"
 description: "Buckwheat (kuttu) is a gluten-free pseudocereal seed, traditionally eaten during Hindu fasting periods (vrat/navratri) in India, with a fiber and mineral profile comparable to whole grains."
+slug: "fagopyrum-esculentum"
 category: "Seeds"
-subCategory: "Broadleaf Pseudocereals"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["buckwheat","fagopyrum esculentum","fiber","magnesium","rutin (flavonoid)","plant protein","nutrition","composition"]
-tags: ["gluten-free"]
+subCategory: "Broadleaf Pseudocereals"
+seoKeywords: ["buckwheat", "fagopyrum esculentum", "fiber", "magnesium", "rutin (flavonoid)", "plant protein", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Fagopyrum esculentum*

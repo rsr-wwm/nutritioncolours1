@@ -1,15 +1,13 @@
 ---
 title: "Spinach — Nutrition, Composition & Health"
 description: "Spinach is a leafy green providing about 23 kcal per 100 g, an exceptionally dense source of vitamin K, iron, and folate, with negligible impact on blood sugar."
+slug: "spinacia-oleracea"
 category: "Vegetables"
-subCategory: "Amaranthaceae Greens"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["spinach","spinacia oleracea","vitamin k","iron","folate","provitamin a (carotenoids)","nutrition","composition"]
-tags: ["oxalate-rich"]
+subCategory: "Amaranthaceae Greens"
+seoKeywords: ["spinach", "spinacia oleracea", "vitamin k", "iron", "folate", "provitamin a (carotenoids)", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Spinacia oleracea*

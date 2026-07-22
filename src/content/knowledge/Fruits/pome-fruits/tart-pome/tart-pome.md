@@ -3,12 +3,11 @@ title: "Tart Pome"
 description: "Pages for tart pome fruits like quince, crabapple."
 slug: "tart-pome"
 category: "Fruits"
-subCategory: "pome-fruits"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "pome-fruits"
 seoKeywords: ["tart pome", "pome-fruits", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Tart Pome** is a highly valued nutritional agent within the **pome-fruits** subcategory under the **Fruits** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Tart Pome** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

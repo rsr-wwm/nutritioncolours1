@@ -1,15 +1,13 @@
 ---
 title: "Watermelon — Nutrition, Composition & Health"
 description: "Watermelon is a hydrating summer fruit (~30 kcal per 100 g, ~91% water) and a notable dietary source of the carotenoid lycopene."
+slug: "watermelon"
 category: "Fruits"
-subCategory: "watermelons"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["watermelon","citrullus lanatus","lycopene","water (hydration)","vitamin c","citrulline","nutrition","composition"]
-tags: []
+subCategory: "watermelons"
+seoKeywords: ["watermelon", "citrullus lanatus", "lycopene", "water (hydration)", "vitamin c", "citrulline", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Citrullus lanatus*

@@ -1,0 +1,32 @@
+{
+  "diabetes-reversal": {
+    "name": "Type 2 Diabetes Mellitus",
+    "snomed": "44054006",
+    "icd10": "E11",
+    "mesh": "D015179"
+  },
+  "pcos-balance": {
+    "name": "Polycystic Ovary Syndrome",
+    "snomed": "237055002",
+    "icd10": "E28.2",
+    "mesh": "D011085"
+  },
+  "fatty-liver-reversal": {
+    "name": "Metabolic Dysfunction-Associated Steatotic Liver Disease",
+    "snomed": "197321007",
+    "icd10": "K76.0",
+    "mesh": "D065626"
+  },
+  "thyroid-optimization": {
+    "name": "Hypothyroidism & Thyroid Dysregulation",
+    "snomed": "367651003",
+    "icd10": "E03",
+    "mesh": "D014095"
+  },
+  "hypertension-management": {
+    "name": "Essential Essential Hypertension",
+    "snomed": "38341003",
+    "icd10": "I10",
+    "mesh": "D006973"
+  }
+}

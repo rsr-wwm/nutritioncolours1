@@ -1,4 +1,4 @@
-'use client';
+
 import { useState } from 'react';
 // // // // // import CompatLink from '@/components/CompatLink';
 import CompatLink from '@/components/CompatLink'; // Replaced for Astro compatibility
@@ -161,13 +161,13 @@ export const RelatedContent = ({ currentPath, navigate }: { currentPath: string;
       ];
     } else if (id === 'tcf7l2-rs7903146') {
       constellationNodes = [
-        { id: 'diabetes', label: 'Type 2 Diabetes', href: '/condition/diabetes-mellitus-type-2', category: 'condition' as const },
+        { id: 'diabetes', label: 'Type 2 Diabetes', href: '/condition/diabetes-reversal', category: 'condition' as const },
         { id: 'cinnamon', label: 'Ceylon Cinnamon', href: '/herb/cinnamon', category: 'herb' as const },
         { id: 'fenugreek', label: 'Fenugreek Seeds', href: '/herb/fenugreek', category: 'herb' as const }
       ];
     } else {
       constellationNodes = [
-        { id: 'tools', label: 'Health Tools', href: '/tools', category: 'service' as const },
+        { id: 'recipes', label: 'Healing Recipes', href: '/recipes', category: 'service' as const },
         { id: 'knowledge', label: 'Knowledge Hub', href: '/knowledge/health-topics', category: 'topic' as const },
         { id: 'plans', label: 'Programs', href: '/plans', category: 'service' as const },
       ];
@@ -176,7 +176,7 @@ export const RelatedContent = ({ currentPath, navigate }: { currentPath: string;
     centerLabel = 'Interactions';
     if (id === 'metformin-interaction') {
       constellationNodes = [
-        { id: 'diabetes', label: 'Type 2 Diabetes', href: '/condition/diabetes-mellitus-type-2', category: 'condition' as const },
+        { id: 'diabetes', label: 'Type 2 Diabetes', href: '/condition/diabetes-reversal', category: 'condition' as const },
         { id: 'cinnamon', label: 'Ceylon Cinnamon', href: '/herb/cinnamon', category: 'herb' as const },
         { id: 'tcf7l2-rs7903146', label: 'TCF7L2 Gene variant', href: '/genomics/tcf7l2-rs7903146', category: 'condition' as const }
       ];
@@ -190,7 +190,7 @@ export const RelatedContent = ({ currentPath, navigate }: { currentPath: string;
         { id: 'herbs', label: 'Herbs Database', href: '/knowledge/herbs', category: 'herb' as const },
         { id: 'spices', label: 'Spices Database', href: '/knowledge/spices', category: 'herb' as const },
         { id: 'conditions', label: 'Conditions', href: '/knowledge/health-conditions', category: 'condition' as const },
-        { id: 'tools', label: 'Health Tools', href: '/tools', category: 'service' as const },
+        { id: 'recipes', label: 'Healing Recipes', href: '/recipes', category: 'service' as const },
       ];
     }
   }

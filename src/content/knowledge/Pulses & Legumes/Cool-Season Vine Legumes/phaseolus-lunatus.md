@@ -3,12 +3,11 @@ title: "Phaseolus Lunatus"
 description: "Brief overview of phaseolus lunatus, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Phaseolus Lunatus"
 category: "Pulses & Legumes"
-subCategory: "Cool-Season Vine Legumes"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Cool-Season Vine Legumes"
 seoKeywords: ["phaseolus lunatus", "cool-season vine legumes", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Phaseolus Lunatus** is a highly valued nutritional agent within the **Cool-Season Vine Legumes** subcategory under the **Pulses & Legumes** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Phaseolus Lunatus** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

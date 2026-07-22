@@ -8,7 +8,6 @@ import { TOPICS } from '../data/topics';
 // into the site instead of leaving them at a dead end.
 const popularTopics = TOPICS.slice(0, 6);
 ---
-<div data-ai-answer="true">
 <BaseLayout
   title="Page Not Found | NutritionColours"
   description="The page you're looking for doesn't exist. Explore our clinical nutrition topics, programs, and resources instead."
@@ -41,8 +40,8 @@ const popularTopics = TOPICS.slice(0, 6);
       <a href="/recipes" class="bg-stone-100 px-8 py-4 rounded-xl font-bold uppercase tracking-widest text-xs hover:bg-emerald-50 hover:text-emerald-700 transition-all">
         Recipes
       </a>
-      <a href="/tools" class="bg-stone-100 px-8 py-4 rounded-xl font-bold uppercase tracking-widest text-xs hover:bg-emerald-50 hover:text-emerald-700 transition-all">
-        Health Tools
+      <a href="/knowledge" class="bg-stone-100 px-8 py-4 rounded-xl font-bold uppercase tracking-widest text-xs hover:bg-emerald-50 hover:text-emerald-700 transition-all">
+        Knowledge Hub
       </a>
       <a href="/plans" class="bg-stone-100 px-8 py-4 rounded-xl font-bold uppercase tracking-widest text-xs hover:bg-emerald-50 hover:text-emerald-700 transition-all">
         View Clinical Plans
@@ -62,4 +61,4 @@ const popularTopics = TOPICS.slice(0, 6);
   </div>
 </BaseLayout>
   <input type="hidden" name="__bot_check" value="{{random}}" style="display:none;" />
-</div>
+

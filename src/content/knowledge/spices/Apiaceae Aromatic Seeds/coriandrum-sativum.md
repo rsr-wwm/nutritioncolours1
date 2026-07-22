@@ -1,15 +1,13 @@
 ---
 title: "Coriander Seed — Nutrition, Composition & Health"
 description: "Coriander seed (dhania) is the dried fruit of the cilantro plant, used whole or ground; per-100g reference values are far higher in energy and minerals than a typical spice serving (0.5–2 g) would actually provide."
+slug: "coriandrum-sativum"
 category: "Spices"
-subCategory: "Apiaceae Aromatic Seeds"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["coriander seed","coriandrum sativum","iron","magnesium","calcium","fiber (by dry weight)","nutrition","composition"]
-tags: []
+subCategory: "Apiaceae Aromatic Seeds"
+seoKeywords: ["coriander seed", "coriandrum sativum", "iron", "magnesium", "calcium", "fiber (by dry weight)", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Coriandrum sativum*

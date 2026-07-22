@@ -1,13 +1,13 @@
 ---
 title: "Ginger: Zingiber officinale, Nausea, Inflammation & Digestive Fire"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Ginger: Zingiber officinale, Nausea, Inflammation & Digestive Fire."
+slug: "med-dig-2"
 category: "Medicinal Herbs"
-subCategory: "Digestive Herbs"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Digestive Herbs"
 seoKeywords: ["med-dig-2", "digestive herbs", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Ginger: Zingiber officinale, Nausea, Inflammation & Digestive Fire** is a critical clinical pathway within **Digestive Herbs** under the **Medicinal Herbs** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

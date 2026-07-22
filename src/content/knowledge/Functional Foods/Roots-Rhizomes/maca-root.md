@@ -3,12 +3,11 @@ title: "Maca Root"
 description: "Brief overview of maca root, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Maca Root"
 category: "Functional-Foods"
-subCategory: "Roots-Rhizomes"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Roots-Rhizomes"
 seoKeywords: ["maca root", "roots-rhizomes", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Maca Root** is a highly valued nutritional agent within the **Roots-Rhizomes** subcategory under the **Functional-Foods** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Maca Root** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

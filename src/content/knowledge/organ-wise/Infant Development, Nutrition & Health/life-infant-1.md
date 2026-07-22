@@ -1,13 +1,13 @@
 ---
 title: "Infant Development: Milestones, Motor Skills, Cognition, Sleep & Social-Emotional Growth"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Infant Development: Milestones, Motor Skills, Cognition, Sleep & Social-Emotional Growth."
+slug: "life-infant-1"
 category: "organ-wise"
-subCategory: "Infant Development, Nutrition & Health"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
-seoKeywords: ["life-infant-1", "infant development, nutrition & health", "clinical protocol", "nutrition"]
+subCategory: "Infant Development, Nutrition & Health"
+seoKeywords: ["life-infant-1", "infant development", "nutrition & health", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Infant Development: Milestones, Motor Skills, Cognition, Sleep & Social-Emotional Growth** is a critical clinical pathway within **Infant Development, Nutrition & Health** under the **organ-wise** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

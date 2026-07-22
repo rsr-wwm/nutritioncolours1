@@ -1,15 +1,13 @@
 ---
 title: "Barley (Pearled) — Nutrition, Composition & Health"
 description: "Pearled barley is a cereal grain with one of the lowest glycemic indices of common grains, driven by its unusually high beta-glucan and total fiber content."
+slug: "hordeum-vulgare"
 category: "Grains"
-subCategory: "Avena & Secale Genus"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["barley (pearled)","hordeum vulgare","beta-glucan (soluble fiber)","dietary fiber","selenium","nutrition","composition"]
-tags: ["gluten"]
+subCategory: "Avena & Secale Genus"
+seoKeywords: ["barley (pearled)", "hordeum vulgare", "beta-glucan (soluble fiber)", "dietary fiber", "selenium", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Hordeum vulgare*

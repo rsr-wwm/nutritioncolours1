@@ -1,13 +1,13 @@
 ---
 title: "Harvesting Herbs: Timing, Technique & Maximizing Yield"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Harvesting Herbs: Timing, Technique & Maximizing Yield."
+slug: "grow-4"
 category: "herbs"
-subCategory: "Harvesting & Preservation"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Harvesting & Preservation"
 seoKeywords: ["grow-4", "harvesting & preservation", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Harvesting Herbs: Timing, Technique & Maximizing Yield** is a critical clinical pathway within **Harvesting & Preservation** under the **herbs** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

@@ -1,15 +1,13 @@
 ---
 title: "Carrot — Nutrition, Composition & Health"
 description: "Carrot provides about 41 kcal per 100 g raw and is one of the richest common dietary sources of provitamin-A carotenoids; despite a long-standing myth, its glycemic load is low because its carbohydrate density is modest."
+slug: "daucus-carota"
 category: "Vegetables"
-subCategory: "True Root Vegetables"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["carrot","daucus carota","provitamin a (beta-carotene)","vitamin k","potassium","fiber","nutrition","composition"]
-tags: []
+subCategory: "True Root Vegetables"
+seoKeywords: ["carrot", "daucus carota", "provitamin a (beta-carotene)", "vitamin k", "potassium", "fiber", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Daucus carota*

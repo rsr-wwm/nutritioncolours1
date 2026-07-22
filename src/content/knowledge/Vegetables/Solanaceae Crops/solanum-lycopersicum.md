@@ -1,15 +1,13 @@
 ---
 title: "Tomato — Nutrition, Composition & Health"
 description: "Tomato provides about 18 kcal per 100 g raw and is the leading common dietary source of the carotenoid lycopene, which becomes more bioavailable when tomatoes are cooked with a fat source."
+slug: "solanum-lycopersicum"
 category: "Vegetables"
-subCategory: "Solanaceae Crops"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["tomato","solanum lycopersicum","lycopene (carotenoid)","vitamin c","potassium","nutrition","composition"]
-tags: ["nightshade"]
+subCategory: "Solanaceae Crops"
+seoKeywords: ["tomato", "solanum lycopersicum", "lycopene (carotenoid)", "vitamin c", "potassium", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Solanum lycopersicum*

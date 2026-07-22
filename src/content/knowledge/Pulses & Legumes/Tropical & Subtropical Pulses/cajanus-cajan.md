@@ -1,15 +1,13 @@
 ---
 title: "Pigeon Pea (Toor Dal) — Nutrition, Composition & Health"
 description: "Pigeon pea (toor/arhar dal) — cooked — provides about 121 kcal per 100 g and is the most widely consumed dal in India, forming the base of sambar and most everyday household dal preparations."
+slug: "cajanus-cajan"
 category: "Pulses & Legumes"
-subCategory: "Tropical & Subtropical Pulses"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["pigeon pea (toor dal)","cajanus cajan","plant protein","fiber","folate","potassium","nutrition","composition"]
-tags: ["gluten-free"]
+subCategory: "Tropical & Subtropical Pulses"
+seoKeywords: ["pigeon pea (toor dal)", "cajanus cajan", "plant protein", "fiber", "folate", "potassium", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Cajanus cajan*

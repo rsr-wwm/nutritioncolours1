@@ -3,12 +3,11 @@ title: "Immunomodulators"
 description: "Placeholder description for Immunomodulators."
 slug: "immunomodulators"
 category: "Immunomodulators"
-subCategory: "Immunomodulators"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Immunomodulators"
 seoKeywords: ["immunomodulators", "immunomodulators", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Immunomodulators** is a highly valued nutritional agent within the **Immunomodulators** subcategory under the **Immunomodulators** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Immunomodulators** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

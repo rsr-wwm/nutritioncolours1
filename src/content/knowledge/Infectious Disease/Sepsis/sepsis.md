@@ -3,12 +3,11 @@ title: "Sepsis"
 description: "Placeholder description for Sepsis."
 slug: "sepsis"
 category: "Sepsis"
-subCategory: "Sepsis"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Sepsis"
 seoKeywords: ["sepsis", "sepsis", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Sepsis** is a highly valued nutritional agent within the **Sepsis** subcategory under the **Sepsis** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Sepsis** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

@@ -1,13 +1,13 @@
 ---
 title: "Elderberry: Sambucus nigra, Sambucus canadensis, Cold, Flu & Antiviral"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Elderberry: Sambucus nigra, Sambucus canadensis, Cold, Flu & Antiviral."
+slug: "med-imm-2"
 category: "Medicinal Herbs"
-subCategory: "Immune Herbs"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Immune Herbs"
 seoKeywords: ["med-imm-2", "immune herbs", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Elderberry: Sambucus nigra, Sambucus canadensis, Cold, Flu & Antiviral** is a critical clinical pathway within **Immune Herbs** under the **Medicinal Herbs** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

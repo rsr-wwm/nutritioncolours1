@@ -1,13 +1,13 @@
 ---
 title: "Rose, Lavender, Hibiscus & Elderflower: Floral, Aromatic & Delicate"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Rose, Lavender, Hibiscus & Elderflower: Floral, Aromatic & Delicate."
+slug: "flow-sp-1"
 category: "Grains"
-subCategory: "Other Flower Spices"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Other Flower Spices"
 seoKeywords: ["flow-sp-1", "other flower spices", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Rose, Lavender, Hibiscus & Elderflower: Floral, Aromatic & Delicate** is a critical clinical pathway within **Other Flower Spices** under the **Grains** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

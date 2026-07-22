@@ -1,15 +1,13 @@
 ---
 title: "Acidic Citrus"
 description: "A guide to acidic citrus fruits, their nutritional benefits, flavor profiles, and culinary uses."
+slug: "acidic-citrus"
 category: "Fruits"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
+lastUpdated: 2026-07-14
 subCategory: "Acidic Citrus"
 seoKeywords: ["acidic citrus", "lemon", "lime", "grapefruit", "nutrition", "vitamin C"]
-author: "NutritionColours Editorial Team"
-reviewedBy: ""
-lastUpdated: 2026-07-14
-tags: ["citrus", "acidic", "vitamin C", "fruit"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Acidic Citrus** is a highly valued nutritional agent within the **Acidic Citrus** subcategory under the **Fruits** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Acidic Citrus** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

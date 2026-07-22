@@ -3,12 +3,11 @@ title: "Folate"
 description: "Brief overview of folate, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Folate"
 category: "Micronutrients"
-subCategory: "Water-Soluble Vitamins"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Water-Soluble Vitamins"
 seoKeywords: ["folate", "water-soluble vitamins", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Folate** is a highly valued nutritional agent within the **Water-Soluble Vitamins** subcategory under the **Micronutrients** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Folate** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

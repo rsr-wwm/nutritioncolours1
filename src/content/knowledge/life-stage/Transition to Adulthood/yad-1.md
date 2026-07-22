@@ -1,13 +1,13 @@
 ---
 title: "Emerging Adulthood: Identity, Independence & Life Skills"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Emerging Adulthood: Identity, Independence & Life Skills."
+slug: "yad-1"
 category: "life-stage"
-subCategory: "Transition to Adulthood"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Transition to Adulthood"
 seoKeywords: ["yad-1", "transition to adulthood", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Emerging Adulthood: Identity, Independence & Life Skills** is a critical clinical pathway within **Transition to Adulthood** under the **life-stage** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

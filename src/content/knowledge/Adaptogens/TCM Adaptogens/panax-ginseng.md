@@ -3,12 +3,11 @@ title: "Panax Ginseng"
 description: "Brief overview of panax ginseng, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Panax Ginseng"
 category: "Adaptogens"
-subCategory: "TCM Adaptogens"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "TCM Adaptogens"
 seoKeywords: ["panax ginseng", "tcm adaptogens", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Panax Ginseng** is a highly valued nutritional agent within the **TCM Adaptogens** subcategory under the **Adaptogens** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Panax Ginseng** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

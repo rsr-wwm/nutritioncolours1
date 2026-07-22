@@ -1,4 +1,4 @@
-'use client';
+
 import { useState, useEffect } from 'react';
 // // // // // import CompatLink from '@/components/CompatLink';
 import CompatLink from '@/components/CompatLink'; // Replaced for Astro compatibility

@@ -1,13 +1,13 @@
 ---
 title: "Kidney Biopsy: Indications, Technique & Complications"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Kidney Biopsy: Indications, Technique & Complications."
+slug: "kid-dx-2"
 category: "Kidney Diseases"
-subCategory: "Renal Imaging & Biopsy"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Renal Imaging & Biopsy"
 seoKeywords: ["kid-dx-2", "renal imaging & biopsy", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Kidney Biopsy: Indications, Technique & Complications** is a critical clinical pathway within **Renal Imaging & Biopsy** under the **Kidney Diseases** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

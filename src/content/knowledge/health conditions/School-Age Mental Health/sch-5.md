@@ -1,13 +1,13 @@
 ---
 title: "Childhood Anxiety: Separation, Social, Generalized & Specific Phobias"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Childhood Anxiety: Separation, Social, Generalized & Specific Phobias."
+slug: "sch-5"
 category: "health conditions"
-subCategory: "School-Age Mental Health"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "School-Age Mental Health"
 seoKeywords: ["sch-5", "school-age mental health", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Childhood Anxiety: Separation, Social, Generalized & Specific Phobias** is a critical clinical pathway within **School-Age Mental Health** under the **health conditions** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

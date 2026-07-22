@@ -1,13 +1,13 @@
 ---
 title: "Pregnancy: Trimesters, Prenatal Care, Nutrition, Common Complaints & High-Risk Pregnancy"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Pregnancy: Trimesters, Prenatal Care, Nutrition, Common Complaints & High-Risk Pregnancy."
+slug: "life-preg-1"
 category: "organ-wise"
-subCategory: "Pregnancy, Labor & Postpartum"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
-seoKeywords: ["life-preg-1", "pregnancy, labor & postpartum", "clinical protocol", "nutrition"]
+subCategory: "Pregnancy, Labor & Postpartum"
+seoKeywords: ["life-preg-1", "pregnancy", "labor & postpartum", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Pregnancy: Trimesters, Prenatal Care, Nutrition, Common Complaints & High-Risk Pregnancy** is a critical clinical pathway within **Pregnancy, Labor & Postpartum** under the **organ-wise** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

@@ -1,13 +1,13 @@
 ---
 title: "Lavender Oil: Lavandula angustifolia, Calming, Burns & Sleep"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Lavender Oil: Lavandula angustifolia, Calming, Burns & Sleep."
+slug: "eo-3"
 category: "herbs"
-subCategory: "Popular Essential Oils"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Popular Essential Oils"
 seoKeywords: ["eo-3", "popular essential oils", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Lavender Oil: Lavandula angustifolia, Calming, Burns & Sleep** is a critical clinical pathway within **Popular Essential Oils** under the **herbs** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

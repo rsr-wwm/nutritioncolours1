@@ -3,12 +3,11 @@ title: "Anthocyanin Dense Vaccinium"
 description: "Brief overview of anthocyanin dense vaccinium, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Anthocyanin Dense Vaccinium"
 category: "Functional Foods"
-subCategory: "Polyphenolic Cognitive Enhancers"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Polyphenolic Cognitive Enhancers"
 seoKeywords: ["anthocyanin dense vaccinium", "polyphenolic cognitive enhancers", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Anthocyanin Dense Vaccinium** is a highly valued nutritional agent within the **Polyphenolic Cognitive Enhancers** subcategory under the **Functional Foods** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Anthocyanin Dense Vaccinium** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

@@ -3,12 +3,11 @@ title: "Crocus Sativus"
 description: "Brief overview of crocus sativus, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Crocus Sativus"
 category: "spices"
-subCategory: "Iridaceae Stigmas"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Iridaceae Stigmas"
 seoKeywords: ["crocus sativus", "iridaceae stigmas", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Crocus Sativus** is a highly valued nutritional agent within the **Iridaceae Stigmas** subcategory under the **spices** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Crocus Sativus** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

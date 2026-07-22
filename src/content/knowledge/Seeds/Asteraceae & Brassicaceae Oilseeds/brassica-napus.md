@@ -3,12 +3,11 @@ title: "Brassica Napus"
 description: "Brief overview of brassica napus, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Brassica Napus"
 category: "Seeds"
-subCategory: "Asteraceae & Brassicaceae Oilseeds"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Asteraceae & Brassicaceae Oilseeds"
 seoKeywords: ["brassica napus", "asteraceae & brassicaceae oilseeds", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Brassica Napus** is a highly valued nutritional agent within the **Asteraceae & Brassicaceae Oilseeds** subcategory under the **Seeds** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Brassica Napus** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

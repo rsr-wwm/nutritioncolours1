@@ -3,12 +3,11 @@ title: "Fermented Solid Phaseolus Glycine"
 description: "Brief overview of fermented solid phaseolus glycine, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Fermented Solid Phaseolus Glycine"
 category: "Functional Foods"
-subCategory: "Fermented Non-Dairy Cultured Solids"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Fermented Non-Dairy Cultured Solids"
 seoKeywords: ["fermented solid phaseolus glycine", "fermented non-dairy cultured solids", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Fermented Solid Phaseolus Glycine** is a highly valued nutritional agent within the **Fermented Non-Dairy Cultured Solids** subcategory under the **Functional Foods** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Fermented Solid Phaseolus Glycine** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

@@ -1,13 +1,13 @@
 ---
 title: "Gotu Kola: Centella asiatica, Memory, Wound Healing & Varicose Veins"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Gotu Kola: Centella asiatica, Memory, Wound Healing & Varicose Veins."
+slug: "med-noot-2"
 category: "Medicinal Herbs"
-subCategory: "Stimulating Nootropic Herbs"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Stimulating Nootropic Herbs"
 seoKeywords: ["med-noot-2", "stimulating nootropic herbs", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Gotu Kola: Centella asiatica, Memory, Wound Healing & Varicose Veins** is a critical clinical pathway within **Stimulating Nootropic Herbs** under the **Medicinal Herbs** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

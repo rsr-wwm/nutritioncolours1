@@ -1,15 +1,13 @@
 ---
 title: "Sunflower Seeds — Nutrition, Composition & Health"
 description: "Sunflower seed kernels are an exceptionally rich dietary source of vitamin E, alongside notable magnesium and healthy unsaturated fats."
+slug: "helianthus-annuus"
 category: "Seeds"
-subCategory: "Asteraceae & Brassicaceae Oilseeds"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["sunflower seeds","helianthus annuus","vitamin e","magnesium","thiamin","unsaturated fat","nutrition","composition"]
-tags: []
+subCategory: "Asteraceae & Brassicaceae Oilseeds"
+seoKeywords: ["sunflower seeds", "helianthus annuus", "vitamin e", "magnesium", "thiamin", "unsaturated fat", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Helianthus annuus*

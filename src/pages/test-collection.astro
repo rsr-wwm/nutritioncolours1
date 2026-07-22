@@ -1,0 +1,9 @@
+---
+import { getCollection } from 'astro:content';
+import fs from 'node:fs';
+
+const knowledge = await getCollection('knowledge');
+const ids = knowledge.map(k => ({ id: k.id, slug: k.id, cat: k.data.category, subCat: k.data.subCategory }));
+fs.writeFileSync('collection-ids.json', JSON.stringify(ids, null, 2));
+---
+<div>Test</div>

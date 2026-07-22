@@ -3,12 +3,11 @@ title: "Crustacean Allergy"
 description: "Brief overview of crustacean allergy, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Crustacean Allergy"
 category: "Adverse Food Reactions"
-subCategory: "IgE-Mediated Allergies"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "IgE-Mediated Allergies"
 seoKeywords: ["crustacean allergy", "ige-mediated allergies", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Crustacean Allergy** is a highly valued nutritional agent within the **IgE-Mediated Allergies** subcategory under the **Adverse Food Reactions** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Crustacean Allergy** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

@@ -3,12 +3,11 @@ title: "Fermented Glycine Max Paste"
 description: "Brief overview of fermented glycine max paste, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Fermented Glycine Max Paste"
 category: "Fermented Foods"
-subCategory: "Aspergillus Oryzae Solid-State Ferments"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Aspergillus Oryzae Solid-State Ferments"
 seoKeywords: ["fermented glycine max paste", "aspergillus oryzae solid-state ferments", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Fermented Glycine Max Paste** is a highly valued nutritional agent within the **Aspergillus Oryzae Solid-State Ferments** subcategory under the **Fermented Foods** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Fermented Glycine Max Paste** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

@@ -1,15 +1,13 @@
 ---
 title: "Sesame Seeds — Nutrition, Composition & Health"
 description: "Sesame seeds (til) are notably rich in copper and calcium (particularly the unhulled form), and are a traditional winter staple across India (til laddoo, gajak)."
+slug: "sesamum-indicum"
 category: "Seeds"
-subCategory: "Pedaliaceae & Fabaceae Oilseeds"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["sesame seeds","sesamum indicum","calcium","copper","healthy fat","plant protein","nutrition","composition"]
-tags: []
+subCategory: "Pedaliaceae & Fabaceae Oilseeds"
+seoKeywords: ["sesame seeds", "sesamum indicum", "calcium", "copper", "healthy fat", "plant protein", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Sesamum indicum*

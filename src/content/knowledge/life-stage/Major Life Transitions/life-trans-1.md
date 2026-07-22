@@ -1,13 +1,13 @@
 ---
 title: "Life Transitions: Bereavement, Divorce, Career Change, Relocation, Chronic Illness & Resilience"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Life Transitions: Bereavement, Divorce, Career Change, Relocation, Chronic Illness & Resilience."
+slug: "life-trans-1"
 category: "life-stage"
-subCategory: "Major Life Transitions"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Major Life Transitions"
 seoKeywords: ["life-trans-1", "major life transitions", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Life Transitions: Bereavement, Divorce, Career Change, Relocation, Chronic Illness & Resilience** is a critical clinical pathway within **Major Life Transitions** under the **life-stage** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

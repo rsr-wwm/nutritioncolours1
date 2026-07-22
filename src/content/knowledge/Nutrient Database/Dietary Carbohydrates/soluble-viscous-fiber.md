@@ -3,12 +3,11 @@ title: "Soluble Viscous Fiber"
 description: "Brief overview of soluble viscous fiber, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Soluble Viscous Fiber"
 category: "Nutrient Database"
-subCategory: "Dietary Carbohydrates"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Dietary Carbohydrates"
 seoKeywords: ["soluble viscous fiber", "dietary carbohydrates", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Soluble Viscous Fiber** is a highly valued nutritional agent within the **Dietary Carbohydrates** subcategory under the **Nutrient Database** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Soluble Viscous Fiber** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

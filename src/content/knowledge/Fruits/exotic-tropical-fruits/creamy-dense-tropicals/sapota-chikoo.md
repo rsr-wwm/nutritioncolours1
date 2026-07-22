@@ -1,15 +1,13 @@
 ---
 title: "Sapota (Chikoo) — Nutrition, Composition & Health"
 description: "Sapota (chikoo) is a sweet tropical fruit (~83 kcal per 100 g) high in natural sugars and dietary fiber, popular across India."
+slug: "sapota-chikoo"
 category: "Fruits"
-subCategory: "exotic-tropical-fruits"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["sapota (chikoo)","manilkara zapota","dietary fiber","natural sugars (energy)","vitamin c","nutrition","composition"]
-tags: ["high-sugar"]
+subCategory: "exotic-tropical-fruits"
+seoKeywords: ["sapota (chikoo)", "manilkara zapota", "dietary fiber", "natural sugars (energy)", "vitamin c", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Manilkara zapota*

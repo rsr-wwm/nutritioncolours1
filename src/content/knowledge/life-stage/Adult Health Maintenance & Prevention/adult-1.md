@@ -1,13 +1,13 @@
 ---
 title: "Adult Preventive Care: Annual Physical, Screenings & Vaccinations"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Adult Preventive Care: Annual Physical, Screenings & Vaccinations."
+slug: "adult-1"
 category: "life-stage"
-subCategory: "Adult Health Maintenance & Prevention"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Adult Health Maintenance & Prevention"
 seoKeywords: ["adult-1", "adult health maintenance & prevention", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Adult Preventive Care: Annual Physical, Screenings & Vaccinations** is a critical clinical pathway within **Adult Health Maintenance & Prevention** under the **life-stage** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

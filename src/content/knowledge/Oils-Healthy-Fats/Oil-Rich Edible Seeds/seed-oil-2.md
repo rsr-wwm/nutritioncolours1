@@ -1,13 +1,13 @@
 ---
 title: "Sesame: White, Black, Brown, Tahini & Gomasio — Calcium & Middle Eastern"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Sesame: White, Black, Brown, Tahini & Gomasio — Calcium & Middle Eastern."
+slug: "seed-oil-2"
 category: "oils-healthy-fats"
-subCategory: "Oil-Rich Edible Seeds"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Oil-Rich Edible Seeds"
 seoKeywords: ["seed-oil-2", "oil-rich edible seeds", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Sesame: White, Black, Brown, Tahini & Gomasio — Calcium & Middle Eastern** is a critical clinical pathway within **Oil-Rich Edible Seeds** under the **oils-healthy-fats** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

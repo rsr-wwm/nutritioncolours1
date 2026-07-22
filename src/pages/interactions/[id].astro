@@ -4,6 +4,7 @@ import { ClinicalInteractionDetail } from '../../components/ClinicalDetails';
 import { DRUG_INTERACTIONS_DATA } from '../../lib/clinical_databases';
 import { getInteractionEntityGraph } from '../../lib/seo/entityGraph';
 import { getBreadcrumbSchema } from '../../lib/seo/structuredData';
+import { linkifyText } from '../../lib/seo/autoLinker';
 
 export async function getStaticPaths() {
   return DRUG_INTERACTIONS_DATA.map((interaction) => ({
@@ -35,7 +36,6 @@ const allKeywords = [
   "safety monitoring"
 ];
 ---
-<div data-ai-answer="true">
 
 <BaseLayout
   title={`${interaction.drugName} - Drug-Nutrient Interaction | NutritionColours`}
@@ -61,9 +61,7 @@ const allKeywords = [
       <div class="grid md:grid-cols-2 gap-8 pt-4">
         <div class="space-y-4">
           <h3 class="text-lg font-extrabold text-emerald-900 m-0">Clinical Monitoring & Guidelines</h3>
-          <p class="text-sm leading-relaxed text-stone-600" data-ai-answer="true">
-            {interaction.monitoringAdvice}
-          </p>
+          <p class="text-sm leading-relaxed text-stone-600" data-ai-answer="true" set:html={linkifyText(interaction.monitoringAdvice)}></p>
           <p class="text-sm leading-relaxed text-stone-655" data-ai-answer="true">
             Pharmaceutical agents are designed to target specific physiological pathways to manage health conditions. However, many medications can also impact nutrient metabolism by altering absorption, inhibiting biochemical pathways, or accelerating the clearance of essential cofactors. Understanding these drug-induced nutrient depletions is critical to preserving long-term cellular energy, maintaining organ clearance capacity, and preventing secondary deficiency-related symptoms.
           </p>
@@ -138,4 +136,3 @@ const allKeywords = [
     </section>
   </div>
 </BaseLayout>
-</div>

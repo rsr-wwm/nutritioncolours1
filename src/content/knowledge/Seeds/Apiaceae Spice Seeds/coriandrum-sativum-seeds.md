@@ -3,12 +3,11 @@ title: "Coriandrum Sativum Seeds"
 description: "Brief overview of coriandrum sativum seeds, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Coriandrum Sativum Seeds"
 category: "Seeds"
-subCategory: "Apiaceae Spice Seeds"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Apiaceae Spice Seeds"
 seoKeywords: ["coriandrum sativum seeds", "apiaceae spice seeds", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Coriandrum Sativum Seeds** is a highly valued nutritional agent within the **Apiaceae Spice Seeds** subcategory under the **Seeds** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Coriandrum Sativum Seeds** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

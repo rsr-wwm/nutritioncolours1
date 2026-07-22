@@ -3,12 +3,11 @@ title: "Glycine Max"
 description: "Brief overview of glycine max, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Glycine Max"
 category: "Seeds"
-subCategory: "Pedaliaceae & Fabaceae Oilseeds"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Pedaliaceae & Fabaceae Oilseeds"
 seoKeywords: ["glycine max", "pedaliaceae & fabaceae oilseeds", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Glycine Max** is a highly valued nutritional agent within the **Pedaliaceae & Fabaceae Oilseeds** subcategory under the **Seeds** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Glycine Max** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

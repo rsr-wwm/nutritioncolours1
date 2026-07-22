@@ -3,12 +3,11 @@ title: "Nutrient Database"
 description: "Placeholder description for Nutrient Database."
 slug: "nutrient-database"
 category: "Nutrient Database"
-subCategory: "Nutrient Database"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Nutrient Database"
 seoKeywords: ["nutrient database", "nutrient database", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Nutrient Database** is a highly valued nutritional agent within the **Nutrient Database** subcategory under the **Nutrient Database** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Nutrient Database** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

@@ -3,12 +3,11 @@ title: "Lens Culinaris Red"
 description: "Brief overview of lens culinaris red, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Lens Culinaris Red"
 category: "Seeds"
-subCategory: "Lens Botanicals"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Lens Botanicals"
 seoKeywords: ["lens culinaris red", "lens botanicals", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Lens Culinaris Red** is a highly valued nutritional agent within the **Lens Botanicals** subcategory under the **Seeds** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Lens Culinaris Red** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

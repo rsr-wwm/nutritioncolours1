@@ -1,13 +1,13 @@
 ---
 title: "Traditional Medicine Systems: Ayurveda, TCM, Western Herbalism & Integration"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Traditional Medicine Systems: Ayurveda, TCM, Western Herbalism & Integration."
+slug: "reg-2"
 category: "herbs"
-subCategory: "Regulatory Framework"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Regulatory Framework"
 seoKeywords: ["reg-2", "regulatory framework", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Traditional Medicine Systems: Ayurveda, TCM, Western Herbalism & Integration** is a critical clinical pathway within **Regulatory Framework** under the **herbs** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

@@ -1,13 +1,13 @@
 ---
 title: "Nail Disorders: Onychomycosis, Psoriatic Nails & Ingrown Nails"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Nail Disorders: Onychomycosis, Psoriatic Nails & Ingrown Nails."
+slug: "derm-14"
 category: "organ-wise"
-subCategory: "Hair & Nail Disorders"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Hair & Nail Disorders"
 seoKeywords: ["derm-14", "hair & nail disorders", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Nail Disorders: Onychomycosis, Psoriatic Nails & Ingrown Nails** is a critical clinical pathway within **Hair & Nail Disorders** under the **organ-wise** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

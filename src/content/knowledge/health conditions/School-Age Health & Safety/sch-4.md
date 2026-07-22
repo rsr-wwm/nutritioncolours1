@@ -1,13 +1,13 @@
 ---
 title: "Common School-Age Conditions: Obesity, Myopia & Dental Caries"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Common School-Age Conditions: Obesity, Myopia & Dental Caries."
+slug: "sch-4"
 category: "health conditions"
-subCategory: "School-Age Health & Safety"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "School-Age Health & Safety"
 seoKeywords: ["sch-4", "school-age health & safety", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Common School-Age Conditions: Obesity, Myopia & Dental Caries** is a critical clinical pathway within **School-Age Health & Safety** under the **health conditions** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

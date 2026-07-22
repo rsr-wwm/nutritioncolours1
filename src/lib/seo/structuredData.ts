@@ -166,7 +166,7 @@ export function getReviewedWebPageSchema(route: string, pageData?: {
     ...(pageData?.reviewType && {
       'potentialAction': {
         '@type': 'AskAction',
-        'target': 'https://nutritioncolours.com/tools',
+        'target': 'https://nutritioncolours.com/contact',
         'description': `Ask a clinical nutrition question about ${pageData.reviewType}`,
       },
     }),

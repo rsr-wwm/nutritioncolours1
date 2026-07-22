@@ -1,15 +1,13 @@
 ---
 title: "Pumpkin Seeds — Nutrition, Composition & Health"
 description: "Pumpkin seeds (pepitas) are a dense source of plant protein, zinc, and magnesium; typically eaten roasted as a snack or ground into a paste."
+slug: "cucurbita-pepo"
 category: "Seeds"
-subCategory: "Cucurbitaceae Seeds"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["pumpkin seeds","cucurbita pepo","zinc","magnesium","plant protein","iron","nutrition","composition"]
-tags: []
+subCategory: "Cucurbitaceae Seeds"
+seoKeywords: ["pumpkin seeds", "cucurbita pepo", "zinc", "magnesium", "plant protein", "iron", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Cucurbita pepo*

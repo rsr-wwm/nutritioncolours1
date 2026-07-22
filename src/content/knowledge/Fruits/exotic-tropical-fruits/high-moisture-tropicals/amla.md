@@ -1,15 +1,13 @@
 ---
 title: "Amla (Indian Gooseberry) — Nutrition, Composition & Health"
 description: "Amla is an Indian fruit exceptionally high in vitamin C and polyphenols, used traditionally in Ayurveda and studied for lipid and glycemic effects."
+slug: "amla"
 category: "Fruits"
-subCategory: "exotic-tropical-fruits"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["amla (indian gooseberry)","phyllanthus emblica","vitamin c","polyphenols (emblicanin)","fiber","nutrition","composition"]
-tags: []
+subCategory: "exotic-tropical-fruits"
+seoKeywords: ["amla (indian gooseberry)", "phyllanthus emblica", "vitamin c", "polyphenols (emblicanin)", "fiber", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Phyllanthus emblica*

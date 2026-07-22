@@ -1,15 +1,13 @@
 ---
 title: "Chickpeas — Nutrition, Composition & Health"
 description: "Chickpeas (chana) — cooked — provide about 164 kcal per 100 g, a strong plant protein and folate source used across Indian, Middle Eastern, and Mediterranean cuisines."
+slug: "cicer-arietinum-desi"
 category: "Pulses & Legumes"
-subCategory: "Cicer Botanicals"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["chickpeas","cicer arietinum","plant protein","folate","fiber","iron","nutrition","composition"]
-tags: ["gluten-free"]
+subCategory: "Cicer Botanicals"
+seoKeywords: ["chickpeas", "cicer arietinum", "plant protein", "folate", "fiber", "iron", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Cicer arietinum*

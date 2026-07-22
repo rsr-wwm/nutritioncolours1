@@ -1,13 +1,13 @@
 ---
 title: "Wild Rice: Zizania Aquatica — The Sacred Grain of the Great Lakes & Canadian North"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Wild Rice: Zizania Aquatica — The Sacred Grain of the Great Lakes & Canadian North."
+slug: "grain-wildrice-1"
 category: "Grains"
-subCategory: "Wild Rice"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Wild Rice"
 seoKeywords: ["grain-wildrice-1", "wild rice", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Wild Rice: Zizania Aquatica — The Sacred Grain of the Great Lakes & Canadian North** is a critical clinical pathway within **Wild Rice** under the **Grains** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

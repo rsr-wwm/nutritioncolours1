@@ -1,15 +1,13 @@
 ---
 title: "Oats (Rolled, Uncooked) — Nutrition, Composition & Health"
 description: "Rolled oats are a whole-grain cereal notable for beta-glucan soluble fiber, studied for cholesterol-lowering and glycemic benefits, at about 389 kcal per 100 g raw."
+slug: "avena-sativa"
 category: "Grains"
-subCategory: "Avena & Secale Genus"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["oats (rolled, uncooked)","avena sativa","beta-glucan (soluble fiber)","protein","iron","manganese","nutrition","composition"]
-tags: []
+subCategory: "Avena & Secale Genus"
+seoKeywords: ["oats (rolled", "uncooked)", "avena sativa", "beta-glucan (soluble fiber)", "protein", "iron", "manganese", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Avena sativa*

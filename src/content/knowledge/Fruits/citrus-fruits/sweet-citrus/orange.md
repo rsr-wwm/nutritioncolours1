@@ -1,15 +1,13 @@
 ---
 title: "Orange — Nutrition, Composition & Health"
 description: "Orange is a citrus fruit (~47 kcal per 100 g) best known as a vitamin C source, with flavonoids and soluble fiber in the whole fruit."
+slug: "orange"
 category: "Fruits"
-subCategory: "citrus-fruits"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["orange","citrus × sinensis","vitamin c","flavonoids (hesperidin)","folate","soluble fiber","nutrition","composition"]
-tags: []
+subCategory: "citrus-fruits"
+seoKeywords: ["orange", "citrus \u00d7 sinensis", "vitamin c", "flavonoids (hesperidin)", "folate", "soluble fiber", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Citrus × sinensis*

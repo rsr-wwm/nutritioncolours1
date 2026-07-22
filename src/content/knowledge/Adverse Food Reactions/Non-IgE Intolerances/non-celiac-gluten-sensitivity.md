@@ -3,12 +3,11 @@ title: "Non Celiac Gluten Sensitivity"
 description: "Brief overview of non celiac gluten sensitivity, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Non Celiac Gluten Sensitivity"
 category: "Adverse Food Reactions"
-subCategory: "Non-IgE Intolerances"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Non-IgE Intolerances"
 seoKeywords: ["non celiac gluten sensitivity", "non-ige intolerances", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Non Celiac Gluten Sensitivity** is a highly valued nutritional agent within the **Non-IgE Intolerances** subcategory under the **Adverse Food Reactions** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Non Celiac Gluten Sensitivity** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

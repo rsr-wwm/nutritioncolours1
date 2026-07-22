@@ -1,15 +1,13 @@
 ---
 title: "Pomegranate — Nutrition, Composition & Health"
 description: "Pomegranate arils provide ~83 kcal per 100 g and are a rich source of polyphenols (punicalagins) studied for cardiovascular and antioxidant effects."
+slug: "pomegranate"
 category: "Fruits"
-subCategory: "berries-aggregate-fruits"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["pomegranate","punica granatum","polyphenols (punicalagins)","fiber","vitamin k","potassium","nutrition","composition"]
-tags: []
+subCategory: "berries-aggregate-fruits"
+seoKeywords: ["pomegranate", "punica granatum", "polyphenols (punicalagins)", "fiber", "vitamin k", "potassium", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Punica granatum*

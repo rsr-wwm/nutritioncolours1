@@ -3,12 +3,11 @@ title: "Thymus Vulgaris"
 description: "Brief overview of thymus vulgaris, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Thymus Vulgaris"
 category: "Culinary Herbs"
-subCategory: "Lamiaceae Botanicals"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Lamiaceae Botanicals"
 seoKeywords: ["thymus vulgaris", "lamiaceae botanicals", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Thymus Vulgaris** is a highly valued nutritional agent within the **Lamiaceae Botanicals** subcategory under the **Culinary Herbs** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Thymus Vulgaris** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

@@ -1,15 +1,13 @@
 ---
 title: "Drupes"
 description: "In‑depth guide to drupes, their varieties, nutritional benefits, and culinary uses."
+slug: "drupes"
 category: "Fruits"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
+lastUpdated: 2026-07-14
 subCategory: "Drupes"
 seoKeywords: ["drupes", "stone fruits", "peach", "plum", "nutrient dense"]
-author: "NutritionColours Editorial Team"
-reviewedBy: ""
-lastUpdated: 2026-07-14
-tags: ["drupes", "stone fruit", "nutrition"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Drupes** is a highly valued nutritional agent within the **Drupes** subcategory under the **Fruits** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Drupes** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

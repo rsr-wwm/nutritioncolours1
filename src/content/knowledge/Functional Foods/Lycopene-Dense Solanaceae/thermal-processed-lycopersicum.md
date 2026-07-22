@@ -3,12 +3,11 @@ title: "Thermal Processed Lycopersicum"
 description: "Brief overview of thermal processed lycopersicum, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Thermal Processed Lycopersicum"
 category: "Functional Foods"
-subCategory: "Lycopene-Dense Solanaceae"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Lycopene-Dense Solanaceae"
 seoKeywords: ["thermal processed lycopersicum", "lycopene-dense solanaceae", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Thermal Processed Lycopersicum** is a highly valued nutritional agent within the **Lycopene-Dense Solanaceae** subcategory under the **Functional Foods** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Thermal Processed Lycopersicum** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

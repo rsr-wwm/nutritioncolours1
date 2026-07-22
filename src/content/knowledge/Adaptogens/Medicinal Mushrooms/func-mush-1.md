@@ -1,13 +1,13 @@
 ---
 title: "Medicinal Mushrooms: Reishi, Lion’s Mane, Chaga, Cordyceps, Shiitake & the Beta-Glucan Immune Modulators"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Medicinal Mushrooms: Reishi, Lion’s Mane, Chaga, Cordyceps, Shiitake & the Beta-Glucan Immune Modulators."
+slug: "func-mush-1"
 category: "Adaptogens"
-subCategory: "Medicinal Mushrooms"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Medicinal Mushrooms"
 seoKeywords: ["func-mush-1", "medicinal mushrooms", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Medicinal Mushrooms: Reishi, Lion’s Mane, Chaga, Cordyceps, Shiitake & the Beta-Glucan Immune Modulators** is a critical clinical pathway within **Medicinal Mushrooms** under the **Adaptogens** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

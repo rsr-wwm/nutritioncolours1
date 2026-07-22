@@ -3,12 +3,11 @@ title: "Chia Seeds"
 description: "Brief overview of chia seeds, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Chia Seeds"
 category: "Seeds"
-subCategory: "Mucilaginous Seeds"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Mucilaginous Seeds"
 seoKeywords: ["chia seeds", "mucilaginous seeds", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Chia Seeds** is a highly valued nutritional agent within the **Mucilaginous Seeds** subcategory under the **Seeds** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Chia Seeds** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

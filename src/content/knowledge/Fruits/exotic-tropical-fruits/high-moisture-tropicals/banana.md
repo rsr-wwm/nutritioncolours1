@@ -1,15 +1,13 @@
 ---
 title: "Banana — Nutrition, Composition & Health"
 description: "Banana is an energy-dense tropical fruit (~89 kcal per 100 g) notable for potassium, and for resistant starch when less ripe; ripeness raises its glycemic impact."
+slug: "banana"
 category: "Fruits"
-subCategory: "exotic-tropical-fruits"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["banana","musa acuminata","potassium","vitamin b6","resistant starch (unripe)","magnesium","nutrition","composition"]
-tags: []
+subCategory: "exotic-tropical-fruits"
+seoKeywords: ["banana", "musa acuminata", "potassium", "vitamin b6", "resistant starch (unripe)", "magnesium", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Musa acuminata*

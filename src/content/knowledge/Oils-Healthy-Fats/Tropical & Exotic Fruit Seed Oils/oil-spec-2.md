@@ -1,13 +1,13 @@
 ---
 title: "Tropical & Exotic Fruit Seed Oils: Passion Fruit, Marula, Moringa, Baobab, Sacha Inchi, Tamanu — Indigenous, Cosmetic & Emerging Superfoods"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Tropical & Exotic Fruit Seed Oils: Passion Fruit, Marula, Moringa, Baobab, Sacha Inchi, Tamanu — Indigenous, Cosmetic & Emerging Superfoods."
+slug: "oil-spec-2"
 category: "oils-healthy-fats"
-subCategory: "Tropical & Exotic Fruit Seed Oils"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Tropical & Exotic Fruit Seed Oils"
 seoKeywords: ["oil-spec-2", "tropical & exotic fruit seed oils", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Tropical & Exotic Fruit Seed Oils: Passion Fruit, Marula, Moringa, Baobab, Sacha Inchi, Tamanu — Indigenous, Cosmetic & Emerging Superfoods** is a critical clinical pathway within **Tropical & Exotic Fruit Seed Oils** under the **oils-healthy-fats** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

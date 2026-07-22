@@ -1,15 +1,13 @@
 ---
 title: "Aggregate Fruits"
 description: "Overview of aggregate fruits, their varieties, nutritional benefits, and culinary uses."
+slug: "aggregate-fruits"
 category: "Fruits"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
+lastUpdated: 2026-07-14
 subCategory: "Aggregate Fruits"
 seoKeywords: ["aggregate fruits", "raspberries", "blackberries", "nutrition", "fruit clusters"]
-author: "NutritionColours Editorial Team"
-reviewedBy: ""
-lastUpdated: 2026-07-14
-tags: ["aggregate", "berries", "fruit", "nutrition"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Aggregate Fruits** is a highly valued nutritional agent within the **Aggregate Fruits** subcategory under the **Fruits** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Aggregate Fruits** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

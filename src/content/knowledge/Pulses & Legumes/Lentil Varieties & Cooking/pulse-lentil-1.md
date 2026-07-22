@@ -1,13 +1,13 @@
 ---
 title: "Lentils: Brown, Green, Red, Black Beluga & French Puy — The Lens culinaris Guide"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Lentils: Brown, Green, Red, Black Beluga & French Puy — The Lens culinaris Guide."
+slug: "pulse-lentil-1"
 category: "Pulses & Legumes"
-subCategory: "Lentil Varieties & Cooking"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Lentil Varieties & Cooking"
 seoKeywords: ["pulse-lentil-1", "lentil varieties & cooking", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Lentils: Brown, Green, Red, Black Beluga & French Puy — The Lens culinaris Guide** is a critical clinical pathway within **Lentil Varieties & Cooking** under the **Pulses & Legumes** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

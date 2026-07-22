@@ -1,15 +1,13 @@
 ---
 title: "Watermelon Seeds — Nutrition, Composition & Health"
 description: "Dried watermelon seed kernels are a dense source of plant protein and magnesium, traditionally roasted and eaten as a snack in India (magaz) rather than discarded."
+slug: "citrullus-lanatus-seeds"
 category: "Seeds"
-subCategory: "Cucurbitaceae Seeds"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["watermelon seeds","citrullus lanatus","plant protein","magnesium","iron","nutrition","composition"]
-tags: []
+subCategory: "Cucurbitaceae Seeds"
+seoKeywords: ["watermelon seeds", "citrullus lanatus", "plant protein", "magnesium", "iron", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Citrullus lanatus*

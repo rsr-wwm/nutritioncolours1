@@ -1,15 +1,13 @@
 ---
 title: "Amaranth — Nutrition, Composition & Health"
 description: "Amaranth (rajgira) is a gluten-free pseudocereal seed notably rich in iron and manganese, traditionally popped into a snack or eaten during Hindu fasting periods in India."
+slug: "amaranthus"
 category: "Seeds"
-subCategory: "Broadleaf Pseudocereals"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["amaranth","amaranthus","iron","manganese","calcium","plant protein","nutrition","composition"]
-tags: ["gluten-free"]
+subCategory: "Broadleaf Pseudocereals"
+seoKeywords: ["amaranth", "amaranthus", "iron", "manganese", "calcium", "plant protein", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Amaranthus*

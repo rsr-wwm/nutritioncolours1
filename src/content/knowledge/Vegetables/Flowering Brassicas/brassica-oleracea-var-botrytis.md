@@ -1,15 +1,13 @@
 ---
 title: "Cauliflower — Nutrition, Composition & Health"
 description: "Cauliflower is a low-calorie, low-carbohydrate cruciferous vegetable (about 25 kcal per 100 g) popular as a versatile substitute for grains such as rice in portion-controlled diets."
+slug: "brassica-oleracea-var-botrytis"
 category: "Vegetables"
-subCategory: "Flowering Brassicas"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["cauliflower","brassica oleracea var. botrytis","vitamin c","folate","fiber","nutrition","composition"]
-tags: ["cruciferous","low-carb"]
+subCategory: "Flowering Brassicas"
+seoKeywords: ["cauliflower", "brassica oleracea var. botrytis", "vitamin c", "folate", "fiber", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Brassica oleracea var. botrytis*

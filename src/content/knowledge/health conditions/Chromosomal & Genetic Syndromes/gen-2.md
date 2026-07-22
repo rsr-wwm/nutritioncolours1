@@ -1,13 +1,13 @@
 ---
 title: "Cystic Fibrosis, Huntington’s Disease & Marfan Syndrome"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Cystic Fibrosis, Huntington’s Disease & Marfan Syndrome."
+slug: "gen-2"
 category: "health conditions"
-subCategory: "Chromosomal & Genetic Syndromes"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Chromosomal & Genetic Syndromes"
 seoKeywords: ["gen-2", "chromosomal & genetic syndromes", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Cystic Fibrosis, Huntington’s Disease & Marfan Syndrome** is a critical clinical pathway within **Chromosomal & Genetic Syndromes** under the **health conditions** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

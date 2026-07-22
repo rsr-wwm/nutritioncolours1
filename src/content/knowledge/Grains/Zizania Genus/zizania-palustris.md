@@ -3,12 +3,11 @@ title: "Zizania Palustris"
 description: "Brief overview of zizania palustris, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Zizania Palustris"
 category: "Grains"
-subCategory: "Zizania Genus"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Zizania Genus"
 seoKeywords: ["zizania palustris", "zizania genus", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Zizania Palustris** is a highly valued nutritional agent within the **Zizania Genus** subcategory under the **Grains** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Zizania Palustris** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

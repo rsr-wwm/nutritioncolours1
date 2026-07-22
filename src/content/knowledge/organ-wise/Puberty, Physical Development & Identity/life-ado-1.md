@@ -1,13 +1,13 @@
 ---
 title: "Adolescence: Puberty, Growth Spurt, Sexual Maturation, Brain Development & Identity Formation"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Adolescence: Puberty, Growth Spurt, Sexual Maturation, Brain Development & Identity Formation."
+slug: "life-ado-1"
 category: "organ-wise"
-subCategory: "Puberty, Physical Development & Identity"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
-seoKeywords: ["life-ado-1", "puberty, physical development & identity", "clinical protocol", "nutrition"]
+subCategory: "Puberty, Physical Development & Identity"
+seoKeywords: ["life-ado-1", "puberty", "physical development & identity", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Adolescence: Puberty, Growth Spurt, Sexual Maturation, Brain Development & Identity Formation** is a critical clinical pathway within **Puberty, Physical Development & Identity** under the **organ-wise** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

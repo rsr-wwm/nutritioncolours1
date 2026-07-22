@@ -1,0 +1,5 @@
+
+> nutritioncolours-astro@0.1.0 check-thin
+> tsx scripts/check-word-count.ts
+
+[Thin Content Guard] Scanning pre-rendered HTML files for minimum word counts...

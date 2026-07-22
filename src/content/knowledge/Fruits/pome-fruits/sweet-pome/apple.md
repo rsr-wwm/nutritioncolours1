@@ -1,15 +1,13 @@
 ---
 title: "Apple — Nutrition, Composition & Health"
 description: "Apple is a pome fruit (~52 kcal per 100 g) providing soluble fiber (pectin) and polyphenols, with a low glycemic index."
+slug: "apple"
 category: "Fruits"
-subCategory: "pome-fruits"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["apple","malus domestica","pectin (soluble fiber)","polyphenols (quercetin)","potassium","nutrition","composition"]
-tags: ["FODMAP-high"]
+subCategory: "pome-fruits"
+seoKeywords: ["apple", "malus domestica", "pectin (soluble fiber)", "polyphenols (quercetin)", "potassium", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Malus domestica*

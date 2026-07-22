@@ -1,15 +1,13 @@
 ---
 title: "Psyllium Husk — Nutrition, Composition & Health"
 description: "Psyllium husk (isabgol) is the fibrous seed-coat of Plantago ovata, used clinically as a bulk-forming fiber supplement — not eaten as a food in typical 100g quantities."
+slug: "plantago-ovata"
 category: "Seeds"
-subCategory: "Mucilaginous Seeds"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["psyllium husk","plantago ovata","soluble fiber","insoluble fiber","nutrition","composition"]
-tags: ["dose-sensitive","requires-adequate-fluid"]
+subCategory: "Mucilaginous Seeds"
+seoKeywords: ["psyllium husk", "plantago ovata", "soluble fiber", "insoluble fiber", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Plantago ovata*

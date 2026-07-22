@@ -1,13 +1,13 @@
 ---
 title: "Ras el Hanout, Baharat, Dukkah & Za’atar — Signature Blends"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Ras el Hanout, Baharat, Dukkah & Za’atar — Signature Blends."
+slug: "blend-me-1"
 category: "Grains"
-subCategory: "Middle Eastern & North African"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Middle Eastern & North African"
 seoKeywords: ["blend-me-1", "middle eastern & north african", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Ras el Hanout, Baharat, Dukkah & Za’atar — Signature Blends** is a critical clinical pathway within **Middle Eastern & North African** under the **Grains** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

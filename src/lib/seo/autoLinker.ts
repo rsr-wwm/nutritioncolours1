@@ -106,6 +106,17 @@ export const PULSE_KNOWLEDGE_URL: Record<string, string> = {
   'fava-beans': '/knowledge/pulses-legumes/specialty-broad-oil-legumes/cool-season-vine-legumes/vicia-faba',
 };
 
+// Hardcoded paths for common vitamins and minerals used in GEO location deficiency risks
+export const VITAMIN_MINERAL_URLS: Record<string, string> = {
+  'vitamin d3': '/topic/vit-d-deficiency', // Or point to /knowledge/vitamins/fat-soluble-vitamins/vitamin-d
+  'vitamin b12': '/topic/b12-deficiency',
+  'iodine': '/topic/iodine-deficiency',
+  'magnesium': '/topic/magnesium-deficiency',
+  'selenium': '/topic/selenium-deficiency',
+  'iron': '/topic/iron-deficiency-anemia',
+  'zinc': '/topic/zinc-deficiency',
+};
+
 export interface LinkableEntity {
   name: string;      // display name as it appears in prose (e.g. "Turmeric")
   url: string;        // canonical page for this entity
@@ -143,7 +154,9 @@ function buildRegistry(): LinkableEntity[] {
 
   for (const f of FRUITS_DATA) {
     if (!f.name || !f.id) continue;
-    entries.push({ name: f.name, url: FRUIT_KNOWLEDGE_URL[f.id] || `/foods/fruits/${f.id}`, kind: 'fruit' });
+    const url = FRUIT_KNOWLEDGE_URL[f.id];
+    if (!url) continue;
+    entries.push({ name: f.name, url, kind: 'fruit' });
   }
 
   for (const g of GRAINS_DATA) {
@@ -248,6 +261,15 @@ export function findEntityUrl(rawName: string): string | null {
     const n = e.name.toLowerCase();
     if (n === cleaned || n === singular) return e.url;
   }
+
+  // Fallback to Vitamin/Mineral manual mapping for GEO Deficiency Risks
+  // We match loosely since strings might be "Vitamin D3 (due to low sunlight...)"
+  for (const [key, url] of Object.entries(VITAMIN_MINERAL_URLS)) {
+    if (cleaned.includes(key) || rawName.toLowerCase().includes(key)) {
+      return url;
+    }
+  }
+
   return null;
 }
 

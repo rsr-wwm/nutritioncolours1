@@ -3,12 +3,11 @@ title: "Calcium Carbonate Citrate"
 description: "Brief overview of calcium carbonate citrate, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Calcium Carbonate Citrate"
 category: "Nutrient Database"
-subCategory: "Structural Osteo-Minerals"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Structural Osteo-Minerals"
 seoKeywords: ["calcium carbonate citrate", "structural osteo-minerals", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Calcium Carbonate Citrate** is a highly valued nutritional agent within the **Structural Osteo-Minerals** subcategory under the **Nutrient Database** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Calcium Carbonate Citrate** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

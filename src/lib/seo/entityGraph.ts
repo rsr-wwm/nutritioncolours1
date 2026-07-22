@@ -256,7 +256,7 @@ function buildMedicalWebPage(route: string, pageData?: {
     ...(pageData?.reviewType && {
       'potentialAction': {
         '@type': 'AskAction',
-        'target': `${BASE}/tools`,
+        'target': `${BASE}/contact`,
         'description': `Ask a clinical nutrition question about ${pageData.reviewType}`,
       },
     }),

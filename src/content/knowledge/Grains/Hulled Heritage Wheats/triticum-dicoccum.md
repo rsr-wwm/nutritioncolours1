@@ -3,12 +3,11 @@ title: "Triticum Dicoccum"
 description: "Brief overview of triticum dicoccum, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Triticum Dicoccum"
 category: "Grains"
-subCategory: "Hulled Heritage Wheats"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Hulled Heritage Wheats"
 seoKeywords: ["triticum dicoccum", "hulled heritage wheats", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Triticum Dicoccum** is a highly valued nutritional agent within the **Hulled Heritage Wheats** subcategory under the **Grains** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Triticum Dicoccum** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

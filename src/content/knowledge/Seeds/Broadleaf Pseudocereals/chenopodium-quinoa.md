@@ -3,12 +3,11 @@ title: "Chenopodium Quinoa"
 description: "Brief overview of chenopodium quinoa, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Chenopodium Quinoa"
 category: "Seeds"
-subCategory: "Broadleaf Pseudocereals"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Broadleaf Pseudocereals"
 seoKeywords: ["chenopodium quinoa", "broadleaf pseudocereals", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Chenopodium Quinoa** is a highly valued nutritional agent within the **Broadleaf Pseudocereals** subcategory under the **Seeds** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Chenopodium Quinoa** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

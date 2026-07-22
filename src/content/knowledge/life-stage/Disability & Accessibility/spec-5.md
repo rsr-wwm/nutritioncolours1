@@ -1,13 +1,13 @@
 ---
 title: "Living with Disability: Physical, Intellectual & Sensory Impairments"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Living with Disability: Physical, Intellectual & Sensory Impairments."
+slug: "spec-5"
 category: "life-stage"
-subCategory: "Disability & Accessibility"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Disability & Accessibility"
 seoKeywords: ["spec-5", "disability & accessibility", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Living with Disability: Physical, Intellectual & Sensory Impairments** is a critical clinical pathway within **Disability & Accessibility** under the **life-stage** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

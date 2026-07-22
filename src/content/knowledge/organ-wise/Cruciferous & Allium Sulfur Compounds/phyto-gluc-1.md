@@ -1,13 +1,13 @@
 ---
 title: "Glucosinolates: Sulforaphane, Indole-3-Carbinol, DIM & the Cruciferous Cancer-Fighting Compounds"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Glucosinolates: Sulforaphane, Indole-3-Carbinol, DIM & the Cruciferous Cancer-Fighting Compounds."
+slug: "phyto-gluc-1"
 category: "organ-wise"
-subCategory: "Cruciferous & Allium Sulfur Compounds"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Cruciferous & Allium Sulfur Compounds"
 seoKeywords: ["phyto-gluc-1", "cruciferous & allium sulfur compounds", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Glucosinolates: Sulforaphane, Indole-3-Carbinol, DIM & the Cruciferous Cancer-Fighting Compounds** is a critical clinical pathway within **Cruciferous & Allium Sulfur Compounds** under the **organ-wise** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

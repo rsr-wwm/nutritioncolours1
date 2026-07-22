@@ -1,0 +1,23 @@
+{
+  "diabetes-reversal": [
+    { "url": "https://www.cdc.gov/diabetes/basics.html", "title": "CDC – Diabetes Basics & Clinical Management", "publisher": "U.S. Centers for Disease Control and Prevention (.gov)" },
+    { "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes", "title": "WHO – Diabetes Fact Sheet & Global Burden", "publisher": "World Health Organization" },
+    { "url": "https://pubmed.ncbi.nlm.nih.gov/29289258/", "title": "PubMed – Behavioral and Dietary Reversal of Type 2 Diabetes", "publisher": "National Center for Biotechnology Information (NIH)" }
+  ],
+  "pcos-balance": [
+    { "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6250088/", "title": "NCBI – Nutritional Management of Polycystic Ovary Syndrome", "publisher": "NIH National Library of Medicine" },
+    { "url": "https://www.who.int/news-room/fact-sheets/detail/polycystic-ovary-syndrome", "title": "WHO – Polycystic Ovary Syndrome Key Facts", "publisher": "World Health Organization" }
+  ],
+  "fatty-liver-reversal": [
+    { "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash", "title": "NIDDK – NAFDL & MASLD Health Information", "publisher": "NIH National Institute of Diabetes and Digestive and Kidney Diseases" },
+    { "url": "https://pubmed.ncbi.nlm.nih.gov/34185074/", "title": "PubMed – Dietary Interventions in Non-Alcoholic Fatty Liver Disease", "publisher": "NCBI PubMed Journal Archive" }
+  ],
+  "thyroid-optimization": [
+    { "url": "https://www.niddk.nih.gov/health-information/endocrine-diseases/hypothyroidism", "title": "NIDDK – Hypothyroidism Overview & Micronutrients", "publisher": "NIH NIDDK" },
+    { "url": "https://www.thyroid.org/hypothyroidism/", "title": "American Thyroid Association – Hypothyroidism Guidelines", "publisher": "American Thyroid Association" }
+  ],
+  "hypertension-management": [
+    { "url": "https://www.nhlbi.nih.gov/health/dash-eating-plan", "title": "NHLBI – DASH Eating Plan & Vascular Health", "publisher": "National Heart, Lung, and Blood Institute (NIH)" },
+    { "url": "https://www.who.int/news-room/fact-sheets/detail/hypertension", "title": "WHO – Global Hypertension Guidelines", "publisher": "World Health Organization" }
+  ]
+}

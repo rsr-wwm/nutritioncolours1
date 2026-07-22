@@ -1,13 +1,13 @@
 ---
 title: "Tinnitus, Vertigo & Vestibular Disorders"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Tinnitus, Vertigo & Vestibular Disorders."
+slug: "ent-2"
 category: "health conditions"
-subCategory: "Hearing & Ear Disorders"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Hearing & Ear Disorders"
 seoKeywords: ["ent-2", "hearing & ear disorders", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Tinnitus, Vertigo & Vestibular Disorders** is a critical clinical pathway within **Hearing & Ear Disorders** under the **health conditions** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

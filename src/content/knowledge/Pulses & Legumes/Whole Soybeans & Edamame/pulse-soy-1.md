@@ -1,15 +1,13 @@
 ---
 title: "Soybeans — Nutrition, Composition & Health"
 description: "Soybeans — cooked, mature — provide about 172 kcal per 100 g and are the only common plant food providing a complete essential amino acid profile in a single, unprocessed source."
+slug: "pulse-soy-1"
 category: "Pulses & Legumes"
-subCategory: "Whole Soybeans & Edamame"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["soybeans","glycine max","complete plant protein","isoflavones","fiber","iron","nutrition","composition"]
-tags: ["gluten-free","complete-protein"]
+subCategory: "Whole Soybeans & Edamame"
+seoKeywords: ["soybeans", "glycine max", "complete plant protein", "isoflavones", "fiber", "iron", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Glycine max*

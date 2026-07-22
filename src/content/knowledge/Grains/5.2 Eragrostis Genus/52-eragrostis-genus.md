@@ -3,12 +3,11 @@ title: "5.2 Eragrostis Genus"
 description: "Placeholder description for 5.2 Eragrostis Genus."
 slug: "52-eragrostis-genus"
 category: "5.2 Eragrostis Genus"
-subCategory: "5.2 Eragrostis Genus"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "5.2 Eragrostis Genus"
 seoKeywords: ["5.2 eragrostis genus", "5.2 eragrostis genus", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **5.2 Eragrostis Genus** is a highly valued nutritional agent within the **5.2 Eragrostis Genus** subcategory under the **5.2 Eragrostis Genus** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **5.2 Eragrostis Genus** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

@@ -1,15 +1,13 @@
 ---
 title: "Wheat (Whole Grain / Atta) — Nutrition, Composition & Health"
 description: "Whole wheat is India's dominant staple grain, ground into atta flour; whole-grain wheat provides substantially more fiber, B-vitamins, and minerals than refined (maida) flour."
+slug: "triticum-aestivum"
 category: "Grains"
-subCategory: "Triticum Species"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["wheat (whole grain / atta)","triticum aestivum","dietary fiber","protein (gluten)","iron","b-vitamins","nutrition","composition"]
-tags: ["gluten"]
+subCategory: "Triticum Species"
+seoKeywords: ["wheat (whole grain / atta)", "triticum aestivum", "dietary fiber", "protein (gluten)", "iron", "b-vitamins", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Triticum aestivum*

@@ -1,4 +1,4 @@
-'use client';
+
 import { Accordion } from './ui/Accordion';
 import { m, AnimatePresence } from 'framer-motion';
 

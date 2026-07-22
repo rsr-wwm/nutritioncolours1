@@ -1,13 +1,13 @@
 ---
 title: "Schisandra: Five-Flavor Berry, Liver Support & Endurance"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Schisandra: Five-Flavor Berry, Liver Support & Endurance."
+slug: "med-adapt-5"
 category: "Medicinal Herbs"
-subCategory: "Adaptogens"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Adaptogens"
 seoKeywords: ["med-adapt-5", "adaptogens", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Schisandra: Five-Flavor Berry, Liver Support & Endurance** is a critical clinical pathway within **Adaptogens** under the **Medicinal Herbs** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

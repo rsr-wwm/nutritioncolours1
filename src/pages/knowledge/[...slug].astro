@@ -4,6 +4,9 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Icons from '../../components/Icons.astro';
 import { PILLARS, getTaxonomyDetails } from '../../lib/seo/taxonomyEngine';
 import { getRecipesForFood, getLocationsForFood } from '../../lib/seo/autoLinker';
+import { getSiteUrl } from '../../utils/siteUrl';
+
+const origin = 'https://www.nutrition-protocols.com';
 
 // Pillars that are all "food" in the everyday sense — cross-linked to each other so, e.g.,
 // Fruits is reachable from the Foods hub and vice versa, even though each is its own top-level pillar.
@@ -194,7 +197,7 @@ if (type === 'article') {
     jsonLd = JSON.stringify({
       '@context': 'https://schema.org',
       '@type': 'MedicalWebPage',
-      'url': Astro.url.href,
+      'url': `${origin}${Astro.url.pathname}`,
       'name': entry.data.title,
       'description': entry.data.description,
       'lastReviewed': entry.data.lastUpdated || new Date().toISOString().split('T')[0],
@@ -208,7 +211,7 @@ if (type === 'article') {
     jsonLd = JSON.stringify({
       '@context': 'https://schema.org',
       '@type': 'MedicalWebPage',
-      'url': Astro.url.href,
+      'url': getSiteUrl(Astro.url.href),
       'name': entry.data.title,
       'description': entry.data.description
     });
@@ -235,13 +238,33 @@ if (type === 'article') {
   pageTitle = `${mainCategory.name} - Clinical Hub | NutritionColours`;
   pageDescription = mainCategory.info?.description || `Explore detailed protocols and guidelines for ${mainCategory.name}.`;
   pageKeywords = [mainCategory.name, "clinical protocols", "nutrition research"];
-  
+
+  const origin = (Astro.site || 'https://nutritioncolours.com').toString().replace(/\/$/, '');
+  const itemListElements = (mainCategory.categories || []).map((cat: any, i: number) => ({
+    '@type': 'ListItem',
+    'position': i + 1,
+    'name': cat.name,
+    'url': `${origin}/knowledge/${mainCategory.slug}/${cat.slug}`
+  }));
   jsonLd = JSON.stringify({
     '@context': 'https://schema.org',
-    '@type': 'MedicalWebPage',
-    'url': Astro.url.href,
-    'name': mainCategory.name,
-    'description': pageDescription
+    '@graph': [
+      {
+        '@type': ['CollectionPage', 'MedicalWebPage'],
+        'url': `${origin}${Astro.url.pathname}`,
+        'name': mainCategory.name,
+        'description': pageDescription,
+        'mainEntity': { '@type': 'ItemList', 'numberOfItems': itemListElements.length, 'itemListElement': itemListElements }
+      },
+      {
+        '@type': 'BreadcrumbList',
+        'itemListElement': [
+          { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': `${origin}/` },
+          { '@type': 'ListItem', 'position': 2, 'name': 'Knowledge', 'item': `${origin}/knowledge` },
+          { '@type': 'ListItem', 'position': 3, 'name': mainCategory.name, 'item': `${origin}${Astro.url.pathname}` }
+        ]
+      }
+    ]
   });
 } else if (type === 'category') {
   const { category } = props;
@@ -249,12 +272,33 @@ if (type === 'article') {
   pageDescription = `Browse evidence-graded clinical subcategories and protocols for ${category.name}.`;
   pageKeywords = [category.name, category.techName || '', "protocols"];
 
+  const origin = (Astro.site || 'https://nutritioncolours.com').toString().replace(/\/$/, '');
+  const itemListElements = (category.subCategories || []).map((sub: any, i: number) => ({
+    '@type': 'ListItem',
+    'position': i + 1,
+    'name': sub.name,
+    'url': `${origin}/knowledge/${category.mainCategory.slug}/${category.slug}/${sub.slug}`
+  }));
   jsonLd = JSON.stringify({
     '@context': 'https://schema.org',
-    '@type': 'MedicalWebPage',
-    'url': Astro.url.href,
-    'name': category.name,
-    'description': pageDescription
+    '@graph': [
+      {
+        '@type': ['CollectionPage', 'MedicalWebPage'],
+        'url': `${origin}${Astro.url.pathname}`,
+        'name': category.name,
+        'description': pageDescription,
+        'mainEntity': { '@type': 'ItemList', 'numberOfItems': itemListElements.length, 'itemListElement': itemListElements }
+      },
+      {
+        '@type': 'BreadcrumbList',
+        'itemListElement': [
+          { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': `${origin}/` },
+          { '@type': 'ListItem', 'position': 2, 'name': 'Knowledge', 'item': `${origin}/knowledge` },
+          { '@type': 'ListItem', 'position': 3, 'name': category.mainCategory.name, 'item': `${origin}/knowledge/${category.mainCategory.slug}` },
+          { '@type': 'ListItem', 'position': 4, 'name': category.name, 'item': `${origin}${Astro.url.pathname}` }
+        ]
+      }
+    ]
   });
 } else if (type === 'subCategory') {
   const { subCategory } = props;
@@ -262,16 +306,37 @@ if (type === 'article') {
   pageDescription = `Browse all clinical articles, research-backed guidelines, and wellness swaps for ${subCategory.name}.`;
   pageKeywords = [subCategory.name, subCategory.commonName || '', "guidelines"];
 
+  const origin = (Astro.site || 'https://nutritioncolours.com').toString().replace(/\/$/, '');
+  const itemListElements = (subCategory.articles || []).map((art: any, i: number) => ({
+    '@type': 'ListItem',
+    'position': i + 1,
+    'name': art.title,
+    'url': art.canonicalUrl.startsWith('http') ? art.canonicalUrl : `${origin}${art.canonicalUrl}`
+  }));
   jsonLd = JSON.stringify({
     '@context': 'https://schema.org',
-    '@type': 'MedicalWebPage',
-    'url': Astro.url.href,
-    'name': subCategory.name,
-    'description': pageDescription
+    '@graph': [
+      {
+        '@type': ['CollectionPage', 'MedicalWebPage'],
+        'url': `${origin}${Astro.url.pathname}`,
+        'name': subCategory.name,
+        'description': pageDescription,
+        'mainEntity': { '@type': 'ItemList', 'numberOfItems': itemListElements.length, 'itemListElement': itemListElements }
+      },
+      {
+        '@type': 'BreadcrumbList',
+        'itemListElement': [
+          { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': `${origin}/` },
+          { '@type': 'ListItem', 'position': 2, 'name': 'Knowledge', 'item': `${origin}/knowledge` },
+          { '@type': 'ListItem', 'position': 3, 'name': subCategory.mainCategory.name, 'item': `${origin}/knowledge/${subCategory.mainCategory.slug}` },
+          { '@type': 'ListItem', 'position': 4, 'name': subCategory.category.name, 'item': `${origin}/knowledge/${subCategory.mainCategory.slug}/${subCategory.category.slug}` },
+          { '@type': 'ListItem', 'position': 5, 'name': subCategory.name, 'item': `${origin}${Astro.url.pathname}` }
+        ]
+      }
+    ]
   });
 }
 ---
-<div data-ai-answer="true">
 <BaseLayout
   title={pageTitle}
   description={pageDescription}
@@ -667,4 +732,3 @@ if (type === 'article') {
     </main>
   )}
 </BaseLayout>
-</div>

@@ -3,12 +3,11 @@ title: "Triticum Spelta"
 description: "Brief overview of triticum spelta, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Triticum Spelta"
 category: "Grains"
-subCategory: "Triticum Species"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Triticum Species"
 seoKeywords: ["triticum spelta", "triticum species", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Triticum Spelta** is a highly valued nutritional agent within the **Triticum Species** subcategory under the **Grains** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Triticum Spelta** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

@@ -1,15 +1,13 @@
 ---
 title: "Pineapple — Nutrition, Composition & Health"
 description: "Pineapple is a tropical fruit (~50 kcal per 100 g) providing vitamin C, manganese, and the enzyme bromelain."
+slug: "pineapple"
 category: "Fruits"
-subCategory: "exotic-tropical-fruits"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["pineapple","ananas comosus","vitamin c","manganese","bromelain","nutrition","composition"]
-tags: []
+subCategory: "exotic-tropical-fruits"
+seoKeywords: ["pineapple", "ananas comosus", "vitamin c", "manganese", "bromelain", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Ananas comosus*

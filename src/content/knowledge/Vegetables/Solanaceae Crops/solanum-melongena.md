@@ -1,15 +1,13 @@
 ---
 title: "Eggplant — Nutrition, Composition & Health"
 description: "Eggplant (brinjal/aubergine) provides about 25 kcal per 100 g raw, is notably high in vitamin B6 and fiber for a low-calorie vegetable, and its skin carries anthocyanin antioxidants."
+slug: "solanum-melongena"
 category: "Vegetables"
-subCategory: "Solanaceae Crops"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["eggplant","solanum melongena","fiber","vitamin b6","anthocyanins (skin)","potassium","nutrition","composition"]
-tags: ["nightshade"]
+subCategory: "Solanaceae Crops"
+seoKeywords: ["eggplant", "solanum melongena", "fiber", "vitamin b6", "anthocyanins (skin)", "potassium", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Solanum melongena*

@@ -3,12 +3,11 @@ title: "Capsicum Annuum Powder"
 description: "Brief overview of capsicum annuum powder, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Capsicum Annuum Powder"
 category: "spices"
-subCategory: "Solanaceae Pods"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Solanaceae Pods"
 seoKeywords: ["capsicum annuum powder", "solanaceae pods", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Capsicum Annuum Powder** is a highly valued nutritional agent within the **Solanaceae Pods** subcategory under the **spices** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Capsicum Annuum Powder** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

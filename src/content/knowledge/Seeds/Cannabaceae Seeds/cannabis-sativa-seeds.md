@@ -1,15 +1,13 @@
 ---
 title: "Hemp Seeds — Nutrition, Composition & Health"
 description: "Hulled hemp seeds are a complete plant protein with a favorable near-1:3 omega-6-to-omega-3 fat ratio; they contain no THC and have no psychoactive effect."
+slug: "cannabis-sativa-seeds"
 category: "Seeds"
-subCategory: "Cannabaceae Seeds"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["hemp seeds","cannabis sativa","complete plant protein","omega-3/omega-6 fats","magnesium","phosphorus","nutrition","composition"]
-tags: ["non-psychoactive"]
+subCategory: "Cannabaceae Seeds"
+seoKeywords: ["hemp seeds", "cannabis sativa", "complete plant protein", "omega-3/omega-6 fats", "magnesium", "phosphorus", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Cannabis sativa*

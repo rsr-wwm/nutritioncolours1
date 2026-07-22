@@ -3,12 +3,11 @@ title: "Piper Nigrum Black"
 description: "Brief overview of piper nigrum black, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Piper Nigrum Black"
 category: "spices"
-subCategory: "Piperaceae Berries"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Piperaceae Berries"
 seoKeywords: ["piper nigrum black", "piperaceae berries", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Piper Nigrum Black** is a highly valued nutritional agent within the **Piperaceae Berries** subcategory under the **spices** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Piper Nigrum Black** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

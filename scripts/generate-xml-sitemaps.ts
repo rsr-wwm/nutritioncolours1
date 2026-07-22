@@ -145,24 +145,25 @@ async function generateSitemaps() {
     allUrlsSet.add(`${SITE_URL}/recipe/${recipe.id}`);
   });
 
-  // 5. Collect India Outreach Clinics (1,036 cities)
-  LOCATIONS_DATA.forEach(loc => {
-    const slug = loc.city.toLowerCase().replace(/\s+/g, '-');
-    allUrlsSet.add(`${SITE_URL}/clinic/${slug}`);
-  });
-
-  // 6. Collect International Outreach Clinics (641 cities)
-  INTERNATIONAL_COUNTRIES.forEach(loc => {
-    const slug = loc.city.toLowerCase().replace(/\s+/g, '-');
-    allUrlsSet.add(`${SITE_URL}/clinic/${slug}`);
-  });
-
-  // 7. Collect 30 Pre-rendered Disease-City Combinations
-  const targetCities = ['mumbai', 'delhi', 'bangalore', 'london', 'new-york-city', 'dubai'];
   const targetDiseases = ['diabetes-reversal', 'pcos-balance', 'fatty-liver-reversal', 'thyroid-optimization', 'hypertension-management'];
-  targetCities.forEach(city => {
+
+  // 5. Collect India Outreach Clinics (50,000 cities) and Disease Variations
+  LOCATIONS_DATA.forEach(loc => {
+    const slug = loc.city.toLowerCase().replace(/[^a-z0-9]/g, '-');
+    // Add the city index page (if it exists)
+    // allUrlsSet.add(`${SITE_URL}/clinic/${slug}`); 
+    
+    // Add the 5 high-value metabolic disease pages for EACH city
     targetDiseases.forEach(disease => {
-      allUrlsSet.add(`${SITE_URL}/clinic/${city}/${disease}`);
+      allUrlsSet.add(`${SITE_URL}/clinic/${slug}/${disease}`);
+    });
+  });
+
+  // 6. Collect International Outreach Clinics (641 cities) and Disease Variations
+  INTERNATIONAL_COUNTRIES.forEach(loc => {
+    const slug = loc.city.toLowerCase().replace(/[^a-z0-9]/g, '-');
+    targetDiseases.forEach(disease => {
+      allUrlsSet.add(`${SITE_URL}/clinic/${slug}/${disease}`);
     });
   });
 
@@ -275,13 +276,17 @@ function buildSitemapXml(urls: string[]): string {
         priority = '1.0';
         changefreq = 'daily';
       } else if (path.includes('/clinic/')) {
-        // High traffic target cities vs secondary locations
-        const targetCities = ['mumbai', 'delhi', 'bangalore', 'london', 'new-york-city', 'dubai'];
-        const isTargetCity = targetCities.some(city => path.includes(`/clinic/${city}`));
-        priority = isTargetCity ? '0.8' : '0.5';
+        const segs = path.split('/').filter(Boolean);
+        const citySlug = segs[1] || '';
+        const megaCities = ['mumbai', 'delhi', 'bangalore', 'bengaluru', 'hyderabad', 'chennai', 'kolkata', 'london', 'new-york-city', 'dubai'];
+        if (megaCities.includes(citySlug)) {
+          priority = '0.9';
+        } else {
+          priority = '0.6';
+        }
         changefreq = 'weekly';
       } else {
-        // topics, herbs, recipes, etc.
+        // topics, herbs, recipes, knowledge
         priority = '0.8';
         changefreq = 'weekly';
       }

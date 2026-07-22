@@ -3,12 +3,11 @@ title: "Inulin Rich Helianthus Tuberosus"
 description: "Brief overview of inulin rich helianthus tuberosus, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Inulin Rich Helianthus Tuberosus"
 category: "Functional Foods"
-subCategory: "Soluble Prebiotic Substrates"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Soluble Prebiotic Substrates"
 seoKeywords: ["inulin rich helianthus tuberosus", "soluble prebiotic substrates", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Inulin Rich Helianthus Tuberosus** is a highly valued nutritional agent within the **Soluble Prebiotic Substrates** subcategory under the **Functional Foods** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Inulin Rich Helianthus Tuberosus** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

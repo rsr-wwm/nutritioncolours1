@@ -1,15 +1,13 @@
 ---
 title: "Sorghum (Jowar) — Nutrition, Composition & Health"
 description: "Sorghum (jowar) is a major Deccan-plateau staple grain, naturally gluten-free, with a fiber and antioxidant profile comparable to or exceeding wheat."
+slug: "sorghum-bicolor"
 category: "Grains"
-subCategory: "Sorghum Genus"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["sorghum (jowar)","sorghum bicolor","dietary fiber","antioxidant polyphenols","iron","magnesium","nutrition","composition"]
-tags: ["gluten-free"]
+subCategory: "Sorghum Genus"
+seoKeywords: ["sorghum (jowar)", "sorghum bicolor", "dietary fiber", "antioxidant polyphenols", "iron", "magnesium", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Sorghum bicolor*

@@ -54,7 +54,6 @@ const serviceSchema = {
 // Set Edge-Level Caching headers
 Astro.response.headers.set('Cache-Control', 'public, max-age=86400, s-maxage=604800, stale-while-revalidate=3600');
 ---
-<div data-ai-answer="true">
 <BaseLayout 
   title={`${selectedPlan.name} | Clinical Reversal Program`}
   description={`${selectedPlan.description}. Duration: ${selectedPlan.duration || 'Flexible'}. Focused on root-cause metabolic healing.`}
@@ -167,4 +166,3 @@ Astro.response.headers.set('Cache-Control', 'public, max-age=86400, s-maxage=604
     </div>
   </div>
 </BaseLayout>
-</div>

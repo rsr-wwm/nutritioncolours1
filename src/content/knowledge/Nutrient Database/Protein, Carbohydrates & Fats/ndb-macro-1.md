@@ -1,13 +1,13 @@
 ---
 title: "Macronutrients: Protein, Carbs & Fats — RDAs, Acceptable Ranges & the Foundation of Human Nutrition"
 description: "Clinical overview, safety guidelines, and evidence-graded applications for Macronutrients: Protein, Carbs & Fats — RDAs, Acceptable Ranges & the Foundation of Human Nutrition."
+slug: "ndb-macro-1"
 category: "Nutrient Database"
-subCategory: "Protein, Carbohydrates & Fats"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
-seoKeywords: ["ndb-macro-1", "protein, carbohydrates & fats", "clinical protocol", "nutrition"]
+subCategory: "Protein, Carbohydrates & Fats"
+seoKeywords: ["ndb-macro-1", "protein", "carbohydrates & fats", "clinical protocol", "nutrition"]
 ---
-
 ## Clinical Definition & Overview
 
 **Macronutrients: Protein, Carbs & Fats — RDAs, Acceptable Ranges & the Foundation of Human Nutrition** is a critical clinical pathway within **Protein, Carbohydrates & Fats** under the **Nutrient Database** domain. In clinical practice, managing this area requires a structured, multi-disciplinary approach to optimize patient outcomes, mitigate secondary risks, and support baseline organ function. This protocol outlines the diagnostic markers, therapeutic targets, and evidence-graded lifestyle interventions necessary to support patient care and optimize long-term clinical outcomes. Proper management involves identifying risk factors, establishing staging parameters, and initiating standard-of-care therapies under professional medical supervision.

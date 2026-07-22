@@ -2,11 +2,9 @@
 import Icons from '../../components/Icons.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Accordion from '../../components/Accordion.astro';
-import SectionHeading from '../../components/SectionHeading.astro';
 import { TOPICS } from '../../lib/topics';
 
 import { TOPIC_SPECIFIC_FAQS, CATEGORY_FAQS } from '../../lib/constants';
-import { getInternalLinks } from '../../lib/seo/internalLinkEngine';
 
 export async function getStaticPaths() {
   return TOPICS.map((topic) => ({
@@ -53,8 +51,6 @@ const topicFaqs = topic.faqs || TOPIC_SPECIFIC_FAQS[topic.id] || CATEGORY_FAQS[t
 const studies = CLINICAL_CONSENSUS_DATA[topic.id] || CLINICAL_CONSENSUS_DATA['default'];
 
 // Silo link governance resolved during static build
-const linkGovernance = await getInternalLinks(`/condition/${topic.id}`).catch(() => null) 
-  || await getInternalLinks(`/herb/${topic.id}`).catch(() => null);
 
 // getAeoSnippet helper
 function getAeoSnippet(customSnippet?: string, fallbackText?: string): string {

@@ -37,7 +37,6 @@ const articleSchema = {
   }
 };
 ---
-<div data-ai-answer="true">
 
 <BaseLayout
   title={`${article.title} | NutritionColours`}
@@ -49,7 +48,7 @@ const articleSchema = {
   <ArticleClientPage
     client:load
     topicId={article.id}
-    navigate={(path: string) => { window.location.href = '/' + path; }}
+    navigate={(path) => { if (typeof globalThis !== 'undefined' && globalThis.window) globalThis.window.location.href = '/' + path; }}
   />
 
   {/* Rich Server-Rendered Article Container (SEO / AEO / AIO / View-Source Law) */}
@@ -85,4 +84,3 @@ const articleSchema = {
     </article>
   </div>
 </BaseLayout>
-</div>

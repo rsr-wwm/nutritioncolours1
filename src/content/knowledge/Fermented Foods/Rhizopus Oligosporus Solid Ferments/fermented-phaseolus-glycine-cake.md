@@ -3,12 +3,11 @@ title: "Fermented Phaseolus Glycine Cake"
 description: "Brief overview of fermented phaseolus glycine cake, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Fermented Phaseolus Glycine Cake"
 category: "Fermented Foods"
-subCategory: "Rhizopus Oligosporus Solid Ferments"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Rhizopus Oligosporus Solid Ferments"
 seoKeywords: ["fermented phaseolus glycine cake", "rhizopus oligosporus solid ferments", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Fermented Phaseolus Glycine Cake** is a highly valued nutritional agent within the **Rhizopus Oligosporus Solid Ferments** subcategory under the **Fermented Foods** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Fermented Phaseolus Glycine Cake** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

@@ -3,12 +3,11 @@ title: "Cicer Arietinum Chana Dal"
 description: "Brief overview of cicer arietinum chana dal, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Cicer Arietinum Chana Dal"
 category: "Pulses & Legumes"
-subCategory: "Cicer Botanicals"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Cicer Botanicals"
 seoKeywords: ["cicer arietinum chana dal", "cicer botanicals", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Cicer Arietinum Chana Dal** is a highly valued nutritional agent within the **Cicer Botanicals** subcategory under the **Pulses & Legumes** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Cicer Arietinum Chana Dal** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

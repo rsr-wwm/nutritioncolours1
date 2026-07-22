@@ -1,15 +1,13 @@
 ---
 title: "Cabbage — Nutrition, Composition & Health"
 description: "Cabbage is a low-calorie cruciferous vegetable (about 25 kcal per 100 g) notable for vitamin K and vitamin C, with a mild, versatile flavor across cuisines."
+slug: "brassica-oleracea-var-capitata"
 category: "Vegetables"
-subCategory: "Leafy & Heading Brassicas"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["cabbage","brassica oleracea var. capitata","vitamin k","vitamin c","fiber","nutrition","composition"]
-tags: ["cruciferous"]
+subCategory: "Leafy & Heading Brassicas"
+seoKeywords: ["cabbage", "brassica oleracea var. capitata", "vitamin k", "vitamin c", "fiber", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Brassica oleracea var. capitata*

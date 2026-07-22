@@ -68,7 +68,6 @@ const pillarGroups = [
   { label: 'Other', pillars: pillarsList.filter(p => !FOOD_FAMILY.includes(p.id) && p.id !== 'diseases' && !BODY_FAMILY.includes(p.id)) },
 ].filter(g => g.pillars.length > 0);
 ---
-<div data-ai-answer="true">
 <BaseLayout
   title="Clinical Knowledge Directory | NutritionColours"
   description="Navigate the NutritionColours clinical knowledge database. Browse evidence-graded guidelines and metabolic protocols across 11 core health pillars."
@@ -200,7 +199,6 @@ const pillarGroups = [
     </div>
   </main>
 </BaseLayout>
-</div>
 
 <script>
   const searchInput = document.getElementById('knowledge-search') as HTMLInputElement | null;

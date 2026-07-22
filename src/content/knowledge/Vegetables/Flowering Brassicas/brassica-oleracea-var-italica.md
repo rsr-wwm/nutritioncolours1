@@ -1,15 +1,13 @@
 ---
 title: "Broccoli — Nutrition, Composition & Health"
 description: "Broccoli is a flowering cruciferous vegetable providing about 34 kcal per 100 g, rich in vitamin C, vitamin K, and folate, with the plant compound sulforaphane forming when it is cut or chewed."
+slug: "brassica-oleracea-var-italica"
 category: "Vegetables"
-subCategory: "Flowering Brassicas"
-author: "NutritionColours Editorial Team"
-reviewedBy: "Dr. Shilpa Thakur"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-13
-seoKeywords: ["broccoli","brassica oleracea var. italica","vitamin c","vitamin k","folate","sulforaphane precursor","nutrition","composition"]
-tags: ["cruciferous"]
+subCategory: "Flowering Brassicas"
+seoKeywords: ["broccoli", "brassica oleracea var. italica", "vitamin c", "vitamin k", "folate", "sulforaphane precursor", "nutrition", "composition"]
 ---
-
 ## Overview
 
 *Scientific name: Brassica oleracea var. italica*

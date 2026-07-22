@@ -3,12 +3,11 @@ title: "Rose"
 description: "Brief overview of rose, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Rose"
 category: "Botanical"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
 subCategory: "Botanical"
 seoKeywords: ["rose", "botanical", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Rose** is a highly valued nutritional agent within the **Botanical** subcategory under the **Botanical** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Rose** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

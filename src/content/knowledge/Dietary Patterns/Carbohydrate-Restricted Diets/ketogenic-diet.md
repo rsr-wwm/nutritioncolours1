@@ -3,12 +3,11 @@ title: "Ketogenic Diet"
 description: "Brief overview of ketogenic diet, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Ketogenic Diet"
 category: "Dietary Patterns"
-subCategory: "Carbohydrate-Restricted Diets"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Carbohydrate-Restricted Diets"
 seoKeywords: ["ketogenic diet", "carbohydrate-restricted diets", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Ketogenic Diet** is a highly valued nutritional agent within the **Carbohydrate-Restricted Diets** subcategory under the **Dietary Patterns** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Ketogenic Diet** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

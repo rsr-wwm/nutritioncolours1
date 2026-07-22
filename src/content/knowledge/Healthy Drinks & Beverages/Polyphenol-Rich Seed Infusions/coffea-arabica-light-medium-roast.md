@@ -3,12 +3,11 @@ title: "Coffea Arabica Light Medium Roast"
 description: "Brief overview of coffea arabica light medium roast, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Coffea Arabica Light Medium Roast"
 category: "Healthy Drinks & Beverages"
-subCategory: "Polyphenol-Rich Seed Infusions"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Polyphenol-Rich Seed Infusions"
 seoKeywords: ["coffea arabica light medium roast", "polyphenol-rich seed infusions", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Coffea Arabica Light Medium Roast** is a highly valued nutritional agent within the **Polyphenol-Rich Seed Infusions** subcategory under the **Healthy Drinks & Beverages** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Coffea Arabica Light Medium Roast** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.

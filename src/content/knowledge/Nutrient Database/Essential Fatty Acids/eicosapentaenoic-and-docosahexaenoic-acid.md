@@ -3,12 +3,11 @@ title: "Eicosapentaenoic And Docosahexaenoic Acid"
 description: "Brief overview of eicosapentaenoic and docosahexaenoic acid, covering its health benefits, nutritional profile, and typical culinary uses."
 slug: "Eicosapentaenoic And Docosahexaenoic Acid"
 category: "Nutrient Database"
-subCategory: "Essential Fatty Acids"
-author: "NutritionColours Editorial Team"
+author: "Dr. Shilpa Thakur Ph.D and NutritionColours Editorial Team"
 lastUpdated: 2026-07-14
+subCategory: "Essential Fatty Acids"
 seoKeywords: ["eicosapentaenoic and docosahexaenoic acid", "essential fatty acids", "clinical protocol"]
 ---
-
 ## Botanical & Nutritional Overview
 
 **Eicosapentaenoic And Docosahexaenoic Acid** is a highly valued nutritional agent within the **Essential Fatty Acids** subcategory under the **Nutrient Database** domain. Widely recognized for its dense concentration of micronutrients and bioactive compounds, integrating **Eicosapentaenoic And Docosahexaenoic Acid** into dietary protocols offers significant supportive benefits for metabolic health, systemic cellular defense, and vascular function. This guide covers the nutritional properties, physiological actions, and culinary applications of this plant-based source.
