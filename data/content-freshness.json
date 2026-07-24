@@ -1,0 +1,2527 @@
+{
+  "version": "2.0.0",
+  "description": "Content freshness tracking, computed from clinicalReview.lastUpdated (conditions/herbs/topics) and git history (recipes) — not hand-authored.",
+  "lastGenerated": "2026-07-14T18:40:36.536Z",
+  "pages": [
+    {
+      "path": "/condition/masld",
+      "title": "MASLD (Fatty Liver)",
+      "dataLastModified": null,
+      "lastReviewed": "May 28, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/condition/insulin-resistance",
+      "title": "Insulin Resistance",
+      "dataLastModified": null,
+      "lastReviewed": "May 28, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/condition/circadian-dysregulation",
+      "title": "Circadian Rhythm Dysregulation",
+      "dataLastModified": null,
+      "lastReviewed": "May 28, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/condition/diabetes-reversal",
+      "title": "Type 2 Diabetes Reversal",
+      "dataLastModified": null,
+      "lastReviewed": "May 28, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/condition/pcod-pcos",
+      "title": "PCOD / PCOS (Metabolic & Hormonal Reversal)",
+      "dataLastModified": null,
+      "lastReviewed": "May 28, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/condition/thyroid-dysfunction",
+      "title": "Thyroid Dysfunction (Hypothyroidism & Hashimoto's)",
+      "dataLastModified": null,
+      "lastReviewed": "May 28, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/condition/gut-health",
+      "title": "Gut Health & Microbiome Restoration",
+      "dataLastModified": null,
+      "lastReviewed": "May 28, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/condition/hypertension",
+      "title": "Hypertension (High Blood Pressure)",
+      "dataLastModified": null,
+      "lastReviewed": "May 28, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/turmeric",
+      "title": "Turmeric",
+      "dataLastModified": null,
+      "lastReviewed": "May 28, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/ashwagandha",
+      "title": "Ashwagandha",
+      "dataLastModified": null,
+      "lastReviewed": "May 28, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/cinnamon",
+      "title": "Ceylon Cinnamon",
+      "dataLastModified": null,
+      "lastReviewed": "May 28, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/ginger",
+      "title": "Ginger",
+      "dataLastModified": null,
+      "lastReviewed": "May 28, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/ragi",
+      "title": "Ragi (Finger Millet)",
+      "dataLastModified": null,
+      "lastReviewed": "May 28, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/spirulina",
+      "title": "Spirulina",
+      "dataLastModified": null,
+      "lastReviewed": "May 28, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/fenugreek",
+      "title": "Fenugreek",
+      "dataLastModified": null,
+      "lastReviewed": "May 28, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/holy-basil",
+      "title": "Holy Basil (Tulsi)",
+      "dataLastModified": null,
+      "lastReviewed": "May 28, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/garlic",
+      "title": "Garlic",
+      "dataLastModified": null,
+      "lastReviewed": "May 28, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/mint",
+      "title": "Mint",
+      "dataLastModified": null,
+      "lastReviewed": "July 02, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/coriander-cilantro",
+      "title": "Coriander (Cilantro)",
+      "dataLastModified": null,
+      "lastReviewed": "July 02, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/basil",
+      "title": "Basil",
+      "dataLastModified": null,
+      "lastReviewed": "July 02, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/rosemary",
+      "title": "Rosemary",
+      "dataLastModified": null,
+      "lastReviewed": "July 02, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/lavender",
+      "title": "Lavender",
+      "dataLastModified": null,
+      "lastReviewed": "July 02, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/oregano",
+      "title": "Oregano",
+      "dataLastModified": null,
+      "lastReviewed": "July 02, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/thyme",
+      "title": "Thyme",
+      "dataLastModified": null,
+      "lastReviewed": "July 02, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/parsley",
+      "title": "Parsley",
+      "dataLastModified": null,
+      "lastReviewed": "July 02, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/echinacea",
+      "title": "Echinacea",
+      "dataLastModified": null,
+      "lastReviewed": "July 02, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/lemon-balm",
+      "title": "Lemon Balm",
+      "dataLastModified": null,
+      "lastReviewed": "July 02, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/shiso-perilla",
+      "title": "Shiso (Perilla)",
+      "dataLastModified": null,
+      "lastReviewed": "July 02, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/hibiscus",
+      "title": "Hibiscus",
+      "dataLastModified": null,
+      "lastReviewed": "July 02, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/valerian-root",
+      "title": "Valerian Root",
+      "dataLastModified": null,
+      "lastReviewed": "July 02, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/dill",
+      "title": "Dill",
+      "dataLastModified": null,
+      "lastReviewed": "July 02, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/ginseng",
+      "title": "Ginseng",
+      "dataLastModified": null,
+      "lastReviewed": "July 02, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/marjoram",
+      "title": "Marjoram",
+      "dataLastModified": null,
+      "lastReviewed": "July 02, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/tarragon",
+      "title": "Tarragon",
+      "dataLastModified": null,
+      "lastReviewed": "July 02, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/st-johns-wort",
+      "title": "St. John's Wort",
+      "dataLastModified": null,
+      "lastReviewed": "July 02, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/ginkgo-biloba",
+      "title": "Ginkgo Biloba",
+      "dataLastModified": null,
+      "lastReviewed": "July 02, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/curry-leaves",
+      "title": "Curry Leaves",
+      "dataLastModified": null,
+      "lastReviewed": "July 02, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/cumin",
+      "title": "Cumin (Jeera)",
+      "dataLastModified": null,
+      "lastReviewed": "July 02, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/cardamom",
+      "title": "Cardamom (Elaichi)",
+      "dataLastModified": null,
+      "lastReviewed": "July 02, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/clove",
+      "title": "Clove (Laung)",
+      "dataLastModified": null,
+      "lastReviewed": "July 02, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/black-pepper",
+      "title": "Black Pepper (Kali Mirch)",
+      "dataLastModified": null,
+      "lastReviewed": "July 02, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/asafoetida",
+      "title": "Asafoetida (Hing)",
+      "dataLastModified": null,
+      "lastReviewed": "July 02, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/saffron",
+      "title": "Saffron (Kesar)",
+      "dataLastModified": null,
+      "lastReviewed": "July 02, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/carom-seeds",
+      "title": "Carom Seeds (Ajwain)",
+      "dataLastModified": null,
+      "lastReviewed": "July 02, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/mustard-seeds",
+      "title": "Mustard Seeds (Sarson)",
+      "dataLastModified": null,
+      "lastReviewed": "July 02, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/herb/star-anise",
+      "title": "Star Anise (Chakra Phool)",
+      "dataLastModified": null,
+      "lastReviewed": "July 02, 2026",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/diabetes-reversal",
+      "title": "Blood Sugar & Insulin Optimization",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/pcos-balance",
+      "title": "Endocrine & Hormonal Balance",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/fatty-liver-reversal",
+      "title": "Liver Health & Metabolic Detoxification",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/thyroid-optimization",
+      "title": "Thyroid & Metabolic Optimization",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/hypertension-management",
+      "title": "Hypertension Management",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/gut-health-acidity",
+      "title": "Gut Health & Acidity",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/weight-loss-women",
+      "title": "Weight Loss for Women",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/weight-loss-men",
+      "title": "Weight Loss for Men",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/belly-fat-reduction",
+      "title": "Belly Fat Reduction",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/insulin-resistance-mgmt",
+      "title": "Insulin Resistance Management",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/pre-diabetes-care",
+      "title": "Pre-Diabetes Care",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/menopause-hormone-support",
+      "title": "Menopause Hormone Support",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/hormonal-imbalance",
+      "title": "Hormonal Imbalance Correction",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/testosterone-boost",
+      "title": "Testosterone Boost",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/cortisol-balance",
+      "title": "Cortisol & Stress Balance",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/cholesterol-mgmt",
+      "title": "Cholesterol Management",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/heart-health",
+      "title": "Heart Health Optimization",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/blood-circulation",
+      "title": "Blood Circulation Support",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/joint-pain-relief",
+      "title": "Joint Pain Relief",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/arthritis-support",
+      "title": "Arthritis Support",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/osteoporosis-prevention",
+      "title": "Osteoporosis Prevention",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/hyperthyroid-protocol",
+      "title": "Hyperthyroid Protocol",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/muscle-recovery",
+      "title": "Muscle Recovery & Strength",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/back-spine-health",
+      "title": "Back & Spine Health",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/hair-growth-strength",
+      "title": "Hair Growth & Strength",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/skin-glow-detox",
+      "title": "Skin Glow & Detox",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/anti-aging-support",
+      "title": "Anti-Aging Support",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/acne-skin-clarity",
+      "title": "Acne & Skin Clarity",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/nail-health-strength",
+      "title": "Nail Health & Strength",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/immunity-boost",
+      "title": "Immunity Boost",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/detox-rejuvenation",
+      "title": "Detox & Rejuvenation",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/anti-inflammatory-support",
+      "title": "Anti-Inflammatory Support",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/healthy-aging-solutions",
+      "title": "Healthy Aging Solutions",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/wellness-longevity",
+      "title": "Wellness & Longevity",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/fertility-hormone-support",
+      "title": "Fertility & Hormone Support",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/pcos-weight-diet",
+      "title": "PCOS Weight & Diet",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/menopause-weight-mgmt",
+      "title": "Menopause Weight Management",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/gout-uric-acid-reversal",
+      "title": "Uric Acid & Gout Support",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/chronic-fatigue-syndrome",
+      "title": "Chronic Fatigue & Energy Support",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/ibs-ibd-gut-repair",
+      "title": "IBS & IBD Gut Repair",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/post-viral-recovery",
+      "title": "Post-Viral Recovery",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/kidney-health-diet",
+      "title": "Kidney Health Support",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/migraine-headache-relief",
+      "title": "Migraine Relief",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/adhd-brain-focus-kids",
+      "title": "Pediatric ADHD Focus",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/geriatric-strength-nutrition",
+      "title": "Geriatric Strength Nutrition",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/pregnancy-nutrition-support",
+      "title": "Pregnancy Nutrition Support",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/sleep-disorder-circadian-reset",
+      "title": "Sleep & Circadian Reset",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/fibromyalgia-pain-management",
+      "title": "Fibromyalgia Management",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/histamine-intolerance-allergy",
+      "title": "Histamine Intolerance Care",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/autoimmune-hashimotos-protocol",
+      "title": "Hashimoto's Thyroid Care",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/kid-immunity-growth",
+      "title": "Pediatric Immunity & Growth",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/liver-detoxification-pathways",
+      "title": "Liver Detox Pathways",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-03",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/vegan-recipes",
+      "title": "Vegan Recipes & Circadian Cooking",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-30",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/vegan-alternatives",
+      "title": "Alternatives & Substitutes",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-30",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/vegan-nutrition",
+      "title": "Health & Nutrition Protocols",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-30",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/vegan-lifestyle",
+      "title": "Lifestyle & Fashion",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-30",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/vegan-travel",
+      "title": "Dining & Travel",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-30",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/vegan-beginners",
+      "title": "Beginner Guides",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-30",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/vegan-reviews",
+      "title": "Product Reviews & Testing",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-30",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/vegan-news",
+      "title": "News & Environmental Science",
+      "dataLastModified": null,
+      "lastReviewed": "2026-06-30",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/type-2-diabetes",
+      "title": "Type 2 Diabetes",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/fatty-liver",
+      "title": "Fatty Liver",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/pcod-pcos",
+      "title": "PCOD / PCOS",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/obesity",
+      "title": "Obesity",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/high-blood-sugar",
+      "title": "High Blood Sugar",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/metabolic-syndrome",
+      "title": "Metabolic Syndrome",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/gestational-diabetes",
+      "title": "Gestational Diabetes",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/low-blood-sugar",
+      "title": "Low Blood Sugar",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/dka-prevention",
+      "title": "DKA Prevention",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/type-1-diabetes",
+      "title": "Type 1 Diabetes",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/type-3c-diabetes",
+      "title": "Type 3c Diabetes",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/high-cholesterol",
+      "title": "High Cholesterol",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/gout",
+      "title": "Gout",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/dark-neckskin-tags",
+      "title": "Dark Neck/Skin Tags",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/cholesterol-deposits",
+      "title": "Cholesterol Deposits",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/high-bp",
+      "title": "High BP",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/heart-disease",
+      "title": "Heart Disease",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/heart-attack",
+      "title": "Heart Attack",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/stroke",
+      "title": "Stroke",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/angina",
+      "title": "Angina",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/a-fib",
+      "title": "A-Fib",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/peripheral-artery",
+      "title": "Peripheral Artery",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/varicose-veins",
+      "title": "Varicose Veins",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/leg-ulcers",
+      "title": "Leg Ulcers",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/low-bp",
+      "title": "Low BP",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/varicocele",
+      "title": "Varicocele",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/dvt",
+      "title": "DVT",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/iron-overload",
+      "title": "Iron Overload",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/iron-deficiency",
+      "title": "Iron Deficiency",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/vitamin-d-deficiency",
+      "title": "Vitamin D Deficiency",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/b12-deficiency",
+      "title": "B12 Deficiency",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/folate-deficiency",
+      "title": "Folate Deficiency",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/acid-reflux",
+      "title": "Acid Reflux",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/ibs",
+      "title": "IBS",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/constipation",
+      "title": "Constipation",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/diverticulitis",
+      "title": "Diverticulitis",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/bowel-polyps",
+      "title": "Bowel Polyps",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/bowel-cancer",
+      "title": "Bowel Cancer",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/stomach-ulcer",
+      "title": "Stomach Ulcer",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/gallstones",
+      "title": "Gallstones",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/hemorrhoids",
+      "title": "Hemorrhoids",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/nafld-cirrhosis",
+      "title": "NAFLD Cirrhosis",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/fatty-pancreas",
+      "title": "Fatty Pancreas",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/celiac-disease",
+      "title": "Celiac Disease",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/crohns-uc",
+      "title": "Crohn's / UC",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/sibo",
+      "title": "SIBO",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/histamine-intolerance",
+      "title": "Histamine Intolerance",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/leaky-gut",
+      "title": "Leaky Gut",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/pancreatitis",
+      "title": "Pancreatitis",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/stomach-cancer",
+      "title": "Stomach Cancer",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/esophagitis",
+      "title": "Esophagitis",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/gastritis",
+      "title": "Gastritis",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/anal-fissure",
+      "title": "Anal Fissure",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/eoe",
+      "title": "EoE",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/gluten-sensitivity",
+      "title": "Gluten Sensitivity",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/vitamin-k-deficiency",
+      "title": "Vitamin K Deficiency",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/malnutrition",
+      "title": "Malnutrition",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/dehydration",
+      "title": "Dehydration",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/heatstroke",
+      "title": "Heatstroke",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/bad-breath-gut",
+      "title": "Bad Breath (Gut)",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/kwashiorkor",
+      "title": "Kwashiorkor",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/water-intoxication",
+      "title": "Water Intoxication",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/infertility",
+      "title": "Infertility",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/erectile-dysfunction",
+      "title": "Erectile Dysfunction",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/low-libido",
+      "title": "Low Libido",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/menopause-symptoms",
+      "title": "Menopause Symptoms",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/pms-pmdd",
+      "title": "PMS / PMDD",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/endometriosis-pain",
+      "title": "Endometriosis Pain",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/pre-eclampsia",
+      "title": "Pre-Eclampsia",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/fetal-alcohol-syndrome",
+      "title": "Fetal Alcohol Syndrome",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/spina-bifida",
+      "title": "Spina Bifida",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/adenomyosis",
+      "title": "Adenomyosis",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/endometrial-cancer",
+      "title": "Endometrial Cancer",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/breast-cancer",
+      "title": "Breast Cancer",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/baby-tooth-decay",
+      "title": "Baby Tooth Decay",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/insomnia",
+      "title": "Insomnia",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/sleep-apnea",
+      "title": "Sleep Apnea",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/migraines",
+      "title": "Migraines",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/depression",
+      "title": "Depression",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/anxiety",
+      "title": "Anxiety",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/cognitive-decline",
+      "title": "Cognitive Decline",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/adhd",
+      "title": "ADHD",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/epilepsy-diet-cured",
+      "title": "Epilepsy (Diet-Cured)",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/restless-legs",
+      "title": "Restless Legs",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/wernicke-korsakoff",
+      "title": "Wernicke-Korsakoff",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/tension-headache",
+      "title": "Tension Headache",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/chronic-fatigue",
+      "title": "Chronic Fatigue",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/tinnitus",
+      "title": "Tinnitus",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/eye-twitches",
+      "title": "Eye Twitches",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/night-eating",
+      "title": "Night Eating",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/orthorexia",
+      "title": "Orthorexia",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/jet-lag-shift-work",
+      "title": "Jet Lag / Shift Work",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/motion-sickness",
+      "title": "Motion Sickness",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/anorexia-bulimia-bed",
+      "title": "Anorexia / Bulimia / BED",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/osteoporosis",
+      "title": "Osteoporosis",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/osteoarthritis",
+      "title": "Osteoarthritis",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/kidney-stones",
+      "title": "Kidney Stones",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/sarcopenia",
+      "title": "Sarcopenia",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/back-pain",
+      "title": "Back Pain",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/muscle-cramps",
+      "title": "Muscle Cramps",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/plantar-fasciitis",
+      "title": "Plantar Fasciitis",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/heelarch-pain",
+      "title": "Heel/Arch Pain",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/pre-osteoporosis",
+      "title": "Pre-Osteoporosis",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/singers-nodules",
+      "title": "Singer's Nodules",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/tarsal-tunnel",
+      "title": "Tarsal Tunnel",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/rheumatoid-arthritis",
+      "title": "Rheumatoid Arthritis",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/lupus",
+      "title": "Lupus",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/hashimotos",
+      "title": "Hashimoto's",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/acne",
+      "title": "Acne",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/eczema",
+      "title": "Eczema",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/psoriasis",
+      "title": "Psoriasis",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/hair-loss",
+      "title": "Hair Loss",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/rosacea",
+      "title": "Rosacea",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/dandruff",
+      "title": "Dandruff",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/tooth-decay",
+      "title": "Tooth Decay",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/gum-disease",
+      "title": "Gum Disease",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/mouth-ulcers",
+      "title": "Mouth Ulcers",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/cataracts-macular-degeneration",
+      "title": "Cataracts / Macular Degeneration",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/dry-eye",
+      "title": "Dry Eye",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/boils-hidradenitis",
+      "title": "Boils (Hidradenitis)",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/cold-sores",
+      "title": "Cold Sores",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/dental-erosion",
+      "title": "Dental Erosion",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/sunburn-skin-aging",
+      "title": "Sunburn / Skin Aging",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/night-blindness",
+      "title": "Night Blindness",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/vitiligo",
+      "title": "Vitiligo",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/scurvy",
+      "title": "Scurvy",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/rickets",
+      "title": "Rickets",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/dental-fluorosis",
+      "title": "Dental Fluorosis",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/ckd-dialysis-diet",
+      "title": "CKD / Dialysis Diet",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/liver-encephalopathy",
+      "title": "Liver Encephalopathy",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/smokers-cough",
+      "title": "Smoker's Cough",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/alcoholic-liver-disease",
+      "title": "Alcoholic Liver Disease",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/diabetic-neuropathy",
+      "title": "Diabetic Neuropathy",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/diabetic-retinopathy",
+      "title": "Diabetic Retinopathy",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/pku",
+      "title": "PKU",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/wilsons-disease",
+      "title": "Wilson's Disease",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/g6pd-deficiency",
+      "title": "G6PD Deficiency",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/lactose-intolerance",
+      "title": "Lactose Intolerance",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/hereditary-fructose-intolerance",
+      "title": "Hereditary Fructose Intolerance",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/cystic-fibrosis",
+      "title": "Cystic Fibrosis",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/listeria-toxo-trichinosis",
+      "title": "Listeria / Toxo / Trichinosis",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/botulism",
+      "title": "Botulism",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/systemic-yeast",
+      "title": "Systemic Yeast",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/uti-cystitis",
+      "title": "UTI / Cystitis",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/interstitial-cystitis",
+      "title": "Interstitial Cystitis",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/swimmers-ear",
+      "title": "Swimmer's Ear",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/low-potassium",
+      "title": "Low Potassium",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/vit-a-toxicity",
+      "title": "Vit A Toxicity",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/mercury-poisoning",
+      "title": "Mercury Poisoning",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/caffeine-toxicity",
+      "title": "Caffeine Toxicity",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/pellagra-beri-beri",
+      "title": "Pellagra / Beri-Beri",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/asthma",
+      "title": "Asthma",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/h-pylori-infection",
+      "title": "H. pylori Infection",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/liver-cancer",
+      "title": "Liver Cancer",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/kidney-cancer",
+      "title": "Kidney Cancer",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/esophageal-cancer",
+      "title": "Esophageal Cancer",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/binge-eating",
+      "title": "Binge Eating",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/anorexia-nervosa",
+      "title": "Anorexia Nervosa",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/bulimia-nervosa",
+      "title": "Bulimia Nervosa",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/type-2-diabetes-foot",
+      "title": "Type 2 Diabetes Foot",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/hypothermia",
+      "title": "Hypothermia",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/frostbite",
+      "title": "Frostbite",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/chilblains",
+      "title": "Chilblains",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/jet-lag",
+      "title": "Jet Lag",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/shift-work-disorder",
+      "title": "Shift Work Disorder",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/sibo-gut",
+      "title": "SIBO (Gut)",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/non-alcoholic-fatty-liver",
+      "title": "Non-Alcoholic Fatty Liver",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/osteopenia",
+      "title": "Osteopenia",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/topic/pre-diabetes",
+      "title": "Pre-Diabetes",
+      "dataLastModified": null,
+      "lastReviewed": "2026-07-02",
+      "reviewer": "Dr. Shilpa Thakur",
+      "flagged": false
+    },
+    {
+      "path": "/recipe/golden-turmeric-quinoa",
+      "title": "Golden Turmeric Quinoa Nourish Bowl",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/avocado-lentil-tartare",
+      "title": "Avocado & Sprouted Lentil Herb Tartare",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/green-vitality-soup",
+      "title": "Moringa & Spinach Green Vitality Soup",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/beetroot-walnut-carpaccio",
+      "title": "Roasted Beetroot & Walnut Carpaccio",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/ayurvedic-millet-stew",
+      "title": "Ayurvedic Kitchari-Style Millet Stew",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/kimchi-rice-bowl",
+      "title": "Fermented Kimchi Brown Rice Bowl",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/ashwagandha-sweet-potato",
+      "title": "Sweet Potato & Ashwagandha Coconut Mash",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/papaya-detox-salad",
+      "title": "Rainbow Raw Papaya & Lime Detox Salad",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/hemp-basil-zoodles",
+      "title": "Hemp Seed & Basil Cream Zoodles",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/mushroom-thyme-broth",
+      "title": "Mushroom & Thyme Healing Broth",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/charred-broccoli-almonds",
+      "title": "Charred Broccoli with Lemon Almond Drizzle",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/chia-berry-parfait",
+      "title": "Chia & Berry Antioxidant Parfait",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/jackfruit-turmeric-wraps",
+      "title": "Jackfruit & Turmeric Leaf Wraps",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/matcha-coconut-truffles",
+      "title": "Matcha & Coconut Energy Truffles",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/baked-pears-cinnamon",
+      "title": "Baked Pears with Cinnamon & Cacao Nibs",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/spirulina-lemon-shots",
+      "title": "Spirulina & Lemon Vitality Shots",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/grilled-artichoke-rosemary",
+      "title": "Grilled Artichoke with Rosemary Salt",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/lentil-kale-curry",
+      "title": "Lentil & Kale Iron-Rich Curry",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/collard-wraps-chili",
+      "title": "Chili-Spiced Collard Wraps",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/reishi-cocoa-elixir",
+      "title": "Red Reishi & Cocoa Elixir",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/black-bean-mole",
+      "title": "Black Bean & Cacao Mole Bowl",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/golden-milk-elixir",
+      "title": "Turmeric & Black Pepper Golden Milk",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/fennel-citrus-salad",
+      "title": "Fennel & Citrus Digestive Salad",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/buckwheat-seaweed-soup",
+      "title": "Buckwheat Noodle & Seaweed Soup",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/sleep-smoothie-valerian",
+      "title": "Cherry & Valerian Sleep Smoothie",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/purple-sweet-potato-pudding",
+      "title": "Purple Sweet Potato & Ginger Pudding",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/adzuki-bean-stew",
+      "title": "Adzuki Bean & Shiitake Umami Stew",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/pomegranate-beauty-water",
+      "title": "Pomegranate & Rosehip Beauty Water",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/quinoa-sesame-cereal",
+      "title": "Sprouted Quinoa & Black Sesame Cereal",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/brussels-sprouts-mustard",
+      "title": "Roasted Brussels Sprouts with Mustard & Tamari",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/cauliflower-tabbouleh-hemp",
+      "title": "Cauliflower Rice Tabbouleh with Hemp Oil",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/black-garlic-drizzle",
+      "title": "Black Garlic & Fermented Hot Sauce Drizzle",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/mango-cardamom-lassi",
+      "title": "Mango & Cardamom Lassi (Vegan)",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/watercress-alfalfa-sandwich",
+      "title": "Watercress & Alfalfa Sprout Sandwich",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/rooibos-cinnamon-tea",
+      "title": "Rooibos & Cinnamon Antioxidant Tea",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/chickpea-cauliflower-tagine",
+      "title": "Spiced Chickpea & Cauliflower Tagine",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/hemp-saffron-drink",
+      "title": "Hemp Milk & Saffron Calming Drink",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/cucumber-jicama-salad",
+      "title": "Cucumber & Jicama Hydration Salad",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/lentil-walnut-pate",
+      "title": "Black Lentil & Walnut Paté",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    },
+    {
+      "path": "/recipe/pear-ginger-slaw",
+      "title": "Pear & Ginger Probiotic Slaw",
+      "dataLastModified": null,
+      "lastReviewed": null,
+      "reviewer": null,
+      "flagged": false
+    }
+  ]
+}

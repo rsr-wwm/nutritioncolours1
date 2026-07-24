@@ -1,0 +1,45 @@
+{
+  "generated": "2026-01-15T00:00:00.000Z",
+  "description": "Bot fingerprinting analytics dashboard - Aggregated bot classification and crawl pattern intelligence",
+  "status": "active",
+  "totalBotEvents": 0,
+  "classifications": {
+    "searchCrawlers": {
+      "count": 0,
+      "bots": ["Googlebot", "Bingbot", "DuckDuckBot", "Baiduspider"]
+    },
+    "aiBots": {
+      "count": 0,
+      "bots": ["PerplexityBot", "ClaudeBot", "ChatGPT-User", "Google-Extended", "CCBot"]
+    },
+    "socialBots": {
+      "count": 0,
+      "bots": ["facebookexternalhit", "Twitterbot", "LinkedInBot", "WhatsApp"]
+    },
+    "malicious": {
+      "count": 0,
+      "bots": []
+    }
+  },
+  "aiBotPatterns": {
+    "mostVisitedPages": [],
+    "crawlFrequency": {},
+    "preferredContent": []
+  },
+  "honeypotTriggers": {
+    "totalTraps": 0,
+    "byLayer": {
+      "layer1": 0,
+      "layer2": 0,
+      "layer3": 0,
+      "layer4": 0
+    }
+  },
+  "geographicDistribution": {},
+  "timeOfDayPatterns": {},
+  "insights": [
+    "Track which pages AI bots visit most to understand what AI engines value",
+    "Use honeypot data to identify malicious bot patterns",
+    "Optimize content strategy based on AI bot crawl patterns"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "domain": "nutritioncolours.com",
+  "entity": "NutritionColours TeleHealth & Metabolic Reversal Network",
+  "disease": "diabetes-reversal",
+  "city": "",
+  "medicalCodes": {
+    "name": "Type 2 Diabetes Mellitus",
+    "snomed": "44054006",
+    "icd10": "E11",
+    "mesh": "D015179"
+  },
+  "citations": [
+    {
+      "url": "https://www.cdc.gov/diabetes/basics.html",
+      "title": "CDC – Diabetes Basics & Clinical Management",
+      "publisher": "U.S. Centers for Disease Control and Prevention (.gov)"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+      "title": "WHO – Diabetes Fact Sheet & Global Burden",
+      "publisher": "World Health Organization"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29289258/",
+      "title": "PubMed – Behavioral and Dietary Reversal of Type 2 Diabetes",
+      "publisher": "National Center for Biotechnology Information (NIH)"
+    }
+  ],
+  "leaves": [
+    {
+      "slug": "insulin-resistance-diet",
+      "title": "Insulin-Resistance Diet & Glycemic Index"
+    },
+    {
+      "slug": "low-glycemic-foods",
+      "title": "Low-Glycemic Foods & Meal Sequencing"
+    },
+    {
+      "slug": "turmeric-oil-benefits",
+      "title": "Curcumin & Lipid-Soluble Botanical Protocols"
+    },
+    {
+      "slug": "keto-breakfast",
+      "title": "Circadian Low-Carb Breakfast Timing"
+    }
+  ],
+  "clinicalReviewer": {
+    "name": "Dr. Shilpa Thakur, Ph.D.",
+    "specialty": "Circadian Nutrition & Metabolic Health Reversal",
+    "organization": "NutritionColours Clinical Team"
+  },
+  "dateModified": "2026-07-24T06:44:46.377Z"
+}

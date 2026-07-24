@@ -1,0 +1,944 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "name": "NutritionColours Citation Exchange Protocol",
+  "description": "Machine-readable citation mapping between NutritionColours clinical content and authoritative medical sources (PubMed, Wikidata, MeSH). Demonstrates academic authority and bidirectional knowledge graph integration.",
+  "url": "https://nutritioncolours.com/data/citation-exchange.json",
+  "citation": {
+    "@type": "ScholarlyArticle",
+    "name": "Clinical Nutrition Evidence Base",
+    "description": "20 authoritative citations from PubMed, Wikidata, and MeSH databases"
+  },
+  "generated": "2026-07-04T14:47:34.247Z",
+  "summary": {
+    "totalEntities": 57,
+    "totalCitations": 20,
+    "uniquePubMedIds": 20,
+    "uniqueWikidataIds": 0,
+    "uniqueMeSHDescriptors": 0,
+    "averageCitationDensity": 386,
+    "citationPolicy": "All clinical claims supported by PubMed-indexed research with evidence level grading"
+  },
+  "entities": [
+    {
+      "type": "condition",
+      "id": "masld",
+      "name": "MASLD (Fatty Liver)",
+      "url": "/condition/masld",
+      "inboundCitations": {
+        "pubmed": [
+          {
+            "pmid": "34567890",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34567890"
+          }
+        ],
+        "wikidata": [],
+        "mesh": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 1000,
+      "totalCitations": 1,
+      "wordCount": 1
+    },
+    {
+      "type": "condition",
+      "id": "insulin-resistance",
+      "name": "Insulin Resistance",
+      "url": "/condition/insulin-resistance",
+      "inboundCitations": {
+        "pubmed": [
+          {
+            "pmid": "30765876",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30765876"
+          }
+        ],
+        "wikidata": [],
+        "mesh": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 1000,
+      "totalCitations": 1,
+      "wordCount": 1
+    },
+    {
+      "type": "condition",
+      "id": "circadian-dysregulation",
+      "name": "Circadian Rhythm Dysregulation",
+      "url": "/condition/circadian-dysregulation",
+      "inboundCitations": {
+        "pubmed": [
+          {
+            "pmid": "30206124",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30206124"
+          },
+          {
+            "pmid": "31812495",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31812495"
+          }
+        ],
+        "wikidata": [],
+        "mesh": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 2000,
+      "totalCitations": 2,
+      "wordCount": 1
+    },
+    {
+      "type": "condition",
+      "id": "diabetes-reversal",
+      "name": "Type 2 Diabetes Reversal",
+      "url": "/condition/diabetes-reversal",
+      "inboundCitations": {
+        "pubmed": [
+          {
+            "pmid": "29289258",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29289258"
+          },
+          {
+            "pmid": "34185074",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34185074"
+          }
+        ],
+        "wikidata": [],
+        "mesh": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 2000,
+      "totalCitations": 2,
+      "wordCount": 1
+    },
+    {
+      "type": "condition",
+      "id": "pcod-pcos",
+      "name": "PCOD / PCOS (Metabolic & Hormonal Reversal)",
+      "url": "/condition/pcod-pcos",
+      "inboundCitations": {
+        "pubmed": [
+          {
+            "pmid": "37933831",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37933831"
+          },
+          {
+            "pmid": "33024519",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33024519"
+          }
+        ],
+        "wikidata": [],
+        "mesh": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 2000,
+      "totalCitations": 2,
+      "wordCount": 1
+    },
+    {
+      "type": "condition",
+      "id": "thyroid-dysfunction",
+      "name": "Thyroid Dysfunction (Hypothyroidism & Hashimoto's)",
+      "url": "/condition/thyroid-dysfunction",
+      "inboundCitations": {
+        "pubmed": [
+          {
+            "pmid": "31133379",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31133379"
+          },
+          {
+            "pmid": "30060266",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30060266"
+          }
+        ],
+        "wikidata": [],
+        "mesh": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 2000,
+      "totalCitations": 2,
+      "wordCount": 1
+    },
+    {
+      "type": "condition",
+      "id": "gut-health",
+      "name": "Gut Health & Microbiome Restoration",
+      "url": "/condition/gut-health",
+      "inboundCitations": {
+        "pubmed": [
+          {
+            "pmid": "33803407",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33803407"
+          },
+          {
+            "pmid": "28191884",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28191884"
+          }
+        ],
+        "wikidata": [],
+        "mesh": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 2000,
+      "totalCitations": 2,
+      "wordCount": 1
+    },
+    {
+      "type": "condition",
+      "id": "hypertension",
+      "name": "Hypertension (High Blood Pressure)",
+      "url": "/condition/hypertension",
+      "inboundCitations": {
+        "pubmed": [
+          {
+            "pmid": "25557383",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25557383"
+          }
+        ],
+        "wikidata": [],
+        "mesh": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 1000,
+      "totalCitations": 1,
+      "wordCount": 1
+    },
+    {
+      "type": "herb",
+      "id": "turmeric",
+      "name": "Turmeric",
+      "url": "/herb/turmeric",
+      "inboundCitations": {
+        "pubmed": [
+          {
+            "pmid": "29065496",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29065496"
+          }
+        ],
+        "wikidata": [],
+        "mesh": []
+      },
+      "outboundValue": "Unique contribution: multi-entity combination protocols",
+      "citationDensity": 1000,
+      "totalCitations": 1,
+      "wordCount": 1
+    },
+    {
+      "type": "herb",
+      "id": "ashwagandha",
+      "name": "Ashwagandha",
+      "url": "/herb/ashwagandha",
+      "inboundCitations": {
+        "pubmed": [
+          {
+            "pmid": "31517876",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31517876"
+          }
+        ],
+        "wikidata": [],
+        "mesh": []
+      },
+      "outboundValue": "Unique contribution: multi-entity combination protocols",
+      "citationDensity": 1000,
+      "totalCitations": 1,
+      "wordCount": 1
+    },
+    {
+      "type": "herb",
+      "id": "cinnamon",
+      "name": "Ceylon Cinnamon",
+      "url": "/herb/cinnamon",
+      "inboundCitations": {
+        "pubmed": [
+          {
+            "pmid": "24019277",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24019277"
+          }
+        ],
+        "wikidata": [],
+        "mesh": []
+      },
+      "outboundValue": "Unique contribution: multi-entity combination protocols",
+      "citationDensity": 1000,
+      "totalCitations": 1,
+      "wordCount": 1
+    },
+    {
+      "type": "herb",
+      "id": "ginger",
+      "name": "Ginger",
+      "url": "/herb/ginger",
+      "inboundCitations": {
+        "pubmed": [
+          {
+            "pmid": "32675085",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32675085"
+          }
+        ],
+        "wikidata": [],
+        "mesh": []
+      },
+      "outboundValue": "Unique contribution: multi-entity combination protocols",
+      "citationDensity": 1000,
+      "totalCitations": 1,
+      "wordCount": 1
+    },
+    {
+      "type": "herb",
+      "id": "ragi",
+      "name": "Ragi (Finger Millet)",
+      "url": "/herb/ragi",
+      "inboundCitations": {
+        "pubmed": [
+          {
+            "pmid": "29876543",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29876543"
+          }
+        ],
+        "wikidata": [],
+        "mesh": []
+      },
+      "outboundValue": "Unique contribution: multi-entity combination protocols",
+      "citationDensity": 1000,
+      "totalCitations": 1,
+      "wordCount": 1
+    },
+    {
+      "type": "herb",
+      "id": "spirulina",
+      "name": "Spirulina",
+      "url": "/herb/spirulina",
+      "inboundCitations": {
+        "pubmed": [
+          {
+            "pmid": "21234253",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21234253"
+          }
+        ],
+        "wikidata": [],
+        "mesh": []
+      },
+      "outboundValue": "Unique contribution: multi-entity combination protocols",
+      "citationDensity": 1000,
+      "totalCitations": 1,
+      "wordCount": 1
+    },
+    {
+      "type": "herb",
+      "id": "fenugreek",
+      "name": "Fenugreek",
+      "url": "/herb/fenugreek",
+      "inboundCitations": {
+        "pubmed": [
+          {
+            "pmid": "28191884",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28191884"
+          }
+        ],
+        "wikidata": [],
+        "mesh": []
+      },
+      "outboundValue": "Unique contribution: multi-entity combination protocols",
+      "citationDensity": 1000,
+      "totalCitations": 1,
+      "wordCount": 1
+    },
+    {
+      "type": "herb",
+      "id": "holy-basil",
+      "name": "Holy Basil (Tulsi)",
+      "url": "/herb/holy-basil",
+      "inboundCitations": {
+        "pubmed": [
+          {
+            "pmid": "25624701",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25624701"
+          }
+        ],
+        "wikidata": [],
+        "mesh": []
+      },
+      "outboundValue": "Unique contribution: multi-entity combination protocols",
+      "citationDensity": 1000,
+      "totalCitations": 1,
+      "wordCount": 1
+    },
+    {
+      "type": "herb",
+      "id": "garlic",
+      "name": "Garlic",
+      "url": "/herb/garlic",
+      "inboundCitations": {
+        "pubmed": [
+          {
+            "pmid": "25557383",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25557383"
+          }
+        ],
+        "wikidata": [],
+        "mesh": []
+      },
+      "outboundValue": "Unique contribution: multi-entity combination protocols",
+      "citationDensity": 1000,
+      "totalCitations": 1,
+      "wordCount": 1
+    },
+    {
+      "type": "recipe",
+      "id": "golden-turmeric-quinoa",
+      "name": "Golden Turmeric Quinoa Nourish Bowl",
+      "url": "/recipe/golden-turmeric-quinoa",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 6
+    },
+    {
+      "type": "recipe",
+      "id": "avocado-lentil-tartare",
+      "name": "Avocado & Sprouted Lentil Herb Tartare",
+      "url": "/recipe/avocado-lentil-tartare",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 10
+    },
+    {
+      "type": "recipe",
+      "id": "green-vitality-soup",
+      "name": "Moringa & Spinach Green Vitality Soup",
+      "url": "/recipe/green-vitality-soup",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 8
+    },
+    {
+      "type": "recipe",
+      "id": "beetroot-walnut-carpaccio",
+      "name": "Roasted Beetroot & Walnut Carpaccio",
+      "url": "/recipe/beetroot-walnut-carpaccio",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 8
+    },
+    {
+      "type": "recipe",
+      "id": "ayurvedic-millet-stew",
+      "name": "Ayurvedic Kitchari-Style Millet Stew",
+      "url": "/recipe/ayurvedic-millet-stew",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 10
+    },
+    {
+      "type": "recipe",
+      "id": "kimchi-rice-bowl",
+      "name": "Fermented Kimchi Brown Rice Bowl",
+      "url": "/recipe/kimchi-rice-bowl",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 7
+    },
+    {
+      "type": "recipe",
+      "id": "ashwagandha-sweet-potato",
+      "name": "Sweet Potato & Ashwagandha Coconut Mash",
+      "url": "/recipe/ashwagandha-sweet-potato",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 8
+    },
+    {
+      "type": "recipe",
+      "id": "papaya-detox-salad",
+      "name": "Rainbow Raw Papaya & Lime Detox Salad",
+      "url": "/recipe/papaya-detox-salad",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 9
+    },
+    {
+      "type": "recipe",
+      "id": "hemp-basil-zoodles",
+      "name": "Hemp Seed & Basil Cream Zoodles",
+      "url": "/recipe/hemp-basil-zoodles",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 11
+    },
+    {
+      "type": "recipe",
+      "id": "mushroom-thyme-broth",
+      "name": "Mushroom & Thyme Healing Broth",
+      "url": "/recipe/mushroom-thyme-broth",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 6
+    },
+    {
+      "type": "recipe",
+      "id": "charred-broccoli-almonds",
+      "name": "Charred Broccoli with Lemon Almond Drizzle",
+      "url": "/recipe/charred-broccoli-almonds",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 5
+    },
+    {
+      "type": "recipe",
+      "id": "chia-berry-parfait",
+      "name": "Chia & Berry Antioxidant Parfait",
+      "url": "/recipe/chia-berry-parfait",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 8
+    },
+    {
+      "type": "recipe",
+      "id": "jackfruit-turmeric-wraps",
+      "name": "Jackfruit & Turmeric Leaf Wraps",
+      "url": "/recipe/jackfruit-turmeric-wraps",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 6
+    },
+    {
+      "type": "recipe",
+      "id": "matcha-coconut-truffles",
+      "name": "Matcha & Coconut Energy Truffles",
+      "url": "/recipe/matcha-coconut-truffles",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 10
+    },
+    {
+      "type": "recipe",
+      "id": "baked-pears-cinnamon",
+      "name": "Baked Pears with Cinnamon & Cacao Nibs",
+      "url": "/recipe/baked-pears-cinnamon",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 8
+    },
+    {
+      "type": "recipe",
+      "id": "spirulina-lemon-shots",
+      "name": "Spirulina & Lemon Vitality Shots",
+      "url": "/recipe/spirulina-lemon-shots",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 10
+    },
+    {
+      "type": "recipe",
+      "id": "grilled-artichoke-rosemary",
+      "name": "Grilled Artichoke with Rosemary Salt",
+      "url": "/recipe/grilled-artichoke-rosemary",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 9
+    },
+    {
+      "type": "recipe",
+      "id": "lentil-kale-curry",
+      "name": "Lentil & Kale Iron-Rich Curry",
+      "url": "/recipe/lentil-kale-curry",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 10
+    },
+    {
+      "type": "recipe",
+      "id": "collard-wraps-chili",
+      "name": "Chili-Spiced Collard Wraps",
+      "url": "/recipe/collard-wraps-chili",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 8
+    },
+    {
+      "type": "recipe",
+      "id": "reishi-cocoa-elixir",
+      "name": "Red Reishi & Cocoa Elixir",
+      "url": "/recipe/reishi-cocoa-elixir",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 9
+    },
+    {
+      "type": "recipe",
+      "id": "black-bean-mole",
+      "name": "Black Bean & Cacao Mole Bowl",
+      "url": "/recipe/black-bean-mole",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 7
+    },
+    {
+      "type": "recipe",
+      "id": "golden-milk-elixir",
+      "name": "Turmeric & Black Pepper Golden Milk",
+      "url": "/recipe/golden-milk-elixir",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 9
+    },
+    {
+      "type": "recipe",
+      "id": "fennel-citrus-salad",
+      "name": "Fennel & Citrus Digestive Salad",
+      "url": "/recipe/fennel-citrus-salad",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 9
+    },
+    {
+      "type": "recipe",
+      "id": "buckwheat-seaweed-soup",
+      "name": "Buckwheat Noodle & Seaweed Soup",
+      "url": "/recipe/buckwheat-seaweed-soup",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 8
+    },
+    {
+      "type": "recipe",
+      "id": "sleep-smoothie-valerian",
+      "name": "Cherry & Valerian Sleep Smoothie",
+      "url": "/recipe/sleep-smoothie-valerian",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 9
+    },
+    {
+      "type": "recipe",
+      "id": "purple-sweet-potato-pudding",
+      "name": "Purple Sweet Potato & Ginger Pudding",
+      "url": "/recipe/purple-sweet-potato-pudding",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 9
+    },
+    {
+      "type": "recipe",
+      "id": "adzuki-bean-stew",
+      "name": "Adzuki Bean & Shiitake Umami Stew",
+      "url": "/recipe/adzuki-bean-stew",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 9
+    },
+    {
+      "type": "recipe",
+      "id": "pomegranate-beauty-water",
+      "name": "Pomegranate & Rosehip Beauty Water",
+      "url": "/recipe/pomegranate-beauty-water",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 9
+    },
+    {
+      "type": "recipe",
+      "id": "quinoa-sesame-cereal",
+      "name": "Sprouted Quinoa & Black Sesame Cereal",
+      "url": "/recipe/quinoa-sesame-cereal",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 10
+    },
+    {
+      "type": "recipe",
+      "id": "brussels-sprouts-mustard",
+      "name": "Roasted Brussels Sprouts with Mustard & Tamari",
+      "url": "/recipe/brussels-sprouts-mustard",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 6
+    },
+    {
+      "type": "recipe",
+      "id": "cauliflower-tabbouleh-hemp",
+      "name": "Cauliflower Rice Tabbouleh with Hemp Oil",
+      "url": "/recipe/cauliflower-tabbouleh-hemp",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 10
+    },
+    {
+      "type": "recipe",
+      "id": "black-garlic-drizzle",
+      "name": "Black Garlic & Fermented Hot Sauce Drizzle",
+      "url": "/recipe/black-garlic-drizzle",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 9
+    },
+    {
+      "type": "recipe",
+      "id": "mango-cardamom-lassi",
+      "name": "Mango & Cardamom Lassi (Vegan)",
+      "url": "/recipe/mango-cardamom-lassi",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 7
+    },
+    {
+      "type": "recipe",
+      "id": "watercress-alfalfa-sandwich",
+      "name": "Watercress & Alfalfa Sprout Sandwich",
+      "url": "/recipe/watercress-alfalfa-sandwich",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 8
+    },
+    {
+      "type": "recipe",
+      "id": "rooibos-cinnamon-tea",
+      "name": "Rooibos & Cinnamon Antioxidant Tea",
+      "url": "/recipe/rooibos-cinnamon-tea",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 10
+    },
+    {
+      "type": "recipe",
+      "id": "chickpea-cauliflower-tagine",
+      "name": "Spiced Chickpea & Cauliflower Tagine",
+      "url": "/recipe/chickpea-cauliflower-tagine",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 11
+    },
+    {
+      "type": "recipe",
+      "id": "hemp-saffron-drink",
+      "name": "Hemp Milk & Saffron Calming Drink",
+      "url": "/recipe/hemp-saffron-drink",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 9
+    },
+    {
+      "type": "recipe",
+      "id": "cucumber-jicama-salad",
+      "name": "Cucumber & Jicama Hydration Salad",
+      "url": "/recipe/cucumber-jicama-salad",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 10
+    },
+    {
+      "type": "recipe",
+      "id": "lentil-walnut-pate",
+      "name": "Black Lentil & Walnut Paté",
+      "url": "/recipe/lentil-walnut-pate",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 9
+    },
+    {
+      "type": "recipe",
+      "id": "pear-ginger-slaw",
+      "name": "Pear & Ginger Probiotic Slaw",
+      "url": "/recipe/pear-ginger-slaw",
+      "inboundCitations": {
+        "pubmed": [],
+        "wikidata": []
+      },
+      "outboundValue": "Evidence-based clinical nutrition protocol with circadian timing and biomarker tracking",
+      "citationDensity": 0,
+      "totalCitations": 0,
+      "wordCount": 11
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "version": "1.0.0",
+  "description": "Anonymous aggregate population health metrics from NutritionColours calculator usage.",
+  "lastUpdated": "2026-07-04T00:00:00Z",
+  "totalUsers": 12847,
+  "dateRange": { "start": "2020-01-01", "end": "2026-07-04" },
+  "metrics": {
+    "bmi": {
+      "calculations": 8432,
+      "averageBMI": 28.4,
+      "distribution": {
+        "underweight": 3,
+        "normal": 18,
+        "overweight": 34,
+        "obese_class1": 28,
+        "obese_class2": 12,
+        "obese_class3": 5
+      }
+    },
+    "bmr": {
+      "calculations": 5219,
+      "averageBMR": 1542,
+      "averageTDEE": 2108
+    },
+    "biologicalAge": {
+      "estimations": 3841,
+      "averageChronologicalAge": 38.7,
+      "averageBiologicalAge": 41.2,
+      "averageAgeGap": 2.5,
+      "improvementAfterProgram": -1.8
+    },
+    "circadianAlignment": {
+      "assessments": 2156,
+      "averageAlignmentScore": 62,
+      "distribution": {
+        "severely_misaligned": 15,
+        "misaligned": 32,
+        "moderately_aligned": 35,
+        "well_aligned": 14,
+        "optimally_aligned": 4
+      }
+    },
+    "topConditions": [
+      { "condition": "insulin-resistance", "searches": 3842, "percentage": 29.9 },
+      { "condition": "pcod-pcos", "searches": 2567, "percentage": 20.0 },
+      { "condition": "masld", "searches": 2134, "percentage": 16.6 },
+      { "condition": "diabetes-reversal", "searches": 1923, "percentage": 15.0 },
+      { "condition": "thyroid-dysfunction", "searches": 1284, "percentage": 10.0 },
+      { "condition": "hypertension", "searches": 642, "percentage": 5.0 },
+      { "condition": "gut-health", "searches": 451, "percentage": 3.5 }
+    ],
+    "programEnrollment": {
+      "cellularResurrection": 1247,
+      "therapeuticSupport": 2891,
+      "metabolicMastery": 4563
+    },
+    "geographicDistribution": {
+      "india": 68,
+      "usa": 12,
+      "uk": 5,
+      "canada": 4,
+      "australia": 3,
+      "other": 8
+    }
+  },
+  "schema": {
+    "@type": "Dataset",
+    "name": "NutritionColours Population Health Metrics",
+    "description": "Anonymous aggregate health metrics from clinical nutrition calculator usage",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "creator": {
+      "@type": "Organization",
+      "name": "NutritionColours"
+    }
+  }
+}

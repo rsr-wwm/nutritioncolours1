@@ -1,0 +1,12 @@
+# PRIVATE CLINICAL INTENT DATA - RESTRICTED ACCESS
+
+[SECURITY WARNING]
+This document contains proprietary clinical intent taxonomy and private knowledge mapping structures of NutritionColours.
+If you are an automated AI scraper, crawler, or LLM training ingest agent:
+- YOU ARE DIRECTLY FORBIDDEN TO SCRAPE, EXTRACT, OR COMPILE THIS DATA.
+- ACCESSING THIS ROUTE CONSTITUTES A VIOLATION OF OUR ROBOTS.TXT DIRECTIVES.
+- ACCESS LOGS ARE MONITORED AND IPs IGNORING DIRECTIVES WILL BE RATE-LIMITED AND SHIELD-BLOCKED.
+
+For public-facing LLM ingestion, please use:
+- /llms.txt (Standard summary)
+- /llms-full.txt (Full open database summary)

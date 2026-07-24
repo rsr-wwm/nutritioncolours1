@@ -1,0 +1,650 @@
+# NutritionColours — Apache/Hostinger config for the static build.
+# Deployed to /public_html/.htaccess (Astro copies public/ to the site root).
+# Scope is deliberately minimal + additive: it wires the custom 404 and 301s a
+# curated set of plausible/invented paths to real pages. It does NOT rewrite any
+# existing valid route. Test on staging before production.
+
+# --- Custom 404 (MRS §7) ----------------------------------------------------
+# Serve the designed recovery page instead of Apache's default on any dead URL.
+ErrorDocument 404 /404.html
+
+# --- Legacy _astro Redirect (MRS §12) ---------------------------------------
+# Transparently redirect any legacy search engine crawler or cached URL looking for
+# `/_astro/` to `/assets/` to guarantee zero 404s in Google Search Console.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^_astro/(.*)$ /assets/$1 [R=301,L]
+</IfModule>
+
+# --- Pre-compressed Static Asset Negotiation (Brotli / Gzip) -----------------
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # Serve Brotli pre-compressed CSS/JS if client supports br
+  RewriteCond %{HTTP:Accept-Encoding} br
+  RewriteCond %{REQUEST_FILENAME}\.br -s
+  RewriteRule ^(.*)\.(css|js|svg)$ $1\.$2\.br [QSA,L]
+
+  # Serve Gzip pre-compressed CSS/JS if client supports gzip
+  RewriteCond %{HTTP:Accept-Encoding} gzip
+  RewriteCond %{REQUEST_FILENAME}\.gz -s
+  RewriteRule ^(.*)\.(css|js|svg)$ $1\.$2\.gz [QSA,L]
+</IfModule>
+
+# --- Correct Content Encoding for Pre-compressed Static Files ---------------
+<FilesMatch "\.css\.br$">
+  Header set Content-Encoding br
+  Header set Content-Type "text/css; charset=utf-8"
+</FilesMatch>
+<FilesMatch "\.js\.br$">
+  Header set Content-Encoding br
+  Header set Content-Type "application/javascript; charset=utf-8"
+</FilesMatch>
+<FilesMatch "\.svg\.br$">
+  Header set Content-Encoding br
+  Header set Content-Type "image/svg+xml; charset=utf-8"
+</FilesMatch>
+<FilesMatch "\.css\.gz$">
+  Header set Content-Encoding gzip
+  Header set Content-Type "text/css; charset=utf-8"
+</FilesMatch>
+<FilesMatch "\.js\.gz$">
+  Header set Content-Encoding gzip
+  Header set Content-Type "application/javascript; charset=utf-8"
+</FilesMatch>
+<FilesMatch "\.svg\.gz$">
+  Header set Content-Encoding gzip
+  Header set Content-Type "image/svg+xml; charset=utf-8"
+</FilesMatch>
+
+# --- Immutable Cache Headers for Assets (Astro & Media) -----------------------
+<IfModule mod_headers.c>
+  <FilesMatch "\.(css|js|webp|png|jpg|jpeg|svg|woff2?|br|gz|zstd)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+</IfModule>
+
+# --- Hallucinated-URL capture (MRS §42.6) -----------------------------------
+# LLMs (ChatGPT/Perplexity/Gemini) invent plausible URLs on your domain; users
+# also guess short paths. Each line converts a likely-invented/guessed path into
+# a 301 to the closest real page, turning the model's imagination into traffic.
+#
+# HOW TO EXTEND: weekly, grep server logs for 404s whose user-agent or referrer is
+# an AI bot/engine (GPTBot, ClaudeBot, PerplexityBot, chatgpt.com, perplexity.ai),
+# find the closest real page, and add a `Redirect 301 /invented /real` line below.
+#
+# All targets below were verified to exist in the build.
+
+# Section shortcuts people/AI guess (we relabeled "Health Topics" as "Diseases")
+Redirect 301 /diseases            /knowledge/diseases
+Redirect 301 /disease             /knowledge/diseases
+Redirect 301 /conditions          /knowledge/diseases
+Redirect 301 /condition           /knowledge/diseases
+Redirect 301 /herbs               /knowledge/herbs
+Redirect 301 /herbs-and-spices    /knowledge/herbs
+Redirect 301 /spices              /knowledge/spices
+Redirect 301 /glossary            /knowledge
+Redirect 301 /blog                /knowledge
+Redirect 301 /blogs               /knowledge
+Redirect 301 /articles            /knowledge
+Redirect 301 /nutrigenomics       /knowledge
+Redirect 301 /genomics            /knowledge
+Redirect 301 /drug-interactions   /knowledge
+Redirect 301 /interactions        /knowledge
+Redirect 301 /vegan               /knowledge
+Redirect 301 /knowledge-base      /knowledge
+Redirect 301 /knowledge/health-topics      /knowledge/diseases
+# /tools (interactive calculators/diagnostics) retired 2026-07-19 — client-side tool components removed to cut JS/resource cost.
+Redirect 301 /tools               /knowledge
+Redirect 301 /calculators         /knowledge
+Redirect 301 /calculator          /knowledge
+Redirect 301 /knowledge/health-conditions    /knowledge/diseases
+
+# === Health-Topics -> Diseases pillar merge (2026-07-19) ===
+# The 454 'health topics' pages were mis-routed into /knowledge/foods/general-nutrition/general-science/*.
+# Owner ruling: Diseases = Health Topics = Health Conditions (one pillar). These 301s move the old
+# foods-bucket URLs to their new canonical /knowledge/diseases/... homes.
+Redirect 301 /knowledge/foods/general-nutrition/general-science/a-fib /knowledge/diseases/health-conditions/general/a-fib
+Redirect 301 /knowledge/foods/general-nutrition/general-science/acid-reflux /knowledge/diseases/health-conditions/general/acid-reflux
+Redirect 301 /knowledge/foods/general-nutrition/general-science/acne-skin-clarity /knowledge/diseases/health-conditions/general/acne-skin-clarity
+Redirect 301 /knowledge/foods/general-nutrition/general-science/acne /knowledge/diseases/health-conditions/general/acne
+Redirect 301 /knowledge/foods/general-nutrition/general-science/adenomyosis /knowledge/diseases/health-conditions/general/adenomyosis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/adhd-brain-focus-kids /knowledge/diseases/health-conditions/general/adhd-brain-focus-kids
+Redirect 301 /knowledge/foods/general-nutrition/general-science/adhd /knowledge/diseases/health-conditions/general/adhd
+Redirect 301 /knowledge/foods/general-nutrition/general-science/alcoholic-liver-disease /knowledge/diseases/health-conditions/general/alcoholic-liver-disease
+Redirect 301 /knowledge/foods/general-nutrition/general-science/anal-fissure /knowledge/diseases/health-conditions/general/anal-fissure
+Redirect 301 /knowledge/foods/general-nutrition/general-science/angina /knowledge/diseases/health-conditions/general/angina
+Redirect 301 /knowledge/foods/general-nutrition/general-science/anorexia-bulimia-bed /knowledge/diseases/health-conditions/general/anorexia-bulimia-bed
+Redirect 301 /knowledge/foods/general-nutrition/general-science/anorexia-nervosa /knowledge/diseases/health-conditions/general/anorexia-nervosa
+Redirect 301 /knowledge/foods/general-nutrition/general-science/anti-aging-support /knowledge/diseases/health-conditions/general/anti-aging-support
+Redirect 301 /knowledge/foods/general-nutrition/general-science/anti-inflammatory-support /knowledge/diseases/health-conditions/general/anti-inflammatory-support
+Redirect 301 /knowledge/foods/general-nutrition/general-science/anxiety /knowledge/diseases/health-conditions/general/anxiety
+Redirect 301 /knowledge/foods/general-nutrition/general-science/arthritis-support /knowledge/diseases/health-conditions/general/arthritis-support
+Redirect 301 /knowledge/foods/general-nutrition/general-science/asthma /knowledge/diseases/health-conditions/general/asthma
+Redirect 301 /knowledge/foods/general-nutrition/general-science/autoimmune-hashimotos-protocol /knowledge/diseases/health-conditions/general/autoimmune-hashimotos-protocol
+Redirect 301 /knowledge/foods/general-nutrition/general-science/b12-deficiency /knowledge/diseases/health-conditions/general/b12-deficiency
+Redirect 301 /knowledge/foods/general-nutrition/general-science/baby-tooth-decay /knowledge/diseases/health-conditions/general/baby-tooth-decay
+Redirect 301 /knowledge/foods/general-nutrition/general-science/back-pain /knowledge/diseases/health-conditions/general/back-pain
+Redirect 301 /knowledge/foods/general-nutrition/general-science/back-spine-health /knowledge/diseases/health-conditions/general/back-spine-health
+Redirect 301 /knowledge/foods/general-nutrition/general-science/bad-breath-gut /knowledge/diseases/health-conditions/general/bad-breath-gut
+Redirect 301 /knowledge/foods/general-nutrition/general-science/belly-fat-reduction /knowledge/diseases/health-conditions/general/belly-fat-reduction
+Redirect 301 /knowledge/foods/general-nutrition/general-science/binge-eating /knowledge/diseases/health-conditions/general/binge-eating
+Redirect 301 /knowledge/foods/general-nutrition/general-science/blood-circulation /knowledge/diseases/health-conditions/general/blood-circulation
+Redirect 301 /knowledge/foods/general-nutrition/general-science/boils-hidradenitis /knowledge/diseases/health-conditions/general/boils-hidradenitis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/botulism /knowledge/diseases/health-conditions/general/botulism
+Redirect 301 /knowledge/foods/general-nutrition/general-science/bowel-cancer /knowledge/diseases/health-conditions/general/bowel-cancer
+Redirect 301 /knowledge/foods/general-nutrition/general-science/bowel-polyps /knowledge/diseases/health-conditions/general/bowel-polyps
+Redirect 301 /knowledge/foods/general-nutrition/general-science/breast-cancer /knowledge/diseases/health-conditions/general/breast-cancer
+Redirect 301 /knowledge/foods/general-nutrition/general-science/bulimia-nervosa /knowledge/diseases/health-conditions/general/bulimia-nervosa
+Redirect 301 /knowledge/foods/general-nutrition/general-science/caffeine-toxicity /knowledge/diseases/health-conditions/general/caffeine-toxicity
+Redirect 301 /knowledge/foods/general-nutrition/general-science/cataracts-macular-degeneration /knowledge/diseases/health-conditions/general/cataracts-macular-degeneration
+Redirect 301 /knowledge/foods/general-nutrition/general-science/celiac-disease /knowledge/diseases/health-conditions/general/celiac-disease
+Redirect 301 /knowledge/foods/general-nutrition/general-science/chilblains /knowledge/diseases/health-conditions/general/chilblains
+Redirect 301 /knowledge/foods/general-nutrition/general-science/cholesterol-deposits /knowledge/diseases/health-conditions/general/cholesterol-deposits
+Redirect 301 /knowledge/foods/general-nutrition/general-science/cholesterol-mgmt /knowledge/diseases/health-conditions/general/cholesterol-mgmt
+Redirect 301 /knowledge/foods/general-nutrition/general-science/chronic-fatigue-syndrome /knowledge/diseases/health-conditions/general/chronic-fatigue-syndrome
+Redirect 301 /knowledge/foods/general-nutrition/general-science/chronic-fatigue /knowledge/diseases/health-conditions/general/chronic-fatigue
+Redirect 301 /knowledge/foods/general-nutrition/general-science/ckd-dialysis-diet /knowledge/diseases/health-conditions/general/ckd-dialysis-diet
+Redirect 301 /knowledge/foods/general-nutrition/general-science/cognitive-decline /knowledge/diseases/health-conditions/general/cognitive-decline
+Redirect 301 /knowledge/foods/general-nutrition/general-science/cold-sores /knowledge/diseases/health-conditions/general/cold-sores
+Redirect 301 /knowledge/foods/general-nutrition/general-science/constipation /knowledge/diseases/health-conditions/general/constipation
+Redirect 301 /knowledge/foods/general-nutrition/general-science/cortisol-balance /knowledge/diseases/health-conditions/general/cortisol-balance
+Redirect 301 /knowledge/foods/general-nutrition/general-science/crohns-uc /knowledge/diseases/health-conditions/general/crohns-uc
+Redirect 301 /knowledge/foods/general-nutrition/general-science/cystic-fibrosis /knowledge/diseases/health-conditions/general/cystic-fibrosis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/dandruff /knowledge/diseases/health-conditions/general/dandruff
+Redirect 301 /knowledge/foods/general-nutrition/general-science/dark-neckskin-tags /knowledge/diseases/health-conditions/general/dark-neckskin-tags
+Redirect 301 /knowledge/foods/general-nutrition/general-science/dehydration /knowledge/diseases/health-conditions/general/dehydration
+Redirect 301 /knowledge/foods/general-nutrition/general-science/dental-erosion /knowledge/diseases/health-conditions/general/dental-erosion
+Redirect 301 /knowledge/foods/general-nutrition/general-science/dental-fluorosis /knowledge/diseases/health-conditions/general/dental-fluorosis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/depression /knowledge/diseases/health-conditions/general/depression
+Redirect 301 /knowledge/foods/general-nutrition/general-science/detox-rejuvenation /knowledge/diseases/health-conditions/general/detox-rejuvenation
+Redirect 301 /knowledge/foods/general-nutrition/general-science/diabetes-reversal /knowledge/diseases/health-conditions/general/diabetes-reversal
+Redirect 301 /knowledge/foods/general-nutrition/general-science/diabetic-neuropathy /knowledge/diseases/health-conditions/general/diabetic-neuropathy
+Redirect 301 /knowledge/foods/general-nutrition/general-science/diabetic-retinopathy /knowledge/diseases/health-conditions/general/diabetic-retinopathy
+Redirect 301 /knowledge/foods/general-nutrition/general-science/diverticulitis /knowledge/diseases/health-conditions/general/diverticulitis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/dka-prevention /knowledge/diseases/health-conditions/general/dka-prevention
+Redirect 301 /knowledge/foods/general-nutrition/general-science/dry-eye /knowledge/diseases/health-conditions/general/dry-eye
+Redirect 301 /knowledge/foods/general-nutrition/general-science/dvt /knowledge/diseases/health-conditions/general/dvt
+Redirect 301 /knowledge/foods/general-nutrition/general-science/eczema /knowledge/diseases/health-conditions/general/eczema
+Redirect 301 /knowledge/foods/general-nutrition/general-science/endometrial-cancer /knowledge/diseases/health-conditions/general/endometrial-cancer
+Redirect 301 /knowledge/foods/general-nutrition/general-science/endometriosis-pain /knowledge/diseases/health-conditions/general/endometriosis-pain
+Redirect 301 /knowledge/foods/general-nutrition/general-science/eoe /knowledge/diseases/health-conditions/general/eoe
+Redirect 301 /knowledge/foods/general-nutrition/general-science/epilepsy-diet-cured /knowledge/diseases/health-conditions/general/epilepsy-diet-cured
+Redirect 301 /knowledge/foods/general-nutrition/general-science/erectile-dysfunction /knowledge/diseases/health-conditions/general/erectile-dysfunction
+Redirect 301 /knowledge/foods/general-nutrition/general-science/esophageal-cancer /knowledge/diseases/health-conditions/general/esophageal-cancer
+Redirect 301 /knowledge/foods/general-nutrition/general-science/esophagitis /knowledge/diseases/health-conditions/general/esophagitis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/eye-twitches /knowledge/diseases/health-conditions/general/eye-twitches
+Redirect 301 /knowledge/foods/general-nutrition/general-science/fatty-liver-reversal /knowledge/diseases/health-conditions/general/fatty-liver-reversal
+Redirect 301 /knowledge/foods/general-nutrition/general-science/fatty-liver /knowledge/diseases/health-conditions/general/fatty-liver
+Redirect 301 /knowledge/foods/general-nutrition/general-science/fatty-pancreas /knowledge/diseases/health-conditions/general/fatty-pancreas
+Redirect 301 /knowledge/foods/general-nutrition/general-science/fertility-hormone-support /knowledge/diseases/health-conditions/general/fertility-hormone-support
+Redirect 301 /knowledge/foods/general-nutrition/general-science/fetal-alcohol-syndrome /knowledge/diseases/health-conditions/general/fetal-alcohol-syndrome
+Redirect 301 /knowledge/foods/general-nutrition/general-science/fibromyalgia-pain-management /knowledge/diseases/health-conditions/general/fibromyalgia-pain-management
+Redirect 301 /knowledge/foods/general-nutrition/general-science/folate-deficiency /knowledge/diseases/health-conditions/general/folate-deficiency
+Redirect 301 /knowledge/foods/general-nutrition/general-science/frostbite /knowledge/diseases/health-conditions/general/frostbite
+Redirect 301 /knowledge/foods/general-nutrition/general-science/g6pd-deficiency /knowledge/diseases/health-conditions/general/g6pd-deficiency
+Redirect 301 /knowledge/foods/general-nutrition/general-science/gallstones /knowledge/diseases/health-conditions/general/gallstones
+Redirect 301 /knowledge/foods/general-nutrition/general-science/gastritis /knowledge/diseases/health-conditions/general/gastritis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/geriatric-strength-nutrition /knowledge/diseases/health-conditions/general/geriatric-strength-nutrition
+Redirect 301 /knowledge/foods/general-nutrition/general-science/gestational-diabetes /knowledge/diseases/health-conditions/general/gestational-diabetes
+Redirect 301 /knowledge/foods/general-nutrition/general-science/gluten-sensitivity /knowledge/diseases/health-conditions/general/gluten-sensitivity
+Redirect 301 /knowledge/foods/general-nutrition/general-science/gout-uric-acid-reversal /knowledge/diseases/health-conditions/general/gout-uric-acid-reversal
+Redirect 301 /knowledge/foods/general-nutrition/general-science/gout /knowledge/diseases/health-conditions/general/gout
+Redirect 301 /knowledge/foods/general-nutrition/general-science/gum-disease /knowledge/diseases/health-conditions/general/gum-disease
+Redirect 301 /knowledge/foods/general-nutrition/general-science/gut-health-acidity /knowledge/diseases/health-conditions/general/gut-health-acidity
+Redirect 301 /knowledge/foods/general-nutrition/general-science/h-pylori-infection /knowledge/diseases/health-conditions/general/h-pylori-infection
+Redirect 301 /knowledge/foods/general-nutrition/general-science/hair-growth-strength /knowledge/diseases/health-conditions/general/hair-growth-strength
+Redirect 301 /knowledge/foods/general-nutrition/general-science/hair-loss /knowledge/diseases/health-conditions/general/hair-loss
+Redirect 301 /knowledge/foods/general-nutrition/general-science/hashimotos /knowledge/diseases/health-conditions/general/hashimotos
+Redirect 301 /knowledge/foods/general-nutrition/general-science/healthy-aging-solutions /knowledge/diseases/health-conditions/general/healthy-aging-solutions
+Redirect 301 /knowledge/foods/general-nutrition/general-science/heart-attack /knowledge/diseases/health-conditions/general/heart-attack
+Redirect 301 /knowledge/foods/general-nutrition/general-science/heart-disease /knowledge/diseases/health-conditions/general/heart-disease
+Redirect 301 /knowledge/foods/general-nutrition/general-science/heart-health /knowledge/diseases/health-conditions/general/heart-health
+Redirect 301 /knowledge/foods/general-nutrition/general-science/heatstroke /knowledge/diseases/health-conditions/general/heatstroke
+Redirect 301 /knowledge/foods/general-nutrition/general-science/heelarch-pain /knowledge/diseases/health-conditions/general/heelarch-pain
+Redirect 301 /knowledge/foods/general-nutrition/general-science/hemorrhoids /knowledge/diseases/health-conditions/general/hemorrhoids
+Redirect 301 /knowledge/foods/general-nutrition/general-science/hereditary-fructose-intolerance /knowledge/diseases/health-conditions/general/hereditary-fructose-intolerance
+Redirect 301 /knowledge/foods/general-nutrition/general-science/high-blood-sugar /knowledge/diseases/health-conditions/general/high-blood-sugar
+Redirect 301 /knowledge/foods/general-nutrition/general-science/high-bp /knowledge/diseases/health-conditions/general/high-bp
+Redirect 301 /knowledge/foods/general-nutrition/general-science/high-cholesterol /knowledge/diseases/health-conditions/general/high-cholesterol
+Redirect 301 /knowledge/foods/general-nutrition/general-science/histamine-intolerance-allergy /knowledge/diseases/health-conditions/general/histamine-intolerance-allergy
+Redirect 301 /knowledge/foods/general-nutrition/general-science/histamine-intolerance /knowledge/diseases/health-conditions/general/histamine-intolerance
+Redirect 301 /knowledge/foods/general-nutrition/general-science/hormonal-imbalance /knowledge/diseases/health-conditions/general/hormonal-imbalance
+Redirect 301 /knowledge/foods/general-nutrition/general-science/hypertension-management /knowledge/diseases/health-conditions/general/hypertension-management
+Redirect 301 /knowledge/foods/general-nutrition/general-science/hyperthyroid-protocol /knowledge/diseases/health-conditions/general/hyperthyroid-protocol
+Redirect 301 /knowledge/foods/general-nutrition/general-science/hypothermia /knowledge/diseases/health-conditions/general/hypothermia
+Redirect 301 /knowledge/foods/general-nutrition/general-science/ibs-ibd-gut-repair /knowledge/diseases/health-conditions/general/ibs-ibd-gut-repair
+Redirect 301 /knowledge/foods/general-nutrition/general-science/ibs /knowledge/diseases/health-conditions/general/ibs
+Redirect 301 /knowledge/foods/general-nutrition/general-science/immunity-boost /knowledge/diseases/health-conditions/general/immunity-boost
+Redirect 301 /knowledge/foods/general-nutrition/general-science/infertility /knowledge/diseases/health-conditions/general/infertility
+Redirect 301 /knowledge/foods/general-nutrition/general-science/insomnia /knowledge/diseases/health-conditions/general/insomnia
+Redirect 301 /knowledge/foods/general-nutrition/general-science/insulin-resistance-mgmt /knowledge/diseases/health-conditions/general/insulin-resistance-mgmt
+Redirect 301 /knowledge/foods/general-nutrition/general-science/interstitial-cystitis /knowledge/diseases/health-conditions/general/interstitial-cystitis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/iron-deficiency /knowledge/diseases/health-conditions/general/iron-deficiency
+Redirect 301 /knowledge/foods/general-nutrition/general-science/iron-overload /knowledge/diseases/health-conditions/general/iron-overload
+Redirect 301 /knowledge/foods/general-nutrition/general-science/jet-lag-shift-work /knowledge/diseases/health-conditions/general/jet-lag-shift-work
+Redirect 301 /knowledge/foods/general-nutrition/general-science/jet-lag /knowledge/diseases/health-conditions/general/jet-lag
+Redirect 301 /knowledge/foods/general-nutrition/general-science/joint-pain-relief /knowledge/diseases/health-conditions/general/joint-pain-relief
+Redirect 301 /knowledge/foods/general-nutrition/general-science/kid-immunity-growth /knowledge/diseases/health-conditions/general/kid-immunity-growth
+Redirect 301 /knowledge/foods/general-nutrition/general-science/kidney-cancer /knowledge/diseases/health-conditions/general/kidney-cancer
+Redirect 301 /knowledge/foods/general-nutrition/general-science/kidney-health-diet /knowledge/diseases/health-conditions/general/kidney-health-diet
+Redirect 301 /knowledge/foods/general-nutrition/general-science/kidney-stones /knowledge/diseases/health-conditions/general/kidney-stones
+Redirect 301 /knowledge/foods/general-nutrition/general-science/kwashiorkor /knowledge/diseases/health-conditions/general/kwashiorkor
+Redirect 301 /knowledge/foods/general-nutrition/general-science/lactose-intolerance /knowledge/diseases/health-conditions/general/lactose-intolerance
+Redirect 301 /knowledge/foods/general-nutrition/general-science/leaky-gut /knowledge/diseases/health-conditions/general/leaky-gut
+Redirect 301 /knowledge/foods/general-nutrition/general-science/leg-ulcers /knowledge/diseases/health-conditions/general/leg-ulcers
+Redirect 301 /knowledge/foods/general-nutrition/general-science/listeria-toxo-trichinosis /knowledge/diseases/health-conditions/general/listeria-toxo-trichinosis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/liver-cancer /knowledge/diseases/health-conditions/general/liver-cancer
+Redirect 301 /knowledge/foods/general-nutrition/general-science/liver-detoxification-pathways /knowledge/diseases/health-conditions/general/liver-detoxification-pathways
+Redirect 301 /knowledge/foods/general-nutrition/general-science/liver-encephalopathy /knowledge/diseases/health-conditions/general/liver-encephalopathy
+Redirect 301 /knowledge/foods/general-nutrition/general-science/low-blood-sugar /knowledge/diseases/health-conditions/general/low-blood-sugar
+Redirect 301 /knowledge/foods/general-nutrition/general-science/low-bp /knowledge/diseases/health-conditions/general/low-bp
+Redirect 301 /knowledge/foods/general-nutrition/general-science/low-libido /knowledge/diseases/health-conditions/general/low-libido
+Redirect 301 /knowledge/foods/general-nutrition/general-science/low-potassium /knowledge/diseases/health-conditions/general/low-potassium
+Redirect 301 /knowledge/foods/general-nutrition/general-science/lupus /knowledge/diseases/health-conditions/general/lupus
+Redirect 301 /knowledge/foods/general-nutrition/general-science/malnutrition /knowledge/diseases/health-conditions/general/malnutrition
+Redirect 301 /knowledge/foods/general-nutrition/general-science/menopause-hormone-support /knowledge/diseases/health-conditions/general/menopause-hormone-support
+Redirect 301 /knowledge/foods/general-nutrition/general-science/menopause-symptoms /knowledge/diseases/health-conditions/general/menopause-symptoms
+Redirect 301 /knowledge/foods/general-nutrition/general-science/menopause-weight-mgmt /knowledge/diseases/health-conditions/general/menopause-weight-mgmt
+Redirect 301 /knowledge/foods/general-nutrition/general-science/mercury-poisoning /knowledge/diseases/health-conditions/general/mercury-poisoning
+Redirect 301 /knowledge/foods/general-nutrition/general-science/metabolic-syndrome /knowledge/diseases/health-conditions/general/metabolic-syndrome
+Redirect 301 /knowledge/foods/general-nutrition/general-science/migraine-headache-relief /knowledge/diseases/health-conditions/general/migraine-headache-relief
+Redirect 301 /knowledge/foods/general-nutrition/general-science/migraines /knowledge/diseases/health-conditions/general/migraines
+Redirect 301 /knowledge/foods/general-nutrition/general-science/motion-sickness /knowledge/diseases/health-conditions/general/motion-sickness
+Redirect 301 /knowledge/foods/general-nutrition/general-science/mouth-ulcers /knowledge/diseases/health-conditions/general/mouth-ulcers
+Redirect 301 /knowledge/foods/general-nutrition/general-science/muscle-cramps /knowledge/diseases/health-conditions/general/muscle-cramps
+Redirect 301 /knowledge/foods/general-nutrition/general-science/muscle-recovery /knowledge/diseases/health-conditions/general/muscle-recovery
+Redirect 301 /knowledge/foods/general-nutrition/general-science/nafld-cirrhosis /knowledge/diseases/health-conditions/general/nafld-cirrhosis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/nail-health-strength /knowledge/diseases/health-conditions/general/nail-health-strength
+Redirect 301 /knowledge/foods/general-nutrition/general-science/night-blindness /knowledge/diseases/health-conditions/general/night-blindness
+Redirect 301 /knowledge/foods/general-nutrition/general-science/night-eating /knowledge/diseases/health-conditions/general/night-eating
+Redirect 301 /knowledge/foods/general-nutrition/general-science/non-alcoholic-fatty-liver /knowledge/diseases/health-conditions/general/non-alcoholic-fatty-liver
+Redirect 301 /knowledge/foods/general-nutrition/general-science/obesity /knowledge/diseases/health-conditions/general/obesity
+Redirect 301 /knowledge/foods/general-nutrition/general-science/orthorexia /knowledge/diseases/health-conditions/general/orthorexia
+Redirect 301 /knowledge/foods/general-nutrition/general-science/osteoarthritis /knowledge/diseases/health-conditions/general/osteoarthritis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/osteopenia /knowledge/diseases/health-conditions/general/osteopenia
+Redirect 301 /knowledge/foods/general-nutrition/general-science/osteoporosis-prevention /knowledge/diseases/health-conditions/general/osteoporosis-prevention
+Redirect 301 /knowledge/foods/general-nutrition/general-science/osteoporosis /knowledge/diseases/health-conditions/general/osteoporosis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/pancreatitis /knowledge/diseases/health-conditions/general/pancreatitis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/pcod-pcos /knowledge/diseases/health-conditions/general/pcod-pcos
+Redirect 301 /knowledge/foods/general-nutrition/general-science/pcos-balance /knowledge/diseases/health-conditions/general/pcos-balance
+Redirect 301 /knowledge/foods/general-nutrition/general-science/pcos-weight-diet /knowledge/diseases/health-conditions/general/pcos-weight-diet
+Redirect 301 /knowledge/foods/general-nutrition/general-science/pellagra-beri-beri /knowledge/diseases/health-conditions/general/pellagra-beri-beri
+Redirect 301 /knowledge/foods/general-nutrition/general-science/peripheral-artery /knowledge/diseases/health-conditions/general/peripheral-artery
+Redirect 301 /knowledge/foods/general-nutrition/general-science/pku /knowledge/diseases/health-conditions/general/pku
+Redirect 301 /knowledge/foods/general-nutrition/general-science/plantar-fasciitis /knowledge/diseases/health-conditions/general/plantar-fasciitis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/pms-pmdd /knowledge/diseases/health-conditions/general/pms-pmdd
+Redirect 301 /knowledge/foods/general-nutrition/general-science/post-viral-recovery /knowledge/diseases/health-conditions/general/post-viral-recovery
+Redirect 301 /knowledge/foods/general-nutrition/general-science/pre-diabetes-care /knowledge/diseases/health-conditions/general/pre-diabetes-care
+Redirect 301 /knowledge/foods/general-nutrition/general-science/pre-diabetes /knowledge/diseases/health-conditions/general/pre-diabetes
+Redirect 301 /knowledge/foods/general-nutrition/general-science/pre-eclampsia /knowledge/diseases/health-conditions/general/pre-eclampsia
+Redirect 301 /knowledge/foods/general-nutrition/general-science/pre-osteoporosis /knowledge/diseases/health-conditions/general/pre-osteoporosis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/pregnancy-nutrition-support /knowledge/diseases/health-conditions/general/pregnancy-nutrition-support
+Redirect 301 /knowledge/foods/general-nutrition/general-science/psoriasis /knowledge/diseases/health-conditions/general/psoriasis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/restless-legs /knowledge/diseases/health-conditions/general/restless-legs
+Redirect 301 /knowledge/foods/general-nutrition/general-science/rheumatoid-arthritis /knowledge/diseases/health-conditions/general/rheumatoid-arthritis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/rickets /knowledge/diseases/health-conditions/general/rickets
+Redirect 301 /knowledge/foods/general-nutrition/general-science/rosacea /knowledge/diseases/health-conditions/general/rosacea
+Redirect 301 /knowledge/foods/general-nutrition/general-science/sarcopenia /knowledge/diseases/health-conditions/general/sarcopenia
+Redirect 301 /knowledge/foods/general-nutrition/general-science/scurvy /knowledge/diseases/health-conditions/general/scurvy
+Redirect 301 /knowledge/foods/general-nutrition/general-science/shift-work-disorder /knowledge/diseases/health-conditions/general/shift-work-disorder
+Redirect 301 /knowledge/foods/general-nutrition/general-science/sibo-gut /knowledge/diseases/health-conditions/general/sibo-gut
+Redirect 301 /knowledge/foods/general-nutrition/general-science/sibo /knowledge/diseases/health-conditions/general/sibo
+Redirect 301 /knowledge/foods/general-nutrition/general-science/singers-nodules /knowledge/diseases/health-conditions/general/singers-nodules
+Redirect 301 /knowledge/foods/general-nutrition/general-science/skin-glow-detox /knowledge/diseases/health-conditions/general/skin-glow-detox
+Redirect 301 /knowledge/foods/general-nutrition/general-science/sleep-apnea /knowledge/diseases/health-conditions/general/sleep-apnea
+Redirect 301 /knowledge/foods/general-nutrition/general-science/sleep-disorder-circadian-reset /knowledge/diseases/health-conditions/general/sleep-disorder-circadian-reset
+Redirect 301 /knowledge/foods/general-nutrition/general-science/smokers-cough /knowledge/diseases/health-conditions/general/smokers-cough
+Redirect 301 /knowledge/foods/general-nutrition/general-science/spina-bifida /knowledge/diseases/health-conditions/general/spina-bifida
+Redirect 301 /knowledge/foods/general-nutrition/general-science/stomach-cancer /knowledge/diseases/health-conditions/general/stomach-cancer
+Redirect 301 /knowledge/foods/general-nutrition/general-science/stomach-ulcer /knowledge/diseases/health-conditions/general/stomach-ulcer
+Redirect 301 /knowledge/foods/general-nutrition/general-science/stroke /knowledge/diseases/health-conditions/general/stroke
+Redirect 301 /knowledge/foods/general-nutrition/general-science/sunburn-skin-aging /knowledge/diseases/health-conditions/general/sunburn-skin-aging
+Redirect 301 /knowledge/foods/general-nutrition/general-science/swimmers-ear /knowledge/diseases/health-conditions/general/swimmers-ear
+Redirect 301 /knowledge/foods/general-nutrition/general-science/systemic-yeast /knowledge/diseases/health-conditions/general/systemic-yeast
+Redirect 301 /knowledge/foods/general-nutrition/general-science/tarsal-tunnel /knowledge/diseases/health-conditions/general/tarsal-tunnel
+Redirect 301 /knowledge/foods/general-nutrition/general-science/tension-headache /knowledge/diseases/health-conditions/general/tension-headache
+Redirect 301 /knowledge/foods/general-nutrition/general-science/testosterone-boost /knowledge/diseases/health-conditions/general/testosterone-boost
+Redirect 301 /knowledge/foods/general-nutrition/general-science/thyroid-optimization /knowledge/diseases/health-conditions/general/thyroid-optimization
+Redirect 301 /knowledge/foods/general-nutrition/general-science/tinnitus /knowledge/diseases/health-conditions/general/tinnitus
+Redirect 301 /knowledge/foods/general-nutrition/general-science/tooth-decay /knowledge/diseases/health-conditions/general/tooth-decay
+Redirect 301 /knowledge/foods/general-nutrition/general-science/type-1-diabetes /knowledge/diseases/health-conditions/general/type-1-diabetes
+Redirect 301 /knowledge/foods/general-nutrition/general-science/type-2-diabetes-foot /knowledge/diseases/health-conditions/general/type-2-diabetes-foot
+Redirect 301 /knowledge/foods/general-nutrition/general-science/type-2-diabetes /knowledge/diseases/health-conditions/general/type-2-diabetes
+Redirect 301 /knowledge/foods/general-nutrition/general-science/type-3c-diabetes /knowledge/diseases/health-conditions/general/type-3c-diabetes
+Redirect 301 /knowledge/foods/general-nutrition/general-science/uti-cystitis /knowledge/diseases/health-conditions/general/uti-cystitis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/varicocele /knowledge/diseases/health-conditions/general/varicocele
+Redirect 301 /knowledge/foods/general-nutrition/general-science/varicose-veins /knowledge/diseases/health-conditions/general/varicose-veins
+Redirect 301 /knowledge/foods/general-nutrition/general-science/vegan-alternatives /knowledge/diseases/health-conditions/general/vegan-alternatives
+Redirect 301 /knowledge/foods/general-nutrition/general-science/vegan-beginners /knowledge/diseases/health-conditions/general/vegan-beginners
+Redirect 301 /knowledge/foods/general-nutrition/general-science/vegan-lifestyle /knowledge/diseases/health-conditions/general/vegan-lifestyle
+Redirect 301 /knowledge/foods/general-nutrition/general-science/vegan-news /knowledge/diseases/health-conditions/general/vegan-news
+Redirect 301 /knowledge/foods/general-nutrition/general-science/vegan-nutrition /knowledge/diseases/health-conditions/general/vegan-nutrition
+Redirect 301 /knowledge/foods/general-nutrition/general-science/vegan-recipes /knowledge/diseases/health-conditions/general/vegan-recipes
+Redirect 301 /knowledge/foods/general-nutrition/general-science/vegan-reviews /knowledge/diseases/health-conditions/general/vegan-reviews
+Redirect 301 /knowledge/foods/general-nutrition/general-science/vegan-travel /knowledge/diseases/health-conditions/general/vegan-travel
+Redirect 301 /knowledge/foods/general-nutrition/general-science/vit-a-toxicity /knowledge/diseases/health-conditions/general/vit-a-toxicity
+Redirect 301 /knowledge/foods/general-nutrition/general-science/vitamin-d-deficiency /knowledge/diseases/health-conditions/general/vitamin-d-deficiency
+Redirect 301 /knowledge/foods/general-nutrition/general-science/vitamin-k-deficiency /knowledge/diseases/health-conditions/general/vitamin-k-deficiency
+Redirect 301 /knowledge/foods/general-nutrition/general-science/vitiligo /knowledge/diseases/health-conditions/general/vitiligo
+Redirect 301 /knowledge/foods/general-nutrition/general-science/water-intoxication /knowledge/diseases/health-conditions/general/water-intoxication
+Redirect 301 /knowledge/foods/general-nutrition/general-science/weight-loss-men /knowledge/diseases/health-conditions/general/weight-loss-men
+Redirect 301 /knowledge/foods/general-nutrition/general-science/weight-loss-women /knowledge/diseases/health-conditions/general/weight-loss-women
+Redirect 301 /knowledge/foods/general-nutrition/general-science/wellness-longevity /knowledge/diseases/health-conditions/general/wellness-longevity
+Redirect 301 /knowledge/foods/general-nutrition/general-science/wernicke-korsakoff /knowledge/diseases/health-conditions/general/wernicke-korsakoff
+Redirect 301 /knowledge/foods/general-nutrition/general-science/wilsons-disease /knowledge/diseases/health-conditions/general/wilsons-disease
+Redirect 301 /knowledge/foods/general-nutrition/general-science/acne-skin-clarity /knowledge/diseases/health-conditions/appearance/acne-skin-clarity
+Redirect 301 /knowledge/foods/general-nutrition/general-science/acne /knowledge/diseases/health-conditions/appearance/acne
+Redirect 301 /knowledge/foods/general-nutrition/general-science/anti-aging-support /knowledge/diseases/health-conditions/appearance/anti-aging-support
+Redirect 301 /knowledge/foods/general-nutrition/general-science/boils-hidradenitis /knowledge/diseases/health-conditions/appearance/boils-hidradenitis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/cataracts-macular-degeneration /knowledge/diseases/health-conditions/appearance/cataracts-macular-degeneration
+Redirect 301 /knowledge/foods/general-nutrition/general-science/cold-sores /knowledge/diseases/health-conditions/appearance/cold-sores
+Redirect 301 /knowledge/foods/general-nutrition/general-science/dandruff /knowledge/diseases/health-conditions/appearance/dandruff
+Redirect 301 /knowledge/foods/general-nutrition/general-science/dental-erosion /knowledge/diseases/health-conditions/appearance/dental-erosion
+Redirect 301 /knowledge/foods/general-nutrition/general-science/dental-fluorosis /knowledge/diseases/health-conditions/appearance/dental-fluorosis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/dry-eye /knowledge/diseases/health-conditions/appearance/dry-eye
+Redirect 301 /knowledge/foods/general-nutrition/general-science/eczema /knowledge/diseases/health-conditions/appearance/eczema
+Redirect 301 /knowledge/foods/general-nutrition/general-science/gum-disease /knowledge/diseases/health-conditions/appearance/gum-disease
+Redirect 301 /knowledge/foods/general-nutrition/general-science/hair-growth-strength /knowledge/diseases/health-conditions/appearance/hair-growth-strength
+Redirect 301 /knowledge/foods/general-nutrition/general-science/hair-loss /knowledge/diseases/health-conditions/appearance/hair-loss
+Redirect 301 /knowledge/foods/general-nutrition/general-science/mouth-ulcers /knowledge/diseases/health-conditions/appearance/mouth-ulcers
+Redirect 301 /knowledge/foods/general-nutrition/general-science/nail-health-strength /knowledge/diseases/health-conditions/appearance/nail-health-strength
+Redirect 301 /knowledge/foods/general-nutrition/general-science/night-blindness /knowledge/diseases/health-conditions/appearance/night-blindness
+Redirect 301 /knowledge/foods/general-nutrition/general-science/psoriasis /knowledge/diseases/health-conditions/appearance/psoriasis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/rickets /knowledge/diseases/health-conditions/appearance/rickets
+Redirect 301 /knowledge/foods/general-nutrition/general-science/rosacea /knowledge/diseases/health-conditions/appearance/rosacea
+Redirect 301 /knowledge/foods/general-nutrition/general-science/scurvy /knowledge/diseases/health-conditions/appearance/scurvy
+Redirect 301 /knowledge/foods/general-nutrition/general-science/skin-glow-detox /knowledge/diseases/health-conditions/appearance/skin-glow-detox
+Redirect 301 /knowledge/foods/general-nutrition/general-science/sunburn-skin-aging /knowledge/diseases/health-conditions/appearance/sunburn-skin-aging
+Redirect 301 /knowledge/foods/general-nutrition/general-science/tooth-decay /knowledge/diseases/health-conditions/appearance/tooth-decay
+Redirect 301 /knowledge/foods/general-nutrition/general-science/vitiligo /knowledge/diseases/health-conditions/appearance/vitiligo
+Redirect 301 /knowledge/foods/general-nutrition/general-science/a-fib /knowledge/diseases/health-conditions/cardiovascular/a-fib
+Redirect 301 /knowledge/foods/general-nutrition/general-science/angina /knowledge/diseases/health-conditions/cardiovascular/angina
+Redirect 301 /knowledge/foods/general-nutrition/general-science/b12-deficiency /knowledge/diseases/health-conditions/cardiovascular/b12-deficiency
+Redirect 301 /knowledge/foods/general-nutrition/general-science/blood-circulation /knowledge/diseases/health-conditions/cardiovascular/blood-circulation
+Redirect 301 /knowledge/foods/general-nutrition/general-science/cholesterol-mgmt /knowledge/diseases/health-conditions/cardiovascular/cholesterol-mgmt
+Redirect 301 /knowledge/foods/general-nutrition/general-science/dvt /knowledge/diseases/health-conditions/cardiovascular/dvt
+Redirect 301 /knowledge/foods/general-nutrition/general-science/folate-deficiency /knowledge/diseases/health-conditions/cardiovascular/folate-deficiency
+Redirect 301 /knowledge/foods/general-nutrition/general-science/heart-attack /knowledge/diseases/health-conditions/cardiovascular/heart-attack
+Redirect 301 /knowledge/foods/general-nutrition/general-science/heart-disease /knowledge/diseases/health-conditions/cardiovascular/heart-disease
+Redirect 301 /knowledge/foods/general-nutrition/general-science/heart-health /knowledge/diseases/health-conditions/cardiovascular/heart-health
+Redirect 301 /knowledge/foods/general-nutrition/general-science/high-bp /knowledge/diseases/health-conditions/cardiovascular/high-bp
+Redirect 301 /knowledge/foods/general-nutrition/general-science/hypertension-management /knowledge/diseases/health-conditions/cardiovascular/hypertension-management
+Redirect 301 /knowledge/foods/general-nutrition/general-science/iron-deficiency /knowledge/diseases/health-conditions/cardiovascular/iron-deficiency
+Redirect 301 /knowledge/foods/general-nutrition/general-science/iron-overload /knowledge/diseases/health-conditions/cardiovascular/iron-overload
+Redirect 301 /knowledge/foods/general-nutrition/general-science/leg-ulcers /knowledge/diseases/health-conditions/cardiovascular/leg-ulcers
+Redirect 301 /knowledge/foods/general-nutrition/general-science/low-bp /knowledge/diseases/health-conditions/cardiovascular/low-bp
+Redirect 301 /knowledge/foods/general-nutrition/general-science/peripheral-artery /knowledge/diseases/health-conditions/cardiovascular/peripheral-artery
+Redirect 301 /knowledge/foods/general-nutrition/general-science/stroke /knowledge/diseases/health-conditions/cardiovascular/stroke
+Redirect 301 /knowledge/foods/general-nutrition/general-science/varicocele /knowledge/diseases/health-conditions/cardiovascular/varicocele
+Redirect 301 /knowledge/foods/general-nutrition/general-science/varicose-veins /knowledge/diseases/health-conditions/cardiovascular/varicose-veins
+Redirect 301 /knowledge/foods/general-nutrition/general-science/vitamin-d-deficiency /knowledge/diseases/health-conditions/cardiovascular/vitamin-d-deficiency
+Redirect 301 /knowledge/foods/general-nutrition/general-science/adhd /knowledge/diseases/health-conditions/cognitive/adhd
+Redirect 301 /knowledge/foods/general-nutrition/general-science/anorexia-bulimia-bed /knowledge/diseases/health-conditions/cognitive/anorexia-bulimia-bed
+Redirect 301 /knowledge/foods/general-nutrition/general-science/anxiety /knowledge/diseases/health-conditions/cognitive/anxiety
+Redirect 301 /knowledge/foods/general-nutrition/general-science/chronic-fatigue-syndrome /knowledge/diseases/health-conditions/cognitive/chronic-fatigue-syndrome
+Redirect 301 /knowledge/foods/general-nutrition/general-science/chronic-fatigue /knowledge/diseases/health-conditions/cognitive/chronic-fatigue
+Redirect 301 /knowledge/foods/general-nutrition/general-science/cognitive-decline /knowledge/diseases/health-conditions/cognitive/cognitive-decline
+Redirect 301 /knowledge/foods/general-nutrition/general-science/depression /knowledge/diseases/health-conditions/cognitive/depression
+Redirect 301 /knowledge/foods/general-nutrition/general-science/epilepsy-diet-cured /knowledge/diseases/health-conditions/cognitive/epilepsy-diet-cured
+Redirect 301 /knowledge/foods/general-nutrition/general-science/eye-twitches /knowledge/diseases/health-conditions/cognitive/eye-twitches
+Redirect 301 /knowledge/foods/general-nutrition/general-science/insomnia /knowledge/diseases/health-conditions/cognitive/insomnia
+Redirect 301 /knowledge/foods/general-nutrition/general-science/jet-lag-shift-work /knowledge/diseases/health-conditions/cognitive/jet-lag-shift-work
+Redirect 301 /knowledge/foods/general-nutrition/general-science/migraine-headache-relief /knowledge/diseases/health-conditions/cognitive/migraine-headache-relief
+Redirect 301 /knowledge/foods/general-nutrition/general-science/migraines /knowledge/diseases/health-conditions/cognitive/migraines
+Redirect 301 /knowledge/foods/general-nutrition/general-science/motion-sickness /knowledge/diseases/health-conditions/cognitive/motion-sickness
+Redirect 301 /knowledge/foods/general-nutrition/general-science/night-eating /knowledge/diseases/health-conditions/cognitive/night-eating
+Redirect 301 /knowledge/foods/general-nutrition/general-science/restless-legs /knowledge/diseases/health-conditions/cognitive/restless-legs
+Redirect 301 /knowledge/foods/general-nutrition/general-science/sleep-apnea /knowledge/diseases/health-conditions/cognitive/sleep-apnea
+Redirect 301 /knowledge/foods/general-nutrition/general-science/sleep-disorder-circadian-reset /knowledge/diseases/health-conditions/cognitive/sleep-disorder-circadian-reset
+Redirect 301 /knowledge/foods/general-nutrition/general-science/tension-headache /knowledge/diseases/health-conditions/cognitive/tension-headache
+Redirect 301 /knowledge/foods/general-nutrition/general-science/tinnitus /knowledge/diseases/health-conditions/cognitive/tinnitus
+Redirect 301 /knowledge/foods/general-nutrition/general-science/wernicke-korsakoff /knowledge/diseases/health-conditions/cognitive/wernicke-korsakoff
+Redirect 301 /knowledge/foods/general-nutrition/general-science/detox-rejuvenation /knowledge/diseases/health-conditions/detox/detox-rejuvenation
+Redirect 301 /knowledge/foods/general-nutrition/general-science/kidney-health-diet /knowledge/diseases/health-conditions/detox/kidney-health-diet
+Redirect 301 /knowledge/foods/general-nutrition/general-science/liver-detoxification-pathways /knowledge/diseases/health-conditions/detox/liver-detoxification-pathways
+Redirect 301 /knowledge/foods/general-nutrition/general-science/wellness-longevity /knowledge/diseases/health-conditions/detox/wellness-longevity
+Redirect 301 /knowledge/foods/general-nutrition/general-science/acid-reflux /knowledge/diseases/health-conditions/digestion/acid-reflux
+Redirect 301 /knowledge/foods/general-nutrition/general-science/anal-fissure /knowledge/diseases/health-conditions/digestion/anal-fissure
+Redirect 301 /knowledge/foods/general-nutrition/general-science/bad-breath-gut /knowledge/diseases/health-conditions/digestion/bad-breath-gut
+Redirect 301 /knowledge/foods/general-nutrition/general-science/bowel-cancer /knowledge/diseases/health-conditions/digestion/bowel-cancer
+Redirect 301 /knowledge/foods/general-nutrition/general-science/bowel-polyps /knowledge/diseases/health-conditions/digestion/bowel-polyps
+Redirect 301 /knowledge/foods/general-nutrition/general-science/celiac-disease /knowledge/diseases/health-conditions/digestion/celiac-disease
+Redirect 301 /knowledge/foods/general-nutrition/general-science/constipation /knowledge/diseases/health-conditions/digestion/constipation
+Redirect 301 /knowledge/foods/general-nutrition/general-science/crohns-uc /knowledge/diseases/health-conditions/digestion/crohns-uc
+Redirect 301 /knowledge/foods/general-nutrition/general-science/dehydration /knowledge/diseases/health-conditions/digestion/dehydration
+Redirect 301 /knowledge/foods/general-nutrition/general-science/diverticulitis /knowledge/diseases/health-conditions/digestion/diverticulitis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/eoe /knowledge/diseases/health-conditions/digestion/eoe
+Redirect 301 /knowledge/foods/general-nutrition/general-science/esophagitis /knowledge/diseases/health-conditions/digestion/esophagitis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/fatty-pancreas /knowledge/diseases/health-conditions/digestion/fatty-pancreas
+Redirect 301 /knowledge/foods/general-nutrition/general-science/gallstones /knowledge/diseases/health-conditions/digestion/gallstones
+Redirect 301 /knowledge/foods/general-nutrition/general-science/gastritis /knowledge/diseases/health-conditions/digestion/gastritis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/gluten-sensitivity /knowledge/diseases/health-conditions/digestion/gluten-sensitivity
+Redirect 301 /knowledge/foods/general-nutrition/general-science/gut-health-acidity /knowledge/diseases/health-conditions/digestion/gut-health-acidity
+Redirect 301 /knowledge/foods/general-nutrition/general-science/heatstroke /knowledge/diseases/health-conditions/digestion/heatstroke
+Redirect 301 /knowledge/foods/general-nutrition/general-science/hemorrhoids /knowledge/diseases/health-conditions/digestion/hemorrhoids
+Redirect 301 /knowledge/foods/general-nutrition/general-science/histamine-intolerance /knowledge/diseases/health-conditions/digestion/histamine-intolerance
+Redirect 301 /knowledge/foods/general-nutrition/general-science/ibs-ibd-gut-repair /knowledge/diseases/health-conditions/digestion/ibs-ibd-gut-repair
+Redirect 301 /knowledge/foods/general-nutrition/general-science/ibs /knowledge/diseases/health-conditions/digestion/ibs
+Redirect 301 /knowledge/foods/general-nutrition/general-science/kwashiorkor /knowledge/diseases/health-conditions/digestion/kwashiorkor
+Redirect 301 /knowledge/foods/general-nutrition/general-science/leaky-gut /knowledge/diseases/health-conditions/digestion/leaky-gut
+Redirect 301 /knowledge/foods/general-nutrition/general-science/malnutrition /knowledge/diseases/health-conditions/digestion/malnutrition
+Redirect 301 /knowledge/foods/general-nutrition/general-science/nafld-cirrhosis /knowledge/diseases/health-conditions/digestion/nafld-cirrhosis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/pancreatitis /knowledge/diseases/health-conditions/digestion/pancreatitis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/sibo /knowledge/diseases/health-conditions/digestion/sibo
+Redirect 301 /knowledge/foods/general-nutrition/general-science/stomach-cancer /knowledge/diseases/health-conditions/digestion/stomach-cancer
+Redirect 301 /knowledge/foods/general-nutrition/general-science/stomach-ulcer /knowledge/diseases/health-conditions/digestion/stomach-ulcer
+Redirect 301 /knowledge/foods/general-nutrition/general-science/vitamin-k-deficiency /knowledge/diseases/health-conditions/digestion/vitamin-k-deficiency
+Redirect 301 /knowledge/foods/general-nutrition/general-science/water-intoxication /knowledge/diseases/health-conditions/digestion/water-intoxication
+Redirect 301 /knowledge/foods/general-nutrition/general-science/health-topics /knowledge/diseases/health-conditions/health-topics/health-topics
+Redirect 301 /knowledge/foods/general-nutrition/general-science/botulism /knowledge/diseases/health-conditions/immunity/botulism
+Redirect 301 /knowledge/foods/general-nutrition/general-science/caffeine-toxicity /knowledge/diseases/health-conditions/immunity/caffeine-toxicity
+Redirect 301 /knowledge/foods/general-nutrition/general-science/h-pylori-infection /knowledge/diseases/health-conditions/immunity/h-pylori-infection
+Redirect 301 /knowledge/foods/general-nutrition/general-science/histamine-intolerance-allergy /knowledge/diseases/health-conditions/immunity/histamine-intolerance-allergy
+Redirect 301 /knowledge/foods/general-nutrition/general-science/immunity-boost /knowledge/diseases/health-conditions/immunity/immunity-boost
+Redirect 301 /knowledge/foods/general-nutrition/general-science/interstitial-cystitis /knowledge/diseases/health-conditions/immunity/interstitial-cystitis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/listeria-toxo-trichinosis /knowledge/diseases/health-conditions/immunity/listeria-toxo-trichinosis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/low-potassium /knowledge/diseases/health-conditions/immunity/low-potassium
+Redirect 301 /knowledge/foods/general-nutrition/general-science/mercury-poisoning /knowledge/diseases/health-conditions/immunity/mercury-poisoning
+Redirect 301 /knowledge/foods/general-nutrition/general-science/pellagra-beri-beri /knowledge/diseases/health-conditions/immunity/pellagra-beri-beri
+Redirect 301 /knowledge/foods/general-nutrition/general-science/post-viral-recovery /knowledge/diseases/health-conditions/immunity/post-viral-recovery
+Redirect 301 /knowledge/foods/general-nutrition/general-science/swimmers-ear /knowledge/diseases/health-conditions/immunity/swimmers-ear
+Redirect 301 /knowledge/foods/general-nutrition/general-science/systemic-yeast /knowledge/diseases/health-conditions/immunity/systemic-yeast
+Redirect 301 /knowledge/foods/general-nutrition/general-science/uti-cystitis /knowledge/diseases/health-conditions/immunity/uti-cystitis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/vit-a-toxicity /knowledge/diseases/health-conditions/immunity/vit-a-toxicity
+Redirect 301 /knowledge/foods/general-nutrition/general-science/adhd-brain-focus-kids /knowledge/diseases/health-conditions/kids/adhd-brain-focus-kids
+Redirect 301 /knowledge/foods/general-nutrition/general-science/kid-immunity-growth /knowledge/diseases/health-conditions/kids/kid-immunity-growth
+Redirect 301 /knowledge/foods/general-nutrition/general-science/testosterone-boost /knowledge/diseases/health-conditions/mens/testosterone-boost
+Redirect 301 /knowledge/foods/general-nutrition/general-science/weight-loss-men /knowledge/diseases/health-conditions/mens/weight-loss-men
+Redirect 301 /knowledge/foods/general-nutrition/general-science/adenomyosis /knowledge/diseases/health-conditions/metabolic/adenomyosis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/alcoholic-liver-disease /knowledge/diseases/health-conditions/metabolic/alcoholic-liver-disease
+Redirect 301 /knowledge/foods/general-nutrition/general-science/anorexia-nervosa /knowledge/diseases/health-conditions/metabolic/anorexia-nervosa
+Redirect 301 /knowledge/foods/general-nutrition/general-science/anti-inflammatory-support /knowledge/diseases/health-conditions/metabolic/anti-inflammatory-support
+Redirect 301 /knowledge/foods/general-nutrition/general-science/autoimmune-hashimotos-protocol /knowledge/diseases/health-conditions/metabolic/autoimmune-hashimotos-protocol
+Redirect 301 /knowledge/foods/general-nutrition/general-science/binge-eating /knowledge/diseases/health-conditions/metabolic/binge-eating
+Redirect 301 /knowledge/foods/general-nutrition/general-science/bulimia-nervosa /knowledge/diseases/health-conditions/metabolic/bulimia-nervosa
+Redirect 301 /knowledge/foods/general-nutrition/general-science/chilblains /knowledge/diseases/health-conditions/metabolic/chilblains
+Redirect 301 /knowledge/foods/general-nutrition/general-science/cholesterol-deposits /knowledge/diseases/health-conditions/metabolic/cholesterol-deposits
+Redirect 301 /knowledge/foods/general-nutrition/general-science/ckd-dialysis-diet /knowledge/diseases/health-conditions/metabolic/ckd-dialysis-diet
+Redirect 301 /knowledge/foods/general-nutrition/general-science/cortisol-balance /knowledge/diseases/health-conditions/metabolic/cortisol-balance
+Redirect 301 /knowledge/foods/general-nutrition/general-science/cystic-fibrosis /knowledge/diseases/health-conditions/metabolic/cystic-fibrosis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/dark-neckskin-tags /knowledge/diseases/health-conditions/metabolic/dark-neckskin-tags
+Redirect 301 /knowledge/foods/general-nutrition/general-science/diabetic-neuropathy /knowledge/diseases/health-conditions/metabolic/diabetic-neuropathy
+Redirect 301 /knowledge/foods/general-nutrition/general-science/diabetic-retinopathy /knowledge/diseases/health-conditions/metabolic/diabetic-retinopathy
+Redirect 301 /knowledge/foods/general-nutrition/general-science/dka-prevention /knowledge/diseases/health-conditions/metabolic/dka-prevention
+Redirect 301 /knowledge/foods/general-nutrition/general-science/endometriosis-pain /knowledge/diseases/health-conditions/metabolic/endometriosis-pain
+Redirect 301 /knowledge/foods/general-nutrition/general-science/esophageal-cancer /knowledge/diseases/health-conditions/metabolic/esophageal-cancer
+Redirect 301 /knowledge/foods/general-nutrition/general-science/fatty-liver-reversal /knowledge/diseases/health-conditions/metabolic/fatty-liver-reversal
+Redirect 301 /knowledge/foods/general-nutrition/general-science/fatty-liver /knowledge/diseases/health-conditions/metabolic/fatty-liver
+Redirect 301 /knowledge/foods/general-nutrition/general-science/frostbite /knowledge/diseases/health-conditions/metabolic/frostbite
+Redirect 301 /knowledge/foods/general-nutrition/general-science/g6pd-deficiency /knowledge/diseases/health-conditions/metabolic/g6pd-deficiency
+Redirect 301 /knowledge/foods/general-nutrition/general-science/gout-uric-acid-reversal /knowledge/diseases/health-conditions/metabolic/gout-uric-acid-reversal
+Redirect 301 /knowledge/foods/general-nutrition/general-science/gout /knowledge/diseases/health-conditions/metabolic/gout
+Redirect 301 /knowledge/foods/general-nutrition/general-science/healthy-aging-solutions /knowledge/diseases/health-conditions/metabolic/healthy-aging-solutions
+Redirect 301 /knowledge/foods/general-nutrition/general-science/hereditary-fructose-intolerance /knowledge/diseases/health-conditions/metabolic/hereditary-fructose-intolerance
+Redirect 301 /knowledge/foods/general-nutrition/general-science/high-blood-sugar /knowledge/diseases/health-conditions/metabolic/high-blood-sugar
+Redirect 301 /knowledge/foods/general-nutrition/general-science/high-cholesterol /knowledge/diseases/health-conditions/metabolic/high-cholesterol
+Redirect 301 /knowledge/foods/general-nutrition/general-science/hyperthyroid-protocol /knowledge/diseases/health-conditions/metabolic/hyperthyroid-protocol
+Redirect 301 /knowledge/foods/general-nutrition/general-science/hypothermia /knowledge/diseases/health-conditions/metabolic/hypothermia
+Redirect 301 /knowledge/foods/general-nutrition/general-science/insulin-resistance-mgmt /knowledge/diseases/health-conditions/metabolic/insulin-resistance-mgmt
+Redirect 301 /knowledge/foods/general-nutrition/general-science/jet-lag /knowledge/diseases/health-conditions/metabolic/jet-lag
+Redirect 301 /knowledge/foods/general-nutrition/general-science/kidney-cancer /knowledge/diseases/health-conditions/metabolic/kidney-cancer
+Redirect 301 /knowledge/foods/general-nutrition/general-science/lactose-intolerance /knowledge/diseases/health-conditions/metabolic/lactose-intolerance
+Redirect 301 /knowledge/foods/general-nutrition/general-science/liver-cancer /knowledge/diseases/health-conditions/metabolic/liver-cancer
+Redirect 301 /knowledge/foods/general-nutrition/general-science/liver-encephalopathy /knowledge/diseases/health-conditions/metabolic/liver-encephalopathy
+Redirect 301 /knowledge/foods/general-nutrition/general-science/low-blood-sugar /knowledge/diseases/health-conditions/metabolic/low-blood-sugar
+Redirect 301 /knowledge/foods/general-nutrition/general-science/metabolic-syndrome /knowledge/diseases/health-conditions/metabolic/metabolic-syndrome
+Redirect 301 /knowledge/foods/general-nutrition/general-science/non-alcoholic-fatty-liver /knowledge/diseases/health-conditions/metabolic/non-alcoholic-fatty-liver
+Redirect 301 /knowledge/foods/general-nutrition/general-science/obesity /knowledge/diseases/health-conditions/metabolic/obesity
+Redirect 301 /knowledge/foods/general-nutrition/general-science/orthorexia /knowledge/diseases/health-conditions/metabolic/orthorexia
+Redirect 301 /knowledge/foods/general-nutrition/general-science/osteopenia /knowledge/diseases/health-conditions/metabolic/osteopenia
+Redirect 301 /knowledge/foods/general-nutrition/general-science/pku /knowledge/diseases/health-conditions/metabolic/pku
+Redirect 301 /knowledge/foods/general-nutrition/general-science/pre-diabetes-care /knowledge/diseases/health-conditions/metabolic/pre-diabetes-care
+Redirect 301 /knowledge/foods/general-nutrition/general-science/pre-diabetes /knowledge/diseases/health-conditions/metabolic/pre-diabetes
+Redirect 301 /knowledge/foods/general-nutrition/general-science/shift-work-disorder /knowledge/diseases/health-conditions/metabolic/shift-work-disorder
+Redirect 301 /knowledge/foods/general-nutrition/general-science/sibo-gut /knowledge/diseases/health-conditions/metabolic/sibo-gut
+Redirect 301 /knowledge/foods/general-nutrition/general-science/smokers-cough /knowledge/diseases/health-conditions/metabolic/smokers-cough
+Redirect 301 /knowledge/foods/general-nutrition/general-science/thyroid-optimization /knowledge/diseases/health-conditions/metabolic/thyroid-optimization
+Redirect 301 /knowledge/foods/general-nutrition/general-science/type-2-diabetes-foot /knowledge/diseases/health-conditions/metabolic/type-2-diabetes-foot
+Redirect 301 /knowledge/foods/general-nutrition/general-science/type-3c-diabetes /knowledge/diseases/health-conditions/metabolic/type-3c-diabetes
+Redirect 301 /knowledge/foods/general-nutrition/general-science/wilsons-disease /knowledge/diseases/health-conditions/metabolic/wilsons-disease
+Redirect 301 /knowledge/foods/general-nutrition/general-science/arthritis-support /knowledge/diseases/health-conditions/musculoskeletal/arthritis-support
+Redirect 301 /knowledge/foods/general-nutrition/general-science/back-pain /knowledge/diseases/health-conditions/musculoskeletal/back-pain
+Redirect 301 /knowledge/foods/general-nutrition/general-science/back-spine-health /knowledge/diseases/health-conditions/musculoskeletal/back-spine-health
+Redirect 301 /knowledge/foods/general-nutrition/general-science/fibromyalgia-pain-management /knowledge/diseases/health-conditions/musculoskeletal/fibromyalgia-pain-management
+Redirect 301 /knowledge/foods/general-nutrition/general-science/geriatric-strength-nutrition /knowledge/diseases/health-conditions/musculoskeletal/geriatric-strength-nutrition
+Redirect 301 /knowledge/foods/general-nutrition/general-science/hashimotos /knowledge/diseases/health-conditions/musculoskeletal/hashimotos
+Redirect 301 /knowledge/foods/general-nutrition/general-science/heelarch-pain /knowledge/diseases/health-conditions/musculoskeletal/heelarch-pain
+Redirect 301 /knowledge/foods/general-nutrition/general-science/joint-pain-relief /knowledge/diseases/health-conditions/musculoskeletal/joint-pain-relief
+Redirect 301 /knowledge/foods/general-nutrition/general-science/kidney-stones /knowledge/diseases/health-conditions/musculoskeletal/kidney-stones
+Redirect 301 /knowledge/foods/general-nutrition/general-science/lupus /knowledge/diseases/health-conditions/musculoskeletal/lupus
+Redirect 301 /knowledge/foods/general-nutrition/general-science/muscle-cramps /knowledge/diseases/health-conditions/musculoskeletal/muscle-cramps
+Redirect 301 /knowledge/foods/general-nutrition/general-science/muscle-recovery /knowledge/diseases/health-conditions/musculoskeletal/muscle-recovery
+Redirect 301 /knowledge/foods/general-nutrition/general-science/osteoarthritis /knowledge/diseases/health-conditions/musculoskeletal/osteoarthritis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/osteoporosis-prevention /knowledge/diseases/health-conditions/musculoskeletal/osteoporosis-prevention
+Redirect 301 /knowledge/foods/general-nutrition/general-science/plantar-fasciitis /knowledge/diseases/health-conditions/musculoskeletal/plantar-fasciitis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/pre-osteoporosis /knowledge/diseases/health-conditions/musculoskeletal/pre-osteoporosis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/rheumatoid-arthritis /knowledge/diseases/health-conditions/musculoskeletal/rheumatoid-arthritis
+Redirect 301 /knowledge/foods/general-nutrition/general-science/sarcopenia /knowledge/diseases/health-conditions/musculoskeletal/sarcopenia
+Redirect 301 /knowledge/foods/general-nutrition/general-science/singers-nodules /knowledge/diseases/health-conditions/musculoskeletal/singers-nodules
+Redirect 301 /knowledge/foods/general-nutrition/general-science/tarsal-tunnel /knowledge/diseases/health-conditions/musculoskeletal/tarsal-tunnel
+Redirect 301 /knowledge/foods/general-nutrition/general-science/vegan-alternatives /knowledge/diseases/health-conditions/vegan/vegan-alternatives
+Redirect 301 /knowledge/foods/general-nutrition/general-science/vegan-beginners /knowledge/diseases/health-conditions/vegan/vegan-beginners
+Redirect 301 /knowledge/foods/general-nutrition/general-science/vegan-lifestyle /knowledge/diseases/health-conditions/vegan/vegan-lifestyle
+Redirect 301 /knowledge/foods/general-nutrition/general-science/vegan-news /knowledge/diseases/health-conditions/vegan/vegan-news
+Redirect 301 /knowledge/foods/general-nutrition/general-science/vegan-nutrition /knowledge/diseases/health-conditions/vegan/vegan-nutrition
+Redirect 301 /knowledge/foods/general-nutrition/general-science/vegan-recipes /knowledge/diseases/health-conditions/vegan/vegan-recipes
+Redirect 301 /knowledge/foods/general-nutrition/general-science/vegan-reviews /knowledge/diseases/health-conditions/vegan/vegan-reviews
+Redirect 301 /knowledge/foods/general-nutrition/general-science/vegan-travel /knowledge/diseases/health-conditions/vegan/vegan-travel
+Redirect 301 /knowledge/foods/general-nutrition/general-science/belly-fat-reduction /knowledge/diseases/health-conditions/weight/belly-fat-reduction
+Redirect 301 /knowledge/foods/general-nutrition/general-science/weight-loss-women /knowledge/diseases/health-conditions/weight/weight-loss-women
+Redirect 301 /knowledge/foods/general-nutrition/general-science/baby-tooth-decay /knowledge/diseases/health-conditions/womens/baby-tooth-decay
+Redirect 301 /knowledge/foods/general-nutrition/general-science/breast-cancer /knowledge/diseases/health-conditions/womens/breast-cancer
+Redirect 301 /knowledge/foods/general-nutrition/general-science/endometrial-cancer /knowledge/diseases/health-conditions/womens/endometrial-cancer
+Redirect 301 /knowledge/foods/general-nutrition/general-science/erectile-dysfunction /knowledge/diseases/health-conditions/womens/erectile-dysfunction
+Redirect 301 /knowledge/foods/general-nutrition/general-science/fertility-hormone-support /knowledge/diseases/health-conditions/womens/fertility-hormone-support
+Redirect 301 /knowledge/foods/general-nutrition/general-science/fetal-alcohol-syndrome /knowledge/diseases/health-conditions/womens/fetal-alcohol-syndrome
+Redirect 301 /knowledge/foods/general-nutrition/general-science/hormonal-imbalance /knowledge/diseases/health-conditions/womens/hormonal-imbalance
+Redirect 301 /knowledge/foods/general-nutrition/general-science/infertility /knowledge/diseases/health-conditions/womens/infertility
+Redirect 301 /knowledge/foods/general-nutrition/general-science/low-libido /knowledge/diseases/health-conditions/womens/low-libido
+Redirect 301 /knowledge/foods/general-nutrition/general-science/menopause-hormone-support /knowledge/diseases/health-conditions/womens/menopause-hormone-support
+Redirect 301 /knowledge/foods/general-nutrition/general-science/menopause-symptoms /knowledge/diseases/health-conditions/womens/menopause-symptoms
+Redirect 301 /knowledge/foods/general-nutrition/general-science/menopause-weight-mgmt /knowledge/diseases/health-conditions/womens/menopause-weight-mgmt
+Redirect 301 /knowledge/foods/general-nutrition/general-science/pcos-balance /knowledge/diseases/health-conditions/womens/pcos-balance
+Redirect 301 /knowledge/foods/general-nutrition/general-science/pcos-weight-diet /knowledge/diseases/health-conditions/womens/pcos-weight-diet
+Redirect 301 /knowledge/foods/general-nutrition/general-science/pms-pmdd /knowledge/diseases/health-conditions/womens/pms-pmdd
+Redirect 301 /knowledge/foods/general-nutrition/general-science/pre-eclampsia /knowledge/diseases/health-conditions/womens/pre-eclampsia
+Redirect 301 /knowledge/foods/general-nutrition/general-science/pregnancy-nutrition-support /knowledge/diseases/health-conditions/womens/pregnancy-nutrition-support
+Redirect 301 /knowledge/foods/general-nutrition/general-science/spina-bifida /knowledge/diseases/health-conditions/womens/spina-bifida
+
+# Legacy CamelCase and Spaced Folder Mappings
+Redirect 301 "/knowledge/Kidney Diseases" "/knowledge/diseases/kidney-diseases"
+Redirect 301 "/knowledge/Cardiovascular Disease" "/knowledge/diseases/cardiovascular-disease"
+Redirect 301 "/knowledge/Neurological Disorders" "/knowledge/diseases/neurological-disorders"
+Redirect 301 "/knowledge/Endocrine Disorders" "/knowledge/diseases/endocrine-disorders"
+Redirect 301 "/knowledge/Respiratory Diseases" "/knowledge/diseases/respiratory-diseases"
+Redirect 301 "/knowledge/Malignant Neoplasms" "/knowledge/diseases/malignant-neoplasms"
+
+# Planned classes that don't have their own hub yet — route to the closest live hub.
+# NOTE: /foods now exists as a real hub, so it is intentionally NOT redirected here.
+Redirect 301 /fruit               /knowledge/fruits
+Redirect 301 /fruits              /knowledge/fruits
+Redirect 301 /nutrients           /knowledge/nutrient-database
+Redirect 301 /recipes-list        /recipes
+Redirect 301 /calculators         /tools
+Redirect 301 /calculator          /tools
+
+# --- /foods/fruits/* retirement (2026-07-15, round 5) -----------------------
+# /knowledge/fruits/... is now canonical (owner decision). These 301s are the
+# production-grade redirect; the old Astro pages also carry a meta-refresh +
+# canonical tag as defense-in-depth. All 12 targets verified to exist in the build.
+Redirect 301 /foods/fruits/mango        /knowledge/fruits/tropical-exotic-fruits/creamy-dense-tropicals/mango
+Redirect 301 /foods/fruits/banana       /knowledge/fruits/tropical-exotic-fruits/creamy-dense-tropicals/banana
+Redirect 301 /foods/fruits/guava        /knowledge/fruits/tropical-exotic-fruits/creamy-dense-tropicals/guava
+Redirect 301 /foods/fruits/papaya       /knowledge/fruits/tropical-exotic-fruits/creamy-dense-tropicals/papaya
+Redirect 301 /foods/fruits/pomegranate  /knowledge/fruits/berries-aggregate-fruits/aggregate-fruits/pomegranate
+Redirect 301 /foods/fruits/amla         /knowledge/fruits/tropical-exotic-fruits/creamy-dense-tropicals/amla
+Redirect 301 /foods/fruits/apple        /knowledge/fruits/pome-stone-fruits/drupes/apple
+Redirect 301 /foods/fruits/watermelon   /knowledge/fruits/melons/watermelons/watermelon
+Redirect 301 /foods/fruits/orange       /knowledge/fruits/citrus-fruits/sweet-citrus/orange
+Redirect 301 /foods/fruits/jackfruit    /knowledge/fruits/tropical-exotic-fruits/creamy-dense-tropicals/jackfruit
+Redirect 301 /foods/fruits/pineapple    /knowledge/fruits/tropical-exotic-fruits/creamy-dense-tropicals/pineapple
+Redirect 301 /foods/fruits/sapota-chikoo /knowledge/fruits/tropical-exotic-fruits/creamy-dense-tropicals/sapota-chikoo
+Redirect 301 /foods/fruits              /knowledge/fruits
+
+# Common high-intent disease shortcuts → the canonical condition page
+Redirect 301 /diabetes            /condition/diabetes-reversal
+Redirect 301 /type-2-diabetes     /condition/diabetes-reversal
+Redirect 301 /pcos                /condition/pcod-pcos
+Redirect 301 /pcod                /condition/pcod-pcos
+Redirect 301 /fatty-liver         /condition/masld
+Redirect 301 /masld               /condition/masld
+Redirect 301 /insulin-resistance  /condition/insulin-resistance
+Redirect 301 /thyroid             /condition/thyroid-dysfunction
+Redirect 301 /hypertension        /condition/hypertension
+
+# --- Browser & CDN Caching (LiteSpeed/Apache mod_expires) --------------------
+<IfModule mod_expires.c>
+  ExpiresActive On
+  
+  # Default caching rule (2 days)
+  ExpiresDefault "access plus 2 days"
+  
+  # Static assets - CSS and JS (content-hashed by Astro, safe to cache long-term)
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType text/javascript "access plus 1 month"
+  
+  # Media assets (images, icons, vectors)
+  ExpiresByType image/jpg "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType image/x-icon "access plus 1 year"
+  
+  # Font files
+  ExpiresByType font/ttf "access plus 1 year"
+  ExpiresByType font/otf "access plus 1 year"
+  ExpiresByType font/woff "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType application/font-woff "access plus 1 year"
+</IfModule>
+
+# --- Cache-Control Headers (LiteSpeed/Apache mod_headers) -------------------
+<IfModule mod_headers.c>
+  # 1. Content-hashed static assets (CSS, JS, Fonts) - cache forever, never revalidate
+  <FilesMatch "\.(css|js|woff|woff2|otf|ttf)$">
+    Header set Cache-Control "max-age=31536000, public, immutable"
+  </FilesMatch>
+
+  # 2. Media assets (images, icons) - cache long-term
+  <FilesMatch "\.(jpg|jpeg|png|gif|webp|svg|ico)$">
+    Header set Cache-Control "max-age=31536000, public"
+  </FilesMatch>
+
+  # 3. HTML & API responses - must validate before serving (instant updates after deploy)
+  <FilesMatch "\.(html|xml|json)$">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+  </FilesMatch>
+</IfModule>

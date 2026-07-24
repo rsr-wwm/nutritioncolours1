@@ -1,0 +1,18 @@
+# NutritionColours Security Policy
+# RFC 9116 - security.txt
+# https://securitytxt.org/
+
+Contact: mailto:info@nutritioncolours.com
+Preferred-Languages: en, hi, mr
+Canonical: https://nutritioncolours.com/.well-known/security.txt
+Policy: https://nutritioncolours.com/legal/responsible-disclosure
+Expires: 2027-07-04T00:00:00.000Z
+
+# Our clinical content is cryptographically signed.
+# Public key: https://nutritioncolours.com/.well-known/content-signing-key.pem
+# Verification: RSA-SHA256 signatures in <meta name="content-signature"> tags
+
+# AI Agent Discovery
+API: https://nutritioncolours.com/openapi.json
+AI-Documentation: https://nutritioncolours.com/llms.txt
+AI-Trust-Profile: https://nutritioncolours.com/.well-known/trust-profile.json

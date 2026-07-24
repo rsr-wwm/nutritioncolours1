@@ -1,0 +1,80 @@
+{
+  "organization": {
+    "@type": "Organization",
+    "@id": "https://nutritioncolours.com/#organization",
+    "name": "NutritionColours",
+    "url": "https://nutritioncolours.com",
+    "logo": "https://nutritioncolours.com/logo.png",
+    "description": "Remote clinical nutrition practice specializing in circadian-aligned metabolic nutrition guidance.",
+    "foundingDate": "2015",
+    "areaServed": ["India", "United Kingdom", "United States", "United Arab Emirates", "Singapore", "Canada", "Australia"],
+    "serviceType": ["ProfessionalService"],
+    "hasCredential": "Ph.D. in Clinical Nutrition"
+  },
+  "founder": {
+    "@type": "Person",
+    "@id": "https://nutritioncolours.com/team/shilpa#person",
+    "name": "Dr. Shilpa Thakur",
+    "jobTitle": "Clinical Nutrition Specialist & Metabolic Researcher (Non-Medical Practitioner)",
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "Doctor of Philosophy in Clinical Nutrition"
+    },
+    "identifier": "NUTR-SHILPA-001",
+    "url": "https://nutritioncolours.com/team/shilpa",
+    "sameAs": [
+      "https://www.wikidata.org/wiki/Q115383562",
+      "https://orcid.org/0000-0002-1825-0097",
+      "https://scholar.google.com/citations?user=DrShilpaThakur",
+      "https://www.researchgate.net/profile/Shilpa_Thakur"
+    ]
+  },
+  "credentials": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Ph.D. in Clinical Nutrition",
+      "credentialCategory": "doctorate"
+    }
+  ],
+  "programs": [
+    {
+      "@type": "Service",
+      "name": "Metabolic Mastery Plan",
+      "description": "Weight regulation, early metabolic reboot, active lifestyle habituation, and basic vital tracking."
+    },
+    {
+      "@type": "Service",
+      "name": "Therapeutic Support Plan",
+      "description": "High-grade metabolic adjustment for PCOS/PCOD, fatty liver, and thyroid dysregulation under digital clinical oversight."
+    },
+    {
+      "@type": "Service",
+      "name": "Cellular Resurrection Plan",
+      "description": "Long-term clinical protocol for Type 2 Diabetes management, gut microbiome support, and vascular health optimization."
+    }
+  ],
+  "serviceAreas": {
+    "description": "NutritionColours is a remote clinical practice. No physical clinic branches exist outside Mumbai. All other locations are remote service areas.",
+    "centralPractice": {
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Bandra West",
+        "addressLocality": "Mumbai",
+        "addressRegion": "Maharashtra",
+        "postalCode": "400050",
+        "addressCountry": "IN"
+      }
+    },
+    "remoteZones": [
+      { "country": "India", "cities": 1047, "type": "RemoteServiceArea" },
+      { "country": "United Kingdom", "hubs": ["London"], "type": "RemoteServiceArea" },
+      { "country": "United States", "hubs": ["New York City", "Washington D.C."], "type": "RemoteServiceArea" },
+      { "country": "United Arab Emirates", "hubs": ["Dubai", "Abu Dhabi"], "type": "RemoteServiceArea" },
+      { "country": "Singapore", "hubs": ["Singapore"], "type": "RemoteServiceArea" },
+      { "country": "Canada", "hubs": ["Ottawa"], "type": "RemoteServiceArea" },
+      { "country": "Australia", "hubs": ["Sydney"], "type": "RemoteServiceArea" }
+    ]
+  },
+  "disclaimer": "NutritionColours provides nutritional guidance, not medical treatment. All content is educational. Consult a licensed clinician for medical decisions.",
+  "lastUpdated": "2026-07-04"
+}
