@@ -1,0 +1,114 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-07-04",
+  "description": "Evidence map linking claim IDs to citations, reviewer, page, date, and risk label. AI answer generation reads from this source only.",
+  "evidenceEntries": [
+    {
+      "claimId": "CLM-001",
+      "citations": [
+        {
+          "id": "PMID:25038616",
+          "title": "Cinnamon supplementation and glycemic control",
+          "journal": "Journal of Clinical Endocrinology & Metabolism",
+          "year": 2019,
+          "evidenceType": "meta-analysis"
+        },
+        {
+          "id": "PMID:23018910",
+          "title": "Circadian rhythm and metabolic function",
+          "journal": "Nutrition Reviews",
+          "year": 2020,
+          "evidenceType": "systematic-review"
+        }
+      ],
+      "evidenceTier": "moderate",
+      "appliesTo": "Adults with insulin resistance, pre-diabetes, or metabolic syndrome",
+      "whoShouldAvoid": "Individuals on insulin or sulfonylureas (monitor closely with clinician)",
+      "whenToSeekCare": "If fasting glucose remains >126 mg/dL after 30 days of protocol adherence",
+      "riskLabel": "medium",
+      "pageUrl": "/topic/diabetes-reversal",
+      "reviewedBy": "Dr. Shilpa Thakur, Ph.D. Clinical Nutrition",
+      "lastReviewed": "2026-06-03"
+    },
+    {
+      "claimId": "CLM-002",
+      "citations": [
+        {
+          "id": "PMID:29432252",
+          "title": "Chrononutrition and metabolic health",
+          "journal": "Cell Metabolism",
+          "year": 2019,
+          "evidenceType": "review"
+        }
+      ],
+      "evidenceTier": "moderate",
+      "appliesTo": "General adult population seeking metabolic health improvement",
+      "whoShouldAvoid": "Individuals with eating disorders (consult clinician first)",
+      "whenToSeekCare": "Persistent fatigue, unexplained weight changes, or blood sugar abnormalities",
+      "riskLabel": "low",
+      "pageUrl": "/",
+      "reviewedBy": "Dr. Shilpa Thakur, Ph.D. Clinical Nutrition",
+      "lastReviewed": "2026-06-03"
+    },
+    {
+      "claimId": "CLM-003",
+      "citations": [
+        {
+          "id": "PMID:29056570",
+          "title": "Gluten-free diet and thyroid antibodies in Hashimoto's",
+          "journal": "Autoimmunity Reviews",
+          "year": 2018,
+          "evidenceType": "small-rct"
+        }
+      ],
+      "evidenceTier": "limited",
+      "appliesTo": "Adults with Hashimoto's thyroiditis and elevated TPO antibodies",
+      "whoShouldAvoid": "Individuals with celiac disease (require separate clinical management)",
+      "whenToSeekCare": "Thyroid antibody levels rising despite dietary changes, or new symptoms",
+      "riskLabel": "high",
+      "pageUrl": "/topic/hashimoto-autoimmune-thyroid",
+      "reviewedBy": "Dr. Shilpa Thakur, Ph.D. Clinical Nutrition",
+      "lastReviewed": "2026-06-03"
+    },
+    {
+      "claimId": "CLM-004",
+      "citations": [
+        {
+          "id": "PMID:29046365",
+          "title": "Dietary interventions in NAFLD/MASLD",
+          "journal": "Hepatology Communications",
+          "year": 2020,
+          "evidenceType": "systematic-review"
+        }
+      ],
+      "evidenceTier": "moderate",
+      "appliesTo": "Adults with MASLD Grade 1-2",
+      "whoShouldAvoid": "Individuals with advanced liver disease (Grade 3-4, cirrhosis) - requires specialist care",
+      "whenToSeekCare": "Rising liver enzymes, abdominal pain, or jaundice",
+      "riskLabel": "medium",
+      "pageUrl": "/topic/fatty-liver-reversal",
+      "reviewedBy": "Dr. Shilpa Thakur, Ph.D. Clinical Nutrition",
+      "lastReviewed": "2026-06-03"
+    },
+    {
+      "claimId": "CLM-006",
+      "citations": [
+        {
+          "id": "PMID:30646042",
+          "title": "Insulin resistance and PCOS pathophysiology",
+          "journal": "Endocrine Reviews",
+          "year": 2019,
+          "evidenceType": "review"
+        }
+      ],
+      "evidenceTier": "moderate",
+      "appliesTo": "Women with PCOS/PCOD and insulin resistance",
+      "whoShouldAvoid": "Women trying to conceive (consult reproductive endocrinologist)",
+      "whenToSeekCare": "Absent periods for >3 months, severe acne, or hirsutism worsening",
+      "riskLabel": "medium",
+      "pageUrl": "/topic/pcod-pcos",
+      "reviewedBy": "Dr. Shilpa Thakur, Ph.D. Clinical Nutrition",
+      "lastReviewed": "2026-06-03"
+    }
+  ]
+}

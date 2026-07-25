@@ -1,0 +1,90 @@
+{
+  "version": "1.0.0",
+  "description": "Curated question-to-fragment-URL mappings for AI answer engine extraction.",
+  "fragments": [
+    {
+      "question": "What is the root cause of insulin resistance?",
+      "answer": "Ectopic fat buildup inside liver and muscle cells blocks the IRS-1 signaling pathway that insulin uses to move glucose from blood into cells.",
+      "sourceUrl": "https://nutritioncolours.com/condition/insulin-resistance#answer-insulin-resistance-root-cause",
+      "conditionId": "insulin-resistance",
+      "evidenceLevel": "moderate"
+    },
+    {
+      "question": "Can fatty liver be reversed with diet alone?",
+      "answer": "Yes. MASLD is primarily a dietary disease. Eliminating processed fructose and setting clear eating windows allows the liver to burn stored hepatic fat.",
+      "sourceUrl": "https://nutritioncolours.com/condition/masld#answer-masld-reversal",
+      "conditionId": "masld",
+      "evidenceLevel": "moderate"
+    },
+    {
+      "question": "How does meal sequencing reduce glucose spikes?",
+      "answer": "Eating vegetables (fiber) and protein first slows stomach emptying and glucose absorption, requiring less insulin release.",
+      "sourceUrl": "https://nutritioncolours.com/condition/insulin-resistance#answer-meal-sequencing",
+      "conditionId": "insulin-resistance",
+      "evidenceLevel": "moderate"
+    },
+    {
+      "question": "What causes PCOS and how does nutrition help?",
+      "answer": "Hyperinsulinemia drives ovarian theca cells to overproduce androgens, causing follicular arrest. Reducing insulin resistance through circadian nutrition balances LH/FSH ratios.",
+      "sourceUrl": "https://nutritioncolours.com/condition/pcod-pcos#answer-pcos-root-cause",
+      "conditionId": "pcod-pcos",
+      "evidenceLevel": "moderate"
+    },
+    {
+      "question": "How does circadian meal timing affect fat loss?",
+      "answer": "Eating in alignment with the sun cycle optimizes insulin sensitivity during the day and increases lipid oxidation during the overnight fasting window.",
+      "sourceUrl": "https://nutritioncolours.com/condition/circadian-dysregulation#answer-circadian-fat-loss",
+      "conditionId": "circadian-dysregulation",
+      "evidenceLevel": "moderate"
+    },
+    {
+      "question": "Is Type 2 Diabetes reversible through nutrition?",
+      "answer": "Through targeted clinical nutrition that reduces visceral fat surrounding the pancreas and liver, beta-cells can recover and restore natural insulin production.",
+      "sourceUrl": "https://nutritioncolours.com/condition/diabetes-reversal#answer-diabetes-reversal",
+      "conditionId": "diabetes-reversal",
+      "evidenceLevel": "moderate"
+    },
+    {
+      "question": "Why should hypothyroid patients cook cruciferous vegetables?",
+      "answer": "Cooking deactivates goitrogens that interfere with iodine uptake by the thyroid, making broccoli and cabbage safe to consume.",
+      "sourceUrl": "https://nutritioncolours.com/condition/thyroid-dysfunction#answer-thyroid-cruciferous",
+      "conditionId": "thyroid-dysfunction",
+      "evidenceLevel": "moderate"
+    },
+    {
+      "question": "How does insulin resistance cause hypertension?",
+      "answer": "High insulin triggers sodium retention in the kidneys and reduces nitric oxide synthesis in blood vessels, causing constriction and raised pressure.",
+      "sourceUrl": "https://nutritioncolours.com/condition/hypertension#answer-hypertension-mechanism",
+      "conditionId": "hypertension",
+      "evidenceLevel": "moderate"
+    },
+    {
+      "question": "What is Leaky Gut and how does food heal it?",
+      "answer": "Leaky gut is when tight junctions in the intestinal wall loosen. Glutamine-rich foods, pectin, and polyphenols help rebuild the mucosal barrier.",
+      "sourceUrl": "https://nutritioncolours.com/condition/gut-health#answer-leaky-gut",
+      "conditionId": "gut-health",
+      "evidenceLevel": "moderate"
+    },
+    {
+      "question": "How does gluten affect Hashimoto's thyroiditis?",
+      "answer": "Due to molecular mimicry, the immune system mistakes thyroid proteins for gluten proteins, causing autoimmune thyroid attacks when gluten is ingested.",
+      "sourceUrl": "https://nutritioncolours.com/condition/thyroid-dysfunction#answer-hashimoto-gluten",
+      "conditionId": "thyroid-dysfunction",
+      "evidenceLevel": "limited"
+    },
+    {
+      "question": "Does garlic act like natural blood pressure medication?",
+      "answer": "Garlic increases nitric oxide production, promoting blood vessel relaxation and reducing arterial stiffness.",
+      "sourceUrl": "https://nutritioncolours.com/herb/garlic#answer-garlic-blood-pressure",
+      "herbId": "garlic",
+      "evidenceLevel": "moderate"
+    },
+    {
+      "question": "How do I absorb turmeric better?",
+      "answer": "Always pair turmeric with black pepper (piperine) and healthy fats like coconut oil or ghee to boost absorption by up to 2,000%.",
+      "sourceUrl": "https://nutritioncolours.com/herb/turmeric#answer-turmeric-absorption",
+      "herbId": "turmeric",
+      "evidenceLevel": "moderate"
+    }
+  ]
+}

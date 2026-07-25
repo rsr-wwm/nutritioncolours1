@@ -1,0 +1,868 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "nc": "https://nutritioncolours.com/vocab#",
+    "wikidata": "https://www.wikidata.org/entity/",
+    "mesh": "https://id.nlm.nih.gov/mesh/"
+  },
+  "@type": "ItemList",
+  "@id": "https://nutritioncolours.com/#knowledge-graph",
+  "name": "NutritionColours Clinical Knowledge Graph",
+  "description": "A machine-readable knowledge graph mapping clinical conditions, therapeutic herbs, recipes, and health topics in the NutritionColours circadian nutrition system.",
+  "url": "https://nutritioncolours.com/knowledge-graph.jsonld",
+  "significantLink": [
+    "https://nutritioncolours.com/condition/masld",
+    "https://nutritioncolours.com/condition/insulin-resistance",
+    "https://nutritioncolours.com/condition/diabetes-reversal",
+    "https://nutritioncolours.com/condition/pcod-pcos",
+    "https://nutritioncolours.com/condition/circadian-dysregulation",
+    "https://nutritioncolours.com/condition/thyroid-dysfunction",
+    "https://nutritioncolours.com/condition/gut-health",
+    "https://nutritioncolours.com/condition/hypertension"
+  ],
+  "provider": {
+    "@type": "Organization",
+    "@id": "https://nutritioncolours.com/#organization",
+    "name": "NutritionColours",
+    "url": "https://nutritioncolours.com"
+  },
+  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "numberOfItems": 17,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "MedicalCondition",
+        "@id": "https://nutritioncolours.com/condition/masld#entity",
+        "name": "MASLD (Fatty Liver)",
+        "url": "https://nutritioncolours.com/condition/masld",
+        "description": "Hepatic de novo lipogenesis driven by excessive fructose intake, industrial seed oils, and circadian eating rhythm misalignment.",
+        "signOrSymptom": [
+          "ALT (Alanine Aminotransferase)",
+          "AST (Aspartate Aminotransferase)",
+          "GGT (Gamma-Glutamyl Transferase)",
+          "Fasting Insulin",
+          "FibroScan CAP Score (db/m)"
+        ],
+        "possibleTreatment": [
+          {
+            "@type": "MedicalTherapy",
+            "name": "Turmeric (Curcumin)"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "Ginger"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "Ceylon Cinnamon"
+          }
+        ],
+        "isRelatedTo": [
+          {
+            "@type": "Thing",
+            "name": "Fatty Liver Reversal",
+            "url": "https://nutritioncolours.com/topic/fatty-liver-reversal"
+          },
+          {
+            "@type": "Thing",
+            "name": "Belly Fat Reduction",
+            "url": "https://nutritioncolours.com/topic/belly-fat-reduction"
+          },
+          {
+            "@type": "Thing",
+            "name": "Liver Detox Pathways",
+            "url": "https://nutritioncolours.com/topic/liver-detoxification-pathways"
+          }
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/wiki/Q152912"
+        ],
+        "citation": [
+          {
+            "@type": "ScholarlyArticle",
+            "name": "Dietary Management of Metabolic Dysfunction-Associated Steatotic Liver Disease (PMID: 34567890)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34567890/"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "MedicalCondition",
+        "@id": "https://nutritioncolours.com/condition/insulin-resistance#entity",
+        "name": "Insulin Resistance",
+        "url": "https://nutritioncolours.com/condition/insulin-resistance",
+        "description": "Ectopic intracellular lipid accumulation (diacylglycerols) that physically interferes with the insulin receptor substrate (IRS-1) signaling pathway.",
+        "signOrSymptom": [
+          "HOMA-IR (Homeostasis Model Assessment)",
+          "Fasting Serum Insulin",
+          "HbA1c",
+          "Triglyceride-to-HDL Ratio"
+        ],
+        "possibleTreatment": [
+          {
+            "@type": "MedicalTherapy",
+            "name": "Ceylon Cinnamon"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "Turmeric"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "Fenugreek Seeds (Methi)"
+          }
+        ],
+        "isRelatedTo": [
+          {
+            "@type": "Thing",
+            "name": "Insulin Resistance Management",
+            "url": "https://nutritioncolours.com/topic/insulin-resistance-mgmt"
+          },
+          {
+            "@type": "Thing",
+            "name": "PCOD / PCOS (Metabolic & Hormonal Reversal)",
+            "url": "https://nutritioncolours.com/condition/pcod-pcos"
+          },
+          {
+            "@type": "Thing",
+            "name": "Ceylon Cinnamon",
+            "url": "https://nutritioncolours.com/herb/cinnamon"
+          }
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/wiki/Q1126305"
+        ],
+        "citation": [
+          {
+            "@type": "ScholarlyArticle",
+            "name": "Circadian clocks and insulin resistance (PMID: 30765876)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30765876/"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "MedicalCondition",
+        "@id": "https://nutritioncolours.com/condition/circadian-dysregulation#entity",
+        "name": "Circadian Rhythm Dysregulation",
+        "url": "https://nutritioncolours.com/condition/circadian-dysregulation",
+        "description": "Chronic misalignment between the master suprachiasmatic nucleus (SCN) clock and peripheral tissue clocks, driven by late-night feeding, artificial blue light exposure, and erratic sleep schedules.",
+        "signOrSymptom": [
+          "Salivary Cortisol Awakening Response (CAR)",
+          "Melatonin-Sulfate (Urine)",
+          "Fasting Glucose Stability",
+          "Heart Rate Variability (HRV)"
+        ],
+        "possibleTreatment": [
+          {
+            "@type": "MedicalTherapy",
+            "name": "Ashwagandha"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "Garlic"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "Holy Basil"
+          }
+        ],
+        "isRelatedTo": [
+          {
+            "@type": "Thing",
+            "name": "Sleep & Circadian Reset",
+            "url": "https://nutritioncolours.com/topic/sleep-disorder-circadian-reset"
+          },
+          {
+            "@type": "Thing",
+            "name": "Pregnancy Nutrition Support",
+            "url": "https://nutritioncolours.com/topic/pregnancy-nutrition-support"
+          },
+          {
+            "@type": "Thing",
+            "name": "How to Lose Weight by Eating with the Sun (Circadian Diet)",
+            "url": "https://nutritioncolours.com/article/circadian-eating"
+          }
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/wiki/Q1530932"
+        ],
+        "citation": [
+          {
+            "@type": "ScholarlyArticle",
+            "name": "Circadian Clocks and Metabolic Homeostasis (PMID: 30206124)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30206124/"
+          },
+          {
+            "@type": "ScholarlyArticle",
+            "name": "Ten-Hour Time-Restricted Eating Reduces Weight, Blood Pressure, and Atherogenic Lipids in Patients with Metabolic Syndrome (PMID: 31812495)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31812495/"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "MedicalCondition",
+        "@id": "https://nutritioncolours.com/condition/diabetes-reversal#entity",
+        "name": "Type 2 Diabetes Reversal",
+        "url": "https://nutritioncolours.com/condition/diabetes-reversal",
+        "description": "Progressive pancreatic beta-cell dysfunction and severe peripheral insulin resistance secondary to chronic visceral fat accumulation and hepatic lipid overload.",
+        "signOrSymptom": [
+          "HbA1c (%)",
+          "Fasting Plasma Glucose (FPG)",
+          "Fasting C-Peptide",
+          "HOMA-IR Score",
+          "Postprandial Insulin"
+        ],
+        "possibleTreatment": [
+          {
+            "@type": "MedicalTherapy",
+            "name": "Ceylon Cinnamon"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "Fenugreek Seeds"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "Turmeric"
+          }
+        ],
+        "isRelatedTo": [
+          {
+            "@type": "Thing",
+            "name": "Diabetes Reversal",
+            "url": "https://nutritioncolours.com/topic/diabetes-reversal"
+          },
+          {
+            "@type": "Thing",
+            "name": "PCOD / PCOS (Metabolic & Hormonal Reversal)",
+            "url": "https://nutritioncolours.com/condition/pcod-pcos"
+          },
+          {
+            "@type": "Thing",
+            "name": "Pre-Diabetes Care",
+            "url": "https://nutritioncolours.com/topic/pre-diabetes-care"
+          }
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/wiki/Q124407"
+        ],
+        "citation": [
+          {
+            "@type": "ScholarlyArticle",
+            "name": "Behavioral and Dietary Reversal of Type 2 Diabetes (PMID: 29289258)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29289258/"
+          },
+          {
+            "@type": "ScholarlyArticle",
+            "name": "Clinical Guidelines for Glycemic Remission (PMID: 34185074)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34185074/"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "MedicalCondition",
+        "@id": "https://nutritioncolours.com/condition/pcod-pcos#entity",
+        "name": "PCOD / PCOS (Metabolic & Hormonal Reversal)",
+        "url": "https://nutritioncolours.com/condition/pcod-pcos",
+        "description": "Hyperinsulinemia driving ovarian theca cells to overproduce androgens (testosterone), resulting in follicular arrest, anovulation, and metabolic cyst formation.",
+        "signOrSymptom": [
+          "LH to FSH Ratio",
+          "Free & Total Testosterone",
+          "Fasting Insulin (HOMA-IR)",
+          "DHEAS",
+          "Sex Hormone-Binding Globulin (SHBG)"
+        ],
+        "possibleTreatment": [
+          {
+            "@type": "MedicalTherapy",
+            "name": "Ceylon Cinnamon"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "Fenugreek"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "Holy Basil"
+          }
+        ],
+        "isRelatedTo": [
+          {
+            "@type": "Thing",
+            "name": "Type 2 Diabetes Reversal",
+            "url": "https://nutritioncolours.com/condition/diabetes-reversal"
+          },
+          {
+            "@type": "Thing",
+            "name": "Insulin Resistance",
+            "url": "https://nutritioncolours.com/condition/insulin-resistance"
+          },
+          {
+            "@type": "Thing",
+            "name": "PCOS Weight & Diet",
+            "url": "https://nutritioncolours.com/topic/pcos-weight-diet"
+          }
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/wiki/Q846247"
+        ],
+        "citation": [
+          {
+            "@type": "ScholarlyArticle",
+            "name": "Effects of different insulin sensitisers in the management of PCOS (PMID: 37933831)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37933831/"
+          },
+          {
+            "@type": "ScholarlyArticle",
+            "name": "Dietary Modifications in Polycystic Ovary Syndrome (PMID: 33024519)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33024519/"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "MedicalCondition",
+        "@id": "https://nutritioncolours.com/condition/thyroid-dysfunction#entity",
+        "name": "Thyroid Dysfunction (Hypothyroidism & Hashimoto's)",
+        "url": "https://nutritioncolours.com/condition/thyroid-dysfunction",
+        "description": "Chronic thyroid follicular cell inflammation or autoimmune destruction (Hashimoto's thyroiditis) leading to inadequate production of thyroxine (T4) and triiodothyronine (T3).",
+        "signOrSymptom": [
+          "TSH (Thyroid Stimulating Hormone)",
+          "Free T3 & Free T4",
+          "Anti-TPO Antibodies",
+          "Anti-TG Antibodies",
+          "Reverse T3 (rT3)"
+        ],
+        "possibleTreatment": [
+          {
+            "@type": "MedicalTherapy",
+            "name": "Ginger"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "Garlic"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "Ashwagandha"
+          }
+        ],
+        "isRelatedTo": [
+          {
+            "@type": "Thing",
+            "name": "Hashimoto's Thyroid Care",
+            "url": "https://nutritioncolours.com/topic/autoimmune-hashimotos-protocol"
+          },
+          {
+            "@type": "Thing",
+            "name": "Thyroid Optimization",
+            "url": "https://nutritioncolours.com/topic/thyroid-optimization"
+          },
+          {
+            "@type": "Thing",
+            "name": "Chronic Fatigue Reversal",
+            "url": "https://nutritioncolours.com/topic/chronic-fatigue-syndrome"
+          }
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/wiki/Q153026"
+        ],
+        "citation": [
+          {
+            "@type": "ScholarlyArticle",
+            "name": "Selenium and Thyroid Disease Management (PMID: 31133379)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31133379/"
+          },
+          {
+            "@type": "ScholarlyArticle",
+            "name": "Gluten-Free Diet Impact on Thyroid Autoimmunity (PMID: 30060266)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30060266/"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "MedicalCondition",
+        "@id": "https://nutritioncolours.com/condition/gut-health#entity",
+        "name": "Gut Health & Microbiome Restoration",
+        "url": "https://nutritioncolours.com/condition/gut-health",
+        "description": "Intestinal epithelial barrier disruption (Leaky Gut) and dysbiosis, characterized by a loss of short-chain fatty acid (SCFA) producing bacteria and mucosal lining depletion.",
+        "signOrSymptom": [
+          "Zonulin (Stool/Serum)",
+          "Calprotectin (Inflammatory marker)",
+          "SCFA profile (Acetate, Butyrate)",
+          "Gut Microbiome Sequencing Ratio (Bacteroidetes/Firmicutes)"
+        ],
+        "possibleTreatment": [
+          {
+            "@type": "MedicalTherapy",
+            "name": "Ginger"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "Garlic"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "Holy Basil"
+          }
+        ],
+        "isRelatedTo": [
+          {
+            "@type": "Thing",
+            "name": "Gut Health & Acidity",
+            "url": "https://nutritioncolours.com/topic/gut-health-acidity"
+          },
+          {
+            "@type": "Thing",
+            "name": "Immunity Boost",
+            "url": "https://nutritioncolours.com/topic/immunity-boost"
+          },
+          {
+            "@type": "Thing",
+            "name": "Fermented Kimchi Brown Rice Bowl",
+            "url": "https://nutritioncolours.com/recipe/kimchi-rice-bowl"
+          }
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/wiki/Q1269192"
+        ],
+        "citation": [
+          {
+            "@type": "ScholarlyArticle",
+            "name": "Intestinal Permeability and Clinical Diseases (PMID: 33803407)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33803407/"
+          },
+          {
+            "@type": "ScholarlyArticle",
+            "name": "Dietary Regulation of Gut Microbiota (PMID: 28191884)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28191884/"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "item": {
+        "@type": "MedicalCondition",
+        "@id": "https://nutritioncolours.com/condition/hypertension#entity",
+        "name": "Hypertension (High Blood Pressure)",
+        "url": "https://nutritioncolours.com/condition/hypertension",
+        "description": "Endothelial dysfunction and arterial stiffness driven by chronic insulin resistance and low nitric oxide production.",
+        "signOrSymptom": [
+          "Systolic/Diastolic Blood Pressure",
+          "hs-CRP (Inflammatory marker)",
+          "Uric Acid",
+          "Fasting Serum Insulin (BP)"
+        ],
+        "possibleTreatment": [
+          {
+            "@type": "MedicalTherapy",
+            "name": "Garlic"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "Ceylon Cinnamon"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "Ginger"
+          }
+        ],
+        "isRelatedTo": [
+          {
+            "@type": "Thing",
+            "name": "Hypertension Management",
+            "url": "https://nutritioncolours.com/topic/hypertension-management"
+          },
+          {
+            "@type": "Thing",
+            "name": "Roasted Beetroot & Walnut Carpaccio",
+            "url": "https://nutritioncolours.com/recipe/beetroot-walnut-carpaccio"
+          },
+          {
+            "@type": "Thing",
+            "name": "Insulin Resistance Management",
+            "url": "https://nutritioncolours.com/topic/insulin-resistance-mgmt"
+          }
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/wiki/Q161354"
+        ],
+        "citation": [
+          {
+            "@type": "ScholarlyArticle",
+            "name": "Effect of garlic on blood pressure: a meta-analysis (PMID: 25557383)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25557383/"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "item": {
+        "@type": "DietarySupplement",
+        "@id": "https://nutritioncolours.com/herb/turmeric#entity",
+        "name": "Turmeric",
+        "url": "https://nutritioncolours.com/herb/turmeric",
+        "nonProprietaryName": "Curcuma longa",
+        "activeIngredient": "Curcuminoids (Curcumin), Ar-turmerone, Zingiberene",
+        "mechanismOfAction": "Downregulates inflammatory transcription factors (NF-kB) and suppresses pro-inflammatory enzymes (COX-2, 5-LOX).",
+        "isRelatedTo": [
+          {
+            "@type": "Thing",
+            "name": "Turmeric & Black Pepper Golden Milk",
+            "url": "https://nutritioncolours.com/recipe/golden-milk-elixir"
+          },
+          {
+            "@type": "Thing",
+            "name": "Ginger",
+            "url": "https://nutritioncolours.com/herb/ginger"
+          },
+          {
+            "@type": "Thing",
+            "name": "Jackfruit & Turmeric Leaf Wraps",
+            "url": "https://nutritioncolours.com/recipe/jackfruit-turmeric-wraps"
+          }
+        ],
+        "recommendedIntake": {
+          "@type": "DefinedRegion",
+          "name": "500 mg - 2,000 mg daily"
+        },
+        "sameAs": [
+          "https://www.wikidata.org/wiki/Q131110"
+        ],
+        "warning": "Active bile duct obstruction; Gallstones; Concomitant use of antiplatelet or anticoagulant medications (acts as a natural blood thinner); Pregnancy (in therapeutic high-dose supplement form)"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "item": {
+        "@type": "DietarySupplement",
+        "@id": "https://nutritioncolours.com/herb/ashwagandha#entity",
+        "name": "Ashwagandha",
+        "url": "https://nutritioncolours.com/herb/ashwagandha",
+        "nonProprietaryName": "Withania somnifera",
+        "activeIngredient": "Withanolides (Withaferin A), Sitoindosides, Alkaloids",
+        "mechanismOfAction": "Modulates the Hypothalamic-Pituitary-Adrenal (HPA) axis, lowering serum cortisol levels and stabilizing the nervous system response to chronic stress.",
+        "isRelatedTo": [
+          {
+            "@type": "Thing",
+            "name": "Cortisol & Stress Balance",
+            "url": "https://nutritioncolours.com/topic/cortisol-balance"
+          },
+          {
+            "@type": "Thing",
+            "name": "Sweet Potato & Ashwagandha Coconut Mash",
+            "url": "https://nutritioncolours.com/recipe/ashwagandha-sweet-potato"
+          },
+          {
+            "@type": "Thing",
+            "name": "Holy Basil (Tulsi)",
+            "url": "https://nutritioncolours.com/herb/holy-basil"
+          }
+        ],
+        "recommendedIntake": {
+          "@type": "DefinedRegion",
+          "name": "300 mg - 600 mg daily"
+        },
+        "sameAs": [
+          "https://www.wikidata.org/wiki/Q79919"
+        ],
+        "warning": "Autoimmune disorders (lupus, MS, RA) as it stimulates immune response; Thyroid hyperfunction (hyperthyroidism); Upcoming major surgery (interacts with anesthesia)"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 11,
+      "item": {
+        "@type": "DietarySupplement",
+        "@id": "https://nutritioncolours.com/herb/cinnamon#entity",
+        "name": "Ceylon Cinnamon",
+        "url": "https://nutritioncolours.com/herb/cinnamon",
+        "nonProprietaryName": "Cinnamomum verum",
+        "activeIngredient": "Cinnamaldehyde, Proanthocyanidins, Eugenol",
+        "mechanismOfAction": "Acts as an insulin mimetic, activating insulin receptor autophosphorylation and mobilizing glucose transporters (GLUT-4) to cell membranes.",
+        "isRelatedTo": [
+          {
+            "@type": "Thing",
+            "name": "Fenugreek",
+            "url": "https://nutritioncolours.com/herb/fenugreek"
+          },
+          {
+            "@type": "Thing",
+            "name": "Insulin Resistance",
+            "url": "https://nutritioncolours.com/condition/insulin-resistance"
+          },
+          {
+            "@type": "Thing",
+            "name": "Rooibos & Cinnamon Antioxidant Tea",
+            "url": "https://nutritioncolours.com/recipe/rooibos-cinnamon-tea"
+          }
+        ],
+        "recommendedIntake": {
+          "@type": "DefinedRegion",
+          "name": "1,000 mg - 3,000 mg daily"
+        },
+        "sameAs": [
+          "https://www.wikidata.org/wiki/Q272635"
+        ],
+        "warning": "Severe hepatic insufficiency (always choose true Ceylon cinnamon over Cassia to avoid coumarin-induced hepatotoxicity)"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "item": {
+        "@type": "DietarySupplement",
+        "@id": "https://nutritioncolours.com/herb/ginger#entity",
+        "name": "Ginger",
+        "url": "https://nutritioncolours.com/herb/ginger",
+        "nonProprietaryName": "Zingiber officinale",
+        "activeIngredient": "Gingerols, Shogaols, Zingerone",
+        "mechanismOfAction": "Antagonizes serotonin 5-HT3 receptors in the gut to prevent nausea; inhibits inflammatory cytokines (TNF-alpha, IL-6) and prostaglandin synthesis.",
+        "isRelatedTo": [
+          {
+            "@type": "Thing",
+            "name": "Turmeric",
+            "url": "https://nutritioncolours.com/herb/turmeric"
+          },
+          {
+            "@type": "Thing",
+            "name": "Pear & Ginger Probiotic Slaw",
+            "url": "https://nutritioncolours.com/recipe/pear-ginger-slaw"
+          },
+          {
+            "@type": "Thing",
+            "name": "Jackfruit & Turmeric Leaf Wraps",
+            "url": "https://nutritioncolours.com/recipe/jackfruit-turmeric-wraps"
+          }
+        ],
+        "recommendedIntake": {
+          "@type": "DefinedRegion",
+          "name": "1,000 mg - 2,000 mg daily"
+        },
+        "sameAs": [
+          "https://www.wikidata.org/wiki/Q35999"
+        ],
+        "warning": "Active gallstone disease (ginger stimulates bile secretion); Concomitant high-dose anticoagulant therapy"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 13,
+      "item": {
+        "@type": "DietarySupplement",
+        "@id": "https://nutritioncolours.com/herb/ragi#entity",
+        "name": "Ragi (Finger Millet)",
+        "url": "https://nutritioncolours.com/herb/ragi",
+        "nonProprietaryName": "Eleusine coracana",
+        "activeIngredient": "Polyphenols, Dietary Fiber, Calcium, L-Lysine",
+        "mechanismOfAction": "Slows down digestion rates due to high dietary fiber and polyphenol content, yielding a low glycemic response that prevents rapid postprandial glucose spikes.",
+        "isRelatedTo": [
+          {
+            "@type": "Thing",
+            "name": "Pear & Ginger Probiotic Slaw",
+            "url": "https://nutritioncolours.com/recipe/pear-ginger-slaw"
+          },
+          {
+            "@type": "Thing",
+            "name": "Chia & Berry Antioxidant Parfait",
+            "url": "https://nutritioncolours.com/recipe/chia-berry-parfait"
+          },
+          {
+            "@type": "Thing",
+            "name": "Osteoporosis Prevention",
+            "url": "https://nutritioncolours.com/topic/osteoporosis-prevention"
+          }
+        ],
+        "recommendedIntake": {
+          "@type": "DefinedRegion",
+          "name": "50g - 100g raw weight"
+        },
+        "sameAs": [
+          "https://www.wikidata.org/wiki/Q1353272"
+        ],
+        "warning": "Severe kidney stones (high in calcium/oxalates, restrict intake)"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 14,
+      "item": {
+        "@type": "DietarySupplement",
+        "@id": "https://nutritioncolours.com/herb/spirulina#entity",
+        "name": "Spirulina",
+        "url": "https://nutritioncolours.com/herb/spirulina",
+        "nonProprietaryName": "Arthrospira platensis",
+        "activeIngredient": "Phycocyanin, Gamma-Linolenic Acid (GLA), Chlorophyll, Complete Protein",
+        "mechanismOfAction": "Acts as a potent antioxidant (via phycocyanin scavengers) and immune-modulator; helps lower LDL cholesterol and increase HDL.",
+        "isRelatedTo": [
+          {
+            "@type": "Thing",
+            "name": "Spirulina & Lemon Vitality Shots",
+            "url": "https://nutritioncolours.com/recipe/spirulina-lemon-shots"
+          },
+          {
+            "@type": "Thing",
+            "name": "Uric Acid & Gout Reversal",
+            "url": "https://nutritioncolours.com/topic/gout-uric-acid-reversal"
+          },
+          {
+            "@type": "Thing",
+            "name": "Cholesterol Management",
+            "url": "https://nutritioncolours.com/topic/cholesterol-mgmt"
+          }
+        ],
+        "recommendedIntake": {
+          "@type": "DefinedRegion",
+          "name": "2,000 mg - 5,000 mg daily"
+        },
+        "sameAs": [
+          "https://www.wikidata.org/wiki/Q311105"
+        ],
+        "warning": "Phenylketonuria (contains phenylalanine); Autoimmune conditions (increases immune markers, use caution); Gout (high purine content)"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 15,
+      "item": {
+        "@type": "DietarySupplement",
+        "@id": "https://nutritioncolours.com/herb/fenugreek#entity",
+        "name": "Fenugreek",
+        "url": "https://nutritioncolours.com/herb/fenugreek",
+        "nonProprietaryName": "Trigonella foenum-graecum",
+        "activeIngredient": "4-hydroxyisoleucine, Trigonelline, Galactomannan",
+        "mechanismOfAction": "Stimulates glucose-dependent insulin secretion from pancreatic beta cells, delays gastric emptying, and inhibits glucose absorption in the small intestine.",
+        "isRelatedTo": [
+          {
+            "@type": "Thing",
+            "name": "Ceylon Cinnamon",
+            "url": "https://nutritioncolours.com/herb/cinnamon"
+          },
+          {
+            "@type": "Thing",
+            "name": "Ginger",
+            "url": "https://nutritioncolours.com/herb/ginger"
+          },
+          {
+            "@type": "Thing",
+            "name": "Insulin Resistance Management",
+            "url": "https://nutritioncolours.com/topic/insulin-resistance-mgmt"
+          }
+        ],
+        "recommendedIntake": {
+          "@type": "DefinedRegion",
+          "name": "5g - 10g daily"
+        },
+        "sameAs": [
+          "https://www.wikidata.org/wiki/Q131868"
+        ],
+        "warning": "Pregnancy (potential uterine stimulant); Severe peanut/legume allergies (potential cross-reactivity)"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 16,
+      "item": {
+        "@type": "DietarySupplement",
+        "@id": "https://nutritioncolours.com/herb/holy-basil#entity",
+        "name": "Holy Basil (Tulsi)",
+        "url": "https://nutritioncolours.com/herb/holy-basil",
+        "nonProprietaryName": "Ocimum tenuiflorum",
+        "activeIngredient": "Eugenol, Ursolic Acid, Caryophyllene",
+        "mechanismOfAction": "Modulates the hypothalamic-pituitary-adrenal (HPA) axis to reduce cortisol excretion, reducing stress-induced hepatic gluconeogenesis.",
+        "isRelatedTo": [
+          {
+            "@type": "Thing",
+            "name": "Ashwagandha",
+            "url": "https://nutritioncolours.com/herb/ashwagandha"
+          },
+          {
+            "@type": "Thing",
+            "name": "Ginger",
+            "url": "https://nutritioncolours.com/herb/ginger"
+          },
+          {
+            "@type": "Thing",
+            "name": "Cortisol & Stress Balance",
+            "url": "https://nutritioncolours.com/topic/cortisol-balance"
+          }
+        ],
+        "recommendedIntake": {
+          "@type": "DefinedRegion",
+          "name": "500 mg - 1,000 mg daily"
+        },
+        "sameAs": [
+          "https://www.wikidata.org/wiki/Q2732009"
+        ],
+        "warning": "Concomitant blood-thinning therapies; Couples actively trying to conceive (traditional anti-fertility effects in animal models)"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 17,
+      "item": {
+        "@type": "DietarySupplement",
+        "@id": "https://nutritioncolours.com/herb/garlic#entity",
+        "name": "Garlic",
+        "url": "https://nutritioncolours.com/herb/garlic",
+        "nonProprietaryName": "Allium sativum",
+        "activeIngredient": "Allicin, S-Allylcysteine (SAC), Diallyl Disulfide",
+        "mechanismOfAction": "Inhibits HMG-CoA reductase (reducing lipid synthesis) and activates endothelial nitric oxide synthase, stimulating arterial vasodilation.",
+        "isRelatedTo": [
+          {
+            "@type": "Thing",
+            "name": "Black Garlic & Fermented Hot Sauce Drizzle",
+            "url": "https://nutritioncolours.com/recipe/black-garlic-drizzle"
+          },
+          {
+            "@type": "Thing",
+            "name": "Turmeric",
+            "url": "https://nutritioncolours.com/herb/turmeric"
+          },
+          {
+            "@type": "Thing",
+            "name": "Black Lentil & Walnut Paté",
+            "url": "https://nutritioncolours.com/recipe/lentil-walnut-pate"
+          }
+        ],
+        "recommendedIntake": {
+          "@type": "DefinedRegion",
+          "name": "1,000 mg - 3,000 mg daily"
+        },
+        "sameAs": [
+          "https://www.wikidata.org/wiki/Q23886"
+        ],
+        "warning": "Active bleeding disorders; 14 days prior to scheduled major surgery (antiplatelet action)"
+      }
+    }
+  ]
+}

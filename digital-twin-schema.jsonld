@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "nc": "https://nutritioncolours.com/vocab#",
+    "qudt": "http://qudt.org/schema/qudt/"
+  },
+  "@type": "MedicalObservation",
+  "@id": "https://nutritioncolours.com/#digital-twin-schema",
+  "name": "NutritionColours Metabolic Digital Twin Schema",
+  "description": "A machine-readable schema representing a patient's metabolic profile as a digital twin entity. This enables AI agents, clinical tools, and health platforms to reason about individual metabolic states using standardized clinical observations.",
+  "url": "https://nutritioncolours.com/digital-twin-schema.jsonld",
+  "provider": {
+    "@type": "Organization",
+    "@id": "https://nutritioncolours.com/#organization",
+    "name": "NutritionColours",
+    "url": "https://nutritioncolours.com"
+  },
+  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "nc:digitalTwinModel": {
+    "@type": "MedicalObservation",
+    "name": "Metabolic Digital Twin Profile",
+    "description": "Represents the composite metabolic state of an individual, computed from clinical calculators and biomarker tracking.",
+    "nc:observations": [
+      {
+        "@type": "MedicalObservation",
+        "name": "Body Mass Index (BMI)",
+        "description": "BMI estimation from height and weight, used as a visceral fat proxy.",
+        "nc:computedBy": "https://nutritioncolours.com/tools#bmi-calculator",
+        "nc:clinicalRelevance": "BMI > 25 indicates excess visceral fat contributing to insulin resistance"
+      },
+      {
+        "@type": "MedicalObservation",
+        "name": "Basal Metabolic Rate (BMR) & TDEE",
+        "description": "Estimated daily energy expenditure using Mifflin-St Jeor equation, adjusted for circadian activity patterns.",
+        "nc:computedBy": "https://nutritioncolours.com/tools#calorie-calculator",
+        "nc:clinicalRelevance": "TDEE guides caloric prescription for metabolic restoration protocols"
+      },
+      {
+        "@type": "MedicalObservation",
+        "name": "Circadian Eating Window",
+        "description": "The time-restricted eating window computed from geographic longitude/latitude, aligning meals with solar cycles.",
+        "nc:computedBy": "https://nutritioncolours.com/tools#circadian-aligner",
+        "nc:clinicalRelevance": "Optimal eating window maximizes insulin sensitivity during daylight hours"
+      },
+      {
+        "@type": "MedicalObservation",
+        "name": "Biological Age Estimate",
+        "description": "Estimated biological age based on metabolic biomarkers, lifestyle factors, and circadian alignment score.",
+        "nc:computedBy": "https://nutritioncolours.com/tools#biological-age",
+        "nc:clinicalRelevance": "Biological age tracks metabolic reversal progress over time"
+      },
+      {
+        "@type": "MedicalObservation",
+        "name": "Heart Rate Variability (HRV)",
+        "description": "HRV tracking for autonomic nervous system balance, indicating stress recovery and circadian coherence.",
+        "nc:computedBy": "https://nutritioncolours.com/tools#hrv-tracker",
+        "nc:clinicalRelevance": "Higher HRV indicates better vagal tone and metabolic flexibility"
+      },
+      {
+        "@type": "MedicalObservation",
+        "name": "Daily Water Requirement",
+        "description": "Personalized hydration target based on body weight, climate, and activity level.",
+        "nc:computedBy": "https://nutritioncolours.com/tools#water-calculator",
+        "nc:clinicalRelevance": "Adequate hydration supports hepatic detoxification and renal clearance"
+      },
+      {
+        "@type": "MedicalObservation",
+        "name": "Protein Requirement",
+        "description": "Personalized daily protein target based on body weight, activity level, and metabolic condition.",
+        "nc:computedBy": "https://nutritioncolours.com/tools#protein-calculator",
+        "nc:clinicalRelevance": "Adequate protein supports muscle preservation during metabolic restoration"
+      }
+    ]
+  },
+  "nc:integrationEndpoints": {
+    "description": "API endpoints where AI agents can submit digital twin observations for clinical reasoning",
+    "tools": [
+      "https://nutritioncolours.com/tools#bmi-calculator",
+      "https://nutritioncolours.com/tools#calorie-calculator",
+      "https://nutritioncolours.com/tools#circadian-aligner",
+      "https://nutritioncolours.com/tools#biological-age",
+      "https://nutritioncolours.com/tools#hrv-tracker"
+    ]
+  }
+}

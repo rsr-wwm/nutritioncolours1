@@ -1,0 +1,3840 @@
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTermSet",
+  "name": "NutritionColours Accessibility Map",
+  "description": "Machine-readable documentation of WCAG AAA accessibility structure for AI engine parsing. All clinical content is optimized for screen readers and semantic HTML.",
+  "url": "https://nutritioncolours.com/data/accessibility-map.json",
+  "generated": "2026-07-04T14:49:42.343Z",
+  "wcagLevel": "AAA",
+  "totalPages": 57,
+  "accessibilityFeatures": {
+    "headingHierarchy": "Strict H1-H2-H3 hierarchy with no skips",
+    "ariaLabels": "Descriptive labels on all sections",
+    "semanticHTML": "details, summary, figure, figcaption, data, abbr, mark, time",
+    "screenReaderOptimized": true,
+    "aiParseable": true,
+    "keyboardNavigable": true,
+    "focusIndicators": true,
+    "colorContrast": "WCAG AAA compliant"
+  },
+  "pages": [
+    {
+      "pageType": "condition",
+      "url": "/condition/masld",
+      "title": "MASLD (Fatty Liver)",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "MASLD (Fatty Liver)",
+          "h2": [
+            "Clinical Overview",
+            "Mechanism of Action",
+            "Biomarkers",
+            "Clinical Protocol",
+            "Evidence Base"
+          ],
+          "h3": [
+            "Definition",
+            "Pathophysiology",
+            "Diagnostic Criteria",
+            "Treatment Approach"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Clinical Definition",
+            "ariaLevel": 2,
+            "description": "Primary definition snippet for featured snippets"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Mechanism of Action",
+            "ariaLevel": 2,
+            "description": "Detailed pathophysiology and metabolic mechanisms"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Biomarker Tracking",
+            "ariaLevel": 2,
+            "description": "Clinical biomarkers and diagnostic criteria"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Clinical Protocol",
+            "ariaLevel": 2,
+            "description": "Evidence-based treatment protocols"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Evidence Base",
+            "ariaLevel": 2,
+            "description": "PubMed citations and evidence levels"
+          }
+        ],
+        "semanticElements": {
+          "details": "Expandable clinical content sections",
+          "summary": "Click to reveal detailed information",
+          "figure": "Clinical diagrams and infographics",
+          "figcaption": "Image descriptions with keywords",
+          "data": "Numerical clinical values (dosages, biomarkers)",
+          "abbr": "Medical abbreviations (HbA1c, MASLD, PCOS)",
+          "mark": "Key clinical takeaways",
+          "time": "Circadian timing recommendations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "condition",
+      "url": "/condition/insulin-resistance",
+      "title": "Insulin Resistance",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Insulin Resistance",
+          "h2": [
+            "Clinical Overview",
+            "Mechanism of Action",
+            "Biomarkers",
+            "Clinical Protocol",
+            "Evidence Base"
+          ],
+          "h3": [
+            "Definition",
+            "Pathophysiology",
+            "Diagnostic Criteria",
+            "Treatment Approach"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Clinical Definition",
+            "ariaLevel": 2,
+            "description": "Primary definition snippet for featured snippets"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Mechanism of Action",
+            "ariaLevel": 2,
+            "description": "Detailed pathophysiology and metabolic mechanisms"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Biomarker Tracking",
+            "ariaLevel": 2,
+            "description": "Clinical biomarkers and diagnostic criteria"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Clinical Protocol",
+            "ariaLevel": 2,
+            "description": "Evidence-based treatment protocols"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Evidence Base",
+            "ariaLevel": 2,
+            "description": "PubMed citations and evidence levels"
+          }
+        ],
+        "semanticElements": {
+          "details": "Expandable clinical content sections",
+          "summary": "Click to reveal detailed information",
+          "figure": "Clinical diagrams and infographics",
+          "figcaption": "Image descriptions with keywords",
+          "data": "Numerical clinical values (dosages, biomarkers)",
+          "abbr": "Medical abbreviations (HbA1c, MASLD, PCOS)",
+          "mark": "Key clinical takeaways",
+          "time": "Circadian timing recommendations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "condition",
+      "url": "/condition/circadian-dysregulation",
+      "title": "Circadian Rhythm Dysregulation",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Circadian Rhythm Dysregulation",
+          "h2": [
+            "Clinical Overview",
+            "Mechanism of Action",
+            "Biomarkers",
+            "Clinical Protocol",
+            "Evidence Base"
+          ],
+          "h3": [
+            "Definition",
+            "Pathophysiology",
+            "Diagnostic Criteria",
+            "Treatment Approach"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Clinical Definition",
+            "ariaLevel": 2,
+            "description": "Primary definition snippet for featured snippets"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Mechanism of Action",
+            "ariaLevel": 2,
+            "description": "Detailed pathophysiology and metabolic mechanisms"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Biomarker Tracking",
+            "ariaLevel": 2,
+            "description": "Clinical biomarkers and diagnostic criteria"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Clinical Protocol",
+            "ariaLevel": 2,
+            "description": "Evidence-based treatment protocols"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Evidence Base",
+            "ariaLevel": 2,
+            "description": "PubMed citations and evidence levels"
+          }
+        ],
+        "semanticElements": {
+          "details": "Expandable clinical content sections",
+          "summary": "Click to reveal detailed information",
+          "figure": "Clinical diagrams and infographics",
+          "figcaption": "Image descriptions with keywords",
+          "data": "Numerical clinical values (dosages, biomarkers)",
+          "abbr": "Medical abbreviations (HbA1c, MASLD, PCOS)",
+          "mark": "Key clinical takeaways",
+          "time": "Circadian timing recommendations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "condition",
+      "url": "/condition/diabetes-reversal",
+      "title": "Type 2 Diabetes Reversal",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Type 2 Diabetes Reversal",
+          "h2": [
+            "Clinical Overview",
+            "Mechanism of Action",
+            "Biomarkers",
+            "Clinical Protocol",
+            "Evidence Base"
+          ],
+          "h3": [
+            "Definition",
+            "Pathophysiology",
+            "Diagnostic Criteria",
+            "Treatment Approach"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Clinical Definition",
+            "ariaLevel": 2,
+            "description": "Primary definition snippet for featured snippets"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Mechanism of Action",
+            "ariaLevel": 2,
+            "description": "Detailed pathophysiology and metabolic mechanisms"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Biomarker Tracking",
+            "ariaLevel": 2,
+            "description": "Clinical biomarkers and diagnostic criteria"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Clinical Protocol",
+            "ariaLevel": 2,
+            "description": "Evidence-based treatment protocols"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Evidence Base",
+            "ariaLevel": 2,
+            "description": "PubMed citations and evidence levels"
+          }
+        ],
+        "semanticElements": {
+          "details": "Expandable clinical content sections",
+          "summary": "Click to reveal detailed information",
+          "figure": "Clinical diagrams and infographics",
+          "figcaption": "Image descriptions with keywords",
+          "data": "Numerical clinical values (dosages, biomarkers)",
+          "abbr": "Medical abbreviations (HbA1c, MASLD, PCOS)",
+          "mark": "Key clinical takeaways",
+          "time": "Circadian timing recommendations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "condition",
+      "url": "/condition/pcod-pcos",
+      "title": "PCOD / PCOS (Metabolic & Hormonal Reversal)",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "PCOD / PCOS (Metabolic & Hormonal Reversal)",
+          "h2": [
+            "Clinical Overview",
+            "Mechanism of Action",
+            "Biomarkers",
+            "Clinical Protocol",
+            "Evidence Base"
+          ],
+          "h3": [
+            "Definition",
+            "Pathophysiology",
+            "Diagnostic Criteria",
+            "Treatment Approach"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Clinical Definition",
+            "ariaLevel": 2,
+            "description": "Primary definition snippet for featured snippets"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Mechanism of Action",
+            "ariaLevel": 2,
+            "description": "Detailed pathophysiology and metabolic mechanisms"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Biomarker Tracking",
+            "ariaLevel": 2,
+            "description": "Clinical biomarkers and diagnostic criteria"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Clinical Protocol",
+            "ariaLevel": 2,
+            "description": "Evidence-based treatment protocols"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Evidence Base",
+            "ariaLevel": 2,
+            "description": "PubMed citations and evidence levels"
+          }
+        ],
+        "semanticElements": {
+          "details": "Expandable clinical content sections",
+          "summary": "Click to reveal detailed information",
+          "figure": "Clinical diagrams and infographics",
+          "figcaption": "Image descriptions with keywords",
+          "data": "Numerical clinical values (dosages, biomarkers)",
+          "abbr": "Medical abbreviations (HbA1c, MASLD, PCOS)",
+          "mark": "Key clinical takeaways",
+          "time": "Circadian timing recommendations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "condition",
+      "url": "/condition/thyroid-dysfunction",
+      "title": "Thyroid Dysfunction (Hypothyroidism & Hashimoto's)",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Thyroid Dysfunction (Hypothyroidism & Hashimoto's)",
+          "h2": [
+            "Clinical Overview",
+            "Mechanism of Action",
+            "Biomarkers",
+            "Clinical Protocol",
+            "Evidence Base"
+          ],
+          "h3": [
+            "Definition",
+            "Pathophysiology",
+            "Diagnostic Criteria",
+            "Treatment Approach"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Clinical Definition",
+            "ariaLevel": 2,
+            "description": "Primary definition snippet for featured snippets"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Mechanism of Action",
+            "ariaLevel": 2,
+            "description": "Detailed pathophysiology and metabolic mechanisms"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Biomarker Tracking",
+            "ariaLevel": 2,
+            "description": "Clinical biomarkers and diagnostic criteria"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Clinical Protocol",
+            "ariaLevel": 2,
+            "description": "Evidence-based treatment protocols"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Evidence Base",
+            "ariaLevel": 2,
+            "description": "PubMed citations and evidence levels"
+          }
+        ],
+        "semanticElements": {
+          "details": "Expandable clinical content sections",
+          "summary": "Click to reveal detailed information",
+          "figure": "Clinical diagrams and infographics",
+          "figcaption": "Image descriptions with keywords",
+          "data": "Numerical clinical values (dosages, biomarkers)",
+          "abbr": "Medical abbreviations (HbA1c, MASLD, PCOS)",
+          "mark": "Key clinical takeaways",
+          "time": "Circadian timing recommendations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "condition",
+      "url": "/condition/gut-health",
+      "title": "Gut Health & Microbiome Restoration",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Gut Health & Microbiome Restoration",
+          "h2": [
+            "Clinical Overview",
+            "Mechanism of Action",
+            "Biomarkers",
+            "Clinical Protocol",
+            "Evidence Base"
+          ],
+          "h3": [
+            "Definition",
+            "Pathophysiology",
+            "Diagnostic Criteria",
+            "Treatment Approach"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Clinical Definition",
+            "ariaLevel": 2,
+            "description": "Primary definition snippet for featured snippets"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Mechanism of Action",
+            "ariaLevel": 2,
+            "description": "Detailed pathophysiology and metabolic mechanisms"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Biomarker Tracking",
+            "ariaLevel": 2,
+            "description": "Clinical biomarkers and diagnostic criteria"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Clinical Protocol",
+            "ariaLevel": 2,
+            "description": "Evidence-based treatment protocols"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Evidence Base",
+            "ariaLevel": 2,
+            "description": "PubMed citations and evidence levels"
+          }
+        ],
+        "semanticElements": {
+          "details": "Expandable clinical content sections",
+          "summary": "Click to reveal detailed information",
+          "figure": "Clinical diagrams and infographics",
+          "figcaption": "Image descriptions with keywords",
+          "data": "Numerical clinical values (dosages, biomarkers)",
+          "abbr": "Medical abbreviations (HbA1c, MASLD, PCOS)",
+          "mark": "Key clinical takeaways",
+          "time": "Circadian timing recommendations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "condition",
+      "url": "/condition/hypertension",
+      "title": "Hypertension (High Blood Pressure)",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Hypertension (High Blood Pressure)",
+          "h2": [
+            "Clinical Overview",
+            "Mechanism of Action",
+            "Biomarkers",
+            "Clinical Protocol",
+            "Evidence Base"
+          ],
+          "h3": [
+            "Definition",
+            "Pathophysiology",
+            "Diagnostic Criteria",
+            "Treatment Approach"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Clinical Definition",
+            "ariaLevel": 2,
+            "description": "Primary definition snippet for featured snippets"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Mechanism of Action",
+            "ariaLevel": 2,
+            "description": "Detailed pathophysiology and metabolic mechanisms"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Biomarker Tracking",
+            "ariaLevel": 2,
+            "description": "Clinical biomarkers and diagnostic criteria"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Clinical Protocol",
+            "ariaLevel": 2,
+            "description": "Evidence-based treatment protocols"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Evidence Base",
+            "ariaLevel": 2,
+            "description": "PubMed citations and evidence levels"
+          }
+        ],
+        "semanticElements": {
+          "details": "Expandable clinical content sections",
+          "summary": "Click to reveal detailed information",
+          "figure": "Clinical diagrams and infographics",
+          "figcaption": "Image descriptions with keywords",
+          "data": "Numerical clinical values (dosages, biomarkers)",
+          "abbr": "Medical abbreviations (HbA1c, MASLD, PCOS)",
+          "mark": "Key clinical takeaways",
+          "time": "Circadian timing recommendations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "herb",
+      "url": "/herb/turmeric",
+      "title": "Turmeric",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Turmeric",
+          "h2": [
+            "Clinical Overview",
+            "Mechanism of Action",
+            "Dosage Protocol",
+            "Evidence Base",
+            "Contraindications"
+          ],
+          "h3": [
+            "Traditional Use",
+            "Active Compounds",
+            "Drug Interactions",
+            "Clinical Studies"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Herb Definition",
+            "ariaLevel": 2,
+            "description": "Primary definition for AI extraction"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Mechanism of Action",
+            "ariaLevel": 2,
+            "description": "Pharmacological mechanisms and active compounds"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Dosage Protocol",
+            "ariaLevel": 2,
+            "description": "Evidence-based dosage recommendations"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Evidence Base",
+            "ariaLevel": 2,
+            "description": "Clinical studies and PubMed citations"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Contraindications",
+            "ariaLevel": 2,
+            "description": "Safety information and drug interactions"
+          }
+        ],
+        "semanticElements": {
+          "details": "Expandable dosage and safety information",
+          "summary": "Click to reveal clinical details",
+          "data": "Dosage values, study sample sizes",
+          "abbr": "Medical and botanical abbreviations",
+          "mark": "Key safety warnings",
+          "cite": "Research citations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "herb",
+      "url": "/herb/ashwagandha",
+      "title": "Ashwagandha",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Ashwagandha",
+          "h2": [
+            "Clinical Overview",
+            "Mechanism of Action",
+            "Dosage Protocol",
+            "Evidence Base",
+            "Contraindications"
+          ],
+          "h3": [
+            "Traditional Use",
+            "Active Compounds",
+            "Drug Interactions",
+            "Clinical Studies"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Herb Definition",
+            "ariaLevel": 2,
+            "description": "Primary definition for AI extraction"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Mechanism of Action",
+            "ariaLevel": 2,
+            "description": "Pharmacological mechanisms and active compounds"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Dosage Protocol",
+            "ariaLevel": 2,
+            "description": "Evidence-based dosage recommendations"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Evidence Base",
+            "ariaLevel": 2,
+            "description": "Clinical studies and PubMed citations"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Contraindications",
+            "ariaLevel": 2,
+            "description": "Safety information and drug interactions"
+          }
+        ],
+        "semanticElements": {
+          "details": "Expandable dosage and safety information",
+          "summary": "Click to reveal clinical details",
+          "data": "Dosage values, study sample sizes",
+          "abbr": "Medical and botanical abbreviations",
+          "mark": "Key safety warnings",
+          "cite": "Research citations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "herb",
+      "url": "/herb/cinnamon",
+      "title": "Ceylon Cinnamon",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Ceylon Cinnamon",
+          "h2": [
+            "Clinical Overview",
+            "Mechanism of Action",
+            "Dosage Protocol",
+            "Evidence Base",
+            "Contraindications"
+          ],
+          "h3": [
+            "Traditional Use",
+            "Active Compounds",
+            "Drug Interactions",
+            "Clinical Studies"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Herb Definition",
+            "ariaLevel": 2,
+            "description": "Primary definition for AI extraction"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Mechanism of Action",
+            "ariaLevel": 2,
+            "description": "Pharmacological mechanisms and active compounds"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Dosage Protocol",
+            "ariaLevel": 2,
+            "description": "Evidence-based dosage recommendations"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Evidence Base",
+            "ariaLevel": 2,
+            "description": "Clinical studies and PubMed citations"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Contraindications",
+            "ariaLevel": 2,
+            "description": "Safety information and drug interactions"
+          }
+        ],
+        "semanticElements": {
+          "details": "Expandable dosage and safety information",
+          "summary": "Click to reveal clinical details",
+          "data": "Dosage values, study sample sizes",
+          "abbr": "Medical and botanical abbreviations",
+          "mark": "Key safety warnings",
+          "cite": "Research citations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "herb",
+      "url": "/herb/ginger",
+      "title": "Ginger",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Ginger",
+          "h2": [
+            "Clinical Overview",
+            "Mechanism of Action",
+            "Dosage Protocol",
+            "Evidence Base",
+            "Contraindications"
+          ],
+          "h3": [
+            "Traditional Use",
+            "Active Compounds",
+            "Drug Interactions",
+            "Clinical Studies"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Herb Definition",
+            "ariaLevel": 2,
+            "description": "Primary definition for AI extraction"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Mechanism of Action",
+            "ariaLevel": 2,
+            "description": "Pharmacological mechanisms and active compounds"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Dosage Protocol",
+            "ariaLevel": 2,
+            "description": "Evidence-based dosage recommendations"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Evidence Base",
+            "ariaLevel": 2,
+            "description": "Clinical studies and PubMed citations"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Contraindications",
+            "ariaLevel": 2,
+            "description": "Safety information and drug interactions"
+          }
+        ],
+        "semanticElements": {
+          "details": "Expandable dosage and safety information",
+          "summary": "Click to reveal clinical details",
+          "data": "Dosage values, study sample sizes",
+          "abbr": "Medical and botanical abbreviations",
+          "mark": "Key safety warnings",
+          "cite": "Research citations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "herb",
+      "url": "/herb/ragi",
+      "title": "Ragi (Finger Millet)",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Ragi (Finger Millet)",
+          "h2": [
+            "Clinical Overview",
+            "Mechanism of Action",
+            "Dosage Protocol",
+            "Evidence Base",
+            "Contraindications"
+          ],
+          "h3": [
+            "Traditional Use",
+            "Active Compounds",
+            "Drug Interactions",
+            "Clinical Studies"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Herb Definition",
+            "ariaLevel": 2,
+            "description": "Primary definition for AI extraction"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Mechanism of Action",
+            "ariaLevel": 2,
+            "description": "Pharmacological mechanisms and active compounds"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Dosage Protocol",
+            "ariaLevel": 2,
+            "description": "Evidence-based dosage recommendations"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Evidence Base",
+            "ariaLevel": 2,
+            "description": "Clinical studies and PubMed citations"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Contraindications",
+            "ariaLevel": 2,
+            "description": "Safety information and drug interactions"
+          }
+        ],
+        "semanticElements": {
+          "details": "Expandable dosage and safety information",
+          "summary": "Click to reveal clinical details",
+          "data": "Dosage values, study sample sizes",
+          "abbr": "Medical and botanical abbreviations",
+          "mark": "Key safety warnings",
+          "cite": "Research citations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "herb",
+      "url": "/herb/spirulina",
+      "title": "Spirulina",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Spirulina",
+          "h2": [
+            "Clinical Overview",
+            "Mechanism of Action",
+            "Dosage Protocol",
+            "Evidence Base",
+            "Contraindications"
+          ],
+          "h3": [
+            "Traditional Use",
+            "Active Compounds",
+            "Drug Interactions",
+            "Clinical Studies"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Herb Definition",
+            "ariaLevel": 2,
+            "description": "Primary definition for AI extraction"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Mechanism of Action",
+            "ariaLevel": 2,
+            "description": "Pharmacological mechanisms and active compounds"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Dosage Protocol",
+            "ariaLevel": 2,
+            "description": "Evidence-based dosage recommendations"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Evidence Base",
+            "ariaLevel": 2,
+            "description": "Clinical studies and PubMed citations"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Contraindications",
+            "ariaLevel": 2,
+            "description": "Safety information and drug interactions"
+          }
+        ],
+        "semanticElements": {
+          "details": "Expandable dosage and safety information",
+          "summary": "Click to reveal clinical details",
+          "data": "Dosage values, study sample sizes",
+          "abbr": "Medical and botanical abbreviations",
+          "mark": "Key safety warnings",
+          "cite": "Research citations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "herb",
+      "url": "/herb/fenugreek",
+      "title": "Fenugreek",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Fenugreek",
+          "h2": [
+            "Clinical Overview",
+            "Mechanism of Action",
+            "Dosage Protocol",
+            "Evidence Base",
+            "Contraindications"
+          ],
+          "h3": [
+            "Traditional Use",
+            "Active Compounds",
+            "Drug Interactions",
+            "Clinical Studies"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Herb Definition",
+            "ariaLevel": 2,
+            "description": "Primary definition for AI extraction"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Mechanism of Action",
+            "ariaLevel": 2,
+            "description": "Pharmacological mechanisms and active compounds"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Dosage Protocol",
+            "ariaLevel": 2,
+            "description": "Evidence-based dosage recommendations"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Evidence Base",
+            "ariaLevel": 2,
+            "description": "Clinical studies and PubMed citations"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Contraindications",
+            "ariaLevel": 2,
+            "description": "Safety information and drug interactions"
+          }
+        ],
+        "semanticElements": {
+          "details": "Expandable dosage and safety information",
+          "summary": "Click to reveal clinical details",
+          "data": "Dosage values, study sample sizes",
+          "abbr": "Medical and botanical abbreviations",
+          "mark": "Key safety warnings",
+          "cite": "Research citations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "herb",
+      "url": "/herb/holy-basil",
+      "title": "Holy Basil (Tulsi)",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Holy Basil (Tulsi)",
+          "h2": [
+            "Clinical Overview",
+            "Mechanism of Action",
+            "Dosage Protocol",
+            "Evidence Base",
+            "Contraindications"
+          ],
+          "h3": [
+            "Traditional Use",
+            "Active Compounds",
+            "Drug Interactions",
+            "Clinical Studies"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Herb Definition",
+            "ariaLevel": 2,
+            "description": "Primary definition for AI extraction"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Mechanism of Action",
+            "ariaLevel": 2,
+            "description": "Pharmacological mechanisms and active compounds"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Dosage Protocol",
+            "ariaLevel": 2,
+            "description": "Evidence-based dosage recommendations"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Evidence Base",
+            "ariaLevel": 2,
+            "description": "Clinical studies and PubMed citations"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Contraindications",
+            "ariaLevel": 2,
+            "description": "Safety information and drug interactions"
+          }
+        ],
+        "semanticElements": {
+          "details": "Expandable dosage and safety information",
+          "summary": "Click to reveal clinical details",
+          "data": "Dosage values, study sample sizes",
+          "abbr": "Medical and botanical abbreviations",
+          "mark": "Key safety warnings",
+          "cite": "Research citations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "herb",
+      "url": "/herb/garlic",
+      "title": "Garlic",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Garlic",
+          "h2": [
+            "Clinical Overview",
+            "Mechanism of Action",
+            "Dosage Protocol",
+            "Evidence Base",
+            "Contraindications"
+          ],
+          "h3": [
+            "Traditional Use",
+            "Active Compounds",
+            "Drug Interactions",
+            "Clinical Studies"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Herb Definition",
+            "ariaLevel": 2,
+            "description": "Primary definition for AI extraction"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Mechanism of Action",
+            "ariaLevel": 2,
+            "description": "Pharmacological mechanisms and active compounds"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Dosage Protocol",
+            "ariaLevel": 2,
+            "description": "Evidence-based dosage recommendations"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Evidence Base",
+            "ariaLevel": 2,
+            "description": "Clinical studies and PubMed citations"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Contraindications",
+            "ariaLevel": 2,
+            "description": "Safety information and drug interactions"
+          }
+        ],
+        "semanticElements": {
+          "details": "Expandable dosage and safety information",
+          "summary": "Click to reveal clinical details",
+          "data": "Dosage values, study sample sizes",
+          "abbr": "Medical and botanical abbreviations",
+          "mark": "Key safety warnings",
+          "cite": "Research citations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/golden-turmeric-quinoa",
+      "title": "Golden Turmeric Quinoa Nourish Bowl",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Golden Turmeric Quinoa Nourish Bowl",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/avocado-lentil-tartare",
+      "title": "Avocado & Sprouted Lentil Herb Tartare",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Avocado & Sprouted Lentil Herb Tartare",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/green-vitality-soup",
+      "title": "Moringa & Spinach Green Vitality Soup",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Moringa & Spinach Green Vitality Soup",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/beetroot-walnut-carpaccio",
+      "title": "Roasted Beetroot & Walnut Carpaccio",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Roasted Beetroot & Walnut Carpaccio",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/ayurvedic-millet-stew",
+      "title": "Ayurvedic Kitchari-Style Millet Stew",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Ayurvedic Kitchari-Style Millet Stew",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/kimchi-rice-bowl",
+      "title": "Fermented Kimchi Brown Rice Bowl",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Fermented Kimchi Brown Rice Bowl",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/ashwagandha-sweet-potato",
+      "title": "Sweet Potato & Ashwagandha Coconut Mash",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Sweet Potato & Ashwagandha Coconut Mash",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/papaya-detox-salad",
+      "title": "Rainbow Raw Papaya & Lime Detox Salad",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Rainbow Raw Papaya & Lime Detox Salad",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/hemp-basil-zoodles",
+      "title": "Hemp Seed & Basil Cream Zoodles",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Hemp Seed & Basil Cream Zoodles",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/mushroom-thyme-broth",
+      "title": "Mushroom & Thyme Healing Broth",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Mushroom & Thyme Healing Broth",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/charred-broccoli-almonds",
+      "title": "Charred Broccoli with Lemon Almond Drizzle",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Charred Broccoli with Lemon Almond Drizzle",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/chia-berry-parfait",
+      "title": "Chia & Berry Antioxidant Parfait",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Chia & Berry Antioxidant Parfait",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/jackfruit-turmeric-wraps",
+      "title": "Jackfruit & Turmeric Leaf Wraps",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Jackfruit & Turmeric Leaf Wraps",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/matcha-coconut-truffles",
+      "title": "Matcha & Coconut Energy Truffles",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Matcha & Coconut Energy Truffles",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/baked-pears-cinnamon",
+      "title": "Baked Pears with Cinnamon & Cacao Nibs",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Baked Pears with Cinnamon & Cacao Nibs",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/spirulina-lemon-shots",
+      "title": "Spirulina & Lemon Vitality Shots",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Spirulina & Lemon Vitality Shots",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/grilled-artichoke-rosemary",
+      "title": "Grilled Artichoke with Rosemary Salt",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Grilled Artichoke with Rosemary Salt",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/lentil-kale-curry",
+      "title": "Lentil & Kale Iron-Rich Curry",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Lentil & Kale Iron-Rich Curry",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/collard-wraps-chili",
+      "title": "Chili-Spiced Collard Wraps",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Chili-Spiced Collard Wraps",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/reishi-cocoa-elixir",
+      "title": "Red Reishi & Cocoa Elixir",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Red Reishi & Cocoa Elixir",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/black-bean-mole",
+      "title": "Black Bean & Cacao Mole Bowl",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Black Bean & Cacao Mole Bowl",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/golden-milk-elixir",
+      "title": "Turmeric & Black Pepper Golden Milk",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Turmeric & Black Pepper Golden Milk",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/fennel-citrus-salad",
+      "title": "Fennel & Citrus Digestive Salad",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Fennel & Citrus Digestive Salad",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/buckwheat-seaweed-soup",
+      "title": "Buckwheat Noodle & Seaweed Soup",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Buckwheat Noodle & Seaweed Soup",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/sleep-smoothie-valerian",
+      "title": "Cherry & Valerian Sleep Smoothie",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Cherry & Valerian Sleep Smoothie",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/purple-sweet-potato-pudding",
+      "title": "Purple Sweet Potato & Ginger Pudding",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Purple Sweet Potato & Ginger Pudding",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/adzuki-bean-stew",
+      "title": "Adzuki Bean & Shiitake Umami Stew",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Adzuki Bean & Shiitake Umami Stew",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/pomegranate-beauty-water",
+      "title": "Pomegranate & Rosehip Beauty Water",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Pomegranate & Rosehip Beauty Water",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/quinoa-sesame-cereal",
+      "title": "Sprouted Quinoa & Black Sesame Cereal",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Sprouted Quinoa & Black Sesame Cereal",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/brussels-sprouts-mustard",
+      "title": "Roasted Brussels Sprouts with Mustard & Tamari",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Roasted Brussels Sprouts with Mustard & Tamari",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/cauliflower-tabbouleh-hemp",
+      "title": "Cauliflower Rice Tabbouleh with Hemp Oil",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Cauliflower Rice Tabbouleh with Hemp Oil",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/black-garlic-drizzle",
+      "title": "Black Garlic & Fermented Hot Sauce Drizzle",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Black Garlic & Fermented Hot Sauce Drizzle",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/mango-cardamom-lassi",
+      "title": "Mango & Cardamom Lassi (Vegan)",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Mango & Cardamom Lassi (Vegan)",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/watercress-alfalfa-sandwich",
+      "title": "Watercress & Alfalfa Sprout Sandwich",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Watercress & Alfalfa Sprout Sandwich",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/rooibos-cinnamon-tea",
+      "title": "Rooibos & Cinnamon Antioxidant Tea",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Rooibos & Cinnamon Antioxidant Tea",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/chickpea-cauliflower-tagine",
+      "title": "Spiced Chickpea & Cauliflower Tagine",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Spiced Chickpea & Cauliflower Tagine",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/hemp-saffron-drink",
+      "title": "Hemp Milk & Saffron Calming Drink",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Hemp Milk & Saffron Calming Drink",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/cucumber-jicama-salad",
+      "title": "Cucumber & Jicama Hydration Salad",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Cucumber & Jicama Hydration Salad",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/lentil-walnut-pate",
+      "title": "Black Lentil & Walnut Paté",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Black Lentil & Walnut Paté",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    },
+    {
+      "pageType": "recipe",
+      "url": "/recipe/pear-ginger-slaw",
+      "title": "Pear & Ginger Probiotic Slaw",
+      "accessibilityFeatures": {
+        "headingHierarchy": {
+          "h1": "Pear & Ginger Probiotic Slaw",
+          "h2": [
+            "Recipe Overview",
+            "Ingredients",
+            "Instructions",
+            "Nutritional Analysis",
+            "Circadian Timing"
+          ],
+          "h3": [
+            "Preparation Time",
+            "Cooking Time",
+            "Servings",
+            "Macronutrients",
+            "Micronutrients"
+          ]
+        },
+        "ariaRegions": [
+          {
+            "role": "region",
+            "ariaLabel": "Recipe Definition",
+            "ariaLevel": 2,
+            "description": "Recipe description and therapeutic benefits"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Ingredients List",
+            "ariaLevel": 2,
+            "description": "Complete ingredient list with measurements"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Cooking Instructions",
+            "ariaLevel": 2,
+            "description": "Step-by-step preparation instructions"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Nutritional Analysis",
+            "ariaLevel": 2,
+            "description": "Comprehensive nutrition information"
+          },
+          {
+            "role": "region",
+            "ariaLabel": "Circadian Timing",
+            "ariaLevel": 2,
+            "description": "Optimal eating window recommendation"
+          }
+        ],
+        "semanticElements": {
+          "figure": "Recipe images and food photography",
+          "figcaption": "Image descriptions with recipe keywords",
+          "ol": "Numbered cooking instructions",
+          "ul": "Ingredient lists",
+          "data": "Nutritional values, cooking times",
+          "time": "Preparation and cooking durations"
+        },
+        "wcagLevel": "AAA",
+        "aiParseable": true,
+        "screenReaderOptimized": true
+      }
+    }
+  ]
+}
