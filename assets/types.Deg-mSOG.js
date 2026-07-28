@@ -1,0 +1,1 @@
+var i=(function(E){return E.METABOLIC="metabolic",E.CARDIO="cardiovascular",E.DIGESTION="digestion",E.WEIGHT="weight",E.JOINTS="musculoskeletal",E.IMMUNITY="immunity",E.COGNITIVE="cognitive",E.APPEARANCE="appearance",E.WOMENS="womens",E.MENS="mens",E.KIDS="kids",E.RESPIRATORY="respiratory",E.DETOX="detox",E.VEGAN="vegan",E.NEWS="news",E.EVENTS="events",E})({});export{i as t};

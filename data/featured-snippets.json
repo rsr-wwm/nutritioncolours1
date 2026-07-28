@@ -1,0 +1,131 @@
+{
+  "_meta": {
+    "description": "Pre-extracted featured snippet candidates optimized for Google position zero, AI Overviews, and voice assistant extraction.",
+    "snippetTypes": ["paragraph", "list", "table"],
+    "optimalLengths": { "paragraph": "40-58 words", "list": "4-8 items", "table": "3-6 rows" },
+    "lastUpdated": "2026-07-04"
+  },
+  "snippets": [
+    {
+      "id": "masld-definition",
+      "type": "paragraph",
+      "query": "what is MASLD fatty liver",
+      "route": "condition/masld",
+      "text": "MASLD (Metabolic Dysfunction-Associated Steatotic Liver Disease) is hepatic fat accumulation driven by excessive fructose intake, industrial seed oils, and circadian eating rhythm misalignment. The root cause is hepatic de novo lipogenesis, where the liver converts excess sugars into stored fat.",
+      "wordCount": 43
+    },
+    {
+      "id": "insulin-resistance-definition",
+      "type": "paragraph",
+      "query": "what causes insulin resistance",
+      "route": "condition/insulin-resistance",
+      "text": "Insulin resistance is caused by ectopic fat buildup inside liver and muscle cells that physically blocks the insulin receptor substrate (IRS-1) signaling pathway, preventing glucose from entering cells. This is driven by chronic overconsumption of refined sugars and sedentary lifestyle.",
+      "wordCount": 44
+    },
+    {
+      "id": "circadian-eating-steps",
+      "type": "list",
+      "query": "how to follow circadian diet",
+      "route": "condition/circadian-dysregulation",
+      "items": [
+        "Expose eyes to natural sunlight within 30 minutes of waking to reset the SCN master clock",
+        "Consume the largest meal within 2-3 hours of solar noon when insulin sensitivity peaks",
+        "Restrict all caloric intake to a consistent 10-hour daytime window (8:00 AM to 6:00 PM)",
+        "Keep dinner light and finish eating at least 3 hours before bedtime",
+        "Maintain a 14-hour overnight fast to initiate hepatic autophagy and fat clearance"
+      ]
+    },
+    {
+      "id": "pcos-root-cause",
+      "type": "paragraph",
+      "query": "what causes PCOS",
+      "route": "condition/pcod-pcos",
+      "text": "PCOS is caused by hyperinsulinemia driving ovarian theca cells to overproduce androgens (testosterone), resulting in follicular arrest, anovulation, and metabolic cyst formation. Reducing insulin resistance through circadian nutrition balances hormones and restores natural cycles.",
+      "wordCount": 42
+    },
+    {
+      "id": "diabetes-reversal",
+      "type": "paragraph",
+      "query": "can type 2 diabetes be reversed",
+      "route": "condition/diabetes-reversal",
+      "text": "Type 2 Diabetes can be reversed through targeted clinical nutrition that reduces visceral fat surrounding the pancreas and liver, allowing beta-cells to recover and restore natural insulin production. Circadian-aligned meal timing and plant-based food sequencing are key protocols.",
+      "wordCount": 43
+    },
+    {
+      "id": "turmeric-absorption",
+      "type": "paragraph",
+      "query": "how to absorb turmeric better",
+      "route": "herb/turmeric",
+      "text": "Always pair turmeric with a pinch of black pepper (piperine) and healthy fats like virgin coconut oil or grass-fed ghee to boost curcumin absorption by up to 2,000%. Light cooking with healthy fats activates curcumin, enhancing solubility and cellular uptake.",
+      "wordCount": 44
+    },
+    {
+      "id": "ashwagandha-timing",
+      "type": "paragraph",
+      "query": "when to take ashwagandha",
+      "route": "herb/ashwagandha",
+      "text": "Take Ashwagandha in the evening or 1 hour before bed to support natural cortisol decline and sleep cycles. The recommended dosage is 300-600 mg of standardized root extract with at least 5% withanolides, preferably with warm milk or ghee.",
+      "wordCount": 43
+    },
+    {
+      "id": "leaky-gut-definition",
+      "type": "paragraph",
+      "query": "what is leaky gut syndrome",
+      "route": "condition/gut-health",
+      "text": "Leaky gut occurs when tight junctions in the intestinal wall loosen, allowing undigested food particles and toxins into the bloodstream. It is healed through glutamine-rich foods, pectin, and polyphenols that rebuild the mucosal barrier, combined with eliminating artificial sweeteners and emulsifiers.",
+      "wordCount": 46
+    },
+    {
+      "id": "hypertension-insulin-link",
+      "type": "paragraph",
+      "query": "how does insulin resistance cause high blood pressure",
+      "route": "condition/hypertension",
+      "text": "High insulin triggers sodium retention in the kidneys and reduces nitric oxide synthesis in blood vessels, causing them to constrict and raise pressure. Addressing insulin resistance through circadian nutrition directly supports healthy blood pressure by restoring endothelial function.",
+      "wordCount": 43
+    },
+    {
+      "id": "therapeutic-herbs-list",
+      "type": "list",
+      "query": "best herbs for metabolic health",
+      "route": "knowledge",
+      "items": [
+        "Turmeric (Curcumin) - Downregulates NF-kB inflammatory pathways, supports liver health",
+        "Ceylon Cinnamon (Cinnamaldehyde) - Mimics insulin, enhancing glucose uptake via GLUT-4 transporters",
+        "Ashwagandha (Withanolides) - Modulates HPA axis, lowers serum cortisol and stress-induced hyperglycemia",
+        "Ginger (Gingerol) - Prokinetic that stimulates digestive motility and reduces inflammation",
+        "Fenugreek (Trigonelline) - Glucose disposal agent that improves insulin sensitivity",
+        "Holy Basil (Eugenol) - Adaptogen that reduces cortisol and supports immune function"
+      ]
+    },
+    {
+      "id": "circadian-meal-timing-table",
+      "type": "table",
+      "query": "circadian eating schedule",
+      "route": "condition/circadian-dysregulation",
+      "headers": ["Time Window", "Phase", "What to Eat"],
+      "rows": [
+        ["6:00-8:00 AM", "Cortisol Awakening", "Warm water, sunlight exposure, light protein"],
+        ["8:00-10:00 AM", "Peak Digestion Prep", "Complex fiber + protein breakfast (largest carb load)"],
+        ["12:00-2:00 PM", "Peak Agni (Digestive Fire)", "Largest meal - complex carbs, proteins, healthy fats"],
+        ["3:00-5:00 PM", "Absorption Gate", "Light snack - herbs, nuts, or bone broth"],
+        ["5:00-6:30 PM", "Evening Recovery", "Light dinner - soups, steamed vegetables, lean protein"],
+        ["6:30 PM-8:00 AM", "Overnight Fast (14h)", "Fasting window - water, herbal tea only"]
+      ]
+    },
+    {
+      "id": "biomarker-tracking-table",
+      "type": "table",
+      "query": "metabolic health biomarkers to track",
+      "route": "tools",
+      "headers": ["Biomarker", "Optimal Range", "Frequency"],
+      "rows": [
+        ["HbA1c", "Below 5.7%", "Every 3 months"],
+        ["Fasting Insulin", "Below 8 uIU/mL", "Every 3 months"],
+        ["HOMA-IR", "Below 2.0", "Every 6 months"],
+        ["ALT/AST (Liver)", "ALT < 25, AST < 30 U/L", "Every 6 months"],
+        ["hs-CRP", "Below 1.0 mg/L", "Every 6 months"],
+        ["HRV (Heart Rate Variability)", "Above 60 ms (age-adjusted)", "Daily tracking"]
+      ]
+    }
+  ]
+}

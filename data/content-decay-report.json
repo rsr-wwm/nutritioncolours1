@@ -1,0 +1,6103 @@
+{
+  "generated": "2026-07-14T18:40:36.536Z",
+  "summary": {
+    "total": 315,
+    "byStatus": {
+      "fresh": 315,
+      "aging": 0,
+      "decaying": 0,
+      "critical": 0
+    },
+    "averageFreshnessScore": 95,
+    "totalCitations": 52
+  },
+  "criticalPages": [],
+  "decayingPages": [],
+  "flaggedPages": [],
+  "allPages": [
+    {
+      "type": "condition",
+      "id": "masld",
+      "name": "MASLD (Fatty Liver)",
+      "url": "/condition/masld",
+      "dataLastModified": null,
+      "clinicallyReviewed": "May 28, 2026",
+      "daysSinceUpdate": 48,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/34567890/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 87,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "condition",
+      "id": "insulin-resistance",
+      "name": "Insulin Resistance",
+      "url": "/condition/insulin-resistance",
+      "dataLastModified": null,
+      "clinicallyReviewed": "May 28, 2026",
+      "daysSinceUpdate": 48,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/30765876/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 87,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "condition",
+      "id": "circadian-dysregulation",
+      "name": "Circadian Rhythm Dysregulation",
+      "url": "/condition/circadian-dysregulation",
+      "dataLastModified": null,
+      "clinicallyReviewed": "May 28, 2026",
+      "daysSinceUpdate": 48,
+      "citationCount": 2,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/30206124/",
+          "https://pubmed.ncbi.nlm.nih.gov/31812495/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 87,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "condition",
+      "id": "diabetes-reversal",
+      "name": "Type 2 Diabetes Reversal",
+      "url": "/condition/diabetes-reversal",
+      "dataLastModified": null,
+      "clinicallyReviewed": "May 28, 2026",
+      "daysSinceUpdate": 48,
+      "citationCount": 2,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/29289258/",
+          "https://pubmed.ncbi.nlm.nih.gov/34185074/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 87,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "condition",
+      "id": "pcod-pcos",
+      "name": "PCOD / PCOS (Metabolic & Hormonal Reversal)",
+      "url": "/condition/pcod-pcos",
+      "dataLastModified": null,
+      "clinicallyReviewed": "May 28, 2026",
+      "daysSinceUpdate": 48,
+      "citationCount": 2,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/37933831/",
+          "https://pubmed.ncbi.nlm.nih.gov/33024519/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 87,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "condition",
+      "id": "thyroid-dysfunction",
+      "name": "Thyroid Dysfunction (Hypothyroidism & Hashimoto's)",
+      "url": "/condition/thyroid-dysfunction",
+      "dataLastModified": null,
+      "clinicallyReviewed": "May 28, 2026",
+      "daysSinceUpdate": 48,
+      "citationCount": 2,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/31133379/",
+          "https://pubmed.ncbi.nlm.nih.gov/30060266/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 87,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "condition",
+      "id": "gut-health",
+      "name": "Gut Health & Microbiome Restoration",
+      "url": "/condition/gut-health",
+      "dataLastModified": null,
+      "clinicallyReviewed": "May 28, 2026",
+      "daysSinceUpdate": 48,
+      "citationCount": 2,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/33803407/",
+          "https://pubmed.ncbi.nlm.nih.gov/28191884/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 87,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "condition",
+      "id": "hypertension",
+      "name": "Hypertension (High Blood Pressure)",
+      "url": "/condition/hypertension",
+      "dataLastModified": null,
+      "clinicallyReviewed": "May 28, 2026",
+      "daysSinceUpdate": 48,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/25557383/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 87,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "turmeric",
+      "name": "Turmeric",
+      "url": "/herb/turmeric",
+      "dataLastModified": null,
+      "clinicallyReviewed": "May 28, 2026",
+      "daysSinceUpdate": 48,
+      "citationCount": 2,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/29065496/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": [
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5664031/"
+        ]
+      },
+      "freshnessScore": 87,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "ashwagandha",
+      "name": "Ashwagandha",
+      "url": "/herb/ashwagandha",
+      "dataLastModified": null,
+      "clinicallyReviewed": "May 28, 2026",
+      "daysSinceUpdate": 48,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/31517876/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 87,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "cinnamon",
+      "name": "Ceylon Cinnamon",
+      "url": "/herb/cinnamon",
+      "dataLastModified": null,
+      "clinicallyReviewed": "May 28, 2026",
+      "daysSinceUpdate": 48,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/24019277/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 87,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "ginger",
+      "name": "Ginger",
+      "url": "/herb/ginger",
+      "dataLastModified": null,
+      "clinicallyReviewed": "May 28, 2026",
+      "daysSinceUpdate": 48,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/32675085/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 87,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "ragi",
+      "name": "Ragi (Finger Millet)",
+      "url": "/herb/ragi",
+      "dataLastModified": null,
+      "clinicallyReviewed": "May 28, 2026",
+      "daysSinceUpdate": 48,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/29876543/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 87,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "spirulina",
+      "name": "Spirulina",
+      "url": "/herb/spirulina",
+      "dataLastModified": null,
+      "clinicallyReviewed": "May 28, 2026",
+      "daysSinceUpdate": 48,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/21234253/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 87,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "fenugreek",
+      "name": "Fenugreek",
+      "url": "/herb/fenugreek",
+      "dataLastModified": null,
+      "clinicallyReviewed": "May 28, 2026",
+      "daysSinceUpdate": 48,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/28191884/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 87,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "holy-basil",
+      "name": "Holy Basil (Tulsi)",
+      "url": "/herb/holy-basil",
+      "dataLastModified": null,
+      "clinicallyReviewed": "May 28, 2026",
+      "daysSinceUpdate": 48,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/25624701/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 87,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "garlic",
+      "name": "Garlic",
+      "url": "/herb/garlic",
+      "dataLastModified": null,
+      "clinicallyReviewed": "May 28, 2026",
+      "daysSinceUpdate": 48,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/25557383/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 87,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "mint",
+      "name": "Mint",
+      "url": "/herb/mint",
+      "dataLastModified": null,
+      "clinicallyReviewed": "July 02, 2026",
+      "daysSinceUpdate": 13,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/29876543/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "coriander-cilantro",
+      "name": "Coriander (Cilantro)",
+      "url": "/herb/coriander-cilantro",
+      "dataLastModified": null,
+      "clinicallyReviewed": "July 02, 2026",
+      "daysSinceUpdate": 13,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/28191884/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "basil",
+      "name": "Basil",
+      "url": "/herb/basil",
+      "dataLastModified": null,
+      "clinicallyReviewed": "July 02, 2026",
+      "daysSinceUpdate": 13,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/25624701/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "rosemary",
+      "name": "Rosemary",
+      "url": "/herb/rosemary",
+      "dataLastModified": null,
+      "clinicallyReviewed": "July 02, 2026",
+      "daysSinceUpdate": 13,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/25842469/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "lavender",
+      "name": "Lavender",
+      "url": "/herb/lavender",
+      "dataLastModified": null,
+      "clinicallyReviewed": "July 02, 2026",
+      "daysSinceUpdate": 13,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/29065496/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "oregano",
+      "name": "Oregano",
+      "url": "/herb/oregano",
+      "dataLastModified": null,
+      "clinicallyReviewed": "July 02, 2026",
+      "daysSinceUpdate": 13,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/25842469/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "thyme",
+      "name": "Thyme",
+      "url": "/herb/thyme",
+      "dataLastModified": null,
+      "clinicallyReviewed": "July 02, 2026",
+      "daysSinceUpdate": 13,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/29065496/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "parsley",
+      "name": "Parsley",
+      "url": "/herb/parsley",
+      "dataLastModified": null,
+      "clinicallyReviewed": "July 02, 2026",
+      "daysSinceUpdate": 13,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/28191884/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "echinacea",
+      "name": "Echinacea",
+      "url": "/herb/echinacea",
+      "dataLastModified": null,
+      "clinicallyReviewed": "July 02, 2026",
+      "daysSinceUpdate": 13,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/29065496/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "lemon-balm",
+      "name": "Lemon Balm",
+      "url": "/herb/lemon-balm",
+      "dataLastModified": null,
+      "clinicallyReviewed": "July 02, 2026",
+      "daysSinceUpdate": 13,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/25842469/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "shiso-perilla",
+      "name": "Shiso (Perilla)",
+      "url": "/herb/shiso-perilla",
+      "dataLastModified": null,
+      "clinicallyReviewed": "July 02, 2026",
+      "daysSinceUpdate": 13,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/25624701/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "hibiscus",
+      "name": "Hibiscus",
+      "url": "/herb/hibiscus",
+      "dataLastModified": null,
+      "clinicallyReviewed": "July 02, 2026",
+      "daysSinceUpdate": 13,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/29065496/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "valerian-root",
+      "name": "Valerian Root",
+      "url": "/herb/valerian-root",
+      "dataLastModified": null,
+      "clinicallyReviewed": "July 02, 2026",
+      "daysSinceUpdate": 13,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/25842469/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "dill",
+      "name": "Dill",
+      "url": "/herb/dill",
+      "dataLastModified": null,
+      "clinicallyReviewed": "July 02, 2026",
+      "daysSinceUpdate": 13,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/28191884/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "ginseng",
+      "name": "Ginseng",
+      "url": "/herb/ginseng",
+      "dataLastModified": null,
+      "clinicallyReviewed": "July 02, 2026",
+      "daysSinceUpdate": 13,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/29065496/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "marjoram",
+      "name": "Marjoram",
+      "url": "/herb/marjoram",
+      "dataLastModified": null,
+      "clinicallyReviewed": "July 02, 2026",
+      "daysSinceUpdate": 13,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/25624701/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "tarragon",
+      "name": "Tarragon",
+      "url": "/herb/tarragon",
+      "dataLastModified": null,
+      "clinicallyReviewed": "July 02, 2026",
+      "daysSinceUpdate": 13,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/28191884/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "st-johns-wort",
+      "name": "St. John's Wort",
+      "url": "/herb/st-johns-wort",
+      "dataLastModified": null,
+      "clinicallyReviewed": "July 02, 2026",
+      "daysSinceUpdate": 13,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/29065496/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "ginkgo-biloba",
+      "name": "Ginkgo Biloba",
+      "url": "/herb/ginkgo-biloba",
+      "dataLastModified": null,
+      "clinicallyReviewed": "July 02, 2026",
+      "daysSinceUpdate": 13,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/25842469/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "curry-leaves",
+      "name": "Curry Leaves",
+      "url": "/herb/curry-leaves",
+      "dataLastModified": null,
+      "clinicallyReviewed": "July 02, 2026",
+      "daysSinceUpdate": 13,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/28191884/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "cumin",
+      "name": "Cumin (Jeera)",
+      "url": "/herb/cumin",
+      "dataLastModified": null,
+      "clinicallyReviewed": "July 02, 2026",
+      "daysSinceUpdate": 13,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/29065496/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "cardamom",
+      "name": "Cardamom (Elaichi)",
+      "url": "/herb/cardamom",
+      "dataLastModified": null,
+      "clinicallyReviewed": "July 02, 2026",
+      "daysSinceUpdate": 13,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/25842469/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "clove",
+      "name": "Clove (Laung)",
+      "url": "/herb/clove",
+      "dataLastModified": null,
+      "clinicallyReviewed": "July 02, 2026",
+      "daysSinceUpdate": 13,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/29065496/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "black-pepper",
+      "name": "Black Pepper (Kali Mirch)",
+      "url": "/herb/black-pepper",
+      "dataLastModified": null,
+      "clinicallyReviewed": "July 02, 2026",
+      "daysSinceUpdate": 13,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/9619120/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "asafoetida",
+      "name": "Asafoetida (Hing)",
+      "url": "/herb/asafoetida",
+      "dataLastModified": null,
+      "clinicallyReviewed": "July 02, 2026",
+      "daysSinceUpdate": 13,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/25624701/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "saffron",
+      "name": "Saffron (Kesar)",
+      "url": "/herb/saffron",
+      "dataLastModified": null,
+      "clinicallyReviewed": "July 02, 2026",
+      "daysSinceUpdate": 13,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/25842469/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "carom-seeds",
+      "name": "Carom Seeds (Ajwain)",
+      "url": "/herb/carom-seeds",
+      "dataLastModified": null,
+      "clinicallyReviewed": "July 02, 2026",
+      "daysSinceUpdate": 13,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/28191884/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "mustard-seeds",
+      "name": "Mustard Seeds (Sarson)",
+      "url": "/herb/mustard-seeds",
+      "dataLastModified": null,
+      "clinicallyReviewed": "July 02, 2026",
+      "daysSinceUpdate": 13,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/29065496/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "herb",
+      "id": "star-anise",
+      "name": "Star Anise (Chakra Phool)",
+      "url": "/herb/star-anise",
+      "dataLastModified": null,
+      "clinicallyReviewed": "July 02, 2026",
+      "daysSinceUpdate": 13,
+      "citationCount": 1,
+      "citations": {
+        "pubmed": [
+          "https://pubmed.ncbi.nlm.nih.gov/25842469/"
+        ],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "diabetes-reversal",
+      "name": "Blood Sugar & Insulin Optimization",
+      "url": "/topic/diabetes-reversal",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "pcos-balance",
+      "name": "Endocrine & Hormonal Balance",
+      "url": "/topic/pcos-balance",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "fatty-liver-reversal",
+      "name": "Liver Health & Metabolic Detoxification",
+      "url": "/topic/fatty-liver-reversal",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "thyroid-optimization",
+      "name": "Thyroid & Metabolic Optimization",
+      "url": "/topic/thyroid-optimization",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "hypertension-management",
+      "name": "Hypertension Management",
+      "url": "/topic/hypertension-management",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "gut-health-acidity",
+      "name": "Gut Health & Acidity",
+      "url": "/topic/gut-health-acidity",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "weight-loss-women",
+      "name": "Weight Loss for Women",
+      "url": "/topic/weight-loss-women",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "weight-loss-men",
+      "name": "Weight Loss for Men",
+      "url": "/topic/weight-loss-men",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "belly-fat-reduction",
+      "name": "Belly Fat Reduction",
+      "url": "/topic/belly-fat-reduction",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "insulin-resistance-mgmt",
+      "name": "Insulin Resistance Management",
+      "url": "/topic/insulin-resistance-mgmt",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "pre-diabetes-care",
+      "name": "Pre-Diabetes Care",
+      "url": "/topic/pre-diabetes-care",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "menopause-hormone-support",
+      "name": "Menopause Hormone Support",
+      "url": "/topic/menopause-hormone-support",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "hormonal-imbalance",
+      "name": "Hormonal Imbalance Correction",
+      "url": "/topic/hormonal-imbalance",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "testosterone-boost",
+      "name": "Testosterone Boost",
+      "url": "/topic/testosterone-boost",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "cortisol-balance",
+      "name": "Cortisol & Stress Balance",
+      "url": "/topic/cortisol-balance",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "cholesterol-mgmt",
+      "name": "Cholesterol Management",
+      "url": "/topic/cholesterol-mgmt",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "heart-health",
+      "name": "Heart Health Optimization",
+      "url": "/topic/heart-health",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "blood-circulation",
+      "name": "Blood Circulation Support",
+      "url": "/topic/blood-circulation",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "joint-pain-relief",
+      "name": "Joint Pain Relief",
+      "url": "/topic/joint-pain-relief",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "arthritis-support",
+      "name": "Arthritis Support",
+      "url": "/topic/arthritis-support",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "osteoporosis-prevention",
+      "name": "Osteoporosis Prevention",
+      "url": "/topic/osteoporosis-prevention",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "hyperthyroid-protocol",
+      "name": "Hyperthyroid Protocol",
+      "url": "/topic/hyperthyroid-protocol",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "muscle-recovery",
+      "name": "Muscle Recovery & Strength",
+      "url": "/topic/muscle-recovery",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "back-spine-health",
+      "name": "Back & Spine Health",
+      "url": "/topic/back-spine-health",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "hair-growth-strength",
+      "name": "Hair Growth & Strength",
+      "url": "/topic/hair-growth-strength",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "skin-glow-detox",
+      "name": "Skin Glow & Detox",
+      "url": "/topic/skin-glow-detox",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "anti-aging-support",
+      "name": "Anti-Aging Support",
+      "url": "/topic/anti-aging-support",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "acne-skin-clarity",
+      "name": "Acne & Skin Clarity",
+      "url": "/topic/acne-skin-clarity",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "nail-health-strength",
+      "name": "Nail Health & Strength",
+      "url": "/topic/nail-health-strength",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "immunity-boost",
+      "name": "Immunity Boost",
+      "url": "/topic/immunity-boost",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "detox-rejuvenation",
+      "name": "Detox & Rejuvenation",
+      "url": "/topic/detox-rejuvenation",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "anti-inflammatory-support",
+      "name": "Anti-Inflammatory Support",
+      "url": "/topic/anti-inflammatory-support",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "healthy-aging-solutions",
+      "name": "Healthy Aging Solutions",
+      "url": "/topic/healthy-aging-solutions",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "wellness-longevity",
+      "name": "Wellness & Longevity",
+      "url": "/topic/wellness-longevity",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "fertility-hormone-support",
+      "name": "Fertility & Hormone Support",
+      "url": "/topic/fertility-hormone-support",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "pcos-weight-diet",
+      "name": "PCOS Weight & Diet",
+      "url": "/topic/pcos-weight-diet",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "menopause-weight-mgmt",
+      "name": "Menopause Weight Management",
+      "url": "/topic/menopause-weight-mgmt",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "gout-uric-acid-reversal",
+      "name": "Uric Acid & Gout Support",
+      "url": "/topic/gout-uric-acid-reversal",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "chronic-fatigue-syndrome",
+      "name": "Chronic Fatigue & Energy Support",
+      "url": "/topic/chronic-fatigue-syndrome",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "ibs-ibd-gut-repair",
+      "name": "IBS & IBD Gut Repair",
+      "url": "/topic/ibs-ibd-gut-repair",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "post-viral-recovery",
+      "name": "Post-Viral Recovery",
+      "url": "/topic/post-viral-recovery",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "kidney-health-diet",
+      "name": "Kidney Health Support",
+      "url": "/topic/kidney-health-diet",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "migraine-headache-relief",
+      "name": "Migraine Relief",
+      "url": "/topic/migraine-headache-relief",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "adhd-brain-focus-kids",
+      "name": "Pediatric ADHD Focus",
+      "url": "/topic/adhd-brain-focus-kids",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "geriatric-strength-nutrition",
+      "name": "Geriatric Strength Nutrition",
+      "url": "/topic/geriatric-strength-nutrition",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "pregnancy-nutrition-support",
+      "name": "Pregnancy Nutrition Support",
+      "url": "/topic/pregnancy-nutrition-support",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "sleep-disorder-circadian-reset",
+      "name": "Sleep & Circadian Reset",
+      "url": "/topic/sleep-disorder-circadian-reset",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "fibromyalgia-pain-management",
+      "name": "Fibromyalgia Management",
+      "url": "/topic/fibromyalgia-pain-management",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "histamine-intolerance-allergy",
+      "name": "Histamine Intolerance Care",
+      "url": "/topic/histamine-intolerance-allergy",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "autoimmune-hashimotos-protocol",
+      "name": "Hashimoto's Thyroid Care",
+      "url": "/topic/autoimmune-hashimotos-protocol",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "kid-immunity-growth",
+      "name": "Pediatric Immunity & Growth",
+      "url": "/topic/kid-immunity-growth",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "liver-detoxification-pathways",
+      "name": "Liver Detox Pathways",
+      "url": "/topic/liver-detoxification-pathways",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-03",
+      "daysSinceUpdate": 42,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 88,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "vegan-recipes",
+      "name": "Vegan Recipes & Circadian Cooking",
+      "url": "/topic/vegan-recipes",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-30",
+      "daysSinceUpdate": 15,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "vegan-alternatives",
+      "name": "Alternatives & Substitutes",
+      "url": "/topic/vegan-alternatives",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-30",
+      "daysSinceUpdate": 15,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "vegan-nutrition",
+      "name": "Health & Nutrition Protocols",
+      "url": "/topic/vegan-nutrition",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-30",
+      "daysSinceUpdate": 15,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "vegan-lifestyle",
+      "name": "Lifestyle & Fashion",
+      "url": "/topic/vegan-lifestyle",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-30",
+      "daysSinceUpdate": 15,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "vegan-travel",
+      "name": "Dining & Travel",
+      "url": "/topic/vegan-travel",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-30",
+      "daysSinceUpdate": 15,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "vegan-beginners",
+      "name": "Beginner Guides",
+      "url": "/topic/vegan-beginners",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-30",
+      "daysSinceUpdate": 15,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "vegan-reviews",
+      "name": "Product Reviews & Testing",
+      "url": "/topic/vegan-reviews",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-30",
+      "daysSinceUpdate": 15,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "vegan-news",
+      "name": "News & Environmental Science",
+      "url": "/topic/vegan-news",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-06-30",
+      "daysSinceUpdate": 15,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "type-2-diabetes",
+      "name": "Type 2 Diabetes",
+      "url": "/topic/type-2-diabetes",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "fatty-liver",
+      "name": "Fatty Liver",
+      "url": "/topic/fatty-liver",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "pcod-pcos",
+      "name": "PCOD / PCOS",
+      "url": "/topic/pcod-pcos",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "obesity",
+      "name": "Obesity",
+      "url": "/topic/obesity",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "high-blood-sugar",
+      "name": "High Blood Sugar",
+      "url": "/topic/high-blood-sugar",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "metabolic-syndrome",
+      "name": "Metabolic Syndrome",
+      "url": "/topic/metabolic-syndrome",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "gestational-diabetes",
+      "name": "Gestational Diabetes",
+      "url": "/topic/gestational-diabetes",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "low-blood-sugar",
+      "name": "Low Blood Sugar",
+      "url": "/topic/low-blood-sugar",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "dka-prevention",
+      "name": "DKA Prevention",
+      "url": "/topic/dka-prevention",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "type-1-diabetes",
+      "name": "Type 1 Diabetes",
+      "url": "/topic/type-1-diabetes",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "type-3c-diabetes",
+      "name": "Type 3c Diabetes",
+      "url": "/topic/type-3c-diabetes",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "high-cholesterol",
+      "name": "High Cholesterol",
+      "url": "/topic/high-cholesterol",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "gout",
+      "name": "Gout",
+      "url": "/topic/gout",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "dark-neckskin-tags",
+      "name": "Dark Neck/Skin Tags",
+      "url": "/topic/dark-neckskin-tags",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "cholesterol-deposits",
+      "name": "Cholesterol Deposits",
+      "url": "/topic/cholesterol-deposits",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "high-bp",
+      "name": "High BP",
+      "url": "/topic/high-bp",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "heart-disease",
+      "name": "Heart Disease",
+      "url": "/topic/heart-disease",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "heart-attack",
+      "name": "Heart Attack",
+      "url": "/topic/heart-attack",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "stroke",
+      "name": "Stroke",
+      "url": "/topic/stroke",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "angina",
+      "name": "Angina",
+      "url": "/topic/angina",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "a-fib",
+      "name": "A-Fib",
+      "url": "/topic/a-fib",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "peripheral-artery",
+      "name": "Peripheral Artery",
+      "url": "/topic/peripheral-artery",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "varicose-veins",
+      "name": "Varicose Veins",
+      "url": "/topic/varicose-veins",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "leg-ulcers",
+      "name": "Leg Ulcers",
+      "url": "/topic/leg-ulcers",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "low-bp",
+      "name": "Low BP",
+      "url": "/topic/low-bp",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "varicocele",
+      "name": "Varicocele",
+      "url": "/topic/varicocele",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "dvt",
+      "name": "DVT",
+      "url": "/topic/dvt",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "iron-overload",
+      "name": "Iron Overload",
+      "url": "/topic/iron-overload",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "iron-deficiency",
+      "name": "Iron Deficiency",
+      "url": "/topic/iron-deficiency",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "vitamin-d-deficiency",
+      "name": "Vitamin D Deficiency",
+      "url": "/topic/vitamin-d-deficiency",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "b12-deficiency",
+      "name": "B12 Deficiency",
+      "url": "/topic/b12-deficiency",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "folate-deficiency",
+      "name": "Folate Deficiency",
+      "url": "/topic/folate-deficiency",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "acid-reflux",
+      "name": "Acid Reflux",
+      "url": "/topic/acid-reflux",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "ibs",
+      "name": "IBS",
+      "url": "/topic/ibs",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "constipation",
+      "name": "Constipation",
+      "url": "/topic/constipation",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "diverticulitis",
+      "name": "Diverticulitis",
+      "url": "/topic/diverticulitis",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "bowel-polyps",
+      "name": "Bowel Polyps",
+      "url": "/topic/bowel-polyps",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "bowel-cancer",
+      "name": "Bowel Cancer",
+      "url": "/topic/bowel-cancer",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "stomach-ulcer",
+      "name": "Stomach Ulcer",
+      "url": "/topic/stomach-ulcer",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "gallstones",
+      "name": "Gallstones",
+      "url": "/topic/gallstones",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "hemorrhoids",
+      "name": "Hemorrhoids",
+      "url": "/topic/hemorrhoids",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "nafld-cirrhosis",
+      "name": "NAFLD Cirrhosis",
+      "url": "/topic/nafld-cirrhosis",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "fatty-pancreas",
+      "name": "Fatty Pancreas",
+      "url": "/topic/fatty-pancreas",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "celiac-disease",
+      "name": "Celiac Disease",
+      "url": "/topic/celiac-disease",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "crohns-uc",
+      "name": "Crohn's / UC",
+      "url": "/topic/crohns-uc",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "sibo",
+      "name": "SIBO",
+      "url": "/topic/sibo",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "histamine-intolerance",
+      "name": "Histamine Intolerance",
+      "url": "/topic/histamine-intolerance",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "leaky-gut",
+      "name": "Leaky Gut",
+      "url": "/topic/leaky-gut",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "pancreatitis",
+      "name": "Pancreatitis",
+      "url": "/topic/pancreatitis",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "stomach-cancer",
+      "name": "Stomach Cancer",
+      "url": "/topic/stomach-cancer",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "esophagitis",
+      "name": "Esophagitis",
+      "url": "/topic/esophagitis",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "gastritis",
+      "name": "Gastritis",
+      "url": "/topic/gastritis",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "anal-fissure",
+      "name": "Anal Fissure",
+      "url": "/topic/anal-fissure",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "eoe",
+      "name": "EoE",
+      "url": "/topic/eoe",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "gluten-sensitivity",
+      "name": "Gluten Sensitivity",
+      "url": "/topic/gluten-sensitivity",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "vitamin-k-deficiency",
+      "name": "Vitamin K Deficiency",
+      "url": "/topic/vitamin-k-deficiency",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "malnutrition",
+      "name": "Malnutrition",
+      "url": "/topic/malnutrition",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "dehydration",
+      "name": "Dehydration",
+      "url": "/topic/dehydration",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "heatstroke",
+      "name": "Heatstroke",
+      "url": "/topic/heatstroke",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "bad-breath-gut",
+      "name": "Bad Breath (Gut)",
+      "url": "/topic/bad-breath-gut",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "kwashiorkor",
+      "name": "Kwashiorkor",
+      "url": "/topic/kwashiorkor",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "water-intoxication",
+      "name": "Water Intoxication",
+      "url": "/topic/water-intoxication",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "infertility",
+      "name": "Infertility",
+      "url": "/topic/infertility",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "erectile-dysfunction",
+      "name": "Erectile Dysfunction",
+      "url": "/topic/erectile-dysfunction",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "low-libido",
+      "name": "Low Libido",
+      "url": "/topic/low-libido",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "menopause-symptoms",
+      "name": "Menopause Symptoms",
+      "url": "/topic/menopause-symptoms",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "pms-pmdd",
+      "name": "PMS / PMDD",
+      "url": "/topic/pms-pmdd",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "endometriosis-pain",
+      "name": "Endometriosis Pain",
+      "url": "/topic/endometriosis-pain",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "pre-eclampsia",
+      "name": "Pre-Eclampsia",
+      "url": "/topic/pre-eclampsia",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "fetal-alcohol-syndrome",
+      "name": "Fetal Alcohol Syndrome",
+      "url": "/topic/fetal-alcohol-syndrome",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "spina-bifida",
+      "name": "Spina Bifida",
+      "url": "/topic/spina-bifida",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "adenomyosis",
+      "name": "Adenomyosis",
+      "url": "/topic/adenomyosis",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "endometrial-cancer",
+      "name": "Endometrial Cancer",
+      "url": "/topic/endometrial-cancer",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "breast-cancer",
+      "name": "Breast Cancer",
+      "url": "/topic/breast-cancer",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "baby-tooth-decay",
+      "name": "Baby Tooth Decay",
+      "url": "/topic/baby-tooth-decay",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "insomnia",
+      "name": "Insomnia",
+      "url": "/topic/insomnia",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "sleep-apnea",
+      "name": "Sleep Apnea",
+      "url": "/topic/sleep-apnea",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "migraines",
+      "name": "Migraines",
+      "url": "/topic/migraines",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "depression",
+      "name": "Depression",
+      "url": "/topic/depression",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "anxiety",
+      "name": "Anxiety",
+      "url": "/topic/anxiety",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "cognitive-decline",
+      "name": "Cognitive Decline",
+      "url": "/topic/cognitive-decline",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "adhd",
+      "name": "ADHD",
+      "url": "/topic/adhd",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "epilepsy-diet-cured",
+      "name": "Epilepsy (Diet-Cured)",
+      "url": "/topic/epilepsy-diet-cured",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "restless-legs",
+      "name": "Restless Legs",
+      "url": "/topic/restless-legs",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "wernicke-korsakoff",
+      "name": "Wernicke-Korsakoff",
+      "url": "/topic/wernicke-korsakoff",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "tension-headache",
+      "name": "Tension Headache",
+      "url": "/topic/tension-headache",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "chronic-fatigue",
+      "name": "Chronic Fatigue",
+      "url": "/topic/chronic-fatigue",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "tinnitus",
+      "name": "Tinnitus",
+      "url": "/topic/tinnitus",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "eye-twitches",
+      "name": "Eye Twitches",
+      "url": "/topic/eye-twitches",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "night-eating",
+      "name": "Night Eating",
+      "url": "/topic/night-eating",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "orthorexia",
+      "name": "Orthorexia",
+      "url": "/topic/orthorexia",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "jet-lag-shift-work",
+      "name": "Jet Lag / Shift Work",
+      "url": "/topic/jet-lag-shift-work",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "motion-sickness",
+      "name": "Motion Sickness",
+      "url": "/topic/motion-sickness",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "anorexia-bulimia-bed",
+      "name": "Anorexia / Bulimia / BED",
+      "url": "/topic/anorexia-bulimia-bed",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "osteoporosis",
+      "name": "Osteoporosis",
+      "url": "/topic/osteoporosis",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "osteoarthritis",
+      "name": "Osteoarthritis",
+      "url": "/topic/osteoarthritis",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "kidney-stones",
+      "name": "Kidney Stones",
+      "url": "/topic/kidney-stones",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "sarcopenia",
+      "name": "Sarcopenia",
+      "url": "/topic/sarcopenia",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "back-pain",
+      "name": "Back Pain",
+      "url": "/topic/back-pain",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "muscle-cramps",
+      "name": "Muscle Cramps",
+      "url": "/topic/muscle-cramps",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "plantar-fasciitis",
+      "name": "Plantar Fasciitis",
+      "url": "/topic/plantar-fasciitis",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "heelarch-pain",
+      "name": "Heel/Arch Pain",
+      "url": "/topic/heelarch-pain",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "pre-osteoporosis",
+      "name": "Pre-Osteoporosis",
+      "url": "/topic/pre-osteoporosis",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "singers-nodules",
+      "name": "Singer's Nodules",
+      "url": "/topic/singers-nodules",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "tarsal-tunnel",
+      "name": "Tarsal Tunnel",
+      "url": "/topic/tarsal-tunnel",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "rheumatoid-arthritis",
+      "name": "Rheumatoid Arthritis",
+      "url": "/topic/rheumatoid-arthritis",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "lupus",
+      "name": "Lupus",
+      "url": "/topic/lupus",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "hashimotos",
+      "name": "Hashimoto's",
+      "url": "/topic/hashimotos",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "acne",
+      "name": "Acne",
+      "url": "/topic/acne",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "eczema",
+      "name": "Eczema",
+      "url": "/topic/eczema",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "psoriasis",
+      "name": "Psoriasis",
+      "url": "/topic/psoriasis",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "hair-loss",
+      "name": "Hair Loss",
+      "url": "/topic/hair-loss",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "rosacea",
+      "name": "Rosacea",
+      "url": "/topic/rosacea",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "dandruff",
+      "name": "Dandruff",
+      "url": "/topic/dandruff",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "tooth-decay",
+      "name": "Tooth Decay",
+      "url": "/topic/tooth-decay",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "gum-disease",
+      "name": "Gum Disease",
+      "url": "/topic/gum-disease",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "mouth-ulcers",
+      "name": "Mouth Ulcers",
+      "url": "/topic/mouth-ulcers",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "cataracts-macular-degeneration",
+      "name": "Cataracts / Macular Degeneration",
+      "url": "/topic/cataracts-macular-degeneration",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "dry-eye",
+      "name": "Dry Eye",
+      "url": "/topic/dry-eye",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "boils-hidradenitis",
+      "name": "Boils (Hidradenitis)",
+      "url": "/topic/boils-hidradenitis",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "cold-sores",
+      "name": "Cold Sores",
+      "url": "/topic/cold-sores",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "dental-erosion",
+      "name": "Dental Erosion",
+      "url": "/topic/dental-erosion",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "sunburn-skin-aging",
+      "name": "Sunburn / Skin Aging",
+      "url": "/topic/sunburn-skin-aging",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "night-blindness",
+      "name": "Night Blindness",
+      "url": "/topic/night-blindness",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "vitiligo",
+      "name": "Vitiligo",
+      "url": "/topic/vitiligo",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "scurvy",
+      "name": "Scurvy",
+      "url": "/topic/scurvy",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "rickets",
+      "name": "Rickets",
+      "url": "/topic/rickets",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "dental-fluorosis",
+      "name": "Dental Fluorosis",
+      "url": "/topic/dental-fluorosis",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "ckd-dialysis-diet",
+      "name": "CKD / Dialysis Diet",
+      "url": "/topic/ckd-dialysis-diet",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "liver-encephalopathy",
+      "name": "Liver Encephalopathy",
+      "url": "/topic/liver-encephalopathy",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "smokers-cough",
+      "name": "Smoker's Cough",
+      "url": "/topic/smokers-cough",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "alcoholic-liver-disease",
+      "name": "Alcoholic Liver Disease",
+      "url": "/topic/alcoholic-liver-disease",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "diabetic-neuropathy",
+      "name": "Diabetic Neuropathy",
+      "url": "/topic/diabetic-neuropathy",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "diabetic-retinopathy",
+      "name": "Diabetic Retinopathy",
+      "url": "/topic/diabetic-retinopathy",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "pku",
+      "name": "PKU",
+      "url": "/topic/pku",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "wilsons-disease",
+      "name": "Wilson's Disease",
+      "url": "/topic/wilsons-disease",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "g6pd-deficiency",
+      "name": "G6PD Deficiency",
+      "url": "/topic/g6pd-deficiency",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "lactose-intolerance",
+      "name": "Lactose Intolerance",
+      "url": "/topic/lactose-intolerance",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "hereditary-fructose-intolerance",
+      "name": "Hereditary Fructose Intolerance",
+      "url": "/topic/hereditary-fructose-intolerance",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "cystic-fibrosis",
+      "name": "Cystic Fibrosis",
+      "url": "/topic/cystic-fibrosis",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "listeria-toxo-trichinosis",
+      "name": "Listeria / Toxo / Trichinosis",
+      "url": "/topic/listeria-toxo-trichinosis",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "botulism",
+      "name": "Botulism",
+      "url": "/topic/botulism",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "systemic-yeast",
+      "name": "Systemic Yeast",
+      "url": "/topic/systemic-yeast",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "uti-cystitis",
+      "name": "UTI / Cystitis",
+      "url": "/topic/uti-cystitis",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "interstitial-cystitis",
+      "name": "Interstitial Cystitis",
+      "url": "/topic/interstitial-cystitis",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "swimmers-ear",
+      "name": "Swimmer's Ear",
+      "url": "/topic/swimmers-ear",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "low-potassium",
+      "name": "Low Potassium",
+      "url": "/topic/low-potassium",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "vit-a-toxicity",
+      "name": "Vit A Toxicity",
+      "url": "/topic/vit-a-toxicity",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "mercury-poisoning",
+      "name": "Mercury Poisoning",
+      "url": "/topic/mercury-poisoning",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "caffeine-toxicity",
+      "name": "Caffeine Toxicity",
+      "url": "/topic/caffeine-toxicity",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "pellagra-beri-beri",
+      "name": "Pellagra / Beri-Beri",
+      "url": "/topic/pellagra-beri-beri",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "asthma",
+      "name": "Asthma",
+      "url": "/topic/asthma",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "h-pylori-infection",
+      "name": "H. pylori Infection",
+      "url": "/topic/h-pylori-infection",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "liver-cancer",
+      "name": "Liver Cancer",
+      "url": "/topic/liver-cancer",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "kidney-cancer",
+      "name": "Kidney Cancer",
+      "url": "/topic/kidney-cancer",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "esophageal-cancer",
+      "name": "Esophageal Cancer",
+      "url": "/topic/esophageal-cancer",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "binge-eating",
+      "name": "Binge Eating",
+      "url": "/topic/binge-eating",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "anorexia-nervosa",
+      "name": "Anorexia Nervosa",
+      "url": "/topic/anorexia-nervosa",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "bulimia-nervosa",
+      "name": "Bulimia Nervosa",
+      "url": "/topic/bulimia-nervosa",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "type-2-diabetes-foot",
+      "name": "Type 2 Diabetes Foot",
+      "url": "/topic/type-2-diabetes-foot",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "hypothermia",
+      "name": "Hypothermia",
+      "url": "/topic/hypothermia",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "frostbite",
+      "name": "Frostbite",
+      "url": "/topic/frostbite",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "chilblains",
+      "name": "Chilblains",
+      "url": "/topic/chilblains",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "jet-lag",
+      "name": "Jet Lag",
+      "url": "/topic/jet-lag",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "shift-work-disorder",
+      "name": "Shift Work Disorder",
+      "url": "/topic/shift-work-disorder",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "sibo-gut",
+      "name": "SIBO (Gut)",
+      "url": "/topic/sibo-gut",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "non-alcoholic-fatty-liver",
+      "name": "Non-Alcoholic Fatty Liver",
+      "url": "/topic/non-alcoholic-fatty-liver",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "osteopenia",
+      "name": "Osteopenia",
+      "url": "/topic/osteopenia",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "topic",
+      "id": "pre-diabetes",
+      "name": "Pre-Diabetes",
+      "url": "/topic/pre-diabetes",
+      "dataLastModified": null,
+      "clinicallyReviewed": "2026-07-02",
+      "daysSinceUpdate": 13,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 96,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "golden-turmeric-quinoa",
+      "name": "Golden Turmeric Quinoa Nourish Bowl",
+      "url": "/recipe/golden-turmeric-quinoa",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "avocado-lentil-tartare",
+      "name": "Avocado & Sprouted Lentil Herb Tartare",
+      "url": "/recipe/avocado-lentil-tartare",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "green-vitality-soup",
+      "name": "Moringa & Spinach Green Vitality Soup",
+      "url": "/recipe/green-vitality-soup",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "beetroot-walnut-carpaccio",
+      "name": "Roasted Beetroot & Walnut Carpaccio",
+      "url": "/recipe/beetroot-walnut-carpaccio",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "ayurvedic-millet-stew",
+      "name": "Ayurvedic Kitchari-Style Millet Stew",
+      "url": "/recipe/ayurvedic-millet-stew",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "kimchi-rice-bowl",
+      "name": "Fermented Kimchi Brown Rice Bowl",
+      "url": "/recipe/kimchi-rice-bowl",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "ashwagandha-sweet-potato",
+      "name": "Sweet Potato & Ashwagandha Coconut Mash",
+      "url": "/recipe/ashwagandha-sweet-potato",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "papaya-detox-salad",
+      "name": "Rainbow Raw Papaya & Lime Detox Salad",
+      "url": "/recipe/papaya-detox-salad",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "hemp-basil-zoodles",
+      "name": "Hemp Seed & Basil Cream Zoodles",
+      "url": "/recipe/hemp-basil-zoodles",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "mushroom-thyme-broth",
+      "name": "Mushroom & Thyme Healing Broth",
+      "url": "/recipe/mushroom-thyme-broth",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "charred-broccoli-almonds",
+      "name": "Charred Broccoli with Lemon Almond Drizzle",
+      "url": "/recipe/charred-broccoli-almonds",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "chia-berry-parfait",
+      "name": "Chia & Berry Antioxidant Parfait",
+      "url": "/recipe/chia-berry-parfait",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "jackfruit-turmeric-wraps",
+      "name": "Jackfruit & Turmeric Leaf Wraps",
+      "url": "/recipe/jackfruit-turmeric-wraps",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "matcha-coconut-truffles",
+      "name": "Matcha & Coconut Energy Truffles",
+      "url": "/recipe/matcha-coconut-truffles",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "baked-pears-cinnamon",
+      "name": "Baked Pears with Cinnamon & Cacao Nibs",
+      "url": "/recipe/baked-pears-cinnamon",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "spirulina-lemon-shots",
+      "name": "Spirulina & Lemon Vitality Shots",
+      "url": "/recipe/spirulina-lemon-shots",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "grilled-artichoke-rosemary",
+      "name": "Grilled Artichoke with Rosemary Salt",
+      "url": "/recipe/grilled-artichoke-rosemary",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "lentil-kale-curry",
+      "name": "Lentil & Kale Iron-Rich Curry",
+      "url": "/recipe/lentil-kale-curry",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "collard-wraps-chili",
+      "name": "Chili-Spiced Collard Wraps",
+      "url": "/recipe/collard-wraps-chili",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "reishi-cocoa-elixir",
+      "name": "Red Reishi & Cocoa Elixir",
+      "url": "/recipe/reishi-cocoa-elixir",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "black-bean-mole",
+      "name": "Black Bean & Cacao Mole Bowl",
+      "url": "/recipe/black-bean-mole",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "golden-milk-elixir",
+      "name": "Turmeric & Black Pepper Golden Milk",
+      "url": "/recipe/golden-milk-elixir",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "fennel-citrus-salad",
+      "name": "Fennel & Citrus Digestive Salad",
+      "url": "/recipe/fennel-citrus-salad",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "buckwheat-seaweed-soup",
+      "name": "Buckwheat Noodle & Seaweed Soup",
+      "url": "/recipe/buckwheat-seaweed-soup",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "sleep-smoothie-valerian",
+      "name": "Cherry & Valerian Sleep Smoothie",
+      "url": "/recipe/sleep-smoothie-valerian",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "purple-sweet-potato-pudding",
+      "name": "Purple Sweet Potato & Ginger Pudding",
+      "url": "/recipe/purple-sweet-potato-pudding",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "adzuki-bean-stew",
+      "name": "Adzuki Bean & Shiitake Umami Stew",
+      "url": "/recipe/adzuki-bean-stew",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "pomegranate-beauty-water",
+      "name": "Pomegranate & Rosehip Beauty Water",
+      "url": "/recipe/pomegranate-beauty-water",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "quinoa-sesame-cereal",
+      "name": "Sprouted Quinoa & Black Sesame Cereal",
+      "url": "/recipe/quinoa-sesame-cereal",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "brussels-sprouts-mustard",
+      "name": "Roasted Brussels Sprouts with Mustard & Tamari",
+      "url": "/recipe/brussels-sprouts-mustard",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "cauliflower-tabbouleh-hemp",
+      "name": "Cauliflower Rice Tabbouleh with Hemp Oil",
+      "url": "/recipe/cauliflower-tabbouleh-hemp",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "black-garlic-drizzle",
+      "name": "Black Garlic & Fermented Hot Sauce Drizzle",
+      "url": "/recipe/black-garlic-drizzle",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "mango-cardamom-lassi",
+      "name": "Mango & Cardamom Lassi (Vegan)",
+      "url": "/recipe/mango-cardamom-lassi",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "watercress-alfalfa-sandwich",
+      "name": "Watercress & Alfalfa Sprout Sandwich",
+      "url": "/recipe/watercress-alfalfa-sandwich",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "rooibos-cinnamon-tea",
+      "name": "Rooibos & Cinnamon Antioxidant Tea",
+      "url": "/recipe/rooibos-cinnamon-tea",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "chickpea-cauliflower-tagine",
+      "name": "Spiced Chickpea & Cauliflower Tagine",
+      "url": "/recipe/chickpea-cauliflower-tagine",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "hemp-saffron-drink",
+      "name": "Hemp Milk & Saffron Calming Drink",
+      "url": "/recipe/hemp-saffron-drink",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "cucumber-jicama-salad",
+      "name": "Cucumber & Jicama Hydration Salad",
+      "url": "/recipe/cucumber-jicama-salad",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "lentil-walnut-pate",
+      "name": "Black Lentil & Walnut Paté",
+      "url": "/recipe/lentil-walnut-pate",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    },
+    {
+      "type": "recipe",
+      "id": "pear-ginger-slaw",
+      "name": "Pear & Ginger Probiotic Slaw",
+      "url": "/recipe/pear-ginger-slaw",
+      "dataLastModified": null,
+      "clinicallyReviewed": null,
+      "daysSinceUpdate": 0,
+      "citationCount": 0,
+      "citations": {
+        "pubmed": [],
+        "wikidata": [],
+        "mesh": [],
+        "other": []
+      },
+      "freshnessScore": 100,
+      "status": "fresh",
+      "needsRefresh": false
+    }
+  ]
+}

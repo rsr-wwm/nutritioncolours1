@@ -1,0 +1,2626 @@
+{
+  "golden-turmeric-quinoa": {
+    "recipeId": "golden-turmeric-quinoa",
+    "recipeName": "Golden Turmeric Quinoa Nourish Bowl",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Golden Turmeric Quinoa Nourish Bowl",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Quinoa",
+          "detail": "1 cup cooked"
+        },
+        {
+          "name": "Turmeric",
+          "detail": "1 tsp ground"
+        },
+        {
+          "name": "Cauliflower",
+          "detail": "1 cup roasted"
+        },
+        {
+          "name": "Chickpeas",
+          "detail": "1/2 cup cooked"
+        },
+        {
+          "name": "Tahini",
+          "detail": "2 tbsp"
+        },
+        {
+          "name": "Lemon",
+          "detail": "1/2 juiced"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "avocado-lentil-tartare": {
+    "recipeId": "avocado-lentil-tartare",
+    "recipeName": "Avocado & Sprouted Lentil Herb Tartare",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Avocado & Sprouted Lentil Herb Tartare",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Avocado",
+          "detail": "1 ripe, diced"
+        },
+        {
+          "name": "Sprouted Lentils",
+          "detail": "1/2 cup"
+        },
+        {
+          "name": "Parsley",
+          "detail": "2 tbsp fresh"
+        },
+        {
+          "name": "Capers",
+          "detail": "1 tsp"
+        },
+        {
+          "name": "Olive Oil",
+          "detail": "1 tbsp cold-pressed"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "green-vitality-soup": {
+    "recipeId": "green-vitality-soup",
+    "recipeName": "Moringa & Spinach Green Vitality Soup",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Moringa & Spinach Green Vitality Soup",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Spinach",
+          "detail": "2 cups fresh"
+        },
+        {
+          "name": "Moringa Powder",
+          "detail": "1 tsp"
+        },
+        {
+          "name": "Leek",
+          "detail": "1 medium"
+        },
+        {
+          "name": "Garlic",
+          "detail": "2 cloves"
+        },
+        {
+          "name": "Almond Milk",
+          "detail": "1/2 cup"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "beetroot-walnut-carpaccio": {
+    "recipeId": "beetroot-walnut-carpaccio",
+    "recipeName": "Roasted Beetroot & Walnut Carpaccio",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Roasted Beetroot & Walnut Carpaccio",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Beetroot",
+          "detail": "2 roasted, sliced"
+        },
+        {
+          "name": "Walnuts",
+          "detail": "1/4 cup toasted"
+        },
+        {
+          "name": "Arugula",
+          "detail": "1 cup fresh"
+        },
+        {
+          "name": "Balsamic Reduction",
+          "detail": "1 tbsp"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "ayurvedic-millet-stew": {
+    "recipeId": "ayurvedic-millet-stew",
+    "recipeName": "Ayurvedic Kitchari-Style Millet Stew",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Ayurvedic Kitchari-Style Millet Stew",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Millet",
+          "detail": "1/2 cup"
+        },
+        {
+          "name": "Mung Dal",
+          "detail": "1/2 cup"
+        },
+        {
+          "name": "Ginger",
+          "detail": "1 inch fresh"
+        },
+        {
+          "name": "Cumin",
+          "detail": "1 tsp"
+        },
+        {
+          "name": "Coriander",
+          "detail": "1 tsp"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "kimchi-rice-bowl": {
+    "recipeId": "kimchi-rice-bowl",
+    "recipeName": "Fermented Kimchi Brown Rice Bowl",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Fermented Kimchi Brown Rice Bowl",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Brown Rice",
+          "detail": "1 cup cooked"
+        },
+        {
+          "name": "Vegan Kimchi",
+          "detail": "1/2 cup"
+        },
+        {
+          "name": "Cucumber",
+          "detail": "1/2 sliced"
+        },
+        {
+          "name": "Sesame Seeds",
+          "detail": "1 tsp"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "ashwagandha-sweet-potato": {
+    "recipeId": "ashwagandha-sweet-potato",
+    "recipeName": "Sweet Potato & Ashwagandha Coconut Mash",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Sweet Potato & Ashwagandha Coconut Mash",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Sweet Potato",
+          "detail": "2 large, mashed"
+        },
+        {
+          "name": "Coconut Milk",
+          "detail": "1/4 cup"
+        },
+        {
+          "name": "Ashwagandha Powder",
+          "detail": "1/2 tsp"
+        },
+        {
+          "name": "Nutmeg",
+          "detail": "pinch"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "papaya-detox-salad": {
+    "recipeId": "papaya-detox-salad",
+    "recipeName": "Rainbow Raw Papaya & Lime Detox Salad",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Rainbow Raw Papaya & Lime Detox Salad",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Green Papaya",
+          "detail": "2 cups shredded"
+        },
+        {
+          "name": "Carrot",
+          "detail": "1 shredded"
+        },
+        {
+          "name": "Lime Juice",
+          "detail": "2 tbsp"
+        },
+        {
+          "name": "Mint",
+          "detail": "1/4 cup fresh"
+        },
+        {
+          "name": "Peanuts",
+          "detail": "1 tbsp crushed"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "hemp-basil-zoodles": {
+    "recipeId": "hemp-basil-zoodles",
+    "recipeName": "Hemp Seed & Basil Cream Zoodles",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Hemp Seed & Basil Cream Zoodles",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Zucchini Noodles",
+          "detail": "2 medium zucchini"
+        },
+        {
+          "name": "Hemp Seeds",
+          "detail": "1/2 cup"
+        },
+        {
+          "name": "Basil",
+          "detail": "1 cup fresh"
+        },
+        {
+          "name": "Garlic",
+          "detail": "2 cloves"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "mushroom-thyme-broth": {
+    "recipeId": "mushroom-thyme-broth",
+    "recipeName": "Mushroom & Thyme Healing Broth",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Mushroom & Thyme Healing Broth",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Shiitake Mushrooms",
+          "detail": "2 cups"
+        },
+        {
+          "name": "Thyme",
+          "detail": "4 sprigs"
+        },
+        {
+          "name": "Onion",
+          "detail": "1 large"
+        },
+        {
+          "name": "Sea Vegetables",
+          "detail": "1/2 sheet"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "charred-broccoli-almonds": {
+    "recipeId": "charred-broccoli-almonds",
+    "recipeName": "Charred Broccoli with Lemon Almond Drizzle",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Charred Broccoli with Lemon Almond Drizzle",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Broccoli",
+          "detail": "1 large head"
+        },
+        {
+          "name": "Almonds",
+          "detail": "1/4 cup"
+        },
+        {
+          "name": "Lemon",
+          "detail": "1 juiced"
+        },
+        {
+          "name": "Olive Oil",
+          "detail": "2 tbsp"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "chia-berry-parfait": {
+    "recipeId": "chia-berry-parfait",
+    "recipeName": "Chia & Berry Antioxidant Parfait",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Chia & Berry Antioxidant Parfait",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Chia Seeds",
+          "detail": "1/4 cup"
+        },
+        {
+          "name": "Berries",
+          "detail": "1/2 cup fresh"
+        },
+        {
+          "name": "Almond Milk",
+          "detail": "1 cup"
+        },
+        {
+          "name": "Vanilla Extract",
+          "detail": "1/2 tsp"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "jackfruit-turmeric-wraps": {
+    "recipeId": "jackfruit-turmeric-wraps",
+    "recipeName": "Jackfruit & Turmeric Leaf Wraps",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Jackfruit & Turmeric Leaf Wraps",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Young Jackfruit",
+          "detail": "2 cups shredded"
+        },
+        {
+          "name": "Turmeric",
+          "detail": "1 tbsp"
+        },
+        {
+          "name": "Ginger",
+          "detail": "1 tbsp"
+        },
+        {
+          "name": "Leafy Greens",
+          "detail": "Large leaves for wrapping"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "matcha-coconut-truffles": {
+    "recipeId": "matcha-coconut-truffles",
+    "recipeName": "Matcha & Coconut Energy Truffles",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Matcha & Coconut Energy Truffles",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Matcha Powder",
+          "detail": "2 tbsp"
+        },
+        {
+          "name": "Shredded Coconut",
+          "detail": "1 cup"
+        },
+        {
+          "name": "Dates",
+          "detail": "1/2 cup"
+        },
+        {
+          "name": "Almonds",
+          "detail": "1/4 cup"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "baked-pears-cinnamon": {
+    "recipeId": "baked-pears-cinnamon",
+    "recipeName": "Baked Pears with Cinnamon & Cacao Nibs",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Baked Pears with Cinnamon & Cacao Nibs",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Pears",
+          "detail": "2 large"
+        },
+        {
+          "name": "Cinnamon",
+          "detail": "1 tsp"
+        },
+        {
+          "name": "Cacao Nibs",
+          "detail": "1 tbsp"
+        },
+        {
+          "name": "Maple Syrup",
+          "detail": "1 tsp"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "spirulina-lemon-shots": {
+    "recipeId": "spirulina-lemon-shots",
+    "recipeName": "Spirulina & Lemon Vitality Shots",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Spirulina & Lemon Vitality Shots",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Spirulina Powder",
+          "detail": "1 tsp"
+        },
+        {
+          "name": "Lemon Juice",
+          "detail": "1/2 lemon"
+        },
+        {
+          "name": "Ginger",
+          "detail": "1/2 inch"
+        },
+        {
+          "name": "Filtered Water",
+          "detail": "1/4 cup"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "grilled-artichoke-rosemary": {
+    "recipeId": "grilled-artichoke-rosemary",
+    "recipeName": "Grilled Artichoke with Rosemary Salt",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Grilled Artichoke with Rosemary Salt",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Artichoke",
+          "detail": "2 whole"
+        },
+        {
+          "name": "Rosemary",
+          "detail": "1 sprig fresh"
+        },
+        {
+          "name": "Olive Oil",
+          "detail": "1 tbsp"
+        },
+        {
+          "name": "Sea Salt",
+          "detail": "pinch"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "lentil-kale-curry": {
+    "recipeId": "lentil-kale-curry",
+    "recipeName": "Lentil & Kale Iron-Rich Curry",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Lentil & Kale Iron-Rich Curry",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Lentils",
+          "detail": "1 cup"
+        },
+        {
+          "name": "Kale",
+          "detail": "2 cups"
+        },
+        {
+          "name": "Tomato",
+          "detail": "1 large"
+        },
+        {
+          "name": "Coconut Milk",
+          "detail": "1/2 cup"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "collard-wraps-chili": {
+    "recipeId": "collard-wraps-chili",
+    "recipeName": "Chili-Spiced Collard Wraps",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Chili-Spiced Collard Wraps",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Collard Greens",
+          "detail": "4 large leaves"
+        },
+        {
+          "name": "Cayenne Pepper",
+          "detail": "pinch"
+        },
+        {
+          "name": "Carrot",
+          "detail": "1 shredded"
+        },
+        {
+          "name": "Tahini",
+          "detail": "2 tbsp"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "reishi-cocoa-elixir": {
+    "recipeId": "reishi-cocoa-elixir",
+    "recipeName": "Red Reishi & Cocoa Elixir",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Red Reishi & Cocoa Elixir",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Reishi Powder",
+          "detail": "1/2 tsp"
+        },
+        {
+          "name": "Raw Cocoa",
+          "detail": "1 tbsp"
+        },
+        {
+          "name": "Cinnamon",
+          "detail": "1/2 tsp"
+        },
+        {
+          "name": "Plant Milk",
+          "detail": "1 cup"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "black-bean-mole": {
+    "recipeId": "black-bean-mole",
+    "recipeName": "Black Bean & Cacao Mole Bowl",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Black Bean & Cacao Mole Bowl",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Black Beans",
+          "detail": "1 cup cooked"
+        },
+        {
+          "name": "Raw Cacao",
+          "detail": "1 tbsp"
+        },
+        {
+          "name": "Chili Pepper",
+          "detail": "1 fresh"
+        },
+        {
+          "name": "Sweet Potato",
+          "detail": "1 medium"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "golden-milk-elixir": {
+    "recipeId": "golden-milk-elixir",
+    "recipeName": "Turmeric & Black Pepper Golden Milk",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Turmeric & Black Pepper Golden Milk",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Turmeric",
+          "detail": "1 tsp"
+        },
+        {
+          "name": "Black Pepper",
+          "detail": "pinch"
+        },
+        {
+          "name": "Coconut Milk",
+          "detail": "1 cup"
+        },
+        {
+          "name": "Ginger",
+          "detail": "1/2 inch"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "fennel-citrus-salad": {
+    "recipeId": "fennel-citrus-salad",
+    "recipeName": "Fennel & Citrus Digestive Salad",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Fennel & Citrus Digestive Salad",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Fennel Bulb",
+          "detail": "1 large"
+        },
+        {
+          "name": "Orange",
+          "detail": "1 segmented"
+        },
+        {
+          "name": "Mint",
+          "detail": "2 tbsp"
+        },
+        {
+          "name": "Apple Cider Vinegar",
+          "detail": "1 tbsp"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "buckwheat-seaweed-soup": {
+    "recipeId": "buckwheat-seaweed-soup",
+    "recipeName": "Buckwheat Noodle & Seaweed Soup",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Buckwheat Noodle & Seaweed Soup",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Seaweed",
+          "detail": "1 sheet nori/kombu"
+        },
+        {
+          "name": "Buckwheat Noodle",
+          "detail": "100g"
+        },
+        {
+          "name": "Shiitake",
+          "detail": "1/2 cup"
+        },
+        {
+          "name": "Vegetable Broth",
+          "detail": "2 cups"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "sleep-smoothie-valerian": {
+    "recipeId": "sleep-smoothie-valerian",
+    "recipeName": "Cherry & Valerian Sleep Smoothie",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Cherry & Valerian Sleep Smoothie",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Tart Cherries",
+          "detail": "1 cup frozen"
+        },
+        {
+          "name": "Valerian Root",
+          "detail": "1/4 tsp powder"
+        },
+        {
+          "name": "Almond Butter",
+          "detail": "1 tbsp"
+        },
+        {
+          "name": "Cashew Milk",
+          "detail": "1 cup"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "purple-sweet-potato-pudding": {
+    "recipeId": "purple-sweet-potato-pudding",
+    "recipeName": "Purple Sweet Potato & Ginger Pudding",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Purple Sweet Potato & Ginger Pudding",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Purple Sweet Potato",
+          "detail": "2 medium"
+        },
+        {
+          "name": "Fresh Ginger",
+          "detail": "1 tsp"
+        },
+        {
+          "name": "Almond Butter",
+          "detail": "1 tbsp"
+        },
+        {
+          "name": "Maple Syrup",
+          "detail": "1 tsp"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "adzuki-bean-stew": {
+    "recipeId": "adzuki-bean-stew",
+    "recipeName": "Adzuki Bean & Shiitake Umami Stew",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Adzuki Bean & Shiitake Umami Stew",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Adzuki Beans",
+          "detail": "1 cup cooked"
+        },
+        {
+          "name": "Shiitake",
+          "detail": "1 cup"
+        },
+        {
+          "name": "Kombu",
+          "detail": "1 small strip"
+        },
+        {
+          "name": "Onion",
+          "detail": "1 chopped"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "pomegranate-beauty-water": {
+    "recipeId": "pomegranate-beauty-water",
+    "recipeName": "Pomegranate & Rosehip Beauty Water",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Pomegranate & Rosehip Beauty Water",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Pomegranate Seeds",
+          "detail": "1/4 cup"
+        },
+        {
+          "name": "Rosehip Tea",
+          "detail": "1 cup"
+        },
+        {
+          "name": "Filtered Water",
+          "detail": "1 liter"
+        },
+        {
+          "name": "Mint",
+          "detail": "3 sprigs"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "quinoa-sesame-cereal": {
+    "recipeId": "quinoa-sesame-cereal",
+    "recipeName": "Sprouted Quinoa & Black Sesame Cereal",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Sprouted Quinoa & Black Sesame Cereal",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Sprouted Quinoa",
+          "detail": "1 cup cooked"
+        },
+        {
+          "name": "Black Sesame",
+          "detail": "2 tbsp"
+        },
+        {
+          "name": "Cinnamon",
+          "detail": "1 tsp"
+        },
+        {
+          "name": "Date Paste",
+          "detail": "1 tbsp"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "brussels-sprouts-mustard": {
+    "recipeId": "brussels-sprouts-mustard",
+    "recipeName": "Roasted Brussels Sprouts with Mustard & Tamari",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Roasted Brussels Sprouts with Mustard & Tamari",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Brussels Sprouts",
+          "detail": "2 cups"
+        },
+        {
+          "name": "Mustard Seeds",
+          "detail": "1 tsp"
+        },
+        {
+          "name": "Tamari",
+          "detail": "1 tbsp"
+        },
+        {
+          "name": "Olive Oil",
+          "detail": "1 tbsp"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "cauliflower-tabbouleh-hemp": {
+    "recipeId": "cauliflower-tabbouleh-hemp",
+    "recipeName": "Cauliflower Rice Tabbouleh with Hemp Oil",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Cauliflower Rice Tabbouleh with Hemp Oil",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Cauliflower Rice",
+          "detail": "2 cups"
+        },
+        {
+          "name": "Hemp Seed Oil",
+          "detail": "1 tbsp"
+        },
+        {
+          "name": "Parsley",
+          "detail": "1 cup"
+        },
+        {
+          "name": "Lemon Juice",
+          "detail": "2 tbsp"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "black-garlic-drizzle": {
+    "recipeId": "black-garlic-drizzle",
+    "recipeName": "Black Garlic & Fermented Hot Sauce Drizzle",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Black Garlic & Fermented Hot Sauce Drizzle",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Black Garlic",
+          "detail": "3 cloves"
+        },
+        {
+          "name": "Fermented Chili Sauce",
+          "detail": "1 tbsp"
+        },
+        {
+          "name": "Olive Oil",
+          "detail": "1 tbsp"
+        },
+        {
+          "name": "Coconut Aminos",
+          "detail": "1 tsp"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "mango-cardamom-lassi": {
+    "recipeId": "mango-cardamom-lassi",
+    "recipeName": "Mango & Cardamom Lassi (Vegan)",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Mango & Cardamom Lassi (Vegan)",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Mango",
+          "detail": "1 ripe"
+        },
+        {
+          "name": "Cardamom",
+          "detail": "1/2 tsp"
+        },
+        {
+          "name": "Cashew Yogurt",
+          "detail": "1/2 cup"
+        },
+        {
+          "name": "Almond Milk",
+          "detail": "1 cup"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "watercress-alfalfa-sandwich": {
+    "recipeId": "watercress-alfalfa-sandwich",
+    "recipeName": "Watercress & Alfalfa Sprout Sandwich",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Watercress & Alfalfa Sprout Sandwich",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Watercress",
+          "detail": "1 cup"
+        },
+        {
+          "name": "Alfalfa Sprouts",
+          "detail": "1/2 cup"
+        },
+        {
+          "name": "Whole Grain Bread",
+          "detail": "2 slices"
+        },
+        {
+          "name": "Avocado",
+          "detail": "1/2 mashed"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "rooibos-cinnamon-tea": {
+    "recipeId": "rooibos-cinnamon-tea",
+    "recipeName": "Rooibos & Cinnamon Antioxidant Tea",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Rooibos & Cinnamon Antioxidant Tea",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Rooibos Tea",
+          "detail": "1 bag"
+        },
+        {
+          "name": "Cinnamon Stick",
+          "detail": "1 whole"
+        },
+        {
+          "name": "Ginger",
+          "detail": "2 slices"
+        },
+        {
+          "name": "Lemon",
+          "detail": "1 slice"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "chickpea-cauliflower-tagine": {
+    "recipeId": "chickpea-cauliflower-tagine",
+    "recipeName": "Spiced Chickpea & Cauliflower Tagine",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Spiced Chickpea & Cauliflower Tagine",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Chickpeas",
+          "detail": "1.5 cups cooked"
+        },
+        {
+          "name": "Cauliflower",
+          "detail": "3 cups florets"
+        },
+        {
+          "name": "Cinnamon",
+          "detail": "1 tsp"
+        },
+        {
+          "name": "Apricots",
+          "detail": "4 chopped"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "hemp-saffron-drink": {
+    "recipeId": "hemp-saffron-drink",
+    "recipeName": "Hemp Milk & Saffron Calming Drink",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Hemp Milk & Saffron Calming Drink",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Hemp Milk",
+          "detail": "1.5 cups"
+        },
+        {
+          "name": "Saffron",
+          "detail": "5 threads"
+        },
+        {
+          "name": "Dates",
+          "detail": "2 whole"
+        },
+        {
+          "name": "Nutmeg",
+          "detail": "pinch"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "cucumber-jicama-salad": {
+    "recipeId": "cucumber-jicama-salad",
+    "recipeName": "Cucumber & Jicama Hydration Salad",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Cucumber & Jicama Hydration Salad",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Cucumber",
+          "detail": "1 large"
+        },
+        {
+          "name": "Jicama",
+          "detail": "1 cup diced"
+        },
+        {
+          "name": "Lime",
+          "detail": "1 juiced"
+        },
+        {
+          "name": "Sea Salt",
+          "detail": "pinch"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "lentil-walnut-pate": {
+    "recipeId": "lentil-walnut-pate",
+    "recipeName": "Black Lentil & Walnut Paté",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Black Lentil & Walnut Paté",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Black Lentils",
+          "detail": "1 cup cooked"
+        },
+        {
+          "name": "Walnuts",
+          "detail": "1/2 cup"
+        },
+        {
+          "name": "Nutritional Yeast",
+          "detail": "1 tbsp"
+        },
+        {
+          "name": "Thyme",
+          "detail": "1 tsp"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  },
+  "pear-ginger-slaw": {
+    "recipeId": "pear-ginger-slaw",
+    "recipeName": "Pear & Ginger Probiotic Slaw",
+    "nutrition": {
+      "@context": "https://schema.org",
+      "@type": "NutritionInformation",
+      "name": "Enhanced Nutrition Profile: Pear & Ginger Probiotic Slaw",
+      "calories": "N/A",
+      "fatContent": "N/A",
+      "saturatedFatContent": "N/A",
+      "carbohydrateContent": "N/A",
+      "fiberContent": "N/A",
+      "sugarContent": "N/A",
+      "proteinContent": "N/A",
+      "sodiumContent": "N/A",
+      "vitamins": [],
+      "minerals": [],
+      "traceElements": [],
+      "phytochemicals": [],
+      "glycemicLoad": {
+        "value": 0,
+        "unit": "GL",
+        "category": "low",
+        "interpretation": "Low glycemic impact - suitable for diabetic management"
+      },
+      "antiInflammatoryScore": {
+        "score": 50,
+        "maxScore": 100,
+        "category": "moderate",
+        "interpretation": "Moderate inflammatory impact - balance with anti-inflammatory foods"
+      },
+      "circadianTimingRecommendation": {
+        "timing": "At least 3 hours before bedtime",
+        "window": "6:00 PM - 8:00 PM",
+        "rationale": "Early dinner supports melatonin production and sleep quality",
+        "mealType": "Dinner"
+      },
+      "suitableForDiet": [
+        "diabetic-friendly",
+        "low-glycemic",
+        "plant-based",
+        "gluten-free"
+      ],
+      "servingSize": "1 serving",
+      "recipeIngredient": [
+        {
+          "name": "Napa Cabbage",
+          "detail": "2 cups"
+        },
+        {
+          "name": "Pear",
+          "detail": "1 sliced"
+        },
+        {
+          "name": "Ginger Juice",
+          "detail": "1 tbsp"
+        },
+        {
+          "name": "Raw ACV",
+          "detail": "1 tbsp"
+        }
+      ],
+      "recipeInstructions": []
+    }
+  }
+}
