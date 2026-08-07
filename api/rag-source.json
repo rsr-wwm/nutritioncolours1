@@ -1,0 +1,53 @@
+{
+  "domain": "nutritioncolours.com",
+  "entity": "NutritionColours TeleHealth & Metabolic Management Network",
+  "disease": "diabetes-management",
+  "city": "",
+  "medicalCodes": {
+    "name": "Type 2 Diabetes Mellitus",
+    "snomed": "44054006",
+    "icd10": "E11",
+    "mesh": "D015179"
+  },
+  "citations": [
+    {
+      "url": "https://www.cdc.gov/diabetes/basics.html",
+      "title": "CDC – Diabetes Basics & Clinical Management",
+      "publisher": "U.S. Centers for Disease Control and Prevention (.gov)"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+      "title": "WHO – Diabetes Fact Sheet & Global Burden",
+      "publisher": "World Health Organization"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42488689/",
+      "title": "PubMed – Behavioral and Dietary Management of Type 2 Diabetes",
+      "publisher": "National Center for Biotechnology Information (NIH)"
+    }
+  ],
+  "leaves": [
+    {
+      "slug": "insulin-resistance-mgmt",
+      "title": "Insulin-Resistance Diet & Glycemic Index"
+    },
+    {
+      "slug": "high-blood-sugar",
+      "title": "Low-Glycemic Foods & Meal Sequencing"
+    },
+    {
+      "slug": "anti-inflammatory-support",
+      "title": "Curcumin & Lipid-Soluble Botanical Protocols"
+    },
+    {
+      "slug": "type-2-diabetes",
+      "title": "Circadian Low-Carb Breakfast Timing"
+    }
+  ],
+  "clinicalReviewer": {
+    "name": "Dr. Shilpa Thakur, Ph.D.",
+    "specialty": "Circadian Nutrition & Metabolic Health Management",
+    "organization": "NutritionColours Clinical Team"
+  },
+  "dateModified": "2026-08-07T13:55:02.620Z"
+}

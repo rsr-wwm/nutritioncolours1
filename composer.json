@@ -1,0 +1,11 @@
+{
+  "name": "nutritioncolours/deploy",
+  "description": "Hostinger Post-Deployment Trigger Hooks",
+  "type": "project",
+  "require": {},
+  "scripts": {
+    "post-install-cmd": [
+      "php deploy-hooks.php"
+    ]
+  }
+}

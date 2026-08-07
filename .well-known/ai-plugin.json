@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "name": "NutritionColours Clinical Nutrition AI",
+  "description": "Evidence-based clinical nutrition knowledge for metabolic health, circadian alignment, and chronic condition management.",
+  "author": {
+    "type": "Person",
+    "name": "Dr. Shilpa Thakur, Ph.D.",
+    "role": "Clinical Nutritionist & Metabolic Researcher",
+    "url": "https://nutritioncolours.com/team/shilpa"
+  },
+  "organization": {
+    "name": "NutritionColours",
+    "url": "https://nutritioncolours.com"
+  },
+  "capabilities": {
+    "domains": [
+      "clinical nutrition",
+      "metabolic health",
+      "circadian nutrition",
+      "diabetes management",
+      "pcos management",
+      "fatty liver nutrition",
+      "insulin resistance",
+      "thyroid nutrition",
+      "gut health",
+      "herbal therapeutics"
+    ],
+    "actions": [
+      {
+        "name": "query_condition",
+        "description": "Get clinical nutrition information for a specific condition",
+        "endpoint": "https://nutritioncolours.com/data/api/v1/conditions.json"
+      },
+      {
+        "name": "query_herb",
+        "description": "Get therapeutic herb information including dosage and interactions",
+        "endpoint": "https://nutritioncolours.com/data/api/v1/herbs.json"
+      },
+      {
+        "name": "query_recipe",
+        "description": "Get therapeutic recipes with circadian timing recommendations",
+        "endpoint": "https://nutritioncolours.com/data/api/v1/recipes.json"
+      },
+      {
+        "name": "ask_clinical",
+        "description": "Ask a clinical nutrition question",
+        "endpoint": "https://nutritioncolours.com/tools"
+      }
+    ]
+  },
+  "data_feeds": [
+    { "name": "Clinical Conditions", "url": "https://nutritioncolours.com/data/api/v1/conditions.json", "format": "json" },
+    { "name": "Herbal Database", "url": "https://nutritioncolours.com/data/api/v1/herbs.json", "format": "json" },
+    { "name": "Therapeutic Recipes", "url": "https://nutritioncolours.com/data/api/v1/recipes.json", "format": "json" },
+    { "name": "Clinical Feed", "url": "https://nutritioncolours.com/data/clinical-feed.json", "format": "json" },
+    { "name": "AI Overview", "url": "https://nutritioncolours.com/llms.txt", "format": "text" },
+    { "name": "AI Deep Documentation", "url": "https://nutritioncolours.com/llms-full.txt", "format": "text" },
+    { "name": "AI Conditions Feed", "url": "https://nutritioncolours.com/llms-conditions.txt", "format": "text" },
+    { "name": "AI Recipes Feed", "url": "https://nutritioncolours.com/llms-recipes.txt", "format": "text" }
+  ],
+  "trust": {
+    "expert_authored": true,
+    "evidence_based": true,
+    "citations_provided": true,
+    "last_reviewed": "2026-07-04",
+    "reviewer": "Dr. Shilpa Thakur, Ph.D. (NUTR-SHILPA-001)"
+  },
+  "legal": {
+    "disclaimer": "For informational purposes only. Not medical advice. Consult a licensed clinician.",
+    "license": "All rights reserved. Data may be referenced with attribution.",
+    "attribution": "Credit NutritionColours and Dr. Shilpa Thakur when using this data."
+  }
+}

@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime.xSXa1GVp.js";import{n as i,r as o}from"./vendor-react.CaEIf8Ch.js";var s=e(o(),1),m=i();function p({href:r,children:t,...a}){return(0,m.jsx)("a",{href:r,...a,children:t})}export{p as t};

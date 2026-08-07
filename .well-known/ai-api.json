@@ -1,0 +1,20 @@
+{
+  "description": "AI Agent API Discovery - Points to the OpenAPI specification for NutritionColours clinical data.",
+  "specification": "openapi-3.1",
+  "apiUrl": "https://nutritioncolours.com/openapi.json",
+  "documentation": "https://nutritioncolours.com/llms.txt",
+  "authentication": "none",
+  "rateLimit": "Be respectful. No explicit rate limit but please cache responses.",
+  "contact": "info@nutritioncolours.com",
+  "dataLicense": "CC BY-NC-ND 4.0",
+  "endpoints": [
+    { "path": "/data/conditions.json", "method": "GET", "description": "Clinical conditions with mechanisms, biomarkers, and protocols" },
+    { "path": "/data/herbs.json", "method": "GET", "description": "Therapeutic herbs with dosages, mechanisms, and citations" },
+    { "path": "/data/recipes.json", "method": "GET", "description": "Therapeutic recipes with ingredients and nutritional analysis" },
+    { "path": "/data/evidence-summaries.json", "method": "GET", "description": "PubMed-style evidence summaries with evidence levels" },
+    { "path": "/data/comparison-matrix.json", "method": "GET", "description": "Structured clinical comparisons between herbs and protocols" },
+    { "path": "/data/confidence-scores.json", "method": "GET", "description": "Clinical confidence scores with evidence levels and review dates" },
+    { "path": "/data/conversation-trees.json", "method": "GET", "description": "Voice search conversation trees for natural Q&A" },
+    { "path": "/knowledge-graph.jsonld", "method": "GET", "description": "Full clinical knowledge graph as JSON-LD" }
+  ]
+}

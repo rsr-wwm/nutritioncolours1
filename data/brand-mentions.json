@@ -1,0 +1,20 @@
+{
+  "generated": "2026-01-15T00:00:00.000Z",
+  "description": "Brand mentions tracking for reclaiming unlinked mentions and monitoring brand visibility",
+  "mentions": [],
+  "tracking": {
+    "brandName": "NutritionColours",
+    "founderName": "Dr. Shilpa Thakur",
+    "monitoringPlatforms": [
+      "Google",
+      "Bing",
+      "Twitter",
+      "LinkedIn",
+      "Reddit",
+      "Quora"
+    ],
+    "lastScan": "2026-01-15T00:00:00.000Z"
+  },
+  "opportunities": [],
+  "reclaimedLinks": []
+}

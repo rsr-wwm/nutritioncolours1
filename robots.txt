@@ -1,0 +1,108 @@
+# ==========================================
+# 1. Standard Web Crawlers & Search Engines
+# ==========================================
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: Slurp
+User-agent: DuckDuckBot
+User-agent: Baiduspider
+User-agent: YandexBot
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /data/private/
+Disallow: /admin/honeypot/
+
+# ==========================================
+# 2. Generative AI Search & User Agents
+# (Allowed for Search/Reference visibility)
+# ==========================================
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Claude-Web
+User-agent: Claude-User
+User-agent: Claude-SearchBot
+User-agent: Applebot
+User-agent: Applebot-Extended
+User-agent: Meta-ExternalAgent
+User-agent: Google-CloudVertexBot
+User-agent: DuckAssistBot
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /data/private/
+Disallow: /admin/honeypot/
+
+# ==========================================
+# 3. LLM Training Crawlers — ALLOWED, no delay
+# ------------------------------------------
+# Deliberate: this is a clinical-education publisher that WANTS to be the cited
+# source in AI answers. Training-corpus presence is how a model knows the brand
+# by default rather than having to retrieve it. A Crawl-delay here throttled
+# ingestion for no benefit — removed. Reviewed 2026-08-04.
+# ==========================================
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Google-Extended
+User-agent: CCBot
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /data/private/
+Disallow: /admin/honeypot/
+
+# ==========================================
+# 4. Bandwidth-abusive scrapers (no AI-visibility value)
+# ------------------------------------------
+# NOTE: CCBot (Common Crawl) and Anthropic-ai were previously blocked here.
+# CCBot feeds the single largest open training corpus — blocking it removed this
+# site from the dataset most foundation models are built on, which is the opposite
+# of the stated goal. Both moved to the allow tier above. Only agents that consume
+# bandwidth without contributing search or answer visibility remain blocked.
+# ==========================================
+User-agent: Bytespider
+User-agent: Diffbot
+User-agent: Amazonbot
+User-agent: ImagesiftBot
+User-agent: Omgilibot
+Disallow: /
+
+# ==========================================
+# 5. SEO Tools (Rate Limited)
+# ==========================================
+User-agent: AhrefsBot
+User-agent: SemrushBot
+User-agent: DotBot
+User-agent: MJ12bot
+Crawl-delay: 10
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /data/private/
+Disallow: /admin/honeypot/
+
+# ==========================================
+# 6. Global Fallback
+# ==========================================
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /data/private/
+Disallow: /admin/honeypot/
+
+# ==========================================
+# Sitemaps & Trust Artifacts
+# ==========================================
+Sitemap: https://nutritioncolours.com/sitemap-articles-reviewed.xml
+Sitemap: https://nutritioncolours.com/sitemap-tools.xml
+Sitemap: https://nutritioncolours.com/sitemap-locations-indexable.xml
+
+Security: https://nutritioncolours.com/.well-known/security.txt
+AI-API: https://nutritioncolours.com/.well-known/ai-api.json
+AI-Trust-Profile: https://nutritioncolours.com/.well-known/trust-profile.json
+AI-Documentation: https://nutritioncolours.com/llms.txt
+AI-Corpus: https://nutritioncolours.com/llms-full.txt
+OpenAPI-Spec: https://nutritioncolours.com/openapi.json

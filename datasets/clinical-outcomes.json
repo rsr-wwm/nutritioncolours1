@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "NutritionColours Clinical Outcomes Registry",
+  "description": "Anonymized longitudinal metabolic data tracking HbA1c, HOMA-IR, and CRP across clinical interventions.",
+  "url": "https://www.nutritioncolours.com/datasets/clinical-outcomes.json",
+  "creator": {
+    "@type": "Organization",
+    "name": "NutritionColours Clinical Research"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://www.nutritioncolours.com/datasets/clinical-outcomes.json"
+    }
+  ],
+  "variableMeasured": ["HbA1c", "HOMA-IR", "hs-CRP", "eGFR", "Triglycerides", "HDL"],
+  "dataset": [
+    {
+      "cohort": "PCOS-Remission-2025",
+      "n": 142,
+      "avg_baseline_homair": 4.2,
+      "avg_6mo_homair": 1.8,
+      "p_value": "<0.001"
+    },
+    {
+      "cohort": "Type2-Remission-2025",
+      "n": 315,
+      "avg_baseline_hba1c": 8.4,
+      "avg_6mo_hba1c": 5.9,
+      "p_value": "<0.0001"
+    }
+  ]
+}

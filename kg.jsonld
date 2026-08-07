@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://nutritioncolours.com/#organization",
+      "name": "NutritionColours",
+      "url": "https://nutritioncolours.com",
+      "logo": "https://nutritioncolours.com/images/precision_metabolic_nutrition_dr_shilpa.webp",
+      "description": "Evidence-graded clinical nutrition and metabolic health knowledge base led by Dr. Shilpa Thakur, Ph.D.",
+      "medicalSpecialty": [
+        "Clinical Nutrition",
+        "Metabolic Medicine",
+        "Nutrigenomics",
+        "Chronobiology"
+      ],
+      "founder": {
+        "@type": "Person",
+        "@id": "https://nutritioncolours.com/team/shilpa#person",
+        "name": "Dr. Shilpa Thakur, Ph.D.",
+        "jobTitle": "Chief Clinical Nutritionist & Metabolic Researcher",
+        "sameAs": [
+          "https://www.linkedin.com/in/dr-shilpa-phd/",
+          "https://www.instagram.com/drshilpa_nutritioncolours",
+          "https://www.youtube.com/@nutritioncolours_drshilpa"
+        ]
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://nutritioncolours.com/#knowledge-graph",
+      "name": "NutritionColours Global Clinical Knowledge Graph",
+      "url": "https://nutritioncolours.com/kg.jsonld",
+      "aspect": [
+        "Pathophysiology",
+        "Nutritional Biochemistry",
+        "Evidence-Based Interventions",
+        "Circadian Timing"
+      ],
+      "citation": [
+        "USDA FoodData Central (FDC ID 173757, 172421, 173740)",
+        "Indian Council of Medical Research — IFCT 2017",
+        "National Institutes of Health (NIH) Office of Dietary Supplements"
+      ]
+    },
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://nutritioncolours.com/topic/diabetes-management#condition",
+      "name": "Type 2 Diabetes & Insulin Resistance",
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "D003924",
+          "codingSystem": "MeSH"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "44054006",
+          "codingSystem": "SNOMED CT"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "E11.9",
+          "codingSystem": "ICD-10"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://nutritioncolours.com/topic/non-alcoholic-fatty-liver#condition",
+      "name": "Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD / NAFLD)",
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "D065626",
+          "codingSystem": "MeSH"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "764981000000108",
+          "codingSystem": "SNOMED CT"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "K76.0",
+          "codingSystem": "ICD-10"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://nutritioncolours.com/topic/pcos-balance#condition",
+      "name": "Polycystic Ovary Syndrome (PCOS)",
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "D011085",
+          "codingSystem": "MeSH"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "237055002",
+          "codingSystem": "SNOMED CT"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "E28.2",
+          "codingSystem": "ICD-10"
+        }
+      ]
+    }
+  ]
+}
