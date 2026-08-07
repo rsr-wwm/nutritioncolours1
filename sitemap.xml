@@ -8,4 +8,8 @@
     <loc>https://nutritioncolours.com/sitemap-articles-reviewed.xml</loc>
     <lastmod>2026-08-07</lastmod>
   </sitemap>
+  <sitemap>
+    <loc>https://nutritioncolours.com/sitemap-locations-indexable.xml</loc>
+    <lastmod>2026-08-07</lastmod>
+  </sitemap>
 </sitemapindex>
