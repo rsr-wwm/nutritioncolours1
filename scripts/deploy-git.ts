@@ -8,6 +8,24 @@ const DIST_DIR = path.resolve(process.cwd(), 'dist');
 async function main() {
   console.log('=== STARTING PRODUCTION BRANCH DEPLOYMENT ===');
   
+  // Load environment variables from .env if present
+  const envPath = path.resolve(process.cwd(), '.env');
+  if (fs.existsSync(envPath)) {
+    const envContent = fs.readFileSync(envPath, 'utf8');
+    for (const line of envContent.split('\n')) {
+      const trimmed = line.trim();
+      if (!trimmed || trimmed.startsWith('#')) continue;
+      const eqIdx = trimmed.indexOf('=');
+      if (eqIdx > 0) {
+        const key = trimmed.slice(0, eqIdx).trim();
+        const val = trimmed.slice(eqIdx + 1).trim().replace(/^["']|["']$/g, '');
+        if (!process.env[key]) {
+          process.env[key] = val;
+        }
+      }
+    }
+  }
+
   if (!fs.existsSync(DIST_DIR)) {
     console.error('[Error] dist/ directory not found. Please run "npm run build" first.');
     process.exit(1);
@@ -62,11 +80,13 @@ async function main() {
     // 5. Trigger Hostinger deployment webhooks
     console.log('\nTriggering Hostinger deployment webhooks...');
     const defaultHostingerWebhook = 'https://webhooks.hostinger.com/deploy/a8782b45d55f9acb0498dd1187a3198c';
-    const envWebhooks = [
-      process.env.HOSTINGER_WEBHOOK_1 || defaultHostingerWebhook,
+    const envWebhooks = Array.from(new Set([
+      process.env.HOSTINGER_WEBHOOK_URL,
+      process.env.HOSTINGER_WEBHOOK_1,
       process.env.HOSTINGER_WEBHOOK_2,
       ...(process.env.HOSTINGER_WEBHOOK_URLS ? process.env.HOSTINGER_WEBHOOK_URLS.split(',') : []),
-    ].filter((w): w is string => Boolean(w && w.trim()));
+      defaultHostingerWebhook
+    ])).filter((w): w is string => Boolean(w && w.trim()));
 
     for (const url of envWebhooks) {
       try {
