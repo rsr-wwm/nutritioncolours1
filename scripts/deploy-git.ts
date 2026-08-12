@@ -49,14 +49,42 @@ async function main() {
     execSync('git add -A', { cwd: DIST_DIR, stdio: 'inherit' });
     
     console.log('Committing production release...');
-    execSync('git commit -m "Production release: ' + new Date().toISOString() + '"', { cwd: DIST_DIR, stdio: 'ignore' });
+    try {
+      execSync('git commit -m "Production release: ' + new Date().toISOString() + '"', { cwd: DIST_DIR, stdio: 'ignore' });
+    } catch {
+      console.log('No new changes to commit in dist/ or already up to date.');
+    }
 
     // 4. Force push the commit to the remote production branch
     console.log('Force pushing built files to production branch on GitHub...');
     execSync('git push -f origin HEAD:production', { cwd: DIST_DIR, stdio: 'inherit' });
 
-    console.log('\n=== SUCCESS: static files deployed to production branch! ===');
-    console.log('Now, go to your Hostinger panel and pull the "production" branch to update your live site.');
+    // 5. Trigger Hostinger deployment webhooks
+    console.log('\nTriggering Hostinger deployment webhooks...');
+    const defaultHostingerWebhook = 'https://webhooks.hostinger.com/deploy/a8782b45d55f9acb0498dd1187a3198c';
+    const envWebhooks = [
+      process.env.HOSTINGER_WEBHOOK_1 || defaultHostingerWebhook,
+      process.env.HOSTINGER_WEBHOOK_2,
+      ...(process.env.HOSTINGER_WEBHOOK_URLS ? process.env.HOSTINGER_WEBHOOK_URLS.split(',') : []),
+    ].filter((w): w is string => Boolean(w && w.trim()));
+
+    for (const url of envWebhooks) {
+      try {
+        const res = await fetch(url.trim(), {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'X-GitHub-Event': 'push'
+          },
+          body: JSON.stringify({ ref: 'refs/heads/production' })
+        });
+        console.log(`[Hostinger Webhook] Triggered ${url} - Status: ${res.status}`);
+      } catch (whErr) {
+        console.warn(`[Hostinger Webhook Warning] Could not trigger ${url}:`, whErr);
+      }
+    }
+
+    console.log('\n=== SUCCESS: static files deployed to production branch & Hostinger auto-deploy triggered! ===');
   } catch (err) {
     console.error('[Error] Deployment failed:', err);
     process.exit(1);
