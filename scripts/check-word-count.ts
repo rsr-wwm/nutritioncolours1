@@ -5,15 +5,24 @@ const DIST_DIR = path.resolve(process.cwd(), 'dist');
 
 function getFilesRecursively(dir: string, fileList: string[] = []): string[] {
   if (!fs.existsSync(dir)) return fileList;
-  const files = fs.readdirSync(dir);
-  files.forEach(file => {
-    const filePath = path.join(dir, file);
-    if (fs.statSync(filePath).isDirectory()) {
-      getFilesRecursively(filePath, fileList);
-    } else if (file.endsWith('.html')) {
-      fileList.push(filePath);
-    }
-  });
+  try {
+    const files = fs.readdirSync(dir);
+    files.forEach(file => {
+      const filePath = path.join(dir, file);
+      try {
+        const stat = fs.statSync(filePath);
+        if (stat.isDirectory()) {
+          getFilesRecursively(filePath, fileList);
+        } else if (file.endsWith('.html')) {
+          fileList.push(filePath);
+        }
+      } catch {
+        // Ignore files that disappeared or cannot be stated
+      }
+    });
+  } catch {
+    // Ignore unreadable dirs
+  }
   return fileList;
 }
 

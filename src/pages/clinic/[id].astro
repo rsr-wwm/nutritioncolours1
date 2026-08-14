@@ -42,28 +42,35 @@ const SITE_URL = (Astro.site || 'https://nutritioncolours.com').toString().repla
 // Set Edge-Level Caching headers
 Astro.response.headers.set('Cache-Control', 'public, max-age=86400, s-maxage=604800, stale-while-revalidate=3600');
 
-// Honest schema for a remote/telehealth practice: this is service-area targeting, not a
-// physical branch office, so we deliberately avoid LocalBusiness/MedicalClinic + invented
-// street addresses (which would violate Google's guidelines for non-physical locations).
+// Honest schema for a 100% remote telehealth practice
 const clinicSchema = loc ? {
   "@context": "https://schema.org",
   "@type": "MedicalWebPage",
   "@id": `${SITE_URL}/clinic/${id}#page`,
   "url": `${SITE_URL}/clinic/${id}`,
-  "name": `Remote Clinical Nutrition Outreach — ${cityLabel}, ${regionLabel}`,
+  "name": `Remote Clinical Nutrition Telehealth — ${cityLabel}, ${regionLabel}`,
+  "description": `Evidence-based virtual clinical nutrition consulting serving clients in ${cityLabel}, ${regionLabel}. 100% remote telehealth consultations by Dr. Shilpa Thakur.`,
   "about": {
     "@type": "Service",
     "name": "Remote Clinical Nutrition Consultation",
-    "provider": { "@id": `${SITE_URL}/#organization` },
+    "provider": {
+      "@type": "Organization",
+      "@id": `${SITE_URL}/#organization`,
+      "name": "NutritionColours",
+      "url": SITE_URL
+    },
+    "serviceType": "Virtual Telehealth Nutrition Consulting",
+    "availableChannel": {
+      "@type": "ServiceChannel",
+      "serviceLocation": {
+        "@type": "VirtualLocation",
+        "name": "NutritionColours Telehealth Platform",
+        "url": `${SITE_URL}/connect`
+      }
+    },
     "areaServed": {
-      "@type": "City",
-      "name": cityLabel,
-      "containedInPlace": { "@type": isInternational ? "Country" : "State", "name": regionLabel },
-      "geo": ((loc as any).latitude && (loc as any).longitude) ? {
-        "@type": "GeoCoordinates",
-        "latitude": (loc as any).latitude,
-        "longitude": (loc as any).longitude
-      } : undefined
+      "@type": "AdministrativeArea",
+      "name": `${cityLabel}, ${regionLabel}`
     }
   },
   "publisher": { "@id": `${SITE_URL}/#organization` }
@@ -71,8 +78,8 @@ const clinicSchema = loc ? {
 ---
 <div data-ai-answer="true">
 <BaseLayout
-  title={`Metabolic Clinic in ${cityLabel} | NutritionColours`}
-  description={`Find metabolic health services, diagnostic labs, and consulting hours in ${cityLabel}.`}
+  title={`Remote Telehealth Nutritionist Serving ${cityLabel} | NutritionColours`}
+  description={`Evidence-based virtual clinical nutrition consulting for ${cityLabel}, ${regionLabel}. 100% remote telehealth dietary protocols by Dr. Shilpa Thakur.`}
   ogImage={`/og/clinic/${id}.png`}
 >
   {clinicSchema && <script type="application/ld+json" is:inline set:html={JSON.stringify(clinicSchema)} />}
@@ -80,8 +87,12 @@ const clinicSchema = loc ? {
   {loc && (
     <div class="max-w-5xl mx-auto px-6 pt-8 pb-4">
       <div class="rounded-3xl border border-stone-100 bg-stone-50/50 p-8 space-y-4">
+        <div class="flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-emerald-600 animate-pulse"></span>
+          <span class="text-xs font-black uppercase tracking-widest text-emerald-800">100% Remote Virtual Telehealth Practice</span>
+        </div>
         <h2 class="text-2xl font-black text-emerald-950 brand-font">
-          Metabolic Nutrition Outreach — {cityLabel}, {regionLabel}
+          Metabolic Nutrition Telehealth Guidance — {cityLabel}, {regionLabel}
         </h2>
         
         <div class="text-stone-700 text-sm leading-relaxed max-w-3xl space-y-4">
@@ -115,7 +126,7 @@ const clinicSchema = loc ? {
             </div>
           )}
           <p>
-            By leveraging remote metabolic coaching, clinical assessment, and personalized diet guidelines, clients from {cityLabel} can work toward reclaiming energy levels, stabilizing blood sugar fluctuations, and reducing dependence on medication under senior clinical supervision. Dr. Shilpa Thakur's circadian nutrition protocols are tailored for local ingredients, ensuring you can build a sustainable lifestyle change right from your home region.
+            By leveraging remote metabolic coaching, clinical assessment, and personalized diet guidelines, clients from {cityLabel} can work toward reclaiming energy levels and stabilizing blood sugar fluctuations in supportive coordination with their primary treating physician. Dr. Shilpa Thakur's circadian nutrition protocols are tailored for local ingredients, ensuring you can build a sustainable lifestyle change right from your home region.
           </p>
           <p>
             <strong>Remote Telehealth Operations:</strong> As a modern, fully digital practice, our outreach to {cityLabel} functions entirely through remote telehealth consulting. Video sessions and secure messaging allow our multidisciplinary clinical team to review diet logs, answer metabolic questions, and adjust timelines in real-time. This digital structure ensures that distance is never a barrier to receiving top-tier clinical nutrition coaching, and all sessions are scheduled to seamlessly fit into your local time zone. Our onboarding support desk is available to assist you with scheduling, document submission, and coordinator matching.

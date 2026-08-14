@@ -96,10 +96,9 @@ export const EditorialPolicy: React.FC<EditorialPolicyProps> = ({ navigate }) =>
                   <h3 className="text-base font-black text-emerald-950">Dr. Shilpa Thakur, PhD</h3>
                   <p className="text-xs text-emerald-700 font-bold uppercase tracking-wider mb-2">Clinical Nutrition Specialist & Metabolic Researcher</p>
                   <ul className="space-y-1 text-xs text-stone-600">
-                    <li className="flex items-center gap-2"><IconCheck size={12} className="text-emerald-600" /> Doctor of Philosophy in Clinical Nutrition</li>
-                    <li className="flex items-center gap-2"><IconCheck size={12} className="text-emerald-600" /> Specialization in Circadian Biology & Metabolic Health</li>
-                    <li className="flex items-center gap-2"><IconCheck size={12} className="text-emerald-600" /> Published researcher in metabolic nutrition</li>
-                    <li className="flex items-center gap-2"><IconCheck size={12} className="text-emerald-600" /> ORCID: 0000-0002-1825-0097</li>
+                    <li className="flex items-center gap-2"><IconCheck size={12} className="text-emerald-600" /> Doctor of Philosophy in Clinical Nutrition & Dietetics</li>
+                    <li className="flex items-center gap-2"><IconCheck size={12} className="text-emerald-600" /> Specialization in Circadian Chrononutrition & Metabolic Health</li>
+                    <li className="flex items-center gap-2"><IconCheck size={12} className="text-emerald-600" /> Clinical Dietetic Practice & Metabolic Protocol Design</li>
                   </ul>
                 </div>
               </div>

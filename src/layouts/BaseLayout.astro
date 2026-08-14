@@ -104,14 +104,20 @@ const organizationSchema = {
     
     <SeoHelper title={title} description={description} keywords={keywords} canonicalUrl={canonicalUrl} ogImage={resolvedOgImage} aiSummary={aiSummary} geoRegion={geoRegion} geoPlacename={geoPlacename} disease={disease} schemas={schemas} />
 
-    <!-- Google Analytics (Offloaded via Partytown) -->
-<script type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-<script type="text/partytown">
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){window.dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-XXXXXXXXXX');
-</script>
+    <!-- Google Consent Mode v2 (Default Denied until explicit user consent) -->
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){window.dataLayer.push(arguments);}
+      gtag('consent', 'default', {
+        'ad_storage': 'denied',
+        'analytics_storage': 'denied',
+        'ad_user_data': 'denied',
+        'ad_personalization': 'denied',
+        'personalization_storage': 'denied',
+        'functionality_storage': 'granted',
+        'security_storage': 'granted'
+      });
+    </script>
 {/* RSS Feed */}
     <link rel="alternate" type="application/rss+xml" title="NutritionColours Insights Feed" href="/rss.xml" />
 

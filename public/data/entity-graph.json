@@ -54,25 +54,26 @@
     }
   ],
   "serviceAreas": {
-    "description": "NutritionColours is a remote clinical practice. No physical clinic branches exist outside Mumbai. All other locations are remote service areas.",
-    "centralPractice": {
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Bandra West",
-        "addressLocality": "Mumbai",
-        "addressRegion": "Maharashtra",
-        "postalCode": "400050",
-        "addressCountry": "IN"
+    "description": "NutritionColours is a 100% remote clinical telehealth practice. Consultations are delivered virtually worldwide without any physical walk-in clinics.",
+    "operationalModel": "Remote Clinical Telehealth",
+    "serviceChannels": [
+      {
+        "@type": "ServiceChannel",
+        "serviceLocation": {
+          "@type": "VirtualLocation",
+          "name": "NutritionColours Telehealth Platform",
+          "url": "https://nutritioncolours.com/connect"
+        }
       }
-    },
+    ],
     "remoteZones": [
-      { "country": "India", "cities": 1047, "type": "RemoteServiceArea" },
-      { "country": "United Kingdom", "hubs": ["London"], "type": "RemoteServiceArea" },
-      { "country": "United States", "hubs": ["New York City", "Washington D.C."], "type": "RemoteServiceArea" },
-      { "country": "United Arab Emirates", "hubs": ["Dubai", "Abu Dhabi"], "type": "RemoteServiceArea" },
-      { "country": "Singapore", "hubs": ["Singapore"], "type": "RemoteServiceArea" },
-      { "country": "Canada", "hubs": ["Ottawa"], "type": "RemoteServiceArea" },
-      { "country": "Australia", "hubs": ["Sydney"], "type": "RemoteServiceArea" }
+      { "country": "India", "serviceType": "Virtual Telehealth Consulting" },
+      { "country": "United Kingdom", "serviceType": "Virtual Telehealth Consulting" },
+      { "country": "United States", "serviceType": "Virtual Telehealth Consulting" },
+      { "country": "United Arab Emirates", "serviceType": "Virtual Telehealth Consulting" },
+      { "country": "Singapore", "serviceType": "Virtual Telehealth Consulting" },
+      { "country": "Canada", "serviceType": "Virtual Telehealth Consulting" },
+      { "country": "Australia", "serviceType": "Virtual Telehealth Consulting" }
     ]
   },
   "disclaimer": "NutritionColours provides nutritional guidance, not medical treatment. All content is educational. Consult a licensed clinician for medical decisions.",

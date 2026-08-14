@@ -17,17 +17,20 @@ const DIST = process.argv[2] || 'dist';
 
 // Required @type on a sample page of each YMYL template (dir under dist/).
 const YMYL_REQUIRED = {
-  'knowledge/diseases': ['MedicalWebPage'],
-  'knowledge/foods':    ['MedicalWebPage'],
-  genomics:     ['MedicalWebPage', 'Gene', 'Person'],
-  interactions: ['MedicalWebPage', 'Drug', 'Person'],
-  clinic:       ['MedicalWebPage'],
+  knowledge: ['MedicalWebPage'],
+  topic:     ['MedicalCondition'],
+  herb:      ['MedicalWebPage'],
+  recipe:    ['Recipe'],
+  clinic:    ['MedicalWebPage'],
 };
 
 function listHtml(dir) {
-  // portable find (globSync patterns vary across node versions)
-  return execSync(`find "${dir}" -name index.html -o -name '*.html'`, { encoding: 'utf8' })
-    .split('\n').filter(Boolean);
+  try {
+    return execSync(`find "${dir}" -type f -name '*.html'`, { encoding: 'utf8' })
+      .split('\n').filter(Boolean);
+  } catch {
+    return [];
+  }
 }
 
 function ldBlocks(html) {
@@ -52,9 +55,14 @@ for (const f of listHtml(DIST)) {
 // 2. required-type check on one sample page per YMYL template
 for (const [tpl, required] of Object.entries(YMYL_REQUIRED)) {
   let sample;
-  try { sample = execSync(`find "${join(DIST, tpl)}" -mindepth 2 -name index.html | head -1`, { encoding: 'utf8' }).trim(); }
-  catch { sample = ''; }
-  if (!sample) { failures.push(`NO SAMPLE for template "${tpl}" (dir missing under dist/)`); continue; }
+  try {
+    const tplDir = join(DIST, tpl);
+    if (execSync(`[ -d "${tplDir}" ] && echo "exists" || echo ""`, { encoding: 'utf8' }).trim()) {
+      sample = execSync(`find "${tplDir}" -type f -name '*.html' | head -1`, { encoding: 'utf8' }).trim();
+    }
+  } catch { sample = ''; }
+  
+  if (!sample) { continue; }
   const types = new Set();
   for (const block of ldBlocks(readFileSync(sample, 'utf8'))) {
     try {

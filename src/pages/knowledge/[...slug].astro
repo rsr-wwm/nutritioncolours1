@@ -6,7 +6,7 @@ import { PILLARS, getTaxonomyDetails } from '../../lib/seo/taxonomyEngine';
 import { getRecipesForFood, getLocationsForFood } from '../../lib/seo/autoLinker';
 import { getSiteUrl } from '../../utils/siteUrl';
 
-const origin = 'https://www.nutrition-protocols.com';
+const origin = (Astro.site || 'https://nutritioncolours.com').toString().replace(/\/$/, '');
 
 // Pillars that are all "food" in the everyday sense — cross-linked to each other so, e.g.,
 // Fruits is reachable from the Foods hub and vice versa, even though each is its own top-level pillar.
@@ -346,7 +346,7 @@ if (type === 'article') {
 
   {/* LEVEL 1: MAIN CATEGORY HUB */}
   {type === 'mainCategory' && (
-    <main class="space-y-16 pb-24 bg-stone-50/50">
+    <div class="space-y-16 pb-24 bg-stone-50/50">
       <div class="bg-emerald-950 text-white pt-24 pb-16 px-6 relative overflow-hidden">
         <div class="max-w-7xl mx-auto space-y-4 relative z-10">
           <nav class="flex text-xs font-semibold text-emerald-300 mb-6 uppercase tracking-wider" aria-label="Breadcrumb">
@@ -442,12 +442,12 @@ if (type === 'article') {
           </div>
         </section>
       </div>
-    </main>
+    </div>
   )}
 
   {/* LEVEL 2: CATEGORY HUB */}
   {type === 'category' && (
-    <main class="space-y-16 pb-24 bg-stone-50/50">
+    <div class="space-y-16 pb-24 bg-stone-50/50">
       <div class="bg-emerald-950 text-white pt-24 pb-16 px-6 relative overflow-hidden">
         <div class="max-w-7xl mx-auto space-y-4 relative z-10">
           <nav class="flex text-xs font-semibold text-emerald-300 mb-6 uppercase tracking-wider" aria-label="Breadcrumb">
@@ -535,12 +535,12 @@ if (type === 'article') {
           </div>
         </section>
       </div>
-    </main>
+    </div>
   )}
 
   {/* LEVEL 3: SUBCATEGORY HUB */}
   {type === 'subCategory' && (
-    <main class="space-y-16 pb-24 bg-stone-50/50">
+    <div class="space-y-16 pb-24 bg-stone-50/50">
       <div class="bg-emerald-950 text-white pt-24 pb-16 px-6 relative overflow-hidden">
         <div class="max-w-7xl mx-auto space-y-4 relative z-10">
           <nav class="flex text-xs font-semibold text-emerald-300 mb-6 uppercase tracking-wider" aria-label="Breadcrumb">
@@ -613,12 +613,12 @@ if (type === 'article') {
           </div>
         </section>
       </div>
-    </main>
+    </div>
   )}
 
   {/* LEVEL 4: ARTICLE VIEW */}
   {type === 'article' && (
-    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20 grid lg:grid-cols-12 gap-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20 grid lg:grid-cols-12 gap-12">
       {/* Sidebar / Related Links */}
       <aside class="lg:col-span-3 space-y-8 order-2 lg:order-1">
         <div class="bg-white p-6 rounded-3xl border border-stone-150/40 shadow-sm space-y-6 sticky top-28">
@@ -752,6 +752,6 @@ if (type === 'article') {
           </div>
         )}
       </div>
-    </main>
+    </div>
   )}
 </BaseLayout>

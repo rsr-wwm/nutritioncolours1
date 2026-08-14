@@ -47,12 +47,15 @@ async function main() {
   const gitDir = path.join(DIST_DIR, '.git');
   
   try {
-    // 1. If .git folder doesn't exist in dist, initialize it
-    if (!fs.existsSync(gitDir)) {
-      console.log('Initializing git repository inside dist/...');
-      execSync('git init', { cwd: DIST_DIR, stdio: 'inherit' });
-      execSync(`git remote add origin ${remoteUrl}`, { cwd: DIST_DIR, stdio: 'inherit' });
+    // 1. Always create a fresh clean git instance in dist
+    if (fs.existsSync(gitDir)) {
+      try {
+        fs.rmSync(gitDir, { recursive: true, force: true });
+      } catch {}
     }
+    console.log('Initializing fresh git repository inside dist/...');
+    execSync('git init', { cwd: DIST_DIR, stdio: 'inherit' });
+    execSync(`git remote add origin ${remoteUrl}`, { cwd: DIST_DIR, stdio: 'inherit' });
 
     // 2. Set user config inside the sub-repo
     execSync('git config user.name "NutritionColours Deployer"', { cwd: DIST_DIR });

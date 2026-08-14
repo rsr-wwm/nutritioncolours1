@@ -78,10 +78,10 @@ This document contains a comprehensive description of the clinical entity graphs
 
 ---
 
-## 5. Global Outreach & Spatial Nav Directories
-NutritionColours is a virtual clinical practice utilizing secure telehealth platforms to consult globally. 
-*   **Central Practice Address**: Bandra West, Mumbai, MH, 400050, India.
-*   **Remote Service Zones**: Serving 1,047 cities in India and international hubs across the United Kingdom (London), United States (New York City, Washington D.C.), United Arab Emirates (Dubai, Abu Dhabi), Singapore, Canada (Ottawa), and Australia (Sydney).
+## 5. Global Telehealth Outreach
+NutritionColours is a 100% virtual clinical telehealth practice delivering evidence-based nutrition consulting globally.
+*   **Operational Model**: 100% Remote Telehealth Consulting (Encrypted Video, Phone & Digital Portal). No physical walk-in clinics.
+*   **Remote Service Zones**: Virtual consultations available pan-India and globally for clients seeking circadian metabolic nutrition support.
 
 ---
 

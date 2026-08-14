@@ -145,28 +145,6 @@ async function generateSitemaps() {
     allUrlsSet.add(`${SITE_URL}/recipe/${recipe.id}`);
   });
 
-  const targetDiseases = ['diabetes-reversal', 'pcos-balance', 'fatty-liver-reversal', 'thyroid-optimization', 'hypertension-management'];
-
-  // 5. Collect India Outreach Clinics (50,000 cities) and Disease Variations
-  LOCATIONS_DATA.forEach(loc => {
-    const slug = loc.city.toLowerCase().replace(/[^a-z0-9]/g, '-');
-    // Add the city index page (if it exists)
-    // allUrlsSet.add(`${SITE_URL}/clinic/${slug}`); 
-    
-    // Add the 5 high-value metabolic disease pages for EACH city
-    targetDiseases.forEach(disease => {
-      allUrlsSet.add(`${SITE_URL}/clinic/${slug}/${disease}`);
-    });
-  });
-
-  // 6. Collect International Outreach Clinics (641 cities) and Disease Variations
-  INTERNATIONAL_COUNTRIES.forEach(loc => {
-    const slug = loc.city.toLowerCase().replace(/[^a-z0-9]/g, '-');
-    targetDiseases.forEach(disease => {
-      allUrlsSet.add(`${SITE_URL}/clinic/${slug}/${disease}`);
-    });
-  });
-
   const allUrls = Array.from(allUrlsSet);
   const totalUrls = allUrls.length;
   console.log(`[Sitemap Generator] Collected total of ${totalUrls} target URLs.`);

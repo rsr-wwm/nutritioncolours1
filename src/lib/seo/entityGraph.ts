@@ -41,7 +41,6 @@ const PERSON_SCHEMA = {
     'https://www.instagram.com/drshilpa_nutritioncolours',
     'https://www.quora.com/profile/Dr-Shilpa-Thakur-Phd',
     'https://www.youtube.com/@nutritioncolours_drshilpa',
-    'https://www.wikidata.org/wiki/Q115383562',
   ],
 };
 
