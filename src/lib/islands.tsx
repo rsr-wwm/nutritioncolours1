@@ -9,7 +9,7 @@
  *   hydrateIsland('calculator', () => import('./components/HealthCalculators'));
  */
 
-import React, { Suspense, useEffect, useRef, useState } from 'react';
+import React, { Suspense } from 'react';
 
 type IslandPriority = 'critical' | 'high' | 'normal' | 'low';
 

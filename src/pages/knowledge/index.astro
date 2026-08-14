@@ -16,8 +16,6 @@ const pillarCounts = Object.keys(PILLARS).reduce((acc, pillarId) => {
   return acc;
 }, {} as Record<string, { categories: Set<string>; subCategories: Set<string>; articlesCount: number }>);
 
-const allArticles: any[] = [];
-
 knowledgeEntries.forEach(entry => {
   const tax = getTaxonomyDetails(entry);
   if (!tax) return;
@@ -28,17 +26,7 @@ knowledgeEntries.forEach(entry => {
     pillarCounts[pillarId].subCategories.add(tax.subCategory.slug);
     pillarCounts[pillarId].articlesCount++;
   }
-
-  allArticles.push({
-    id: entry.id,
-    title: entry.data.title,
-    description: entry.data.description,
-    tax
-  });
 });
-
-// Sort all articles alphabetically by title
-allArticles.sort((a, b) => a.title.localeCompare(b.title));
 
 const pillarsList = Object.entries(PILLARS).map(([id, info]) => {
   const counts = pillarCounts[id] || { categories: new Set(), subCategories: new Set(), articlesCount: 0 };
@@ -150,103 +138,34 @@ const pillarGroups = [
         ))}
       </section>
 
-      {/* Browse & Search Results */}
-      <section id="search-results-section" class="hidden space-y-8">
-        <div class="flex items-center justify-between border-b border-stone-200 pb-4">
-          <h2 class="text-xl font-black text-emerald-950 brand-font">
-            Search Results
-          </h2>
-          <button
-            id="clear-search"
-            class="text-xs font-bold uppercase tracking-widest text-red-600 hover:text-red-800"
-          >
-            Clear Search
-          </button>
-        </div>
-
-        <div id="results-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {allArticles.map((art) => (
-            <a
-              href={art.tax.canonicalUrl}
-              class="result-card bg-white border border-stone-100 p-6 rounded-2xl hover:border-emerald-200 hover:shadow-lg transition-all group block"
-              data-title={art.title.toLowerCase()}
-              data-desc={art.description.toLowerCase()}
-              data-keywords={(art.keywords || []).join(' ').toLowerCase()}
-            >
-              <div class="space-y-2">
-                <span class="text-[9px] font-black uppercase tracking-widest text-lime-600 bg-lime-50 px-2 py-0.5 rounded">
-                  {art.tax.mainCategory.name}
-                </span>
-                <h3 class="text-sm font-black text-emerald-950 group-hover:text-emerald-800 transition-colors line-clamp-1">
-                  {art.title}
-                </h3>
-                <p class="text-stone-500 text-xs leading-relaxed line-clamp-2">
-                  {art.description}
-                </p>
-              </div>
-            </a>
-          ))}
-        </div>
-
-        <div id="no-results" class="hidden text-center py-16 space-y-4">
-          <div class="w-16 h-16 rounded-full bg-stone-100 flex items-center justify-center text-stone-400 mx-auto">
-            <Icons name="flask" size={24} />
+      {/* Featured Clinical Categories & Quick Navigation */}
+      <section class="bg-white rounded-3xl p-8 sm:p-12 border border-stone-200/80 shadow-sm space-y-8">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-stone-100 pb-6">
+          <div class="space-y-1">
+            <span class="text-[10px] font-black uppercase tracking-widest text-emerald-700">Exploration Matrix</span>
+            <h2 class="text-2xl font-black text-emerald-950 brand-font">Featured Clinical Protocols</h2>
           </div>
-          <p class="text-stone-500 font-bold text-lg">No matching clinical entries found.</p>
-          <p class="text-stone-400 text-sm">Try searching for generic terms like "diabetes", "millet", or "curcumin".</p>
+          <a href="/topics" class="text-xs font-bold text-emerald-800 hover:text-emerald-950 flex items-center gap-1">
+            View All Clinical Topics <Icons name="arrow-right" size={14} />
+          </a>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <a href="/knowledge/diseases" class="p-6 rounded-2xl bg-stone-50 hover:bg-emerald-50/50 border border-stone-150/60 hover:border-emerald-300 transition-all group">
+            <h3 class="text-base font-bold text-emerald-950 group-hover:text-emerald-800 transition-colors mb-2">Metabolic & Endocrine Protocols</h3>
+            <p class="text-xs text-stone-600 leading-relaxed">Evidence-graded nutritional interventions for insulin resistance, Type 2 Diabetes, fatty liver, and PCOS.</p>
+          </a>
+          <a href="/knowledge/herbs" class="p-6 rounded-2xl bg-stone-50 hover:bg-emerald-50/50 border border-stone-150/60 hover:border-emerald-300 transition-all group">
+            <h3 class="text-base font-bold text-emerald-950 group-hover:text-emerald-800 transition-colors mb-2">Botanical & Phytotherapy Profiles</h3>
+            <p class="text-xs text-stone-600 leading-relaxed">Active bioactive compounds, curcumin synergies, Ceylon cinnamon dosing, and adaptogenic safety.</p>
+          </a>
+          <a href="/knowledge/foods" class="p-6 rounded-2xl bg-stone-50 hover:bg-emerald-50/50 border border-stone-150/60 hover:border-emerald-300 transition-all group">
+            <h3 class="text-base font-bold text-emerald-950 group-hover:text-emerald-800 transition-colors mb-2">Functional Foods & Ancient Grains</h3>
+            <p class="text-xs text-stone-600 leading-relaxed">Nutritional color codes, low-GI millet swaps (ragi, jowar, foxtail), and polyphenol-dense profiles.</p>
+          </a>
         </div>
       </section>
+
     </div>
   </div>
 </BaseLayout>
-
-<script>
-  const searchInput = document.getElementById('knowledge-search') as HTMLInputElement | null;
-  const clearBtn = document.getElementById('clear-search');
-  const pillarsSection = document.getElementById('pillars-section');
-  const searchSection = document.getElementById('search-results-section');
-  const resultCards = document.querySelectorAll('.result-card');
-  const noResults = document.getElementById('no-results');
-
-  if (searchInput && pillarsSection && searchSection && noResults) {
-    searchInput.addEventListener('input', () => {
-      const query = searchInput.value.trim().toLowerCase();
-
-      if (query.length < 2) {
-        pillarsSection.classList.remove('hidden');
-        searchSection.classList.add('hidden');
-        return;
-      }
-
-      pillarsSection.classList.add('hidden');
-      searchSection.classList.remove('hidden');
-
-      let matchCount = 0;
-      resultCards.forEach(card => {
-        const title = card.getAttribute('data-title') || '';
-        const desc = card.getAttribute('data-desc') || '';
-        const keywords = card.getAttribute('data-keywords') || '';
-
-        if (title.includes(query) || desc.includes(query) || keywords.includes(query)) {
-          card.classList.remove('hidden');
-          matchCount++;
-        } else {
-          card.classList.add('hidden');
-        }
-      });
-
-      if (matchCount === 0) {
-        noResults.classList.remove('hidden');
-      } else {
-        noResults.classList.add('hidden');
-      }
-    });
-
-    clearBtn?.addEventListener('click', () => {
-      searchInput.value = '';
-      pillarsSection.classList.remove('hidden');
-      searchSection.classList.add('hidden');
-      searchInput.focus();
-    });
-  }
-</script>

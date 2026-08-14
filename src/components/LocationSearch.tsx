@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { LOCATIONS_DATA } from '../lib/locationsData';
 import { INTERNATIONAL_COUNTRIES } from '../lib/internationalData';
-import { IconSearch, IconMapPin, IconX, IconArrowRight, IconPhone, IconMail } from './ui/Icons';
+import { IconSearch, IconMapPin, IconX, IconArrowRight } from './ui/Icons';
 import { GeospatialMap } from './GeospatialMap';
 import { useViewerTracker } from './ViewerTracker';
 import { SYNONYM_DICTIONARY, tokenize, slugify } from '../lib/directoryUtils';

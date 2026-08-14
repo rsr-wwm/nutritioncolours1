@@ -1,8 +1,20 @@
 <?php
 /**
  * NutritionColours — Server-Side Post-Deployment Hooks.
- * Executed automatically by Composer on Hostinger after git pull completes.
+ * CLI-only or authenticated invocation required.
  */
+if (php_sapi_name() !== 'cli') {
+    $secret = getenv('DEPLOY_HOOK_SECRET');
+    $authHeader = $_SERVER['HTTP_AUTHORIZATION'] ?? '';
+    $tokenParam = $_GET['token'] ?? '';
+    
+    if (!$secret || ($tokenParam !== $secret && $authHeader !== "Bearer $secret")) {
+        http_response_code(403);
+        header('Content-Type: application/json');
+        echo json_encode(['error' => 'Forbidden: Unauthorized deployment hook execution.']);
+        exit;
+    }
+}
 
 define('HOST', 'nutritioncolours.com');
 define('KEY', '8d228f4de13a48e78bc9280d0d8beeb7');

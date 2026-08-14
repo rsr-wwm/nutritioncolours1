@@ -1,10 +1,9 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import type { LocationNode } from '../lib/locationsData';
 import type { InternationalCountryNode } from '../lib/internationalData';
-import { useViewerTracker } from './ViewerTracker';
 import { TOPICS } from '@/lib/topics';
-import { IconSearch, IconMapPin, IconPhone, IconMail, IconArrowRight, IconLeaf, IconCheck, IconBot, IconX } from './ui/Icons';
-import { GeospatialMap } from './GeospatialMap';
+import { useViewerTracker } from './ViewerTracker';
+import { IconMapPin, IconPhone, IconMail, IconArrowRight, IconLeaf, IconCheck } from './ui/Icons';
 import { slugify } from '../lib/directoryUtils';
 import { Accordion } from './ui/Accordion';
 import { BookingForm } from './BookingForm';

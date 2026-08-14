@@ -1,5 +1,5 @@
 
-import { CategoryType, TeamMember, Topic, BlogArticle, Recipe, Testimonial, FAQ, SitemapNode, HerbalEntity, MedicalConditionEntity, GenomicVariantEntity, DrugInteractionEntity, Plan } from './types';
+import { CategoryType, TeamMember, BlogArticle, Testimonial, FAQ, SitemapNode, Plan } from './types';
 
 
 // --- BLOG ARTICLES (Optimized Titles for SEO) ---

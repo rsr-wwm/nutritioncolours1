@@ -1,6 +1,6 @@
 # NutritionColours Project Inventory Report
 
-**Generated At**: 2026-08-14T20:40:31.982Z
+**Generated At**: 2026-08-14T21:16:05.026Z
 **Total Managed Assets**: **5873**
 
 ## Cohort Distribution
