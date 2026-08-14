@@ -25,7 +25,9 @@
     "add-frontmatter": "node scripts/add-astro-frontmatter.js",
     "inventory": "tsx scripts/generate-inventory.ts",
     "firewall": "tsx scripts/ai-hallucination-firewall.ts",
-    "release:verify": "astro check && npm run inventory && npm run firewall && npm run sitemaps && astro build && npm run check-duplicates && npm run check-thin && npm run validate-schema && npm run check-claims",
+    "diff-manifest": "tsx scripts/diff-manifest.ts",
+    "a11y": "tsx scripts/post-build-a11y.ts",
+    "release:verify": "astro check && npm run inventory && npm run firewall && npm run diff-manifest && npm run sitemaps && astro build && npm run check-duplicates && npm run check-thin && npm run validate-schema && npm run check-claims && npm run a11y",
     "deploy": "tsx scripts/deploy-git.ts",
     "build:all": "npm run build && npm run deploy",
     "postbuild": "tsx scripts/verify-meta-alt.ts"
