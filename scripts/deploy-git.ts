@@ -54,13 +54,10 @@ async function main() {
       execSync(`git remote add origin ${remoteUrl}`, { cwd: DIST_DIR, stdio: 'inherit' });
     }
 
-    // 2. Set user config inside the sub-repo if not configured globally
-    try {
-      execSync('git config user.name', { cwd: DIST_DIR });
-    } catch {
-      execSync('git config user.name "NutritionColours Deployer"', { cwd: DIST_DIR });
-      execSync('git config user.email "deployer@nutritioncolours.com"', { cwd: DIST_DIR });
-    }
+    // 2. Set user config inside the sub-repo
+    execSync('git config user.name "NutritionColours Deployer"', { cwd: DIST_DIR });
+    execSync('git config user.email "deployer@nutritioncolours.com"', { cwd: DIST_DIR });
+    execSync('git checkout -B production', { cwd: DIST_DIR, stdio: 'ignore' });
 
     // 3. Stage and commit all files in dist/
     console.log('Staging static assets...');
@@ -75,7 +72,7 @@ async function main() {
 
     // 4. Force push the commit to the remote production branch
     console.log('Force pushing built files to production branch on GitHub...');
-    execSync('git push -f origin HEAD:production', { cwd: DIST_DIR, stdio: 'inherit' });
+    execSync('git push -f origin production:production', { cwd: DIST_DIR, stdio: 'inherit' });
 
     // 5. Trigger Hostinger deployment webhooks
     console.log('\nTriggering Hostinger deployment webhooks...');
