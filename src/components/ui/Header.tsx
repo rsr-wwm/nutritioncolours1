@@ -11,7 +11,7 @@ import { Logo } from './Logo';
 import CompatLink from '@/components/CompatLink';
 import { useIntentAwareNavigation } from '@/lib/intentNavigation';
 import {
-  IconPhone, IconMail, IconMapPin,
+  IconPhone, IconMail,
   IconInstagram, IconLinkedIn, IconTwitter, IconFacebook,
   IconMenu, IconX, IconSun, IconMoon, IconChevronDown
 } from './Icons';
@@ -61,15 +61,10 @@ export function Header() {
   const currentPath = pathname === '/' ? 'home' : pathname.slice(1);
   const [darkMode, setDarkMode] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [activeLocation, setActiveLocation] = useState<any>(null);
 
   useEffect(() => {
     const saved = localStorage.getItem('nutrition_dark_mode');
     if (saved === 'true') setDarkMode(true);
-    try {
-      const loc = localStorage.getItem('nutrition_selected_location');
-      if (loc) setActiveLocation(JSON.parse(loc));
-    } catch {}
   }, []);
 
   useEffect(() => {
@@ -88,6 +83,17 @@ export function Header() {
     return currentPath.startsWith(itemId);
   };
 
+  // Close mobile menu on Escape key
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape' && mobileMenuOpen) {
+        setMobileMenuOpen(false);
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [mobileMenuOpen]);
+
   return (
     <>
       <header className="fixed top-4 left-1/2 -translate-x-1/2 w-[95%] max-w-7xl z-50 glass-panel-premium rounded-[28px]" data-nav-context={navContext}>
@@ -99,92 +105,109 @@ export function Header() {
                 <IconPhone size={12} className="text-lime-400 group-hover:scale-110 transition-transform" />
                 <span className="text-emerald-100 group-hover:text-white transition-colors">+91-76961-60133</span>
               </div>
-              <div className="flex items-center gap-2 group cursor-pointer">
+              <div className="hidden sm:flex items-center gap-2 group cursor-pointer">
                 <IconMail size={12} className="text-lime-400 group-hover:scale-110 transition-transform" />
-                <span className="text-emerald-100 group-hover:text-white transition-colors">drthakurshilpa@gmail.com</span>
+                <span className="text-emerald-100 group-hover:text-white transition-colors">care@nutritioncolours.com</span>
               </div>
             </div>
             <div className="flex items-center gap-4">
-              <CompatLink href="/clinics" className="flex items-center gap-1.5 text-lime-400 hover:text-white transition-colors bg-white/5 border border-white/10 rounded-full px-3 py-1">
-                <IconMapPin size={10} />
-                <span>{activeLocation ? `${activeLocation.city}, ${activeLocation.country}` : 'Select Region'}</span>
-              </CompatLink>
+              <span className="hidden md:inline text-emerald-300 font-bold">CIRCADIAN NUTRITION PLATFORM</span>
+              <div className="flex items-center gap-3">
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-lime-400 transition-colors" aria-label="Instagram"><IconInstagram size={12} /></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-lime-400 transition-colors" aria-label="LinkedIn"><IconLinkedIn size={12} /></a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-lime-400 transition-colors" aria-label="Twitter"><IconTwitter size={12} /></a>
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-lime-400 transition-colors" aria-label="Facebook"><IconFacebook size={12} /></a>
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-          <CompatLink href="/" className="hover:opacity-90 transition-opacity flex items-center shrink-0" aria-label="NutritionColours Home">
-            <Logo />
-          </CompatLink>
-          
-          <div className="hidden lg:flex items-center gap-1">
-            {NAV_CONFIG.map(item => {
-              const active = isActive(item.id, item.children);
-              return (
-                <div key={item.id} className="relative group">
-                  {item.children ? (
+        {/* Main Navbar */}
+        <div className="px-6 py-4 flex items-center justify-between">
+          <Logo />
+
+          {/* Desktop Nav */}
+          <nav className="hidden lg:flex items-center gap-1" aria-label="Main Navigation">
+            {NAV_CONFIG.map(item => (
+              <div key={item.id} className="relative group">
+                {item.children ? (
+                  <div>
                     <button
-                      type="button"
+                      className={`px-4 py-2 rounded-full text-xs font-black uppercase tracking-wider transition-all flex items-center gap-1.5 ${
+                        isActive(item.id, item.children)
+                          ? 'bg-emerald-900 text-white shadow-sm'
+                          : 'text-stone-700 hover:text-emerald-950 hover:bg-stone-100/50'
+                      }`}
                       aria-haspopup="true"
-                      className={`px-4 py-2 rounded-xl text-xs font-black uppercase tracking-widest transition-all flex items-center gap-1 ${active ? 'bg-emerald-50 text-emerald-900 border border-emerald-100' : 'text-stone-600 hover:text-emerald-900'} hover:bg-emerald-50/50 cursor-pointer`}
                     >
                       {item.label}
-                      <IconChevronDown size={14} className="transition-transform duration-300 opacity-50 group-hover:opacity-100 group-hover:rotate-180" />
+                      <IconChevronDown size={12} className="group-hover:rotate-180 transition-transform" />
                     </button>
-                  ) : (
-                    <CompatLink
-                      href={`/${item.id === 'home' ? '' : item.id}`}
-                      className={`px-4 py-2 rounded-xl text-xs font-black uppercase tracking-widest transition-all flex items-center gap-1 ${active ? 'bg-emerald-50 text-emerald-900 border border-emerald-100' : 'text-stone-600 hover:text-emerald-900'} hover:bg-emerald-50/50`}
-                    >
-                      {item.label}
-                    </CompatLink>
-                  )}
-                  {item.children && (
-                    <div className="absolute top-full left-1/2 -translate-x-1/2 mt-3 w-60 bg-white dark:bg-stone-900 rounded-[24px] shadow-2xl border border-stone-100 dark:border-stone-800 p-3 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform origin-top translate-y-2 group-hover:translate-y-0 z-50 before:content-[''] before:absolute before:-top-3 before:left-0 before:right-0 before:h-3">
-                      <div className="relative z-10 flex flex-col gap-1">
-                        {item.children.map(child => (
-                          <CompatLink
-                            key={child.id}
-                            href={`/${child.id}`}
-                            className={`w-full text-left px-4 py-3 rounded-xl text-[11px] font-black uppercase tracking-wider transition-all flex items-center justify-between ${currentPath.startsWith(child.id) ? 'bg-emerald-50 text-emerald-900' : 'text-stone-600 dark:text-stone-300 hover:bg-stone-50 dark:hover:bg-white/5 hover:text-emerald-900 dark:hover:text-lime-300'}`}
-                          >
-                            <span>{child.label}</span>
-                            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 opacity-0 group-hover:opacity-100 transition-opacity"></span>
-                          </CompatLink>
-                        ))}
-                      </div>
+                    {/* Dropdown menu */}
+                    <div className="absolute top-full left-0 mt-2 w-64 bg-white/95 backdrop-blur-md rounded-2xl shadow-xl border border-stone-100 p-3 opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-200 z-50">
+                      {item.children.map(child => (
+                        <CompatLink
+                          key={child.id}
+                          href={`/${child.id}`}
+                          className={`block px-4 py-2.5 rounded-xl text-xs font-black uppercase tracking-wider transition-colors ${
+                            currentPath.startsWith(child.id)
+                              ? 'bg-emerald-50 text-emerald-950'
+                              : 'text-stone-600 hover:bg-stone-50 hover:text-emerald-950'
+                          }`}
+                        >
+                          {child.label}
+                        </CompatLink>
+                      ))}
                     </div>
-                  )}
-                </div>
-              );
-            })}
-            
+                  </div>
+                ) : (
+                  <CompatLink
+                    href={`/${item.id === 'home' ? '' : item.id}`}
+                    className={`px-4 py-2 rounded-full text-xs font-black uppercase tracking-wider transition-all block ${
+                      isActive(item.id)
+                        ? 'bg-emerald-900 text-white shadow-sm'
+                        : 'text-stone-700 hover:text-emerald-950 hover:bg-stone-100/50'
+                    }`}
+                  >
+                    {item.label}
+                  </CompatLink>
+                )}
+              </div>
+            ))}
+          </nav>
+
+          {/* Right Actions */}
+          <div className="hidden lg:flex items-center gap-3">
             <button
               onClick={() => setDarkMode(!darkMode)}
-              className="p-3 rounded-xl bg-stone-50 dark:bg-white/5 text-stone-600 dark:text-stone-300 hover:text-emerald-900 hover:bg-emerald-50 transition-all ml-2"
-              title={darkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
+              className="p-2.5 rounded-full bg-stone-100 hover:bg-stone-200 text-stone-700 transition-colors"
               aria-label={darkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
             >
-              {darkMode ? <IconSun size={16} className="text-amber-500" /> : <IconMoon size={16} className="text-emerald-950" />}
+              {darkMode ? <IconSun size={14} className="text-amber-500" /> : <IconMoon size={14} className="text-emerald-950" />}
             </button>
-            
-            <a href="/contact" className="ml-4 btn-primary">
-              Contact
-            </a>
+            <CompatLink
+              href="/plans"
+              className="px-5 py-2.5 bg-emerald-600 hover:bg-emerald-500 text-white rounded-full text-xs font-black uppercase tracking-wider transition-all shadow-md hover:shadow-emerald-600/20 hover:scale-105 active:scale-95"
+            >
+              Book Consult
+            </CompatLink>
           </div>
-          <div className="flex items-center gap-2 lg:hidden">
+
+          {/* Mobile Menu Button */}
+          <div className="lg:hidden flex items-center gap-2">
             <button
               onClick={() => setDarkMode(!darkMode)}
-              className="p-3 rounded-xl bg-stone-50 text-stone-600 hover:text-emerald-700 hover:bg-emerald-50 transition-all min-w-[48px] min-h-[48px] flex items-center justify-center"
+              className="p-3 bg-stone-50 dark:bg-stone-800 rounded-xl min-w-[48px] min-h-[48px] flex items-center justify-center"
               aria-label={darkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
             >
-              {darkMode ? <IconSun size={16} className="text-amber-500" /> : <IconMoon size={16} className="text-emerald-950" />}
+              {darkMode ? <IconSun size={16} className="text-amber-500" /> : <IconMoon size={16} className="text-emerald-950 dark:text-emerald-300" />}
             </button>
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="text-emerald-950 p-3 bg-stone-50 rounded-xl min-w-[48px] min-h-[48px] flex items-center justify-center"
+              className="text-emerald-950 dark:text-emerald-100 p-3 bg-stone-50 dark:bg-stone-800 rounded-xl min-w-[48px] min-h-[48px] flex items-center justify-center"
               aria-label="Toggle navigation menu"
+              aria-expanded={mobileMenuOpen}
+              aria-controls="mobile-navigation-drawer"
             >
               {mobileMenuOpen ? <IconX size={24} /> : <IconMenu size={24} />}
             </button>
@@ -192,22 +215,41 @@ export function Header() {
         </div>
       </header>
 
-      {/* Mobile Menu */}
+      {/* Mobile Menu Drawer */}
       {mobileMenuOpen && (
-        <div className="fixed inset-0 z-[60] bg-white flex flex-col p-6">
-          <div className="flex justify-between items-center mb-12">
+        <div
+          id="mobile-navigation-drawer"
+          role="dialog"
+          aria-modal="true"
+          aria-label="Site Navigation Menu"
+          className="fixed inset-0 z-[60] bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-100 flex flex-col p-6 overflow-hidden"
+        >
+          <div className="flex justify-between items-center mb-8">
             <Logo />
-            <button onClick={() => setMobileMenuOpen(false)} className="p-2 bg-stone-100 rounded-full" aria-label="Close navigation menu"><IconX /></button>
+            <button
+              onClick={() => setMobileMenuOpen(false)}
+              className="p-3 bg-stone-100 dark:bg-stone-800 rounded-full min-w-[48px] min-h-[48px] flex items-center justify-center"
+              aria-label="Close navigation menu"
+            >
+              <IconX size={20} />
+            </button>
           </div>
-          <div className="flex-1 overflow-y-auto space-y-6">
+          <div className="flex-1 overflow-y-auto space-y-6 pb-12">
             {NAV_CONFIG.map(item => (
               <div key={item.id}>
                 {item.children ? (
                   <div className="space-y-4">
-                    <div className="text-lg font-black text-emerald-950 border-b border-stone-100 pb-2">{item.label}</div>
-                    <div className="pl-4 space-y-4 border-l-2 border-stone-100">
+                    <div className="text-base font-black text-emerald-950 dark:text-emerald-300 border-b border-stone-100 dark:border-stone-800 pb-2 uppercase tracking-wide">
+                      {item.label}
+                    </div>
+                    <div className="pl-4 space-y-3 border-l-2 border-stone-100 dark:border-stone-800">
                       {item.children.map(child => (
-                        <CompatLink key={child.id} href={`/${child.id}`} onClick={() => setMobileMenuOpen(false)} className="block text-stone-600 font-bold uppercase tracking-widest text-sm text-left">
+                        <CompatLink
+                          key={child.id}
+                          href={`/${child.id}`}
+                          onClick={() => setMobileMenuOpen(false)}
+                          className="block text-stone-600 dark:text-stone-300 font-bold uppercase tracking-wider text-xs py-1.5 text-left hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
+                        >
                           {child.label}
                         </CompatLink>
                       ))}
@@ -217,13 +259,22 @@ export function Header() {
                   <CompatLink
                     href={`/${item.id === 'home' ? '' : item.id}`}
                     onClick={() => setMobileMenuOpen(false)}
-                    className="text-lg font-black text-emerald-950 block border-b border-stone-100 pb-2 w-full text-left"
+                    className="text-base font-black text-emerald-950 dark:text-emerald-300 block border-b border-stone-100 dark:border-stone-800 pb-2 w-full text-left uppercase tracking-wide"
                   >
                     {item.label}
                   </CompatLink>
                 )}
               </div>
             ))}
+            <div className="pt-4">
+              <CompatLink
+                href="/plans"
+                onClick={() => setMobileMenuOpen(false)}
+                className="w-full block text-center py-3.5 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl text-sm font-black uppercase tracking-wider shadow-md"
+              >
+                Book Consultation
+              </CompatLink>
+            </div>
           </div>
         </div>
       )}
