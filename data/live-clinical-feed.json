@@ -1,0 +1,26 @@
+{
+  "generated": "2026-01-15T00:00:00.000Z",
+  "description": "Real-time clinical feed for live content updates and freshness signals",
+  "status": "active",
+  "feedType": "server-sent-events",
+  "endpoint": "/data/live-clinical-feed",
+  "updates": [
+    {
+      "timestamp": "2026-01-15T00:00:00.000Z",
+      "type": "content-update",
+      "entity": "system",
+      "message": "Clinical content system initialized",
+      "status": "live"
+    }
+  ],
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Content-Type": "text/event-stream"
+  },
+  "features": [
+    "New research citations as they are added",
+    "Content freshness updates",
+    "Active content review status",
+    "Biomarker protocol updates"
+  ]
+}

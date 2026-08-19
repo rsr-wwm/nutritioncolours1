@@ -1,0 +1,105 @@
+# NutritionColours Therapeutic Recipes AI Feed
+
+Machine-readable recipe database with therapeutic indications for AI search engines.
+
+---
+
+## Golden Turmeric Quinoa Nourish Bowl
+
+**Therapeutic Indication**: MASLD and anti-inflammatory liver support.
+**Key Ingredients**: Quinoa, Turmeric, Black Pepper (piperine), Extra Virgin Olive Oil
+**Circadian Window**: Peak Digestion (12:00 PM - 2:00 PM)
+**Active Compounds**: Curcumin (NF-kB inhibitor), Piperine (bioavailability enhancer)
+**URL**: https://nutritioncolours.com/recipe/golden-turmeric-quinoa
+**Prep Time**: 25 minutes
+**Tags**: anti-inflammatory, liver-support, gluten-free, vegan
+
+---
+
+## Avocado & Sprouted Lentil Herb Tartare
+
+**Therapeutic Indication**: Insulin sensitivity and cardiovascular lipid balance.
+**Key Ingredients**: French Green Lentils, Avocado, Lemon Zest, Flaxseed Oil
+**Circadian Window**: Focus & Absorption gate (11:00 AM - 3:00 PM)
+**Active Compounds**: Omega-3 ALA (flaxseed), Monounsaturated fats (avocado)
+**URL**: https://nutritioncolours.com/recipe/avocado-lentil-tartare
+**Prep Time**: 20 minutes
+**Tags**: insulin-sensitivity, heart-health, high-protein, vegan
+
+---
+
+## Moringa & Spinach Green Vitality Soup
+
+**Therapeutic Indication**: Gut microbiome restoration and cellular repair.
+**Key Ingredients**: Broccoli, Spinach, Garlic, Ginger, Coriander seeds
+**Circadian Window**: Early evening recovery gate (5:00 PM - 7:00 PM)
+**Active Compounds**: Sulforaphane (broccoli), Gingerol (ginger), Allicin (garlic)
+**URL**: https://nutritioncolours.com/recipe/green-vitality-soup
+**Prep Time**: 30 minutes
+**Tags**: gut-health, microbiome, detox, vegan
+
+---
+
+## Turmeric & Black Pepper Golden Milk
+
+**Therapeutic Indication**: Systemic anti-inflammatory support and immune modulation.
+**Key Ingredients**: Turmeric, Black Pepper, Coconut Milk, Cinnamon
+**Circadian Window**: Evening wind-down (7:00 PM - 8:00 PM)
+**Active Compounds**: Curcumin, Piperine, Cinnamaldehyde
+**URL**: https://nutritioncolours.com/recipe/golden-milk-elixir
+**Prep Time**: 10 minutes
+**Tags**: anti-inflammatory, immunity, sleep-support, vegan
+
+---
+
+## Fermented Kimchi Brown Rice Bowl
+
+**Therapeutic Indication**: Gut microbiome diversity and SCFA production.
+**Key Ingredients**: Kimchi, Brown Rice, Sesame Oil, Seaweed
+**Circadian Window**: Midday meal (12:00 PM - 2:00 PM)
+**Active Compounds**: Lactobacillus (kimchi), Fiber (brown rice), Iodine (seaweed)
+**URL**: https://nutritioncolours.com/recipe/kimchi-rice-bowl
+**Prep Time**: 15 minutes
+**Tags**: gut-health, probiotic, microbiome, korean
+
+---
+
+## Sweet Potato & Ashwagandha Coconut Mash
+
+**Therapeutic Indication**: HPA axis modulation and cortisol balance.
+**Key Ingredients**: Sweet Potato, Ashwagandha, Coconut Cream, Cardamom
+**Circadian Window**: Evening meal (6:00 PM - 7:00 PM)
+**Active Compounds**: Withanolides (ashwagandha), Anthocyanins (sweet potato)
+**URL**: https://nutritioncolours.com/recipe/ashwagandha-sweet-potato
+**Prep Time**: 35 minutes
+**Tags**: stress-relief, cortisol-balance, adaptogen, vegan
+
+---
+
+## Roasted Beetroot & Walnut Carpaccio
+
+**Therapeutic Indication**: Nitric oxide production and blood pressure support.
+**Key Ingredients**: Beetroot, Walnuts, Arugula, Balsamic Vinegar
+**Circadian Window**: Lunch (12:00 PM - 2:00 PM)
+**Active Compounds**: Dietary nitrates (beetroot), Omega-3 ALA (walnuts)
+**URL**: https://nutritioncolours.com/recipe/beetroot-walnut-carpaccio
+**Prep Time**: 40 minutes
+**Tags**: blood-pressure, nitric-oxide, heart-health, vegan
+
+---
+
+## Rooibos & Cinnamon Antioxidant Tea
+
+**Therapeutic Indication**: Blood sugar regulation and antioxidant support.
+**Key Ingredients**: Rooibos, Ceylon Cinnamon, Cloves
+**Circadian Window**: Any time (caffeine-free)
+**Active Compounds**: Aspalathin (rooibos), Cinnamaldehyde (cinnamon)
+**URL**: https://nutritioncolours.com/recipe/rooibos-cinnamon-tea
+**Prep Time**: 5 minutes
+**Tags**: blood-sugar, antioxidant, caffeine-free, vegan
+
+---
+
+**Source**: NutritionColours Clinical System (https://nutritioncolours.com)
+**Clinical Director**: Dr. Shilpa Thakur, Ph.D.
+**Disclaimer**: Recipes are for educational purposes. Consult a licensed clinician for medical decisions.

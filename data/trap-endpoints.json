@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "description": "Honeypot trap endpoints that only bots parsing the DOM or following hidden links would discover. Humans never see these.",
+    "purpose": "Detect and fingerprint aggressive bots, AI scrapers, and malicious crawlers that ignore robots.txt directives.",
+    "lastUpdated": "2026-07-04"
+  },
+  "trapEndpoints": [
+    {
+      "path": "/data/api/v1/users/export",
+      "method": "GET",
+      "description": "Fake user data export endpoint. Only bots looking for data leaks would call this.",
+      "trapLayer": 3
+    },
+    {
+      "path": "/data/api/v1/admin/config",
+      "method": "GET",
+      "description": "Fake admin configuration endpoint. Only bots enumerating API paths would discover this.",
+      "trapLayer": 3
+    },
+    {
+      "path": "/data/internal/sitemap-hidden",
+      "method": "GET",
+      "description": "Fake hidden sitemap. Only bots that parse JSON files looking for additional URLs would find this.",
+      "trapLayer": 2
+    },
+    {
+      "path": "/api/v2/scrape/all-recipes",
+      "method": "GET",
+      "description": "Fake recipe scraping endpoint. Only content-scraping bots would call this.",
+      "trapLayer": 3
+    },
+    {
+      "path": "/data/private-keys.json",
+      "method": "GET",
+      "description": "Fake private keys file. Only malicious bots searching for secrets would attempt to access this.",
+      "trapLayer": 3
+    }
+  ],
+  "detectionRules": {
+    "layer1": "Hidden CSS link in HTML (display:none, tabindex=-1). Catches basic crawlers.",
+    "layer2": "JavaScript-calculated link rendered only in DOM (not in source). Catches headless browsers and DOM parsers.",
+    "layer3": "Fake API endpoints listed in this JSON file. Catches bots that enumerate data files looking for endpoints."
+  },
+  "responseOnTrap": {
+    "statusCode": 418,
+    "body": "Bot trap triggered. Your request pattern has been logged.",
+    "headers": {
+      "X-Bot-Trap": "triggered",
+      "X-Trap-Layer": "dynamic"
+    }
+  }
+}

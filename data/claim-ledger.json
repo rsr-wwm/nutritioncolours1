@@ -1,0 +1,90 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-07-04",
+  "description": "Machine-readable claim registry. Every health claim on the site should be registered here with evidence level, risk, and allowed contexts.",
+  "claims": [
+    {
+      "claimId": "CLM-001",
+      "exactText": "Supports insulin sensitivity improvement",
+      "riskLevel": "medium",
+      "evidenceLevel": "moderate",
+      "citationIds": ["PMID:25038616", "PMID:23018910"],
+      "reviewer": "Dr. Shilpa Thakur",
+      "reviewerCredentials": "Ph.D. Clinical Nutrition",
+      "allowedContexts": ["topic-page", "faq", "llms-txt"],
+      "forbiddenPhrases": ["cure", "reverse", "guarantee", "remission"],
+      "pageUrl": "/topic/diabetes-reversal",
+      "lastReviewed": "2026-06-03"
+    },
+    {
+      "claimId": "CLM-002",
+      "exactText": "Circadian-aligned nutrition protocols support metabolic function",
+      "riskLevel": "low",
+      "evidenceLevel": "moderate",
+      "citationIds": ["PMID:29432252", "PMID:31092688"],
+      "reviewer": "Dr. Shilpa Thakur",
+      "reviewerCredentials": "Ph.D. Clinical Nutrition",
+      "allowedContexts": ["home", "about", "topic-page", "llms-txt"],
+      "forbiddenPhrases": ["cure", "reverse", "guarantee"],
+      "pageUrl": "/",
+      "lastReviewed": "2026-06-03"
+    },
+    {
+      "claimId": "CLM-003",
+      "exactText": "Clinical protocols may support thyroid antibody reduction in some cases",
+      "riskLevel": "high",
+      "evidenceLevel": "limited",
+      "citationIds": ["PMID:29056570"],
+      "reviewer": "Dr. Shilpa Thakur",
+      "reviewerCredentials": "Ph.D. Clinical Nutrition",
+      "allowedContexts": ["topic-page", "faq"],
+      "forbiddenPhrases": ["cure", "reverse", "guarantee", "all patients"],
+      "pageUrl": "/topic/hashimoto-autoimmune-thyroid",
+      "lastReviewed": "2026-06-03"
+    },
+    {
+      "claimId": "CLM-004",
+      "exactText": "Support for liver health and lipid management",
+      "riskLevel": "medium",
+      "evidenceLevel": "moderate",
+      "citationIds": ["PMID:29046365"],
+      "reviewer": "Dr. Shilpa Thakur",
+      "reviewerCredentials": "Ph.D. Clinical Nutrition",
+      "allowedContexts": ["topic-page", "faq", "llms-txt"],
+      "forbiddenPhrases": ["cure", "reverse", "guarantee", "remission"],
+      "pageUrl": "/topic/fatty-liver-reversal",
+      "lastReviewed": "2026-06-03"
+    },
+    {
+      "claimId": "CLM-005",
+      "exactText": "Many patients who adhere to the protocol for 90 days report improvements in metabolic markers",
+      "riskLevel": "medium",
+      "evidenceLevel": "limited",
+      "citationIds": [],
+      "reviewer": "Dr. Shilpa Thakur",
+      "reviewerCredentials": "Ph.D. Clinical Nutrition",
+      "allowedContexts": ["faq"],
+      "forbiddenPhrases": ["guarantee", "all patients", "100%"],
+      "pageUrl": "/team/shilpa",
+      "lastReviewed": "2026-06-03",
+      "note": "No formal study. Based on clinical observation. Needs formal methodology documentation."
+    },
+    {
+      "claimId": "CLM-006",
+      "exactText": "Supporting endocrine inflammation reduction and hormone balance",
+      "riskLevel": "medium",
+      "evidenceLevel": "moderate",
+      "citationIds": ["PMID:30646042"],
+      "reviewer": "Dr. Shilpa Thakur",
+      "reviewerCredentials": "Ph.D. Clinical Nutrition",
+      "allowedContexts": ["topic-page", "faq", "llms-txt"],
+      "forbiddenPhrases": ["cure", "reverse", "guarantee", "remission"],
+      "pageUrl": "/topic/pcod-pcos",
+      "lastReviewed": "2026-06-03"
+    }
+  ],
+  "forbiddenWordsGlobal": [
+    "cure", "reverse", "reversal", "remission", "guarantee", "guaranteed",
+    "medicine-free", "stop medication", "heal anything", "live free of disease"
+  ]
+}

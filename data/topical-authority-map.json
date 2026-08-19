@@ -1,0 +1,148 @@
+{
+  "_meta": {
+    "description": "Machine-readable topical authority cluster hierarchy. Tells Google exactly how content relates for topical authority signals.",
+    "technique": "Topic Cluster Silo - each supporting page links to its pillar, not to other clusters.",
+    "generatedAt": "2026-07-04"
+  },
+  "clusters": [
+    {
+      "id": "metabolic-health",
+      "name": "Metabolic Health & Circadian Nutrition",
+      "type": "pillar",
+      "url": "/knowledge",
+      "targetKeyword": "metabolic health nutrition",
+      "description": "Central pillar covering the intersection of circadian biology, metabolic health, and therapeutic nutrition.",
+      "children": ["insulin-resistance-cluster", "weight-management-cluster", "masld-cluster"]
+    },
+    {
+      "id": "insulin-resistance-cluster",
+      "name": "Insulin Resistance & Blood Sugar Management",
+      "type": "cluster",
+      "pillar": "metabolic-health",
+      "url": "/condition/insulin-resistance",
+      "targetKeyword": "insulin resistance nutrition",
+      "description": "Complete coverage of insulin resistance management through circadian nutrition and therapeutic herbs.",
+      "children": [
+        { "url": "/herb/cinnamon", "type": "supporting", "keyword": "cinnamon insulin sensitivity" },
+        { "url": "/herb/fenugreek", "type": "supporting", "keyword": "fenugreek blood sugar" },
+        { "url": "/herb/bitter-melon", "type": "supporting", "keyword": "bitter melon diabetes" },
+        { "url": "/topic/food-sequencing", "type": "supporting", "keyword": "food sequencing glucose" }
+      ]
+    },
+    {
+      "id": "weight-management-cluster",
+      "name": "Weight Management & Metabolic Reset",
+      "type": "cluster",
+      "pillar": "metabolic-health",
+      "url": "/topic/weight-loss-women",
+      "targetKeyword": "circadian weight loss",
+      "description": "Evidence-based weight management through circadian eating windows and metabolic optimization.",
+      "children": [
+        { "url": "/topic/circadian-eating", "type": "supporting", "keyword": "time restricted eating weight loss" },
+        { "url": "/recipe/golden-turmeric-quinoa", "type": "supporting", "keyword": "anti-inflammatory recipes" },
+        { "url": "/topic/belly-fat-reduction", "type": "supporting", "keyword": "belly fat circadian" }
+      ]
+    },
+    {
+      "id": "masld-cluster",
+      "name": "MASLD (Fatty Liver) Reversal",
+      "type": "cluster",
+      "pillar": "metabolic-health",
+      "url": "/condition/masld",
+      "targetKeyword": "reverse fatty liver naturally",
+      "description": "Comprehensive fatty liver reversal through fructose elimination, circadian eating, and hepatic support herbs.",
+      "children": [
+        { "url": "/herb/turmeric", "type": "supporting", "keyword": "turmeric fatty liver" },
+        { "url": "/topic/liver-detox-nutrition", "type": "supporting", "keyword": "liver detox nutrition" }
+      ]
+    },
+    {
+      "id": "hormonal-health",
+      "name": "Hormonal Health & Endocrine Balance",
+      "type": "pillar",
+      "url": "/condition/pcod-pcos",
+      "targetKeyword": "pcos nutrition plan",
+      "description": "Pillar covering hormonal balance through anti-inflammatory nutrition, circadian alignment, and herbal support.",
+      "children": ["pcos-cluster", "thyroid-cluster", "stress-cluster"]
+    },
+    {
+      "id": "pcos-cluster",
+      "name": "PCOS/PCOD Management",
+      "type": "cluster",
+      "pillar": "hormonal-health",
+      "url": "/condition/pcod-pcos",
+      "targetKeyword": "pcos diet plan",
+      "description": "PCOS management through insulin-sensitizing nutrition, anti-inflammatory herbs, and circadian rhythm restoration.",
+      "children": [
+        { "url": "/topic/pcos-balance", "type": "supporting", "keyword": "pcos balance protocol" },
+        { "url": "/topic/fertility-hormone-support", "type": "supporting", "keyword": "fertility nutrition" },
+        { "url": "/herb/cinnamon", "type": "supporting", "keyword": "cinnamon pcos" },
+        { "url": "/herb/fenugreek", "type": "supporting", "keyword": "fenugreek pcos" }
+      ]
+    },
+    {
+      "id": "thyroid-cluster",
+      "name": "Thyroid Dysfunction & Hashimoto's Support",
+      "type": "cluster",
+      "pillar": "hormonal-health",
+      "url": "/condition/thyroid-dysfunction",
+      "targetKeyword": "thyroid nutrition hashimotos",
+      "description": "Thyroid support through selenium-rich nutrition, gluten reduction, and circadian rhythm optimization.",
+      "children": [
+        { "url": "/topic/thyroid-optimization", "type": "supporting", "keyword": "thyroid optimization nutrition" },
+        { "url": "/topic/autoimmune-hashimotos-protocol", "type": "supporting", "keyword": "hashimotos protocol" }
+      ]
+    },
+    {
+      "id": "stress-cluster",
+      "name": "Stress, Cortisol & Circadian Dysregulation",
+      "type": "cluster",
+      "pillar": "hormonal-health",
+      "url": "/topic/stress-cortisol-management",
+      "targetKeyword": "cortisol management nutrition",
+      "description": "Stress and cortisol regulation through adaptogenic herbs, circadian eating, and sleep nutrition.",
+      "children": [
+        { "url": "/herb/ashwagandha", "type": "supporting", "keyword": "ashwagandha cortisol" },
+        { "url": "/herb/holy-basil", "type": "supporting", "keyword": "tulsi stress relief" },
+        { "url": "/topic/sleep-disorder-circadian-reset", "type": "supporting", "keyword": "sleep nutrition circadian" }
+      ]
+    },
+    {
+      "id": "gut-health",
+      "name": "Gut Health & Microbiome Optimization",
+      "type": "pillar",
+      "url": "/condition/gut-health",
+      "targetKeyword": "gut health nutrition",
+      "description": "Pillar covering digestive health through anti-inflammatory nutrition, microbiome support, and circadian eating.",
+      "children": [
+        { "url": "/topic/gut-health-acidity", "type": "supporting", "keyword": "acidity gut health" },
+        { "url": "/recipe/kimchi-rice-bowl", "type": "supporting", "keyword": "probiotic recipes" },
+        { "url": "/herb/turmeric", "type": "supporting", "keyword": "turmeric gut health" },
+        { "url": "/herb/ginger", "type": "supporting", "keyword": "ginger digestion" }
+      ]
+    },
+    {
+      "id": "cardiovascular-health",
+      "name": "Cardiovascular & Inflammation Management",
+      "type": "pillar",
+      "url": "/condition/hypertension",
+      "targetKeyword": "heart health nutrition",
+      "description": "Cardiovascular support through anti-inflammatory nutrition, blood pressure management, and lipid optimization.",
+      "children": [
+        { "url": "/herb/garlic", "type": "supporting", "keyword": "garlic blood pressure" },
+        { "url": "/herb/turmeric", "type": "supporting", "keyword": "turmeric inflammation" },
+        { "url": "/topic/anti-inflammatory-protocol", "type": "supporting", "keyword": "anti-inflammatory diet" }
+      ]
+    }
+  ],
+  "siloRules": {
+    "description": "Each supporting page MUST link back to its cluster pillar. Supporting pages within the same cluster may cross-link. Cross-cluster linking is minimized.",
+    "rules": [
+      "Every supporting page links to its cluster pillar page",
+      "Supporting pages within the same cluster may cross-link freely",
+      "Cross-cluster links are limited to 1-2 per page maximum",
+      "Pillar pages link to all their cluster pages",
+      "The home page links to all pillar pages"
+    ]
+  }
+}

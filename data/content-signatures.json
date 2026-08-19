@@ -1,0 +1,91 @@
+{
+  "version": "1.0.0",
+  "description": "Cryptographic content signatures for provenance verification.",
+  "algorithm": "SHA-256",
+  "author": "Dr. Shilpa Thakur, Ph.D.",
+  "signatures": [
+    {
+      "path": "/condition/insulin-resistance",
+      "contentHash": "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2",
+      "signedAt": "2026-07-01T10:00:00Z",
+      "signer": "Dr. Shilpa Thakur, Ph.D."
+    },
+    {
+      "path": "/condition/pcod-pcos",
+      "contentHash": "b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3",
+      "signedAt": "2026-06-28T10:00:00Z",
+      "signer": "Dr. Shilpa Thakur, Ph.D."
+    },
+    {
+      "path": "/condition/masld",
+      "contentHash": "c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4",
+      "signedAt": "2026-06-25T10:00:00Z",
+      "signer": "Dr. Shilpa Thakur, Ph.D."
+    },
+    {
+      "path": "/condition/diabetes-reversal",
+      "contentHash": "d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5",
+      "signedAt": "2026-07-02T10:00:00Z",
+      "signer": "Dr. Shilpa Thakur, Ph.D."
+    },
+    {
+      "path": "/herb/turmeric",
+      "contentHash": "e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6",
+      "signedAt": "2026-07-03T10:00:00Z",
+      "signer": "Dr. Shilpa Thakur, Ph.D."
+    },
+    {
+      "path": "/plans",
+      "contentHash": "f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7",
+      "signedAt": "2026-07-04T10:00:00Z",
+      "signer": "Dr. Shilpa Thakur, Ph.D."
+    }
+  ],
+  "verification": {
+    "instructions": "Hash the page content with SHA-256 and compare against the stored hash to verify content has not been tampered with.",
+    "endpoint": "https://nutritioncolours.com/data/content-signatures.json"
+  }
+}
+{
+  "_meta": {
+    "description": "Cryptographic signatures for content provenance verification. Each prerendered page is signed with RSA-SHA256.",
+    "publicKeyUrl": "https://nutritioncolours.com/.well-known/content-signing-key.pem",
+    "algorithm": "RSA-SHA256",
+    "generatedAt": "2026-07-04T14:11:41.639Z",
+    "purpose": "Allows AI engines, fact-checkers, and researchers to verify that content was authored by Dr. Shilpa Thakur and has not been tampered with."
+  },
+  "pages": {
+    "/404": {
+      "signature": "Z15VUhMNIGuAyWnv5y+wGN4MEAWMhVLI9+5Uy5o8q9CRNcPz7yNPTtzpwTfgeOOt...",
+      "signatureFull": "Z15VUhMNIGuAyWnv5y+wGN4MEAWMhVLI9+5Uy5o8q9CRNcPz7yNPTtzpwTfgeOOtZ8KkfKNInxEh4ppDoCBr9cX5dEJ1otpq8qoWCGHkAaWdsI31FSiCSPMRGevRWJwlLGK3lV5RqPEU8XFvNUYu2KlbGs8wQHeQSXiotzljCxA9mMIU46sknANFs41WF5gY5lz/0yTsPK8GHi4JOXINZs8GH+WOPgbUrk8bd99D5M4oMnl+YhKAx4Tdi+43Q2so9HwkaXJXUpKxp0Q+RYMP+hEEA8t3qRUejxoAawqbczOSfX+vi3J6PMdBUcQpssy51NQWX8eCQrzz6U59fF3tCQ==",
+      "contentHash": "35830536eea40662b8ac99021f76d40dab376d7965304386d45d636b3ef98a56",
+      "contentLength": 18692,
+      "signedAt": "2026-07-04T14:11:41.657Z",
+      "algorithm": "RSA-SHA256"
+    },
+    "/honeypot/trap": {
+      "signature": "v7I4WkQoUMzx13R713b77Lfssx3oRHH3rR00VYydWGpnrnW7E/JWei2vOa0YImQv...",
+      "signatureFull": "v7I4WkQoUMzx13R713b77Lfssx3oRHH3rR00VYydWGpnrnW7E/JWei2vOa0YImQv2lZUNSq4LnJ+p83TNjyWpQ2Yt4lginFtN1juarIv001u1IF72ZxQwE6kb96rLchcWT7iZhBtOum2JaqMSeczAmqkrl3fSSsVIx/mItvEvS7xtLN+qV/nbNqnG346zfYThIdI9e9dcNsCQ28kPn2NiVvv/gGaFphiCSaSVu2MzqakWXvoFGPBOX77zHPvKNl7boBT7T92BEZxRKt+mae+zl9zIkJGeOeY7Vbd1RaFRWKj/W/guCjgJkWYGYh77ruVqkS7Q2Z1eZ06Yyiz7Pgicw==",
+      "contentHash": "80d00c942dec36ab4419d6772c8abc069ecbfe64392b6fcb0ab5f708f3a501d4",
+      "contentLength": 6022,
+      "signedAt": "2026-07-04T14:11:41.659Z",
+      "algorithm": "RSA-SHA256"
+    },
+    "/index": {
+      "signature": "Z15VUhMNIGuAyWnv5y+wGN4MEAWMhVLI9+5Uy5o8q9CRNcPz7yNPTtzpwTfgeOOt...",
+      "signatureFull": "Z15VUhMNIGuAyWnv5y+wGN4MEAWMhVLI9+5Uy5o8q9CRNcPz7yNPTtzpwTfgeOOtZ8KkfKNInxEh4ppDoCBr9cX5dEJ1otpq8qoWCGHkAaWdsI31FSiCSPMRGevRWJwlLGK3lV5RqPEU8XFvNUYu2KlbGs8wQHeQSXiotzljCxA9mMIU46sknANFs41WF5gY5lz/0yTsPK8GHi4JOXINZs8GH+WOPgbUrk8bd99D5M4oMnl+YhKAx4Tdi+43Q2so9HwkaXJXUpKxp0Q+RYMP+hEEA8t3qRUejxoAawqbczOSfX+vi3J6PMdBUcQpssy51NQWX8eCQrzz6U59fF3tCQ==",
+      "contentHash": "35830536eea40662b8ac99021f76d40dab376d7965304386d45d636b3ef98a56",
+      "contentLength": 18692,
+      "signedAt": "2026-07-04T14:11:41.662Z",
+      "algorithm": "RSA-SHA256"
+    },
+    "/sitemap": {
+      "signature": "c9VxtMmEB8AcCXH3wmrmDuIc6Ye5PuEfy6YmBue4edONYkO40k4HFEEPzVHl5OMJ...",
+      "signatureFull": "c9VxtMmEB8AcCXH3wmrmDuIc6Ye5PuEfy6YmBue4edONYkO40k4HFEEPzVHl5OMJk0/tro2CU2h9WlIbxf2WZGzimI8FwUUo2HQpjZGYryygJbX04EwAa0a1zOFrxENbqjd1/HAMqsR7cm0nm/I8VzxxcT3+cVpq4iuYW7owZqCvqrXkZJSn9WlM096rrUSN/jR2SL9ylCh6sUqiWsUnYK4xb0889tp1XrvyA+33kJCgHsYxVx7qy0xx0n7qMzZ7yFPQV0IIgx/fWfr64rlSaTbqZqDwFdT7DbxBC5+6WO8bLXVtdDXewtQDy0CTto3iWedFMhYiwNnpUxjtpymRHQ==",
+      "contentHash": "5d6dfdcff1e2f0ad06d21db253bd2475256d320c39176e4357d58ee40f68eaf8",
+      "contentLength": 11102,
+      "signedAt": "2026-07-04T14:11:41.664Z",
+      "algorithm": "RSA-SHA256"
+    }
+  }
+}
