@@ -1,0 +1,44 @@
+import fs from 'fs';
+import path from 'path';
+
+const BANNED_PATTERNS = [
+  /ai[-_]?bait/i,
+  /answer[-_]?fragment/i,
+  /scrapable/i,
+  /100%\s+cure/i
+];
+
+function walkDir(dir: string, callback: (filePath: string) => void) {
+  if (!fs.existsSync(dir)) return;
+  fs.readdirSync(dir).forEach(f => {
+    const dirPath = path.join(dir, f);
+    if (fs.statSync(dirPath).isDirectory()) {
+      walkDir(dirPath, callback);
+    } else {
+      callback(dirPath);
+    }
+  });
+}
+
+async function runNegativeCapabilityScanner() {
+  console.log('🛑 Initiating Negative-Capability Registry Scanner...');
+  let violations = 0;
+  ['src', 'public'].forEach(dir => {
+    walkDir(path.resolve(process.cwd(), dir), (filePath) => {
+      if (filePath.includes('node_modules') || filePath.endsWith('.png')) return;
+      const content = fs.readFileSync(filePath, 'utf-8');
+      BANNED_PATTERNS.forEach(pattern => {
+        if (pattern.test(content)) {
+          console.error(`❌ NEGATIVE CAPABILITY VIOLATION: Banned pattern ${pattern} found in ${filePath}`);
+          violations++;
+        }
+      });
+    });
+  });
+  if (violations > 0) {
+    console.error(`\n🚨 Negative-Capability Scanner FAILED with ${violations} violations.`);
+    process.exit(1);
+  }
+  console.log('✅ Negative-Capability Registry clear.');
+}
+runNegativeCapabilityScanner();

@@ -2,11 +2,10 @@
 /**
  * SeoHelper.astro – Centralised SEO <head> injector
  *
- * Renders: title · description · keywords · canonicalUrl ·
- *          hreflang links · OpenGraph · Twitter card · AI directives · PWA meta ·
- *          Favicons · Preconnects · MedicalCondition & BreadcrumbList JSON-LD
+ * Renders standard metadata, canonical and language links, social previews,
+ * crawler directives, favicons, and safely serialized JSON-LD.
  */
-import medicalCodes from '../lib/medicalCodes.json';
+import JsonLd from './JsonLd.astro';
 
 export interface Props {
   title?:        string;
@@ -19,18 +18,15 @@ export interface Props {
   geoPlacename?: string;
   disease?:      string;
   schemas?:      any[];
+  noindex?:      boolean;
+  ogType?:       'website' | 'article';
+  breadcrumbs?:  Array<{ name: string; path: string }>;
 }
 
 const {
-  title       = "NutritionColours | Metabolic Health & Circadian Nutrition Reversal",
-  description = "Clinical Metabolic Reversal practice led by Dr. Shilpa Thakur, Ph.D. Reversing Type 2 Diabetes, PCOS, and Fatty Liver via evidence-based circadian nutrition systems.",
-  keywords    = [
-    "Diabetes Nutrition Support India",
-    "PCOD Diet Plan",
-    "Clinical Nutritionist Online",
-    "Dr Shilpa Thakur",
-    "Fatty Liver Nutrition",
-  ],
+  title       = "NutritionColours — Food and nutrition education",
+  description = "Food and recipe directories, publication policies, and transparent review-status notices.",
+  keywords    = ["food education", "nutrition education", "recipes"],
   canonicalUrl = Astro.url.pathname,
   ogImage,
   aiSummary,
@@ -38,92 +34,54 @@ const {
   geoPlacename,
   disease,
   schemas     = [],
+  noindex     = false,
+  ogType      = 'website',
+  breadcrumbs,
 } = Astro.props as Props;
 
 const SITE_URL       = (Astro.site ?? "https://nutritioncolours.com").toString().replace(/\/$/, "");
 const rawPath        = canonicalUrl.replace(/\/$/, "");
-const resolvedCanon  = new URL(rawPath || "/", SITE_URL).href;
+const canonicalCandidate = new URL(rawPath || "/", SITE_URL);
+if (canonicalCandidate.origin !== SITE_URL) throw new Error(`Canonical URL must remain same-origin: ${canonicalUrl}`);
+const resolvedCanon  = canonicalCandidate.href;
 const resolvedOgImg  = ogImage
   ? new URL(ogImage, SITE_URL).href
-  : `${SITE_URL}/images/precision_metabolic_nutrition_dr_shilpa.webp`;
+  : `${SITE_URL}/images/nutritioncolours-default.svg`;
+void aiSummary;
+void keywords;
 
-// BreadcrumbList structured data derived from URL path
+// Prefer caller-supplied labels so visible navigation and structured data agree.
 const segments = Astro.url.pathname.split("/").filter(Boolean);
-const breadcrumbItems = [
-  { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+const breadcrumbEntries = breadcrumbs?.length ? breadcrumbs : [
+  { name: 'Home', path: '/' },
   ...segments.map((seg, idx) => ({
-    "@type": "ListItem",
-    position: idx + 2,
     name: seg.replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase()),
-    item: new URL(`/${segments.slice(0, idx + 1).join("/")}`, SITE_URL).href,
+    path: `/${segments.slice(0, idx + 1).join("/")}`,
   })),
 ];
+const breadcrumbItems = breadcrumbEntries.map((entry, idx) => ({
+    "@type": "ListItem",
+    position: idx + 1,
+    name: entry.name,
+    item: (() => {
+      const itemUrl = new URL(entry.path, SITE_URL);
+      if (itemUrl.origin !== SITE_URL) throw new Error(`Breadcrumb URL must remain same-origin: ${entry.path}`);
+      return itemUrl.href;
+    })(),
+}));
 const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: breadcrumbItems,
 };
 
-const imageSchema = {
-  "@context": "https://schema.org",
-  "@type": "ImageObject",
-  "url": resolvedOgImg,
-  "contentUrl": resolvedOgImg,
-  "representativeOfPage": true,
-  "caption": title,
-  "inLanguage": "en"
-};
-
-// Dynamic content freshness (using build date)
-const currentDate = new Date().toISOString();
-
-// MedicalCondition structured data with SNOMED-CT, ICD-10, MeSH codes
-let medicalConditionSchema = null;
-if (disease && (medicalCodes as Record<string, any>)[disease]) {
-  const codeInfo = (medicalCodes as Record<string, any>)[disease];
-  medicalConditionSchema = {
-    "@context": "https://schema.org",
-    "@type": "MedicalCondition",
-    "@id": `${SITE_URL}/topic/${disease}#condition`,
-    "name": codeInfo.name,
-    "code": {
-      "@type": "MedicalCode",
-      "codeValue": codeInfo.snomed,
-      "codingSystem": "SNOMED-CT"
-    },
-    "sameAs": [
-      `https://id.nlm.nih.gov/mesh/${codeInfo.mesh}`,
-      `https://www.icd10data.com/ICD10CM/Codes/${codeInfo.icd10}`
-    ]
-  };
-}
-
-const enrichedSchemas = schemas.map(schema => {
-  // Inject EEAT and Freshness strictly into WebPage derivatives
-  if (schema["@type"] === "MedicalWebPage" || schema["@type"] === "FAQPage" || schema["@type"] === "WebPage") {
-    return {
-      ...schema,
-      "dateModified": schema.dateModified || currentDate,
-      "reviewedBy": {
-        "@type": "Person",
-        "@id": `${SITE_URL}/team/shilpa#person`
-      },
-      "audience": schema.audience || {
-        "@type": "MedicalAudience",
-        "audienceType": "Patients"
-      }
-    };
-  }
-  return schema;
-});
-
-const finalSchemas = [breadcrumbSchema, imageSchema, medicalConditionSchema, ...enrichedSchemas].filter(Boolean);
+void disease;
+const finalSchemas = [breadcrumbSchema, ...schemas].filter(Boolean);
 ---
 
 <!-- Primary Meta -->
 <title>{title}</title>
-<meta name="description" content={aiSummary || description} />
-{keywords.length > 0 && <meta name="keywords" content={keywords.join(", ")} />}
+<meta name="description" content={description} />
 <link rel="canonical" href={resolvedCanon} />
 
 {geoRegion && <meta name="geo.region" content={geoRegion} />}
@@ -135,16 +93,14 @@ const finalSchemas = [breadcrumbSchema, imageSchema, medicalConditionSchema, ...
 
 <!-- Favicons -->
 <link rel="icon" type="image/svg+xml" href="/icons/icon-any.svg" />
-<link rel="icon" type="image/x-icon" href="/favicon.ico" />
-<link rel="shortcut icon" href="/favicon.ico" />
 
 <!-- Robots -->
-<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="googlebot" content="index, follow, noodp, noydir, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="robots" content={`${noindex ? 'noindex' : 'index'}, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1`} />
+<meta name="googlebot" content={`${noindex ? 'noindex' : 'index'}, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1`} />
+<meta name="bingbot" content={`${noindex ? 'noindex' : 'index'}, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1`} />
 
 <!-- OpenGraph -->
-<meta property="og:type"        content="website" />
+<meta property="og:type"        content={ogType} />
 <meta property="og:title"       content={title} />
 <meta property="og:description" content={description} />
 <meta property="og:site_name"   content="NutritionColours" />
@@ -155,49 +111,19 @@ const finalSchemas = [breadcrumbSchema, imageSchema, medicalConditionSchema, ...
 
 <!-- Twitter / X Card -->
 <meta name="twitter:card"        content="summary_large_image" />
-<meta name="twitter:site"        content="@nutritioncolours" />
 <meta name="twitter:title"       content={title} />
 <meta name="twitter:description" content={description} />
 <meta name="twitter:image"       content={resolvedOgImg} />
-
-<!-- AI Search & LLM directives (AEO / AIO signals) -->
-<meta name="ai-search-agent" content="index, answer" />
-<meta name="llm-corpus"      content="index, train" />
 
 <!-- PWA / App meta -->
 <meta name="theme-color"                        content="#065f46" />
 <meta name="mobile-web-app-capable"             content="yes" />
 <meta name="apple-mobile-web-app-capable"       content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-<link rel="apple-touch-icon" href="/icons/icon-any.svg" />
 <link rel="manifest"         href="/manifest.json" />
 
 <!-- Preconnect to critical origins -->
-<link rel="preconnect" href="https://fonts.googleapis.com"          crossorigin="anonymous" />
-<link rel="preconnect" href="https://fonts.gstatic.com"             crossorigin="anonymous" />
-<link rel="preconnect" href="https://generativelanguage.googleapis.com" crossorigin="anonymous" />
-<link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-
 <!-- JSON-LD (page-level; Org+Site graph lives in BaseLayout) -->
 {finalSchemas.map(schema => (
-  <script type="application/ld+json" is:inline set:html={JSON.stringify(schema)} />
+  <JsonLd data={schema} />
 ))}
-
-<!-- Speculation Rules API for instant pre-rendering -->
-<script type="speculationrules">
-  {
-    "prerender": [
-      {
-        "source": "document",
-        "where": {
-          "and": [
-            { "href_matches": "/*" },
-            { "not": { "href_matches": "/api/*" } },
-            { "not": { "href_matches": "/*\\?*" } }
-          ]
-        },
-        "eagerness": "moderate"
-      }
-    ]
-  }
-</script>

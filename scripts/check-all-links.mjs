@@ -98,3 +98,4 @@ if (missingImages.size > 0) {
         if (++i >= 20) break;
     }
 }
+if (brokenLinks > 0 || uiIssues > 0) process.exit(1);

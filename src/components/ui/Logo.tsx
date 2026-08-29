@@ -6,11 +6,11 @@ interface LogoProps {
   lightMode?: boolean; // If true, optimizes colors for dark backgrounds (white text/icons)
 }
 
-export const Logo: React.FC<LogoProps> = ({ className, lightMode = false }) => (
+export const Logo: React.FC<LogoProps> = ({ className = '', lightMode = false }) => (
   <div className={`flex items-center gap-4 shrink-0 ${className}`}>
     <div className={`relative flex items-center justify-center transition-transform duration-300 shrink-0 ${className?.includes('w-') ? '' : 'w-12 h-12'}`}>
       <svg aria-hidden="true" viewBox="0 0 200 200" className="w-full h-full drop-shadow-sm">
-        <title>NutritionColours Clinic Logo</title>
+        <title>NutritionColours logo</title>
         {/* Wreath - Left Side */}
         <g fill="none" stroke={lightMode ? "#FFFFFF" : "#2D6A4F"} strokeWidth="2">
           <path d="M55,165 Q45,150 40,135 Q35,120 40,105 Q45,90 55,80" />
@@ -66,7 +66,7 @@ export const Logo: React.FC<LogoProps> = ({ className, lightMode = false }) => (
     </div>
     <div className={`flex flex-col leading-none ${lightMode ? 'text-white' : ''}`}>
       <span className={`text-xl font-bold tracking-tight brand-font ${lightMode ? 'text-white' : 'text-emerald-950'}`}>NutritionColours</span>
-      <span className={`text-xs uppercase tracking-widest font-semibold ${lightMode ? 'text-emerald-300' : 'text-emerald-700'}`}>Food as Medicine</span>
+      <span className={`text-xs uppercase tracking-widest font-semibold ${lightMode ? 'text-emerald-300' : 'text-emerald-700'}`}>Nutrition education</span>
     </div>
   </div>
 );

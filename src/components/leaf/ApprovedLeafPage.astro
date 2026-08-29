@@ -1,0 +1,150 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import type { ApprovedLeaf } from '../../lib/publishing/approvedLeafTypes';
+
+interface Props { leaf: ApprovedLeaf }
+const { leaf } = Astro.props;
+const claimById = new Map(leaf.claims.map((claim) => [claim.id, claim]));
+const sourceById = new Map(leaf.sources.map((source) => [source.id, source]));
+const sourceNumber = new Map(leaf.sources.map((source, index) => [source.id, index + 1]));
+
+function citationsFor(claimIds: string[]) {
+  const ids = new Set<string>();
+  for (const claimId of claimIds) for (const sourceId of claimById.get(claimId)?.sourceIds || []) ids.add(sourceId);
+  return [...ids]
+    .map((id) => ({ source: sourceById.get(id), number: sourceNumber.get(id) }))
+    .filter((item): item is { source: NonNullable<typeof item.source>; number: number } => Boolean(item.source && item.number))
+    .sort((a, b) => a.number - b.number);
+}
+
+const SITE_URL = (Astro.site || 'https://nutritioncolours.com').toString().replace(/\/$/, '');
+const pageUrl = new URL(leaf.canonicalPath, SITE_URL).href;
+const medicalEntityTypes = new Set(['condition', 'disease', 'symptom']);
+const pageType = leaf.pageKind === 'health' && medicalEntityTypes.has(leaf.entityType) ? 'MedicalWebPage' : 'WebPage';
+const personSchema = (person: NonNullable<ApprovedLeaf['reviewer']> | ApprovedLeaf['author']) => ({
+  '@type': 'Person',
+  name: person.displayName,
+  ...(person.profilePath ? { url: new URL(person.profilePath, SITE_URL).href } : {}),
+  ...(person.sameAs?.length ? { sameAs: person.sameAs } : {}),
+});
+const pageSchema = {
+  '@context': 'https://schema.org',
+  '@type': pageType,
+  '@id': `${pageUrl}#webpage`,
+  url: pageUrl,
+  name: leaf.canonicalName,
+  description: leaf.metaDescription,
+  inLanguage: 'en',
+  dateModified: leaf.substantiveModified,
+  author: personSchema(leaf.author),
+  ...(leaf.reviewer && leaf.lastReviewed ? {
+    reviewedBy: personSchema(leaf.reviewer),
+    lastReviewed: leaf.lastReviewed,
+  } : {}),
+  about: { '@type': 'Thing', name: leaf.canonicalName, alternateName: leaf.aliases },
+};
+
+const tierLabel = leaf.pageKind === 'health' ? 'Health reference · Tier 1' : 'Food reference · Tier 2';
+const parentPath = leaf.pageKind === 'health' ? '/health' : '/foods';
+const parentLabel = leaf.pageKind === 'health' ? 'Health library' : 'Food library';
+const breadcrumbs = [
+  { name: 'Home', path: '/' },
+  { name: parentLabel, path: parentPath },
+  { name: leaf.canonicalName, path: leaf.canonicalPath },
+];
+---
+
+<BaseLayout title={leaf.seoTitle} description={leaf.metaDescription} canonicalUrl={leaf.canonicalPath} aiSummary={leaf.content.directAnswer.text} schemas={[pageSchema]} ogType="article" breadcrumbs={breadcrumbs}>
+  <article class="mx-auto max-w-5xl px-6 py-12 md:py-16">
+    <header class="border-b border-stone-200 pb-10">
+      <nav aria-label="Breadcrumb" class="text-sm text-stone-600">
+        <ol class="flex flex-wrap items-center gap-2">
+          {breadcrumbs.map((crumb, index) => (
+            <li class="flex items-center gap-2">
+              {index > 0 && <span aria-hidden="true">/</span>}
+              {index < breadcrumbs.length - 1
+                ? <a href={crumb.path} class="font-bold text-emerald-800 underline decoration-emerald-300 underline-offset-4">{crumb.name}</a>
+                : <span aria-current="page">{crumb.name}</span>}
+            </li>
+          ))}
+        </ol>
+      </nav>
+      <p class="mt-6 text-xs font-black uppercase tracking-[0.22em] text-emerald-700">{tierLabel}</p>
+      <h1 class="mt-3 max-w-4xl text-4xl font-black leading-tight text-emerald-950 md:text-6xl">{leaf.canonicalName}</h1>
+      {leaf.aliases.length > 0 && <p class="mt-3 text-sm text-stone-600"><span class="font-bold text-stone-800">Also known as:</span> {leaf.aliases.join(', ')}</p>}
+      <p class="mt-6 max-w-4xl border-l-4 border-emerald-500 pl-5 text-lg leading-8 text-stone-800">
+        {leaf.content.directAnswer.text}
+        {citationsFor(leaf.content.directAnswer.claimIds).map(({ source, number }) => <sup class="ml-1"><a href={`#source-${number}`} aria-label={`Source ${number}: ${source.title}`} class="font-bold text-emerald-800">[{number}]</a></sup>)}
+      </p>
+    </header>
+
+    {leaf.content.urgentHelp && (
+      <aside class="mt-8 rounded-2xl border border-red-300 bg-red-50 p-6 text-red-950" aria-labelledby="urgent-help-heading">
+        <h2 id="urgent-help-heading" class="text-lg font-black">When urgent help may be needed</h2>
+        <p class="mt-2 leading-7">
+          {leaf.content.urgentHelp.text}
+          {citationsFor(leaf.content.urgentHelp.claimIds).map(({ source, number }) => <sup class="ml-1"><a href={`#source-${number}`} aria-label={`Source ${number}: ${source.title}`} class="font-bold">[{number}]</a></sup>)}
+        </p>
+      </aside>
+    )}
+
+    <nav class="mt-8 rounded-2xl border border-stone-200 bg-white p-6" aria-label="On this page">
+      <h2 class="font-black text-emerald-950">On this page</h2>
+      <ul class="mt-3 grid gap-2 text-sm sm:grid-cols-2">
+        {leaf.content.sections.map((section) => <li><a href={`#${section.id}`} class="font-semibold text-emerald-800 underline decoration-emerald-200 underline-offset-4">{section.heading}</a></li>)}
+        {leaf.content.faqs && leaf.content.faqs.length > 0 && <li><a href="#questions" class="font-semibold text-emerald-800 underline decoration-emerald-200 underline-offset-4">Questions people ask</a></li>}
+        <li><a href="#sources" class="font-semibold text-emerald-800 underline decoration-emerald-200 underline-offset-4">Sources and review</a></li>
+      </ul>
+    </nav>
+
+    <div class="mt-12 space-y-14">
+      {leaf.content.sections.map((section) => (
+        <section id={section.id} aria-labelledby={`${section.id}-heading`} class="scroll-mt-24">
+          <h2 id={`${section.id}-heading`} class="text-3xl font-black text-emerald-950">{section.heading}</h2>
+          <div class="mt-5 space-y-5 text-base leading-8 text-stone-700">
+            {section.blocks.map((block) => (
+              <p id={block.id}>
+                {block.text}
+                {citationsFor(block.claimIds).map(({ source, number }) => <sup class="ml-1"><a href={`#source-${number}`} aria-label={`Source ${number}: ${source.title}`} class="font-bold text-emerald-800">[{number}]</a></sup>)}
+              </p>
+            ))}
+          </div>
+        </section>
+      ))}
+    </div>
+
+    {leaf.content.faqs && leaf.content.faqs.length > 0 && (
+      <section id="questions" aria-labelledby="questions-heading" class="mt-16 scroll-mt-24">
+        <h2 id="questions-heading" class="text-3xl font-black text-emerald-950">Questions people ask</h2>
+        <div class="mt-6 space-y-3">
+          {leaf.content.faqs.map((faq) => (
+            <details class="rounded-2xl border border-stone-200 bg-white p-5">
+              <summary class="cursor-pointer font-bold text-emerald-950">{faq.question}</summary>
+              <p class="mt-4 leading-7 text-stone-700">
+                {faq.answer.text}
+                {citationsFor(faq.answer.claimIds).map(({ source, number }) => <sup class="ml-1"><a href={`#source-${number}`} aria-label={`Source ${number}: ${source.title}`} class="font-bold text-emerald-800">[{number}]</a></sup>)}
+              </p>
+            </details>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <section id="sources" aria-labelledby="sources-heading" class="mt-16 scroll-mt-24 border-t border-stone-200 pt-10">
+      <h2 id="sources-heading" class="text-3xl font-black text-emerald-950">Sources and review</h2>
+      <dl class="mt-5 grid gap-4 rounded-2xl bg-stone-100 p-6 text-sm sm:grid-cols-2">
+        <div><dt class="font-bold text-stone-900">Author</dt><dd class="mt-1 text-stone-700">{leaf.author.displayName}</dd></div>
+        {leaf.reviewer && <div><dt class="font-bold text-stone-900">Reviewed by</dt><dd class="mt-1 text-stone-700">{leaf.reviewer.displayName}</dd></div>}
+        <div><dt class="font-bold text-stone-900">Last substantive update</dt><dd class="mt-1 text-stone-700"><time datetime={leaf.substantiveModified}>{leaf.substantiveModified}</time></dd></div>
+        {leaf.lastReviewed && <div><dt class="font-bold text-stone-900">Last expert review</dt><dd class="mt-1 text-stone-700"><time datetime={leaf.lastReviewed}>{leaf.lastReviewed}</time></dd></div>}
+        {leaf.reviewExpires && <div><dt class="font-bold text-stone-900">Review due by</dt><dd class="mt-1 text-stone-700"><time datetime={leaf.reviewExpires}>{leaf.reviewExpires}</time></dd></div>}
+      </dl>
+      <ol class="mt-8 space-y-4 text-sm leading-6 text-stone-700">
+        {leaf.sources.map((source, index) => (
+          <li id={`source-${index + 1}`} class="scroll-mt-24"><span class="font-bold text-stone-950">[{index + 1}]</span> <a href={source.url} rel="external noopener" class="font-semibold text-emerald-800 underline underline-offset-4">{source.title}</a>. {source.publisher}.</li>
+        ))}
+      </ol>
+      <p class="mt-8 rounded-2xl border border-amber-200 bg-amber-50 p-5 text-sm leading-6 text-amber-950">This page provides general education. It does not diagnose a condition, prescribe treatment, replace individual medical advice, or provide emergency services.</p>
+    </section>
+  </article>
+</BaseLayout>

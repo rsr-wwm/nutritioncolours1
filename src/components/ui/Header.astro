@@ -1,0 +1,653 @@
+---
+const primaryLinks = [
+  { href: '/', label: 'Home', priority: 'base' },
+  { href: '/health', label: 'Health', priority: 'primary' },
+  { href: '/foods', label: 'Foods', priority: 'secondary' },
+] as const;
+
+// On compact screens, put the two core libraries before the utility home link.
+const mobilePrimaryLinks = [primaryLinks[1], primaryLinks[2], primaryLinks[0]] as const;
+
+const groups = [
+  {
+    label: 'Explore',
+    links: [
+      { href: '/knowledge', label: 'Knowledge directory' },
+      { href: '/recipes', label: 'Recipes' },
+      { href: '/search', label: 'Search' },
+      { href: '/sitemap', label: 'Site index' },
+    ],
+  },
+  {
+    label: 'About',
+    links: [
+      { href: '/about', label: 'About this site' },
+      { href: '/services/online-nutrition', label: 'Online services' },
+      { href: '/legal/editorial-policy', label: 'Editorial policy' },
+      { href: '/contact', label: 'Contact' },
+    ],
+  },
+] as const;
+
+const pathname = Astro.url.pathname.replace(/\/$/, '') || '/';
+const isCurrent = (href: string) => {
+  const normalizedHref = href.replace(/\/$/, '') || '/';
+  return normalizedHref === '/'
+    ? pathname === '/'
+    : pathname === normalizedHref || pathname.startsWith(`${normalizedHref}/`);
+};
+---
+
+<header class="site-header">
+  <div class="field-rule" aria-hidden="true">
+    <span></span><i></i><span></span>
+  </div>
+
+  <div class="header-inner">
+    <a class="brand" href="/" aria-label="NutritionColours home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 52 52" role="img">
+          <circle cx="26" cy="26" r="24.25" fill="#f4f1e8" stroke="currentColor" stroke-width="1.5" />
+          <path d="M14.2 30.2h23.6c-.5 8.1-4.6 12-11.8 12s-11.3-3.9-11.8-12Z" fill="currentColor" />
+          <path d="M16.4 32.7h19.2" fill="none" stroke="#f4f1e8" stroke-width="1.4" />
+          <path d="m32.5 28.6 7.1-15.2c.7-1.4 2.4-1.9 3.7-1.1 1.1.7 1.5 2.1.9 3.3l-8.4 14.1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="3.4" />
+          <path d="M25.8 28.5c.1-8.8-3.9-13.6-9.6-13.8.3 6.8 3.4 11.1 9.6 13.8Z" fill="#5f7d4b" />
+          <path d="M26.1 28.2c.4-9.2 4.4-14.1 10.6-14.5-.5 7-3.9 11.6-10.6 14.5Z" fill="#1f5a43" />
+          <path d="M25.9 29.5V17.4" fill="none" stroke="#f4f1e8" stroke-linecap="round" stroke-width="1.1" />
+        </svg>
+      </span>
+      <span class="brand-copy">
+        <strong>NutritionColours</strong>
+        <span>Nutrition education</span>
+      </span>
+    </a>
+
+    <nav class="main-navigation" aria-label="Main navigation">
+      <div class="desktop-navigation">
+        <div class="primary-links">
+          {primaryLinks.map((link, index) => (
+            <a
+              href={link.href}
+              class:list={['nav-link', `nav-link--${link.priority}`]}
+              aria-current={isCurrent(link.href) ? 'page' : undefined}
+            >
+              {link.priority !== 'base' && <span aria-hidden="true">0{index}</span>}
+              <strong>{link.label}</strong>
+            </a>
+          ))}
+        </div>
+
+        <span class="nav-divider" aria-hidden="true"></span>
+
+        <div class="secondary-links">
+          {groups.map((group) => (
+            <details class="desktop-disclosure" name="desktop-secondary-navigation">
+              <summary>
+                <span>{group.label}</span>
+                <svg viewBox="0 0 12 12" aria-hidden="true">
+                  <path d="m2.25 4.25 3.75 3.5 3.75-3.5" />
+                </svg>
+              </summary>
+              <div class="disclosure-panel">
+                <p>{group.label}</p>
+                {group.links.map((link) => (
+                  <a href={link.href} aria-current={isCurrent(link.href) ? 'page' : undefined}>
+                    <span>{link.label}</span><span aria-hidden="true">&#8599;</span>
+                  </a>
+                ))}
+              </div>
+            </details>
+          ))}
+        </div>
+      </div>
+
+      <details class="mobile-menu">
+        <summary>
+          <span class="menu-label menu-label--open">Menu</span>
+          <span class="menu-label menu-label--close">Close</span>
+          <span class="menu-icon" aria-hidden="true"><i></i><i></i></span>
+        </summary>
+
+        <div class="mobile-panel">
+          <p class="mobile-kicker">Field guide navigation</p>
+
+          <div class="mobile-primary">
+            {mobilePrimaryLinks.map((link, index) => (
+              <a
+                href={link.href}
+                class:list={[`mobile-link--${link.priority}`]}
+                aria-current={isCurrent(link.href) ? 'page' : undefined}
+              >
+                <span aria-hidden="true">0{index + 1}</span>
+                <strong>{link.label}</strong>
+                {link.priority === 'primary' && <small>Primary library</small>}
+                {link.priority === 'secondary' && <small>Food guide</small>}
+                {link.priority === 'base' && <small>Start page</small>}
+                <b aria-hidden="true">&#8594;</b>
+              </a>
+            ))}
+          </div>
+
+          <div class="mobile-secondary">
+            {groups.map((group) => (
+              <details>
+                <summary>
+                  <span>{group.label}</span>
+                  <svg viewBox="0 0 12 12" aria-hidden="true">
+                    <path d="m2.25 4.25 3.75 3.5 3.75-3.5" />
+                  </svg>
+                </summary>
+                <div>
+                  {group.links.map((link) => (
+                    <a href={link.href} aria-current={isCurrent(link.href) ? 'page' : undefined}>
+                      {link.label}
+                    </a>
+                  ))}
+                </div>
+              </details>
+            ))}
+          </div>
+
+          <p class="mobile-note">Evidence-aware nutrition guidance for careful everyday decisions.</p>
+        </div>
+      </details>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    --paper: #faf8f2;
+    --paper-deep: #f1eee4;
+    --ink: #10291f;
+    --muted: #52665e;
+    --rule: #d8d4c9;
+    --green: #064e3b;
+    --green-deep: #033c2e;
+    --leaf: #668453;
+    position: sticky;
+    z-index: 50;
+    top: 0;
+    color: var(--ink);
+    background: var(--paper);
+    border-bottom: 1px solid var(--rule);
+    box-shadow: 0 10px 30px rgb(16 41 31 / 0.045);
+  }
+
+  .field-rule {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 0.55rem;
+    height: 4px;
+    color: var(--leaf);
+    background: var(--green);
+  }
+
+  .field-rule span {
+    height: 1px;
+    background: rgb(255 255 255 / 0.25);
+  }
+
+  .field-rule i {
+    width: 4px;
+    height: 4px;
+    background: currentColor;
+    transform: rotate(45deg);
+  }
+
+  .header-inner {
+    display: flex;
+    width: min(100% - 2rem, 80rem);
+    min-height: 4.75rem;
+    margin-inline: auto;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .brand {
+    display: inline-flex;
+    min-height: 2.75rem;
+    flex: 0 1 auto;
+    align-items: center;
+    gap: 0.7rem;
+    color: var(--green);
+    text-decoration: none;
+  }
+
+  .brand-mark {
+    display: grid;
+    width: 2.85rem;
+    height: 2.85rem;
+    flex: 0 0 auto;
+    place-items: center;
+  }
+
+  .brand-mark svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .brand-copy {
+    display: flex;
+    min-width: 0;
+    flex-direction: column;
+    line-height: 1;
+  }
+
+  .brand-copy strong {
+    overflow: hidden;
+    color: var(--green-deep);
+    font-family: var(--font-display, Georgia, serif);
+    font-size: clamp(1.02rem, 2.8vw, 1.22rem);
+    font-weight: 900;
+    letter-spacing: -0.03em;
+    text-overflow: ellipsis;
+  }
+
+  .brand-copy span {
+    margin-top: 0.36rem;
+    color: var(--muted);
+    font-size: 0.58rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+
+  .main-navigation {
+    display: flex;
+    align-items: center;
+  }
+
+  .desktop-navigation {
+    display: none;
+  }
+
+  .mobile-menu > summary {
+    display: flex;
+    min-width: 4.25rem;
+    min-height: 2.75rem;
+    cursor: pointer;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 0.55rem;
+    border: 1px solid #b9c2bb;
+    background: transparent;
+    color: var(--green-deep);
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .menu-label--close,
+  .mobile-menu[open] .menu-label--open {
+    display: none;
+  }
+
+  .mobile-menu[open] .menu-label--close {
+    display: inline;
+  }
+
+  .menu-icon {
+    position: relative;
+    display: block;
+    width: 1rem;
+    height: 0.75rem;
+  }
+
+  .menu-icon i {
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 1.5px;
+    background: currentColor;
+    transition: transform 160ms ease, top 160ms ease;
+  }
+
+  .menu-icon i:first-child { top: 0.16rem; }
+  .menu-icon i:last-child { top: 0.56rem; }
+  .mobile-menu[open] .menu-icon i:first-child { top: 0.36rem; transform: rotate(45deg); }
+  .mobile-menu[open] .menu-icon i:last-child { top: 0.36rem; transform: rotate(-45deg); }
+
+  .mobile-panel {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    max-height: calc(100dvh - 5rem);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding: 1.4rem max(1rem, calc((100vw - 80rem) / 2));
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    background: var(--paper);
+    box-shadow: 0 22px 48px rgb(3 60 46 / 0.14);
+  }
+
+  .mobile-kicker,
+  .disclosure-panel p {
+    margin: 0 0 0.75rem;
+    color: var(--leaf);
+    font-size: 0.62rem;
+    font-weight: 800;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+  }
+
+  .mobile-primary {
+    border-top: 1px solid var(--ink);
+  }
+
+  .mobile-primary a {
+    display: grid;
+    grid-template-columns: 1.6rem 1fr auto;
+    min-height: 3.65rem;
+    align-items: center;
+    column-gap: 0.6rem;
+    padding: 0.65rem 0.8rem;
+    border-bottom: 1px solid var(--rule);
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .mobile-primary a > span {
+    align-self: start;
+    padding-top: 0.18rem;
+    color: var(--leaf);
+    font-size: 0.58rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+  }
+
+  .mobile-primary a strong {
+    grid-column: 2;
+    font-family: var(--font-display, Georgia, serif);
+    font-size: 1.18rem;
+    font-weight: 800;
+    letter-spacing: -0.015em;
+  }
+
+  .mobile-primary a small {
+    grid-column: 2;
+    color: inherit;
+    font-size: 0.61rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    opacity: 0.72;
+    text-transform: uppercase;
+  }
+
+  .mobile-primary a b {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .mobile-primary .mobile-link--primary {
+    color: #fff;
+    background: var(--green);
+    border-bottom-color: var(--green);
+  }
+
+  .mobile-primary .mobile-link--primary > span { color: #b8d4c3; }
+  .mobile-primary .mobile-link--secondary { background: var(--paper-deep); }
+
+  .mobile-secondary {
+    margin-top: 1.2rem;
+    border-top: 1px solid var(--rule);
+  }
+
+  .mobile-secondary > details {
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .mobile-secondary summary {
+    display: flex;
+    min-height: 3rem;
+    cursor: pointer;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--green-deep);
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+  }
+
+  .mobile-secondary summary svg,
+  .desktop-disclosure summary svg {
+    width: 0.75rem;
+    fill: none;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.4;
+    transition: transform 160ms ease;
+  }
+
+  .mobile-secondary details[open] summary svg,
+  .desktop-disclosure[open] summary svg {
+    transform: rotate(180deg);
+  }
+
+  .mobile-secondary details > div {
+    display: grid;
+    padding: 0 0 0.7rem 1rem;
+  }
+
+  .mobile-secondary a {
+    display: flex;
+    min-height: 2.75rem;
+    align-items: center;
+    color: var(--muted);
+    font-size: 0.88rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .mobile-note {
+    max-width: 30rem;
+    margin: 1.1rem 0 0;
+    color: var(--muted);
+    font-family: var(--font-display, Georgia, serif);
+    font-size: 0.76rem;
+    font-style: italic;
+    line-height: 1.5;
+  }
+
+  :is(.mobile-link--base, .mobile-secondary a, .disclosure-panel a)[aria-current='page'] {
+    text-decoration-color: var(--leaf);
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.3em;
+  }
+
+  .mobile-primary .mobile-link--primary[aria-current='page'] {
+    box-shadow: inset 4px 0 0 #a6c8b4;
+  }
+
+  .mobile-primary .mobile-link--secondary[aria-current='page'] {
+    box-shadow: inset 4px 0 0 var(--green);
+  }
+
+  :is(a, summary):focus-visible {
+    outline: 3px solid #d97706;
+    outline-offset: 3px;
+  }
+
+  @media (min-width: 64rem) {
+    .header-inner {
+      width: min(100% - 3rem, 80rem);
+      min-height: 5.2rem;
+    }
+
+    .brand-mark { width: 3.1rem; height: 3.1rem; }
+    .brand-copy strong { font-size: 1.26rem; }
+    .desktop-navigation { display: flex; align-items: center; gap: 1.2rem; }
+    .mobile-menu { display: none; }
+    .primary-links { display: flex; align-items: stretch; gap: 0.15rem; }
+
+    .nav-link {
+      position: relative;
+      display: flex;
+      min-height: 2.75rem;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0 0.9rem;
+      color: var(--muted);
+      text-decoration: none;
+    }
+
+    .nav-link > span {
+      color: var(--leaf);
+      font-size: 0.52rem;
+      font-weight: 800;
+      letter-spacing: 0.05em;
+    }
+
+    .nav-link strong {
+      font-size: 0.78rem;
+      font-weight: 750;
+      letter-spacing: 0.035em;
+    }
+
+    .nav-link--primary {
+      color: #fff;
+      background: var(--green);
+    }
+
+    .nav-link--primary > span { color: #b8d4c3; }
+
+    .nav-link--base[aria-current='page'] {
+      text-decoration-color: var(--leaf);
+      text-decoration-line: underline;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 0.35em;
+    }
+
+    .nav-link--primary[aria-current='page'] {
+      box-shadow: inset 0 -3px 0 #a6c8b4;
+    }
+
+    .nav-link--secondary {
+      color: var(--green-deep);
+      border-bottom: 2px solid var(--leaf);
+      background: var(--paper-deep);
+    }
+
+    .nav-link--secondary[aria-current='page'] {
+      border-bottom-color: var(--green);
+      border-bottom-width: 4px;
+    }
+
+    .nav-link:hover { color: var(--green-deep); background: #ebe8de; }
+    .nav-link--primary:hover { color: #fff; background: var(--green-deep); }
+
+    .nav-divider {
+      width: 1px;
+      height: 1.7rem;
+      background: var(--rule);
+    }
+
+    .secondary-links { display: flex; align-items: center; gap: 0.1rem; }
+    .desktop-disclosure { position: relative; }
+
+    .desktop-disclosure > summary {
+      display: flex;
+      min-height: 2.75rem;
+      cursor: pointer;
+      list-style: none;
+      align-items: center;
+      gap: 0.42rem;
+      padding: 0 0.65rem;
+      color: var(--muted);
+      font-size: 0.68rem;
+      font-weight: 750;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .desktop-disclosure > summary:hover,
+    .desktop-disclosure[open] > summary { color: var(--green-deep); background: var(--paper-deep); }
+
+    .disclosure-panel {
+      position: absolute;
+      top: calc(100% + 0.75rem);
+      right: 0;
+      width: 15.5rem;
+      padding: 1rem;
+      border: 1px solid var(--rule);
+      border-top: 3px solid var(--green);
+      background: var(--paper);
+      box-shadow: 0 18px 38px rgb(3 60 46 / 0.13);
+    }
+
+    .disclosure-panel::before {
+      position: absolute;
+      right: 1.15rem;
+      bottom: 100%;
+      width: 1px;
+      height: 0.75rem;
+      content: '';
+      background: var(--green);
+    }
+
+    .disclosure-panel a {
+      display: flex;
+      min-height: 2.75rem;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      padding: 0 0.55rem;
+      border-top: 1px solid var(--rule);
+      color: var(--ink);
+      font-size: 0.82rem;
+      font-weight: 650;
+      text-decoration: none;
+    }
+
+    .disclosure-panel a:hover { color: var(--green); background: var(--paper-deep); }
+    .disclosure-panel a span:last-child { color: var(--leaf); font-weight: 400; }
+
+    /* Fallback for engines that support :has() but not exclusive named details. */
+    .secondary-links:has(> .desktop-disclosure:nth-child(2)[open])
+      > .desktop-disclosure:first-child[open]
+      .disclosure-panel {
+      right: calc(100% + 6rem);
+    }
+
+    .secondary-links:has(> .desktop-disclosure:nth-child(2)[open])
+      > .desktop-disclosure:first-child[open]
+      .disclosure-panel::before {
+      display: none;
+    }
+  }
+
+  @media (max-width: 22rem) {
+    .header-inner { width: min(100% - 1rem, 80rem); }
+    .brand { gap: 0.45rem; }
+    .brand-mark { width: 2.55rem; height: 2.55rem; }
+    .brand-copy strong { font-size: 0.98rem; }
+    .brand-copy span { font-size: 0.5rem; letter-spacing: 0.12em; }
+    .mobile-menu > summary { min-width: 3.3rem; padding-inline: 0.55rem; }
+    .menu-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      scroll-behavior: auto !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+</style>
