@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "version": "1.1.0",
+  "lastUpdated": "2026-09-05",
+  "claims": [
+    {
+      "id": "circadian-insulin",
+      "statement": "Peripheral insulin sensitivity in skeletal muscle exhibits diurnal variation, reaching peak efficiency during early daylight hours.",
+      "status": "approved",
+      "evidenceGrade": "Level 1 (Systematic Review / RCT)",
+      "primarySource": "https://pubmed.ncbi.nlm.nih.gov/30472111/",
+      "doi": "10.1016/j.cmet.2018.04.010",
+      "reviewer": "Clinical Nutrition Review Board",
+      "reviewDate": "2026-09-05",
+      "notes": "Verified against Early Time-Restricted Feeding (eTRF) clinical trials."
+    },
+    {
+      "id": "chrono-metabolism-morning-carb",
+      "statement": "Consuming complex carbohydrates earlier in the diurnal cycle aligns with higher insulin sensitivity and enhanced postprandial glucose clearance.",
+      "status": "approved",
+      "evidenceGrade": "Level 1 (Human RCT)",
+      "primarySource": "https://pubmed.ncbi.nlm.nih.gov/24467926/",
+      "doi": "10.1002/oby.20460",
+      "reviewer": "Clinical Nutrition Review Board",
+      "reviewDate": "2026-09-05",
+      "notes": "Corroborated by metabolic chamber trials comparing morning vs evening isocaloric carbohydrate loads."
+    },
+    {
+      "id": "circadian-melatonin-glucose",
+      "statement": "Elevated circulating melatonin during late evening hours suppresses pancreatic beta-cell insulin secretion via MTNR1B receptor signaling.",
+      "status": "approved",
+      "evidenceGrade": "Level 1 (Mechanistic & Genetic RCT)",
+      "primarySource": "https://pubmed.ncbi.nlm.nih.gov/26976620/",
+      "doi": "10.1210/jc.2015-3760",
+      "reviewer": "Clinical Nutrition Review Board",
+      "reviewDate": "2026-09-05",
+      "notes": "Late nocturnal eating coinciding with endogenous melatonin onset induces acute glucose intolerance."
+    },
+    {
+      "id": "fiber-microbiome-scfa",
+      "statement": "Dietary fermentable soluble fibers undergo colonic bacterial fermentation into short-chain fatty acids that support epithelial mucosal barrier function.",
+      "status": "approved",
+      "evidenceGrade": "Level 1 (Meta-Analysis & Metagenomic Trials)",
+      "primarySource": "https://pubmed.ncbi.nlm.nih.gov/28388917/",
+      "doi": "10.1016/j.chom.2017.03.003",
+      "reviewer": "Gastroenterology Editorial Panel",
+      "reviewDate": "2026-09-05",
+      "notes": "Butyrate, propionate, and acetate act as histone deacetylase inhibitors and metabolic signaling ligands."
+    },
+    {
+      "id": "cure-diabetes",
+      "statement": "100% cure for diabetes",
+      "status": "rejected",
+      "evidenceGrade": "Unsubstantiated / Prohibited",
+      "reviewer": "Legal & Regulatory Compliance",
+      "reviewDate": "2026-09-05",
+      "reason": "Violates ASCI Code and FSSAI advertising regulations regarding absolute curative disease claims."
+    },
+    {
+      "id": "cure-cancer-superfood",
+      "statement": "Superfoods can completely cure or reverse malignant cancer.",
+      "status": "rejected",
+      "evidenceGrade": "Unsubstantiated / Prohibited",
+      "reviewer": "Legal & Regulatory Compliance",
+      "reviewDate": "2026-09-05",
+      "reason": "Deceptive health claim prohibited under statutory drug and medical advertising laws."
+    }
+  ]
+}
