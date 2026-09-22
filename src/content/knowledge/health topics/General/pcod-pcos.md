@@ -11,8 +11,6 @@ seoKeywords: ["PCOD / PCOS"]
 
 # PCOD / PCOS
 
-![PCOD / PCOS](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Insulin spikes ovaries to make testosterone.

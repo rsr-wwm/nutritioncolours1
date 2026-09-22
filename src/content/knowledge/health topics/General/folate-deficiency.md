@@ -11,8 +11,6 @@ seoKeywords: ["Folate Deficiency"]
 
 # Folate Deficiency
 
-![Folate Deficiency](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Lack of greens or alcoholism.

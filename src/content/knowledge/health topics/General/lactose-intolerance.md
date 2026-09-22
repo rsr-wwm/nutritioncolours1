@@ -11,8 +11,6 @@ seoKeywords: ["Lactose Intolerance"]
 
 # Lactose Intolerance
 
-![Lactose Intolerance](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Lack of lactase enzyme.

@@ -11,8 +11,6 @@ seoKeywords: ["Migraine Relief"]
 
 # Migraine Relief
 
-![Migraine Relief](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Chronic, pulsating headaches often accompanied by nausea and sensory sensitivity.

@@ -11,8 +11,6 @@ seoKeywords: ["Menopause Hormone Support"]
 
 # Menopause Hormone Support
 
-![Menopause Hormone Support](https://images.unsplash.com/photo-1518310383802-640c2de311b2?q=80&w=800)
-
 ## Problem
 
 Natural decline in estrogen and progesterone causing symptoms like hot flashes and night sweats.

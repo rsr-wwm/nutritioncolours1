@@ -11,8 +11,6 @@ seoKeywords: ["Anxiety"]
 
 # Anxiety
 
-![Anxiety](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Caffeine/alcohol/blood sugar drops.

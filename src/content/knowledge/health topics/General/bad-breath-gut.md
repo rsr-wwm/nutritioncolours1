@@ -11,8 +11,6 @@ seoKeywords: ["Bad Breath (Gut)"]
 
 # Bad Breath (Gut)
 
-![Bad Breath (Gut)](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 H. pylori from contaminated food.

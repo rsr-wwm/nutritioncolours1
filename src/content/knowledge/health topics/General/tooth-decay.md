@@ -11,8 +11,6 @@ seoKeywords: ["Tooth Decay"]
 
 # Tooth Decay
 
-![Tooth Decay](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Sugar feeds plaque bacteria.

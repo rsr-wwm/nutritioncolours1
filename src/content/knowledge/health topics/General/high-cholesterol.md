@@ -11,8 +11,6 @@ seoKeywords: ["High Cholesterol"]
 
 # High Cholesterol
 
-![High Cholesterol](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Trans fats + low fiber raise LDL.

@@ -11,8 +11,6 @@ seoKeywords: ["Baby Tooth Decay"]
 
 # Baby Tooth Decay
 
-![Baby Tooth Decay](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Bedtime milk bottles sit on teeth.

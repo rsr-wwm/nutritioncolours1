@@ -11,8 +11,6 @@ seoKeywords: ["Asthma"]
 
 # Asthma
 
-![Asthma](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Allergens, obesity, sulfites.

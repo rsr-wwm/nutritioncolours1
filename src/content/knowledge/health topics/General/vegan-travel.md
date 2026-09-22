@@ -11,8 +11,6 @@ seoKeywords: ["Vegan Travel"]
 
 # Dining & Travel
 
-![Dining & Travel](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Staying aligned with plant-based nutrition while traveling, dining at non-vegan restaurants, or ordering on the go.

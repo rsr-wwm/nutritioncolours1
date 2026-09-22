@@ -11,8 +11,6 @@ seoKeywords: ["Orthorexia"]
 
 # Orthorexia
 
-![Orthorexia](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Anxiety around impure foods.

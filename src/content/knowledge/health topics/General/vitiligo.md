@@ -11,8 +11,6 @@ seoKeywords: ["Vitiligo"]
 
 # Vitiligo
 
-![Vitiligo](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Autoimmune destruction of pigment.

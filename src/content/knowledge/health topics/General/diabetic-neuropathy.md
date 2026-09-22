@@ -11,8 +11,6 @@ seoKeywords: ["Diabetic Neuropathy"]
 
 # Diabetic Neuropathy
 
-![Diabetic Neuropathy](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 High sugar destroys leg nerve endings.

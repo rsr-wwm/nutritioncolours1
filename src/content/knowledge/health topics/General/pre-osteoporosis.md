@@ -11,8 +11,6 @@ seoKeywords: ["Pre-Osteoporosis"]
 
 # Pre-Osteoporosis
 
-![Pre-Osteoporosis](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Sedentary lifestyle, low calcium.

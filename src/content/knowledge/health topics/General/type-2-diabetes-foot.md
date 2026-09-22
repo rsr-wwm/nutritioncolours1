@@ -11,8 +11,6 @@ seoKeywords: ["Type 2 Diabetes Foot"]
 
 # Type 2 Diabetes Foot
 
-![Type 2 Diabetes Foot](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 High sugar destroys nerves.

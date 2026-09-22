@@ -11,8 +11,6 @@ seoKeywords: ["Fibromyalgia Pain Management"]
 
 # Fibromyalgia Management
 
-![Fibromyalgia Management](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Widespread musculoskeletal pain accompanied by fatigue, sleep, and memory issues.

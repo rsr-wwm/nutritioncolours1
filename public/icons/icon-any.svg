@@ -1,5 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="72" fill="#065f46"/>
-  <path d="M246 376c112-72 174-161 185-265-104 10-198 72-252 180 33-9 64-8 92 3-34 18-63 45-87 82 22 15 43 15 62 0Z" fill="#bef264"/>
-  <path d="M184 390c72-108 145-188 218-236" fill="none" stroke="#ecfccb" stroke-width="18" stroke-linecap="round" opacity=".8"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52" role="img" aria-labelledby="title">
+  <title id="title">NutritionColours bowl and leaf</title>
+  <rect width="52" height="52" rx="11" fill="#064e3b"/>
+  <circle cx="26" cy="26" r="21" fill="#f4f1e8"/>
+  <g transform="translate(26 26) scale(.8) translate(-26 -26)">
+    <path d="M14.2 30.2h23.6c-.5 8.1-4.6 12-11.8 12s-11.3-3.9-11.8-12Z" fill="#064e3b"/>
+    <path d="M16.4 32.7h19.2" fill="none" stroke="#f4f1e8" stroke-width="1.4"/>
+    <path d="m32.5 28.6 7.1-15.2c.7-1.4 2.4-1.9 3.7-1.1 1.1.7 1.5 2.1.9 3.3l-8.4 14.1" fill="none" stroke="#064e3b" stroke-linecap="round" stroke-width="3.4"/>
+    <path d="M25.8 28.5c.1-8.8-3.9-13.6-9.6-13.8.3 6.8 3.4 11.1 9.6 13.8Z" fill="#5f7d4b"/>
+    <path d="M26.1 28.2c.4-9.2 4.4-14.1 10.6-14.5-.5 7-3.9 11.6-10.6 14.5Z" fill="#1f5a43"/>
+    <path d="M25.9 29.5V17.4" fill="none" stroke="#f4f1e8" stroke-linecap="round" stroke-width="1.1"/>
+  </g>
 </svg>

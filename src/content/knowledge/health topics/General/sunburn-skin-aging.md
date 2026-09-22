@@ -11,8 +11,6 @@ seoKeywords: ["Sunburn / Skin Aging"]
 
 # Sunburn / Skin Aging
 
-![Sunburn / Skin Aging](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Excessive sun and bad diet.

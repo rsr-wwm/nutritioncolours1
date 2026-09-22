@@ -11,8 +11,6 @@ seoKeywords: ["Low Potassium"]
 
 # Low Potassium
 
-![Low Potassium](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Laxative/diuretic abuse or bulimia.

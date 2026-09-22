@@ -11,8 +11,6 @@ seoKeywords: ["Pre-Diabetes Care"]
 
 # Pre-Diabetes Care
 
-![Pre-Diabetes Care](https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=800)
-
 ## Problem
 
 Elevated blood sugar that hasn't reached type 2 diabetes levels yet.

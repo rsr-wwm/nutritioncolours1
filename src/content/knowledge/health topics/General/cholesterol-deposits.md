@@ -11,8 +11,6 @@ seoKeywords: ["Cholesterol Deposits"]
 
 # Cholesterol Deposits
 
-![Cholesterol Deposits](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 High blood fat deposits under skin.

@@ -11,8 +11,6 @@ seoKeywords: ["Vegan Nutrition"]
 
 # Health & Nutrition Protocols
 
-![Health & Nutrition Protocols](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Avoiding key nutritional depletions (like B12, Iron, Vitamin D, and Omega-3) and ensuring complete amino acid profiles on a plant-only diet.

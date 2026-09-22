@@ -11,8 +11,6 @@ seoKeywords: ["Dry Eye"]
 
 # Dry Eye
 
-![Dry Eye](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Screens + lack of Omega-3s.

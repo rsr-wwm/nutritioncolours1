@@ -1,0 +1,142 @@
+---
+interface Props {
+  studyType?: string;
+  effectEstimate?: number;
+  ciLower?: number;
+  ciUpper?: number;
+  referenceValue?: number;
+  outcomeLabel?: string;
+  sampleSize?: string | number;
+  citationPmid?: string;
+  class?: string;
+}
+
+const {
+  studyType = 'Clinical Study',
+  effectEstimate,
+  ciLower,
+  ciUpper,
+  referenceValue = 1.0,
+  outcomeLabel = 'Relative Risk (95% CI)',
+  sampleSize,
+  citationPmid,
+  class: className = '',
+} = Astro.props;
+
+// Coordinate mapping for SVG forest plot sparkline (domain 0.2 to 1.8 mapped to 20 to 220px)
+const minDomain = 0.2;
+const maxDomain = 1.8;
+const scale = (val: number) => {
+  const clamped = Math.max(minDomain, Math.min(maxDomain, val));
+  return 20 + ((clamped - minDomain) / (maxDomain - minDomain)) * 200;
+};
+
+const hasPlot = effectEstimate !== undefined && ciLower !== undefined && ciUpper !== undefined;
+const refX = scale(referenceValue);
+const estX = hasPlot ? scale(effectEstimate) : 0;
+const lowX = hasPlot ? scale(ciLower) : 0;
+const highX = hasPlot ? scale(ciUpper) : 0;
+
+const accessibleDescription = hasPlot
+  ? `Clinical effect estimate ${effectEstimate} with 95% confidence interval ${ciLower} to ${ciUpper} against reference value ${referenceValue}`
+  : `${studyType} clinical evidence`;
+---
+
+<div class:list={['rounded-xl border border-stone-200/80 dark:border-stone-800 bg-stone-50/60 dark:bg-stone-900/60 p-3 text-xs', className]}>
+  <div class="flex items-center justify-between gap-2 flex-wrap mb-2">
+    <div class="flex items-center gap-2">
+      <span class="inline-flex items-center px-2 py-0.5 rounded-md font-bold uppercase tracking-wider text-[10px] bg-emerald-100/90 dark:bg-emerald-950/80 text-emerald-900 dark:text-emerald-300 border border-emerald-200/60 dark:border-emerald-800/60">
+        {studyType}
+      </span>
+      {sampleSize && (
+        <span class="text-stone-500 dark:text-stone-400 font-mono text-[11px]">
+          n = {sampleSize}
+        </span>
+      )}
+    </div>
+    {citationPmid && (
+      <a
+        href={`https://pubmed.ncbi.nlm.nih.gov/${citationPmid}/`}
+        rel="external noopener noreferrer"
+        target="_blank"
+        class="font-semibold text-emerald-700 dark:text-emerald-400 hover:underline text-[11px] inline-flex items-center gap-1"
+      >
+        <span>PMID {citationPmid}</span>
+        <span aria-hidden="true">&rarr;</span>
+      </a>
+    )}
+  </div>
+
+  {hasPlot && (
+    <div class="space-y-1">
+      <div class="flex justify-between items-baseline text-[11px] text-stone-600 dark:text-stone-400 font-mono">
+        <span>{outcomeLabel}</span>
+        <span class="font-bold text-stone-900 dark:text-stone-200">
+          {effectEstimate.toFixed(2)} [{ciLower.toFixed(2)}–{ciUpper.toFixed(2)}]
+        </span>
+      </div>
+
+      <!-- Accessible SVG Forest Plot Sparkline -->
+      <svg
+        viewBox="0 0 240 32"
+        class="w-full h-8 overflow-visible"
+        role="img"
+        aria-label={accessibleDescription}
+      >
+        <title>{accessibleDescription}</title>
+        <desc>{accessibleDescription}</desc>
+
+        <!-- Neutral Baseline (No-Effect Axis) -->
+        <line
+          x1={refX}
+          y1="2"
+          x2={refX}
+          y2="28"
+          stroke="currentColor"
+          class="text-stone-300 dark:text-stone-700"
+          stroke-width="1.5"
+          stroke-dasharray="2 2"
+        />
+
+        <!-- Confidence Interval Bar -->
+        <line
+          x1={lowX}
+          y1="15"
+          x2={highX}
+          y2="15"
+          stroke="currentColor"
+          class="text-emerald-700 dark:text-emerald-400"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+
+        <!-- Lower & Upper Whiskers -->
+        <line
+          x1={lowX}
+          y1="10"
+          x2={lowX}
+          y2="20"
+          stroke="currentColor"
+          class="text-emerald-700 dark:text-emerald-400"
+          stroke-width="1.5"
+        />
+        <line
+          x1={highX}
+          y1="10"
+          x2={highX}
+          y2="20"
+          stroke="currentColor"
+          class="text-emerald-700 dark:text-emerald-400"
+          stroke-width="1.5"
+        />
+
+        <!-- Point Estimate Diamond -->
+        <polygon
+          points={`${estX},10 ${estX + 5},15 ${estX},20 ${estX - 5},15`}
+          fill="currentColor"
+          class="text-emerald-900 dark:text-emerald-200"
+        />
+      </svg>
+    </div>
+  )}
+</div>

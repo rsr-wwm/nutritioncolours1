@@ -11,8 +11,6 @@ seoKeywords: ["Tarsal Tunnel"]
 
 # Tarsal Tunnel
 
-![Tarsal Tunnel](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Tight shoes, flat feet, obesity.

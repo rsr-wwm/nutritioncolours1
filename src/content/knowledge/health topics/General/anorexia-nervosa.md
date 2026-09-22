@@ -11,8 +11,6 @@ seoKeywords: ["Anorexia Nervosa"]
 
 # Anorexia Nervosa
 
-![Anorexia Nervosa](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Severe restriction alters brain.

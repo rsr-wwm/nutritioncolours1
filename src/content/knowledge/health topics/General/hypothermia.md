@@ -11,8 +11,6 @@ seoKeywords: ["Hypothermia"]
 
 # Hypothermia
 
-![Hypothermia](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Extreme cold exposure.

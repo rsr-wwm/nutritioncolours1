@@ -11,8 +11,6 @@ seoKeywords: ["Stomach Cancer"]
 
 # Stomach Cancer
 
-![Stomach Cancer](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 High salt/smoked meats feed H. pylori.

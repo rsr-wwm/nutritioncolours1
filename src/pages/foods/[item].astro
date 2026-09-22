@@ -1,0 +1,16 @@
+---
+import approvedData from '../../../data/publishing/approved-leaves.json';
+import ApprovedLeafPage from '../../components/leaf/ApprovedLeafPage.astro';
+import type { ApprovedLeafRegistry } from '../../lib/publishing/approvedLeafTypes';
+
+
+export function getStaticPaths() {
+  return (approvedData as ApprovedLeafRegistry).records
+    .filter((leaf) => leaf.pageKind === 'food')
+    .map((leaf) => ({ params: { item: leaf.canonicalPath.split('/').filter(Boolean).at(-1) }, props: { leaf } }));
+}
+
+const { leaf } = Astro.props;
+---
+
+<ApprovedLeafPage leaf={leaf} />

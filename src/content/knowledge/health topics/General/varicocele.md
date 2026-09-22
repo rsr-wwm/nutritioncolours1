@@ -11,8 +11,6 @@ seoKeywords: ["Varicocele"]
 
 # Varicocele
 
-![Varicocele](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Constipation/straining pools blood.

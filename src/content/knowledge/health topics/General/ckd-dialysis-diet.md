@@ -11,8 +11,6 @@ seoKeywords: ["CKD / Dialysis Diet"]
 
 # CKD / Dialysis Diet
 
-![CKD / Dialysis Diet](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Uncontrolled BP/Diabetes.

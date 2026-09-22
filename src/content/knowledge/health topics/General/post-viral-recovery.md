@@ -11,8 +11,6 @@ seoKeywords: ["Post Viral Recovery"]
 
 # Post-Viral Recovery
 
-![Post-Viral Recovery](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Lingering fatigue, brain fog, and muscle aches weeks or months after a viral infection.

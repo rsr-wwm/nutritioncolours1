@@ -11,8 +11,6 @@ seoKeywords: ["Skin Glow & Detox"]
 
 # Skin Glow & Detox
 
-![Skin Glow & Detox](https://images.unsplash.com/photo-1596462502278-27bfdd403348?q=80&w=800)
-
 ## Problem
 
 Dull skin, congestion, and toxin buildup reflected on the face.

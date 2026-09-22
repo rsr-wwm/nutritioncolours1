@@ -11,8 +11,6 @@ seoKeywords: ["Binge Eating"]
 
 # Binge Eating
 
-![Binge Eating](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Chronic dieting/starvation.

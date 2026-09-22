@@ -11,8 +11,6 @@ seoKeywords: ["Vegan Product Reviews"]
 
 # Product Reviews & Testing
 
-![Product Reviews & Testing](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Sifting through hundreds of plant-based protein powders and meal kits to find clean, chemical-free options.

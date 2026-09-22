@@ -1,157 +1,79 @@
 ---
-import Icons from '../components/Icons.astro';
+const year = new Date().getFullYear();
 ---
-
-<footer class="bg-stone-950 text-stone-400 py-6 mt-6 border-t border-emerald-950/85 relative overflow-hidden shadow-[0_-25px_60px_rgba(4,120,87,0.04)]">
-  <div class="absolute top-0 right-0 w-96 h-96 bg-emerald-900/10 rounded-full blur-[120px] pointer-events-none" aria-hidden="true"></div>
-  <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 relative z-10">
-    <div class="space-y-4">
-      <div class="flex items-center gap-3">
-        <Icons name="leaf" size={24} class="text-lime-400" />
-        <span class="font-black text-base tracking-tight text-white brand-font uppercase">
-          Nutrition<span class="text-lime-400 font-medium">Colours</span>
+<footer class="bg-emerald-950 text-stone-300 dark:bg-stone-950 dark:text-stone-400 mt-auto border-t border-emerald-900/60 dark:border-stone-800 transition-colors">
+  <div class="max-w-7xl mx-auto px-6 py-14 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+    <div class="space-y-4 sm:col-span-2 lg:col-span-1">
+      <a href="/" class="flex items-center gap-3 text-white tracking-tight group" aria-label="NutritionColours home">
+        <span class="inline-block h-9 w-9 shrink-0 text-emerald-400" aria-hidden="true">
+          <svg viewBox="0 0 52 52" role="img" class="w-full h-full">
+            <circle cx="26" cy="26" r="24.25" fill="#064e3b" stroke="currentColor" stroke-width="1.5" />
+            <path d="M14.2 30.2h23.6c-.5 8.1-4.6 12-11.8 12s-11.3-3.9-11.8-12Z" fill="currentColor" />
+            <path d="M16.4 32.7h19.2" fill="none" stroke="#f4f1e8" stroke-width="1.4" />
+            <path d="m32.5 28.6 7.1-15.2c.7-1.4 2.4-1.9 3.7-1.1 1.1.7 1.5 2.1.9 3.3l-8.4 14.1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="3.4" />
+            <path d="M25.8 28.5c.1-8.8-3.9-13.6-9.6-13.8.3 6.8 3.4 11.1 9.6 13.8Z" fill="#10b981" />
+            <path d="M26.1 28.2c.4-9.2 4.4-14.1 10.6-14.5-.5 7-3.9 11.6-10.6 14.5Z" fill="#059669" />
+            <path d="M25.9 29.5V17.4" fill="none" stroke="#f4f1e8" stroke-linecap="round" stroke-width="1.1" />
+          </svg>
         </span>
-      </div>
-      <p class="text-[11px] leading-relaxed text-stone-400 max-w-xs font-semibold">
-        Clinical Nutrition Practice led by Dr. Shilpa Thakur. We optimize metabolic health using evidence-based circadian protocols.
+        <span class="brand-font text-2xl font-black text-white group-hover:text-emerald-200 transition-colors">NutritionColours</span>
+      </a>
+      <p class="text-xs leading-relaxed text-stone-300 dark:text-stone-400 max-w-sm">
+        Independent evidence-based food and nutrition education. We synthesize peer-reviewed clinical literature for general informational understanding.
       </p>
-      <div class="flex gap-3">
-        <a href="#" class="hover:text-white transition-all bg-white/5 p-2 rounded-lg hover:bg-emerald-900/50" aria-label="Instagram">
-          <Icons name="instagram" size={16} />
-        </a>
-        <a href="#" class="hover:text-white transition-all bg-white/5 p-2 rounded-lg hover:bg-emerald-900/50" aria-label="Facebook">
-          <Icons name="facebook" size={16} />
-        </a>
-        <a href="#" class="hover:text-white transition-all bg-white/5 p-2 rounded-lg hover:bg-emerald-900/50" aria-label="LinkedIn">
-          <Icons name="linkedin" size={16} />
-        </a>
+      <div class="inline-flex items-center gap-2 rounded-full border border-emerald-800/80 dark:border-stone-800 bg-emerald-900/40 dark:bg-stone-900/60 px-3.5 py-1.5 text-[11px] font-semibold text-emerald-300">
+        <span class="inline-block h-2 w-2 rounded-full bg-emerald-400"></span>
+        <span>Evidence-Gated Publishing</span>
       </div>
     </div>
 
-    <div>
-      <h3 class="text-white font-black uppercase tracking-[0.25em] text-[10px] mb-4 text-emerald-500 border-l-2 border-lime-400 pl-3">Practice</h3>
-      <ul class="space-y-2 text-[11px] font-black uppercase tracking-wider">
-        <li>
-          <a href="/plans" class="hover:text-white transition-colors flex items-center gap-2 group">
-            <span class="w-1.5 h-1.5 rounded-full bg-lime-400 scale-0 group-hover:scale-100 transition-transform"></span>
-            Programs
-          </a>
-        </li>
-        <li>
-          <a href="/about" class="hover:text-white transition-colors flex items-center gap-2 group">
-            <span class="w-1.5 h-1.5 rounded-full bg-lime-400 scale-0 group-hover:scale-100 transition-transform"></span>
-            Philosophy
-          </a>
-        </li>
-        <li>
-          <a href="/team" class="hover:text-white transition-colors flex items-center gap-2 group">
-            <span class="w-1.5 h-1.5 rounded-full bg-lime-400 scale-0 group-hover:scale-100 transition-transform"></span>
-            Clinical Team
-          </a>
-        </li>
-        <li>
-          <a href="/testimonials" class="hover:text-white transition-colors flex items-center gap-2 group">
-            <span class="w-1.5 h-1.5 rounded-full bg-lime-400 scale-0 group-hover:scale-100 transition-transform"></span>
-            Success Stories
-          </a>
-        </li>
+    <nav aria-label="Footer libraries" class="space-y-3">
+      <h2 class="text-xs font-black uppercase tracking-widest text-emerald-400 dark:text-emerald-300">Educational Hubs</h2>
+      <ul class="space-y-1">
+        <li><a class="block py-1.5 sm:py-2 text-xs text-stone-300 dark:text-stone-400 hover:text-white dark:hover:text-emerald-200 transition-colors" href="/health">Health library</a></li>
+        <li><a class="block py-1.5 sm:py-2 text-xs text-stone-300 dark:text-stone-400 hover:text-white dark:hover:text-emerald-200 transition-colors" href="/foods">Food guides</a></li>
+        <li><a class="block py-1.5 sm:py-2 text-xs text-stone-300 dark:text-stone-400 hover:text-white dark:hover:text-emerald-200 transition-colors" href="/recipes">Recipe ideas</a></li>
+        <li><a class="block py-1.5 sm:py-2 text-xs text-stone-300 dark:text-stone-400 hover:text-white dark:hover:text-emerald-200 transition-colors" href="/knowledge">Knowledge directory</a></li>
+        <li><a class="block py-1.5 sm:py-2 text-xs text-stone-300 dark:text-stone-400 hover:text-white dark:hover:text-emerald-200 transition-colors" href="/knowledge/circadian-nutrition">Circadian nutrition guide</a></li>
       </ul>
-    </div>
+    </nav>
 
-    <div>
-      <h3 class="text-white font-black uppercase tracking-[0.25em] text-[10px] mb-4 text-emerald-500 border-l-2 border-lime-400 pl-3">Resources</h3>
-      <ul class="space-y-2 text-[11px] font-black uppercase tracking-wider">
-        <li>
-          <a href="/knowledge/blogs" class="hover:text-white transition-colors flex items-center gap-2 group">
-            <span class="w-1.5 h-1.5 rounded-full bg-lime-400 scale-0 group-hover:scale-100 transition-transform"></span>
-            Health Journal
-          </a>
-        </li>
-        <li>
-          <a href="/recipes" class="hover:text-white transition-colors flex items-center gap-2 group">
-            <span class="w-1.5 h-1.5 rounded-full bg-lime-400 scale-0 group-hover:scale-100 transition-transform"></span>
-            Healing Recipes
-          </a>
-        </li>
-        <li>
-          <a href="/sitemap" class="hover:text-white transition-colors flex items-center gap-2 group">
-            <span class="w-1.5 h-1.5 rounded-full bg-lime-400 scale-0 group-hover:scale-100 transition-transform"></span>
-            Site Index
-          </a>
-        </li>
+    <nav aria-label="Footer organization" class="space-y-3">
+      <h2 class="text-xs font-black uppercase tracking-widest text-emerald-400 dark:text-emerald-300">About &amp; Contact</h2>
+      <ul class="space-y-1">
+        <li><a class="block py-1.5 sm:py-2 text-xs text-stone-300 dark:text-stone-400 hover:text-white dark:hover:text-emerald-200 transition-colors" href="/about">About NutritionColours</a></li>
+        <li><a class="block py-1.5 sm:py-2 text-xs text-stone-300 dark:text-stone-400 hover:text-white dark:hover:text-emerald-200 transition-colors" href="/team">Contributor verification</a></li>
+        <li><a class="block py-1.5 sm:py-2 text-xs text-stone-300 dark:text-stone-400 hover:text-white dark:hover:text-emerald-200 transition-colors" href="/services/online-nutrition">Online service status</a></li>
+        <li><a class="block py-1.5 sm:py-2 text-xs text-stone-300 dark:text-stone-400 hover:text-white dark:hover:text-emerald-200 transition-colors" href="/clinics">No physical clinics notice</a></li>
+        <li><a class="block py-1.5 sm:py-2 text-xs text-stone-300 dark:text-stone-400 hover:text-white dark:hover:text-emerald-200 transition-colors" href="/contact">Contact editor</a></li>
       </ul>
-    </div>
+    </nav>
 
-    <div>
-      <h3 class="text-white font-black uppercase tracking-[0.25em] text-[10px] mb-3 text-emerald-500 border-l-2 border-lime-400 pl-3">Contact</h3>
-      <div class="space-y-2 text-[11px] font-bold uppercase tracking-wider">
-        <p class="flex items-center gap-2">
-          <Icons name="phone" size={12} class="text-lime-400" />
-          <span class="text-stone-300 font-semibold">+91-76961-60133</span>
-        </p>
-        <p class="flex items-center gap-2">
-          <Icons name="mail" size={12} class="text-lime-400" />
-          <span class="text-stone-300 font-semibold lowercase">drthakurshilpa@gmail.com</span>
-        </p>
-        <p class="flex items-center gap-2">
-          <Icons name="map-pin" size={12} class="text-lime-400" />
-          <span class="text-stone-300 font-semibold">India</span>
-        </p>
-      </div>
-      <div class="mt-4 pt-3 border-t border-stone-800/80">
-        <div class="flex items-center gap-2 mb-1">
-          <Icons name="check" size={12} class="text-lime-400" />
-          <span class="text-[10px] font-black uppercase tracking-widest text-white">Evidence-Based</span>
-        </div>
-        <p class="text-[10px] text-stone-400 leading-relaxed max-w-xs">All content is reviewed by clinical medical researchers for accuracy.</p>
-      </div>
-    </div>
+    <nav aria-label="Footer legal and policies" class="space-y-3">
+      <h2 class="text-xs font-black uppercase tracking-widest text-emerald-400 dark:text-emerald-300">Standards &amp; Legal</h2>
+      <ul class="space-y-1">
+        <li><a class="block py-1.5 sm:py-2 text-xs text-stone-300 dark:text-stone-400 hover:text-white dark:hover:text-emerald-200 transition-colors" href="/legal/editorial-policy">Editorial policy</a></li>
+        <li><a class="block py-1.5 sm:py-2 text-xs text-stone-300 dark:text-stone-400 hover:text-white dark:hover:text-emerald-200 transition-colors" href="/legal/methodology">Sourcing methodology</a></li>
+        <li><a class="block py-1.5 sm:py-2 text-xs text-stone-300 dark:text-stone-400 hover:text-white dark:hover:text-emerald-200 transition-colors" href="/legal/privacy">Privacy policy</a></li>
+        <li><a class="block py-1.5 sm:py-2 text-xs text-stone-300 dark:text-stone-400 hover:text-white dark:hover:text-emerald-200 transition-colors" href="/legal/terms">Terms of use</a></li>
+        <li><a class="block py-1.5 sm:py-2 text-xs text-stone-300 dark:text-stone-400 hover:text-white dark:hover:text-emerald-200 transition-colors" href="/sitemap">Site index</a></li>
+      </ul>
+    </nav>
   </div>
 
-  {/* Footer Sitemap */}
-  <div class="max-w-7xl mx-auto px-6 mt-6 pt-4 border-t border-stone-900 grid grid-cols-2 lg:grid-cols-4 gap-4 relative z-10">
-    <div class="space-y-2">
-      <h4 class="text-[10px] font-black text-stone-200 uppercase tracking-[0.2em] border-b border-stone-850 pb-1">Metabolic Care</h4>
-      <ul class="space-y-1 text-[10px] font-bold uppercase tracking-widest text-stone-400">
-        <li><a href="/topic/diabetes-reversal" class="hover:text-lime-400 transition-colors">Diabetes Protocol</a></li>
-        <li><a href="/topic/fatty-liver-reversal" class="hover:text-lime-400 transition-colors">Fatty Liver Protocol</a></li>
-        <li><a href="/topic/high-blood-sugar" class="hover:text-lime-400 transition-colors">Glucose Stability</a></li>
-      </ul>
-    </div>
-    <div class="space-y-2">
-      <h4 class="text-[10px] font-black text-stone-200 uppercase tracking-[0.2em] border-b border-stone-850 pb-1">Women's Health</h4>
-      <ul class="space-y-1 text-[10px] font-bold uppercase tracking-widest text-stone-400">
-        <li><a href="/topic/pcos-balance" class="hover:text-lime-400 transition-colors">PCOS Balance</a></li>
-        <li><a href="/topic/fertility-hormone-support" class="hover:text-lime-400 transition-colors">Fertility Guidance</a></li>
-        <li><a href="/topic/menopause-weight-mgmt" class="hover:text-lime-400 transition-colors">Menopause Support</a></li>
-      </ul>
-    </div>
-    <div class="space-y-2">
-      <h4 class="text-[10px] font-black text-stone-200 uppercase tracking-[0.2em] border-b border-stone-850 pb-1">Clinical Ethics</h4>
-      <ul class="space-y-1 text-[10px] font-bold uppercase tracking-widest text-stone-400">
-        <li><a href="/legal/editorial-policy" class="hover:text-lime-400 transition-colors">Editorial Policy</a></li>
-        <li><a href="/legal/methodology" class="hover:text-lime-400 transition-colors">How We Source Claims</a></li>
-        <li><a href="/legal/privacy" class="hover:text-lime-400 transition-colors">Privacy Policy</a></li>
-        <li><a href="/legal/terms" class="hover:text-lime-400 transition-colors">Terms of Use</a></li>
-      </ul>
-    </div>
-    <div class="space-y-2">
-      <h4 class="text-[10px] font-black text-stone-200 uppercase tracking-[0.2em] border-b border-stone-850 pb-1">Quick Nav</h4>
-      <ul class="space-y-1 text-[10px] font-bold uppercase tracking-widest text-stone-400">
-        <li><a href="/sitemap" class="hover:text-lime-400 transition-colors">Visual Sitemap</a></li>
-        <li><a href="/recipes" class="hover:text-lime-400 transition-colors">Healing Recipes</a></li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="max-w-7xl mx-auto px-6 mt-6 pt-3 border-t border-stone-900/60 relative z-10 flex flex-col md:flex-row justify-between items-center gap-3">
-    <div class="text-[10px] font-bold uppercase tracking-widest text-stone-400">
-      &copy; {new Date().getFullYear()} NutritionColours. All rights reserved.
-    </div>
-    <div class="flex gap-4 text-[10px] font-bold uppercase tracking-widest text-stone-400">
-      <a href="/legal/privacy" class="hover:text-stone-300 transition-colors">Privacy</a>
-      <a href="/legal/terms" class="hover:text-stone-300 transition-colors">Terms</a>
-      <a href="/sitemap" class="hover:text-stone-300 transition-colors">Mapping</a>
+  <div class="border-t border-emerald-900/60 dark:border-stone-800">
+    <div class="max-w-7xl mx-auto px-6 py-5 text-xs flex flex-col sm:flex-row items-center justify-between gap-3 text-stone-300/80">
+      <div class="flex flex-wrap items-center gap-x-4 gap-y-1 text-center sm:text-left">
+        <span>&copy; {year} NutritionColours. All rights reserved.</span>
+        <span>•</span>
+        <span>Online-only education</span>
+        <span>•</span>
+        <a href="mailto:info@nutritioncolours.com" class="hover:text-emerald-300 transition-colors">info@nutritioncolours.com</a>
+      </div>
+      <a href="#main-content" class="inline-flex items-center gap-1.5 hover:text-white text-stone-300 transition-colors font-medium">
+        <span>Back to top</span>
+        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+      </a>
     </div>
   </div>
 </footer>

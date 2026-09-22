@@ -11,8 +11,6 @@ seoKeywords: ["Detox & Rejuvenation"]
 
 # Detox & Rejuvenation
 
-![Detox & Rejuvenation](https://images.unsplash.com/photo-1603052875302-d376b7c0638a?q=80&w=800)
-
 ## Problem
 
 Lethargy, bloating, and overall "heaviness" due to toxic load.

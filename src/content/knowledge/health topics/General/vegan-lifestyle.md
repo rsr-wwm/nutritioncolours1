@@ -11,8 +11,6 @@ seoKeywords: ["Vegan Lifestyle"]
 
 # Lifestyle & Fashion
 
-![Lifestyle & Fashion](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Avoiding toxic synthetics and animal derivatives hidden in clothing, beauty labels, and household cleaning products.

@@ -11,8 +11,6 @@ seoKeywords: ["Sleep Circadian Reset"]
 
 # Sleep & Circadian Reset
 
-![Sleep & Circadian Reset](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Insomnia, fragmented sleep, and morning fatigue caused by circadian misalignment.

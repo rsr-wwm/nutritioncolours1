@@ -11,8 +11,6 @@ seoKeywords: ["Pre-Diabetes"]
 
 # Pre-Diabetes
 
-![Pre-Diabetes](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 High-carb/sugar diet.

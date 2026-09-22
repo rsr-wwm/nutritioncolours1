@@ -99,14 +99,33 @@ const isCurrent = (href: string) => {
             </details>
           ))}
         </div>
+
+        <button type="button" class="theme-toggle" data-theme-toggle aria-pressed="false" aria-label="Toggle theme" title="Toggle theme">
+          <svg class="theme-icon theme-icon--sun" viewBox="0 0 20 20" fill="currentColor" width="16" height="16" aria-hidden="true">
+            <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4.22 2.78a1 1 0 011.415 0l.707.707a1 1 0 01-1.414 1.414l-.707-.707a1 1 0 010-1.414zm4.07 5.22a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zm-2.07 5.22a1 1 0 010 1.414l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 0zM10 16a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zm-5.22-2.07a1 1 0 01-1.414 0l-.707-.707a1 1 0 011.414-1.414l.707.707a1 1 0 010 1.414zM2 10a1 1 0 011-1h1a1 1 0 110 2H3a1 1 0 01-1-1zm2.78-5.22a1 1 0 010-1.414l.707-.707a1 1 0 011.414 1.414l-.707.707a1 1 0 01-1.414 0zM10 6a4 4 0 100 8 4 4 0 000-8z" clip-rule="evenodd" />
+          </svg>
+          <svg class="theme-icon theme-icon--moon" viewBox="0 0 20 20" fill="currentColor" width="16" height="16" aria-hidden="true">
+            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
+          </svg>
+        </button>
       </div>
 
-      <details class="mobile-menu">
-        <summary>
-          <span class="menu-label menu-label--open">Menu</span>
-          <span class="menu-label menu-label--close">Close</span>
-          <span class="menu-icon" aria-hidden="true"><i></i><i></i></span>
-        </summary>
+      <div class="mobile-actions">
+        <button type="button" class="theme-toggle theme-toggle--mobile" data-theme-toggle aria-pressed="false" aria-label="Toggle theme" title="Toggle theme">
+          <svg class="theme-icon theme-icon--sun" viewBox="0 0 20 20" fill="currentColor" width="16" height="16" aria-hidden="true">
+            <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4.22 2.78a1 1 0 011.415 0l.707.707a1 1 0 01-1.414 1.414l-.707-.707a1 1 0 010-1.414zm4.07 5.22a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zm-2.07 5.22a1 1 0 010 1.414l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 0zM10 16a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zm-5.22-2.07a1 1 0 01-1.414 0l-.707-.707a1 1 0 011.414-1.414l.707.707a1 1 0 010 1.414zM2 10a1 1 0 011-1h1a1 1 0 110 2H3a1 1 0 01-1-1zm2.78-5.22a1 1 0 010-1.414l.707-.707a1 1 0 011.414 1.414l-.707.707a1 1 0 01-1.414 0zM10 6a4 4 0 100 8 4 4 0 000-8z" clip-rule="evenodd" />
+          </svg>
+          <svg class="theme-icon theme-icon--moon" viewBox="0 0 20 20" fill="currentColor" width="16" height="16" aria-hidden="true">
+            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
+          </svg>
+        </button>
+
+        <details class="mobile-menu">
+          <summary>
+            <span class="menu-label menu-label--open">Menu</span>
+            <span class="menu-label menu-label--close">Close</span>
+            <span class="menu-icon" aria-hidden="true"><i></i><i></i></span>
+          </summary>
 
         <div class="mobile-panel">
           <p class="mobile-kicker">Field guide navigation</p>
@@ -151,13 +170,14 @@ const isCurrent = (href: string) => {
           <p class="mobile-note">Evidence-aware nutrition guidance for careful everyday decisions.</p>
         </div>
       </details>
+      </div>
     </nav>
   </div>
 </header>
 
 <style>
   .site-header {
-    --paper: #faf8f2;
+    --paper: #f5f5f4;
     --paper-deep: #f1eee4;
     --ink: #10291f;
     --muted: #52665e;
@@ -165,13 +185,137 @@ const isCurrent = (href: string) => {
     --green: #064e3b;
     --green-deep: #033c2e;
     --leaf: #668453;
+    /* Fixed (theme-independent) fill for the primary nav pill: white text sits on
+       this, so it must stay dark enough for AA contrast in both themes rather than
+       following --green's dark-mode brightening (which is fine for text/borders,
+       but drops white-on-fill contrast to ~2.3:1). */
+    --pill-fill: #064e3b;
+    --pill-fill-hover: #033c2e;
     position: sticky;
     z-index: 50;
     top: 0;
     color: var(--ink);
-    background: var(--paper);
+    background: rgba(245, 245, 244, 0.94);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--rule);
     box-shadow: 0 10px 30px rgb(16 41 31 / 0.045);
+    transition: background-color 0.25s ease, border-color 0.25s ease;
+  }
+
+  :global(.dark) .site-header {
+    --paper: #0c0a09;
+    --paper-deep: #1c1917;
+    --ink: #f5f5f4;
+    --muted: #a8a29e;
+    --rule: #292524;
+    --green: #10b981;
+    --green-deep: #059669;
+    --leaf: #34d399;
+    background: rgba(12, 10, 9, 0.94);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom-color: #292524;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 0.4);
+  }
+
+  :global(.dark) .field-rule {
+    background: #064e3b;
+    color: #34d399;
+  }
+
+  :global(.dark) .nav-link:hover {
+    color: #34d399;
+    background: #1c1917;
+  }
+
+  :global(.dark) .nav-link--secondary {
+    background: #1c1917;
+    border-bottom-color: #059669;
+  }
+
+  :global(.dark) .disclosure-panel {
+    background: #1c1917;
+    border-color: #292524;
+    border-top-color: #10b981;
+    box-shadow: 0 18px 38px rgb(0 0 0 / 0.6);
+  }
+
+  :global(.dark) .disclosure-panel a {
+    color: #f5f5f4;
+    border-top-color: #292524;
+  }
+
+  :global(.dark) .disclosure-panel a:hover {
+    color: #34d399;
+    background: #292524;
+  }
+
+  :global(.dark) .mobile-panel {
+    background: #0c0a09;
+    border-color: #292524;
+  }
+
+  :global(.dark) .mobile-primary a {
+    color: #f5f5f4;
+    border-bottom-color: #292524;
+  }
+
+  :global(.dark) .mobile-primary .mobile-link--secondary {
+    background: #1c1917;
+  }
+
+  :global(.dark) .mobile-menu > summary {
+    border-color: #44403c;
+    color: #34d399;
+  }
+
+  .mobile-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  @media (min-width: 64rem) {
+    .mobile-actions {
+      display: none;
+    }
+  }
+
+  .theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: 9999px;
+    border: 1px solid var(--rule);
+    background: var(--paper-deep);
+    color: var(--muted);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .theme-toggle:hover {
+    color: var(--green);
+    border-color: var(--green);
+    transform: scale(1.06);
+  }
+
+  .theme-icon--sun {
+    display: none;
+  }
+
+  .theme-icon--moon {
+    display: block;
+  }
+
+  :global(.dark) .theme-icon--sun {
+    display: block;
+  }
+
+  :global(.dark) .theme-icon--moon {
+    display: none;
   }
 
   .field-rule {
@@ -209,6 +353,7 @@ const isCurrent = (href: string) => {
   .brand {
     display: inline-flex;
     min-height: 2.75rem;
+    min-width: 0;
     flex: 0 1 auto;
     align-items: center;
     gap: 0.7rem;
@@ -395,8 +540,8 @@ const isCurrent = (href: string) => {
 
   .mobile-primary .mobile-link--primary {
     color: #fff;
-    background: var(--green);
-    border-bottom-color: var(--green);
+    background: var(--pill-fill);
+    border-bottom-color: var(--pill-fill);
   }
 
   .mobile-primary .mobile-link--primary > span { color: #b8d4c3; }
@@ -481,8 +626,8 @@ const isCurrent = (href: string) => {
     box-shadow: inset 4px 0 0 var(--green);
   }
 
-  :is(a, summary):focus-visible {
-    outline: 3px solid #d97706;
+  :is(a, button, summary):focus-visible {
+    outline: var(--focus-outline);
     outline-offset: 3px;
   }
 
@@ -524,7 +669,7 @@ const isCurrent = (href: string) => {
 
     .nav-link--primary {
       color: #fff;
-      background: var(--green);
+      background: var(--pill-fill);
     }
 
     .nav-link--primary > span { color: #b8d4c3; }
@@ -552,7 +697,7 @@ const isCurrent = (href: string) => {
     }
 
     .nav-link:hover { color: var(--green-deep); background: #ebe8de; }
-    .nav-link--primary:hover { color: #fff; background: var(--green-deep); }
+    .nav-link--primary:hover { color: #fff; background: var(--pill-fill-hover); }
 
     .nav-divider {
       width: 1px;
@@ -636,11 +781,13 @@ const isCurrent = (href: string) => {
 
   @media (max-width: 22rem) {
     .header-inner { width: min(100% - 1rem, 80rem); }
-    .brand { gap: 0.45rem; }
-    .brand-mark { width: 2.55rem; height: 2.55rem; }
-    .brand-copy strong { font-size: 0.98rem; }
+    .header-inner { gap: 0.25rem; }
+    .mobile-actions { gap: 0.25rem; }
+    .brand { gap: 0.25rem; }
+    .brand-mark { width: 2.2rem; height: 2.2rem; }
+    .brand-copy strong { font-size: 0.9rem; }
     .brand-copy span { font-size: 0.5rem; letter-spacing: 0.12em; }
-    .mobile-menu > summary { min-width: 3.3rem; padding-inline: 0.55rem; }
+    .mobile-menu > summary { min-width: 2.75rem; padding-inline: 0.55rem; }
     .menu-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
   }
 
@@ -651,3 +798,55 @@ const isCurrent = (href: string) => {
     }
   }
 </style>
+
+<script>
+  function initMobileMenu() {
+    const details = document.querySelector<HTMLDetailsElement>('details.mobile-menu');
+    if (!details) return;
+
+    const summary = details.querySelector('summary');
+    const panel = details.querySelector<HTMLElement>('.mobile-panel');
+
+    let handleKeyDown: ((event: KeyboardEvent) => void) | null = null;
+
+    details.addEventListener('toggle', () => {
+      if (details.open) {
+        if (panel) {
+          panel.setAttribute('role', 'dialog');
+          panel.setAttribute('aria-modal', 'true');
+          panel.setAttribute('aria-label', 'Site navigation');
+          const firstFocusable = panel.querySelector<HTMLElement>('a, button, [tabindex]:not([tabindex="-1"])');
+          firstFocusable?.focus();
+        }
+
+        handleKeyDown = (event: KeyboardEvent) => {
+          if (event.key === 'Escape') {
+            details.open = false;
+            summary?.focus();
+            if (handleKeyDown) {
+              document.removeEventListener('keydown', handleKeyDown);
+              handleKeyDown = null;
+            }
+          }
+        };
+
+        document.addEventListener('keydown', handleKeyDown);
+      } else {
+        if (panel) {
+          panel.removeAttribute('role');
+          panel.removeAttribute('aria-modal');
+        }
+        if (handleKeyDown) {
+          document.removeEventListener('keydown', handleKeyDown);
+          handleKeyDown = null;
+        }
+      }
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initMobileMenu);
+  } else {
+    initMobileMenu();
+  }
+</script>

@@ -11,8 +11,6 @@ seoKeywords: ["circadian rhythm chrononutrition"]
 
 # Circadian Rhythm Dysregulation
 
-![Circadian Rhythm Dysregulation](https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=800)
-
 ## Root Cause
 
 Chronic misalignment between the master suprachiasmatic nucleus (SCN) clock and peripheral tissue clocks, driven by late-night feeding, artificial blue light exposure, and erratic sleep schedules.

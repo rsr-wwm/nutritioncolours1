@@ -11,8 +11,6 @@ seoKeywords: ["Dental Erosion"]
 
 # Dental Erosion
 
-![Dental Erosion](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Carbonated sodas, lemon water.

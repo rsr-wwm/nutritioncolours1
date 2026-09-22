@@ -11,8 +11,6 @@ seoKeywords: ["Cystic Fibrosis"]
 
 # Cystic Fibrosis
 
-![Cystic Fibrosis](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Genetic CFTR mutation.

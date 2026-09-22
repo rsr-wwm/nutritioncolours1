@@ -11,8 +11,6 @@ seoKeywords: ["Anti-Inflammatory Support"]
 
 # Anti-Inflammatory Support
 
-![Anti-Inflammatory Support](https://images.unsplash.com/photo-1543332164-6e82f355badc?q=80&w=800)
-
 ## Problem
 
 Chronic pain, fatigue, and increased risk of chronic disease.

@@ -11,8 +11,6 @@ seoKeywords: ["Pre-Eclampsia"]
 
 # Pre-Eclampsia
 
-![Pre-Eclampsia](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Poor diet/obesity triggers BP.

@@ -11,8 +11,6 @@ seoKeywords: ["Vitamin K Deficiency"]
 
 # Vitamin K Deficiency
 
-![Vitamin K Deficiency](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Long-term antibiotics/fat malabsorption.

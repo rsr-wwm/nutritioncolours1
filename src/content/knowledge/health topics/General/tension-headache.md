@@ -11,8 +11,6 @@ seoKeywords: ["Tension Headache"]
 
 # Tension Headache
 
-![Tension Headache](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Dehydration, posture, skipped meals.

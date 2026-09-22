@@ -11,8 +11,6 @@ seoKeywords: ["Uric Acid Gout Support"]
 
 # Uric Acid & Gout Support
 
-![Uric Acid & Gout Support](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Excessive uric acid crystal accumulation in joints causing intense inflammatory gout flares.

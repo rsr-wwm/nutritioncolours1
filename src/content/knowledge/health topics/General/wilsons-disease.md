@@ -11,8 +11,6 @@ seoKeywords: ["Wilsons Disease"]
 
 # Wilson's Disease
 
-![Wilson's Disease](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Genetic defect prevents copper excretion.

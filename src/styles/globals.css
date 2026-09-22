@@ -1,6 +1,40 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @import "./designTokens.css";
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/inter-latin-400-normal.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/inter-latin-500-normal.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/inter-latin-600-normal.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/inter-latin-700-normal.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700 900;
+  font-display: swap;
+}
 
 /* Zero-CLS Fallback Font Metric Overrides */
 @font-face {
@@ -10,6 +44,14 @@
   descent-override: 22.5%;
   line-gap-override: 0%;
   size-adjust: 107.5%;
+}
+
+@font-face {
+  font-family: "Fraunces";
+  src: url("/fonts/fraunces-latin-900-normal.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
 }
 
 @font-face {
@@ -33,6 +75,8 @@
   /* Unified color roles */
   --color-surface-base: var(--surface-base);
   --color-surface-card: var(--surface-card);
+  --color-surface-elevated: var(--surface-elevated);
+  --color-surface-overlay: var(--surface-overlay);
   --color-text-primary: var(--text-primary);
   --color-text-muted: var(--text-muted);
   --color-text-inverse: var(--text-inverse);
@@ -78,9 +122,38 @@
 /* Brand display font — used for headings and hero text */
 .brand-font {
   font-family: var(--font-display);
-  font-variation-settings: 'opsz' 40, 'wght' 900;
+  font-weight: 900;
 }
 
+/* Fluid Display Typography Utilities */
+@utility text-fluid-hero {
+  font-size: var(--font-display-hero);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+}
+
+@utility text-fluid-section {
+  font-size: var(--font-display-section);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+@utility text-fluid-card {
+  font-size: var(--font-display-card);
+  line-height: 1.25;
+}
+
+/* Interactive Tactile Card Utility */
+@utility card-interactive {
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.2s ease;
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 24px -6px rgba(0, 0, 0, 0.06), 0 4px 8px -2px rgba(0, 0, 0, 0.03);
+  }
+}
+.dark .card-interactive:hover {
+  box-shadow: 0 12px 24px -6px rgba(0, 0, 0, 0.35), 0 4px 8px -2px rgba(0, 0, 0, 0.2);
+}
 
 /* Background Intent Utilities */
 @utility bg-canvas {
@@ -91,12 +164,44 @@
   background-color: var(--color-surface-card);
 }
 
+@utility bg-surface-elevated {
+  background-color: var(--color-surface-elevated);
+}
+
+@utility border-elevated {
+  border-color: var(--surface-elevated-border);
+}
+
 @utility bg-accent {
   background-color: var(--color-brand-50);
 }
 .dark .bg-accent {
   background-color: rgba(16, 185, 129, 0.1);
 }
+
+/* Fluid Container Query Infrastructure */
+@utility container-card {
+  container-type: inline-size;
+  container-name: card;
+}
+
+@utility container-panel {
+  container-type: inline-size;
+  container-name: panel;
+}
+
+@container card (min-width: 440px) {
+  .card-responsive-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .card-responsive-compact-only {
+    display: none;
+  }
+}
+
 
 @utility glass-panel-premium {
   background-color: rgba(255, 255, 255, 0.9);
@@ -590,6 +695,18 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 body {
@@ -606,7 +723,18 @@ body {
   left: 50%;
   transform: translateX(-50%);
   z-index: 99999;
-  background-color: var(--brand-primary);
+  /* Fixed brand-emerald fill, not var(--brand-primary): that token is
+     intentionally re-themed per page category (html[data-page-category])
+     — amber for "knowledge" pages, blue for "tool" pages, etc. White text
+     over it measured a passing ~9.7:1 on the emerald-900 default, but only
+     ~3.2:1 on the amber-600 "knowledge" variant (below the 4.5:1 AA
+     minimum), and this class's specificity was also beating the Tailwind
+     focus:bg-white/focus:text-emerald-950 utilities also on the link. A
+     skip-to-content control is a fixed accessibility utility, not themed
+     brand chrome, so it gets one guaranteed-AA color pair everywhere.
+     (This also wins over the same-specificity Tailwind focus: utilities
+     via source order, so those two classes are effectively unused now.) */
+  background-color: #064e3b;
   color: #ffffff;
   padding: 0.75rem 1.5rem;
   border-radius: 9999px;
@@ -626,6 +754,34 @@ body {
 
 /* Focus visible styles */
 :focus-visible {
-  outline: 2px solid var(--brand-primary);
-  outline-offset: 2px;
+  outline: var(--focus-outline);
+  outline-offset: 3px;
+}
+
+.skip-nav:focus-visible {
+  outline: var(--focus-outline);
+  outline-offset: 3px;
+}
+
+@media print {
+  .site-header,
+  footer,
+  .skip-nav,
+  [data-theme-toggle],
+  nav[aria-label="Article outline"],
+  nav[aria-label="Desktop page navigation"],
+  aside[aria-label="Article navigation and metadata"] {
+    display: none !important;
+  }
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.75em;
+  }
+  main {
+    max-width: 100% !important;
+  }
 }

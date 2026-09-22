@@ -1,0 +1,75 @@
+{
+  "generatedAt": "2026-09-05T12:40:50.897Z",
+  "totalAnalyzedRequests": 5,
+  "crawlerMetrics": {
+    "Googlebot": {
+      "botName": "Googlebot",
+      "totalRequests": 2,
+      "status200Count": 2,
+      "status301Count": 0,
+      "status410Count": 0,
+      "status404Count": 0,
+      "tombstoneHits": [],
+      "canonicalHits": [
+        "/knowledge/circadian-nutrition",
+        "/foods"
+      ]
+    },
+    "OAI-SearchBot": {
+      "botName": "OAI-SearchBot",
+      "totalRequests": 2,
+      "status200Count": 1,
+      "status301Count": 0,
+      "status410Count": 1,
+      "status404Count": 0,
+      "tombstoneHits": [
+        "/clinic/delhi-diabetes-cure"
+      ],
+      "canonicalHits": [
+        "/recipes"
+      ]
+    },
+    "PerplexityBot": {
+      "botName": "PerplexityBot",
+      "totalRequests": 1,
+      "status200Count": 0,
+      "status301Count": 0,
+      "status410Count": 1,
+      "status404Count": 0,
+      "tombstoneHits": [
+        "/location/mumbai"
+      ],
+      "canonicalHits": []
+    },
+    "ClaudeBot": {
+      "botName": "ClaudeBot",
+      "totalRequests": 0,
+      "status200Count": 0,
+      "status301Count": 0,
+      "status410Count": 0,
+      "status404Count": 0,
+      "tombstoneHits": [],
+      "canonicalHits": []
+    },
+    "Bingbot": {
+      "botName": "Bingbot",
+      "totalRequests": 0,
+      "status200Count": 0,
+      "status301Count": 0,
+      "status410Count": 0,
+      "status404Count": 0,
+      "tombstoneHits": [],
+      "canonicalHits": []
+    },
+    "Applebot": {
+      "botName": "Applebot",
+      "totalRequests": 0,
+      "status200Count": 0,
+      "status301Count": 0,
+      "status410Count": 0,
+      "status404Count": 0,
+      "tombstoneHits": [],
+      "canonicalHits": []
+    }
+  }
+}

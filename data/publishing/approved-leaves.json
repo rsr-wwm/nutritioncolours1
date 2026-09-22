@@ -1,0 +1,5 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Generated approved-only projection. Application routes may eventually read this file, never the quarantined inventory or decision overlay.",
+  "records": []
+}

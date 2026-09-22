@@ -11,8 +11,6 @@ seoKeywords: ["Back Pain"]
 
 # Back Pain
 
-![Back Pain](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Weak core + sitting strains discs.

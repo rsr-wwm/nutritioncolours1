@@ -11,8 +11,6 @@ seoKeywords: ["Anal Fissure"]
 
 # Anal Fissure
 
-![Anal Fissure](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Straining from low-fiber diet.

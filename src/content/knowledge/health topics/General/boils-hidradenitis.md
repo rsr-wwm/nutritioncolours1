@@ -11,8 +11,6 @@ seoKeywords: ["Boils (Hidradenitis)"]
 
 # Boils (Hidradenitis)
 
-![Boils (Hidradenitis)](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Smoking/obesity inflame sweat glands.

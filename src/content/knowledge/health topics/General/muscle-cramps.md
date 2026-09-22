@@ -11,8 +11,6 @@ seoKeywords: ["Muscle Cramps"]
 
 # Muscle Cramps
 
-![Muscle Cramps](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Dehydration + low electrolytes.

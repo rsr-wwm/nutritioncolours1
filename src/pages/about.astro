@@ -1,75 +1,115 @@
 ---
-import SectionHeading from '../components/SectionHeading.astro';
-import SharedSections from '../components/SharedSections.astro';
-import Icons from '../components/Icons.astro';
-import { ABOUT_FAQS } from '../data/constants';
 import BaseLayout from '../layouts/BaseLayout.astro';
-
-const SITE_URL = (Astro.site || 'https://nutritioncolours.com').toString().replace(/\/$/, '');
-const aboutPageSchema = {
-  "@context": "https://schema.org",
-  "@type": "AboutPage",
-  "@id": `${SITE_URL}/about#page`,
-  "url": `${SITE_URL}/about`,
-  "name": "Our Approach & Philosophy | NutritionColours",
-  "about": { "@id": `${SITE_URL}/#organization` },
-  "mainEntity": { "@id": `${SITE_URL}/#organization` },
-};
+import Icons from '../components/Icons.astro';
 ---
-  <input type="hidden" name="__bot_check" value="{{random}}" style="display:none;" />
-<BaseLayout title="Our Approach & Philosophy | NutritionColours" description="Learn about our root-cause medical nutrition protocols led by clinical nutritionist Dr. Shilpa Thakur.">
-  <script type="application/ld+json" is:inline set:html={JSON.stringify(aboutPageSchema)} />
-  <div class="p-6 md:p-10 max-w-7xl mx-auto space-y-24">
-    <div class="space-y-16">
-      <SectionHeading subtitle="Philosophy" title="Our Approach" isMain={true} />
-      <div class="max-w-4xl space-y-6">
-        <div class="space-y-6 text-lg text-stone-600 leading-relaxed font-medium">
-          <div class="p-10 bg-emerald-50 rounded-[40px] border border-emerald-100 shadow-sm">
-            <h2 class="text-3xl font-black text-emerald-950 brand-font mb-4">The Modern Health Crisis</h2>
-            <p class="text-lg text-stone-600 leading-relaxed">In a world where lifestyle disorders like obesity, thyroid dysfunction, diabetes, and PCOD are normalized, conventional medicine often focuses on symptom management. At NutritionColours, we assert that true healing requires a root-cause approach that addresses the foundational triggers of disease.</p>
-            <p class="px-4">Our bedrock belief is that most diseases begin in the kitchen, and therefore, the first and most effective medicine should be sourced from the kitchen. We blend ancient Ayurvedic wisdom with modern nutritional science to help you heal naturally.</p>
-          </div>
+<BaseLayout
+  title="About | NutritionColours"
+  description="Learn about NutritionColours, its educational scope, publishing safeguards, evidence boundaries, and limits on health advice and services."
+  breadcrumbs={[
+    { name: 'Home', path: '/' },
+    { name: 'About', path: '/about' },
+  ]}
+>
+  <article class="max-w-5xl mx-auto px-6 py-16 md:py-24">
+    <nav aria-label="Breadcrumb" class="text-sm text-stone-600 dark:text-stone-400">
+      <ol class="flex flex-wrap items-center gap-2">
+        <li><a href="/" class="font-bold text-emerald-800 dark:text-emerald-400 hover:underline">Home</a></li>
+        <li aria-hidden="true">/</li>
+        <li aria-current="page" class="font-medium text-stone-900 dark:text-stone-200">About</li>
+      </ol>
+    </nav>
+
+    <div class="mt-6 inline-flex items-center gap-2 rounded-full border border-emerald-300 dark:border-emerald-800 bg-emerald-50 dark:bg-emerald-950/40 px-3.5 py-1 text-xs font-bold uppercase tracking-widest text-emerald-800 dark:text-emerald-300">
+      <span class="inline-block h-2 w-2 rounded-full bg-emerald-500" aria-hidden="true"></span>
+      Independent Educational Platform
+    </div>
+
+    <h1 class="mt-4 text-fluid-hero font-black text-emerald-950 dark:text-emerald-50 brand-font">
+      Clearer food and nutrition education
+    </h1>
+
+    <p class="mt-6 text-lg leading-relaxed text-stone-700 dark:text-stone-300 border-l-4 border-emerald-500 pl-5">
+      NutritionColours is an independent nutrition education platform. We provide evidence-anchored food composition directories, circadian chrono-nutrition guides, and rigorous review-status notices while legacy health drafts remain withdrawn. We do not operate a physical clinic, diagnostic intake service, or emergency triage facility.
+    </p>
+
+    <!-- Comparative Matrix: What Belongs Here vs What Does Not -->
+    <div class="mt-12 grid gap-6 md:grid-cols-2">
+      <!-- Left Card: What Belongs Here -->
+      <section class="card-interactive rounded-3xl border border-emerald-200 dark:border-emerald-800/80 bg-emerald-50/50 dark:bg-emerald-950/30 p-7 md:p-8 shadow-sm space-y-4">
+        <div class="flex items-center gap-2.5">
+          <span class="inline-flex h-8 w-8 items-center justify-center rounded-xl bg-emerald-100 dark:bg-emerald-900/60 text-emerald-800 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800" aria-hidden="true">
+            <Icons name="check" size={16} />
+          </span>
+          <h2 class="text-xl font-black text-emerald-950 dark:text-emerald-100 brand-font">What belongs here</h2>
         </div>
-      </div>
-    </div>
+        <ul class="space-y-3 text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          <li class="flex items-start gap-2">
+            <span class="font-bold text-emerald-700 dark:text-emerald-400">&bull;</span>
+            <span>Primary human clinical literature and systematic reviews indexed with active DOIs.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="font-bold text-emerald-700 dark:text-emerald-400">&bull;</span>
+            <span>Official biochemical food composition tables (USDA FoodData Central, ICMR-IFCT).</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="font-bold text-emerald-700 dark:text-emerald-400">&bull;</span>
+            <span>Clear physiological uncertainties, contraindications, and emergency boundaries.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="font-bold text-emerald-700 dark:text-emerald-400">&bull;</span>
+            <span>Prompt, public corrections when newer peer-reviewed literature supercedes older trials.</span>
+          </li>
+        </ul>
+      </section>
 
-    <div class="space-y-16">
-      <SectionHeading subtitle="Service Excellence" title="The Four Pillars of Healing" isMain={false} />
-      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-        {[
-          { title: 'Root-Cause Focused Healing', desc: 'We go beyond symptom management to reverse diseases from their roots using whole plant-based foods.', icon: 'leaf' },
-          { title: 'Personalised Medical Nutrition', desc: 'Exhaustively customized protocols based on your specific medical diagnosis, lifestyle, and biochemical imbalances.', icon: 'file-text' },
-          { title: 'Lifestyle Disorders Reversal', desc: 'Directly addressing systemic issues like insulin resistance and chronic inflammation through functional nutrition.', icon: 'check' },
-          { title: 'Education & Empowerment', desc: 'Providing the tools to understand your body, moving far beyond simply handed-out diet charts.', icon: 'search' }
-        ].map((pillar: any) => (
-          <div class="bg-white p-10 rounded-[40px] border border-stone-100 shadow-lg hover:shadow-2xl transition-all group flex flex-col items-center text-center">
-            <div class="w-20 h-20 rounded-3xl bg-emerald-50 flex items-center justify-center text-emerald-600 mb-8 group-hover:bg-emerald-600 group-hover:text-white transition-all duration-500">
-              <Icons name={pillar.icon} size={32} />
-            </div>
-            <h3 class="text-xl font-black text-emerald-950 mb-4 brand-font leading-tight">{pillar.title}</h3>
-            <p class="text-stone-500 text-sm leading-relaxed">{pillar.desc}</p>
-          </div>
-        ))}
-      </div>
-    </div>
-
-    <div class="bg-emerald-950 rounded-[64px] p-12 md:p-24 text-center relative overflow-hidden">
-      <div class="absolute top-0 right-0 w-96 h-96 bg-lime-400/10 rounded-full blur-[100px]" aria-hidden="true"></div>
-      <div class="relative z-10 max-w-4xl mx-auto space-y-8">
-        <span class="text-lime-400 font-black uppercase tracking-[0.4em] text-[10px]">Our Vision</span>
-        <h2 class="text-4xl md:text-6xl font-black text-white brand-font leading-tight">Sparking a Food-as-Medicine Revolution</h2>
-        <p class="text-emerald-100/70 text-lg md:text-xl leading-relaxed">To educate the world that food is chemistry, therapy, and pure biological energy. We aim to reduce dependency on long-term medications and make natural, sustainable healing accessible to every home.</p>
-        <div class="flex flex-wrap justify-center gap-6 pt-8">
-          <a href="/plans" class="bg-lime-400 px-10 py-5 rounded-2xl font-black uppercase tracking-widest text-xs hover:bg-lime-300 transition-all">
-            <span class="btn-cta-text-dark">Start Your Journey</span>
-          </a>
-          <a href="/contact" class="bg-white/10 backdrop-blur-md border border-white/20 px-10 py-5 rounded-2xl font-black uppercase tracking-widest text-xs hover:bg-white/20 transition-all">
-            <span class="btn-cta-text-white">Speak to an Expert</span>
-          </a>
+      <!-- Right Card: What Does Not Belong Here -->
+      <section class="card-interactive rounded-3xl border border-rose-200 dark:border-rose-900/60 bg-rose-50/50 dark:bg-rose-950/20 p-7 md:p-8 shadow-sm space-y-4">
+        <div class="flex items-center gap-2.5">
+          <span class="inline-flex h-8 w-8 items-center justify-center rounded-xl bg-rose-100 dark:bg-rose-900/60 text-rose-800 dark:text-rose-300 border border-rose-200 dark:border-rose-900" aria-hidden="true">
+            <Icons name="x" size={16} />
+          </span>
+          <h2 class="text-xl font-black text-rose-950 dark:text-rose-100 brand-font">What does not</h2>
         </div>
-      </div>
+        <ul class="space-y-3 text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          <li class="flex items-start gap-2">
+            <span class="font-bold text-rose-600 dark:text-rose-400">&bull;</span>
+            <span>Guaranteed biological outcomes, miracle diets, or disease reversal promises.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="font-bold text-rose-600 dark:text-rose-400">&bull;</span>
+            <span>Fabricated patient testimonials, commercial sponsorships, or undisclosed endorsements.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="font-bold text-rose-600 dark:text-rose-400">&bull;</span>
+            <span>Simulated walk-in clinics, fake physical locality pages, or local doorway spam.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="font-bold text-rose-600 dark:text-rose-400">&bull;</span>
+            <span>Machine-generated AI assertions that exceed verifiable primary trial records.</span>
+          </li>
+        </ul>
+      </section>
     </div>
 
-    <SharedSections type="faq" faqData={ABOUT_FAQS} faqTitle="Philosophy FAQs" />
-  </div>
+    <!-- Editorial Governance & Corrections Block -->
+    <section class="mt-10 rounded-3xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 p-7 md:p-8 shadow-sm space-y-3">
+      <h2 class="text-2xl font-black text-emerald-950 dark:text-emerald-100 brand-font">Editorial governance & corrections</h2>
+      <p class="text-base leading-relaxed text-stone-700 dark:text-stone-300">
+        If you spot an inaccurate claim, outdated citation, or text lacking adequate scientific sourcing, please email <a class="font-bold text-emerald-800 dark:text-emerald-400 underline underline-offset-4" href="mailto:info@nutritioncolours.com">info@nutritioncolours.com</a> with the URL and supporting peer-reviewed reference. Unreviewed drafts remain strictly quarantined from search indexing.
+      </p>
+    </section>
+
+    <!-- Action Shortcuts -->
+    <div class="mt-10 flex flex-wrap gap-4 text-sm font-bold">
+      <a href="/legal/editorial-policy" class="inline-flex items-center gap-2 rounded-xl bg-emerald-900 dark:bg-emerald-700 px-5 py-3 text-white hover:bg-emerald-800 dark:hover:bg-emerald-800 transition-colors">
+        Read editorial policy
+      </a>
+      <a href="/knowledge" class="inline-flex items-center gap-2 rounded-xl border border-stone-300 dark:border-stone-700 bg-white dark:bg-stone-800 px-5 py-3 text-stone-800 dark:text-stone-200 hover:border-emerald-600 transition-colors">
+        Knowledge directory
+      </a>
+      <a href="/contact" class="inline-flex items-center gap-2 rounded-xl border border-stone-300 dark:border-stone-700 bg-white dark:bg-stone-800 px-5 py-3 text-stone-800 dark:text-stone-200 hover:border-emerald-600 transition-colors">
+        Contact desk
+      </a>
+    </div>
+  </article>
 </BaseLayout>

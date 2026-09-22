@@ -11,8 +11,6 @@ seoKeywords: ["Pellagra / Beri-Beri"]
 
 # Pellagra / Beri-Beri
 
-![Pellagra / Beri-Beri](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Poor diet or alcoholism.

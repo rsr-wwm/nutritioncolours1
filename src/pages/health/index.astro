@@ -1,0 +1,136 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Icons from '../../components/Icons.astro';
+import BotanicalMotif from '../../components/ui/BotanicalMotif.astro';
+import NotifyMeForm from '../../components/NotifyMeForm.astro';
+import approvedData from '../../../data/publishing/approved-leaves.json';
+import type { ApprovedLeafRegistry } from '../../lib/publishing/approvedLeafTypes';
+
+const approvedHealth = (approvedData as ApprovedLeafRegistry).records
+  .filter((leaf) => leaf.pageKind === 'health')
+  .sort((a, b) => a.canonicalName.localeCompare(b.canonicalName));
+
+const breadcrumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Health', path: '/health' },
+];
+---
+
+<BaseLayout
+  title="Health library | NutritionColours"
+  description="Browse reviewed health topics, conditions and disease guides from the NutritionColours evidence-aware library."
+  noindex={approvedHealth.length === 0}
+  canonicalUrl="/health"
+  pageCategory="clinical"
+  breadcrumbs={breadcrumbs}
+>
+  <div class="mx-auto max-w-6xl px-4 sm:px-6 py-10 sm:py-14">
+    <nav aria-label="Breadcrumb" class="text-sm text-stone-600 dark:text-stone-400">
+      <ol class="flex items-center gap-2">
+        <li><a href="/" class="font-bold text-emerald-800 dark:text-emerald-400 hover:underline">Home</a></li>
+        <li aria-hidden="true">/</li>
+        <li aria-current="page" class="font-medium text-stone-900 dark:text-stone-200">Health</li>
+      </ol>
+    </nav>
+
+    <div class="mt-6 inline-flex items-center gap-2 rounded-full border border-emerald-300 dark:border-emerald-800 bg-emerald-50 dark:bg-emerald-950/40 px-3.5 py-1 text-xs font-bold uppercase tracking-widest text-emerald-800 dark:text-emerald-300">
+      <BotanicalMotif name="leaf-branch" class="h-3.5 w-3.5 text-emerald-600 dark:text-emerald-400" />
+      Tier 1 Clinical Library
+    </div>
+
+    <h1 class="mt-4 text-fluid-hero font-black text-emerald-950 dark:text-emerald-50 brand-font">
+      Health library
+    </h1>
+
+    {approvedHealth.length === 0 ? (
+      <div class="mt-8 space-y-8">
+        <p class="text-lg leading-relaxed text-stone-700 dark:text-stone-300 border-l-4 border-amber-400 dark:border-amber-500 pl-5">
+          Health topics, conditions, and disease guides are our primary editorial priority. They remain strictly excluded from search indexing until every material claim, primary source, named author, clinical reviewer, safety boundary, and update record passes the publication gates.
+        </p>
+
+        <section class="rounded-3xl border border-amber-300/80 dark:border-amber-800/60 bg-amber-50/70 dark:bg-amber-950/30 p-6 md:p-8 text-amber-950 dark:text-amber-200" aria-labelledby="safeguard-heading">
+          <div class="flex items-center gap-3">
+            <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-amber-200/80 dark:bg-amber-900/60 text-amber-900 dark:text-amber-200 border border-amber-300 dark:border-amber-700/80" aria-hidden="true">
+              <Icons name="alert-triangle" size={18} />
+            </span>
+            <h2 id="safeguard-heading" class="text-lg font-black text-amber-950 dark:text-amber-100">
+              Medical Safety &amp; Verification Safeguard
+            </h2>
+          </div>
+          <p class="mt-3 text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+            No unavailable draft should be treated as medical advice. Approved pages will appear here only after independent evidence verification and clinical specialist review.
+          </p>
+        </section>
+
+        <section aria-labelledby="available-now-heading" class="space-y-4">
+          <h2 id="available-now-heading" class="text-sm font-black uppercase tracking-widest text-stone-500 dark:text-stone-400">
+            Available now, while health content is under review
+          </h2>
+          <ul class="grid gap-4 sm:grid-cols-3">
+            <li>
+              <a href="/knowledge/circadian-nutrition" class="card-interactive group block h-full rounded-2xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 p-5 shadow-sm hover:border-emerald-400 dark:hover:border-emerald-600 transition-all">
+                <span class="block text-base font-black text-emerald-950 dark:text-emerald-100 group-hover:text-emerald-700 dark:group-hover:text-emerald-400 transition-colors">Circadian nutrition</span>
+                <span class="mt-1.5 block text-sm leading-relaxed text-stone-600 dark:text-stone-400">Our one published Tier 1 guide, reviewed and live.</span>
+              </a>
+            </li>
+            <li>
+              <a href="/foods" class="card-interactive group block h-full rounded-2xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 p-5 shadow-sm hover:border-emerald-400 dark:hover:border-emerald-600 transition-all">
+                <span class="block text-base font-black text-emerald-950 dark:text-emerald-100 group-hover:text-emerald-700 dark:group-hover:text-emerald-400 transition-colors">Food guides</span>
+                <span class="mt-1.5 block text-sm leading-relaxed text-stone-600 dark:text-stone-400">Browse the food composition library and review status.</span>
+              </a>
+            </li>
+            <li>
+              <a href="/legal/methodology" class="card-interactive group block h-full rounded-2xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 p-5 shadow-sm hover:border-emerald-400 dark:hover:border-emerald-600 transition-all">
+                <span class="block text-base font-black text-emerald-950 dark:text-emerald-100 group-hover:text-emerald-700 dark:group-hover:text-emerald-400 transition-colors">Verification methodology</span>
+                <span class="mt-1.5 block text-sm leading-relaxed text-stone-600 dark:text-stone-400">See exactly what a health page must pass before it publishes.</span>
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <NotifyMeForm topic="the health library" />
+      </div>
+    ) : (
+      <div class="mt-8 space-y-8">
+        <p class="text-lg leading-relaxed text-stone-700 dark:text-stone-300 border-l-4 border-emerald-500 pl-5">
+          These Tier 1 pages are reviewed educational references. Each page states its evidence boundaries, review status, and limits; it is not a diagnosis or substitute for individualized medical care.
+        </p>
+
+        <section aria-labelledby="reviewed-health-heading" class="space-y-6">
+          <h2 id="reviewed-health-heading" class="text-2xl font-black text-emerald-950 dark:text-emerald-100 brand-font">
+            Reviewed health references ({approvedHealth.length})
+          </h2>
+          <ul class="grid gap-4 sm:grid-cols-2">
+            {approvedHealth.map((leaf) => (
+              <li>
+                <a
+                  href={leaf.canonicalPath}
+                  class="group block h-full rounded-2xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 p-6 shadow-sm hover:border-emerald-400 dark:hover:border-emerald-600 hover:shadow-md transition-all"
+                >
+                  <span class="inline-block text-[11px] font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300 mb-3">
+                    Tier 1 Verified
+                  </span>
+                  <span class="block text-lg font-black text-emerald-950 dark:text-emerald-100 group-hover:text-emerald-700 dark:group-hover:text-emerald-400 transition-colors">
+                    {leaf.canonicalName}
+                  </span>
+                  <span class="mt-2 block text-sm leading-6 text-stone-600 dark:text-stone-400">
+                    {leaf.metaDescription}
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      </div>
+    )}
+
+    <div class="mt-12 flex flex-wrap gap-4 text-sm font-bold">
+      <a href="/legal/editorial-policy" class="inline-flex items-center gap-2 rounded-xl bg-emerald-900 dark:bg-emerald-700 px-5 py-3 text-white hover:bg-emerald-800 dark:hover:bg-emerald-800 transition-colors">
+        Read editorial policy
+      </a>
+      <a href="/knowledge" class="inline-flex items-center gap-2 rounded-xl border border-stone-300 dark:border-stone-700 bg-white dark:bg-stone-800 px-5 py-3 text-stone-800 dark:text-stone-200 hover:border-emerald-600 dark:hover:border-emerald-500 transition-colors">
+        Knowledge directory
+      </a>
+    </div>
+  </div>
+</BaseLayout>

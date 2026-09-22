@@ -11,8 +11,6 @@ seoKeywords: ["Mercury Poisoning"]
 
 # Mercury Poisoning
 
-![Mercury Poisoning](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Eating too much predatory fish.

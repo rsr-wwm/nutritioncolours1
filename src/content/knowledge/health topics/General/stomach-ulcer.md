@@ -11,8 +11,6 @@ seoKeywords: ["Stomach Ulcer"]
 
 # Stomach Ulcer
 
-![Stomach Ulcer](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 H. pylori bacteria + stress.

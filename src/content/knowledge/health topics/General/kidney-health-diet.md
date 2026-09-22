@@ -11,8 +11,6 @@ seoKeywords: ["Kidney Health Diet"]
 
 # Kidney Health Support
 
-![Kidney Health Support](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Reduced kidney filtration efficiency leading to buildup of nitrogenous waste and fluid retention.

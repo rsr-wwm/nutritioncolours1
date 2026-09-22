@@ -1,0 +1,70 @@
+---
+// NotifyMeForm.astro
+//
+// Email opt-in for a gated hub page ("notify me when this publishes").
+// Doubles as a lightweight waitlist/growth capture while most hubs sit
+// behind a publication gate.
+//
+// IMPORTANT — placeholder endpoint: this form posts to a Formspree-style
+// URL (`https://formspree.io/f/YOUR_FORM_ID`) that does not exist. Wiring
+// this up to a real inbox requires creating an account with a form
+// backend (Formspree, Basin, an internal API, etc.) — something that has
+// to be done by the site owner, not automatically. Replace `action` below
+// with a real endpoint before this component collects any address.
+
+interface Props {
+  /** What the visitor is being notified about, e.g. "the Foods directory". */
+  topic: string;
+  id?: string;
+}
+
+const { topic, id } = Astro.props;
+
+const headingId =
+  id ??
+  `notify-${topic
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)/g, '')}`;
+---
+
+<section
+  class="mt-6 rounded-2xl border border-emerald-200 dark:border-emerald-800/60 bg-emerald-50/60 dark:bg-emerald-950/30 p-6 space-y-3"
+  aria-labelledby={headingId}
+>
+  <h2 id={headingId} class="text-base font-black text-emerald-900 dark:text-emerald-300">
+    Get notified when {topic} publishes
+  </h2>
+  <p class="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+    Leave your email and we'll send one message when this page clears its gate. No other mail, no account required.
+  </p>
+
+  {/* Placeholder endpoint — see the note above. Replace YOUR_FORM_ID with a real form backend before launch. */}
+  <form
+    action="/contact"
+    method="GET"
+    class="flex flex-col gap-3 sm:flex-row sm:items-end"
+  >
+    <div class="flex-1">
+      <label for={`${headingId}-email`} class="mb-1.5 block text-xs font-bold uppercase tracking-wider text-emerald-950 dark:text-emerald-300">Email address</label>
+      <input
+        id={`${headingId}-email`}
+        type="email"
+        name="email"
+        required
+        placeholder="reader@nutritioncolours.com"
+        class="min-h-11 w-full rounded-xl border border-stone-300 dark:border-stone-700 bg-white dark:bg-stone-900 px-4 py-2.5 text-sm text-stone-900 dark:text-stone-100 placeholder:text-stone-400 dark:placeholder:text-stone-500 focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/20 transition-all shadow-xs"
+      />
+    </div>
+    <button
+      type="submit"
+      class="inline-flex min-h-11 items-center justify-center gap-2 rounded-xl bg-emerald-800 hover:bg-emerald-700 dark:bg-emerald-600 dark:hover:bg-emerald-500 px-6 py-2.5 text-sm font-bold text-white shadow-sm hover:shadow transition-all duration-200"
+    >
+      Notify me
+    </button>
+  </form>
+
+  <p class="text-xs text-stone-500 dark:text-stone-400">
+    We'll only use this to send the one launch notice. See our <a href="/legal/privacy" class="underline hover:text-emerald-700 dark:hover:text-emerald-400">privacy policy</a>.
+  </p>
+</section>

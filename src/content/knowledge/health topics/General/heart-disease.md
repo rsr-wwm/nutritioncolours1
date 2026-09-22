@@ -11,8 +11,6 @@ seoKeywords: ["Heart Disease"]
 
 # Heart Disease
 
-![Heart Disease](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Plaque builds up from bad fats/smoking.

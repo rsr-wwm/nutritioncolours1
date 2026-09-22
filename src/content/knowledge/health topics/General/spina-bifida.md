@@ -11,8 +11,6 @@ seoKeywords: ["Spina Bifida"]
 
 # Spina Bifida
 
-![Spina Bifida](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Lack of folate.

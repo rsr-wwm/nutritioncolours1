@@ -11,8 +11,6 @@ seoKeywords: ["Jet Lag"]
 
 # Jet Lag
 
-![Jet Lag](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Time zones ruin sleep/wake.

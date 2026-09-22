@@ -11,8 +11,6 @@ seoKeywords: ["Rheumatoid Arthritis"]
 
 # Rheumatoid Arthritis
 
-![Rheumatoid Arthritis](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Smoking, obesity, sugar trigger immune.

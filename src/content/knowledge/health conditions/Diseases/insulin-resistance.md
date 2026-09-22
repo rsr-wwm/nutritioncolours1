@@ -11,8 +11,6 @@ seoKeywords: ["support insulin sensitivity naturally"]
 
 # Insulin Resistance
 
-![Insulin Resistance](https://images.unsplash.com/photo-1498837167922-ddd27525d352?q=80&w=800)
-
 ## Root Cause
 
 Ectopic intracellular lipid accumulation (diacylglycerols) that physically interferes with the insulin receptor substrate (IRS-1) signaling pathway.

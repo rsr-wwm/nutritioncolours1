@@ -11,8 +11,6 @@ seoKeywords: ["Alcoholic Liver Disease"]
 
 # Alcoholic Liver Disease
 
-![Alcoholic Liver Disease](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Chronic alcohol poisons liver cells.

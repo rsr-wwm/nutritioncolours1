@@ -1,0 +1,154 @@
+---
+import Icons from '../Icons.astro';
+import BotanicalMotif from './BotanicalMotif.astro';
+
+interface Props {
+  title?: string;
+  subtitle?: string;
+  directAnswer?: string;
+  class?: string;
+}
+
+const {
+  title = "Evidence-Based Nutritional Architecture",
+  subtitle = "Synthesized clinical insights across chrono-biology, molecular pathways, and human trial gates.",
+  directAnswer = "Nutritional timing, bioactive phytochemistry, and personalized metabolic status determine physiological impact more profoundly than isolated caloric accounting.",
+  class: className = ''
+} = Astro.props;
+---
+
+<section aria-labelledby="bento-heading" class:list={['space-y-6', className]}>
+  <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
+    <div>
+      <div class="inline-flex items-center gap-2 rounded-full border border-emerald-300 dark:border-emerald-800 bg-emerald-50 dark:bg-emerald-950/40 px-3.5 py-1 text-xs font-bold uppercase tracking-widest text-emerald-800 dark:text-emerald-300">
+        <BotanicalMotif name="leaf-branch" class="h-3.5 w-3.5 text-emerald-600 dark:text-emerald-400" />
+        Clinical Synthesis Bento
+      </div>
+      <h2 id="bento-heading" class="mt-3 text-2xl sm:text-3xl font-black text-emerald-950 dark:text-emerald-50 brand-font">
+        {title}
+      </h2>
+      <p class="mt-2 text-sm sm:text-base text-stone-600 dark:text-stone-300 max-w-2xl">
+        {subtitle}
+      </p>
+    </div>
+    <div class="hidden sm:flex items-center gap-2 text-xs font-semibold text-stone-500 dark:text-stone-400">
+      <span class="inline-block h-2 w-2 rounded-full bg-emerald-500 animate-pulse"></span>
+      <span>Ledger-Verified Dataset</span>
+    </div>
+  </div>
+
+  <!-- 12-Column Responsive Bento Grid with Container Queries -->
+  <div class="grid grid-cols-1 md:grid-cols-12 gap-5 container-panel">
+    <!-- Cell 1: Flagship Direct Clinical Synthesis (8 cols) -->
+    <div class="md:col-span-12 lg:col-span-8 relative overflow-hidden rounded-3xl border border-stone-200/90 dark:border-stone-800 bg-surface-card p-6 sm:p-8 card-interactive shadow-xs container-card">
+      <div class="relative z-10 flex flex-col justify-between h-full space-y-6">
+        <div>
+          <div class="flex flex-wrap items-center gap-2 text-xs font-bold uppercase tracking-wider text-emerald-800 dark:text-emerald-400 mb-3">
+            <span class="rounded-md bg-emerald-100 dark:bg-emerald-900/60 px-2 py-0.5">Direct Clinical Consensus</span>
+            <span>•</span>
+            <span>Tier-1 Human RCT Foundation</span>
+          </div>
+          <p class="text-lg sm:text-xl font-medium leading-relaxed text-emerald-950 dark:text-emerald-100">
+            "{directAnswer}"
+          </p>
+        </div>
+
+        <div class="pt-4 border-t border-stone-100 dark:border-stone-800 flex flex-wrap items-center justify-between gap-4 text-xs text-stone-600 dark:text-stone-400">
+          <div class="flex items-center gap-3">
+            <span class="flex items-center gap-1 font-bold text-emerald-800 dark:text-emerald-400">
+              <Icons name="check" size={14} /> Full Claim Audit
+            </span>
+            <span>•</span>
+            <span>Zero Industry Funding Conflicts</span>
+          </div>
+          <a href="/legal/methodology" class="font-bold text-emerald-700 dark:text-emerald-400 hover:underline inline-flex items-center gap-1">
+            Methodology &rarr;
+          </a>
+        </div>
+      </div>
+
+      <!-- Subtle Generative Watermark Background -->
+      <div class="absolute -right-6 -bottom-6 opacity-10 dark:opacity-5 text-emerald-900 dark:text-emerald-100 pointer-events-none" aria-hidden="true">
+        <BotanicalMotif name="deterministic-watermark" size={200} seed="bento-synthesis" />
+      </div>
+    </div>
+
+    <!-- Cell 2: Publication Gates & Isolation Status (4 cols) -->
+    <div class="md:col-span-12 lg:col-span-4 rounded-3xl border border-stone-200/90 dark:border-stone-800 bg-surface-card p-6 card-interactive shadow-xs flex flex-col justify-between container-card">
+      <div>
+        <div class="flex items-center justify-between text-xs font-bold uppercase tracking-wider text-stone-500 dark:text-stone-400 mb-4">
+          <span>Integrity Verification</span>
+          <BotanicalMotif name="fibonacci-spiral" class="h-4 w-4 text-emerald-600 dark:text-emerald-400" />
+        </div>
+        <div class="space-y-3">
+          <div class="flex items-center justify-between text-sm py-1.5 border-b border-stone-100 dark:border-stone-800/80">
+            <span class="text-stone-700 dark:text-stone-300">Quarantined Drafts</span>
+            <span class="font-mono font-bold text-stone-900 dark:text-stone-100">2,173</span>
+          </div>
+          <div class="flex items-center justify-between text-sm py-1.5 border-b border-stone-100 dark:border-stone-800/80">
+            <span class="text-stone-700 dark:text-stone-300">Unreviewed Published</span>
+            <span class="font-mono font-bold text-emerald-600 dark:text-emerald-400">0</span>
+          </div>
+          <div class="flex items-center justify-between text-sm py-1.5 border-b border-stone-100 dark:border-stone-800/80">
+            <span class="text-stone-700 dark:text-stone-300">Automated Release Gates</span>
+            <span class="font-mono font-bold text-emerald-600 dark:text-emerald-400">18 / 18</span>
+          </div>
+        </div>
+      </div>
+      <p class="mt-4 text-[11px] text-stone-500 dark:text-stone-400 leading-normal">
+        Strict four-gate publication quarantine prevents automated AI generation from reaching public sitemaps.
+      </p>
+    </div>
+
+    <!-- Cell 3: Chrono-Nutrition Metabolic Window (4 cols) -->
+    <div class="md:col-span-6 lg:col-span-4 rounded-3xl border border-stone-200/90 dark:border-stone-800 bg-surface-card p-6 card-interactive shadow-xs container-card">
+      <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-amber-700 dark:text-amber-400 mb-3">
+        <BotanicalMotif name="sun-moon" class="h-4 w-4" />
+        <span>Diurnal Insulin Peak</span>
+      </div>
+      <h3 class="text-lg font-bold text-stone-900 dark:text-stone-100">
+        08:00 — 14:00 Window
+      </h3>
+      <p class="mt-2 text-xs sm:text-sm text-stone-600 dark:text-stone-300 leading-relaxed">
+        Skeletal muscle GLUT4 glucose uptake and insulin sensitivity reach peak biological amplitude prior to afternoon melatonin elevation.
+      </p>
+      <a href="/knowledge/circadian-nutrition" class="mt-4 inline-block text-xs font-bold text-emerald-700 dark:text-emerald-400 hover:underline">
+        Explore Chrono-Guide &rarr;
+      </a>
+    </div>
+
+    <!-- Cell 4: Bioactive Compound Spectrum (4 cols) -->
+    <div class="md:col-span-6 lg:col-span-4 rounded-3xl border border-stone-200/90 dark:border-stone-800 bg-surface-card p-6 card-interactive shadow-xs container-card">
+      <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-emerald-800 dark:text-emerald-400 mb-3">
+        <BotanicalMotif name="cellular-network" class="h-4 w-4" />
+        <span>Phytochemical Taxonomy</span>
+      </div>
+      <div class="flex flex-wrap gap-1.5 mt-2">
+        <span class="rounded-md bg-stone-100 dark:bg-stone-800 px-2 py-0.5 text-xs font-medium text-stone-700 dark:text-stone-300">Polyphenols</span>
+        <span class="rounded-md bg-stone-100 dark:bg-stone-800 px-2 py-0.5 text-xs font-medium text-stone-700 dark:text-stone-300">Flavonoids</span>
+        <span class="rounded-md bg-stone-100 dark:bg-stone-800 px-2 py-0.5 text-xs font-medium text-stone-700 dark:text-stone-300">Carotenoids</span>
+        <span class="rounded-md bg-stone-100 dark:bg-stone-800 px-2 py-0.5 text-xs font-medium text-stone-700 dark:text-stone-300">Glucosinolates</span>
+      </div>
+      <p class="mt-3 text-xs sm:text-sm text-stone-600 dark:text-stone-300 leading-relaxed">
+        Synergistic food matrix interactions frequently outperform isolated pharmacologic megadoses in randomized trials.
+      </p>
+    </div>
+
+    <!-- Cell 5: Clinical Safety & Herb-Drug Radar (4 cols) -->
+    <div class="md:col-span-12 lg:col-span-4 rounded-3xl border border-stone-200/90 dark:border-stone-800 bg-surface-card p-6 card-interactive shadow-xs container-card">
+      <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-red-700 dark:text-red-400 mb-3">
+        <Icons name="alert-triangle" size={14} />
+        <span>Safety &amp; Contraindications</span>
+      </div>
+      <h3 class="text-lg font-bold text-stone-900 dark:text-stone-100">
+        Cytochrome P450 (CYP) Radar
+      </h3>
+      <p class="mt-2 text-xs sm:text-sm text-stone-600 dark:text-stone-300 leading-relaxed">
+        Botanicals modulate phase-1 hepatic metabolism. High-potency extracts can drastically alter prescription pharmaceutical clearance.
+      </p>
+      <a href="/knowledge/drug-interactions" class="mt-4 inline-block text-xs font-bold text-red-700 dark:text-red-400 hover:underline">
+        Check Drug Interactions &rarr;
+      </a>
+    </div>
+  </div>
+</section>

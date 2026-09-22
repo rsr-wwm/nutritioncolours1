@@ -11,8 +11,6 @@ seoKeywords: ["Hashimotos"]
 
 # Hashimoto's
 
-![Hashimoto's](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Leaky gut triggers thyroid attack.

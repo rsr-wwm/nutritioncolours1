@@ -11,8 +11,6 @@ seoKeywords: ["Low Libido"]
 
 # Low Libido
 
-![Low Libido](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Chronic stress, lack of zinc.

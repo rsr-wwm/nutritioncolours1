@@ -1,10 +1,129 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import EditorialPolicy from '../../components/EditorialPolicy';
+import LegalTabs from '../../components/legal/LegalTabs.astro';
 ---
 <BaseLayout
-  title="Clinical Editorial Policy | NutritionColours"
-  description="Medical peer review guidelines, editorial policies, and scientific source verification rules."
+  title="Editorial policy | NutritionColours"
+  description="Publication, sourcing, correction, and AI-use standards for NutritionColours."
+  breadcrumbs={[
+    { name: 'Home', path: '/' },
+    { name: 'Legal & Policies', path: '/legal/editorial-policy' },
+    { name: 'Editorial policy', path: '/legal/editorial-policy' },
+  ]}
 >
-  <EditorialPolicy client:load navigate={(path) => { if (typeof globalThis !== 'undefined' && globalThis.window) globalThis.window.location.href = '/' + path; }} />
+  <article class="max-w-4xl mx-auto px-6 py-16 md:py-24">
+    <nav aria-label="Breadcrumb" class="text-sm text-stone-600 dark:text-stone-400">
+      <ol class="flex flex-wrap items-center gap-2">
+        <li><a href="/" class="font-bold text-emerald-800 dark:text-emerald-400 hover:underline">Home</a></li>
+        <li aria-hidden="true">/</li>
+        <li><span class="text-stone-500 dark:text-stone-400">Policies</span></li>
+        <li aria-hidden="true">/</li>
+        <li aria-current="page" class="font-medium text-stone-900 dark:text-stone-200">Editorial policy</li>
+      </ol>
+    </nav>
+
+    <!-- Legal Sub-Navigation Tabs -->
+    <LegalTabs current="/legal/editorial-policy" />
+
+    <div class="mt-8 inline-flex items-center gap-2 rounded-full border border-emerald-300 dark:border-emerald-800 bg-emerald-50 dark:bg-emerald-950/40 px-3.5 py-1 text-xs font-bold uppercase tracking-widest text-emerald-800 dark:text-emerald-300">
+      <span class="inline-block h-2 w-2 rounded-full bg-emerald-500" aria-hidden="true"></span>
+      E-E-A-T Governance Standard
+    </div>
+
+    <h1 class="mt-4 text-4xl md:text-5xl font-black text-emerald-950 dark:text-emerald-50 brand-font tracking-tight">
+      Editorial policy & publication standards
+    </h1>
+
+    <p class="mt-4 text-sm text-stone-500 dark:text-stone-400">
+      Last updated: <time datetime="2026-08-20">20 August 2026</time> &middot; Release Baseline: v2.4
+    </p>
+
+    <p class="mt-6 text-lg leading-relaxed text-stone-700 dark:text-stone-300 border-l-4 border-emerald-500 pl-5">
+      This policy states the release standard for NutritionColours. It governs all published guides, citations, and claim boundaries. It does not assert that every unreviewed legacy draft has passed this gate.
+    </p>
+
+    <div class="mt-12 space-y-10">
+      <!-- Section 1: Publication Standard -->
+      <section class="rounded-3xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 p-7 md:p-8 shadow-sm space-y-3">
+        <h2 class="text-2xl font-black text-emerald-950 dark:text-emerald-100 brand-font">Publication standard</h2>
+        <p class="text-base leading-relaxed text-stone-700 dark:text-stone-300">
+          Indexable health content must explicitly identify its educational scope, distinguish broad nutritional facts from individual medical prescription, cite primary peer-reviewed sources that directly support material assertions, display a substantive review timestamp only when an expert review occurred, and strictly avoid guaranteed outcome claims.
+        </p>
+      </section>
+
+      <!-- Section 2: High-Risk Drafts -->
+      <section class="rounded-3xl border border-amber-200 dark:border-amber-800/60 bg-amber-50/70 dark:bg-amber-950/30 p-7 md:p-8 text-amber-950 dark:text-amber-200 space-y-3">
+        <h2 class="text-2xl font-black text-amber-950 dark:text-amber-100 brand-font">High-risk drafts quarantine</h2>
+        <p class="text-base leading-relaxed text-stone-700 dark:text-stone-300">
+          Condition, herb, drug interaction, nutrigenomics, program, and unverified practitioner profile drafts remain strictly excluded from search indexing until identity, credentials, and claim-level evidence gates pass completely. Structured data must never imply a review, credential, rating, physical locality, or service absent from the visible page.
+        </p>
+      </section>
+
+      <!-- Section 3: 4-Tier Source Hierarchy -->
+      <section class="rounded-3xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 p-7 md:p-8 shadow-sm space-y-5">
+        <h2 class="text-2xl font-black text-emerald-950 dark:text-emerald-100 brand-font">Evidence & source hierarchy</h2>
+        <p class="text-sm text-stone-600 dark:text-stone-400">
+          Every statement must anchor to the highest available tier in our scientific evidence ladder:
+        </p>
+
+        <div class="grid gap-4 sm:grid-cols-2">
+          <div class="rounded-2xl border border-stone-200 dark:border-stone-800 bg-stone-50/70 dark:bg-stone-800/50 p-5">
+            <span class="inline-block text-[11px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-900/60 text-emerald-800 dark:text-emerald-300 mb-2">
+              Tier 1 · Primary Evidence
+            </span>
+            <p class="text-sm font-bold text-stone-900 dark:text-stone-100">Systematic Reviews & Human RCTs</p>
+            <p class="mt-1 text-xs text-stone-600 dark:text-stone-400">PubMed and indexed clinical trials with active DOIs and sample sizes.</p>
+          </div>
+
+          <div class="rounded-2xl border border-stone-200 dark:border-stone-800 bg-stone-50/70 dark:bg-stone-800/50 p-5">
+            <span class="inline-block text-[11px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-blue-100 dark:bg-blue-900/60 text-blue-800 dark:text-blue-300 mb-2">
+              Tier 2 · Authoritative Guidance
+            </span>
+            <p class="text-sm font-bold text-stone-900 dark:text-stone-100">Official Health Authorities</p>
+            <p class="mt-1 text-xs text-stone-600 dark:text-stone-400">Guidelines from WHO, ICMR-NIN, EFSA, and national public health agencies.</p>
+          </div>
+
+          <div class="rounded-2xl border border-stone-200 dark:border-stone-800 bg-stone-50/70 dark:bg-stone-800/50 p-5">
+            <span class="inline-block text-[11px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-stone-200 dark:bg-stone-700 text-stone-800 dark:text-stone-300 mb-2">
+              Tier 3 · Baseline Reference
+            </span>
+            <p class="text-sm font-bold text-stone-900 dark:text-stone-100">Recognized Food Composition Tables</p>
+            <p class="mt-1 text-xs text-stone-600 dark:text-stone-400">USDA FoodData Central and Indian Food Composition Tables (IFCT).</p>
+          </div>
+
+          <div class="rounded-2xl border border-amber-200 dark:border-amber-900/60 bg-amber-50/50 dark:bg-amber-950/20 p-5">
+            <span class="inline-block text-[11px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-amber-100 dark:bg-amber-900/60 text-amber-800 dark:text-amber-300 mb-2">
+              Tier 4 · Quarantined
+            </span>
+            <p class="text-sm font-bold text-stone-900 dark:text-stone-100">Preliminary Hypotheses</p>
+            <p class="mt-1 text-xs text-stone-600 dark:text-stone-400">In vitro assays and non-human animal studies; excluded from indexable claims.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 4: AI Boundaries -->
+      <section class="rounded-3xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 p-7 md:p-8 shadow-sm space-y-3">
+        <h2 class="text-2xl font-black text-emerald-950 dark:text-emerald-100 brand-font">AI-assisted content boundaries</h2>
+        <p class="text-base leading-relaxed text-stone-700 dark:text-stone-300">
+          Machine-generated output is treated strictly as an untrusted draft. Names, credentials, URLs, statistics, quotations, dates, citations, and medical claims require primary human verification against our immutable claims ledger. AI text is never a clinical reviewer and cannot establish scientific evidence.
+        </p>
+      </section>
+
+      <!-- Section 5: Corrections -->
+      <section class="rounded-3xl border border-stone-200 dark:border-stone-800 bg-stone-50/70 dark:bg-stone-800/50 p-7 md:p-8 space-y-4">
+        <h2 class="text-2xl font-black text-emerald-950 dark:text-emerald-100 brand-font">Correction & retraction protocol</h2>
+        <p class="text-sm leading-relaxed text-stone-600 dark:text-stone-300">
+          If you identify an inaccurate claim, outdated trial citation, or missing contraindication, submit the URL and peer-reviewed reference to our editorial review desk. Safety-critical errors are quarantined within 24 hours.
+        </p>
+        <div>
+          <a
+            href="mailto:info@nutritioncolours.com?subject=Citation%20Correction%20Notice"
+            class="inline-flex items-center gap-2 rounded-xl bg-emerald-900 dark:bg-emerald-700 px-5 py-2.5 text-sm font-bold text-white hover:bg-emerald-800 dark:hover:bg-emerald-800 transition-colors"
+          >
+            Submit editorial correction &rarr;
+          </a>
+        </div>
+      </section>
+    </div>
+  </article>
 </BaseLayout>

@@ -217,6 +217,11 @@ for (const file of files.filter((item) => item.endsWith('.json'))) {
   try { JSON.parse(fs.readFileSync(file, 'utf8')); } catch (error) { failures.push(`${path.relative(dist, file)}: invalid public JSON (${error.message})`); }
 }
 
+const minLeafPages = Number(process.env.MIN_LEAF_PAGES || 0);
+if (approvedLeafRoutes.size < minLeafPages) {
+  failures.push(`approved leaf count ${approvedLeafRoutes.size} is below the required coverage floor ${minLeafPages}`);
+}
+
 for (const route of approvedLeafRoutes) {
   if (!htmlByRoute.has(route.replace(/\/$/, '') || '/')) failures.push(`approved projection route is missing from generated HTML: ${route}`);
 }

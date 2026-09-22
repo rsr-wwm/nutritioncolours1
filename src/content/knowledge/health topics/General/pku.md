@@ -11,8 +11,6 @@ seoKeywords: ["PKU"]
 
 # PKU
 
-![PKU](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Genetic lack of enzyme.

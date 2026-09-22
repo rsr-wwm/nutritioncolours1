@@ -11,8 +11,6 @@ seoKeywords: ["Geriatric Strength Nutrition"]
 
 # Geriatric Strength Nutrition
 
-![Geriatric Strength Nutrition](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Age-related loss of muscle mass (sarcopenia) and strength, leading to falls and stiffness.

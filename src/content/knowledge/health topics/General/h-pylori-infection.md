@@ -11,8 +11,6 @@ seoKeywords: ["H. pylori Infection"]
 
 # H. pylori Infection
 
-![H. pylori Infection](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Contaminated food/water.

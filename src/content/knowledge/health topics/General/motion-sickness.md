@@ -11,8 +11,6 @@ seoKeywords: ["Motion Sickness"]
 
 # Motion Sickness
 
-![Motion Sickness](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Sensory mismatch in brain.

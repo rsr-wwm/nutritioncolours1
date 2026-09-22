@@ -11,8 +11,6 @@ seoKeywords: ["Fetal Alcohol Syndrome"]
 
 # Fetal Alcohol Syndrome
 
-![Fetal Alcohol Syndrome](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Alcohol poisons fetal brain.

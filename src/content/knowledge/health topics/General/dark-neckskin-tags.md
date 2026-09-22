@@ -11,8 +11,6 @@ seoKeywords: ["Dark Neck/Skin Tags"]
 
 # Dark Neck/Skin Tags
 
-![Dark Neck/Skin Tags](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 High insulin thickens skin folds.

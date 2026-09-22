@@ -11,8 +11,6 @@ seoKeywords: ["Metabolic Syndrome"]
 
 # Metabolic Syndrome
 
-![Metabolic Syndrome](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Junk diet causes simultaneous metabolic failures.

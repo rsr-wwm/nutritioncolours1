@@ -11,8 +11,6 @@ seoKeywords: ["Weight Loss for Women"]
 
 # Weight Loss for Women
 
-![Weight Loss for Women](https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=800)
-
 ## Problem
 
 Hormonal shifts impacting metabolism and weight storage.

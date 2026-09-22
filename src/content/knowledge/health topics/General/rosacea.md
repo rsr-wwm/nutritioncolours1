@@ -11,8 +11,6 @@ seoKeywords: ["Rosacea"]
 
 # Rosacea
 
-![Rosacea](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Spicy food, alcohol, sun dilate vessels.

@@ -11,8 +11,6 @@ seoKeywords: ["Systemic Yeast"]
 
 # Systemic Yeast
 
-![Systemic Yeast](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 High sugar/antibiotics.

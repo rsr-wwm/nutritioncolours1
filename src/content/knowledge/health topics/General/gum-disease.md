@@ -11,8 +11,6 @@ seoKeywords: ["Gum Disease"]
 
 # Gum Disease
 
-![Gum Disease](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Sugar/smoking destroy bone.

@@ -11,8 +11,6 @@ seoKeywords: ["Kidney Stones"]
 
 # Kidney Stones
 
-![Kidney Stones](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Dehydration + high salt/oxalates.

@@ -11,8 +11,6 @@ seoKeywords: ["Heel/Arch Pain"]
 
 # Heel/Arch Pain
 
-![Heel/Arch Pain](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Standing on hard surfaces.

@@ -11,8 +11,6 @@ seoKeywords: ["Liver Health & Metabolic Detoxification"]
 
 # Liver Health & Metabolic Detoxification
 
-![Liver Health & Metabolic Detoxification](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Fat accumulation in the liver primarily caused by excessive sugar and processed food intake.

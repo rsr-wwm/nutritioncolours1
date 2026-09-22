@@ -11,8 +11,6 @@ seoKeywords: ["Pediatric ADHD Focus"]
 
 # Pediatric ADHD Focus
 
-![Pediatric ADHD Focus](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Hyperactivity, lack of focus, and emotional dysregulation in children.

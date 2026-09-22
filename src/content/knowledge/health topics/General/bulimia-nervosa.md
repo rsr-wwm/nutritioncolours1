@@ -11,8 +11,6 @@ seoKeywords: ["Bulimia Nervosa"]
 
 # Bulimia Nervosa
 
-![Bulimia Nervosa](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Trauma and control issues.

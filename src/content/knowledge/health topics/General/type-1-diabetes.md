@@ -11,8 +11,6 @@ seoKeywords: ["Type 1 Diabetes"]
 
 # Type 1 Diabetes
 
-![Type 1 Diabetes](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Autoimmune attack on pancreas.

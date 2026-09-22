@@ -11,8 +11,6 @@ seoKeywords: ["Migraines"]
 
 # Migraines
 
-![Migraines](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Fasting/tyramine foods trigger spasms.

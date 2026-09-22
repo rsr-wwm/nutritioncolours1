@@ -11,8 +11,6 @@ seoKeywords: ["Insomnia"]
 
 # Insomnia
 
-![Insomnia](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Caffeine/blue light ruin rhythm.

@@ -11,8 +11,6 @@ seoKeywords: ["DVT"]
 
 # DVT
 
-![DVT](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Sitting too long causes clot.

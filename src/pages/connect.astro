@@ -1,77 +1,76 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { ConnectPage } from '../components/ConnectPage';
-
-const SITE_URL = (Astro.site || 'https://nutritioncolours.com').toString().replace(/\/$/, '');
-const connectSchema = {
-  "@context": "https://schema.org",
-  "@type": "MedicalWebPage",
-  "url": `${SITE_URL}/connect`,
-  "name": "Metabolic Health Hub & Onboarding | NutritionColours",
-  "description": "Register for clinical metabolic programs, coordinate digital intake records, and join our remote metabolic health community.",
-  "publisher": { "@id": `${SITE_URL}/#organization` }
-};
+import Icons from '../components/Icons.astro';
 ---
 <BaseLayout
-  title="Metabolic Health Hub & Onboarding Portal | NutritionColours"
-  description="Join our remote metabolic health community. Complete your clinical intake onboarding, submit diagnostic lab reports, and access chrononutrition protocols."
-  keywords={["metabolic health community", "patient onboarding portal", "clinical intake forms", "diet plan registration"]}
+  title="Service status & intake notice | NutritionColours"
+  description="Community, patient intake, and telehealth features are currently unavailable pending clinical governance and privacy validation."
+  noindex={true}
+  breadcrumbs={[
+    { name: 'Home', path: '/' },
+    { name: 'Service status', path: '/connect' },
+  ]}
 >
-  <script type="application/ld+json" is:inline set:html={JSON.stringify(connectSchema)} />
+  <article class="max-w-4xl mx-auto px-6 py-16 md:py-24">
+    <nav aria-label="Breadcrumb" class="text-sm text-stone-600 dark:text-stone-400">
+      <ol class="flex flex-wrap items-center gap-2">
+        <li><a href="/" class="font-bold text-emerald-800 dark:text-emerald-400 hover:underline">Home</a></li>
+        <li aria-hidden="true">/</li>
+        <li aria-current="page" class="font-medium text-stone-900 dark:text-stone-200">Service status</li>
+      </ol>
+    </nav>
 
-  <ConnectPage client:load />
+    <div class="mt-6 inline-flex items-center gap-2 rounded-full border border-amber-300 dark:border-amber-700/60 bg-amber-50 dark:bg-amber-950/50 px-3.5 py-1 text-xs font-bold uppercase tracking-wider text-amber-900 dark:text-amber-300">
+      <span class="inline-block h-2 w-2 rounded-full bg-amber-500" aria-hidden="true"></span>
+      Clinical Governance Notice
+    </div>
 
-  {/* Rich Server-Rendered Connect Registry (SEO / AEO / AIO / View-Source Law) */}
-  <div class="max-w-7xl mx-auto px-6 pb-24 -mt-12">
-    <section class="prose prose-emerald max-w-none text-stone-700 bg-white p-8 md:p-12 rounded-[40px] border border-stone-150/40 shadow-sm space-y-8">
-      
-      <div>
-        <span class="text-emerald-700 font-black uppercase tracking-[0.2em] text-[10px] block mb-2">Onboarding Portal</span>
-        <h2 class="text-3xl font-black text-emerald-950 brand-font leading-tight m-0">
-          Metabolic Onboarding & Diagnostic Submission
-        </h2>
-        <p class="text-sm text-stone-500 leading-relaxed m-0 pt-2">
-          Use this secure portal to complete your clinical intake documents, register for wellness programs, and upload baseline diagnostic reports.
-        </p>
-      </div>
+    <h1 class="mt-4 text-fluid-hero font-black text-emerald-950 dark:text-emerald-50 brand-font">
+      Intake & community features are unavailable
+    </h1>
 
-      <div class="grid md:grid-cols-2 gap-8 pt-4">
-        <div class="space-y-4">
-          <h3 class="text-lg font-extrabold text-emerald-900 m-0">Patient Registration Steps</h3>
-          <p class="text-xs leading-relaxed text-stone-600">
-            Our onboarding process is designed to collect the necessary health information for a personalized metabolic plan. To get started, choose your program (Metabolic Mastery, Therapeutic Reversal, or Cellular Resurrection) and complete the digital intake form. You will provide details on your dietary habits, daily schedule, and metabolic goals.
-          </p>
-          <p class="text-xs leading-relaxed text-stone-605">
-            Once submitted, your intake file is assigned to a clinical specialist who reviews the details to prepare your initial program timeline.
-          </p>
-        </div>
+    <p class="mt-6 text-lg leading-relaxed text-stone-700 dark:text-stone-300 border-l-4 border-amber-400 dark:border-amber-500 pl-5">
+      NutritionColours does not currently operate an active patient portal, diagnostic intake questionnaire, telehealth appointment scheduler, or public community forum.
+    </p>
 
-        <div class="space-y-4">
-          <h3 class="text-lg font-extrabold text-emerald-900 m-0">Diagnostic Lab Panel Submission</h3>
-          <p class="text-xs leading-relaxed text-stone-600">
-            For clinical safety, baseline blood chemistry reports must be submitted before beginning your dietary protocol. These reports provide the objective data needed to identify metabolic stressors, track liver lipids, and customize insulin response guidelines.
-          </p>
-          <p class="text-xs leading-relaxed text-stone-605">
-            You can upload diagnostic reports directly through this portal or email them to your clinical coordinator. Follow-up panels are scheduled periodically to measure progress.
-          </p>
-        </div>
-      </div>
-
-      <hr class="border-stone-100 my-8" />
-
-      <div class="pt-4 space-y-4">
-        <h3 class="text-xl font-bold text-emerald-900 m-0">Metabolic Support & Medical Coordination</h3>
-        <p class="text-sm leading-relaxed text-stone-650">
-          The NutritionColours framework is designed to complement standard medical treatments. Our focus is on optimizing metabolic health through circadian-aligned meal timing and evidence-based swaps, such as millets, low-glycemic grains, and therapeutic spices from our Nutritional Color Code database.
-        </p>
-        <p class="text-sm leading-relaxed text-stone-650">
-          We encourage active communication with your primary care physician to ensure all modifications coordinate with your existing treatments. Any adjustments to prescribed medications must be managed directly with your doctor.
-        </p>
-        <p class="text-sm leading-relaxed text-stone-650">
-          All client information is kept secure and confidential, ensuring a private, supportive path toward metabolic wellness.
-        </p>
-      </div>
-
+    <!-- Governance Principles Box -->
+    <section class="card-interactive mt-10 rounded-3xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 p-6 md:p-8 shadow-sm space-y-4" aria-labelledby="boundary-principles-heading">
+      <h2 id="boundary-principles-heading" class="text-xl font-black text-emerald-950 dark:text-emerald-100">
+        Clinical Scope & Data Safeguard Principles
+      </h2>
+      <ul class="list-disc space-y-3 pl-5 text-sm leading-relaxed text-stone-600 dark:text-stone-400">
+        <li>
+          <strong class="text-stone-900 dark:text-stone-200">Zero Diagnostic Ingestion:</strong> We do not collect medical histories, diagnostic laboratory panels, or symptoms to generate automated dietary recommendations.
+        </li>
+        <li>
+          <strong class="text-stone-900 dark:text-stone-200">Patient Data Privacy:</strong> User registration and consultation modules will remain offline until end-to-end security architectures complying with India's DPDP Act and international health data standards are certified.
+        </li>
+        <li>
+          <strong class="text-stone-900 dark:text-stone-200">No Telehealth Operations:</strong> Remote consulting channels remain in planned status and will only be activated when certified clinical practitioners and verifiable medical indemnity protocols are operational.
+        </li>
+      </ul>
     </section>
-  </div>
+
+    <!-- Medical Emergency Reminder -->
+    <div class="mt-8 rounded-3xl border border-red-200 dark:border-red-900/60 bg-red-50/70 dark:bg-red-950/30 p-6 text-sm leading-relaxed text-red-950 dark:text-red-200 space-y-2">
+      <div class="flex items-center gap-2.5">
+        <span class="inline-flex h-7 w-7 items-center justify-center rounded-lg bg-red-100 dark:bg-red-900/60 text-red-700 dark:text-red-300 border border-red-200 dark:border-red-800" aria-hidden="true">
+          <Icons name="alert-triangle" size={16} />
+        </span>
+        <h3 class="font-bold text-base text-red-950 dark:text-red-100">Acute Medical Emergency Notice</h3>
+      </div>
+      <p class="text-red-900 dark:text-red-200">
+        If you or someone you know is experiencing acute symptoms, chest pain, difficulty breathing, allergic anaphylaxis, or sudden severe distress, call your local emergency service or proceed to an emergency room immediately.
+      </p>
+    </div>
+
+    <div class="mt-10 flex flex-wrap gap-4 text-sm font-bold">
+      <a href="/" class="inline-flex items-center gap-2 rounded-xl bg-emerald-900 dark:bg-emerald-700 px-5 py-3 text-white hover:bg-emerald-800 dark:hover:bg-emerald-800 transition-colors">
+        Return to homepage
+      </a>
+      <a href="/contact" class="inline-flex items-center gap-2 rounded-xl border border-stone-300 dark:border-stone-700 bg-white dark:bg-stone-800 px-5 py-3 text-stone-800 dark:text-stone-200 hover:border-emerald-600 transition-colors">
+        Contact editorial desk
+      </a>
+    </div>
+  </article>
 </BaseLayout>

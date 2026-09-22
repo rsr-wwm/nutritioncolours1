@@ -11,8 +11,6 @@ seoKeywords: ["Fatty Liver"]
 
 # Fatty Liver
 
-![Fatty Liver](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Excess fructose/alcohol turned into liver fat.

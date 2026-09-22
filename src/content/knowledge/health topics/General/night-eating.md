@@ -11,8 +11,6 @@ seoKeywords: ["Night Eating"]
 
 # Night Eating
 
-![Night Eating](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Skipping breakfast/undereating.

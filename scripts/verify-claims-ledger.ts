@@ -16,7 +16,7 @@ function walkDir(dir: string, callback: (filePath: string) => void) {
     if (fs.statSync(dirPath).isDirectory()) {
       walkDir(dirPath, callback);
     } else {
-      if (dirPath.endsWith('.md') || dirPath.endsWith('.mdx') || dirPath.endsWith('.astro')) {
+      if (dirPath.endsWith('.md') || dirPath.endsWith('.mdx') || dirPath.endsWith('.astro') || dirPath.endsWith('.tsx') || dirPath.endsWith('.ts')) {
         callback(dirPath);
       }
     }

@@ -11,8 +11,6 @@ seoKeywords: ["UTI / Cystitis"]
 
 # UTI / Cystitis
 
-![UTI / Cystitis](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 E. coli climbs urethra.

@@ -11,8 +11,6 @@ seoKeywords: ["Gestational Diabetes"]
 
 # Gestational Diabetes
 
-![Gestational Diabetes](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Pregnancy hormones cause insulin resistance.

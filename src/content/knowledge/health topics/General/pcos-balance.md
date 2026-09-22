@@ -11,8 +11,6 @@ seoKeywords: ["Endocrine & Hormonal Balance"]
 
 # Endocrine & Hormonal Balance
 
-![Endocrine & Hormonal Balance](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Hormonal imbalance often caused by insulin resistance, leading to elevated androgens and fertility issues.

@@ -11,8 +11,6 @@ seoKeywords: ["Healthy Aging Solutions"]
 
 # Healthy Aging Solutions
 
-![Healthy Aging Solutions](https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=800)
-
 ## Problem
 
 Fragility, cognitive decline, and loss of independence.

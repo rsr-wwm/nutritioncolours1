@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Verified authority records required by publishable leaf pages. Empty collections are intentional until evidence and identities are independently approved.",
+  "authors": [],
+  "reviewers": [],
+  "sources": [],
+  "claims": [],
+  "taxonomies": [],
+  "reviewEvents": [],
+  "relations": []
+}

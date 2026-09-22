@@ -1,0 +1,256 @@
+---
+interface Props {
+  name: 'leaf-branch' | 'sun-moon' | 'flask-leaf' | 'divider-flourish' | 'fibonacci-spiral' | 'cellular-network' | 'deterministic-watermark';
+  class?: string;
+  size?: number | string;
+  seed?: string;
+}
+
+const { name, class: className = '', size, seed = 'nutritioncolours' } = Astro.props;
+const dimensionStyle = size ? `width: ${typeof size === 'number' ? `${size}px` : size}; height: ${typeof size === 'number' ? `${size}px` : size};` : undefined;
+
+// Deterministic seed hashing for procedural plant geometry
+function hashSeed(str: string): number {
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    hash = (hash << 5) - hash + str.charCodeAt(i);
+    hash |= 0;
+  }
+  return Math.abs(hash);
+}
+
+const seedNum = hashSeed(seed);
+const rot = (seedNum % 24) - 12; // -12deg to +12deg tilt
+const curvature = 20 + (seedNum % 15); // Dynamic curve control point
+---
+
+{name === 'leaf-branch' && (
+  <svg
+    viewBox="0 0 48 48"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    class:list={['inline-block shrink-0', className]}
+    style={dimensionStyle}
+    aria-hidden="true"
+  >
+    <path
+      d="M8 40C16 36 28 26 38 10"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+    />
+    <path
+      d="M38 10C35 16 28 17 24 16C26 12 32 9 38 10Z"
+      fill="currentColor"
+      fill-opacity="0.25"
+      stroke="currentColor"
+      stroke-width="1.5"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M27 22C21 24 17 21 16 17C21 16 26 18 27 22Z"
+      fill="currentColor"
+      fill-opacity="0.25"
+      stroke="currentColor"
+      stroke-width="1.5"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M32 20C34 26 31 31 27 33C27 27 30 22 32 20Z"
+      fill="currentColor"
+      fill-opacity="0.25"
+      stroke="currentColor"
+      stroke-width="1.5"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M20 32C15 33 12 30 12 26C17 26 20 29 20 32Z"
+      fill="currentColor"
+      fill-opacity="0.25"
+      stroke="currentColor"
+      stroke-width="1.5"
+      stroke-linejoin="round"
+    />
+  </svg>
+)}
+
+{name === 'sun-moon' && (
+  <svg
+    viewBox="0 0 48 48"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    class:list={['inline-block shrink-0', className]}
+    style={dimensionStyle}
+    aria-hidden="true"
+  >
+    <circle cx="24" cy="24" r="11" stroke="currentColor" stroke-width="2" stroke-dasharray="3 3" />
+    <path
+      d="M24 10V6M24 42V38M38 24H42M6 24H10M33.9 14.1L36.7 11.3M11.3 36.7L14.1 33.9M33.9 33.9L36.7 36.7M11.3 11.3L14.1 14.1"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+    />
+    <path
+      d="M22 17C22 17 27 19 27 24C27 29 22 31 22 31C28 31 32 27 32 24C32 21 28 17 22 17Z"
+      fill="currentColor"
+      fill-opacity="0.3"
+      stroke="currentColor"
+      stroke-width="1.5"
+      stroke-linejoin="round"
+    />
+  </svg>
+)}
+
+{name === 'flask-leaf' && (
+  <svg
+    viewBox="0 0 48 48"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    class:list={['inline-block shrink-0', className]}
+    style={dimensionStyle}
+    aria-hidden="true"
+  >
+    <path
+      d="M21 8H27M22 8V18L12 36C10.7 38.3 12.3 41 15 41H33C35.7 41 37.3 38.3 36 36L26 18V8"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M17 31C21 28 27 28 31 31"
+      stroke="currentColor"
+      stroke-width="1.5"
+      stroke-linecap="round"
+    />
+    <path
+      d="M24 38C24 38 21 34 23 30C25 26 29 27 29 27C29 27 28 32 25 35C24.5 35.5 24 38 24 38Z"
+      fill="currentColor"
+      fill-opacity="0.35"
+      stroke="currentColor"
+      stroke-width="1.5"
+      stroke-linejoin="round"
+    />
+  </svg>
+)}
+
+{name === 'divider-flourish' && (
+  <svg
+    viewBox="0 0 240 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    class:list={['inline-block w-full max-w-[240px] h-6', className]}
+    style={dimensionStyle}
+    aria-hidden="true"
+  >
+    <line x1="12" y1="12" x2="90" y2="12" stroke="currentColor" stroke-width="1" stroke-opacity="0.4" />
+    <path
+      d="M96 12C102 8 108 8 112 12C108 10 102 12 96 12Z"
+      fill="currentColor"
+      fill-opacity="0.5"
+    />
+    <circle cx="120" cy="12" r="3" fill="currentColor" />
+    <path
+      d="M144 12C138 8 132 8 128 12C132 10 138 12 144 12Z"
+      fill="currentColor"
+      fill-opacity="0.5"
+    />
+    <line x1="150" y1="12" x2="228" y2="12" stroke="currentColor" stroke-width="1" stroke-opacity="0.4" />
+  </svg>
+)}
+
+{name === 'fibonacci-spiral' && (
+  <svg
+    viewBox="0 0 48 48"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    class:list={['inline-block shrink-0', className]}
+    style={dimensionStyle}
+    aria-hidden="true"
+  >
+    <!-- Sacred Golden Ratio Phyllotaxis Nodes -->
+    <circle cx="24" cy="24" r="2" fill="currentColor" />
+    <circle cx="24" cy="20" r="1.5" fill="currentColor" fill-opacity="0.8" />
+    <circle cx="27.5" cy="22.5" r="1.5" fill="currentColor" fill-opacity="0.8" />
+    <circle cx="25.5" cy="27.5" r="1.5" fill="currentColor" fill-opacity="0.8" />
+    <circle cx="20.5" cy="26" r="1.5" fill="currentColor" fill-opacity="0.8" />
+    <circle cx="19.5" cy="20.5" r="1.75" fill="currentColor" fill-opacity="0.6" />
+    <circle cx="24" cy="15" r="1.75" fill="currentColor" fill-opacity="0.6" />
+    <circle cx="31" cy="18.5" r="1.75" fill="currentColor" fill-opacity="0.6" />
+    <circle cx="32" cy="27" r="1.75" fill="currentColor" fill-opacity="0.6" />
+    <circle cx="26" cy="33" r="2" fill="currentColor" fill-opacity="0.5" />
+    <circle cx="17" cy="31" r="2" fill="currentColor" fill-opacity="0.5" />
+    <circle cx="13" cy="23" r="2" fill="currentColor" fill-opacity="0.5" />
+    <circle cx="15.5" cy="14" r="2.25" fill="currentColor" fill-opacity="0.4" />
+    <circle cx="25" cy="9" r="2.25" fill="currentColor" fill-opacity="0.4" />
+    <circle cx="35" cy="13" r="2.25" fill="currentColor" fill-opacity="0.4" />
+    <circle cx="39" cy="24" r="2.25" fill="currentColor" fill-opacity="0.4" />
+    <circle cx="34" cy="36" r="2.5" fill="currentColor" fill-opacity="0.3" />
+    <circle cx="21" cy="40" r="2.5" fill="currentColor" fill-opacity="0.3" />
+  </svg>
+)}
+
+{name === 'cellular-network' && (
+  <svg
+    viewBox="0 0 48 48"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    class:list={['inline-block shrink-0', className]}
+    style={dimensionStyle}
+    aria-hidden="true"
+  >
+    <path
+      d="M24 6L36 13V27L24 34L12 27V13L24 6Z"
+      stroke="currentColor"
+      stroke-width="1.5"
+      stroke-linejoin="round"
+      stroke-opacity="0.7"
+    />
+    <path
+      d="M24 34V46M36 27L46 33M36 13L46 7M12 27L2 33M12 13L2 7M24 6V0"
+      stroke="currentColor"
+      stroke-width="1.25"
+      stroke-linejoin="round"
+      stroke-opacity="0.4"
+    />
+    <circle cx="24" cy="20" r="4" fill="currentColor" fill-opacity="0.2" stroke="currentColor" stroke-width="1" />
+  </svg>
+)}
+
+{name === 'deterministic-watermark' && (
+  <svg
+    viewBox="0 0 120 120"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    class:list={['inline-block shrink-0 select-none pointer-events-none', className]}
+    style={dimensionStyle}
+    aria-hidden="true"
+  >
+    <g transform={`rotate(${rot} 60 60)`}>
+      <path
+        d={`M20 100 Q${curvature} 50 100 20`}
+        stroke="currentColor"
+        stroke-width="2.5"
+        stroke-linecap="round"
+      />
+      <!-- Dynamic Seed-derived Vein Ribs -->
+      <path
+        d={`M100 20 C90 35 70 ${35 + (seedNum % 10)} 60 45 C75 30 90 22 100 20 Z`}
+        fill="currentColor"
+        fill-opacity="0.15"
+        stroke="currentColor"
+        stroke-width="1.5"
+      />
+      <path
+        d={`M60 45 C45 55 35 70 30 85 C45 75 55 60 60 45 Z`}
+        fill="currentColor"
+        fill-opacity="0.12"
+        stroke="currentColor"
+        stroke-width="1.5"
+      />
+      <circle cx="60" cy="45" r="3" fill="currentColor" fill-opacity="0.3" />
+      <circle cx="100" cy="20" r="2.5" fill="currentColor" fill-opacity="0.5" />
+    </g>
+  </svg>
+)}
+

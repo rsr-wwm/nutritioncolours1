@@ -11,8 +11,6 @@ seoKeywords: ["Lupus"]
 
 # Lupus
 
-![Lupus](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 UV light, stress, alfalfa trigger flares.

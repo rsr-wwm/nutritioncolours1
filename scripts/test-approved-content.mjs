@@ -6,10 +6,13 @@ const record = {
   stableId: 'health-example-condition', pageKind: 'health', entityType: 'condition', claimIds,
 };
 const answer = (id, text = 'This evidence-based explanation states the bounded fact clearly and includes appropriate context for readers without implying diagnosis, treatment instructions, or a guaranteed outcome.') => ({ id, text, claimIds });
+const openingAnswerText = 'This evidence-based explanation opens with the bounded, standalone fact for readers scanning quickly, states the scope clearly, identifies that individual assessment belongs with qualified professionals, and avoids diagnosis, treatment instructions, or outcome promises while remaining independently extractable by search and answer systems today.';
 const section = (id) => ({
   id,
   heading: id.replaceAll('-', ' '),
-  blocks: Array.from({ length: 5 }, (_, index) => answer(`${id}-answer-${index + 1}`)),
+  blocks: Array.from({ length: 5 }, (_, index) => (
+    index === 0 ? answer(`${id}-answer-1`, openingAnswerText) : answer(`${id}-answer-${index + 1}`)
+  )),
 });
 const valid = {
   schemaVersion: 1,

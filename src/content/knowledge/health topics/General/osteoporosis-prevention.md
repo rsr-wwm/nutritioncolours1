@@ -11,8 +11,6 @@ seoKeywords: ["Osteoporosis Prevention"]
 
 # Osteoporosis Prevention
 
-![Osteoporosis Prevention](https://images.unsplash.com/photo-1583454155184-870a1f63aebc?q=80&w=800)
-
 ## Problem
 
 Loss of bone mineral density, increasing fracture risk.

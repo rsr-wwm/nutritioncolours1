@@ -1,6 +1,6 @@
 import { Recipe } from './types';
 
-export const RECIPES: Recipe[] = [
+const LEGACY_RECIPE_DRAFTS: Recipe[] = [
   {
     id: 'golden-turmeric-quinoa',
     title: 'Golden Turmeric Quinoa Nourish Bowl',
@@ -1297,3 +1297,26 @@ Serving Tip: Cook barley in advance and refrigerate — like rice, cooling cooke
     preparedBy: 'Nutrition Colours Dr. Shilpa Thakur'
   }
 ];
+
+// Public routes receive a deliberately narrow projection. Legacy marketing,
+// credential, calorie, benefit, and medical-claim fields remain inaccessible to
+// templates until the underlying record completes editorial review.
+export const RECIPES: Recipe[] = LEGACY_RECIPE_DRAFTS.map((draft) => ({
+  id: draft.id,
+  title: draft.title,
+  category: draft.category,
+  image: '',
+  tags: [],
+  prepTime: draft.prepTime,
+  calories: '',
+  description: 'Unreviewed preparation draft.',
+  healingDescription: '',
+  ingredients: draft.ingredients.map((ingredient) => ({
+    name: ingredient.name,
+    detail: ingredient.detail,
+  })),
+  primaryBenefit: '',
+  fullHealingContent: '',
+  preparedBy: undefined,
+  instructions: draft.instructions || [],
+}));

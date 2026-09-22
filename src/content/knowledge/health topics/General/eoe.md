@@ -11,8 +11,6 @@ seoKeywords: ["EoE"]
 
 # EoE
 
-![EoE](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Severe food allergies.

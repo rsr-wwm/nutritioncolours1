@@ -11,8 +11,6 @@ seoKeywords: ["Eczema"]
 
 # Eczema
 
-![Eczema](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Food allergies + stress.

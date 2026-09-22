@@ -11,8 +11,6 @@ seoKeywords: ["Mouth Ulcers"]
 
 # Mouth Ulcers
 
-![Mouth Ulcers](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Stress, B12/iron deficiency.

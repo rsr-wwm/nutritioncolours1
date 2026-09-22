@@ -11,8 +11,6 @@ seoKeywords: ["Type 3c Diabetes"]
 
 # Type 3c Diabetes
 
-![Type 3c Diabetes](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Pancreatitis destroys insulin cells.

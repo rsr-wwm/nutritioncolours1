@@ -1,0 +1,4114 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Quarantined Tier-3 nutrition-reference inventory. These records are not health or food leaves and must not generate routes, canonicals, sitemaps, search entries, schema, or service claims.",
+  "publicationPolicy": "Tier-3 records require a separate reference content contract, evidence model, author/reviewer scope, and route decision before any publication.",
+  "summary": {
+    "total": 133,
+    "preliminaryMachineEligible": 0,
+    "lifecycle": {
+      "publish": 0,
+      "rewrite": 0,
+      "merge": 0,
+      "redirect": 0,
+      "quarantine": 133,
+      "retire": 0
+    },
+    "reasonCounts": {
+      "BOILERPLATE_OR_PLACEHOLDER": 61,
+      "HIGH_RISK_OUTCOME_LANGUAGE": 2,
+      "INSUFFICIENT_EXTERNAL_SOURCES": 133,
+      "MISSING_REVIEWER": 92,
+      "MISSING_SOURCES_SECTION": 92,
+      "UNSAFE_OR_RAW_SLUG": 125
+    }
+  },
+  "records": [
+    {
+      "legacyId": "reference-7ba82bc469986f12",
+      "sourcePath": "src/content/knowledge/bioactive-compounds/apigenin.md",
+      "sourceTopLevel": "bioactive-compounds",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Apigenin",
+      "description": "Brief overview of apigenin, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Apigenin",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "f94509d06b49fbc8377b9080dfce3bf791839db85086212a79c4344316177638",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 554,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-d320afcabcd851a9",
+      "sourcePath": "src/content/knowledge/bioactive-compounds/berberine.md",
+      "sourceTopLevel": "bioactive-compounds",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Berberine",
+      "description": "Brief overview of berberine, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Berberine",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "8a47b16ef74505fbfb95885b995bcccf5f285478fff528e76fc19d137e1d7d0b",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 554,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-c4c175c0368c3ba2",
+      "sourcePath": "src/content/knowledge/bioactive-compounds/curcumin.md",
+      "sourceTopLevel": "bioactive-compounds",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Curcumin",
+      "description": "Brief overview of curcumin, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Curcumin",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "67a8ac20865a081ab12ede74ea78d9a90ce273a343fb9d15183969452b20d0c4",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 554,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-25bcad78041909a2",
+      "sourcePath": "src/content/knowledge/bioactive-compounds/Marine Omega-3 Sources/func-omega3-1.md",
+      "sourceTopLevel": "bioactive-compounds",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Fatty Fish: Salmon, Mackerel, Sardines & the EPA/DHA Brain & Heart Connection",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Fatty Fish: Salmon, Mackerel, Sardines & the EPA/DHA Brain & Heart Connection.",
+      "legacySlug": "func-omega3-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "04288889389eeeb9c500678a39e84baf80ca4df59711f415131733e638e4a969",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 2196,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-e960a886dbddb293",
+      "sourcePath": "src/content/knowledge/bioactive-compounds/Plant Omega-3 & Algae Sources/func-omega3-2.md",
+      "sourceTopLevel": "bioactive-compounds",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Flax, Chia, Walnuts & Algae Oil: Plant-Based ALA & Direct DHA for Vegans",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Flax, Chia, Walnuts & Algae Oil: Plant-Based ALA & Direct DHA for Vegans.",
+      "legacySlug": "func-omega3-2",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "a7a215f5d6e3506acd26dbca8ab7762e01d54bff83b1fa787b3187b552664c27",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 2232,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-312c9a88ea14e96f",
+      "sourcePath": "src/content/knowledge/Dietary Patterns/Carbohydrate-Restricted Diets/ketogenic-diet.md",
+      "sourceTopLevel": "Dietary Patterns",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Ketogenic Diet",
+      "description": "Brief overview of ketogenic diet, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Ketogenic Diet",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "0931870f513d1429479b7d01d5f70ef411c3e3ea2702716b590fd13407116777",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 566,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-14668fd4173e3608",
+      "sourcePath": "src/content/knowledge/Dietary Patterns/Carbohydrate-Restricted Diets/paleolithic-diet.md",
+      "sourceTopLevel": "Dietary Patterns",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Paleolithic Diet",
+      "description": "Brief overview of paleolithic diet, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Paleolithic Diet",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "e9e0c4898bf68d91c724153e36217bedd6d0787079f9a1a598a71138fc7571e0",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 566,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-5d30255813f9da39",
+      "sourcePath": "src/content/knowledge/Dietary Patterns/dietary-patterns-overview.md",
+      "sourceTopLevel": "Dietary Patterns",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Dietary Patterns Overview",
+      "description": "Brief overview of dietary patterns overview, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Dietary Patterns Overview",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "29734b12249aff31ab29f49a3e805d91e2e287850e7e009fbcc8b2ec07997093",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 576,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-f7da9afb557958b3",
+      "sourcePath": "src/content/knowledge/Dietary Patterns/Medical Nutrition Therapy/dash-diet.md",
+      "sourceTopLevel": "Dietary Patterns",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Dash Diet",
+      "description": "Brief overview of dash diet, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Dash Diet",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "5299083563d017f5b743ef6428383fdfe60420dbedd94229fb52b65926882372",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 566,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-77f92184186f6dfe",
+      "sourcePath": "src/content/knowledge/Dietary Patterns/Medical Nutrition Therapy/low-fodmap-diet.md",
+      "sourceTopLevel": "Dietary Patterns",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Low Fodmap Diet",
+      "description": "Brief overview of low fodmap diet, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Low Fodmap Diet",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "7113b0a09ea4c950c4edd836b19585e4b3a1ab7cb6dd2b80ada4df3e0b8b9db8",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 577,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-ac91e793bd476966",
+      "sourcePath": "src/content/knowledge/Dietary Patterns/Medical Nutrition Therapy/mediterranean-diet.md",
+      "sourceTopLevel": "Dietary Patterns",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Mediterranean Diet",
+      "description": "Brief overview of mediterranean diet, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Mediterranean Diet",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "16f59c6bffe616c3be494fcdbfbca45a0fc13473899169b7c1abfdeb10b3be48",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 566,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-093938f60fc400e7",
+      "sourcePath": "src/content/knowledge/Dietary Patterns/Plant-Based Diets/lacto-ovo-vegetarian.md",
+      "sourceTopLevel": "Dietary Patterns",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Lacto Ovo Vegetarian",
+      "description": "Brief overview of lacto ovo vegetarian, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Lacto Ovo Vegetarian",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "fba174b24801a7c4c03d2c43a0bbc679f553f502953a24d670d5d76eccc84e83",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 577,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-a9c7502492201817",
+      "sourcePath": "src/content/knowledge/Dietary Patterns/Plant-Based Diets/pescatarian-diet.md",
+      "sourceTopLevel": "Dietary Patterns",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Pescatarian Diet",
+      "description": "Brief overview of pescatarian diet, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Pescatarian Diet",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "a32ce4f4eacfd4dff36efbc7d0871563258c07616f5ddedad400ac8ed1a75889",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 566,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-f7f09e3c8e8c5da8",
+      "sourcePath": "src/content/knowledge/Dietary Patterns/Plant-Based Diets/veganism.md",
+      "sourceTopLevel": "Dietary Patterns",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Veganism",
+      "description": "Brief overview of veganism, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Veganism",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "33ddb2f908c3fc5818bf4c877d6b2fdb5ed4470d053cf9ed6f32cf8e6f9c40b4",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 555,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-519282b1ca87f3ac",
+      "sourcePath": "src/content/knowledge/Food Matrix/food-matrix-overview.md",
+      "sourceTopLevel": "Food Matrix",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Food Matrix Overview",
+      "description": "Brief overview of food matrix overview, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Food Matrix Overview",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "97cdff4c796a2e0aa00ccfa0cb85322705e683b65aaabd5df573c4f1bd72307f",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 576,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-a4da19cba754b58d",
+      "sourcePath": "src/content/knowledge/Macronutrients/Carbohydrates/dietary-fiber.md",
+      "sourceTopLevel": "Macronutrients",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Dietary Fiber",
+      "description": "Brief overview of dietary fiber, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Dietary Fiber",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "1d3ef6cdfceaff788fc7a3bf931be8d311157783c91038cbf3aa42ab53476e35",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 563,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-a41b7b40bc8e35dc",
+      "sourcePath": "src/content/knowledge/Macronutrients/Carbohydrates/monosaccharides.md",
+      "sourceTopLevel": "Macronutrients",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Monosaccharides",
+      "description": "Brief overview of monosaccharides, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Monosaccharides",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "c3c50960e64caa04b6fb6e7a213c0fb153388e5fd751c5358cdbe9b61e46b0e9",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 552,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-4580ddc38d106991",
+      "sourcePath": "src/content/knowledge/Macronutrients/Carbohydrates/polysaccharides.md",
+      "sourceTopLevel": "Macronutrients",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Polysaccharides",
+      "description": "Brief overview of polysaccharides, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Polysaccharides",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "4af6041a61c2c4f0a6992405180b207b0471735474e96c6bb0d21c6b9de29a98",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 552,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-17224484b492e6fa",
+      "sourcePath": "src/content/knowledge/Macronutrients/Lipids/saturated-fatty-acids.md",
+      "sourceTopLevel": "Macronutrients",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Saturated Fatty Acids",
+      "description": "Brief overview of saturated fatty acids, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Saturated Fatty Acids",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "4876feb4f7301894793d81e891fa1588150f8f451785fe36d36bfb765c6c19d8",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 574,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-1c13181d5246787e",
+      "sourcePath": "src/content/knowledge/Macronutrients/Lipids/trans-fatty-acids.md",
+      "sourceTopLevel": "Macronutrients",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Trans Fatty Acids",
+      "description": "Brief overview of trans fatty acids, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Trans Fatty Acids",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "ed530d64fad2d484c827c3f0c84b46d70aa96fb2b0982ec41c806cfdc00bc517",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 574,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-7f57ca48544d17bf",
+      "sourcePath": "src/content/knowledge/Macronutrients/Lipids/unsaturated-fatty-acids.md",
+      "sourceTopLevel": "Macronutrients",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Unsaturated Fatty Acids",
+      "description": "Brief overview of unsaturated fatty acids, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Unsaturated Fatty Acids",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "54bc055b6a46427a17f8bb74ca5e8b6fcc000628510d5f33783bb36f9cfa91cc",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 574,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-c825d947face644b",
+      "sourcePath": "src/content/knowledge/Macronutrients/macro-nutrient-breakdown.md",
+      "sourceTopLevel": "Macronutrients",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Macro Nutrient Breakdown",
+      "description": "Brief overview of macro nutrient breakdown, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Macro Nutrient Breakdown",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "4c2ab936d7e979e2d0f1c8d5a30279f375d683ffbd06194602a0e9e883849827",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 574,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-55e3d85d759de001",
+      "sourcePath": "src/content/knowledge/Macronutrients/Proteins/complete-proteins.md",
+      "sourceTopLevel": "Macronutrients",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Complete Proteins",
+      "description": "Brief overview of complete proteins, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Complete Proteins",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "ad475f02af7a03ede38f86aea16385cab08beb82a768cfe7806a4ab76199094a",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 563,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-893d59c443638fc6",
+      "sourcePath": "src/content/knowledge/Macronutrients/Proteins/incomplete-proteins.md",
+      "sourceTopLevel": "Macronutrients",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Incomplete Proteins",
+      "description": "Brief overview of incomplete proteins, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Incomplete Proteins",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "69aad9dc33acf02af1f3a09732a5a4a9bc9bbc7885190bae5d6d1a10012b7308",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 563,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-35ef2f66a929657b",
+      "sourcePath": "src/content/knowledge/Micronutrients/Essential Minerals/calcium-carbonate.md",
+      "sourceTopLevel": "Micronutrients",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Calcium Carbonate",
+      "description": "Brief overview of calcium carbonate, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Calcium Carbonate",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "b38ddff75d40775a3064275d6911557a70c63f5858b766a0766ecedf3bfcde30",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 564,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-62aea160f4d6956a",
+      "sourcePath": "src/content/knowledge/Micronutrients/Essential Minerals/ferrous-sulfate.md",
+      "sourceTopLevel": "Micronutrients",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Ferrous Sulfate",
+      "description": "Brief overview of ferrous sulfate, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Ferrous Sulfate",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "729f9466558d829ade61e43f3a86134086a218432e7d186cd2bedd4cb2bf7ae5",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 564,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-0838a1b96b4ed5d3",
+      "sourcePath": "src/content/knowledge/Micronutrients/Essential Minerals/sodium-chloride.md",
+      "sourceTopLevel": "Micronutrients",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Sodium Chloride",
+      "description": "Brief overview of sodium chloride, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Sodium Chloride",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "3e518d6772342a18c8567cc264a61523dcca54d9baaa81e176d12204fd1aecbb",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 564,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-86028870ea1b2037",
+      "sourcePath": "src/content/knowledge/Micronutrients/Fat-Soluble Vitamins/cholecalciferol.md",
+      "sourceTopLevel": "Micronutrients",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Cholecalciferol",
+      "description": "Brief overview of cholecalciferol, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Cholecalciferol",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "129df58a54d87c3d5c6b6b22433950ffc00ee58c84946c0fd940cb5ea25e49e6",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 554,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-fc10cc531f8436be",
+      "sourcePath": "src/content/knowledge/Micronutrients/Fat-Soluble Vitamins/retinol.md",
+      "sourceTopLevel": "Micronutrients",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Retinol",
+      "description": "Brief overview of retinol, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Retinol",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "57eb55d792d3459b0359fe9f7eb5e29bcc9ba3a2822e4a87eb3d46580bac4855",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 554,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-e331e0035de65b25",
+      "sourcePath": "src/content/knowledge/Micronutrients/micronutrients.md",
+      "sourceTopLevel": "Micronutrients",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Micronutrients",
+      "description": "Placeholder description for Micronutrients.",
+      "legacySlug": "micronutrients",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "4bfe0f84c97c4a0743082ed094e50e1a71f9e2f4b0647b1cc162872e95ce520f",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION"
+      ],
+      "diagnostics": {
+        "wordCount": 552,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": true,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-852c3de2cc78cf30",
+      "sourcePath": "src/content/knowledge/Micronutrients/Water-Soluble Vitamins/ascorbic-acid.md",
+      "sourceTopLevel": "Micronutrients",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Ascorbic Acid",
+      "description": "Brief overview of ascorbic acid, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Ascorbic Acid",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "bd7105f2f02a4ccc97a201622b0817580092a0b33173cca6adc1fcc0e3f0d95e",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 565,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-f4621cfa6223818a",
+      "sourcePath": "src/content/knowledge/Micronutrients/Water-Soluble Vitamins/cobalamin.md",
+      "sourceTopLevel": "Micronutrients",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Cobalamin",
+      "description": "Brief overview of cobalamin, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Cobalamin",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "6313e9f8fb6c3ee8512d238823a465d58275f7112a379ce9b1c6b01584136fd2",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 554,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-773cd1a19a78d8b2",
+      "sourcePath": "src/content/knowledge/Micronutrients/Water-Soluble Vitamins/folate.md",
+      "sourceTopLevel": "Micronutrients",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Folate",
+      "description": "Brief overview of folate, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Folate",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "4fa6fe0982160e59f3dd96d2921f907adb4925228601e3f40ed834711b603b2b",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 554,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-f3914b73366e7f51",
+      "sourcePath": "src/content/knowledge/minerals/Boron, Silicon, Vanadium & Nickel/min-ut-1.md",
+      "sourceTopLevel": "minerals",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Ultra-Trace Minerals: Boron, Silicon, Vanadium, Nickel & the Possibly Essential Elements",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Ultra-Trace Minerals: Boron, Silicon, Vanadium, Nickel & the Possibly Essential Elements.",
+      "legacySlug": "min-ut-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "69d5ae92b843f2caa183fd5251175d66eb97d8f92ac8f85ba178517d5b2e33a8",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 728,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-e0066a8982f0cb26",
+      "sourcePath": "src/content/knowledge/minerals/Chromium/min-cr-1.md",
+      "sourceTopLevel": "minerals",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Chromium (Cr) — Function, Daily Needs, Food Sources & Safety",
+      "description": "Chromium function, adequate intake, food sources, its role in insulin action, and why no upper limit is set — from NIH ODS.",
+      "legacySlug": "min-cr-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "483db0452532f75eff4723e42867b0bd9670db81499bb572c21827d80b12b90f",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 599,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-0b05467ec8702d88",
+      "sourcePath": "src/content/knowledge/minerals/Clinical Deficiency & Toxicity Guide/min-deftox-1.md",
+      "sourceTopLevel": "minerals",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Mineral Deficiency & Toxicity: Laboratory Values, Clinical Signs & the Complete Diagnostic Reference",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Mineral Deficiency & Toxicity: Laboratory Values, Clinical Signs & the Complete Diagnostic Reference.",
+      "legacySlug": "min-deftox-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "ca9ecba88ed42a354ac6544525dafb7e8f476cb0d490985ece32bb065fd75c59",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 356,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-df0893502ea49847",
+      "sourcePath": "src/content/knowledge/minerals/Competitive & Synergistic Mineral Relationships/min-int-1.md",
+      "sourceTopLevel": "minerals",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Mineral Interactions: Competitive Absorption, Synergistic Functions & the Balance Web of Essential Minerals",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Mineral Interactions: Competitive Absorption, Synergistic Functions & the Balance Web of Essential Minerals.",
+      "legacySlug": "min-int-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "a207b71670ad2898c67abaa04607768e2e9483520efe588f5a264cac603cfc1e",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 483,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-149237a53ab3ea61",
+      "sourcePath": "src/content/knowledge/minerals/Copper/min-cu-1.md",
+      "sourceTopLevel": "minerals",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Copper (Cu) — Function, Daily Needs, Food Sources & Safety",
+      "description": "Copper function, RDA, food sources, its role in iron metabolism and energy production, deficiency, and the 10 mg upper limit — from NIH ODS.",
+      "legacySlug": "min-cu-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "8aab7ea1b1c6209e6c372802f4fae95ba07c2f884fb999bc65f24311b90b5a37",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 588,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-50e50bf9ec1a9e26",
+      "sourcePath": "src/content/knowledge/minerals/Electrolyte Physiology/min-elec-1.md",
+      "sourceTopLevel": "minerals",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Electrolytes: Na⁺, K⁺, Cl⁻, Ca²⁺, Mg²⁺, HCO₃⁻ & the Ionic Balance of Body Fluids",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Electrolytes: Na⁺, K⁺, Cl⁻, Ca²⁺, Mg²⁺, HCO₃⁻ & the Ionic Balance of Body Fluids.",
+      "legacySlug": "min-elec-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "c0256911d2bdffa1e8ccfed5f2d926964768a2d2bac4ee3d6918eb821334f75b",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 741,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-5096b5c888c17ca5",
+      "sourcePath": "src/content/knowledge/minerals/Forms, Absorption & Best Practices/min-supp-1.md",
+      "sourceTopLevel": "minerals",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Mineral Supplements: Chelated vs. Inorganic, Bioavailability, Timing & the Evidence-Based Supplement Guide",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Mineral Supplements: Chelated vs. Inorganic, Bioavailability, Timing & the Evidence-Based Supplement Guide.",
+      "legacySlug": "min-supp-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "cdfcdc65583e33ba11fee61db2e5504e9c86256945603692ee6133c11b2781ef",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 368,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-ce04dd482050b38f",
+      "sourcePath": "src/content/knowledge/minerals/Iodine/min-i-1.md",
+      "sourceTopLevel": "minerals",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Iodine (I) — Function, Daily Needs, Food Sources & Safety",
+      "description": "Iodine function, RDA, food sources, its essential role in thyroid hormones, deficiency goiter, and the 1,100 mcg upper limit — from NIH ODS.",
+      "legacySlug": "min-i-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "ae63edc41e191e70db7886a010d643c06410e389a432fde3cc841ee30579875f",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 582,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-da67e8186841b9cc",
+      "sourcePath": "src/content/knowledge/minerals/Iron/min-fe-1.md",
+      "sourceTopLevel": "minerals",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Iron (Fe) — Function, Daily Needs, Food Sources & Safety",
+      "description": "Iron function, RDA by age and sex, heme vs non-heme food sources, deficiency anemia, and the 45 mg upper limit — from NIH ODS.",
+      "legacySlug": "min-fe-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "bf19949b94d7317c9653d5c301ce22fe5140e9bb395173c03b6241062976c456",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 657,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-26d7f461c5506726",
+      "sourcePath": "src/content/knowledge/minerals/Manganese/min-mn-1.md",
+      "sourceTopLevel": "minerals",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Manganese (Mn) — Function, Daily Needs, Food Sources & Safety",
+      "description": "Manganese function, adequate intake, plant food sources, roles in bone and antioxidant defence, and the 11 mg upper limit — from NIH ODS.",
+      "legacySlug": "min-mn-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "95903c2d592583b12c65ebba7e79a44799b6515dd08b607ddb341308193fce84",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 592,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-91007da80c467bc0",
+      "sourcePath": "src/content/knowledge/minerals/Molybdenum/min-mo-1.md",
+      "sourceTopLevel": "minerals",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Molybdenum (Mo) — Function, Daily Needs, Food Sources & Safety",
+      "description": "Molybdenum function, RDA, legume and grain food sources, its enzyme-cofactor role, and the 2,000 mcg upper limit — from NIH ODS.",
+      "legacySlug": "min-mo-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "a1769a03282412f88a48414eaef5b6b56b08f42c6fd29532bac85a48395b5629",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 568,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-bb8a955dc7642530",
+      "sourcePath": "src/content/knowledge/minerals/Selenium/min-se-1.md",
+      "sourceTopLevel": "minerals",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Selenium (Se) — Function, Daily Needs, Food Sources & Safety",
+      "description": "Selenium function, RDA, food sources including Brazil nuts, antioxidant and thyroid roles, and the 400 mcg upper limit that prevents selenosis — from NIH ODS.",
+      "legacySlug": "min-se-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "57c44abfbd40e655973d11b2f8b0ceae89ed340864352a35ab807263339a3bdb",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 589,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-5b101959af630139",
+      "sourcePath": "src/content/knowledge/minerals/Zinc/min-zn-1.md",
+      "sourceTopLevel": "minerals",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Zinc (Zn) — Function, Daily Needs, Food Sources & Safety",
+      "description": "Zinc function, RDA, food sources, immune and wound-healing roles, deficiency signs, and the 40 mg upper limit — from NIH ODS.",
+      "legacySlug": "min-zn-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "924366526f17a35376c45bca76d6a10134576c4cc6f8e2ec59254dc8b646477a",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 586,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-2b5fb60b84c63056",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Absorption, Enhancers & Inhibitors/ndb-bio-1.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Nutrient Bioavailability: Absorption Rates, Food Matrix Effects & the Anti-Nutrient Database",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Nutrient Bioavailability: Absorption Rates, Food Matrix Effects & the Anti-Nutrient Database.",
+      "legacySlug": "ndb-bio-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "312348ccd5d396f68cf8e9a15cf1668b4c6ede813622d411d48c8bf372e10ac6",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 2401,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-4d6c3b6e412abc78",
+      "sourcePath": "src/content/knowledge/Nutrient Database/ALA-Rich Oils/oil-omega3-1.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Plant Omega-3 Oils: Flax, Chia, Hemp, Walnut, Perilla, Camelina — ALA Conversion, Bioavailability & Health Benefits",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Plant Omega-3 Oils: Flax, Chia, Hemp, Walnut, Perilla, Camelina — ALA Conversion, Bioavailability & Health Benefits.",
+      "legacySlug": "oil-omega3-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "7b1c0198459e017248d2500621b6cc2062a961a4d814babe5228893e7b6abcc8",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 2116,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-756a56f1193ddd0a",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Ascorbates/l-ascorbic-acid.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "L Ascorbic Acid",
+      "description": "Brief overview of l ascorbic acid, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "L Ascorbic Acid",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "a2be5e184110b9bb179f4c31d00ec9adb8bc9519d2c0f6f1a7f699310b948238",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 575,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-ee83376afe3e887b",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Blood & Endocrine Trace Elements/dietary-iodide.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Dietary Iodide",
+      "description": "Brief overview of dietary iodide, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Dietary Iodide",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "0af8569f779f94149eca3961a8a5c372f37bc8b1484cb5fc8ce631519afa25fe",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 649,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-d0fa2fb681752a5a",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Blood & Endocrine Trace Elements/ferrous-cation.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Ferrous Cation",
+      "description": "Brief overview of ferrous cation, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Ferrous Cation",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "d072e0674e5cab317aa73b37614136f23b603fffbd70f6d5faaeb58cdecd74c8",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 649,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-2b7272d48aef67e2",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Calciferols/cholecalciferol.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Cholecalciferol",
+      "description": "Brief overview of cholecalciferol, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Cholecalciferol - Database",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "765b284a0256fbb6713f58d6914e87a08c3ebfda9267b1c44554cd6c826b9315",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 553,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-a560f1a757508ffc",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Calciferols/ergocalciferol.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Ergocalciferol",
+      "description": "Brief overview of ergocalciferol, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Ergocalciferol",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "ade2b107c059b4e12d1461853ba4b107debeb9b2854da98e1a262ed012a0de7c",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 553,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-cc078b8ebf125dd7",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Calcium/min-ca-1.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Calcium (Ca) — Function, Daily Needs, Food Sources & Safety",
+      "description": "Calcium function, RDA, food sources, its role in bone and muscle, deficiency osteoporosis, and the 2,500 mg upper limit — from NIH ODS.",
+      "legacySlug": "min-ca-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "21204645def0e934d0b0c98ce798da90c41f29d774d0d8b924238a213acc27dc",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 617,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-c05dc9106614a232",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Cardiovascular, Metabolic & Anti-Inflammatory Benefits/oil-nutr-2.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Plant Oils & Health: Cardiovascular Protection, Inflammation, Diabetes, Brain Health & Cancer Prevention",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Plant Oils & Health: Cardiovascular Protection, Inflammation, Diabetes, Brain Health & Cancer Prevention.",
+      "legacySlug": "oil-nutr-2",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "19e51e934a4ba91e09fc682ce4185b842ca29ba9062c3d669a360fcdd132cbb5",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 1859,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-49d84d5021e982ae",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Complete & Incomplete Proteins/ndb-protein-1.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Protein Quality: PDCAAS, DIAAS, Biological Value & the Amino Acid Scoring System",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Protein Quality: PDCAAS, DIAAS, Biological Value & the Amino Acid Scoring System.",
+      "legacySlug": "ndb-protein-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "f490fdfb2958e3ab0b641d1636b30f0c38a02b0250761f61207549ccea8d8b84",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 2369,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-4a141e11aa8cdd9b",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Complete Protein Sources/func-protein-1.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Quinoa, Buckwheat, Hemp & Chia: Complete Plant Proteins with All 9 Essential Amino Acids",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Quinoa, Buckwheat, Hemp & Chia: Complete Plant Proteins with All 9 Essential Amino Acids.",
+      "legacySlug": "func-protein-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "f87aaad12f38598fae19ca19164a259f2d3db6b7a59c42068d522b1d3d77e737",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 2249,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-e0a578b4fa917b6a",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Dietary Carbohydrates/insoluble-bulking-fiber.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Insoluble Bulking Fiber",
+      "description": "Brief overview of insoluble bulking fiber, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Insoluble Bulking Fiber",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "2c5e2b283cb98248162a4680f969156e3e7bafdfa055f08324769b5e8aed0725",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 576,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-2f52f69e948e8de0",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Dietary Carbohydrates/soluble-viscous-fiber.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Soluble Viscous Fiber",
+      "description": "Brief overview of soluble viscous fiber, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Soluble Viscous Fiber",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "16361c4e7da75a0cfb9e9d66b11cd07e9c567a1f3f658e13c5c1d6e00e09016c",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 576,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-10a3e85583009089",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Energy Content by Food Category/ndb-cal-1.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Calorie Database: Energy Density, Atwater Factors & the Complete kcal Reference by Food",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Calorie Database: Energy Density, Atwater Factors & the Complete kcal Reference by Food.",
+      "legacySlug": "ndb-cal-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "e98c3735a15e538439ce03c7651f02c84fad7c05d98601600ecd5f7718b02180",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 2438,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-cdf8cd660b90e87c",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Energy-Metabolizing B-Vitamins/niacin-and-niacinamide.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Niacin And Niacinamide",
+      "description": "Brief overview of niacin and niacinamide, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Niacin And Niacinamide",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "102b1bc255ab4cf4bf9774e95c82c5b2598f2a998b76c77588970adc91570519",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 578,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-1afde1eb7d5c599a",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Energy-Metabolizing B-Vitamins/pantothenic-acid.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Pantothenic Acid",
+      "description": "Brief overview of pantothenic acid, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Pantothenic Acid",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "7411774722edae7e3497d73f710e8a750d0eeb5913e6d86aa1bb873190001fc4",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 567,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-b2bb83b2f0bb805b",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Energy-Metabolizing B-Vitamins/riboflavin.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Riboflavin",
+      "description": "Brief overview of riboflavin, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Riboflavin",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "6792d8699f9eaf7d35cbfac54f2b39147db47a59fc0456fb24879d2b5dffc3e9",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 556,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-a4ff7a2c6ed59ce7",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Energy-Metabolizing B-Vitamins/thiamine.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Thiamine",
+      "description": "Brief overview of thiamine, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Thiamine",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "7ee6a99f978a64585e71b510fffec3e53a131db540e3751749e446f10ed4a541",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 556,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-d00933d3c9fb7e7e",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Essential Amino Acids/branched-chain-amino-acids.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Branched Chain Amino Acids",
+      "description": "Brief overview of branched chain amino acids, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Branched Chain Amino Acids",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "eefdc84c625483a9544a3f60b57e86c6db78f8b3769ab1d79fdd300e1284305d",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 588,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-78ceb135c313467f",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Essential Amino Acids/l-lysine.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "L Lysine",
+      "description": "Brief overview of l lysine, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "L Lysine",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "eac2dabec8f522f2d4f28865cd9415f0497f3b080078b5e7ced62a35bbff8126",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 566,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-89fc7fe4fe70969f",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Essential Amino Acids/l-tryptophan.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "L Tryptophan",
+      "description": "Brief overview of l tryptophan, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "L Tryptophan",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "12497b776ad1ecbb039a1f71e3679fdda54a230b6eb80220e5350193de5f49df",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 566,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-1217992de968a137",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Essential Fatty Acids/alpha-linolenic-acid.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Alpha Linolenic Acid",
+      "description": "Brief overview of alpha linolenic acid, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Alpha Linolenic Acid",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "ebf64861d9b64a73f188fd04f2e6706c10b1205f09dcea4afe55b6a30c8b1468",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 577,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-bf188b6b186d03aa",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Essential Fatty Acids/eicosapentaenoic-and-docosahexaenoic-acid.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Eicosapentaenoic And Docosahexaenoic Acid",
+      "description": "Brief overview of eicosapentaenoic and docosahexaenoic acid, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Eicosapentaenoic And Docosahexaenoic Acid",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "bf048ddb336e75e08caf0574c774891143f7c478eddc76a3fbf615985e9698a2",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 588,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-372c6bc8f6d5fc46",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Essential Fatty Acids/linoleic-acid.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Linoleic Acid",
+      "description": "Brief overview of linoleic acid, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Linoleic Acid",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "fe731fa1b57359196a9baa11a519af1da40ec1fd95d06b8f03a6d18f00921075",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 566,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-164db0aa4fecacb3",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Fatty Acid Biochemistry & Health/oil-nutr-1.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Plant Fatty Acid Biochemistry: Saturated, MUFA, PUFA, Omega-3:6 Ratios, Trans Fats & Metabolic Health",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Plant Fatty Acid Biochemistry: Saturated, MUFA, PUFA, Omega-3:6 Ratios, Trans Fats & Metabolic Health.",
+      "legacySlug": "oil-nutr-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "828427e5987308a55d53628b5a0a48e2d4f4b572a8a2a1537f967c5311bcdc25",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 1942,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-020fddd7874834c3",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Fatty Acids & Lipids/ndb-fat-1.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Fat Database: Saturated, MUFA, PUFA, Omega-3, Omega-6 & the Complete Fatty Acid Reference",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Fat Database: Saturated, MUFA, PUFA, Omega-3, Omega-6 & the Complete Fatty Acid Reference.",
+      "legacySlug": "ndb-fat-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "c1595eee9b4e08f28b4b4fb9e488153864d689717c888eec49be5e65c1cc256b",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 2498,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-564207b3490feeea",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Immune & Enzymatic Trace Elements/cupric-cation.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Cupric Cation",
+      "description": "Brief overview of cupric cation, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Cupric Cation",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "dd8c027e093c76e8e80ec6adfa5d5476499281fb3d1bcf7a20de7c74a846dafa",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 567,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-65aa103a8caeddad",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Immune & Enzymatic Trace Elements/selenium.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Selenium",
+      "description": "Brief overview of selenium, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Selenium",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "975563b51db966d967810cdfe36e79ead88024ba9ba1d6ca4ae048a8b5f1c56c",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 556,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-898eebc2f3fb84f3",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Immune & Enzymatic Trace Elements/selenomethionine.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Selenomethionine",
+      "description": "Brief overview of selenomethionine, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Selenomethionine",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "250c20acb9b9d4dccdfa48d9dee44420b0cc3d8d91a1a3e68461a959145d642c",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 556,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-12e4dab04778d259",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Immune & Enzymatic Trace Elements/zinc-picolinate-gluconate.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Zinc Picolinate Gluconate",
+      "description": "Brief overview of zinc picolinate gluconate, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Zinc Picolinate Gluconate",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "7d032ea3979c68ca7ac3a1c58d3651b37abd90b60883ba29fade420222ae9f59",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 578,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-741f9502dfd81455",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Immune & Enzymatic Trace Elements/zinc.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Zinc",
+      "description": "Brief overview of zinc, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Zinc",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "858586b053304f9c634fccc74af0f6fe2c1c067ef98eec0979e51fa6e646dad7",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 556,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-a173a718aef41fe6",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Magnesium/min-mg-1.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Magnesium (Mg) — Function, Daily Needs, Food Sources & Safety",
+      "description": "Magnesium function, RDA, food sources, its role in 300+ enzymes, and the 350 mg supplemental upper limit — from NIH ODS.",
+      "legacySlug": "min-mg-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "31efdf43ec86b6f93e997953ef9a1a5a5e30b6af8f84fbf907e12e4f8ee36ffc",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 584,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-2468132aaaba7bf2",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Methylation & Blood B-Vitamins/methylcobalamin.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Methylcobalamin",
+      "description": "Brief overview of methylcobalamin, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Methylcobalamin",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "b7dd874c9f55edff085b0b8a0e225b12a7baa112e505014c5bda016598f18023",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 645,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-9b583e009142a57d",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Methylation & Blood B-Vitamins/methylfolate.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Methylfolate",
+      "description": "Brief overview of methylfolate, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Methylfolate",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "be66999d3385457aff2952ef884c7619391dcfaeb70df8f1ece683c7253a597e",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 645,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-12831f34f679b03a",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Methylation & Blood B-Vitamins/pyridoxine.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Pyridoxine",
+      "description": "Brief overview of pyridoxine, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Pyridoxine",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "d0e8c654aa07f88bcf828f4e54ebcd2ea4d11458b5b7f0b858f334136ce4f080",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 645,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-d7aeadb8e5e2d17f",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Monounsaturated & Polyunsaturated Fat Sources/func-fat-1.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Avocado, Olive Oil, Nuts & Seeds: Monounsaturated Fats, Oleic Acid & Heart Health",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Avocado, Olive Oil, Nuts & Seeds: Monounsaturated Fats, Oleic Acid & Heart Health.",
+      "legacySlug": "func-fat-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "bebdd9b395efcfed7df0045405ee04a68635196fc4eb3ddeb4d44ca9c5f45e52",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 2280,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-c8532d7a867dc5e3",
+      "sourcePath": "src/content/knowledge/Nutrient Database/nutrient-database.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Nutrient Database",
+      "description": "Placeholder description for Nutrient Database.",
+      "legacySlug": "nutrient-database",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "6628fc2975774d762beb3925b59d8bcf8ea470a51b608c54a1588496b48f961a",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION"
+      ],
+      "diagnostics": {
+        "wordCount": 565,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": true,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-20208b8451e724b7",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Phosphorus/min-p-1.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Phosphorus (P) — Function, Daily Needs, Food Sources & Safety",
+      "description": "Phosphorus function, RDA, food sources, its role in bone and energy (ATP), and cautions in kidney disease — from NIH ODS.",
+      "legacySlug": "min-p-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "0401518065be6c6b68b2c950c472f1e450eaf22e0d5d6b67836ee3eda743745a",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 580,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-752c3c5e2bfec927",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Potassium/min-k-1.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Potassium (K) — Function, Daily Needs, Food Sources & Safety",
+      "description": "Potassium function, adequate intake, food sources, its role in blood pressure and fluid balance, and cautions in kidney disease — from NIH ODS.",
+      "legacySlug": "min-k-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "762495b41fe53aae1c0924e8d1475185750ca7e2a704b49aa59f1407f23e0546",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 606,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-46413f747c2e5813",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Protein, Carbohydrates & Fats/ndb-macro-1.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Macronutrients: Protein, Carbs & Fats — RDAs, Acceptable Ranges & the Foundation of Human Nutrition",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Macronutrients: Protein, Carbs & Fats — RDAs, Acceptable Ranges & the Foundation of Human Nutrition.",
+      "legacySlug": "ndb-macro-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "104a10b7322ab0bc40434616b49afd1796c60210cd2a0848ec21a1d086275857",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 2362,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-5020e8c89c4da4cf",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Retinoids & Carotenoids/beta-carotene.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Beta Carotene",
+      "description": "Brief overview of beta carotene, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Beta Carotene",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "d2bd9d69d7fce8252ece44b819023dd713add003630eaa2f93de6726d1bb6f8e",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 565,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-ec83a2afcf5ed359",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Retinoids & Carotenoids/retinol.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Retinol",
+      "description": "Brief overview of retinol, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Retinol - Database",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "b989b2206ee8c0a7d999056ee407c5359a6c7482959f589c8e76aa9cd90a28e2",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 554,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-d273ff646e93e402",
+      "sourcePath": "src/content/knowledge/Nutrient Database/SDA & GLA Sources/oil-omega3-2.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Advanced Plant Omegas: SDA-Rich Oils, GLA Sources, Ahiflower, Echium & Novel Omega-3 Alternatives",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Advanced Plant Omegas: SDA-Rich Oils, GLA Sources, Ahiflower, Echium & Novel Omega-3 Alternatives.",
+      "legacySlug": "oil-omega3-2",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "dcf1db172c27b251b7218fe41b8c6d6d5c6abbbcfee6b12a548ec220ab26a762",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 1856,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-3fa868e43c2592ca",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Sodium & Chloride/min-na-1.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Sodium (Na) — Function, Daily Needs, Food Sources & Safety",
+      "description": "Sodium function, adequate intake, the 2,300 mg reduction target, main dietary sources, and its link to blood pressure — from NIH ODS.",
+      "legacySlug": "min-na-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "4756000c3d712a1a66710b85a0632cbe91c9b5b349dc6234f75d779f64219d69",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 604,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-67cc66b34bf7455d",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Structural Osteo-Minerals/calcium-carbonate-citrate.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Calcium Carbonate Citrate",
+      "description": "Brief overview of calcium carbonate citrate, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Calcium Carbonate Citrate",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "daedb18989cac3b758358679c997535c0913d6ac0b8aa3f52b1dd8dec566feaa",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 577,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-f1cf4d2d9505416a",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Structural Osteo-Minerals/calcium.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Calcium",
+      "description": "Brief overview of calcium, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Calcium",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "9e4f95e927d986d804b5a951871a85a884020c1ede5ab299071f461324afb0b8",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 555,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-0955ae3512215741",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Structural Osteo-Minerals/magnesium-glycinate-citrate.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Magnesium Glycinate Citrate",
+      "description": "Brief overview of magnesium glycinate citrate, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Magnesium Glycinate Citrate",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "40e89d3d482dcb8de26cd6a43c06b2bfa5f94136c8234f3484c4dbffc6ef0ae4",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 577,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-04f0bfc12221c0ba",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Structural Osteo-Minerals/magnesium.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Magnesium",
+      "description": "Brief overview of magnesium, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Magnesium",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "40ef0ba2c124402dffcce9ded8fce27f134d06af751e30893698ab203795e02a",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 555,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-26e7a82acb61f264",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Structural Osteo-Minerals/phosphorus-phosphates.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Phosphorus Phosphates",
+      "description": "Brief overview of phosphorus phosphates, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Phosphorus Phosphates",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "4fdbaedbea1606d8ee816af6f3825fe2f7b9c99d17976f6471b10f7ba18a7acb",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 566,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-0fe93ebdf414446e",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Sugars, Starches & Fibers/ndb-carb-1.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Carbohydrate Database: Sugars, Starches, Fiber & the Glycemic Index Reference Table",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Carbohydrate Database: Sugars, Starches, Fiber & the Glycemic Index Reference Table.",
+      "legacySlug": "ndb-carb-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "07202deeb141de73333768f65550d580a7c7aabaa4026263b89653cf468010e0",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 2410,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-1f1ce06340f418ac",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Sulfur/min-s-1.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Sulfur: Cysteine, Methionine, MSM, Glutathione & the Structural Mineral in Proteins & Detoxification",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Sulfur: Cysteine, Methionine, MSM, Glutathione & the Structural Mineral in Proteins & Detoxification.",
+      "legacySlug": "min-s-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "2739968df24a47ac02924d9066581af5ed1495f375dfa8ce715368e17e6796ff",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 1989,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-53285318459c4cf8",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Systemic Electrolytes/potassium-chloride.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Potassium Chloride",
+      "description": "Brief overview of potassium chloride, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Potassium Chloride",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "398beea4825caaddc94d1be1b6471659955633227ee29ae7913a0a1e4983dd7e",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 565,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-32a689418085d629",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Systemic Electrolytes/sodium-chloride.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Sodium Chloride",
+      "description": "Brief overview of sodium chloride, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Sodium Chloride - Database",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "e0a8eb47f02b7329bbc787c6c18e5d9535f109ec8ff842e940c7dc3e37026d42",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 565,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-3383bb14c34265a2",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Tocopherols & Quinones/alpha-tocopherol.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Alpha Tocopherol",
+      "description": "Brief overview of alpha tocopherol, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Alpha Tocopherol",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "2f5c931cd5d81a3ecb3dd6ba27121f80a276f083cbc46d363734d35537f1eeeb",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 565,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-70b268a23b0faca3",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Tocopherols & Quinones/menaquinone.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Menaquinone",
+      "description": "Brief overview of menaquinone, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Menaquinone",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "24d4047b501dc6b682d18d37f4c7bb5930c8a965c14389ced9bf181dc36b527f",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 554,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-2ed71274fafde2e0",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Tocopherols & Quinones/phylloquinone.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Phylloquinone",
+      "description": "Brief overview of phylloquinone, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Phylloquinone",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "d62b2d5b1f03888bb8431d2840ebe00aaba6b61d1feaaabccd6cd280890677e4",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 554,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-79546f71a41e87fb",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Vitamin A/vit-a-1.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Vitamin A: Retinol, Beta-Carotene, RAE & the Vision, Immunity & Skin Vitamin",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Vitamin A: Retinol, Beta-Carotene, RAE & the Vision, Immunity & Skin Vitamin.",
+      "legacySlug": "vit-a-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "f41f8a1402f4f4377508c245e981a249cfa23a7ed190e8e279150ce2d4927fe0",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "HIGH_RISK_OUTCOME_LANGUAGE",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 2442,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER",
+          "HIGH_RISK_OUTCOME_LANGUAGE"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-a58fd4cffca91b1b",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Vitamin D/vit-d-1.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Vitamin D: D2 vs. D3, 25(OH)D Testing & the Sunshine Hormone for Bones, Immunity & Mood",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Vitamin D: D2 vs. D3, 25(OH)D Testing & the Sunshine Hormone for Bones, Immunity & Mood.",
+      "legacySlug": "vit-d-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "9cd424bef74ac686afcf9b606d1e82bc49b50da3f3968df611aab1dc5ddaf4f7",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 2509,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-3cb54c7515af678c",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Vitamin E/vit-e-1.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Vitamin E: Alpha-Tocopherol, Gamma-Tocopherol, Tocotrienols & the Lipid-Soluble Antioxidant",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Vitamin E: Alpha-Tocopherol, Gamma-Tocopherol, Tocotrienols & the Lipid-Soluble Antioxidant.",
+      "legacySlug": "vit-e-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "4499a5a2d7b339c57b9df6f7d89974cf4b432ef2662fb830f7b999cbcc675f5f",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 2470,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-869c0636a1d04bf8",
+      "sourcePath": "src/content/knowledge/Nutrient Database/Vitamin K/vit-k-1.md",
+      "sourceTopLevel": "Nutrient Database",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Vitamin K: K1 Phylloquinone, K2 MK-4 & MK-7, Osteocalcin & the Calcium-Directing Vitamin",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Vitamin K: K1 Phylloquinone, K2 MK-4 & MK-7, Osteocalcin & the Calcium-Directing Vitamin.",
+      "legacySlug": "vit-k-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "442b0ba77a942ad06c17de26f26f061e27cf9eee7e4c7a50c12209b48e11eaaa",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 2511,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-263a8ac7ae6bf1b7",
+      "sourcePath": "src/content/knowledge/phytonutrients/quercetin.md",
+      "sourceTopLevel": "phytonutrients",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Quercetin",
+      "description": "Brief overview of quercetin, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Quercetin",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "9685787522772e846c0c3570b9f22e5425ce15dbdc99976ec6f75d1124ee45dc",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 552,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-9cabac7eaaaafd21",
+      "sourcePath": "src/content/knowledge/phytonutrients/resveratrol.md",
+      "sourceTopLevel": "phytonutrients",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Resveratrol",
+      "description": "Brief overview of resveratrol, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Resveratrol",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "63e11c29ced8fe95686c69886653f90d246b9a3a1b2be9f4045f25caa9c9c80d",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 552,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-e71c06e390d9c055",
+      "sourcePath": "src/content/knowledge/phytonutrients/Soy & Flax Phytoestrogens/func-phyto-1.md",
+      "sourceTopLevel": "phytonutrients",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Phytoestrogen Foods: Soy Isoflavones, Flax Lignans & the Hormone-Balancing Plant Compounds",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Phytoestrogen Foods: Soy Isoflavones, Flax Lignans & the Hormone-Balancing Plant Compounds.",
+      "legacySlug": "func-phyto-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "568fbdc000378a8ef4f2e793b9c89ba0cb33da0cd868364c1cae812b49ffb775",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 2238,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-915dae51647ed216",
+      "sourcePath": "src/content/knowledge/phytonutrients/sulforaphane.md",
+      "sourceTopLevel": "phytonutrients",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Sulforaphane",
+      "description": "Brief overview of sulforaphane, covering its health benefits, nutritional profile, and typical culinary uses.",
+      "legacySlug": "Sulforaphane",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "ca927b0cc2166638cbec7b1b93fc2ce85dad0af748f4890933f36a200d61259b",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "MISSING_REVIEWER",
+        "MISSING_SOURCES_SECTION",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 552,
+        "externalSourceCount": 0,
+        "hasSourcesHeading": false,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": false,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-c14450088166edc6",
+      "sourcePath": "src/content/knowledge/vitamins/B-Complex Vitamins/vit-b1-1.md",
+      "sourceTopLevel": "vitamins",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Vitamin B1 (Thiamin) — Function, Daily Needs, Food Sources & Safety",
+      "description": "Thiamin (vitamin B1) function, RDA, food sources, its role in energy metabolism, and deficiency beriberi — from NIH ODS.",
+      "legacySlug": "vit-b1-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "ecefd29282cbb1774f7448c395127bc2cb6a5475fb2cd5586a755a3fdf1faf49",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 548,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-e8ad1d9405a98ebf",
+      "sourcePath": "src/content/knowledge/vitamins/B-Complex Vitamins/vit-b12-1.md",
+      "sourceTopLevel": "vitamins",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Vitamin B12/Cobalamin: Intrinsic Factor, Methylcobalamin, Vegan Deficiency & the Neurological Vitamin",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Vitamin B12/Cobalamin: Intrinsic Factor, Methylcobalamin, Vegan Deficiency & the Neurological Vitamin.",
+      "legacySlug": "vit-b12-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "b77dd2a7f91664de969a289d6f30036af453674e57191f7226e9f5c02957a0d2",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 695,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-8ced0b045738dc30",
+      "sourcePath": "src/content/knowledge/vitamins/B-Complex Vitamins/vit-b2-1.md",
+      "sourceTopLevel": "vitamins",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Vitamin B2 (Riboflavin) — Function, Daily Needs, Food Sources & Safety",
+      "description": "Riboflavin (vitamin B2) function, RDA, food sources, and its role as an energy-metabolism coenzyme — from NIH ODS.",
+      "legacySlug": "vit-b2-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "1dfb7650e806348322d867be379f8882349e33828a9b6e83d2e170ae1c013b0f",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 560,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-b290305edb2fa6f0",
+      "sourcePath": "src/content/knowledge/vitamins/B-Complex Vitamins/vit-b3-1.md",
+      "sourceTopLevel": "vitamins",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Vitamin B3 (Niacin) — Function, Daily Needs, Food Sources & Safety",
+      "description": "Niacin (vitamin B3) function, RDA, food sources, deficiency pellagra, and the 35 mg supplemental upper limit — from NIH ODS.",
+      "legacySlug": "vit-b3-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "950822eef33b07bf08983bf27fd4608eee9223a61d5130d7918731d1d1a0864d",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "HIGH_RISK_OUTCOME_LANGUAGE",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 576,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER",
+          "HIGH_RISK_OUTCOME_LANGUAGE"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-f0516e7756bb2532",
+      "sourcePath": "src/content/knowledge/vitamins/B-Complex Vitamins/vit-b5-1.md",
+      "sourceTopLevel": "vitamins",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Vitamin B5 (Pantothenic Acid) — Function, Daily Needs, Food Sources & Safety",
+      "description": "Pantothenic acid (vitamin B5) function, adequate intake, and food sources — from NIH ODS.",
+      "legacySlug": "vit-b5-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "280500c4075b69118755515127025b16a42fed74c5e2965ea55ac5d41d58d8e4",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 542,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-1bde33a1c64bfccc",
+      "sourcePath": "src/content/knowledge/vitamins/B-Complex Vitamins/vit-b6-1.md",
+      "sourceTopLevel": "vitamins",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Vitamin B6 — Function, Daily Needs, Food Sources & Safety",
+      "description": "Vitamin B6 function, RDA, food sources, its role in amino-acid metabolism, and the 100 mg upper limit — from NIH ODS.",
+      "legacySlug": "vit-b6-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "799bcde58f2b94c54ce3b016fc119a504b672996ee172beef56495bf570ae43c",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 565,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-2dea30a57c32c80a",
+      "sourcePath": "src/content/knowledge/vitamins/B-Complex Vitamins/vit-b7-1.md",
+      "sourceTopLevel": "vitamins",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Vitamin B7 (Biotin) — Function, Daily Needs, Food Sources & Safety",
+      "description": "Biotin (vitamin B7) function, adequate intake, food sources, and its interference with lab tests — from NIH ODS.",
+      "legacySlug": "vit-b7-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "57d3eef87dbfcb42b6bff708472c25fcb8dc51dbbb534b6bf5ee4d34ae6c2058",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 559,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-683640678973e44a",
+      "sourcePath": "src/content/knowledge/vitamins/B-Complex Vitamins/vit-b9-1.md",
+      "sourceTopLevel": "vitamins",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Vitamin B9 (Folate) — Function, Daily Needs, Food Sources & Safety",
+      "description": "Folate (vitamin B9) function, RDA, food sources, its critical role in pregnancy, and the 1,000 mcg upper limit — from NIH ODS.",
+      "legacySlug": "vit-b9-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "c96b98289b2f3b0e7492a616858c3b23ad36f9522008041aacebc66ccf480cbd",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 581,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-64c2eab04881e6b7",
+      "sourcePath": "src/content/knowledge/vitamins/Choline, Inositol & PABA/vit-choline-1.md",
+      "sourceTopLevel": "vitamins",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Choline: AI, Acetylcholine, Phosphatidylcholine, Betaine & the Essential Nutrient Not Quite a Vitamin",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Choline: AI, Acetylcholine, Phosphatidylcholine, Betaine & the Essential Nutrient Not Quite a Vitamin.",
+      "legacySlug": "vit-choline-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "17724e763fc7769d4dfcf931ef3ffc750cb8bf22e537aa475ce735fb02d7bdc5",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 707,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-46e9dcfe371bc455",
+      "sourcePath": "src/content/knowledge/vitamins/Choline, Inositol & PABA/vit-inositol-1.md",
+      "sourceTopLevel": "vitamins",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Inositol: Myo-Inositol, D-Chiro-Inositol, PCOS, Insulin Sensitivity & the B8 Vitamin That Wasn’t",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Inositol: Myo-Inositol, D-Chiro-Inositol, PCOS, Insulin Sensitivity & the B8 Vitamin That Wasn’t.",
+      "legacySlug": "vit-inositol-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "9f9b1b13c90e4a0de50deaf4d7f0c2cba0c77aa0963de49b7847dbc2e6d5215c",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 685,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-2563dd8ce2e46694",
+      "sourcePath": "src/content/knowledge/vitamins/Choline, Inositol & PABA/vit-paba-1.md",
+      "sourceTopLevel": "vitamins",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "PABA/Para-Aminobenzoic Acid: Folate Precursor, Sunscreen History & the Obsolete B Vitamin",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for PABA/Para-Aminobenzoic Acid: Folate Precursor, Sunscreen History & the Obsolete B Vitamin.",
+      "legacySlug": "vit-paba-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "fa33adf0ff54ec1bd1d4648a05341ac3f3545dbf676fc88b82a82c239e47a707",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 701,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-ff894b0271057a9f",
+      "sourcePath": "src/content/knowledge/vitamins/Clinical Deficiency Guide/vit-def-1.md",
+      "sourceTopLevel": "vitamins",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Vitamin Deficiency Clinical Guide: Signs, Symptoms, Risk Factors & Laboratory Diagnosis by Vitamin",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Vitamin Deficiency Clinical Guide: Signs, Symptoms, Risk Factors & Laboratory Diagnosis by Vitamin.",
+      "legacySlug": "vit-def-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "b5e302c4c71ee751ee16a94e7d1b6777478b145a913e70655405d89e09fcf052",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 740,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-d191ea9ef9df20e5",
+      "sourcePath": "src/content/knowledge/vitamins/Fat-Soluble Vitamins/vitamin-a.md",
+      "sourceTopLevel": "vitamins",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Vitamin A — Function, Daily Needs, Food Sources & Safety",
+      "description": "Vitamin A function, RDA, food sources, its role in vision and immunity, deficiency night-blindness, and the 3,000 mcg upper limit (preformed only) — from NIH ODS.",
+      "legacySlug": "vitamin-a",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "4d28990a3ae7f95f1ebafa8fe960dc8fc671aad7fbf0d7ae189e7270c1b87f72",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES"
+      ],
+      "diagnostics": {
+        "wordCount": 610,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": true,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-7cb67e7f4aa9e7d2",
+      "sourcePath": "src/content/knowledge/vitamins/Fat-Soluble Vitamins/vitamin-d.md",
+      "sourceTopLevel": "vitamins",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Vitamin D — Function, Daily Needs, Food Sources & Safety",
+      "description": "Vitamin D function, RDA, food and sunlight sources, its role in calcium and bone health, deficiency rickets, and the 100 mcg upper limit — from NIH ODS.",
+      "legacySlug": "vitamin-d",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "cd2a444c7f63558ab3dfa01eaa083515896e4126d6d2c68248863771b0ab5b21",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES"
+      ],
+      "diagnostics": {
+        "wordCount": 590,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": true,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-52307ea28018f949",
+      "sourcePath": "src/content/knowledge/vitamins/Fat-Soluble Vitamins/vitamin-e.md",
+      "sourceTopLevel": "vitamins",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Vitamin E — Function, Daily Needs, Food Sources & Safety",
+      "description": "Vitamin E function, RDA, food sources, its antioxidant role, and the 1,000 mg upper limit and bleeding risk — from NIH ODS.",
+      "legacySlug": "vitamin-e",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "7f6305fd4db6f98acba3bfd28b7829e10a6def577347c2c1cc88c2c467ec4876",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES"
+      ],
+      "diagnostics": {
+        "wordCount": 552,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": true,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-f5b7373f82f99437",
+      "sourcePath": "src/content/knowledge/vitamins/Iron-Rich Foods/func-iron-1.md",
+      "sourceTopLevel": "vitamins",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Iron-Rich Foods: Heme vs. Non-Heme, Absorption Enhancers & the Anemia-Prevention Diet",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Iron-Rich Foods: Heme vs. Non-Heme, Absorption Enhancers & the Anemia-Prevention Diet.",
+      "legacySlug": "func-iron-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "15c0130bd4bb088ff33a03c3ea35116639b6e40e47949bd22d68a904edfa65f0",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 726,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-88f95ee540df07f7",
+      "sourcePath": "src/content/knowledge/vitamins/Vitamin C/vit-c-1.md",
+      "sourceTopLevel": "vitamins",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Vitamin C: Ascorbic Acid, Collagen, Scurvy, Bioflavonoids & the Immune-Supporting Antioxidant",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Vitamin C: Ascorbic Acid, Collagen, Scurvy, Bioflavonoids & the Immune-Supporting Antioxidant.",
+      "legacySlug": "vit-c-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "8788df3eef92957d2d0e315b83ce5e93d92c642239df1f3a7495ac542884b414",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 708,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-053b4f44d07581c8",
+      "sourcePath": "src/content/knowledge/vitamins/Vitamin D Rich Foods/func-vitd-1.md",
+      "sourceTopLevel": "vitamins",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Vitamin D Foods: Fatty Fish, Egg Yolks, Mushrooms & Fortification — Beyond Sunlight",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Vitamin D Foods: Fatty Fish, Egg Yolks, Mushrooms & Fortification — Beyond Sunlight.",
+      "legacySlug": "func-vitd-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "6612ebe9cd462797f56c93e5f427c508ca0f5689e52a6fc2dcda7337e5be91e3",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 707,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-4b29c5a2c9eb85a5",
+      "sourcePath": "src/content/knowledge/vitamins/Vitamin ToxicityGuide/vit-tox-1.md",
+      "sourceTopLevel": "vitamins",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Hypervitaminosis & Vitamin Toxicity: Upper Limits, Symptoms, Risk & Safe Supplementation Practices",
+      "description": "Clinical overview, safety guidelines, and evidence-graded applications for Hypervitaminosis & Vitamin Toxicity: Upper Limits, Symptoms, Risk & Safe Supplementation Practices.",
+      "legacySlug": "vit-tox-1",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "39367987cddc14dda076f2a8bf72fb2e93efaec918a079774a9a764dc5ae9c9a",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 378,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-eb51f844f4aa51d1",
+      "sourcePath": "src/content/knowledge/vitamins/vitamin-k.md",
+      "sourceTopLevel": "vitamins",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Vitamin K — Function, Daily Needs, Food Sources & Safety",
+      "description": "Vitamin K function, adequate intake, food sources, its essential role in blood clotting and bone, and the warfarin interaction — from NIH ODS.",
+      "legacySlug": "vitamin-k",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "3693de0ee3dcbc1b7ffbb13128f2a952368b1e2020105805ab947c7cc856a0cf",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES"
+      ],
+      "diagnostics": {
+        "wordCount": 595,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": true,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-6132c2524f8ee094",
+      "sourcePath": "src/content/knowledge/vitamins/vitamin-k2.md",
+      "sourceTopLevel": "vitamins",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Vitamin K2 (Menaquinone) — Function, Food Sources & the Bone/Heart Research",
+      "description": "What vitamin K2 is, how it differs from K1, food sources like natto and cheese, and what the bone- and heart-health evidence actually shows.",
+      "legacySlug": "Vitamin K2",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "5ec7111ddca86ee1e9f0ac2873a0d9073c40180301d94ed1d48756571151f4a0",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "INSUFFICIENT_EXTERNAL_SOURCES",
+        "UNSAFE_OR_RAW_SLUG"
+      ],
+      "diagnostics": {
+        "wordCount": 402,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": false,
+        "contaminationSignals": []
+      }
+    },
+    {
+      "legacyId": "reference-f1d499a36ae34655",
+      "sourcePath": "src/content/knowledge/vitamins/Water-Soluble Vitamins/vitamin-b12.md",
+      "sourceTopLevel": "vitamins",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Vitamin B12 — Function, Daily Needs, Food Sources & Safety",
+      "description": "Vitamin B12 function, RDA, food sources, why vegans need fortified sources, and deficiency signs — from NIH ODS.",
+      "legacySlug": "vitamin-b12",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "7b1ed8d6980fb3011aa20f4c0b52d4896261acba7c2224bc473fc0b1d220dfd3",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES"
+      ],
+      "diagnostics": {
+        "wordCount": 561,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": true,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    },
+    {
+      "legacyId": "reference-e4cbe357ff17b327",
+      "sourcePath": "src/content/knowledge/vitamins/Water-Soluble Vitamins/vitamin-c.md",
+      "sourceTopLevel": "vitamins",
+      "pageKind": "nutrition-reference",
+      "tier": 3,
+      "title": "Vitamin C — Function, Daily Needs, Food Sources & Safety",
+      "description": "Vitamin C function, RDA, food sources, its role in collagen and iron absorption, deficiency scurvy, and the 2,000 mg upper limit — from NIH ODS.",
+      "legacySlug": "vitamin-c",
+      "lifecycleState": "quarantine",
+      "indexPolicy": "none",
+      "canonicalPath": null,
+      "contentSha256": "dbb96fa99f87275fc52d8267188847c89ca9af34cc43e7ae54b115712542af1e",
+      "preliminaryMachineEligible": false,
+      "preliminaryReasons": [
+        "BOILERPLATE_OR_PLACEHOLDER",
+        "INSUFFICIENT_EXTERNAL_SOURCES"
+      ],
+      "diagnostics": {
+        "wordCount": 582,
+        "externalSourceCount": 1,
+        "hasSourcesHeading": true,
+        "hasAuthorMetadata": true,
+        "hasReviewerMetadata": true,
+        "hasSafeSlug": true,
+        "contaminationSignals": [
+          "BOILERPLATE_OR_PLACEHOLDER"
+        ]
+      }
+    }
+  ]
+}

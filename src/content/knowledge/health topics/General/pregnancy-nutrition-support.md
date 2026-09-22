@@ -11,8 +11,6 @@ seoKeywords: ["Pregnancy Nutrition Support"]
 
 # Pregnancy Nutrition Support
 
-![Pregnancy Nutrition Support](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Nutritional gaps, morning sickness, and gestational diabetes risk during pregnancy.

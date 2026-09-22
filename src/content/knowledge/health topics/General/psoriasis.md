@@ -11,8 +11,6 @@ seoKeywords: ["Psoriasis"]
 
 # Psoriasis
 
-![Psoriasis](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Alcohol/smoking trigger overgrowth.

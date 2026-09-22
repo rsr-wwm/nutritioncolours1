@@ -98,8 +98,14 @@ export function validateApprovedContent(content, record) {
       if (!safeId(block.id)) errors.push(`${blockLabel}: invalid block id`);
       else if (blockIds.has(block.id)) errors.push(`${blockLabel}: duplicate block id ${block.id}`);
       else blockIds.add(block.id);
-      validateAnswer(block, record, blockLabel, errors, { minimumWords: 8, maximumWords: 260 });
-      if (blockIndex === 0 && words(block.text) > 120) errors.push(`${blockLabel}: answer-first opening block exceeds 120 words`);
+      // The opening block of every section is the answer-first contract: a standalone
+      // 40-60 word answer to the section's own heading, before any elaboration. Tighter
+      // than the general block range so meandering intros can't dilute the passage AI
+      // retrieval systems chunk on.
+      const isOpeningBlock = blockIndex === 0;
+      validateAnswer(block, record, blockLabel, errors, isOpeningBlock
+        ? { minimumWords: 40, maximumWords: 60 }
+        : { minimumWords: 8, maximumWords: 260 });
     }
   }
 

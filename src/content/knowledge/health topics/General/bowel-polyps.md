@@ -11,8 +11,6 @@ seoKeywords: ["Bowel Polyps"]
 
 # Bowel Polyps
 
-![Bowel Polyps](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Red meat/low fiber alters gut bacteria.

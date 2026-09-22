@@ -11,8 +11,6 @@ seoKeywords: ["Back & Spine Health"]
 
 # Back & Spine Health
 
-![Back & Spine Health](https://images.unsplash.com/photo-1588282322673-c31965a75c3e?q=80&w=800)
-
 ## Problem
 
 Chronic back pain, poor posture, and intervertebral disc issues.

@@ -11,8 +11,6 @@ seoKeywords: ["Angina"]
 
 # Angina
 
-![Angina](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Heart arteries narrowed by plaque.

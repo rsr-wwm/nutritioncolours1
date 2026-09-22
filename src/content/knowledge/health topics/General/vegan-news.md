@@ -11,8 +11,6 @@ seoKeywords: ["Vegan News"]
 
 # News & Environmental Science
 
-![News & Environmental Science](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Staying informed on animal agriculture emissions, global plant-based initiatives, and cutting-edge food technology updates.

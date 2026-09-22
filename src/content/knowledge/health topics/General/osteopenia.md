@@ -11,8 +11,6 @@ seoKeywords: ["Osteopenia"]
 
 # Osteopenia
 
-![Osteopenia](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Sedentary life/low calcium.

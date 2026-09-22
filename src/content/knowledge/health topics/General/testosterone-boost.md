@@ -11,8 +11,6 @@ seoKeywords: ["Testosterone Boost"]
 
 # Testosterone Boost
 
-![Testosterone Boost](https://images.unsplash.com/photo-1583321500900-82807e458f3c?q=80&w=800)
-
 ## Problem
 
 Low testosterone linked to high body fat and poor nutrient intake.

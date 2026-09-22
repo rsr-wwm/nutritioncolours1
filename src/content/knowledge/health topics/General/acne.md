@@ -11,8 +11,6 @@ seoKeywords: ["Acne"]
 
 # Acne
 
-![Acne](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Dairy/sugar spike insulin.

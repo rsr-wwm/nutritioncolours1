@@ -11,8 +11,6 @@ seoKeywords: ["Celiac Disease"]
 
 # Celiac Disease
 
-![Celiac Disease](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Gluten triggers immune attack.

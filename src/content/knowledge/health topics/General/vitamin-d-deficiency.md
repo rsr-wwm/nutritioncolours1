@@ -11,8 +11,6 @@ seoKeywords: ["Vitamin D Deficiency"]
 
 # Vitamin D Deficiency
 
-![Vitamin D Deficiency](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Indoor living blocks UV rays.

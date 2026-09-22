@@ -11,8 +11,6 @@ seoKeywords: ["Listeria / Toxo / Trichinosis"]
 
 # Listeria / Toxo / Trichinosis
 
-![Listeria / Toxo / Trichinosis](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Eating unpasteurized cheese, raw meat, bad cans.

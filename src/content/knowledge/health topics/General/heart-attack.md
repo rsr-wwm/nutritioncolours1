@@ -11,8 +11,6 @@ seoKeywords: ["Heart Attack"]
 
 # Heart Attack
 
-![Heart Attack](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Plaque ruptures, blocking heart blood flow.

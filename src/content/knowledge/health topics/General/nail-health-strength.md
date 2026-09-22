@@ -11,8 +11,6 @@ seoKeywords: ["Nail Health & Strength"]
 
 # Nail Health & Strength
 
-![Nail Health & Strength](https://images.unsplash.com/photo-1519014816548-bf5fe059798b?q=80&w=800)
-
 ## Problem
 
 Brittle, splitting, or weak nails indicating nutrient deficiencies.

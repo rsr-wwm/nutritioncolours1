@@ -11,8 +11,6 @@ seoKeywords: ["Breast Cancer"]
 
 # Breast Cancer
 
-![Breast Cancer](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Alcohol intake and obesity.

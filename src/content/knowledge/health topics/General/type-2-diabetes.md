@@ -11,8 +11,6 @@ seoKeywords: ["Type 2 Diabetes"]
 
 # Type 2 Diabetes
 
-![Type 2 Diabetes](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Excess sugar/carbs cause insulin resistance.

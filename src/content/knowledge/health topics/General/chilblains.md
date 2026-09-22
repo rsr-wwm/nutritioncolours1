@@ -11,8 +11,6 @@ seoKeywords: ["Chilblains"]
 
 # Chilblains
 
-![Chilblains](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Cold damp air causes spasm.

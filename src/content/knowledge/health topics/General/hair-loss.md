@@ -11,8 +11,6 @@ seoKeywords: ["Hair Loss"]
 
 # Hair Loss
 
-![Hair Loss](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Iron/protein deficiency, high sugar.

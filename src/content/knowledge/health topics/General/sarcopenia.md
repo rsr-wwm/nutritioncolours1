@@ -11,8 +11,6 @@ seoKeywords: ["Sarcopenia"]
 
 # Sarcopenia
 
-![Sarcopenia](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Aging + no protein + sitting.

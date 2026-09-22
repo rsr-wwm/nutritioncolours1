@@ -11,8 +11,6 @@ seoKeywords: ["Blood Circulation Support"]
 
 # Blood Circulation Support
 
-![Blood Circulation Support](https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800)
-
 ## Problem
 
 Poor circulation leading to cold extremities and numbness.

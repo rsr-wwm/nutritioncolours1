@@ -11,8 +11,6 @@ seoKeywords: ["Clinical Vegan Recipes"]
 
 # Vegan Recipes & Circadian Cooking
 
-![Vegan Recipes & Circadian Cooking](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Sourcing balanced, high-protein plant-based recipes that align with natural circadian windows and do not trigger blood sugar spikes.

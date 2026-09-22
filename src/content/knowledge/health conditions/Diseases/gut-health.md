@@ -11,8 +11,6 @@ seoKeywords: ["gut health microbiome restoration"]
 
 # Gut Health & Microbiome Restoration
 
-![Gut Health & Microbiome Restoration](https://images.unsplash.com/photo-1616671285420-a61250239cf2?q=80&w=800)
-
 ## Root Cause
 
 Intestinal epithelial barrier disruption (Leaky Gut) and dysbiosis, characterized by a loss of short-chain fatty acid (SCFA) producing bacteria and mucosal lining depletion.

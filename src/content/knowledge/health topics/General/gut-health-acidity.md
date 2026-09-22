@@ -11,8 +11,6 @@ seoKeywords: ["Gut Health & Acidity"]
 
 # Gut Health & Acidity
 
-![Gut Health & Acidity](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Microbiome imbalance and high acid levels.

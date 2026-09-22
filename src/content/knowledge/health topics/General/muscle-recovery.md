@@ -11,8 +11,6 @@ seoKeywords: ["Muscle Recovery & Strength"]
 
 # Muscle Recovery & Strength
 
-![Muscle Recovery & Strength](https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=800)
-
 ## Problem
 
 Slow recovery, muscle soreness, and sarcopenia (age-related muscle loss).

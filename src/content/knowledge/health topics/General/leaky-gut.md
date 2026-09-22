@@ -11,8 +11,6 @@ seoKeywords: ["Leaky Gut"]
 
 # Leaky Gut
 
-![Leaky Gut](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Alcohol/junk food breaks gut glue.

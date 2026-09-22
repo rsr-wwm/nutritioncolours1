@@ -11,8 +11,6 @@ seoKeywords: ["reverse MASLD fatty liver"]
 
 # MASLD (Fatty Liver)
 
-![MASLD (Fatty Liver)](https://images.unsplash.com/photo-1505751172876-fa1923c5c528?q=80&w=800)
-
 ## Root Cause
 
 Hepatic de novo lipogenesis driven by excessive fructose intake, industrial seed oils, and circadian eating rhythm misalignment.

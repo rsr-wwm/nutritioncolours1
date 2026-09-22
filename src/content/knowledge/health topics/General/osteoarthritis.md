@@ -11,8 +11,6 @@ seoKeywords: ["Osteoarthritis"]
 
 # Osteoarthritis
 
-![Osteoarthritis](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Obesity physically crushes cartilage.

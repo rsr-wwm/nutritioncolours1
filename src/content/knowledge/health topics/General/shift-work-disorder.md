@@ -11,8 +11,6 @@ seoKeywords: ["Shift Work Disorder"]
 
 # Shift Work Disorder
 
-![Shift Work Disorder](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Night shifts ruin circadian rhythm.

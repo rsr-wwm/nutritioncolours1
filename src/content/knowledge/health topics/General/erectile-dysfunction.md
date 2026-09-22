@@ -11,8 +11,6 @@ seoKeywords: ["Erectile Dysfunction"]
 
 # Erectile Dysfunction
 
-![Erectile Dysfunction](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Plaque blocks penile arteries.

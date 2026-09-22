@@ -11,8 +11,6 @@ seoKeywords: ["Endometriosis Pain"]
 
 # Endometriosis Pain
 
-![Endometriosis Pain](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Red meat/trans fats inflame tissue.

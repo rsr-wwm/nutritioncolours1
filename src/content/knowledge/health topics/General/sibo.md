@@ -11,8 +11,6 @@ seoKeywords: ["SIBO"]
 
 # SIBO
 
-![SIBO](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Low motility lets bacteria climb.

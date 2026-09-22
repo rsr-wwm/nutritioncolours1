@@ -11,8 +11,6 @@ seoKeywords: ["hypothyroidism diet thyroid antibodies"]
 
 # Thyroid Dysfunction (Hypothyroidism & Hashimoto's)
 
-![Thyroid Dysfunction (Hypothyroidism & Hashimoto's)](https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=800)
-
 ## Root Cause
 
 Chronic thyroid follicular cell inflammation or autoimmune destruction (Hashimoto's thyroiditis) leading to inadequate production of thyroxine (T4) and triiodothyronine (T3).

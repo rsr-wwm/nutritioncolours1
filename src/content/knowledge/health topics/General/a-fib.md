@@ -11,8 +11,6 @@ seoKeywords: ["A-Fib"]
 
 # A-Fib
 
-![A-Fib](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Binge drinking, obesity, stress.

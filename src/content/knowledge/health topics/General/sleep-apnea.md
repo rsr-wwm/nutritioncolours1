@@ -11,8 +11,6 @@ seoKeywords: ["Sleep Apnea"]
 
 # Sleep Apnea
 
-![Sleep Apnea](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Neck fat collapses airway.

@@ -11,8 +11,6 @@ seoKeywords: ["Obesity"]
 
 # Obesity
 
-![Obesity](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Calorie surplus from ultra-processed foods.

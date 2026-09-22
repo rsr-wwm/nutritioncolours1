@@ -11,8 +11,6 @@ seoKeywords: ["Peripheral Artery"]
 
 # Peripheral Artery
 
-![Peripheral Artery](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Smoking and poor diet block leg vessels.

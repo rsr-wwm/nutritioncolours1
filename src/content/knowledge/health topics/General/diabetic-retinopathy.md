@@ -11,8 +11,6 @@ seoKeywords: ["Diabetic Retinopathy"]
 
 # Diabetic Retinopathy
 
-![Diabetic Retinopathy](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 High sugar bursts eye blood vessels.

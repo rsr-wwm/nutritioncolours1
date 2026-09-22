@@ -11,8 +11,6 @@ seoKeywords: ["Crohns / UC"]
 
 # Crohn's / UC
 
-![Crohn's / UC](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Emulsifiers/sugar tear gut lining.

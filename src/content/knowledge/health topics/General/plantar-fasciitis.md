@@ -11,8 +11,6 @@ seoKeywords: ["Plantar Fasciitis"]
 
 # Plantar Fasciitis
 
-![Plantar Fasciitis](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Obesity + bad shoes tear fascia.

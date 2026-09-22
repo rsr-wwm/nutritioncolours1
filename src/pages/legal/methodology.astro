@@ -1,54 +1,88 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import LegalContent from '../../components/LegalContent.astro';
-import { LEGAL_CONTENT } from '../../lib/constants';
-import confidenceScores from '../../../public/data/confidence-scores.json';
-
-// Real, computed stats from confidence-scores.json — not hand-typed prose, so this
-// page can't drift from the data it's describing. See /knowledge/glossary and the
-// Claim schema on every condition/herb page for the structured-data counterpart.
-const conditions = Object.values(confidenceScores.conditions) as any[];
-const herbs = Object.values(confidenceScores.herbs || {}) as any[];
-const allEntries = [...conditions, ...herbs];
-
-const avgConfidence = Math.round(
-  allEntries.reduce((sum, e) => sum + e.confidenceScore, 0) / allEntries.length
-);
-
-const evidenceTiers = [...new Set(allEntries.map((e) => e.evidenceLevel.split(' ')[0]))].sort();
-
-const reviewCadenceDays = Math.round(
-  (new Date(allEntries[0].nextReviewDue).getTime() - new Date(allEntries[0].lastVerified).getTime())
-  / (1000 * 60 * 60 * 24)
-);
-
-const reviewer = allEntries[0]?.reviewer || 'Our clinical team';
-
-const sections = [
-  {
-    heading: 'What This Page Covers',
-    text: `Every clinical condition and herb page on NutritionColours carries a real, machine-readable confidence score and evidence level, generated from the same dataset summarized here. This page is the human-readable view of that data — nothing below is invented for this page; it's computed directly from our published confidence-scores dataset.`,
-  },
-  {
-    heading: 'Coverage & Confidence, By The Numbers',
-    text: `${allEntries.length} clinical entities (${conditions.length} conditions, ${herbs.length} herbs) currently carry a scored confidence rating, averaging ${avgConfidence}/100. Evidence tiers represented: ${evidenceTiers.join(', ')} (Oxford Centre for Evidence-Based Medicine scale, Tier I being systematic reviews/meta-analyses/RCTs). Entities without a listed score here are still cited on their own pages, but haven't yet been through this specific scoring pass.`,
-  },
-  {
-    heading: 'Review Cadence',
-    text: `Scored entries are scheduled for re-verification every ${reviewCadenceDays} days by ${reviewer}. This is a real recurring commitment, not a one-time audit — the next-due date for every entry is tracked in the same dataset this page reads from.`,
-  },
-  ...LEGAL_CONTENT['evidence-approach'],
-];
+import LegalTabs from '../../components/legal/LegalTabs.astro';
 ---
 <BaseLayout
-  title="How We Source Claims | NutritionColours Methodology"
-  description="How NutritionColours grades evidence and scores confidence for every clinical claim — the human-readable view of our published confidence-scores dataset."
-  canonicalUrl="/legal/methodology"
+  title="Claims methodology | NutritionColours"
+  description="See how NutritionColours evaluates evidence, claims, authorship, review status, uncertainty, corrections, and publication readiness."
+  breadcrumbs={[
+    { name: 'Home', path: '/' },
+    { name: 'Policies', path: '/legal/editorial-policy' },
+    { name: 'Methodology', path: '/legal/methodology' },
+  ]}
 >
-  <LegalContent
-    eyebrow="Trust & Transparency"
-    title="How We Source Claims"
-    intro="Every clinical assertion on this site is backed by a real, published confidence score and evidence tier. Here's exactly how that works."
-    sections={sections}
-  />
+  <article class="max-w-4xl mx-auto px-6 py-16 md:py-24">
+    <nav aria-label="Breadcrumb" class="text-sm text-stone-600 dark:text-stone-400">
+      <ol class="flex flex-wrap items-center gap-2">
+        <li><a href="/" class="font-bold text-emerald-800 dark:text-emerald-400 hover:underline">Home</a></li>
+        <li aria-hidden="true">/</li>
+        <li><span class="text-stone-500 dark:text-stone-400">Policies</span></li>
+        <li aria-hidden="true">/</li>
+        <li aria-current="page" class="font-medium text-stone-900 dark:text-stone-200">Claims methodology</li>
+      </ol>
+    </nav>
+
+    <!-- Legal Sub-Navigation Tabs -->
+    <LegalTabs current="/legal/methodology" />
+
+    <div class="mt-8 inline-flex items-center gap-2 rounded-full border border-emerald-300 dark:border-emerald-800 bg-emerald-50 dark:bg-emerald-950/40 px-3.5 py-1 text-xs font-bold uppercase tracking-widest text-emerald-800 dark:text-emerald-300">
+      <span class="inline-block h-2 w-2 rounded-full bg-emerald-500" aria-hidden="true"></span>
+      Verification Architecture
+    </div>
+
+    <h1 class="mt-4 text-4xl md:text-5xl font-black text-emerald-950 dark:text-emerald-50 brand-font tracking-tight">
+      Claims verification methodology
+    </h1>
+
+    <p class="mt-3 text-sm text-stone-500 dark:text-stone-400">
+      Last updated: <time datetime="2026-08-20">20 August 2026</time> &middot; Release Baseline: v2.4
+    </p>
+
+    <p class="mt-6 text-lg leading-relaxed text-stone-700 dark:text-stone-300 border-l-4 border-emerald-500 pl-5">
+      NutritionColours does not publish arbitrary numeric confidence scores or claim that every legacy page has completed clinical review. Every live claim must pass rigorous deterministic verification.
+    </p>
+
+    <div class="mt-12 space-y-10">
+      <!-- Card 1: Claim-Level AST Check -->
+      <section class="rounded-3xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 p-7 md:p-8 shadow-sm space-y-3">
+        <h2 class="text-2xl font-black text-emerald-950 dark:text-emerald-100 brand-font">Deterministic claim-level audit</h2>
+        <p class="text-base leading-relaxed text-stone-700 dark:text-stone-300">
+          For each material health statement, our automated compilation pipeline parses the exact claim string, intended audience, primary source DOI, source publication date, physiological limitations, verified reviewer credentials, and publication decision. Claims must resolve to a registered entry in our immutable claims ledger before compilation succeeds.
+        </p>
+      </section>
+
+      <!-- Card 2: Fail-Closed Policy -->
+      <section class="rounded-3xl border border-amber-200 dark:border-amber-800/60 bg-amber-50/70 dark:bg-amber-950/30 p-7 md:p-8 text-amber-950 dark:text-amber-200 space-y-3">
+        <h2 class="text-2xl font-black text-amber-950 dark:text-amber-100 brand-font">Fail-closed release engineering</h2>
+        <p class="text-base leading-relaxed text-stone-700 dark:text-stone-300">
+          If evidence, author identity, clinical scope, or service boundaries cannot be substantiated with active primary literature, the assertion is permanently removed from structured data and indexable HTML. Quarantined drafts display prominent warning banners because direct traffic may still arrive at the URL.
+        </p>
+      </section>
+
+      <!-- Card 3: Technical Quality Gates -->
+      <section class="rounded-3xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 p-7 md:p-8 shadow-sm space-y-4">
+        <h2 class="text-2xl font-black text-emerald-950 dark:text-emerald-100 brand-font">Automated quality & integrity gates</h2>
+        <p class="text-sm text-stone-600 dark:text-stone-400">
+          Prior to static artifact deployment, every generated page passes 5 mandatory gates:
+        </p>
+        <ul class="list-disc space-y-2 pl-5 text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          <li><strong>JSON-LD Validation:</strong> Schema conforms strictly to Schema.org standards (WebPage, MedicalWebPage, BreadcrumbList).</li>
+          <li><strong>Canonical Parity:</strong> 100% same-origin lowercase canonical URLs with zero trailing slashes or redirect loops.</li>
+          <li><strong>Sitemap Consistency:</strong> Zero orphaned indexable URLs; sitemap entries map 1:1 to generated canonical HTML files.</li>
+          <li><strong>Zero Broken Internal Links:</strong> Every anchor link is resolved at build time against the static output tree.</li>
+          <li><strong>Negative Capability Scanner:</strong> Continuous automated AST checks guarantee no banned generative spam, doorway pages, or hallucinated clinical claims exist.</li>
+        </ul>
+      </section>
+
+      <div class="rounded-2xl border border-stone-200 dark:border-stone-800 bg-stone-50/70 dark:bg-stone-800/50 p-6 flex flex-wrap items-center justify-between gap-4">
+        <div>
+          <h3 class="text-base font-bold text-stone-900 dark:text-stone-100">Want to inspect the editorial policy standard?</h3>
+          <p class="text-xs text-stone-600 dark:text-stone-400 mt-1">Read our comprehensive sourcing and conflict-of-interest guidelines.</p>
+        </div>
+        <a href="/legal/editorial-policy" class="inline-flex items-center gap-2 rounded-xl bg-emerald-900 dark:bg-emerald-700 px-5 py-2.5 text-sm font-bold text-white hover:bg-emerald-800 dark:hover:bg-emerald-800 transition-colors">
+          Read editorial policy &rarr;
+        </a>
+      </div>
+    </div>
+  </article>
 </BaseLayout>

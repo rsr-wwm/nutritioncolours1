@@ -1,163 +1,139 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { SitemapPage } from '../components/SitemapVisuals';
-import { SITE_STRUCTURE, BLOG_ARTICLES } from '../lib/constants';
-import { TOPICS } from '../data/topics';
-import { HERBS_SPICES_DATA, MEDICAL_CONDITIONS_DATA } from '../lib/clinical_databases';
-import { RECIPES } from '../data/recipes';
+import Icons from '../components/Icons.astro';
 
-// Deep clone structure to modify safely
-const dynamicStructure = JSON.parse(JSON.stringify(SITE_STRUCTURE));
-
-// Find specific category folders to populate dynamically
-const traverseAndPopulate = (node: any) => {
-  if (node.id === 'topics-page') {
-    // Populate all 200+ topics
-    node.children = TOPICS.map((topic: any) => ({
-      id: `topic-${topic.id}`,
-      path: `topic/${topic.id}`,
-      label: topic.title,
-      type: 'resource',
-      status: 'optimized',
-      meta: { title: topic.pageTitle, description: topic.metaDescription, keywords: [topic.primaryKeyword] },
-      content: {
-        benefits: topic.naturalApproach || [],
-        features: topic.aiSummaryBlock?.tags || [topic.category]
-      }
-    }));
-  } else if (node.id === 'herbs-category') {
-    // Populate all herbs
-    node.children = HERBS_SPICES_DATA.filter((h: any) => h.category === 'herb').map((herb: any) => ({
-      id: `herb-${herb.id}`,
-      path: `herb/${herb.id}`,
-      label: herb.scientificName ? `${herb.name} — ${herb.scientificName}` : herb.name,
-      type: 'resource',
-      status: 'optimized',
-      meta: { title: herb.pageTitle, description: herb.metaDescription, keywords: herb.seoKeywords || [] },
-      content: {
-        benefits: herb.contraindications || [],
-        features: herb.activeCompounds || []
-      }
-    }));
-  } else if (node.id === 'spices-category') {
-    // Populate all spices
-    node.children = HERBS_SPICES_DATA.filter((h: any) => h.category === 'spice').map((herb: any) => ({
-      id: `herb-${herb.id}`,
-      path: `herb/${herb.id}`,
-      label: herb.scientificName ? `${herb.name} — ${herb.scientificName}` : herb.name,
-      type: 'resource',
-      status: 'optimized',
-      meta: { title: herb.pageTitle, description: herb.metaDescription, keywords: herb.seoKeywords || [] },
-      content: {
-        benefits: herb.contraindications || [],
-        features: herb.activeCompounds || []
-      }
-    }));
-  } else if (node.id === 'conditions-category') {
-    // Populate all conditions
-    node.children = MEDICAL_CONDITIONS_DATA.map((cond: any) => ({
-      id: `condition-${cond.id}`,
-      path: `condition/${cond.id}`,
-      label: `${cond.name} Protocol`,
-      type: 'resource',
-      status: 'optimized',
-      meta: { title: cond.pageTitle, description: cond.metaDescription, keywords: cond.seoKeywords || [] },
-      content: {
-        benefits: cond.swapGuidelines?.incorporate || [],
-        features: cond.biomarkers || []
-      }
-    }));
-  } else if (node.id === 'recipes-page') {
-    // Populate all recipes
-    node.children = RECIPES.map((recipe: any) => ({
-      id: `recipe-${recipe.id}`,
-      path: `recipe/${recipe.id}`,
-      label: recipe.title,
-      type: 'resource',
-      status: 'optimized',
-      meta: { title: recipe.pageTitle || recipe.title, description: recipe.metaDescription || recipe.description, keywords: recipe.tags || [] },
-      content: {
-        benefits: [recipe.primaryBenefit, recipe.prepTime],
-        features: recipe.tags || []
-      }
-    }));
-  } else if (node.id === 'blogs-page') {
-    // Populate all articles
-    node.children = BLOG_ARTICLES.map((art: any) => ({
-      id: `blog-${art.id}`,
-      path: `article/${art.id}`,
-      label: art.title,
-      type: 'resource',
-      status: 'optimized',
-      meta: { title: art.pageTitle || art.title, description: art.metaDescription || art.excerpt, keywords: art.tags || [] },
-      content: {
-        benefits: [art.category, `Written by ${art.author}`],
-        features: art.tags || []
-      }
-    }));
-  } else if (node.id === 'team-page') {
-    // Populate team details
-    node.children = node.children.map((child: any) => {
-      const memberId = child.id.replace('team-', '');
-      const TEAM_DATA = [
-        { id: 'shilpa', name: 'Dr. Shilpa Thakur', role: 'Medical Nutritionist', location: 'Chandigarh', specialties: ['Blood Sugar Optimization', 'Circadian Nutrition'] },
-        { id: 'kelive', name: 'Kelive D\'Souza', role: 'Food Recipe Expert', location: 'Goa', specialties: ['Therapeutic Recipes', 'Gourmet Health Food'] },
-        { id: 'karan', name: 'Karan Singh', role: 'Physical Recovery Specialist', location: 'Chandigarh', specialties: ['Physical Rehab', 'Movement Therapy'] },
-        { id: 'sagar', name: 'Sagar Thapa', role: 'Yoga & Mindfulness Coach', location: 'Dharamshala', specialties: ['Asana Practice', 'Shatkarma Cleansing'] },
-        { id: 'nanz', name: 'Nanzin Dolma', role: 'Trained Nurse', location: 'Chandigarh', specialties: ['Patient Vitals Tracking', 'CGM Optimization'] },
-        { id: 'rana', name: 'R.S. Rana', role: 'Administrative Head', location: 'Chandigarh', specialties: ['Clinical Operations', 'Patient Logistics'] }
-      ];
-      const match = TEAM_DATA.find(t => t.id === memberId);
-      if (match) {
-        return {
-          ...child,
-          meta: {
-            title: `${match.name} | ${match.role} | NutritionColours`,
-            description: `Meet ${match.name}, our expert ${match.role} located in ${match.location}.`,
-            keywords: [match.role, match.location, ...match.specialties]
-          },
-          content: {
-            benefits: [match.role, `Base Location: ${match.location}`],
-            features: match.specialties
-          }
-        };
-      }
-      return child;
-    });
-  } else if (node.id === 'vegan-page') {
-    // Populate vegan subtopics
-    node.children = node.children.map((child: any) => {
-      const slug = child.path.replace('vegan/', '');
-      const topicKey = `vegan-${slug}`;
-      const match = TOPICS.find(t => t.id === topicKey);
-      if (match) {
-        return {
-          ...child,
-          meta: {
-            title: match.pageTitle,
-            description: match.metaDescription,
-            keywords: [match.primaryKeyword || match.title]
-          },
-          content: {
-            benefits: match.naturalApproach || [],
-            features: match.aiSummaryBlock?.tags || [match.category]
-          }
-        };
-      }
-      return child;
-    });
-  }
-
-  if (node.children) {
-    node.children.forEach(traverseAndPopulate);
-  }
-};
-
-traverseAndPopulate(dynamicStructure);
+const sections = [
+  {
+    title: 'Explore & Knowledge',
+    description: 'Evidence directories, food data, and nutritional science hubs.',
+    links: [
+      ['Knowledge directory', '/knowledge'],
+      ['Food library', '/foods'],
+      ['Culinary recipes & safety', '/recipes'],
+      ['Topic review status', '/knowledge/health-topics'],
+      ['Instant search archive', '/search'],
+    ],
+  },
+  {
+    title: 'Institutional Governance',
+    description: 'Mission, oversight, clinical verification status, and contact.',
+    links: [
+      ['About NutritionColours', '/about'],
+      ['Contributor verification', '/team'],
+      ['Editorial desk contact', '/contact'],
+      ['Online service scope', '/services/online-nutrition'],
+      ['No physical clinics notice', '/clinics'],
+      ['Plans reactivation status', '/plans'],
+    ],
+  },
+  {
+    title: 'Standards & Policies',
+    description: 'Methodology, editorial gates, privacy commitments, and terms.',
+    links: [
+      ['Editorial policy', '/legal/editorial-policy'],
+      ['Scientific methodology', '/legal/methodology'],
+      ['Privacy & DPDP compliance', '/legal/privacy'],
+      ['Terms of service', '/legal/terms'],
+      ['Testimonials policy', '/testimonials'],
+    ],
+  },
+];
 ---
+
 <BaseLayout
-  title="Sitemap & Clinical Index | NutritionColours"
-  description="Structured index of all clinical topics, program details, recipes, sitemap nodes, and medical files."
+  title="Sitemap | NutritionColours"
+  description="Browse NutritionColours’ main sections, health and food status hubs, service information, policies, and contact resources."
+  breadcrumbs={[
+    { name: 'Home', path: '/' },
+    { name: 'Sitemap', path: '/sitemap' },
+  ]}
 >
-  <SitemapPage client:load siteStructure={dynamicStructure} />
+  <article class="mx-auto max-w-6xl px-6 py-16 md:py-24">
+    <nav aria-label="Breadcrumb" class="text-sm text-stone-600 dark:text-stone-400">
+      <ol class="flex flex-wrap items-center gap-2">
+        <li><a href="/" class="font-bold text-emerald-800 dark:text-emerald-400 hover:underline">Home</a></li>
+        <li aria-hidden="true">/</li>
+        <li aria-current="page" class="font-medium text-stone-900 dark:text-stone-200">Sitemap</li>
+      </ol>
+    </nav>
+
+    <div class="mt-6 inline-flex items-center gap-2 rounded-full border border-emerald-300 dark:border-emerald-800/60 bg-emerald-50 dark:bg-emerald-950/40 px-3.5 py-1 text-xs font-bold uppercase tracking-wider text-emerald-900 dark:text-emerald-300">
+      <span class="inline-block h-2 w-2 rounded-full bg-emerald-600" aria-hidden="true"></span>
+      Directory Index &middot; Deterministic Navigation
+    </div>
+
+    <h1 class="brand-font mt-4 text-fluid-hero font-black text-emerald-950 dark:text-emerald-50">
+      Sitemap
+    </h1>
+    <p class="mt-5 max-w-3xl text-lg leading-relaxed text-stone-600 dark:text-stone-300">
+      Browse all canonical pages, evidence directories, institutional disclosures, and governance policies across NutritionColours.
+    </p>
+
+    <!-- Fast Search Jump Card -->
+    <section class="card-interactive mt-10 rounded-3xl border border-emerald-200/80 dark:border-emerald-800/50 bg-gradient-to-br from-emerald-50/70 to-teal-50/40 dark:from-emerald-950/30 dark:to-stone-900 p-6 md:p-8 shadow-sm" aria-labelledby="quick-search-heading">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-6">
+        <div class="space-y-2">
+          <div class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-emerald-800 dark:text-emerald-400">
+            <span>Instant Search Engine</span>
+          </div>
+          <h2 id="quick-search-heading" class="text-xl md:text-2xl font-black text-emerald-950 dark:text-emerald-100 brand-font">
+            Search the complete evidence library
+          </h2>
+          <p class="text-sm text-stone-600 dark:text-stone-400 max-w-xl">
+            Query thousands of peer-reviewed claims, nutrient breakdowns, and ingredient safety analyses offline or in-browser.
+          </p>
+        </div>
+        <div>
+          <a
+            href="/search"
+            class="inline-flex items-center gap-2 rounded-xl bg-emerald-900 dark:bg-emerald-700 px-6 py-3.5 text-sm font-bold text-white shadow-sm hover:bg-emerald-800 dark:hover:bg-emerald-800 transition-colors shrink-0"
+          >
+            <Icons name="search" size={16} />
+            <span>Launch fast search</span>
+            <Icons name="arrow-right" size={14} />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Navigation Hubs -->
+    <div class="mt-10 grid gap-6 md:grid-cols-3">
+      {sections.map((section) => (
+        <section class="flex flex-col rounded-3xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 p-7 shadow-sm transition-shadow hover:shadow-md">
+          <h2 class="text-xl font-black text-emerald-950 dark:text-emerald-100 brand-font">
+            {section.title}
+          </h2>
+          <p class="mt-2 text-xs leading-relaxed text-stone-600 dark:text-stone-400">
+            {section.description}
+          </p>
+          <ul class="mt-6 space-y-3.5 border-t border-stone-100 dark:border-stone-800 pt-5 flex-1">
+            {section.links.map(([label, href]) => (
+              <li>
+                <a
+                  href={href}
+                  class="group flex items-center justify-between text-sm font-semibold text-emerald-900 dark:text-emerald-400 hover:text-emerald-700 dark:hover:text-emerald-300 transition-colors"
+                >
+                  <span>{label}</span>
+                  <Icons name="arrow-right" size={12} class="text-stone-400 group-hover:text-emerald-700 dark:group-hover:text-emerald-300 group-hover:translate-x-0.5 transition-transform" />
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </div>
+
+    <!-- Crawler and Machine Sitemaps Notice -->
+    <section class="mt-12 rounded-3xl border border-stone-200 dark:border-stone-800 bg-stone-50 dark:bg-stone-900/60 p-6 md:p-8" aria-labelledby="machine-heading">
+      <h2 id="machine-heading" class="text-lg font-black text-emerald-950 dark:text-emerald-100 brand-font">
+        Automated Crawler &amp; Agent Feeds
+      </h2>
+      <p class="mt-2 text-sm leading-relaxed text-stone-600 dark:text-stone-400 max-w-3xl">
+        For search crawlers, web indexers, and automated verification agents, the machine-readable XML index is maintained with cryptographic timestamp integrity at
+        <a href="/sitemap.xml" class="font-bold text-emerald-800 dark:text-emerald-400 underline hover:text-emerald-900">/sitemap.xml</a>.
+        AI agent documentation and structured corpus guides are available at
+        <a href="/llms.txt" class="font-bold text-emerald-800 dark:text-emerald-400 underline hover:text-emerald-900">/llms.txt</a>.
+      </p>
+    </section>
+  </article>
 </BaseLayout>

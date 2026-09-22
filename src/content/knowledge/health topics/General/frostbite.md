@@ -11,8 +11,6 @@ seoKeywords: ["Frostbite"]
 
 # Frostbite
 
-![Frostbite](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Freezing cold kills tissue.

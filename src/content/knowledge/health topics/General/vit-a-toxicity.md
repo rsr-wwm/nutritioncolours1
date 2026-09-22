@@ -11,8 +11,6 @@ seoKeywords: ["Vit A Toxicity"]
 
 # Vit A Toxicity
 
-![Vit A Toxicity](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Eating excessive animal liver.

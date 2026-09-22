@@ -11,8 +11,6 @@ seoKeywords: ["Hair Growth & Strength"]
 
 # Hair Growth & Strength
 
-![Hair Growth & Strength](https://images.unsplash.com/photo-1580618672591-eb180b1a973f?q=80&w=800)
-
 ## Problem
 
 Thinning hair, hair fall, and brittle strands due to nutrient lack.

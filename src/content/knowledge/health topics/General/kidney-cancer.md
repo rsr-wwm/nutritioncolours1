@@ -11,8 +11,6 @@ seoKeywords: ["Kidney Cancer"]
 
 # Kidney Cancer
 
-![Kidney Cancer](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Smoking and obesity.

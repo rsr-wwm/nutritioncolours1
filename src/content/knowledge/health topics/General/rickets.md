@@ -11,8 +11,6 @@ seoKeywords: ["Rickets"]
 
 # Rickets
 
-![Rickets](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Kids kept indoors + no dairy.

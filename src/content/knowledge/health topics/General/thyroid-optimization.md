@@ -11,8 +11,6 @@ seoKeywords: ["Thyroid & Metabolic Optimization"]
 
 # Thyroid & Metabolic Optimization
 
-![Thyroid & Metabolic Optimization](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Low thyroid function leading to fatigue and slow metabolism.

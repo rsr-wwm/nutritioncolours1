@@ -11,8 +11,6 @@ seoKeywords: ["Chronic Fatigue"]
 
 # Chronic Fatigue
 
-![Chronic Fatigue](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Nutrient deficiency, stress, virus.

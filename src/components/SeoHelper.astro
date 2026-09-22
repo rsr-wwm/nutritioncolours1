@@ -46,7 +46,9 @@ if (canonicalCandidate.origin !== SITE_URL) throw new Error(`Canonical URL must 
 const resolvedCanon  = canonicalCandidate.href;
 const resolvedOgImg  = ogImage
   ? new URL(ogImage, SITE_URL).href
-  : `${SITE_URL}/images/nutritioncolours-default.svg`;
+  // Raster social card for services that do not render SVG link previews.
+  : `${SITE_URL}/images/nutritioncolours-social.png`;
+const usesSharedSocialCard = new URL(resolvedOgImg).pathname === '/images/nutritioncolours-social.png';
 void aiSummary;
 void keywords;
 
@@ -92,7 +94,9 @@ const finalSchemas = [breadcrumbSchema, ...schemas].filter(Boolean);
 <link rel="alternate" hreflang="x-default" href={resolvedCanon} />
 
 <!-- Favicons -->
-<link rel="icon" type="image/svg+xml" href="/icons/icon-any.svg" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="alternate icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" href="/images/nutritioncolours-logo.png" />
 
 <!-- Robots -->
 <meta name="robots" content={`${noindex ? 'noindex' : 'index'}, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1`} />
@@ -106,7 +110,9 @@ const finalSchemas = [breadcrumbSchema, ...schemas].filter(Boolean);
 <meta property="og:site_name"   content="NutritionColours" />
 <meta property="og:url"         content={resolvedCanon} />
 <meta property="og:image"       content={resolvedOgImg} />
-<meta property="og:image:alt"   content={title} />
+<meta property="og:image:alt"   content={usesSharedSocialCard ? 'NutritionColours food and nutrition education' : title} />
+{usesSharedSocialCard && <meta property="og:image:width" content="1200" />}
+{usesSharedSocialCard && <meta property="og:image:height" content="630" />}
 <meta property="og:locale"      content="en_US" />
 
 <!-- Twitter / X Card -->

@@ -11,8 +11,6 @@ seoKeywords: ["Low BP"]
 
 # Low BP
 
-![Low BP](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Severe dehydration and lack of salt.

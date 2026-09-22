@@ -11,8 +11,6 @@ seoKeywords: ["Gluten Sensitivity"]
 
 # Gluten Sensitivity
 
-![Gluten Sensitivity](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Eating wheat causes inflammation.

@@ -11,8 +11,6 @@ seoKeywords: ["Menopause Weight Management"]
 
 # Menopause Weight Management
 
-![Menopause Weight Management](https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=800)
-
 ## Problem
 
 Shift in weight storage towards the belly due to hormonal drops.

@@ -11,8 +11,6 @@ seoKeywords: ["Gastritis"]
 
 # Gastritis
 
-![Gastritis](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Spicy food, alcohol, coffee.

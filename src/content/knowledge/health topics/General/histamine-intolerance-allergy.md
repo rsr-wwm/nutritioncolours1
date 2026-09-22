@@ -11,8 +11,6 @@ seoKeywords: ["Histamine Intolerance Care"]
 
 # Histamine Intolerance Care
 
-![Histamine Intolerance Care](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Hives, nasal congestion, headaches, and bloating after consuming fermented or aged foods.

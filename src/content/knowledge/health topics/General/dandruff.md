@@ -11,8 +11,6 @@ seoKeywords: ["Dandruff"]
 
 # Dandruff
 
-![Dandruff](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Sugar and stress feed yeast.

@@ -11,8 +11,6 @@ seoKeywords: ["Epilepsy (Diet-Cured)"]
 
 # Epilepsy (Diet-Cured)
 
-![Epilepsy (Diet-Cured)](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Standard drugs fail.

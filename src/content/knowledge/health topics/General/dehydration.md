@@ -11,8 +11,6 @@ seoKeywords: ["Dehydration"]
 
 # Dehydration
 
-![Dehydration](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Replacing water with soda/caffeine.

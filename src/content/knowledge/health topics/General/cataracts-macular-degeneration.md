@@ -11,8 +11,6 @@ seoKeywords: ["Cataracts / Macular Degeneration"]
 
 # Cataracts / Macular Degeneration
 
-![Cataracts / Macular Degeneration](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 UV light, high sugar cloud eye.

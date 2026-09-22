@@ -11,8 +11,6 @@ seoKeywords: ["Hormonal Imbalance Correction"]
 
 # Hormonal Imbalance Correction
 
-![Hormonal Imbalance Correction](https://images.unsplash.com/photo-1490138139357-fc819d02e344?q=80&w=800)
-
 ## Problem
 
 Disrupted communication between endocrine glands due to environmental and dietary factors.

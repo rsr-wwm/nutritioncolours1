@@ -1,6 +1,10 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import type { ApprovedLeaf } from '../../lib/publishing/approvedLeafTypes';
+import TocList from './TocList.astro';
+import Icons from '../Icons.astro';
+import BotanicalMotif from '../ui/BotanicalMotif.astro';
+import ClinicalVisualizer from './ClinicalVisualizer.astro';
 
 interface Props { leaf: ApprovedLeaf }
 const { leaf } = Astro.props;
@@ -44,6 +48,27 @@ const pageSchema = {
   about: { '@type': 'Thing', name: leaf.canonicalName, alternateName: leaf.aliases },
 };
 
+const faqSchema = leaf.content.faqs && leaf.content.faqs.length > 0 ? {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  '@id': `${pageUrl}#faq`,
+  mainEntity: leaf.content.faqs.map((faq) => ({
+    '@type': 'Question',
+    name: faq.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: faq.answer.text,
+    },
+  })),
+} : null;
+const schemas = [pageSchema, ...(faqSchema ? [faqSchema] : [])];
+
+const tocItems = [
+  ...leaf.content.sections.map((s) => ({ href: `#${s.id}`, label: s.heading })),
+  ...(leaf.content.faqs?.length ? [{ href: '#questions', label: 'Questions people ask' }] : []),
+  ...(leaf.sources.length > 0 ? [{ href: '#sources', label: 'Sources and review' }] : []),
+];
+
 const tierLabel = leaf.pageKind === 'health' ? 'Health reference · Tier 1' : 'Food reference · Tier 2';
 const parentPath = leaf.pageKind === 'health' ? '/health' : '/foods';
 const parentLabel = leaf.pageKind === 'health' ? 'Health library' : 'Food library';
@@ -54,97 +79,270 @@ const breadcrumbs = [
 ];
 ---
 
-<BaseLayout title={leaf.seoTitle} description={leaf.metaDescription} canonicalUrl={leaf.canonicalPath} aiSummary={leaf.content.directAnswer.text} schemas={[pageSchema]} ogType="article" breadcrumbs={breadcrumbs}>
-  <article class="mx-auto max-w-5xl px-6 py-12 md:py-16">
-    <header class="border-b border-stone-200 pb-10">
-      <nav aria-label="Breadcrumb" class="text-sm text-stone-600">
+<BaseLayout title={leaf.seoTitle} description={leaf.metaDescription} canonicalUrl={leaf.canonicalPath} aiSummary={leaf.content.directAnswer.text} schemas={schemas} ogType="article" breadcrumbs={breadcrumbs} pageCategory={leaf.pageKind === 'health' ? 'clinical' : undefined}>
+  <article class="mx-auto max-w-6xl px-6 py-12 md:py-16">
+    <header class="border-b border-stone-200 dark:border-stone-800 pb-10">
+      <nav aria-label="Breadcrumb" class="text-sm text-stone-600 dark:text-stone-400">
         <ol class="flex flex-wrap items-center gap-2">
           {breadcrumbs.map((crumb, index) => (
             <li class="flex items-center gap-2">
               {index > 0 && <span aria-hidden="true">/</span>}
               {index < breadcrumbs.length - 1
-                ? <a href={crumb.path} class="font-bold text-emerald-800 underline decoration-emerald-300 underline-offset-4">{crumb.name}</a>
-                : <span aria-current="page">{crumb.name}</span>}
+                ? <a href={crumb.path} class="font-bold text-emerald-800 dark:text-emerald-400 hover:underline">{crumb.name}</a>
+                : <span aria-current="page" class="font-medium text-stone-900 dark:text-stone-200">{crumb.name}</span>}
             </li>
           ))}
         </ol>
       </nav>
-      <p class="mt-6 text-xs font-black uppercase tracking-[0.22em] text-emerald-700">{tierLabel}</p>
-      <h1 class="mt-3 max-w-4xl text-4xl font-black leading-tight text-emerald-950 md:text-6xl">{leaf.canonicalName}</h1>
-      {leaf.aliases.length > 0 && <p class="mt-3 text-sm text-stone-600"><span class="font-bold text-stone-800">Also known as:</span> {leaf.aliases.join(', ')}</p>}
-      <p class="mt-6 max-w-4xl border-l-4 border-emerald-500 pl-5 text-lg leading-8 text-stone-800">
+      <div class="mt-6 inline-flex items-center gap-2 rounded-full border border-emerald-300 dark:border-emerald-800 bg-emerald-50 dark:bg-emerald-950/40 px-3.5 py-1 text-xs font-bold uppercase tracking-widest text-emerald-800 dark:text-emerald-300">
+        <BotanicalMotif name="leaf-branch" class="h-3.5 w-3.5 text-emerald-600 dark:text-emerald-400" />
+        {tierLabel}
+      </div>
+      <h1 class="mt-4 max-w-4xl text-fluid-hero font-black text-emerald-950 dark:text-emerald-50 brand-font">{leaf.canonicalName}</h1>
+      {leaf.aliases && leaf.aliases.length > 0 && (
+        <p class="mt-3 text-sm text-stone-600 dark:text-stone-400">
+          <span class="font-bold text-stone-800 dark:text-stone-200">Also known as:</span> {leaf.aliases.join(', ')}
+        </p>
+      )}
+
+      {leaf.content.heroImage ? (
+        <figure class="mt-6 overflow-hidden rounded-3xl border border-stone-200 dark:border-stone-800 shadow-sm aspect-[16/9] max-w-3xl bg-stone-100 dark:bg-stone-900">
+          <picture>
+            <source srcset={leaf.content.heroImage.src} type="image/webp" />
+            <img
+              src={leaf.content.heroImage.src}
+              alt={leaf.content.heroImage.alt}
+              loading="eager"
+              fetchpriority="high"
+              decoding="async"
+              class="h-full w-full object-cover"
+              width={leaf.content.heroImage.width || 800}
+              height={leaf.content.heroImage.height || 450}
+            />
+          </picture>
+        </figure>
+      ) : (
+        <div class="mt-6 flex items-center justify-between overflow-hidden rounded-3xl border border-emerald-200/80 dark:border-emerald-900/60 bg-gradient-to-br from-emerald-50 via-stone-50 to-teal-50/40 dark:from-emerald-950/40 dark:via-stone-900 dark:to-stone-900/90 p-6 sm:p-8 shadow-xs max-w-3xl" aria-hidden="true">
+          <div class="flex items-center gap-5">
+            <div class="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-emerald-700 dark:bg-emerald-600 text-white shadow-md">
+              <span class="text-3xl font-black brand-font select-none">
+                {leaf.canonicalName.charAt(0).toUpperCase()}
+              </span>
+            </div>
+            <div>
+              <p class="text-xs font-bold uppercase tracking-wider text-emerald-800 dark:text-emerald-400">
+                {tierLabel}
+              </p>
+              <p class="text-sm font-semibold text-stone-700 dark:text-stone-300">
+                Peer-reviewed clinical &amp; nutritional monograph
+              </p>
+            </div>
+          </div>
+          <div class="hidden sm:block opacity-25 dark:opacity-15 text-emerald-900 dark:text-emerald-100">
+            <BotanicalMotif name="deterministic-watermark" size={88} seed={leaf.canonicalPath} />
+          </div>
+        </div>
+      )}
+
+      {leaf.content.keyTakeaways && leaf.content.keyTakeaways.length > 0 && (
+        <div class="mt-6 max-w-4xl rounded-2xl border border-emerald-200 dark:border-emerald-900/60 bg-emerald-50/60 dark:bg-emerald-950/20 p-6">
+          <div class="text-xs font-black uppercase tracking-wider text-emerald-900 dark:text-emerald-300">Key Takeaways</div>
+          <ul aria-label="Key takeaways" class="mt-3 space-y-2 text-stone-800 dark:text-stone-200">
+            {leaf.content.keyTakeaways.map((takeaway) => (
+              <li id={takeaway.id} class="flex items-start gap-2.5 text-sm leading-relaxed">
+                <span class="mt-1.5 inline-block h-1.5 w-1.5 shrink-0 rounded-full bg-emerald-600 dark:bg-emerald-400" aria-hidden="true"></span>
+                <span>{takeaway.text}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      <div class="mt-6 max-w-4xl rounded-2xl border-l-4 border-emerald-500 bg-stone-50/70 dark:bg-stone-900/50 p-6 text-lg leading-8 text-stone-800 dark:text-stone-200">
         {leaf.content.directAnswer.text}
-        {citationsFor(leaf.content.directAnswer.claimIds).map(({ source, number }) => <sup class="ml-1"><a href={`#source-${number}`} aria-label={`Source ${number}: ${source.title}`} class="font-bold text-emerald-800">[{number}]</a></sup>)}
-      </p>
+        {citationsFor(leaf.content.directAnswer.claimIds).map(({ source, number }) => (
+          <sup class="ml-1"><a href={`#source-${number}`} aria-label={`Source ${number}: ${source.title}`} class="font-bold text-emerald-800 dark:text-emerald-400">[{number}]</a></sup>
+        ))}
+      </div>
     </header>
 
     {leaf.content.urgentHelp && (
-      <aside class="mt-8 rounded-2xl border border-red-300 bg-red-50 p-6 text-red-950" aria-labelledby="urgent-help-heading">
-        <h2 id="urgent-help-heading" class="text-lg font-black">When urgent help may be needed</h2>
-        <p class="mt-2 leading-7">
+      <aside class="mt-8 rounded-3xl border border-red-300 dark:border-red-900/60 bg-red-50/80 dark:bg-red-950/40 p-6 md:p-8 text-red-950 dark:text-red-200" aria-labelledby="urgent-help-heading">
+        <div class="flex items-center gap-3">
+          <span class="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-red-100 dark:bg-red-900/60 text-red-700 dark:text-red-300 border border-red-200 dark:border-red-800" aria-hidden="true">
+            <Icons name="alert-triangle" size={18} />
+          </span>
+          <h2 id="urgent-help-heading" class="text-xl font-black text-red-950 dark:text-red-100">When urgent medical evaluation is needed</h2>
+        </div>
+        <p class="mt-3 leading-relaxed text-red-900 dark:text-red-200">
           {leaf.content.urgentHelp.text}
-          {citationsFor(leaf.content.urgentHelp.claimIds).map(({ source, number }) => <sup class="ml-1"><a href={`#source-${number}`} aria-label={`Source ${number}: ${source.title}`} class="font-bold">[{number}]</a></sup>)}
+          {citationsFor(leaf.content.urgentHelp.claimIds).map(({ source, number }) => (
+            <sup class="ml-1"><a href={`#source-${number}`} aria-label={`Source ${number}: ${source.title}`} class="font-bold text-red-900 dark:text-red-200">[{number}]</a></sup>
+          ))}
         </p>
       </aside>
     )}
 
-    <nav class="mt-8 rounded-2xl border border-stone-200 bg-white p-6" aria-label="On this page">
-      <h2 class="font-black text-emerald-950">On this page</h2>
-      <ul class="mt-3 grid gap-2 text-sm sm:grid-cols-2">
-        {leaf.content.sections.map((section) => <li><a href={`#${section.id}`} class="font-semibold text-emerald-800 underline decoration-emerald-200 underline-offset-4">{section.heading}</a></li>)}
-        {leaf.content.faqs && leaf.content.faqs.length > 0 && <li><a href="#questions" class="font-semibold text-emerald-800 underline decoration-emerald-200 underline-offset-4">Questions people ask</a></li>}
-        <li><a href="#sources" class="font-semibold text-emerald-800 underline decoration-emerald-200 underline-offset-4">Sources and review</a></li>
-      </ul>
-    </nav>
+    <!-- Main Content + Sticky Sidebar Grid -->
+    <div class="mt-12 lg:grid lg:grid-cols-12 lg:gap-12 items-start">
+      <!-- Main Content Column -->
+      <div class="lg:col-span-8 space-y-12">
+        <!-- On This Page Navigation (Mobile & Tablet) -->
+        <nav class="lg:hidden rounded-2xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 p-6" aria-label="On this page navigation">
+          <h2 class="text-base font-black text-emerald-950 dark:text-emerald-100">On this page</h2>
+          <TocList items={tocItems} variant="mobile" />
+        </nav>
 
-    <div class="mt-12 space-y-14">
-      {leaf.content.sections.map((section) => (
-        <section id={section.id} aria-labelledby={`${section.id}-heading`} class="scroll-mt-24">
-          <h2 id={`${section.id}-heading`} class="text-3xl font-black text-emerald-950">{section.heading}</h2>
-          <div class="mt-5 space-y-5 text-base leading-8 text-stone-700">
-            {section.blocks.map((block) => (
-              <p id={block.id}>
-                {block.text}
-                {citationsFor(block.claimIds).map(({ source, number }) => <sup class="ml-1"><a href={`#source-${number}`} aria-label={`Source ${number}: ${source.title}`} class="font-bold text-emerald-800">[{number}]</a></sup>)}
-              </p>
+        <!-- Body Sections -->
+        {leaf.content.sections.map((section) => (
+          <section id={section.id} aria-labelledby={`${section.id}-heading`} class="scroll-mt-24 rounded-3xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 p-7 md:p-9 shadow-sm">
+            <h2 id={`${section.id}-heading`} class="text-2xl md:text-3xl font-black text-emerald-950 dark:text-emerald-100 brand-font">{section.heading}</h2>
+            <div class="mt-6 space-y-5 text-base leading-8 text-stone-700 dark:text-stone-300">
+              {section.blocks.map((block) => (
+                <p id={block.id}>
+                  {block.text}
+                  {citationsFor(block.claimIds).map(({ source, number }) => (
+                    <sup class="ml-1"><a href={`#source-${number}`} aria-label={`Source ${number}: ${source.title}`} class="font-bold text-emerald-800 dark:text-emerald-400">[{number}]</a></sup>
+                  ))}
+                </p>
+              ))}
+              {section.table && (
+                <div class="mt-6 overflow-x-auto rounded-2xl border border-stone-200 dark:border-stone-800">
+                  <table class="w-full text-left text-sm text-stone-700 dark:text-stone-300">
+                    <caption class="sr-only">{section.table.caption || `${section.heading} comparison table`}</caption>
+                    <thead class="sticky top-0 bg-stone-100/90 dark:bg-stone-800/90 text-xs uppercase text-stone-700 dark:text-stone-300 backdrop-blur-sm">
+                      <tr>
+                        {section.table.headers.map((header) => (
+                          <th scope="col" class="px-6 py-3 font-bold">{header}</th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody class="divide-y divide-stone-200 dark:divide-stone-800">
+                      {section.table.rows.map((row) => (
+                        <tr class="even:bg-stone-50/50 dark:even:bg-stone-800/30 hover:bg-stone-100/50 dark:hover:bg-stone-800/60 transition-colors">
+                          {row.map((cell, cIdx) => (
+                            <td class:list={["px-6 py-4", cIdx === 0 ? "font-semibold text-stone-900 dark:text-stone-100" : ""]}>{cell}</td>
+                          ))}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              )}
+            </div>
+          </section>
+        ))}
+
+        <!-- FAQs -->
+        {leaf.content.faqs && leaf.content.faqs.length > 0 && (
+          <section id="questions" aria-labelledby="questions-heading" class="scroll-mt-24">
+            <h2 id="questions-heading" class="text-2xl md:text-3xl font-black text-emerald-950 dark:text-emerald-100 brand-font">Questions people ask</h2>
+            <div class="mt-6 space-y-4">
+              {leaf.content.faqs.map((faq) => (
+                <details class="group rounded-2xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 p-6 shadow-sm transition-all">
+                  <summary class="cursor-pointer font-bold text-emerald-950 dark:text-emerald-100 flex items-center justify-between">
+                    <span>{faq.question}</span>
+                    <span class="ml-4 text-emerald-700 dark:text-emerald-400 transition-transform group-open:rotate-180" aria-hidden="true">
+                      <Icons name="chevron-down" size={18} />
+                    </span>
+                  </summary>
+                  <p class="mt-4 leading-7 text-stone-700 dark:text-stone-300 pt-4 border-t border-stone-100 dark:border-stone-800">
+                    {faq.answer.text}
+                    {citationsFor(faq.answer.claimIds).map(({ source, number }) => (
+                      <sup class="ml-1"><a href={`#source-${number}`} aria-label={`Source ${number}: ${source.title}`} class="font-bold text-emerald-800 dark:text-emerald-400">[{number}]</a></sup>
+                    ))}
+                  </p>
+                </details>
+              ))}
+            </div>
+          </section>
+        )}
+
+        <!-- Sources & Review Section -->
+        {leaf.sources.length > 0 && (
+        <section id="sources" aria-labelledby="sources-heading" class="scroll-mt-24 border-t border-stone-200 dark:border-stone-800 pt-10">
+          <h2 id="sources-heading" class="text-2xl md:text-3xl font-black text-emerald-950 dark:text-emerald-100 brand-font">Peer-reviewed sources & citations</h2>
+          <p class="mt-2 text-sm text-stone-600 dark:text-stone-400">Every health statement on this page is anchored to clinical literature and validated through our immutable claims ledger.</p>
+
+          <ol class="mt-6 space-y-3">
+            {leaf.sources.map((source, index) => (
+              <li id={`source-${index + 1}`} class="scroll-mt-24 rounded-2xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 p-5 shadow-sm transition-all hover:border-emerald-300 dark:hover:border-emerald-700">
+                <div class="flex items-start gap-3">
+                  <span class="inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-100 dark:bg-emerald-950 text-xs font-black text-emerald-900 dark:text-emerald-300">
+                    {index + 1}
+                  </span>
+                  <div class="min-w-0 flex-1 space-y-2">
+                    <a href={source.url} rel="external noopener" class="font-bold text-emerald-900 dark:text-emerald-300 underline underline-offset-4 hover:text-emerald-700 dark:hover:text-emerald-200">
+                      {source.title}
+                    </a>
+                    <p class="text-xs text-stone-500 dark:text-stone-400">
+                      Published by <span class="font-semibold text-stone-700 dark:text-stone-300">{source.publisher}</span>
+                    </p>
+                    <ClinicalVisualizer
+                      studyType={source.publisher}
+                      citationPmid={source.url.match(/pubmed\.ncbi\.nlm\.nih\.gov\/(\d+)/)?.[1]}
+                      class="mt-2"
+                    />
+                  </div>
+                </div>
+              </li>
             ))}
+          </ol>
+
+          <!-- Botanical Divider Flourish -->
+          <BotanicalMotif name="divider-flourish" class="mx-auto my-8 text-stone-300 dark:text-stone-700 block" />
+
+          <!-- Disclaimer Alert -->
+          <div class="mt-4 rounded-2xl border border-amber-200 dark:border-amber-800/60 bg-amber-50/70 dark:bg-amber-950/30 p-6 text-sm leading-relaxed text-amber-950 dark:text-amber-200">
+            <h3 class="font-bold text-base text-amber-950 dark:text-amber-100">Educational Boundary Notice</h3>
+            <p class="mt-2 text-stone-700 dark:text-stone-300">
+              This page provides general education. It does not diagnose a condition, prescribe treatment, replace individual medical advice, or provide emergency services. Consult your personal physician or qualified healthcare specialist for individual health decisions.
+            </p>
           </div>
         </section>
-      ))}
-    </div>
+        )}
+      </div>
 
-    {leaf.content.faqs && leaf.content.faqs.length > 0 && (
-      <section id="questions" aria-labelledby="questions-heading" class="mt-16 scroll-mt-24">
-        <h2 id="questions-heading" class="text-3xl font-black text-emerald-950">Questions people ask</h2>
-        <div class="mt-6 space-y-3">
-          {leaf.content.faqs.map((faq) => (
-            <details class="rounded-2xl border border-stone-200 bg-white p-5">
-              <summary class="cursor-pointer font-bold text-emerald-950">{faq.question}</summary>
-              <p class="mt-4 leading-7 text-stone-700">
-                {faq.answer.text}
-                {citationsFor(faq.answer.claimIds).map(({ source, number }) => <sup class="ml-1"><a href={`#source-${number}`} aria-label={`Source ${number}: ${source.title}`} class="font-bold text-emerald-800">[{number}]</a></sup>)}
-              </p>
-            </details>
-          ))}
+      <!-- Desktop Sticky Sidebar Column -->
+      <aside class="hidden lg:block lg:col-span-4 sticky top-28 space-y-6" aria-label="Article navigation and metadata">
+        <!-- Sticky TOC Box -->
+        <nav class="rounded-3xl border border-stone-200 dark:border-stone-800 bg-surface-elevated p-6 shadow-sm" aria-label="Desktop page navigation">
+          <h2 class="text-sm font-black uppercase tracking-wider text-stone-500 dark:text-stone-400">Contents</h2>
+          <TocList items={tocItems} variant="desktop" />
+        </nav>
+
+        <!-- Clinical Governance & Attribution Card -->
+        <div class="card-interactive rounded-3xl border border-stone-200 dark:border-stone-800 bg-surface-elevated p-6 text-xs text-stone-600 dark:text-stone-400 space-y-3">
+          <p class="font-black uppercase tracking-wider text-emerald-800 dark:text-emerald-400">Clinical Verification</p>
+          <dl class="space-y-2">
+            <div>
+              <dt class="font-bold text-stone-800 dark:text-stone-200">Author</dt>
+              <dd class="mt-0.5">{leaf.author.displayName}</dd>
+            </div>
+            {leaf.reviewer && (
+              <div>
+                <dt class="font-bold text-stone-800 dark:text-stone-200">Clinical Reviewer</dt>
+                <dd class="mt-0.5">{leaf.reviewer.displayName}</dd>
+              </div>
+            )}
+            <div>
+              <dt class="font-bold text-stone-800 dark:text-stone-200">Substantive Revision</dt>
+              <dd class="mt-0.5"><time datetime={leaf.substantiveModified}>{leaf.substantiveModified}</time></dd>
+            </div>
+            {leaf.lastReviewed && (
+              <div>
+                <dt class="font-bold text-stone-800 dark:text-stone-200">Last Expert Audit</dt>
+                <dd class="mt-0.5"><time datetime={leaf.lastReviewed}>{leaf.lastReviewed}</time></dd>
+              </div>
+            )}
+          </dl>
+          <div class="pt-2 border-t border-stone-200 dark:border-stone-800">
+            <a href="/legal/editorial-policy" class="text-emerald-800 dark:text-emerald-400 font-bold hover:underline">
+              Editorial Policy Standard &rarr;
+            </a>
+          </div>
         </div>
-      </section>
-    )}
-
-    <section id="sources" aria-labelledby="sources-heading" class="mt-16 scroll-mt-24 border-t border-stone-200 pt-10">
-      <h2 id="sources-heading" class="text-3xl font-black text-emerald-950">Sources and review</h2>
-      <dl class="mt-5 grid gap-4 rounded-2xl bg-stone-100 p-6 text-sm sm:grid-cols-2">
-        <div><dt class="font-bold text-stone-900">Author</dt><dd class="mt-1 text-stone-700">{leaf.author.displayName}</dd></div>
-        {leaf.reviewer && <div><dt class="font-bold text-stone-900">Reviewed by</dt><dd class="mt-1 text-stone-700">{leaf.reviewer.displayName}</dd></div>}
-        <div><dt class="font-bold text-stone-900">Last substantive update</dt><dd class="mt-1 text-stone-700"><time datetime={leaf.substantiveModified}>{leaf.substantiveModified}</time></dd></div>
-        {leaf.lastReviewed && <div><dt class="font-bold text-stone-900">Last expert review</dt><dd class="mt-1 text-stone-700"><time datetime={leaf.lastReviewed}>{leaf.lastReviewed}</time></dd></div>}
-        {leaf.reviewExpires && <div><dt class="font-bold text-stone-900">Review due by</dt><dd class="mt-1 text-stone-700"><time datetime={leaf.reviewExpires}>{leaf.reviewExpires}</time></dd></div>}
-      </dl>
-      <ol class="mt-8 space-y-4 text-sm leading-6 text-stone-700">
-        {leaf.sources.map((source, index) => (
-          <li id={`source-${index + 1}`} class="scroll-mt-24"><span class="font-bold text-stone-950">[{index + 1}]</span> <a href={source.url} rel="external noopener" class="font-semibold text-emerald-800 underline underline-offset-4">{source.title}</a>. {source.publisher}.</li>
-        ))}
-      </ol>
-      <p class="mt-8 rounded-2xl border border-amber-200 bg-amber-50 p-5 text-sm leading-6 text-amber-950">This page provides general education. It does not diagnose a condition, prescribe treatment, replace individual medical advice, or provide emergency services.</p>
-    </section>
+      </aside>
+    </div>
   </article>
 </BaseLayout>

@@ -11,8 +11,6 @@ seoKeywords: ["Malnutrition"]
 
 # Malnutrition
 
-![Malnutrition](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Starvation or empty calorie junk.

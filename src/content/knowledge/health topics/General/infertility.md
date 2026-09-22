@@ -11,8 +11,6 @@ seoKeywords: ["Infertility"]
 
 # Infertility
 
-![Infertility](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Obesity, poor diet, smoking.

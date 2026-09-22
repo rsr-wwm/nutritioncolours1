@@ -11,8 +11,6 @@ seoKeywords: ["Vegan Alternatives"]
 
 # Alternatives & Substitutes
 
-![Alternatives & Substitutes](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Replacing dairy, eggs, and meat in everyday cooking without losing texture, taste, or essential nutritional cofactors.

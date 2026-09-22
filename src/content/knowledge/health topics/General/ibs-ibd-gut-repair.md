@@ -11,8 +11,6 @@ seoKeywords: ["IBS IBD Gut Repair"]
 
 # IBS & IBD Gut Repair
 
-![IBS & IBD Gut Repair](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Abdominal pain, cramping, bloating, and irregular bowel patterns due to mucosal inflammation.

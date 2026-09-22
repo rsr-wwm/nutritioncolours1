@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "organization": {
+    "name": "NutritionColours",
+    "url": "https://nutritioncolours.com",
+    "description": "Evidence-based nutrition and food education resources for general informational use.",
+    "contactPoint": {
+      "contactType": "Editorial & General Inquiries",
+      "availableLanguage": ["English", "Hindi"]
+    }
+  },
+  "authors": [],
+  "verificationStatus": {
+    "profilesUnderVerification": true,
+    "lastAudit": "2026-08-29",
+    "policy": "https://nutritioncolours.com/legal/editorial-policy"
+  }
+}

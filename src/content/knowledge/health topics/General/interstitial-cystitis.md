@@ -11,8 +11,6 @@ seoKeywords: ["Interstitial Cystitis"]
 
 # Interstitial Cystitis
 
-![Interstitial Cystitis](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Coffee/citrus irritate bladder wall.

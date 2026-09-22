@@ -11,8 +11,6 @@ seoKeywords: ["NAFLD Cirrhosis"]
 
 # NAFLD Cirrhosis
 
-![NAFLD Cirrhosis](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Late-stage scarring from alcohol/fat.

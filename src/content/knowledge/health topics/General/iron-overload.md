@@ -11,8 +11,6 @@ seoKeywords: ["Iron Overload"]
 
 # Iron Overload
 
-![Iron Overload](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Genetic issue rusts organs.

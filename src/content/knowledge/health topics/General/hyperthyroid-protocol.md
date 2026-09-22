@@ -11,8 +11,6 @@ seoKeywords: ["Hyperthyroid Protocol"]
 
 # Hyperthyroid Protocol
 
-![Hyperthyroid Protocol](https://images.unsplash.com/photo-1543362906-ac1b481287cf?q=80&w=800)
-
 ## Problem
 
 Excessive thyroid hormone production causing weight loss and anxiety.

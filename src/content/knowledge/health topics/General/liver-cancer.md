@@ -11,8 +11,6 @@ seoKeywords: ["Liver Cancer"]
 
 # Liver Cancer
 
-![Liver Cancer](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Alcohol, smoking, fatty liver.

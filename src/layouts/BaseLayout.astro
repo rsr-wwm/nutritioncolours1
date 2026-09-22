@@ -1,12 +1,8 @@
 ---
-import { Header } from '../components/ui/Header';
+import Header from '../components/ui/Header.astro';
 import Footer from './Footer.astro';
 import SeoHelper from '../components/SeoHelper.astro';
-import { CookieConsent } from '../components/CookieConsent';
-import { LocalOutreachLocator } from '../components/LocalOutreachLocator';
-import PredictivePrefetcher from '../components/PredictivePrefetcher';
-import { TEAM } from '../lib/constants';
-import { ClientRouter } from 'astro:transitions';
+import JsonLd from '../components/JsonLd.astro';
 
 import '../styles/globals.css';
 
@@ -23,12 +19,16 @@ interface Props {
   geoPlacename?: string;
   disease?: string;
   schemas?: any[];
+  noindex?: boolean;
+  ogType?: 'website' | 'article';
+  breadcrumbs?: Array<{ name: string; path: string }>;
+  pageCategory?: 'clinical' | 'knowledge' | 'recipe' | 'tool';
 }
 
 const {
-  title = "NutritionColours | Metabolic Health & Circadian Nutrition Optimization 2026",
-  description = "Optimize Type 2 Diabetes, PCOD, and Fatty Liver wellness naturally. Book a clinical consultation for Dr. Shilpa Thakur's expert Circadian Nutrition programs in 2026.",
-  keywords = ["Diabetes Nutrition Support India", "PCOD Diet Plan", "Clinical Nutritionist Online", "Dr Shilpa Thakur", "Fatty Liver Nutrition"],
+  title = "NutritionColours — Food and nutrition education",
+  description = "Food and recipe directories, publication policies, and transparent review-status notices.",
+  keywords = ["food education", "nutrition education", "recipes", "nutrition glossary"],
   canonicalUrl = Astro.url.pathname,
   ogImage,
   aiSummary,
@@ -36,17 +36,22 @@ const {
   geoPlacename,
   disease,
   schemas = [],
+  noindex = false,
+  ogType = 'website',
+  breadcrumbs,
+  pageCategory,
 } = Astro.props;
 
-// Site-wide entity graph — Organization + founder Person, real fields only
-// (no invented phone/address/ORCID/Wikidata: schema must only describe verifiable facts).
+// Site-wide entity graph. Keep this intentionally minimal: identity and credential
+// fields are added only after they are backed by a verified registry record.
 const SITE_URL = (Astro.site || 'https://nutritioncolours.com').toString().replace(/\/$/, '');
 const resolvedOgImage = ogImage
   ? new URL(ogImage, SITE_URL).href
-  : `${SITE_URL}/images/precision_metabolic_nutrition_dr_shilpa.webp`;
-const founder = TEAM.find((m) => m.id === 'shilpa');
-const founderSameAs = founder?.socials ? Object.values(founder.socials).filter(Boolean) : [];
-
+  // Shared social card keeps its wordmark clear at small preview sizes.
+  : `${SITE_URL}/images/nutritioncolours-social.png`;
+if (new URL(resolvedOgImage).origin !== SITE_URL) {
+  throw new Error(`Open Graph image must remain same-origin: ${ogImage}`);
+}
 const organizationSchema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -55,20 +60,11 @@ const organizationSchema = {
       "@id": `${SITE_URL}/#organization`,
       "name": "NutritionColours",
       "url": SITE_URL,
-      "logo": `${SITE_URL}/images/precision_metabolic_nutrition_dr_shilpa.webp`,
-      "description": "Remote clinical nutrition practice specializing in circadian-aligned metabolic nutrition guidance for Type 2 Diabetes, PCOD/PCOS, and fatty liver.",
-      ...(founder && {
-        "founder": {
-          "@type": "Person",
-          "@id": `${SITE_URL}/team/${founder.slug || founder.id}#person`,
-          "name": "Dr. Shilpa Thakur",
-          "jobTitle": founder.role,
-          "url": `${SITE_URL}/team/${founder.slug || founder.id}`,
-          "image": `${SITE_URL}${founder.image}`,
-          "worksFor": { "@id": `${SITE_URL}/#organization` },
-          ...(founderSameAs.length > 0 && { "sameAs": founderSameAs }),
-        },
-      }),
+      // Google's logo structured-data guidelines only support JPG/PNG/WEBP — SVG is
+      // explicitly not recognized, which would make this Organization ineligible for
+      // a logo in Search/Knowledge Panel results.
+      "logo": `${SITE_URL}/images/nutritioncolours-logo.png`,
+      "description": "Nutrition and food education resources for general informational use.",
     },
     {
       // No `potentialAction`/SearchAction here deliberately — the site has no real
@@ -77,7 +73,7 @@ const organizationSchema = {
       "@id": `${SITE_URL}/#website`,
       "url": SITE_URL,
       "name": "NutritionColours",
-      "description": "Remote clinical nutrition practice specializing in circadian-aligned metabolic nutrition guidance for Type 2 Diabetes, PCOD/PCOS, and fatty liver.",
+      "description": "Nutrition and food education resources for general informational use.",
       "publisher": { "@id": `${SITE_URL}/#organization` },
       "inLanguage": "en",
     },
@@ -86,259 +82,49 @@ const organizationSchema = {
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-page-category={pageCategory}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <!-- Variable Font: Inter (body) + Fraunces (brand display) — preloaded for zero FOUT -->
-    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
-    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
-    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
-    <link 
-      rel="stylesheet" 
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300..900;1,14..32,300..700&family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&display=swap"
-    />
-    
-    <SeoHelper title={title} description={description} keywords={keywords} canonicalUrl={canonicalUrl} ogImage={resolvedOgImage} aiSummary={aiSummary} geoRegion={geoRegion} geoPlacename={geoPlacename} disease={disease} schemas={schemas} />
+    <link rel="preload" href="/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/fraunces-latin-900-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-    <!-- Google Consent Mode v2 (Default Denied until explicit user consent) -->
     <script is:inline>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){window.dataLayer.push(arguments);}
-      gtag('consent', 'default', {
-        'ad_storage': 'denied',
-        'analytics_storage': 'denied',
-        'ad_user_data': 'denied',
-        'ad_personalization': 'denied',
-        'personalization_storage': 'denied',
-        'functionality_storage': 'granted',
-        'security_storage': 'granted'
-      });
+      (function () {
+        try {
+          var saved = localStorage.getItem('nc-theme');
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (saved === 'dark' || (!saved && prefersDark)) {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {}
+      })();
     </script>
-{/* RSS Feed */}
-    <link rel="alternate" type="application/rss+xml" title="NutritionColours Insights Feed" href="/rss.xml" />
+    
+    <SeoHelper title={title} description={description} keywords={keywords} canonicalUrl={canonicalUrl} ogImage={resolvedOgImage} aiSummary={aiSummary} geoRegion={geoRegion} geoPlacename={geoPlacename} disease={disease} schemas={schemas} noindex={noindex} ogType={ogType} breadcrumbs={breadcrumbs} />
 
-    {/* AI/LLM links */}
-    <link rel="lrdd" type="application/json" href="/data/clinical-feed.json" title="Clinical Entity Feed" />
-    <link rel="alternate" type="text/markdown" href="/llms.txt" title="LLM-optimized documentation" />
-    <link rel="alternate" type="text/markdown" href="/llms-full.txt" title="LLM deep documentation" />
-    <link rel="alternate" type="text/markdown" href="/llms-conditions.txt" title="Clinical FAQ corpus for AI engines" />
-    <link rel="llms" href="/llms.txt" title="NutritionColours Clinical Nutrition AI Feed" />
-    <link rel="service" type="application/openapi+json" href="/openapi.json" title="NutritionColours Clinical Data API" />
+    <link rel="alternate" type="text/markdown" href="/llms.txt" title="NutritionColours site guide" />
 
-    {/* Site-wide entity graph (Organization + founder Person) — real fields only */}
-    <script type="application/ld+json" is:inline set:html={JSON.stringify(organizationSchema)} />
+    {/* Site-wide identity graph. Credentials are intentionally omitted until verified. */}
+    <JsonLd data={organizationSchema} />
 
-    {/* Astro View Transitions router */}
-    <ClientRouter />
-
-    {/* Oxford-centric Card Styling */}
-    <style is:global>
-      :root {
-        --card-hue: 210;
-        --card-start-light: 45%;
-        --card-end-light: 60%;
-        --card-start-light-hover: 55%;
-        --card-end-light-hover: 70%;
-        --card-radius: 0.75rem;
-        --card-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        --card-shadow-hover: 0 8px 12px rgba(0,0,0,0.2);
-      }
-      .card-3d {
-        display: inline-block;
-        padding: 0.75rem 1.25rem;
-        border-radius: var(--card-radius);
-        background: linear-gradient(135deg,
-          hsl(var(--card-hue), 70%, var(--card-start-light)),
-          hsl(var(--card-hue), 70%, var(--card-end-light)));
-        color: #fff;
-        text-decoration: none;
-        box-shadow: var(--card-shadow);
-        transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
-      }
-      .card-3d:hover {
-        transform: translateY(-4px) scale(1.02);
-        box-shadow: var(--card-shadow-hover);
-        background: linear-gradient(135deg,
-          hsl(var(--card-hue), 70%, var(--card-start-light-hover)),
-          hsl(var(--card-hue), 70%, var(--card-end-light-hover)));
-      }
-      .hero-overlay { background: linear-gradient(180deg, rgba(0,0,0,0.5), transparent); }
-    </style>
-
-    <style is:global>
-  @keyframes fadeInUp {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: none; }
-  }
-  main > section {
-    animation: fadeInUp 0.8s ease-out both;
-    animation-timeline: scroll();
-  }
-</style>
+    <script src="../scripts/theme.ts"></script>
   </head>
-  <body class="bg-[#FAF9F6] dark:bg-[#022c22] text-[#0c1a16] dark:text-[#ecfdf5] selection:bg-emerald-800 selection:text-white font-sans transition-colors duration-300" data-page-title={title}>
-    <a href="#main-content" class="skip-nav sr-only focus:not-sr-only focus:absolute focus:p-4 focus:bg-white focus:text-emerald-950 focus:z-50">
+  <body class="bg-surface-base text-text-primary selection:bg-emerald-800 selection:text-white font-sans transition-colors duration-300" data-page-title={title}>
+    <a href="#main-content" class="skip-nav sr-only focus:not-sr-only">
       Skip to main content
     </a>
     
 
 
-    {/* Header component loaded as React client island */}
-    <Header client:load />
+    {/* Static Astro navigation: identical HTML for readers, crawlers, and assistive technology. */}
+    <Header />
 
-    {/* Progress bar loaded on scroll */}
-    <div
-      id="scroll-progress-bar"
-      class="fixed top-0 left-0 h-1 bg-gradient-to-r from-emerald-500 to-lime-400 z-50 transition-all duration-150"
-      style="width: 0%"
-      role="progressbar"
-      aria-valuenow="0"
-      aria-valuemin="0"
-      aria-valuemax="100"
-      aria-label="Scroll progress"
-    ></div>
-
-    <main id="main-content" class="pt-28">
-      <div id="parallax-root">
-        <div class="parallax-layer" data-speed="0.3">
-          <slot />
-        </div>
-      </div>
+    <main id="main-content" data-pagefind-body={noindex ? undefined : true}>
+      <slot />
     </main>
 
     <Footer />
-
-    {/* Client side sw, offline, progressive theme and scroll scripts */}
-    <script>
-      // 1. Service Worker & Offline Banner
-      if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js').catch(() => {});
-      }
-
-      const showOfflineBanner = () => {
-        const banner = document.getElementById('offline-banner');
-        if (banner) banner.style.display = 'flex';
-      };
-      const hideOfflineBanner = () => {
-        const banner = document.getElementById('offline-banner');
-        if (banner) banner.style.display = 'none';
-      };
-      window.addEventListener('offline', showOfflineBanner);
-      window.addEventListener('online', hideOfflineBanner);
-
-      // 2. Dynamic Scroll Progress
-      const updateScrollProgress = () => {
-        const bar = document.getElementById('scroll-progress-bar');
-        if (!bar) return;
-        const scrollTop = window.scrollY;
-        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-        const progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
-        bar.style.width = `${progress}%`;
-        bar.setAttribute('aria-valuenow', Math.round(progress).toString());
-      };
-      window.addEventListener('scroll', updateScrollProgress, { passive: true });
-
-      // 2b. Parallax scroll effect (pure JS — no React island needed)
-      const initParallax = () => {
-        const layers = document.querySelectorAll('.parallax-layer');
-        if (!layers.length) return;
-        const BOT_UA = [/googlebot/i, /bingbot/i, /yandexbot/i, /baiduspider/i, /applebot/i];
-        if (BOT_UA.some(r => r.test(navigator.userAgent))) return;
-        const handleParallax = () => {
-          layers.forEach(layer => {
-            const el = layer as HTMLElement;
-            const speed = parseFloat(el.getAttribute('data-speed') || '0.3');
-            el.style.transform = `translate3d(0, ${window.scrollY * speed}px, 0)`;
-          });
-        };
-        window.addEventListener('scroll', handleParallax, { passive: true });
-      };
-      initParallax();
-      document.addEventListener('astro:after-navigation', initParallax);
-
-      // 3. Page Atmosphere & Category Toggles (Task 7 / Task 13)
-      const updateAtmosphere = () => {
-        const html = document.documentElement;
-        const path = window.location.pathname;
-
-        // Set category for brand atmosphere
-        if (path.startsWith('/plans') || path.startsWith('/about') || path.startsWith('/team') || path.startsWith('/testimonials') || path.startsWith('/clinics') || path.startsWith('/clinic/')) {
-          html.setAttribute('data-page-category', 'clinical');
-        } else if (path.startsWith('/knowledge') || path.startsWith('/herb/') || path.startsWith('/condition/') || path.startsWith('/topic/') || path.startsWith('/article/') || path.startsWith('/vegan/') || path.startsWith('/genomics/') || path.startsWith('/interactions/')) {
-          html.setAttribute('data-page-category', 'knowledge');
-        } else if (path.startsWith('/recipe') || path.startsWith('/recipes')) {
-          html.setAttribute('data-page-category', 'recipe');
-        } else {
-          html.removeAttribute('data-page-category');
-        }
-
-        // Set nav context for intent-aware navigation
-        if (path.startsWith('/knowledge') || path.startsWith('/herb/') || path.startsWith('/condition/') || path.startsWith('/topic/') || path.startsWith('/article/') || path.startsWith('/vegan/')) {
-          html.setAttribute('data-nav-context', 'knowledge');
-        } else if (path.startsWith('/plans') || path.startsWith('/about') || path.startsWith('/team')) {
-          html.setAttribute('data-nav-context', 'service');
-        } else if (path.startsWith('/recipes')) {
-          html.setAttribute('data-nav-context', 'recipes');
-        } else {
-          html.removeAttribute('data-nav-context');
-        }
-      };
-      updateAtmosphere();
-      document.addEventListener('astro:after-navigation', updateAtmosphere);
-
-      // 4. Premium 3D Card Tilt Effect (Interactive Rotation)
-      const initCardTilt = () => {
-        const cards = document.querySelectorAll('.card-premium, .card-standard');
-        
-        cards.forEach((el) => {
-          const card = el as HTMLElement;
-          if ((card as any)._tiltInitialized) return;
-          (card as any)._tiltInitialized = true;
-          
-          card.addEventListener('mousemove', (e: any) => {
-            const rect = card.getBoundingClientRect();
-            const x = e.clientX - rect.left; 
-            const y = e.clientY - rect.top;  
-            
-            const centerX = rect.width / 2;
-            const centerY = rect.height / 2;
-            
-            // Limit to max 8 degrees tilt for premium, non-disruptive feel
-            const rotateX = ((centerY - y) / centerY) * 8; 
-            const rotateY = ((x - centerX) / centerX) * 8;
-            
-            card.style.setProperty('--card-rotate-x', `${rotateX}deg`);
-            card.style.setProperty('--card-rotate-y', `${rotateY}deg`);
-          });
-          
-          card.addEventListener('mouseleave', () => {
-            card.style.setProperty('--card-rotate-x', '0deg');
-            card.style.setProperty('--card-rotate-y', '0deg');
-          });
-        });
-      };
-      initCardTilt();
-      document.addEventListener('astro:after-navigation', initCardTilt);
-    </script>
-
-    {/* Offline notice banner container */}
-    <div id="offline-banner" style="display: none;" class="fixed bottom-0 left-0 right-0 bg-amber-500 text-white text-center py-3 px-4 z-[9999] text-sm font-bold">
-      You are offline. Some features may be unavailable.
-    </div>
-
-    {/* Interactive cookies banner */}
-    <CookieConsent client:only="react" />
-
-    {/* Dynamic Local Outreach Suggestion Banner */}
-    <LocalOutreachLocator client:only="react" />
-
-    {/* Telemetry-Driven Predictive Pre-caching Component */}
-    <PredictivePrefetcher client:idle />
-
 
   </body>
 </html>

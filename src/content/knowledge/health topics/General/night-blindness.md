@@ -11,8 +11,6 @@ seoKeywords: ["Night Blindness"]
 
 # Night Blindness
 
-![Night Blindness](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Lack of Vit A destroys retina.

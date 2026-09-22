@@ -11,8 +11,6 @@ seoKeywords: ["Jet Lag / Shift Work"]
 
 # Jet Lag / Shift Work
 
-![Jet Lag / Shift Work](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Time zones/night shifts.

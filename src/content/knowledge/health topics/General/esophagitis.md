@@ -11,8 +11,6 @@ seoKeywords: ["Esophagitis"]
 
 # Esophagitis
 
-![Esophagitis](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Chronic acid reflux burns cells.

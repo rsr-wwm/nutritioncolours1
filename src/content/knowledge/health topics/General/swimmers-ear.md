@@ -11,8 +11,6 @@ seoKeywords: ["Swimmers Ear"]
 
 # Swimmer's Ear
 
-![Swimmer's Ear](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Trapped water breeds bacteria.

@@ -11,8 +11,6 @@ seoKeywords: ["Arthritis Support"]
 
 # Arthritis Support
 
-![Arthritis Support](https://images.unsplash.com/photo-1529692236671-f1f6e9460272?q=80&w=800)
-
 ## Problem
 
 Autoimmune or degenerative destruction of joint tissue.

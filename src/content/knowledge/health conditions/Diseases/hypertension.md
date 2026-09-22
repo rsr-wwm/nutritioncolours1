@@ -11,8 +11,6 @@ seoKeywords: ["reverse hypertension naturally"]
 
 # Hypertension (High Blood Pressure)
 
-![Hypertension (High Blood Pressure)](https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=800)
-
 ## Root Cause
 
 Endothelial dysfunction and arterial stiffness driven by chronic insulin resistance and low nitric oxide production.

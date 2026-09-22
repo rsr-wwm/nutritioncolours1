@@ -11,8 +11,6 @@ seoKeywords: ["Liver Detox Pathways"]
 
 # Liver Detox Pathways
 
-![Liver Detox Pathways](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Estrogen dominance, chemical sensitivities, and sluggish metabolism due to overloaded liver detox pathways.

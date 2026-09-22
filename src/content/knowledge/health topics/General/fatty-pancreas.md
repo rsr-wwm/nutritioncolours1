@@ -11,8 +11,6 @@ seoKeywords: ["Fatty Pancreas"]
 
 # Fatty Pancreas
 
-![Fatty Pancreas](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Obesity and high triglycerides.

@@ -11,8 +11,6 @@ seoKeywords: ["IBS"]
 
 # IBS
 
-![IBS](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Stress/trigger foods disrupt gut-brain.

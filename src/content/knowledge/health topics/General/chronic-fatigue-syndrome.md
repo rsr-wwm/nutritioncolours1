@@ -11,8 +11,6 @@ seoKeywords: ["Chronic Fatigue Energy Support"]
 
 # Chronic Fatigue & Energy Support
 
-![Chronic Fatigue & Energy Support](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Persistent, debilitating fatigue not relieved by rest, often linked to mitochondrial dysfunction.

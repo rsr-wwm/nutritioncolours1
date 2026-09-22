@@ -11,8 +11,6 @@ seoKeywords: ["Non-Alcoholic Fatty Liver"]
 
 # Non-Alcoholic Fatty Liver
 
-![Non-Alcoholic Fatty Liver](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Excess fructose/sugar.

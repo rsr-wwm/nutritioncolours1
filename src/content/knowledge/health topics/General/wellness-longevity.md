@@ -11,8 +11,6 @@ seoKeywords: ["Wellness & Longevity"]
 
 # Wellness & Longevity
 
-![Wellness & Longevity](https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=800)
-
 ## Problem
 
 Premature physical decline due to lifestyle choices.

@@ -11,8 +11,6 @@ seoKeywords: ["Dental Fluorosis"]
 
 # Dental Fluorosis
 
-![Dental Fluorosis](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Kids swallowing fluoride toothpaste.

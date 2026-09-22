@@ -11,8 +11,6 @@ seoKeywords: ["Anorexia / Bulimia / BED"]
 
 # Anorexia / Bulimia / BED
 
-![Anorexia / Bulimia / BED](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Severe restriction or trauma.

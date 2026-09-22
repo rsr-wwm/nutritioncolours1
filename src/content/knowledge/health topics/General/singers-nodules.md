@@ -11,8 +11,6 @@ seoKeywords: ["Singers Nodules"]
 
 # Singer's Nodules
 
-![Singer's Nodules](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Chronic voice abuse or smoking.

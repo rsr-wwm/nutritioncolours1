@@ -11,8 +11,6 @@ seoKeywords: ["Constipation"]
 
 # Constipation
 
-![Constipation](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Low fiber/dehydration slows colon.

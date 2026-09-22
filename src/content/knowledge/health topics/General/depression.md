@@ -11,8 +11,6 @@ seoKeywords: ["Depression"]
 
 # Depression
 
-![Depression](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Poor diet/lack of sunlight.

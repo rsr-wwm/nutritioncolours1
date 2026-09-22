@@ -11,8 +11,6 @@ seoKeywords: ["Hemorrhoids"]
 
 # Hemorrhoids
 
-![Hemorrhoids](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Straining from hard stools.

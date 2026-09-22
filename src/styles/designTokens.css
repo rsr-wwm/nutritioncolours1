@@ -5,20 +5,39 @@
   --brand-accent: #059669; /* Emerald 600 */
   --brand-highlight: #10b981; /* Emerald 500 */
 
-  /* Color roles for visual design system (Light Mode default) */
-  --surface-base: #f5f5f4;  /* Main light background color (Stone-50) */
-  --surface-card: #FFFFFF;  /* Component background (Pure white) */
+  /* Multi-tier surface levels (Light Mode default) */
+  --surface-base: #f5f5f4;  /* Level 0: Main background (Stone-50) */
+  --surface-card: #FFFFFF;  /* Level 1: Component & card background (Pure white) */
+  --surface-elevated: #fafaf9; /* Level 2: Elevated panels, sticky sidebars (Stone-50/100) */
+  --surface-elevated-border: #e7e5e4; /* Level 2 border */
+  --surface-overlay: #FFFFFF; /* Level 3: Overlays, popovers, high-depth panels */
   --surface-subtle: #f0fdf4; /* Subtle tinted surface */
   --surface-border: #e7e5e4; /* Stone-200 border */
   
   --text-primary: #022c22;  /* Body text (Emerald-950) */
-  --text-muted: #57534e;    /* Subtitles and details (Stone-600) */
+  --text-muted: #44403c;    /* Subtitles and details (Stone-700 for high AAA contrast) */
   --text-inverse: #FFFFFF;  /* Contrast text on dark backgrounds */
   
+  /* Chromatic Alert & Callout Tokens (Light Mode) */
+  --alert-amber-bg: #fffbeb;
+  --alert-amber-border: #fcd34d;
+  --alert-amber-text: #78350f;
+  --alert-red-bg: #fef2f2;
+  --alert-red-border: #fca5a5;
+  --alert-red-text: #7f1d1d;
+  --alert-emerald-bg: #f0fdf4;
+  --alert-emerald-border: #86efac;
+  --alert-emerald-text: #14532d;
+  
   /* Focus & Accessibility Tokens */
-  --focus-ring: #059669;
+  --focus-ring: #047857;
   --focus-ring-offset: #ffffff;
   --focus-outline: 2px solid var(--focus-ring);
+
+  /* Fluid Display Typography (Continuous responsive math scaling) */
+  --font-display-hero: clamp(2.25rem, 1.5rem + 3vw, 3.75rem);
+  --font-display-section: clamp(1.75rem, 1.25rem + 2vw, 2.5rem);
+  --font-display-card: clamp(1.25rem, 1.1rem + 0.75vw, 1.625rem);
 
   /* Fluid Typography Scale (Math-driven clamp for responsive typography) */
   --font-size-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.8125rem);
@@ -40,10 +59,7 @@
   --space-xl: clamp(2rem, 1.8rem + 1vw, 2.75rem);
   --space-2xl: clamp(3rem, 2.6rem + 2vw, 4.5rem);
 
-  /* Elevation & Shadows */
-  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  /* Elevation & Shadows (canonical values live in globals.css's @theme; keep both names pointed at one source) */
   --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 
   /* Radii */
@@ -86,12 +102,49 @@ html[data-page-category="tool"] {
 
 /* Dark Mode color roles overrides */
 .dark {
-  --surface-base: #0c0a09; /* stone-950 */
-  --surface-card: #1c1917; /* stone-900 */
+  /* Multi-tier Dark Mode surface levels */
+  --surface-base: #0c0a09; /* Level 0: Stone-950 canvas */
+  --surface-card: #1c1917; /* Level 1: Stone-900 cards & sections */
+  --surface-elevated: #292524; /* Level 2: Stone-800 elevated panels, sticky aside */
+  --surface-elevated-border: rgba(255, 255, 255, 0.08); /* Level 2 border */
+  --surface-overlay: #44403c; /* Level 3: Stone-700 popovers, hover targets */
   --surface-subtle: #141f1b;
   --surface-border: #292524; /* Stone-800 */
   --text-primary: #f5f5f4; /* stone-100 */
-  --text-muted: #a8a29e;    /* stone-400 */
+  --text-muted: #d6d3d1;    /* stone-300 for high AAA contrast */
   --text-inverse: #0c1a16;
   --focus-ring-offset: #0c0a09;
+  --focus-ring: #6ee7b7;
+
+  /* Chromatic Alert & Callout Tokens (Dark Mode) */
+  --alert-amber-bg: rgba(245, 158, 11, 0.08);
+  --alert-amber-border: rgba(245, 158, 11, 0.32);
+  --alert-amber-text: #fef3c7;
+  --alert-red-bg: rgba(239, 68, 68, 0.08);
+  --alert-red-border: rgba(239, 68, 68, 0.32);
+  --alert-red-text: #fee2e2;
+  --alert-emerald-bg: rgba(16, 185, 129, 0.08);
+  --alert-emerald-border: rgba(16, 185, 129, 0.32);
+  --alert-emerald-text: #d1fae5;
 }
+
+/* Circadian Sensor-Aware Lighting (Melatonin-protective night-shift & twilight tones) */
+.circadian-warm:not(.dark) {
+  --surface-base: #fbf9f5; /* Warm parchment tone */
+  --surface-card: #ffffff;
+  --surface-elevated: #f5f0e8;
+  --surface-border: #e8e2d8;
+  --brand-primary: #047857;
+}
+
+.dark.circadian-warm {
+  --surface-base: #14110e; /* Deep amber-tinted warm stone */
+  --surface-card: #1e1915;
+  --surface-elevated: #2b241e;
+  --surface-elevated-border: rgba(251, 191, 36, 0.08);
+  --surface-overlay: #3d332a;
+  --surface-border: #2b241e;
+  --text-muted: #ded7ce;
+  --brand-primary: #059669;
+}
+

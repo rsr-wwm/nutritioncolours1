@@ -11,8 +11,6 @@ seoKeywords: ["Adenomyosis"]
 
 # Adenomyosis
 
-![Adenomyosis](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Hormones (estrogen).

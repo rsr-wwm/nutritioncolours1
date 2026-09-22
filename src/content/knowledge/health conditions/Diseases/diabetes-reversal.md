@@ -11,8 +11,6 @@ seoKeywords: ["reverse type 2 diabetes naturally"]
 
 # Type 2 Diabetes Reversal
 
-![Type 2 Diabetes Reversal](https://images.unsplash.com/photo-1505576399279-565b52d4ac71?q=80&w=800)
-
 ## Root Cause
 
 Progressive pancreatic beta-cell dysfunction and severe peripheral insulin resistance secondary to chronic visceral fat accumulation and hepatic lipid overload.

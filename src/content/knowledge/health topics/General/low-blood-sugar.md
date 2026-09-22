@@ -11,8 +11,6 @@ seoKeywords: ["Low Blood Sugar"]
 
 # Low Blood Sugar
 
-![Low Blood Sugar](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Skipping meals or excess diabetic meds.

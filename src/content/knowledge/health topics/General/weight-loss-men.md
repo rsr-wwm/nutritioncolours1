@@ -11,8 +11,6 @@ seoKeywords: ["Weight Loss for Men"]
 
 # Weight Loss for Men
 
-![Weight Loss for Men](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Metabolic slowdown and visceral fat storage.

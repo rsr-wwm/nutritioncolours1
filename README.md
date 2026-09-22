@@ -1,66 +1,100 @@
 # NutritionColours
 
-Clinical nutrition marketing site for Dr. Shilpa Thakur's practice — ~1,700 statically
-pre-rendered pages covering health conditions, herbs, recipes, clinical topics, and
-location-targeted outreach pages across 1,690 Indian/international cities.
+NutritionColours is an Astro-based health and food education website under controlled reconstruction.
 
-**Stack:** Astro 7 (`output: 'static'`) + React 19 islands (`@astrojs/react`) + Tailwind v4
-(via the Vite plugin). Migrated from a Next.js app in July 2026 — see git history for the
-migration commits. There is no server runtime; the entire site builds to static HTML.
+Health topics, health conditions and disease leaves are Tier 1. Whole-food leaves are Tier 2. No health or food leaf is published until its exact content, claims, sources, accountable author, qualified in-scope reviewer and review event pass the approved-only publishing graph.
 
-## Getting started
+The service model is online-only. The project must not imply physical offices, local branches, map locations or city-based clinicians unless a real staffed location is independently verified in the future.
+
+## Current verified baseline
+
+- Astro 7 static output with React islands only where needed.
+- 29 built HTML pages and 9 indexable canonical URLs.
+- 0 approved health leaves and 0 approved food leaves.
+- 2,173 Tier-1/Tier-2 legacy records quarantined.
+- 133 Tier-3 reference records quarantined.
+- 3,553 historical locality drafts disconnected and quarantined.
+- Raw publishing registries cannot be imported by application routes.
+- Health and food routes consume only `data/publishing/approved-leaves.json`.
+
+These values are release-gate observations, not claims of medical, legal or accessibility certification.
+
+## Local commands
 
 ```bash
 npm install
-npm run dev       # local dev server
-npm run build     # static build to dist/
-npm run preview   # preview the production build
-npm run check     # astro check (TypeScript + template diagnostics)
+npm run dev             # local development server
+npm run check           # Astro and TypeScript diagnostics
+npm run lint            # application lint gate
+npm run build           # guarded production build
+npm run release:verify  # type, lint, policy, build, sitemap, search and output gates
+npm run build:all       # safe alias of release:verify; it does not deploy
+npm run preview         # preview an already-built dist/
 ```
 
-## Structure
+### Deployed-site verification
 
-- `src/pages/` — file-based routes. Dynamic routes (`[id].astro`) use `getStaticPaths()`
-  to pre-render one page per data record (conditions, herbs, recipes, clinics, team, etc.).
-- `src/data/` and `src/lib/` — the actual content databases (`clinical_databases.ts`,
-  `locationsData.ts`, `internationalData.ts`, `topics.ts`, `recipes_database.ts`) plus
-  SEO/AEO/GEO helper modules under `src/lib/seo/` and `src/lib/geo/`.
-- `src/components/` — Astro components (`.astro`, server-rendered) and React components
-  (`.tsx`, rendered as islands with `client:load`/`client:only` directives).
-- `public/` — static assets, including the AI/LLM-facing feeds (`llms.txt`,
-  `llms-full.txt`, `/data/*.json`), sitemaps, and `robots.txt`.
+```bash
+npm run verify:live
+```
 
-## SEO/AEO/GEO infrastructure
+This checks the deployed sitemap graph and representative HTML for status, canonicals, robots directives, heading structure, security headers, prohibited local/medical/review schema, required noindex surfaces and the retired honeypot path.
 
-This site carries a deliberately elite-tier SEO/AEO/GEO setup: JSON-LD entity graphs
-(`src/lib/seo/entityGraph.ts`), curated LLM feeds (`llms.txt`/`llms-full.txt`), bot
-classification (`public/scripts/bot-shield.js`), and segmented sitemaps. Some of this
-infrastructure was orphaned during the Next.js → Astro migration (modules with zero
-imports, components wired into no pages) — before adding new SEO/GEO tooling, check
-whether it already exists under `src/lib/seo/` or `src/lib/geo/` first.
+Optional controls:
 
-Before shipping schema or claims, confirm they describe real, verifiable facts — this is
-a remote/telehealth practice, not a network of physical branches, so the ~1,690 `/clinic/*`
-pages are service-area targeting pages, not `LocalBusiness` locations with real street
-addresses.
+```bash
+LIVE_SITE_URL=https://staging.example.com npm run verify:live
+LIVE_SITE_URL=https://staging.example.com LIVE_EXPECTED_ORIGIN=https://nutritioncolours.com npm run verify:live
+LIVE_COMPARE_DIST=1 npm run verify:live
+LIVE_VERIFY_MAX_PAGES=500 npm run verify:live
+```
 
-## Status (as of 2026-07-13)
+Only raise `LIVE_VERIFY_MAX_PAGES` after confirming that the larger indexable set is intentional. A large live sitemap is treated as possible index bloat, not automatically accepted.
 
-Verified: `astro build` green at **2,069 pages**, `astro check` **0 errors / 0 warnings**.
-Full audit + execution plan live under `docs/` (`docs/audit/`, `docs/analysis/`, `docs/spec/`,
-`docs/execution/EXECUTION_LEDGER.md`) and `MASTER_REQUIREMENT_SPECIFICATION.md`.
+### Core Web Vitals verification
 
-- **Schema:** every YMYL template now emits reviewer-backed medical JSON-LD — conditions,
-  herbs, clinics, `genomics`, `interactions`, and all 229 `topic`/disease pages
-  (`MedicalWebPage` + `Physician` reviewer + `MedicalCondition`/`Gene`/`Drug` + `Claim`).
-- Some pages rely on client-rendered React islands for primary content
-  (`client:load`/`client:only`); verify server-rendered fallback exists for anything
-  crawlers must read without executing JavaScript (View-Source Law).
-- **Open decisions/work:** clinic-page thin-content consolidation (`docs/analysis/gap-analysis.md`
-  §5); registry migration off the monolithic data files (`MASTER_REQUIREMENT_SPECIFICATION.md`
-  §65.2); content authorship for the food/nutrient classes (§12–§34); server-side hreflang
-  once a real vernacular layer exists; CI wiring of the QA gates.
-- **git:** `src/lib` is currently untracked — commit it as a baseline. `node_modules`/lockfile
-  can hit a `@rolldown/binding-*` native-module error on some platforms — reinstall
-  (`rm -rf node_modules package-lock.json && npm install`) if `astro build`/`check` fails
-  with `Cannot find module '@rolldown/binding-*'`.
+```bash
+PAGESPEED_API_KEY=your_google_api_key npm run verify:cwv
+```
+
+The command uses Google PageSpeed Insights. It treats 28-day CrUX p75 LCP, INP and CLS as the field gate and reports Lighthouse mobile values only as lab diagnostics. It fails rather than calling lab TBT “field INP” or passing when field data is absent.
+
+Useful options:
+
+```bash
+CWV_URLS=https://nutritioncolours.com/,https://nutritioncolours.com/about npm run verify:cwv
+CWV_STRATEGY=desktop npm run verify:cwv
+CWV_ALLOW_LAB_ONLY=1 npm run verify:cwv
+```
+
+`CWV_ALLOW_LAB_ONLY=1` is diagnostic only and does not establish real-user CWV performance.
+
+## Publishing control plane
+
+| Artifact | Purpose | Application import allowed? |
+|---|---|---|
+| `data/publishing/leaf-registry.json` | Deterministic legacy inventory | No |
+| `data/publishing/leaf-decisions.json` | Human lifecycle decisions | No |
+| `data/publishing/truth-registry.json` | Verified identities, sources, claims and reviews | No |
+| `data/publishing/approved-leaves.json` | Generated approved-only public projection | Yes |
+| `data/publishing/location-quarantine.json` | Disconnected locality inventory | No |
+
+Start with `docs/execution/LEAF_PUBLICATION_RUNBOOK_2026-08-21.md` and `docs/execution/PHASE_1_TRUTH_REGISTRY_WORKSHEET_2026-08-28.md`. Never let an LLM write approval facts directly into a trusted registry.
+
+## Release and deployment safety
+
+`build:all` previously chained a build to an automatic deployment. That destructive behavior remains removed. The restored command name now performs the complete local release verification only.
+
+Deployment is deliberately separate because it changes public state. Before deployment:
+
+1. Run `npm run build:all`.
+2. Review and commit the exact source changes and built route/sitemap set.
+3. Rotate the historical Hostinger webhook because its old value exists in Git history; store only the new value as `HOSTINGER_WEBHOOK_URL` in the ignored `.env` file.
+4. Run `npm run deploy:check`, type `nutritioncolours.com` when prompted, and review the target summary.
+5. Run `npm run deploy`, type `nutritioncolours.com` again, and wait for Hostinger to publish.
+6. Run `npm run deploy:verify` to compare production with the current built canonical set.
+7. Run field CWV verification when CrUX data is available.
+
+The guarded deployer updates the existing GitHub `production` branch with a normal fast-forward commit. It never force-pushes, never contains a default webhook, rejects the historically exposed webhook, and refuses an uncommitted source tree unless the operator explicitly sets `DEPLOY_ALLOW_DIRTY=nutritioncolours.com`.
+
+If live verification reveals the historical locality, clinic, fake-authority or honeypot surfaces, stop sitemap submission and deploy the current green artifact through the authorized release process.

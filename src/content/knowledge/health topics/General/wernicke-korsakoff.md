@@ -11,8 +11,6 @@ seoKeywords: ["Wernicke-Korsakoff"]
 
 # Wernicke-Korsakoff
 
-![Wernicke-Korsakoff](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Alcohol stops B1 absorption.

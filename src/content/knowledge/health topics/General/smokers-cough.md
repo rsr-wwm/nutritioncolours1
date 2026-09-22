@@ -11,8 +11,6 @@ seoKeywords: ["Smokers Cough"]
 
 # Smoker's Cough
 
-![Smoker's Cough](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Smoking permanently destroys lung sacs.

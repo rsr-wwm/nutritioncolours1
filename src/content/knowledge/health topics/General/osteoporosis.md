@@ -11,8 +11,6 @@ seoKeywords: ["Osteoporosis"]
 
 # Osteoporosis
 
-![Osteoporosis](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Lack of Vit D/calcium + no exercise.

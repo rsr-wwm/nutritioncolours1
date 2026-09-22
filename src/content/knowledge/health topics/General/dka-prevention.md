@@ -11,8 +11,6 @@ seoKeywords: ["DKA Prevention"]
 
 # DKA Prevention
 
-![DKA Prevention](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Missing insulin or massive carb binges.

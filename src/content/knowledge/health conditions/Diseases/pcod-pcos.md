@@ -11,8 +11,6 @@ seoKeywords: ["reverse pcos naturally insulin"]
 
 # PCOD / PCOS (Metabolic & Hormonal Reversal)
 
-![PCOD / PCOS (Metabolic & Hormonal Reversal)](https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=800)
-
 ## Root Cause
 
 Hyperinsulinemia driving ovarian theca cells to overproduce androgens (testosterone), resulting in follicular arrest, anovulation, and metabolic cyst formation.

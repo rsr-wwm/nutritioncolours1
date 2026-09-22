@@ -11,8 +11,6 @@ seoKeywords: ["B12 Deficiency"]
 
 # B12 Deficiency
 
-![B12 Deficiency](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Vegan diet or poor gut absorption.

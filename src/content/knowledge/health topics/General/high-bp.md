@@ -11,8 +11,6 @@ seoKeywords: ["High BP"]
 
 # High BP
 
-![High BP](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 High salt/stress stiffens arteries.

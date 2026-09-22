@@ -1,0 +1,88 @@
+---
+// PublicationGate.astro
+//
+// Shared "N-point verification gate" checklist card. Recipes, Programs, Team
+// verification, and Testimonials policy each hand-rolled a near-identical
+// version of this (a heading, an intro line, and a grid of numbered
+// requirement cards) — this component is that pattern extracted once, plus a
+// literal progress bar so "X of Y gates passed" is an actual visual instead
+// of just words in a paragraph.
+
+interface GateItem {
+  title: string;
+  text: string;
+}
+
+interface Props {
+  heading: string;
+  description: string;
+  numberPrefix: string; // "Stage" | "Gate" | "Standard"
+  items: GateItem[];
+  /** How many of `items` currently pass. Defaults to 0 (nothing published yet). */
+  passed?: number;
+  id?: string;
+}
+
+const { heading, description, numberPrefix, items, passed = 0, id } = Astro.props;
+
+const headingId =
+  id ??
+  `gate-${heading
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)/g, '')}`;
+
+const total = items.length;
+const pct = total > 0 ? Math.round((passed / total) * 100) : 0;
+// An odd count in a 2-column grid leaves the last card half-width and lonely;
+// let it span the full row instead (this is what plans.astro's 5th gate did
+// by hand).
+const lastIsWide = total % 2 === 1;
+---
+
+<section
+  class="mt-10 rounded-3xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 p-7 md:p-8 shadow-sm space-y-4"
+  aria-labelledby={headingId}
+>
+  <div class="flex flex-wrap items-center justify-between gap-3">
+    <h2 id={headingId} class="text-xl font-black text-emerald-950 dark:text-emerald-100 brand-font">
+      {heading}
+    </h2>
+    <span class="inline-flex items-center gap-1.5 rounded-full border border-emerald-200/80 dark:border-emerald-800/80 bg-emerald-50/70 dark:bg-emerald-950/40 px-3 py-1 text-xs font-bold text-emerald-900 dark:text-emerald-200 shadow-xs">
+      <span class="inline-block w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+      {passed} of {total} gates passed
+    </span>
+  </div>
+
+  <p class="text-sm text-stone-600 dark:text-stone-400">
+    {description}
+  </p>
+
+  <div
+    class="h-2 w-full overflow-hidden rounded-full bg-stone-100 dark:bg-stone-800 shadow-inner"
+    role="progressbar"
+    aria-valuenow={passed}
+    aria-valuemin="0"
+    aria-valuemax={total}
+    aria-label={`${passed} of ${total} publication gates passed`}
+  >
+    <div class="h-full rounded-full bg-gradient-to-r from-emerald-600 via-emerald-500 to-teal-400 transition-[width] duration-500 ease-out" style={`width: ${pct}%`}></div>
+  </div>
+
+  <div class="grid gap-4 sm:grid-cols-2 pt-2">
+    {items.map((item, i) => (
+      <div
+        class:list={[
+          'rounded-2xl border border-stone-200 dark:border-stone-800 bg-stone-50/70 dark:bg-stone-800/50 p-4 space-y-1.5 hover:border-emerald-200 dark:hover:border-emerald-800/60 transition-colors',
+          lastIsWide && i === total - 1 ? 'sm:col-span-2' : null,
+        ]}
+      >
+        <span class="inline-block rounded-md px-2 py-0.5 bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-200/70 dark:border-emerald-800/60 text-[11px] font-mono font-bold text-emerald-800 dark:text-emerald-300">
+          {numberPrefix} {String(i + 1).padStart(2, '0')}
+        </span>
+        <p class="text-sm font-bold text-stone-900 dark:text-stone-100">{item.title}</p>
+        <p class="text-xs text-stone-600 dark:text-stone-400 leading-relaxed">{item.text}</p>
+      </div>
+    ))}
+  </div>
+</section>

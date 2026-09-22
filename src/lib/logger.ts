@@ -47,10 +47,8 @@ function emit(level: LogLevel, module: string, message: string, context?: unknow
   const tag = `[${module}]`;
   switch (level) {
     case 'debug':
-      console.debug(tag, message, context ?? '');
       break;
     case 'info':
-      console.info(tag, message, context ?? '');
       break;
     case 'warn':
       console.warn(tag, message, context ?? '');

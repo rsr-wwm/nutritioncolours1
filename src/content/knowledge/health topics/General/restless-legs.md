@@ -11,8 +11,6 @@ seoKeywords: ["Restless Legs"]
 
 # Restless Legs
 
-![Restless Legs](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Iron/magnesium deficiency.

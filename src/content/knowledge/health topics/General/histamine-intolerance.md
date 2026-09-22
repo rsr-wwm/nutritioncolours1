@@ -11,8 +11,6 @@ seoKeywords: ["Histamine Intolerance"]
 
 # Histamine Intolerance
 
-![Histamine Intolerance](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Poor diet lacks DAO enzyme.

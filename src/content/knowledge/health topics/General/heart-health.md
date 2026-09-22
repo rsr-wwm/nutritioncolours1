@@ -11,8 +11,6 @@ seoKeywords: ["Heart Health Optimization"]
 
 # Heart Health Optimization
 
-![Heart Health Optimization](https://images.unsplash.com/photo-1505751172876-fa1923c5c528?q=80&w=800)
-
 ## Problem
 
 Weak heart muscle and arterial inflammation.

@@ -11,8 +11,6 @@ seoKeywords: ["Cardiovascular Health & BP Support"]
 
 # Hypertension Management
 
-![Hypertension Management](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Stiff blood vessels and high sodium intake increasing pressure.

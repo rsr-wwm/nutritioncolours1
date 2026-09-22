@@ -11,8 +11,6 @@ seoKeywords: ["PMS / PMDD"]
 
 # PMS / PMDD
 
-![PMS / PMDD](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Blood sugar swings + hormones.

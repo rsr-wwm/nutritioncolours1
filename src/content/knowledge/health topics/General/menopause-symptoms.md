@@ -11,8 +11,6 @@ seoKeywords: ["Menopause Symptoms"]
 
 # Menopause Symptoms
 
-![Menopause Symptoms](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Estrogen drop.

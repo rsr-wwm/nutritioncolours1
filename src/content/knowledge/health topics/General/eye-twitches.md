@@ -11,8 +11,6 @@ seoKeywords: ["Eye Twitches"]
 
 # Eye Twitches
 
-![Eye Twitches](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 High caffeine, stress, Mg deficiency.

@@ -11,8 +11,6 @@ seoKeywords: ["Blood Sugar & Insulin Optimization"]
 
 # Blood Sugar & Insulin Optimization
 
-![Blood Sugar & Insulin Optimization](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 High blood sugar due to insulin resistance, often caused by excessive sugar and processed carb intake.

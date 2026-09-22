@@ -11,8 +11,6 @@ seoKeywords: ["Stroke"]
 
 # Stroke
 
-![Stroke](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Plaque or clot blocks blood to the brain.

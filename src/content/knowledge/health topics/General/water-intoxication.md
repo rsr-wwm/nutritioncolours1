@@ -11,8 +11,6 @@ seoKeywords: ["Water Intoxication"]
 
 # Water Intoxication
 
-![Water Intoxication](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Drinking gallons of water without salt.

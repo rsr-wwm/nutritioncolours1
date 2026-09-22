@@ -11,8 +11,6 @@ seoKeywords: ["Bowel Cancer"]
 
 # Bowel Cancer
 
-![Bowel Cancer](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Processed meat/alcohol mutate DNA.

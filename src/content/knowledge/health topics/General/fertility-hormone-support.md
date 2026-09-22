@@ -11,8 +11,6 @@ seoKeywords: ["Fertility & Hormone Support"]
 
 # Fertility & Hormone Support
 
-![Fertility & Hormone Support](https://images.unsplash.com/photo-1516733968668-dbdce39c46ef?q=80&w=800)
-
 ## Problem
 
 Difficulties conceiving often linked to egg/sperm quality and hormone balance.

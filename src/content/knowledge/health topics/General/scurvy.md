@@ -11,8 +11,6 @@ seoKeywords: ["Scurvy"]
 
 # Scurvy
 
-![Scurvy](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Zero fresh fruit/veg.

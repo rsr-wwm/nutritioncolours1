@@ -11,8 +11,6 @@ seoKeywords: ["Kwashiorkor"]
 
 # Kwashiorkor
 
-![Kwashiorkor](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Diet of only starches, zero protein.

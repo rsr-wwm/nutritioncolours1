@@ -11,8 +11,6 @@ seoKeywords: ["Pediatric Immunity Growth"]
 
 # Pediatric Immunity & Growth
 
-![Pediatric Immunity & Growth](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Frequent colds, poor appetite, and slow height/weight growth in children.

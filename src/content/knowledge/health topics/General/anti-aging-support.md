@@ -11,8 +11,6 @@ seoKeywords: ["Anti-Aging Support"]
 
 # Anti-Aging Support
 
-![Anti-Aging Support](https://images.unsplash.com/photo-1566807810030-31cb3b27ea17?q=80&w=800)
-
 ## Problem
 
 Accelerated aging, wrinkles, and cellular damage.

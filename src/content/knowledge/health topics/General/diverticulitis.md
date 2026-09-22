@@ -11,8 +11,6 @@ seoKeywords: ["Diverticulitis"]
 
 # Diverticulitis
 
-![Diverticulitis](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Low fiber causes pressure build-up.

@@ -11,8 +11,6 @@ seoKeywords: ["Joint Pain Relief"]
 
 # Joint Pain Relief
 
-![Joint Pain Relief](https://images.unsplash.com/photo-1565647546901-53697696014e?q=80&w=800)
-
 ## Problem
 
 Age-related wear or inflammatory conditions causing pain.

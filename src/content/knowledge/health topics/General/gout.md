@@ -11,8 +11,6 @@ seoKeywords: ["Gout"]
 
 # Gout
 
-![Gout](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 High purines (meat/beer) form joint crystals.

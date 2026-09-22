@@ -11,8 +11,6 @@ seoKeywords: ["Iron Deficiency"]
 
 # Iron Deficiency
 
-![Iron Deficiency](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Lack of meat/greens or blood loss.

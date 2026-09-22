@@ -11,8 +11,6 @@ seoKeywords: ["Vegan Beginner Guide"]
 
 # Beginner Guides
 
-![Beginner Guides](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Feeling overwhelmed by ingredient labels, suffering from initial fiber bloating, or giving in to strong cravings during the transition phase.

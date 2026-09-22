@@ -11,8 +11,6 @@ seoKeywords: ["Botulism"]
 
 # Botulism
 
-![Botulism](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Eating improperly home-canned foods.

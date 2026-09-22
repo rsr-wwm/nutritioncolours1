@@ -11,8 +11,6 @@ seoKeywords: ["Esophageal Cancer"]
 
 # Esophageal Cancer
 
-![Esophageal Cancer](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Chronic acid reflux burns cells.

@@ -11,8 +11,6 @@ seoKeywords: ["Cortisol & Stress Hormone Balance"]
 
 # Cortisol & Stress Balance
 
-![Cortisol & Stress Balance](https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=800)
-
 ## Problem
 
 Chronic stress causing high cortisol, leading to anxiety and belly fat.

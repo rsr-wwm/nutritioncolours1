@@ -11,8 +11,6 @@ seoKeywords: ["Caffeine Toxicity"]
 
 # Caffeine Toxicity
 
-![Caffeine Toxicity](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Overdosing energy drinks.

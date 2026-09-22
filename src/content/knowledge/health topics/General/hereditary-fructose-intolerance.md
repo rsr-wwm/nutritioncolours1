@@ -11,8 +11,6 @@ seoKeywords: ["Hereditary Fructose Intolerance"]
 
 # Hereditary Fructose Intolerance
 
-![Hereditary Fructose Intolerance](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Genetic enzyme lack.

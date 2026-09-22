@@ -11,8 +11,6 @@ seoKeywords: ["Heatstroke"]
 
 # Heatstroke
 
-![Heatstroke](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Extreme heat without water.

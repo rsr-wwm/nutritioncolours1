@@ -11,8 +11,6 @@ seoKeywords: ["Endometrial Cancer"]
 
 # Endometrial Cancer
 
-![Endometrial Cancer](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Obesity makes excess estrogen.

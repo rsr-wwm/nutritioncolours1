@@ -11,8 +11,6 @@ seoKeywords: ["Cognitive Decline"]
 
 # Cognitive Decline
 
-![Cognitive Decline](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Sugar/plaque damage brain vessels.

@@ -1,34 +1,86 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { TESTIMONIALS } from '../lib/constants';
-import { ReviewCard } from '../components/ReviewCard';
+import PublicationGate from '../components/PublicationGate.astro';
+import NotifyMeForm from '../components/NotifyMeForm.astro';
+import Icons from '../components/Icons.astro';
+
+const gateItems = [
+  { title: 'Prohibition on Non-Replicable Cures', text: 'Zero tolerance for claims implying chronic condition reversal, disease cure, or rapid outcomes outside verified clinical trials.' },
+  { title: 'Explicit Revocable Consent', text: 'Time-stamped, verifiable consent under data protection standards, allowing immediate unilateral withdrawal by the patient.' },
+  { title: 'Documented Identity & Context', text: 'Independent confirmation of identity, baseline health markers, concurrent therapies, and dietary lifestyle context.' },
+  { title: 'Statutory Advertising Adherence', text: 'Full compliance with ASCI codes and statutory health communication regulations, forbidding deceptive or exaggerated depictions.' },
+];
 ---
+
 <BaseLayout
-  title="Success Stories & Reversal Testimonials | NutritionColours"
-  description="Real patients sharing their clinical reversal journeys of Type 2 Diabetes, PCOS, Fatty Liver, and metabolic disorders."
+  title="Testimonials Policy | NutritionColours"
+  description="Why NutritionColours does not publish health outcome testimonials without independent verification and explicit consent."
+  noindex={true}
+  breadcrumbs={[
+    { name: 'Home', path: '/' },
+    { name: 'Testimonials policy', path: '/testimonials' },
+  ]}
 >
-  <div class="max-w-7xl mx-auto px-6 py-20 space-y-16">
-    <div class="text-center max-w-3xl mx-auto space-y-4">
-      <span class="text-lime-600 dark:text-lime-400 font-black uppercase tracking-[0.3em] text-[10px]">Patient Outcomes</span>
-      <h1 class="text-4xl md:text-5xl font-black text-emerald-950 dark:text-white brand-font leading-tight">
-        Clinical Reversal Journeys & Success Stories
-      </h1>
-      <p class="text-stone-600 dark:text-stone-400 leading-relaxed text-sm md:text-base font-medium">
-        Real patients sharing their journeys of metabolic restoration, blood sugar control, and medication adjustments under senior clinical supervision.
-      </p>
+  <article class="mx-auto max-w-4xl px-6 py-16 md:py-24">
+    <nav aria-label="Breadcrumb" class="text-sm text-stone-600 dark:text-stone-400">
+      <ol class="flex flex-wrap items-center gap-2">
+        <li><a href="/" class="font-bold text-emerald-800 dark:text-emerald-400 hover:underline">Home</a></li>
+        <li aria-hidden="true">/</li>
+        <li aria-current="page" class="font-medium text-stone-900 dark:text-stone-200">Testimonials policy</li>
+      </ol>
+    </nav>
+
+    <div class="mt-6 inline-flex items-center gap-2 rounded-full border border-amber-300 dark:border-amber-700/60 bg-amber-50 dark:bg-amber-950/50 px-3.5 py-1 text-xs font-bold uppercase tracking-wider text-amber-900 dark:text-amber-300">
+      <span class="inline-block h-2 w-2 rounded-full bg-amber-500" aria-hidden="true"></span>
+      Evidence &amp; Consent Policy &middot; Active Verification Gate
     </div>
 
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-      {TESTIMONIALS.map((t: any) => (
-        <ReviewCard
-          client:load
-          name={t.name}
-          role={t.role}
-          condition={t.condition}
-          text={t.text}
-          date={t.date}
-        />
-      ))}
+    <h1 class="mt-4 text-fluid-hero font-black text-emerald-950 dark:text-emerald-50 brand-font">
+      Testimonials are not currently published
+    </h1>
+
+    <p class="mt-6 text-lg leading-relaxed text-stone-700 dark:text-stone-300 border-l-4 border-amber-400 dark:border-amber-500 pl-5">
+      Health-outcome testimonials can mislead when identity, consent, clinical context, and claimed outcomes cannot be independently verified. NutritionColours does not publish patient stories or endorsements until an immutable verification and consent protocol is operational.
+    </p>
+
+    <PublicationGate
+      heading="4-Point Testimonial &amp; Patient Story Gate"
+      description="Before any individual case study or testimonial is released, the submission must satisfy four strict verification standards:"
+      numberPrefix="Standard"
+      items={gateItems}
+    />
+
+    <!-- Worked example callout card -->
+    <div class="mt-8 rounded-2xl border border-emerald-200/90 dark:border-emerald-800/80 bg-emerald-50/60 dark:bg-emerald-950/30 p-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+      <div class="space-y-1">
+        <span class="text-xs font-bold uppercase tracking-wider text-emerald-800 dark:text-emerald-300">Published Reference Preview</span>
+        <p class="text-sm text-stone-700 dark:text-stone-300">
+          Want to see how an evidence-gated reference looks once verified with human trial citations?
+        </p>
+      </div>
+      <a href="/knowledge/circadian-nutrition" class="inline-flex items-center gap-2 rounded-xl bg-emerald-900 dark:bg-emerald-700 px-5 py-2.5 text-xs font-bold text-white hover:bg-emerald-800 dark:hover:bg-emerald-600 transition-colors whitespace-nowrap self-start sm:self-center shadow-xs">
+        <span>Circadian Nutrition Guide</span>
+        <Icons name="arrow-right" size={14} />
+      </a>
     </div>
-  </div>
+
+    <NotifyMeForm topic="testimonials" />
+
+    <!-- Disclaimers & Action Buttons -->
+    <div class="mt-8 rounded-2xl border border-amber-200 dark:border-amber-800/60 bg-amber-50/70 dark:bg-amber-950/30 p-6 text-sm leading-relaxed text-amber-950 dark:text-amber-200">
+      Individual nutritional responses vary substantially according to genetic, metabolic, and clinical variables. Anecdotal experiences cannot substitute for peer-reviewed evidence or individualized clinical advice.
+    </div>
+
+    <div class="mt-10 flex flex-wrap gap-4 text-sm font-bold">
+      <a href="/legal/editorial-policy" class="inline-flex items-center gap-2 rounded-xl bg-emerald-900 dark:bg-emerald-700 px-6 py-3 text-white hover:bg-emerald-800 dark:hover:bg-emerald-800 transition-colors">
+        Read editorial policy
+      </a>
+      <a href="/legal/methodology" class="inline-flex items-center gap-2 rounded-xl border border-stone-300 dark:border-stone-700 bg-white dark:bg-stone-800 px-6 py-3 text-stone-800 dark:text-stone-200 hover:border-emerald-600 transition-colors">
+        Review methodology
+      </a>
+      <a href="/contact" class="inline-flex items-center gap-2 rounded-xl border border-stone-300 dark:border-stone-700 bg-white dark:bg-stone-800 px-6 py-3 text-stone-800 dark:text-stone-200 hover:border-emerald-600 transition-colors">
+        Contact editorial desk
+      </a>
+    </div>
+  </article>
 </BaseLayout>

@@ -11,8 +11,6 @@ seoKeywords: ["Tinnitus"]
 
 # Tinnitus
 
-![Tinnitus](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 High salt/caffeine alters ear fluid.

@@ -11,8 +11,6 @@ seoKeywords: ["Immunity Boost"]
 
 # Immunity Boost
 
-![Immunity Boost](https://images.unsplash.com/photo-1576091160550-217359f4ecf8?q=80&w=800)
-
 ## Problem
 
 Frequent illness and slow recovery due to weak immune response.

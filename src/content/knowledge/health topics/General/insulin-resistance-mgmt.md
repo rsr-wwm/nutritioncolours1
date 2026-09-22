@@ -11,8 +11,6 @@ seoKeywords: ["Insulin Resistance Management"]
 
 # Insulin Resistance Management
 
-![Insulin Resistance Management](https://images.unsplash.com/photo-1511688858342-a080c355fc24?q=80&w=800)
-
 ## Problem
 
 Cells ignoring insulin signals leading to high blood sugar.

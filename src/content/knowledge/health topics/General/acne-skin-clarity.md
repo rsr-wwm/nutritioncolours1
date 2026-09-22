@@ -11,8 +11,6 @@ seoKeywords: ["Acne & Skin Clarity"]
 
 # Acne & Skin Clarity
 
-![Acne & Skin Clarity](https://images.unsplash.com/photo-1596462502278-27bfdd403348?q=80&w=800)
-
 ## Problem
 
 Clogged pores and inflammatory breakouts, often hormonally driven.

@@ -11,8 +11,6 @@ seoKeywords: ["Cholesterol Management"]
 
 # Cholesterol Management
 
-![Cholesterol Management](https://images.unsplash.com/photo-1615485500704-8e990f9900f7?q=80&w=800)
-
 ## Problem
 
 Unbalanced LDL/HDL ratios increasing heart disease risk.

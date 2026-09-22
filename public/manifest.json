@@ -1,7 +1,7 @@
 {
   "name": "NutritionColours",
   "short_name": "NutriColours",
-  "description": "Clinical nutrition platform specializing in reversing chronic metabolic conditions through evidence-based circadian nutrition protocols.",
+  "description": "Food and nutrition education, publication policies, and transparent content-review notices.",
   "theme_color": "#065f46",
   "background_color": "#fafaf9",
   "display": "standalone",
@@ -11,16 +11,22 @@
   "icons": [
     {
       "src": "/icons/icon-any.svg",
-      "sizes": "48x48 72x72 96x96 144x144 192x192 512x512",
+      "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any"
     },
     {
       "src": "/icons/icon-maskable.svg",
-      "sizes": "192x192 512x512",
+      "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "maskable"
+    },
+    {
+      "src": "/images/nutritioncolours-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
     }
   ],
-  "categories": ["health", "medical", "food"]
+  "categories": ["education", "food", "health"]
 }

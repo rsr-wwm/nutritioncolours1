@@ -11,8 +11,6 @@ seoKeywords: ["PCOS Weight & Diet"]
 
 # PCOS Weight & Diet
 
-![PCOS Weight & Diet](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Difficulty losing weight despite diet efforts due to high insulin.

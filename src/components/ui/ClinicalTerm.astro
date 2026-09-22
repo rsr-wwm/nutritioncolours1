@@ -1,0 +1,60 @@
+---
+interface Props {
+  term: string;
+  definition: string;
+  role?: string;
+  reference?: string;
+  href?: string;
+  class?: string;
+}
+
+const { term, definition, role, reference, href, class: className = '' } = Astro.props;
+---
+
+<span class:list={['relative inline-block group/term cursor-help align-baseline', className]}>
+  <span
+    tabindex="0"
+    role="button"
+    aria-haspopup="dialog"
+    class="border-b border-dashed border-emerald-600/70 dark:border-emerald-400/80 hover:border-emerald-700 dark:hover:border-emerald-300 font-medium text-emerald-950 dark:text-emerald-100 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 rounded-xs"
+  >
+    {term}
+  </span>
+
+  <!-- Popover Card (pure CSS hover + focus-within) -->
+  <span
+    role="tooltip"
+    class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2.5 w-64 sm:w-72 p-4 rounded-2xl bg-surface-overlay dark:bg-stone-900 text-stone-800 dark:text-stone-200 text-xs shadow-xl border border-stone-200/90 dark:border-stone-700/80 opacity-0 pointer-events-none group-hover/term:opacity-100 group-hover/term:pointer-events-auto group-focus-within/term:opacity-100 group-focus-within/term:pointer-events-auto translate-y-1.5 group-hover/term:translate-y-0 group-focus-within/term:translate-y-0 transition-all duration-200 z-50 text-left normal-case tracking-normal font-normal backdrop-blur-md"
+  >
+    <span class="block font-bold text-emerald-900 dark:text-emerald-300 text-xs uppercase tracking-wider mb-1">
+      {term}
+    </span>
+    <span class="block text-stone-600 dark:text-stone-300 leading-relaxed mb-2">
+      {definition}
+    </span>
+    {role && (
+      <span class="block pt-1.5 border-t border-stone-100 dark:border-stone-800 text-[11px] text-stone-500 dark:text-stone-400">
+        <strong class="text-stone-700 dark:text-stone-300">Physiological Role:</strong> {role}
+      </span>
+    )}
+    {reference && (
+      <span class="block mt-1 text-[10px] font-mono text-emerald-700 dark:text-emerald-400">
+        Ref: {reference}
+      </span>
+    )}
+    {href && (
+      <a
+        href={href}
+        class="mt-2 inline-flex items-center gap-1 text-[11px] font-bold text-emerald-700 dark:text-emerald-400 hover:underline"
+      >
+        View in Glossary &rarr;
+      </a>
+    )}
+
+    <!-- Caret -->
+    <span
+      aria-hidden="true"
+      class="absolute top-full left-1/2 -translate-x-1/2 -mt-px border-4 border-transparent border-t-white dark:border-t-stone-900"
+    ></span>
+  </span>
+</span>

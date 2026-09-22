@@ -11,8 +11,6 @@ seoKeywords: ["SIBO (Gut)"]
 
 # SIBO (Gut)
 
-![SIBO (Gut)](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Poor motility lets bacteria climb.

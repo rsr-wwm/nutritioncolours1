@@ -1,16 +1,87 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import LegalContent from '../../components/LegalContent.astro';
-import { LEGAL_CONTENT } from '../../lib/constants';
+import LegalTabs from '../../components/legal/LegalTabs.astro';
 ---
 <BaseLayout
-  title="Privacy Policy | NutritionColours Clinic"
-  description="Clinical data protection regulations, patient privacy directives, and privacy policies of our clinic."
+  title="Privacy policy | NutritionColours"
+  description="Learn how NutritionColours handles contact messages, website requests, external links, privacy requests, and data minimization."
+  breadcrumbs={[
+    { name: 'Home', path: '/' },
+    { name: 'Policies', path: '/legal/editorial-policy' },
+    { name: 'Privacy notice', path: '/legal/privacy' },
+  ]}
 >
-  <LegalContent
-    eyebrow="Legal"
-    title="Privacy Policy"
-    intro="How NutritionColours collects, uses, and protects your personal and health information."
-    sections={LEGAL_CONTENT.privacy}
-  />
+  <article class="max-w-4xl mx-auto px-6 py-16 md:py-24">
+    <nav aria-label="Breadcrumb" class="text-sm text-stone-600 dark:text-stone-400">
+      <ol class="flex flex-wrap items-center gap-2">
+        <li><a href="/" class="font-bold text-emerald-800 dark:text-emerald-400 hover:underline">Home</a></li>
+        <li aria-hidden="true">/</li>
+        <li><span class="text-stone-500 dark:text-stone-400">Policies</span></li>
+        <li aria-hidden="true">/</li>
+        <li aria-current="page" class="font-medium text-stone-900 dark:text-stone-200">Privacy notice</li>
+      </ol>
+    </nav>
+
+    <!-- Legal Sub-Navigation Tabs -->
+    <LegalTabs current="/legal/privacy" />
+
+    <div class="mt-8 inline-flex items-center gap-2 rounded-full border border-emerald-300 dark:border-emerald-800 bg-emerald-50 dark:bg-emerald-950/40 px-3.5 py-1 text-xs font-bold uppercase tracking-widest text-emerald-800 dark:text-emerald-300">
+      <span class="inline-block h-2 w-2 rounded-full bg-emerald-500" aria-hidden="true"></span>
+      Privacy & Data Minimization
+    </div>
+
+    <h1 class="mt-4 text-4xl md:text-5xl font-black text-emerald-950 dark:text-emerald-50 brand-font tracking-tight">
+      Privacy notice & data practices
+    </h1>
+
+    <p class="mt-4 text-sm text-stone-500 dark:text-stone-400">
+      Last updated: <time datetime="2026-08-20">20 August 2026</time> &middot; Release Baseline: v2.4
+    </p>
+
+    <p class="mt-6 text-lg leading-relaxed text-stone-700 dark:text-stone-300 border-l-4 border-emerald-500 pl-5">
+      This policy describes the website as currently shipped. We do not operate tracking cookies, personalized advertising networks, or covert behavioral telemetry.
+    </p>
+
+    <div class="mt-12 space-y-10">
+      <!-- Section 1: Tracking & Zero Cookies -->
+      <section class="rounded-3xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 p-7 md:p-8 shadow-sm space-y-3">
+        <h2 class="text-2xl font-black text-emerald-950 dark:text-emerald-100 brand-font">Zero tracking & third-party scripts</h2>
+        <p class="text-base leading-relaxed text-stone-700 dark:text-stone-300">
+          The current website does not load advertising networks, surveillance pixels, or behavioral analytics vendors. We do not present misleading consent banners for tracking tools that are not installed. Standard server edge networks log IP addresses, timestamps, requested paths, and user agents strictly for network security and DDoS mitigation.
+        </p>
+      </section>
+
+      <!-- Section 2: Contact Desk & Medical Data Prohibition -->
+      <section class="rounded-3xl border border-amber-200 dark:border-amber-800/60 bg-amber-50/70 dark:bg-amber-950/30 p-7 md:p-8 text-amber-950 dark:text-amber-200 space-y-3">
+        <h2 class="text-2xl font-black text-amber-950 dark:text-amber-100 brand-font">Inquiry communications & health record ban</h2>
+        <p class="text-base leading-relaxed text-stone-700 dark:text-stone-300">
+          When you email our administrative desk, your message is transmitted between your email provider and ours. Do not send health records, medical laboratory panels, government identification documents, or acute clinical symptoms. Our contact desk is not a certified electronic health record (EHR) system.
+        </p>
+      </section>
+
+      <!-- Section 3: External Services -->
+      <section class="rounded-3xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 p-7 md:p-8 shadow-sm space-y-3">
+        <h2 class="text-2xl font-black text-emerald-950 dark:text-emerald-100 brand-font">External service channels</h2>
+        <p class="text-base leading-relaxed text-stone-700 dark:text-stone-300">
+          Outbound links to external platforms (such as WhatsApp, email clients, or medical journals) leave this website and are governed independently by those third-party services' privacy standards. Always review destination terms before communicating sensitive information.
+        </p>
+      </section>
+
+      <!-- Section 4: Rights & Choices -->
+      <section class="rounded-3xl border border-stone-200 dark:border-stone-800 bg-stone-50/70 dark:bg-stone-800/50 p-7 md:p-8 space-y-4">
+        <h2 class="text-2xl font-black text-emerald-950 dark:text-emerald-100 brand-font">Your rights under data protection laws</h2>
+        <p class="text-sm leading-relaxed text-stone-600 dark:text-stone-300">
+          In accordance with applicable privacy frameworks (including India's Digital Personal Data Protection Act, 2023), you may request confirmation, correction, or deletion of personal contact messages by emailing our designated privacy representative.
+        </p>
+        <div>
+          <a
+            href="mailto:privacy@nutritioncolours.com?subject=Data%20Rights%20Request"
+            class="inline-flex items-center gap-2 rounded-xl bg-emerald-900 dark:bg-emerald-700 px-5 py-2.5 text-sm font-bold text-white hover:bg-emerald-800 dark:hover:bg-emerald-800 transition-colors"
+          >
+            privacy@nutritioncolours.com &rarr;
+          </a>
+        </div>
+      </section>
+    </div>
+  </article>
 </BaseLayout>

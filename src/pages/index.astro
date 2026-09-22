@@ -1,333 +1,194 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { Image } from 'astro:assets';
+import JsonLd from '../components/JsonLd.astro';
 import Icons from '../components/Icons.astro';
-import SectionHeading from '../components/SectionHeading.astro';
-import SharedSections from '../components/SharedSections.astro';
-import { HeroSlider } from '../components/ui/HeroSlider';
-import { BANNERS, PLANS, TESTIMONIALS, TEAM, HOW_IT_WORKS, HOME_FAQS } from '../data/constants';
-import { TOPICS } from '../data/topics';
-import { RECIPES } from '../data/recipes';
-
-const topicsData = TOPICS;
 
 const SITE_URL = (Astro.site || 'https://nutritioncolours.com').toString().replace(/\/$/, '');
 const homePageSchema = {
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "@id": `${SITE_URL}/#webpage`,
-  "url": SITE_URL,
-  "name": "NutritionColours | Metabolic Health & Circadian Nutrition Reversal",
-  "isPartOf": { "@id": `${SITE_URL}/#website` },
-  "about": { "@id": `${SITE_URL}/#organization` },
-  "mainEntity": { "@id": `${SITE_URL}/#organization` },
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  '@id': `${SITE_URL}/#webpage`,
+  url: `${SITE_URL}/`,
+  name: 'NutritionColours — Food and nutrition education',
+  description: 'Food and recipe directories, publication policies, and transparent review-status notices.',
+  isPartOf: { '@id': `${SITE_URL}/#website` },
 };
+
+const sections = [
+  { href: '/foods', title: 'Food guides', text: 'Browse verified food profiles and general nutrition information.', icon: 'leaf', accent: 'content' },
+  { href: '/recipes', title: 'Recipe ideas', text: 'Explore wholesome recipe ideas with ingredients and preparation steps.', icon: 'utensils', accent: 'content' },
+  { href: '/knowledge/circadian-nutrition', title: 'Circadian health', text: 'Examine diurnal metabolic timing, insulin sensitivity, and chrono-nutrition.', icon: 'refresh', accent: 'content' },
+  { href: '/knowledge/health-topics', title: 'Health-content status', text: 'See why legacy health drafts are unavailable and what review is required.', icon: 'shield-check', accent: 'status' },
+  { href: '/legal/methodology', title: 'Methodology', text: 'See how content, claims, sources, updates, and corrections are handled.', icon: 'search', accent: 'status' },
+  { href: '/legal/editorial-policy', title: 'Editorial policy', text: 'Review rules for authorship, sourcing, clinical review, and corrections.', icon: 'file-text', accent: 'status' },
+];
 ---
 <BaseLayout
-  title="NutritionColours | Metabolic Health & Circadian Nutrition Reversal"
-  description="Clinical Metabolic Reversal practice led by Dr. Shilpa Thakur, Ph.D. Reversing Type 2 Diabetes, PCOS, and Fatty Liver via evidence-based circadian nutrition systems."
+  title="NutritionColours — Food and nutrition education"
+  description="Food and recipe directories, publication policies, and transparent review-status notices."
 >
-  <script type="application/ld+json" is:inline set:html={JSON.stringify(homePageSchema)} />
-  <div class="space-y-4 pb-8">
-    {/* Stateful React island loaded client-side */}
-    <div class="relative">
-      <HeroSlider client:load banners={BANNERS} />
+  <JsonLd data={homePageSchema} />
+
+  <!-- Hero Section with Dual-Column Visual Balance -->
+  <section class="relative overflow-hidden max-w-7xl mx-auto px-6 pt-16 pb-20 lg:pt-24 lg:pb-28">
+    <!-- Decorative accent: soft organic blobs, purely ornamental -->
+    <div class="pointer-events-none absolute inset-0 -z-10 overflow-hidden" aria-hidden="true">
+      <div class="absolute -top-24 -right-24 h-80 w-80 rounded-full bg-emerald-200/40 dark:bg-emerald-900/20 blur-3xl"></div>
+      <div class="absolute top-1/3 -left-28 h-72 w-72 rounded-full bg-amber-100/50 dark:bg-amber-900/10 blur-3xl"></div>
+      <svg class="absolute right-4 top-6 h-24 w-24 text-emerald-700/10 dark:text-emerald-300/10 hidden lg:block" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+        <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/>
+        <path d="M2 21c0-3 1.85-5.36 5.08-6C10.9 14.36 12 15 12 15"/>
+      </svg>
     </div>
 
-    {/* Philosophy Statement */}
-    <div class="max-w-4xl mx-auto px-6 py-12 text-center gsap-reveal-fade">
-      <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-50 text-emerald-700 text-xs font-black uppercase tracking-[0.2em] border border-emerald-100 mb-6" aria-hidden="true">
-        <Icons name="check" size={12} /> Science-Based &bull; Holistic &bull; Clinical
-      </div>
-      <h2 class="text-3xl md:text-5xl font-black text-emerald-950 brand-font italic leading-tight">&quot;Most diseases begin in the kitchen, and the first medicine should also come from the kitchen.&quot;</h2>
-      <p class="mt-8 text-stone-600 font-black uppercase tracking-widest text-sm">- Dr. Shilpa Thakur, Ph.D.</p>
-    </div>
-
-    {/* Founder Feature block */}
-    <div class="max-w-7xl mx-auto px-6 gsap-reveal-slide">
-      <div class="rounded-[40px] shadow-2xl shadow-emerald-900/5 border border-stone-100 overflow-hidden relative group" style="mask-image: radial-gradient(white, black); -webkit-mask-image: -webkit-radial-gradient(white, black);">
-        <div class="flex flex-col md:flex-row items-stretch" style="min-height: 500px;">
-          <div class="w-full md:w-5/12 relative h-[360px] md:h-auto overflow-hidden bg-stone-100 rounded-t-[40px] md:rounded-l-[40px] md:rounded-tr-none">
-            <Image src={TEAM[0].image} loading="eager" width={699} height={525} class="absolute inset-0 w-full h-full object-cover block transform group-hover:scale-105 transition-transform duration-[3000ms]" style="object-position: 60% 15%;" alt="Dr. Shilpa Thakur" referrerpolicy="no-referrer" />
-          </div>
-          <div class="w-full md:w-7/12 p-6 md:p-8 lg:p-10 flex flex-col justify-center space-y-4 bg-stone-50/30">
-            <div class="space-y-3">
-              <span class="text-emerald-700 font-black uppercase tracking-[0.3em] text-xs bg-emerald-50 px-4 py-1 rounded-full border border-emerald-100 inline-block">Medical Nutritionist | Founder</span>
-              <h2 class="text-4xl md:text-5xl font-black text-emerald-950 brand-font leading-tight tracking-tighter">Root-Cause Focused Healing</h2>
-              <div class="flex items-center gap-2 px-3 py-1 bg-emerald-100/50 rounded-lg w-fit">
-                <Icons name="check" size={14} class="text-emerald-600" />
-                <span class="text-[10px] font-black text-emerald-900 uppercase tracking-widest">{TEAM[0].details}</span>
-              </div>
-            </div>
-            <div class="prose prose-stone max-w-none">
-              <p class="text-lg md:text-xl text-stone-700 leading-relaxed font-bold italic border-l-4 border-lime-400 pl-8 py-2">&quot;Your kitchen is the ultimate hospital. We just provide the clinical manual for metabolic recovery.&quot;</p>
-              <p class="text-stone-600 text-sm md:text-base leading-relaxed mt-6 font-medium">Dr. Shilpa Thakur holds a Ph.D. in Clinical Nutrition and operates as a world-class Metabolic Researcher and Clinical Nutrition Specialist (Non-Medical Practitioner). With over a decade of research experience, she specializes in the design of circadian food protocols and metabolic nutrition systems that optimize chronic wellness and support cellular health by blending ancient Ayurvedic principles with modern nutritional biology.</p>
-            </div>
-            <div class="flex flex-col sm:flex-row gap-6 pt-6 border-t border-stone-200">
-              <a href="/team/drshilpathakurphd" class="bg-emerald-900 px-8 py-4 rounded-xl font-bold uppercase tracking-widest text-xs hover:bg-emerald-800 transition-all flex items-center justify-center gap-3 group shadow-xl shadow-emerald-900/10">
-                <span class="btn-cta-text-white flex items-center justify-center gap-3">
-                  Meet Dr. Shilpa Thakur 
-                  <Icons name="arrow-right" size={16} class="group-hover:translate-x-1 transition-transform" />
-                </span>
-              </a>
-              <div class="flex items-center justify-center sm:justify-start gap-6 py-2 sm:py-0 sm:px-8 text-stone-500 border-t sm:border-t-0 sm:border-l border-stone-200 sm:border-stone-300 ml-0 sm:ml-4">
-                <a href={TEAM[0].socials?.linkedin} target="_blank" rel="noopener noreferrer" class="hover:text-emerald-700 transition-colors" aria-label="LinkedIn">
-                  <Icons name="linkedin" size={24} />
-                </a>
-                <a href={TEAM[0].socials?.instagram} target="_blank" rel="noopener noreferrer" class="hover:text-emerald-700 transition-colors" aria-label="Instagram">
-                  <Icons name="instagram" size={24} />
-                </a>
-              </div>
-            </div>
-          </div>
+    <div class="relative grid gap-12 lg:grid-cols-12 lg:items-center">
+      <div class="lg:col-span-7 space-y-6">
+        <div class="inline-flex items-center gap-2 rounded-full border border-emerald-200 dark:border-emerald-800/80 bg-emerald-50 dark:bg-emerald-950/60 px-4 py-1.5 text-xs font-bold text-emerald-800 dark:text-emerald-300">
+          <span class="inline-block h-2 w-2 rounded-full bg-emerald-600 dark:bg-emerald-400"></span>
+          <span>Independent Educational Resource</span>
         </div>
-      </div>
-    </div>
-
-    {/* The Healing Process */}
-    <div class="max-w-7xl mx-auto px-6 py-12">
-      <SectionHeading subtitle="Success Path" title="The Healing Process" />
-      <div class="grid md:grid-cols-4 gap-8">
-        {HOW_IT_WORKS.map((item, i) => (
-          <div class="relative bg-white p-10 rounded-[32px] shadow-lg shadow-emerald-900/5 border border-stone-100 hover:shadow-2xl hover:border-emerald-100 transition-all group overflow-hidden">
-            <svg aria-hidden="true" class="absolute top-0 right-0 w-32 h-24 -mr-4 -mt-4 group-hover:scale-110 transition-transform select-none pointer-events-none" viewBox="0 0 100 80">
-              <text x="100" y="70" text-anchor="end" font-size="72" font-weight="900" fill="none" stroke="rgba(4, 120, 87, 0.1)" stroke-width="1.5">0{i+1}</text>
-            </svg>
-            <div class="relative z-10 w-16 h-16 bg-emerald-50 rounded-2xl flex items-center justify-center text-emerald-600 mb-8 group-hover:bg-emerald-600 group-hover:text-white transition-all duration-500">
-              {item.icon === 'Search' && <Icons name="search" size={32} />}
-              {item.icon === 'FileText' && <Icons name="file-text" size={32} />}
-              {item.icon === 'Leaf' && <Icons name="leaf" size={32} />}
-              {item.icon === 'Check' && <Icons name="check" size={32} />}
-            </div>
-            <h3 class="relative z-10 text-xl font-black text-emerald-950 mb-3 group-hover:text-emerald-700 transition-colors uppercase tracking-tight">{item.title}</h3>
-            <p class="relative z-10 text-stone-500 leading-relaxed text-sm">{item.desc}</p>
-          </div>
-        ))}
-      </div>
-    </div>
-
-    {/* Our Programs */}
-    <div class="bg-stone-50 py-24 text-emerald-950 relative overflow-hidden">
-      <div class="absolute top-0 left-0 w-full h-full opacity-5 pointer-events-none" aria-hidden="true">
-        <div class="absolute top-0 left-0 w-full h-full bg-[radial-gradient(#10b981_1px,transparent_1px)] [background-size:40px_40px]"></div>
-      </div>
-      <div class="max-w-7xl mx-auto px-6 relative z-10">
-        <SectionHeading subtitle="Clinical Care" title="Our Programs" isMain={false} />
-        <div class="grid md:grid-cols-3 gap-8">
-          {PLANS.map((p) => {
-            const iconName = p.id === 'plan-1' ? 'leaf' : p.id === 'plan-2' ? 'wand' : 'lock';
-            return (
-              <div class="bg-white rounded-[40px] shadow-xl border border-stone-100 hover:border-emerald-500 hover:shadow-2xl transition-all group p-10 flex flex-col h-full">
-                <div class="w-16 h-16 rounded-2xl bg-emerald-50 flex items-center justify-center text-emerald-600 mb-8 font-black">
-                  <Icons name={iconName} size={32} />
-                </div>
-                <span class="text-xs font-black uppercase tracking-widest text-emerald-800 mb-2 block">{p.idealFor}</span>
-                <h3 class="text-2xl font-black mb-4 brand-font text-emerald-950">{p.name}</h3>
-                <p class="text-stone-600 text-sm mb-8 leading-relaxed line-clamp-3 font-medium">{p.description}</p>
-                <a href="/plans" class="w-full py-4 rounded-2xl bg-emerald-900 font-bold uppercase tracking-widest text-xs hover:bg-emerald-800 transition-colors mt-auto flex items-center justify-center gap-3 text-center block">
-                  <span class="btn-cta-text-white flex items-center justify-center gap-3">
-                    View Protocol <Icons name="arrow-right" size={14} class="inline-block ml-1" />
-                  </span>
-                </a>
-              </div>
-            );
-          })}
-        </div>
-      </div>
-    </div>
-
-    {/* Clinical Diagnosis Hub */}
-    <div class="max-w-7xl mx-auto px-6 py-12 border-t border-stone-100">
-      <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 gap-6">
-        <div>
-          <span class="text-xs font-black text-emerald-800 uppercase tracking-[0.4em] mb-2 block">Protocol Library</span>
-          <h2 class="text-4xl md:text-5xl font-black text-emerald-950 brand-font tracking-tight">Clinical Diagnosis Hub</h2>
-        </div>
-        <a href="/knowledge/health-topics" class="bg-emerald-50 px-6 py-3 rounded-xl font-bold uppercase tracking-widest text-xs hover:bg-emerald-100 transition-all flex items-center justify-center">
-          <span class="btn-cta-text-dark">Explore All Diseases</span>
-        </a>
-      </div>
-      
-      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
-        {topicsData.slice(0, 12).map((topic) => (
-          <a href={`/topic/${topic.id}`} class="bg-white border border-stone-100 p-6 rounded-3xl hover:border-emerald-200 hover:shadow-xl transition-all cursor-pointer group flex flex-col h-full block">
-            <div class="w-10 h-10 rounded-xl bg-stone-50 flex items-center justify-center text-emerald-600 mb-4 group-hover:bg-emerald-600 group-hover:text-white transition-all">
-              <Icons name="flask" size={18} />
-            </div>
-            <h3 class="text-xs font-black text-emerald-950 uppercase tracking-tight leading-tight group-hover:text-emerald-700 transition-colors mb-2">{topic.title}</h3>
-            <p class="text-xs text-stone-600 font-bold uppercase tracking-widest mt-auto">{topic.category}</p>
+        
+        <h1 class="text-fluid-hero font-black text-emerald-950 dark:text-emerald-50 brand-font">
+          Understand food and nutrition with clearer context.
+        </h1>
+        
+        <p class="text-lg md:text-xl leading-relaxed text-stone-600 dark:text-stone-300 max-w-2xl">
+          NutritionColours provides evidence-grounded food guides, recipe collections, and transparent review-status records. All content is built to educate, not to replace care from a qualified healthcare professional.
+        </p>
+        
+        <div class="pt-2 flex flex-wrap items-center gap-4">
+          <a href="/foods" class="inline-flex items-center gap-2.5 rounded-xl bg-emerald-900 dark:bg-emerald-700 px-6 py-3.5 text-sm font-bold text-white shadow-md hover:bg-emerald-800 dark:hover:bg-emerald-800 hover:shadow-lg transition-all focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--focus-ring)]">
+            <span>Browse food guides</span>
+            <Icons name="arrow-right" size={16} />
           </a>
-        ))}
-      </div>
-    </div>
-
-    {/* Success Stories */}
-    <div class="max-w-7xl mx-auto px-6">
-      <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 gap-6">
-        <div>
-          <div class="flex items-center gap-2 mb-2">
-            <div class="w-8 h-px bg-emerald-500"></div>
-            <span class="text-emerald-800 font-black uppercase tracking-widest text-xs">Proof of Concept</span>
-          </div>
-          <h2 class="text-4xl md:text-5xl font-black text-emerald-950 brand-font mt-2">Life Transformed</h2>
+          <a href="/search" class="inline-flex items-center gap-2.5 rounded-xl border border-stone-300 dark:border-stone-700 bg-white dark:bg-stone-900 px-6 py-3.5 text-sm font-bold text-emerald-950 dark:text-emerald-200 hover:border-emerald-500 hover:bg-stone-50 dark:hover:bg-stone-800 transition-all">
+            <span>Search the library</span>
+            <Icons name="search" size={16} />
+          </a>
         </div>
-        <a href="/testimonials" class="px-8 py-3 bg-stone-100 rounded-xl font-bold uppercase tracking-widest text-xs hover:bg-emerald-50 hover:text-emerald-700 transition-all flex items-center justify-center">
-          <span class="btn-cta-text-dark">Read All Patient Success Stories</span>
-        </a>
       </div>
-      
-      <div class="hidden md:grid md:grid-cols-3 gap-8">
-        {TESTIMONIALS.map((t) => (
-          <div class="bg-white p-10 rounded-[32px] shadow-sm border border-stone-100 hover:shadow-xl transition-all relative">
-            <div aria-hidden="true" class="text-5xl text-emerald-100 font-serif absolute top-6 left-6 -z-0 opacity-50">&quot;</div>
-            <div class="relative z-10">
-              <p class="text-stone-600 italic leading-relaxed text-sm mb-8">&quot;{t.text}&quot;</p>
-              <div class="flex items-center gap-4">
-                <div class="w-12 h-12 rounded-full bg-emerald-50 flex items-center justify-center text-emerald-600 border border-emerald-100 shadow-sm">
-                  <Icons name="user" size={20} />
-                </div>
-                <div>
-                  <div class="font-bold text-emerald-950 text-sm">{t.name}</div>
-                  <span class="text-xs uppercase font-black text-emerald-800 tracking-widest">{t.condition}</span>
-                </div>
-              </div>
-            </div>
+
+      <!-- High-Trust Visual Synthesis Card -->
+      <div class="lg:col-span-5">
+        <div class="card-interactive rounded-3xl border border-stone-200/80 dark:border-stone-800 bg-white dark:bg-stone-900/90 p-7 shadow-xl space-y-5 transition-all">
+          <div class="flex items-center justify-between border-b border-stone-100 dark:border-stone-800 pb-4">
+            <span class="text-xs font-black uppercase tracking-wider text-emerald-700 dark:text-emerald-400">Editorial Standard</span>
+            <span class="inline-flex items-center gap-1.5 rounded-full bg-emerald-100/70 dark:bg-emerald-950 px-2.5 py-0.5 text-[11px] font-bold text-emerald-800 dark:text-emerald-300">
+              <span>● Active Verification</span>
+            </span>
           </div>
-        ))}
-      </div>
-      
-      {/* Mobile view fallback: CSS horizontal flex wrapper */}
-      <div class="flex gap-6 overflow-x-auto pb-6 md:hidden scrollbar-none snap-x snap-mandatory">
-        {TESTIMONIALS.map((t) => (
-          <div class="bg-white p-8 rounded-[32px] shadow-sm border border-stone-100 min-w-[280px] max-w-[320px] snap-center shrink-0">
-            <p class="text-stone-600 italic leading-relaxed text-sm mb-6 line-clamp-4">&quot;{t.text}&quot;</p>
-            <div class="flex items-center gap-4">
-              <div class="w-10 h-10 rounded-full bg-emerald-50 flex items-center justify-center text-emerald-600 border border-emerald-100">
-                <Icons name="user" size={16} />
-              </div>
+          
+          <div class="space-y-3.5 text-xs sm:text-sm">
+            <div class="flex items-start gap-3 rounded-xl bg-stone-50 dark:bg-stone-800/60 p-3.5">
+              <span class="text-emerald-600 dark:text-emerald-400 shrink-0 mt-0.5" aria-hidden="true">
+                <Icons name="check" size={16} />
+              </span>
               <div>
-                <div class="font-bold text-emerald-950 text-xs">{t.name}</div>
-                <span class="text-[9px] uppercase font-black text-emerald-800 tracking-widest">{t.condition}</span>
+                <strong class="text-stone-900 dark:text-stone-100 block">Evidence-Gated Claims</strong>
+                <span class="text-stone-600 dark:text-stone-400 text-xs">All claims cross-checked against peer-reviewed PubMed trials.</span>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3 rounded-xl bg-stone-50 dark:bg-stone-800/60 p-3.5">
+              <span class="text-emerald-600 dark:text-emerald-400 shrink-0 mt-0.5" aria-hidden="true">
+                <Icons name="check" size={16} />
+              </span>
+              <div>
+                <strong class="text-stone-900 dark:text-stone-100 block">No Commercial Endorsements</strong>
+                <span class="text-stone-600 dark:text-stone-400 text-xs">Zero sponsored rankings, miracle cure claims, or doorway spam.</span>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3 rounded-xl bg-stone-50 dark:bg-stone-800/60 p-3.5">
+              <span class="text-emerald-600 dark:text-emerald-400 shrink-0 mt-0.5" aria-hidden="true">
+                <Icons name="check" size={16} />
+              </span>
+              <div>
+                <strong class="text-stone-900 dark:text-stone-100 block">Online-Only Education</strong>
+                <span class="text-stone-600 dark:text-stone-400 text-xs">Transparent telehealth status without physical clinic misrepresentations.</span>
               </div>
             </div>
           </div>
-        ))}
-      </div>
-    </div>
 
-    {/* Clinical Recipes */}
-    <div class="max-w-7xl mx-auto px-6">
-      <div class="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 mb-8 mt-12">
-        <div>
-          <div class="flex items-center gap-2 mb-2">
-            <div class="w-8 h-px bg-emerald-500"></div>
-            <span class="text-xs font-black uppercase tracking-widest text-emerald-800">Kitchen Laboratory</span>
+          <div class="pt-2">
+            <a href="/legal/methodology" class="block w-full text-center rounded-xl border border-emerald-200 dark:border-emerald-800/60 bg-emerald-50/50 dark:bg-emerald-950/40 py-2.5 text-xs font-bold text-emerald-800 dark:text-emerald-300 hover:bg-emerald-100/50 dark:hover:bg-emerald-900/50 transition-colors">
+              Read our full methodology &rarr;
+            </a>
           </div>
-          <h2 class="text-3xl md:text-5xl font-black text-emerald-950 brand-font tracking-tight">Clinical Recipes</h2>
         </div>
-        <a href="/recipes" class="text-xs font-black text-emerald-800 border-b-2 border-emerald-200 pb-1 hover:border-emerald-500 transition-all">View All Healing Recipes</a>
       </div>
-      
-      <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        {RECIPES.slice(0, 4).map((recipe) => (
-          <a href={`/recipe/${recipe.id}`} class="group flex flex-col bg-white rounded-2xl p-6 border border-stone-100 hover:shadow-xl transition-all duration-300 text-left block">
-            <div>
-              <div class="flex justify-between items-start mb-3">
-                <span class="text-[10px] font-black text-emerald-800 uppercase tracking-widest">{recipe.category}</span>
-                <div class="flex gap-1">
-                  {recipe.tags.slice(0, 1).map((tag: string) => (
-                    <span class="text-[10px] font-bold text-stone-600 border border-stone-200 px-2 rounded-sm">{tag}</span>
-                  ))}
-                </div>
-              </div>
-              <h3 class="text-base font-black text-emerald-950 brand-font leading-tight group-hover:text-emerald-700 transition-colors uppercase tracking-tight line-clamp-2 mb-2">{recipe.title}</h3>
-              <div class="flex items-center gap-2 text-xs font-bold text-stone-600 uppercase tracking-widest">
-                <Icons name="utensils" size={12} class="text-emerald-500" />
-                <span>{recipe.prepTime}</span>
-              </div>
-            </div>
+    </div>
+  </section>
+
+  <!-- Categorized Library Grid -->
+  <section aria-labelledby="explore-heading" class="bg-stone-50/70 dark:bg-stone-950/60 border-y border-stone-200/80 dark:border-stone-800 py-20 transition-colors">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="max-w-2xl">
+        <p class="text-xs font-black uppercase tracking-[0.25em] text-emerald-700 dark:text-emerald-400">Library Sections</p>
+        <h2 id="explore-heading" class="mt-2 text-3xl sm:text-4xl font-black text-emerald-950 dark:text-emerald-50 brand-font">
+          Explore educational resources
+        </h2>
+        <p class="mt-3 text-stone-600 dark:text-stone-300 text-base">
+          Navigate verified food profiles, culinary recipe ideas, and transparent publishing policy documentation.
+        </p>
+      </div>
+
+      <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {sections.map((section) => (
+          <a
+            href={section.href}
+            class="card-interactive group rounded-3xl border border-stone-200/80 dark:border-stone-800 bg-white dark:bg-stone-900 p-7 shadow-sm hover:border-emerald-300 dark:hover:border-emerald-700 transition-all"
+          >
+            <span
+              class:list={[
+                'inline-flex h-12 w-12 items-center justify-center rounded-2xl group-hover:scale-110 transition-transform',
+                section.accent === 'status'
+                  ? 'bg-amber-50 dark:bg-amber-950/60 text-amber-700 dark:text-amber-300'
+                  : 'bg-emerald-50 dark:bg-emerald-950/80 text-emerald-700 dark:text-emerald-300',
+              ]}
+              aria-hidden="true"
+            >
+              <Icons name={section.icon} size={22} />
+            </span>
+            <h3 class="mt-5 text-xl font-black text-emerald-950 dark:text-emerald-100 group-hover:text-emerald-700 dark:group-hover:text-emerald-300 transition-colors">
+              {section.title}
+            </h3>
+            <p class="mt-2.5 text-sm leading-relaxed text-stone-600 dark:text-stone-300">
+              {section.text}
+            </p>
+            <span class="mt-4 inline-flex items-center gap-1.5 text-xs font-bold text-emerald-700 dark:text-emerald-400 group-hover:underline">
+              <span>Explore section</span>
+              <Icons name="arrow-right" size={12} class="group-hover:translate-x-0.5 transition-transform" />
+            </span>
           </a>
         ))}
       </div>
     </div>
+  </section>
 
-    {/* Core Plans Mini-CTA */}
-    <div class="max-w-7xl mx-auto px-6 py-20">
-      <div class="grid md:grid-cols-3 gap-6">
-        {BANNERS.map((banner) => (
-          <a href="/plans" class="group flex flex-col justify-center items-center text-center rounded-3xl bg-emerald-950 p-10 cursor-pointer shadow-sm hover:shadow-lg border border-white/5 transition-all duration-300 relative overflow-hidden block">
-            <div class="absolute inset-0 opacity-5 pointer-events-none bg-[radial-gradient(#10b981_1px,transparent_1px)] [background-size:20px_20px]" aria-hidden="true"></div>
-            <div class="relative z-10 w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-lime-400 mb-6 group-hover:bg-lime-400 group-hover:text-emerald-950 transition-all duration-500">
-              <Icons name="flask" size={24} />
-            </div>
-            <h3 class="relative z-10 text-xl font-black mb-2 text-white brand-font leading-tight">{banner.title}</h3>
-            <p class="relative z-10 text-emerald-400 text-[10px] uppercase tracking-widest font-black">{banner.subtitle}</p>
-          </a>
-        ))}
+  <!-- Clinical Safety & Patient Boundary Section -->
+  <section aria-labelledby="safety-heading" class="max-w-7xl mx-auto px-6 py-20">
+    <div class="card-interactive rounded-3xl border border-amber-300/80 dark:border-amber-700/80 bg-gradient-to-r from-amber-50 to-amber-100/40 dark:from-amber-950/30 dark:to-stone-900 p-8 md:p-10 max-w-4xl shadow-sm">
+      <div class="flex items-center gap-3">
+        <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-amber-200/80 dark:bg-amber-900/60 text-amber-900 dark:text-amber-200 border border-amber-300 dark:border-amber-700/80" aria-hidden="true">
+          <Icons name="alert-triangle" size={20} />
+        </span>
+        <h2 id="safety-heading" class="text-2xl font-black text-amber-950 dark:text-amber-100">
+          Use health information safely
+        </h2>
+      </div>
+      <p class="mt-4 leading-relaxed text-amber-950/90 dark:text-amber-200/90 text-sm sm:text-base">
+        Do not delay urgent clinical care, change prescription medications, or initiate treatment regimens based on this website. Always consult with a licensed medical practitioner for individual health concerns and diagnostics.
+      </p>
+      <div class="mt-6 flex flex-wrap items-center gap-4 text-xs sm:text-sm font-bold">
+        <a href="/legal/editorial-policy" class="text-amber-950 dark:text-amber-200 underline underline-offset-4 hover:text-amber-800 dark:hover:text-white">
+          Read our editorial safeguard policy &rarr;
+        </a>
+        <span class="text-amber-400 dark:text-amber-600" aria-hidden="true">•</span>
+        <a href="/services/online-nutrition" class="text-amber-950 dark:text-amber-200 underline underline-offset-4 hover:text-amber-800 dark:hover:text-white">
+          Review online service boundaries &rarr;
+        </a>
       </div>
     </div>
-
-    {/* Digital Tribe Social Links */}
-    <div class="max-w-7xl mx-auto px-6 pb-24">
-      <div class="text-center mb-12">
-        <span class="text-emerald-700 font-black uppercase tracking-[0.3em] text-xs">Global Community</span>
-        <h2 class="text-3xl md:text-5xl font-black text-emerald-950 brand-font mt-2">Join Our Digital Tribe</h2>
-        <p class="text-stone-500 max-w-2xl mx-auto mt-4 text-sm leading-relaxed">Clinical wisdom for everyone. Join over <strong>100,000+</strong> wellness seekers.</p>
-      </div>
-      
-      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
-        {[
-          { name: 'linkedin', bg: 'bg-[#005c8e]', label: 'LinkedIn' },
-          { name: 'facebook', bg: 'bg-[#165bb4]', label: 'Facebook' },
-          { name: 'instagram', bg: 'bg-gradient-to-tr from-[#96126d] via-[#b3143c] to-[#d66511]', label: 'Instagram' },
-          { name: 'youtube', bg: 'bg-[#c00000]', label: 'YouTube' },
-          { name: 'twitter', bg: 'bg-black', label: 'Twitter' },
-          { name: 'quora', bg: 'bg-[#96201c]', label: 'Quora' }
-        ].map((social) => (
-          <a href="/connect" class={`${social.bg} text-white p-8 rounded-[40px] shadow-lg group hover:scale-[1.05] transition-all duration-300 flex flex-col items-center justify-center gap-4 w-full text-center block`}>
-            <Icons name={social.name} size={32} class="group-hover:scale-110 transition-transform" />
-            <span class="text-[10px] font-black uppercase tracking-[0.2em]">{social.label}</span>
-          </a>
-        ))}
-      </div>
-    </div>
-
-    {/* FAQs Section */}
-    <SharedSections type="faq" faqData={HOME_FAQS} faqTitle="NutritionColours Basics" />
-  </div>
-
-  {/* Client animations handling for GSAP and Lenis setup */}
-  <script>
-    import gsap from 'gsap';
-    import { ScrollTrigger } from 'gsap/ScrollTrigger';
-    
-    gsap.registerPlugin(ScrollTrigger);
-
-    // Fade-in animations for section headings and titles
-    gsap.from('.gsap-reveal-fade', {
-      opacity: 0,
-      y: 30,
-      duration: 1,
-      stagger: 0.2,
-      ease: 'power2.out',
-      scrollTrigger: {
-        trigger: '.gsap-reveal-fade',
-        start: 'top 85%',
-        toggleActions: 'play none none none'
-      }
-    });
-
-    // Slide reveals
-    gsap.from('.gsap-reveal-slide', {
-      opacity: 0,
-      x: -50,
-      duration: 1.2,
-      ease: 'power3.out',
-      scrollTrigger: {
-        trigger: '.gsap-reveal-slide',
-        start: 'top 80%',
-        toggleActions: 'play none none none'
-      }
-    });
-  </script>
+  </section>
 </BaseLayout>

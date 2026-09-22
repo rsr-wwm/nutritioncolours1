@@ -11,8 +11,6 @@ seoKeywords: ["G6PD Deficiency"]
 
 # G6PD Deficiency
 
-![G6PD Deficiency](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Genetic enzyme lack.

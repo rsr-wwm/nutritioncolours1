@@ -11,8 +11,6 @@ seoKeywords: ["Leg Ulcers"]
 
 # Leg Ulcers
 
-![Leg Ulcers](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Sedentary lifestyle causes blood to pool in legs.

@@ -11,8 +11,6 @@ seoKeywords: ["Pancreatitis"]
 
 # Pancreatitis
 
-![Pancreatitis](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Alcohol/high triglycerides.

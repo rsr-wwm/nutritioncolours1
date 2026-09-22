@@ -11,8 +11,6 @@ seoKeywords: ["Acid Reflux"]
 
 # Acid Reflux
 
-![Acid Reflux](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Overeating/late meals weaken valve.

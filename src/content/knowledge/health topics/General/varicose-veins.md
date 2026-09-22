@@ -11,8 +11,6 @@ seoKeywords: ["Varicose Veins"]
 
 # Varicose Veins
 
-![Varicose Veins](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Standing too long; weak vein valves.

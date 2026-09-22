@@ -11,8 +11,6 @@ seoKeywords: ["ADHD"]
 
 # ADHD
 
-![ADHD](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Artificial dyes/sugar worsen swings.

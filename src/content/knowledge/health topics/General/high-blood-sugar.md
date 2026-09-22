@@ -11,8 +11,6 @@ seoKeywords: ["High Blood Sugar"]
 
 # High Blood Sugar
 
-![High Blood Sugar](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Fast carbs without fiber spike glucose.

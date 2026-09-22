@@ -11,8 +11,6 @@ seoKeywords: ["Gallstones"]
 
 # Gallstones
 
-![Gallstones](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Rapid weight loss dumps cholesterol.

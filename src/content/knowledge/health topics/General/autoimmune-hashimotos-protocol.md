@@ -11,8 +11,6 @@ seoKeywords: ["Hashimotos Thyroid Care"]
 
 # Hashimoto's Thyroid Care
 
-![Hashimoto's Thyroid Care](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Autoimmune attack on the thyroid gland, leading to hypothyroidism, weight gain, and fatigue.

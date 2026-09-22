@@ -11,8 +11,6 @@ seoKeywords: ["Liver Encephalopathy"]
 
 # Liver Encephalopathy
 
-![Liver Encephalopathy](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Failing liver lets ammonia reach brain.

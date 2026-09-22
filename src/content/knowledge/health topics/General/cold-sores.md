@@ -11,8 +11,6 @@ seoKeywords: ["Cold Sores"]
 
 # Cold Sores
 
-![Cold Sores](/images/nutritioncolours-default.svg)
-
 ## Problem
 
 Arginine foods + stress wake virus.
